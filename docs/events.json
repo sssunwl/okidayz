@@ -1104,21 +1104,6 @@
     "description": "暑熱漸退，但沖繩的夏天還會延續一個多月，海水依然溫暖清澈"
   },
   {
-    "name": "令和８年度 糸満大綱引",
-    "name_zh": "",
-    "date_start": "2026-09-06",
-    "date_end": "2026-09-25",
-    "url": "https://www.okinawastory.jp/event/600022974",
-    "source": "okinawastory",
-    "category": "",
-    "stars": 0,
-    "description": "",
-    "image": "https://www.city.itoman.lg.jp/uploaded/image/22711.jpg",
-    "location": "糸満ロータリー～白銀堂、糸満小学校グラウンド、県道256号 本部席前、各区公民館・広場 ・ 沖縄県糸満市糸満２３",
-    "price": "",
-    "official_url": "https://www.city.itoman.lg.jp/site/kankou-navi/31660.html"
-  },
-  {
     "name": "生命百景色 南條明 サンゴ展 2026サンゴ万年の願い〜サンゴ記憶の継承〜 in 石垣",
     "name_zh": "",
     "date_start": "2026-09-07",
@@ -1173,21 +1158,6 @@
     "location": "ビオスの丘 ・ 沖縄県うるま市石川嘉手苅９６１番地の３０",
     "price": "有料",
     "official_url": "https://www.bios-hill.co.jp/"
-  },
-  {
-    "name": "第7回アートフェスティバル  販売展示会＆演奏会",
-    "name_zh": "",
-    "date_start": "2026-09-09",
-    "date_end": "2026-09-13",
-    "url": "https://www.okinawastory.jp/event/600022905",
-    "source": "okinawastory",
-    "category": "",
-    "stars": 0,
-    "description": "",
-    "image": "https://www.okigei.ac.jp/wp-content/uploads/2026/08/opua-art-festival2026-01-1536x1085.jpg",
-    "location": "デパートリウボウ　6階イベントスペース ・ 沖縄県那覇市久茂地１丁目１−１",
-    "price": "",
-    "official_url": "https://www.okigei.ac.jp/experience/%e7%ac%ac7%e5%9b%9e%e3%82%a2%e3%83%bc%e3%83%88%e3%83%95%e3%82%a7%e3%82%b9%e3%83%86%e3%82%a3%e3%83%90%e3%83%ab.html"
   },
   {
     "name": "GOHAN展vol.5",
@@ -1248,21 +1218,6 @@
     "location": "WALL_okinawa ・ 沖縄県中頭郡読谷村瀬名波５７１−１",
     "price": "免費",
     "official_url": "https://avex.jp/wall/exhibition/881/"
-  },
-  {
-    "name": "カフェ工房×ふしぎラボ 「アガラサーふぅふぅケーキ」",
-    "name_zh": "",
-    "date_start": "2026-09-12",
-    "date_end": "2026-09-13",
-    "url": "https://www.okinawastory.jp/event/600023002",
-    "source": "okinawastory",
-    "category": "",
-    "stars": 0,
-    "description": "",
-    "image": "https://www.okzm.jp/cms/wp-content/uploads/2026/09/20260902_134005-scaled.jpg",
-    "location": "沖縄こどもの国　ワンダーミュージアム　地下1階　ふしぎラボ ・ 沖縄県沖縄市胡屋5-7-1",
-    "price": "有料",
-    "official_url": "https://www.okzm.jp/event/5217/"
   },
   {
     "name": "デンファレ寄せ植え体験",
@@ -2505,6 +2460,36 @@
     "category": "節氣",
     "stars": 3,
     "description": "北國進入積雪時節，沖繩白天仍常在 20°C 左右，早晚記得加件外套"
+  },
+  {
+    "name": "第4回ゴールデンルート沖縄美ら海ウルトラウォーキング２０２6",
+    "name_zh": "",
+    "date_start": "2026-12-12",
+    "date_end": "2026-12-13",
+    "url": "https://www.okinawastory.jp/event/600022456",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "",
+    "location": "２１世紀の森公園　イベントドーム（第2球場 海側）、那覇市　沖縄県庁前　県民広場 ・ 沖縄県名護市宮里２丁目１",
+    "price": "有料",
+    "official_url": "https://www.actrep-sports.com/okinawa-ultrawalking/"
+  },
+  {
+    "name": "沖縄国際ウインドサーフィン選手権",
+    "name_zh": "",
+    "date_start": "2026-12-12",
+    "date_end": "2026-12-13",
+    "url": "https://www.okinawastory.jp/event/600022429",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "",
+    "location": "恩納村ムーンビーチ ・ 沖縄県国頭郡恩納村前兼久",
+    "price": "",
+    "official_url": "https://onebeach.jp/events/630655/"
   },
   {
     "name": "今天是 🍋 冬至",
