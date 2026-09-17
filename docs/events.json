@@ -1115,21 +1115,6 @@
     "description": "菊花節，古人以菊花酒延年益壽，沖繩的泡盛正傳承著這份長壽哲學"
   },
   {
-    "name": "水牛背乗り体験｜沖縄で楽しむ期間限定の特別体験｜ビオスの丘",
-    "name_zh": "",
-    "date_start": "2026-09-10",
-    "date_end": "2026-09-30",
-    "url": "https://www.okinawastory.jp/event/600022998",
-    "source": "okinawastory",
-    "category": "",
-    "stars": 0,
-    "description": "",
-    "image": "https://s3.ap-northeast-1.amazonaws.com/jp.nnear.upload/1788857078403_水牛背乗り.png",
-    "location": "ビオスの丘 ・ 沖縄県うるま市石川嘉手苅９６１番地の３０",
-    "price": "有料",
-    "official_url": "https://www.bios-hill.co.jp/"
-  },
-  {
     "name": "【FRIDAY MUSIC NIGHT Supported by KACHIMBA】",
     "name_zh": "",
     "date_start": "2026-09-11",
@@ -1235,6 +1220,21 @@
     "official_url": "https://www.bios-hill.co.jp/18572/"
   },
   {
+    "name": "福富貴弘 陶展",
+    "name_zh": "",
+    "date_start": "2026-09-15",
+    "date_end": "2026-09-21",
+    "url": "https://www.okinawastory.jp/event/600023048",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://ryubo.jp/wp-content/uploads/2026/09/fukutomi-1300jpg.jpg",
+    "location": "デパートリウボウ　2F ryubo art gallery ・ 沖縄県那覇市久茂地1-1-1",
+    "price": "",
+    "official_url": "https://ryubo.jp/fukutomi-takahiro-exhibition2609/"
+  },
+  {
     "name": "茜色のトワイライトから満天の星へ「うつろい絶景ディナー」",
     "name_zh": "",
     "date_start": "2026-09-15",
@@ -1293,6 +1293,21 @@
     "location": "多良間村 ・ 沖縄県宮古郡多良間村",
     "price": "",
     "official_url": "https://www.vill.tarama.okinawa.jp/kankou/event/hachigatsuodori/"
+  },
+  {
+    "name": "歴史を学ぶ体験型平和学習「デジタルクイズラリー」",
+    "name_zh": "",
+    "date_start": "2026-09-19",
+    "date_end": "2026-09-23",
+    "url": "https://www.okinawastory.jp/event/600023037",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://s3.ap-northeast-1.amazonaws.com/jp.nnear.upload/1789349852938_【告知チラシ】旧海軍司令部壕「デジタルクイズラリー」.jpg",
+    "location": "旧海軍司令部壕 ・ 沖縄県豊見城市豊見城２３６",
+    "price": "免費",
+    "official_url": "https://kaigungou.ocvb.or.jp/2026/09/04/3931/"
   },
   {
     "name": "海洋博美ら海オータムスペシャル2026　ふわふわボールあそび",
@@ -1576,6 +1591,21 @@
     "description": "沖繩是世界知名的長壽之島，秘訣是泡盛少量飲、苦瓜天天吃、心情不著急"
   },
   {
+    "name": "ハナサキ サンセットマルシェ",
+    "name_zh": "",
+    "date_start": "2026-09-20",
+    "date_end": "2026-09-22",
+    "url": "https://www.okinawastory.jp/event/600023032",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://s3.ap-northeast-1.amazonaws.com/jp.nnear.upload/1788941737940_2026.HNS_SWイベントチラシOL.jpg",
+    "location": "オキナワ ハナサキマルシェ Hanasaki Marche ・ 沖縄県国頭郡本部町山川１４２１−５",
+    "price": "免費",
+    "official_url": "https://hanasaki-marche.com/topics/detail.php?id=181"
+  },
+  {
     "name": "おきみゅーシネマラボ 沖縄映画の現在形と未来地図",
     "name_zh": "",
     "date_start": "2026-09-20",
@@ -1718,6 +1748,51 @@
     "description": "新米上市的季節，沖繩有自己的泡盛與島燒酎文化，值得比較細品"
   },
   {
+    "name": "【Restaurant】HALLOWEEN APEROL SPRITZ ハロウィン・アペロール・スプリッツ",
+    "name_zh": "",
+    "date_start": "2026-10-01",
+    "date_end": "2026-10-31",
+    "url": "https://www.okinawastory.jp/event/600023042",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://twin-line-hotel-yanbaru.jp/wp/wp-content/uploads/2026/09/036_5146-1024x683.jpg",
+    "location": "TWIN-LINE HOTEL YANBARU OKINAWA JAPAN　RYUKYU YANBARU DINING SESSION ・ 沖縄県名護市幸喜１０８",
+    "price": "有料",
+    "official_url": "https://twin-line-hotel-yanbaru.jp/post-1879/"
+  },
+  {
+    "name": "CHURAUMI SUPRUN2026",
+    "name_zh": "",
+    "date_start": "2026-10-02",
+    "date_end": "2026-10-04",
+    "url": "https://www.okinawastory.jp/event/600023054",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://scontent-nrt1-2.xx.fbcdn.net/v/t39.30808-6/800993666_1093852526354878_361906633750085196_n.jpg?stp=dst-jpg_tt6&cstp=mx1810x1777&ctp=p526x296&_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=mUQSfHOEho4Q7kNvwHd-CO6&_nc_oc=AdoC0q9RblU3zldOdaYqjRo3LU-38RSXBCQImrGCCsRgcoB5i-cEvSbUenI_J1FPAhE&_nc_zt=23&_nc_ht=scontent-nrt1-2.xx&_nc_gid=kqmSUs4bYwd7ldormoUNYw&_nc_ss=7a2a8&oh=00_AQLPhEK6deJBf43XC6-UisdSQB97NjO5ci-vLsOWv1216g&oe=6AAFB586",
+    "location": "豊崎海浜公園 美らSUNビーチ南浜 ・ 沖縄県豊見城市豊崎５−１",
+    "price": "",
+    "official_url": "https://www.facebook.com/profile.php?id=100071904231099"
+  },
+  {
+    "name": "令和8年度「八重山の産業まつり」出店者およびステージ出演者募集",
+    "name_zh": "",
+    "date_start": "2026-10-03",
+    "date_end": "2026-10-04",
+    "url": "https://www.okinawastory.jp/event/600023061",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "",
+    "location": "石垣市中央運動公園 総合体育館メインアリーナ ・ 沖縄県石垣市登野城１４０９",
+    "price": "",
+    "official_url": "https://i-syokokai.or.jp/notice/post-4998/"
+  },
+  {
     "name": "第46回野國總管まつり",
     "name_zh": "",
     "date_start": "2026-10-03",
@@ -1845,6 +1920,21 @@
     "description": "10-10音似「銭湯」，泡完溫泉仰望沖繩秋夜星空，是絕佳的放空體驗"
   },
   {
+    "name": "第56回 那覇大綱挽まつり RBC市民フェスティバル",
+    "name_zh": "",
+    "date_start": "2026-10-10",
+    "date_end": "2026-10-12",
+    "url": "https://www.okinawastory.jp/event/600023051",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://www.rbc.co.jp/wordpress/wp-content/uploads/2026HPトップ.webp",
+    "location": "奥武山公園 ・ 沖縄県那覇市奥武山町５２",
+    "price": "",
+    "official_url": "https://www.rbc.co.jp/event/event_information/nahamatsuri2026/"
+  },
+  {
     "name": "海洋博美ら海オータムスペシャル2026　もとぶの食と文化フェスタin海洋博公園",
     "name_zh": "",
     "date_start": "2026-10-10",
@@ -1875,6 +1965,36 @@
     "official_url": "https://www.city.uruma.lg.jp/3001005000/contents/p000035.html"
   },
   {
+    "name": "「記録が語る沖縄展」―戦後の歩みから考える私たちの社会― Records Tell the Story of Okinawa–Reflecting on Our Society through Okinawa’s Postwar History",
+    "name_zh": "",
+    "date_start": "2026-10-15",
+    "date_end": "2027-09-26",
+    "url": "https://www.okinawastory.jp/event/600023049",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://www.archives.pref.okinawa.jp/wp-content/uploads/%E5%AE%8C%E6%88%90%E7%89%88_%E8%A8%98%E9%8C%B2%E3%81%A8%E6%B2%96%E7%B8%84%E8%A1%A8.jpg",
+    "location": "沖縄県公文書館展示室 ・ 沖縄県島尻郡南風原町新川148−3",
+    "price": "免費",
+    "official_url": "https://www.archives.pref.okinawa.jp/event_information/exhibition_course/154319"
+  },
+  {
+    "name": "現代版組踊「肝高の阿麻和利」～秋公演～",
+    "name_zh": "",
+    "date_start": "2026-10-16",
+    "date_end": "2026-10-17",
+    "url": "https://www.okinawastory.jp/event/600023040",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://s3.ap-northeast-1.amazonaws.com/jp.nnear.upload/1789458907206_秋公演(15).png",
+    "location": "うるま市きむたかホール ・ 沖縄県うるま市勝連平安名３０７１",
+    "price": "有料",
+    "official_url": "https://www.amawari.com/%E5%85%AC%E6%BC%94%E6%83%85%E5%A0%B1/2026-%E8%82%9D%E9%AB%98%E3%81%AE%E9%98%BF%E9%BA%BB%E5%92%8C%E5%88%A9-2026%E7%A7%8B%E5%85%AC%E6%BC%94/"
+  },
+  {
     "name": "ALOHAISAI 2026年",
     "name_zh": "ALOHAISAI將於2026年舉行",
     "date_start": "2026-10-16",
@@ -1903,6 +2023,21 @@
     "location": "Orion ECO Chura Sun 海灘",
     "price": "免費",
     "official_url": "https://www-city-tomigusuku-lg-jp.translate.goog/soshiki/1/1005/gyomuannai/3/3/9819.html?_x_tr_sl=auto&_x_tr_tl=zh-TW&_x_tr_hl=ja"
+  },
+  {
+    "name": "ちゅらコス in 沖縄こどもの国 Vol.3（主催：ちゅらコス）",
+    "name_zh": "",
+    "date_start": "2026-10-17",
+    "date_end": "2026-10-18",
+    "url": "https://www.okinawastory.jp/event/600023047",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://www.okzm.jp/cms/wp-content/uploads/2026/09/ちゅらコスin沖縄こどもの国vol03-1-scaled.jpg",
+    "location": "沖縄こどもの国　水とみどりの広場 ・ 沖縄県沖縄市胡屋5-7-1",
+    "price": "有料",
+    "official_url": "https://www.okzm.jp/event/5258/"
   },
   {
     "name": "「第40回とみぐすく祭り・第11回とみぐすく産業フェスタ」について",
@@ -1950,6 +2085,21 @@
     "official_url": "https://www.vill.yomitan.okinawa.jp/kanko_bunka_sports/event/matsuri/7174.html"
   },
   {
+    "name": "兼島拓也×栗山民也新作「終わりの代わりに」",
+    "name_zh": "",
+    "date_start": "2026-10-23",
+    "date_end": "2026-10-25",
+    "url": "https://www.okinawastory.jp/event/600023059",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://www.nahart.jp/userfiles/images/2026jisyukyosai/2610_owarinokawarini07.jpg",
+    "location": "那覇文化芸術劇場なはーと　小劇場 ・ 沖縄県那覇市久茂地３丁目２６−２７",
+    "price": "有料",
+    "official_url": "https://www.nahart.jp/stage/owarinokawarini/"
+  },
+  {
     "name": "第32回伊平屋ムーンライトマラソン",
     "name_zh": "第32屆伊平屋月光馬拉松",
     "date_start": "2026-10-23",
@@ -1989,6 +2139,21 @@
     "category": "文化",
     "stars": 3,
     "description": "國際通り萬聖節遊行是沖繩秋季新興慶典，各式造型扮裝吸引大批人潮"
+  },
+  {
+    "name": "沖縄の工芸が集う2日間  〜 Pottery Festival in Gala Aoiumi 〜  『第21回 読谷やちむんと工芸市』",
+    "name_zh": "",
+    "date_start": "2026-10-31",
+    "date_end": "2026-11-01",
+    "url": "https://www.okinawastory.jp/event/600023069",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "",
+    "location": "Gala青い海 ・ 沖縄県中頭郡読谷村高志保915番地",
+    "price": "免費",
+    "official_url": "https://www.instagram.com/p/Dcus3lalP_h/?img_index=1"
   },
   {
     "name": "マブイオト17",
@@ -2075,6 +2240,21 @@
     "category": "文化",
     "stars": 4,
     "description": "首里城一帶常有文化活動，能近距離認識琉球王朝的服飾與藝能"
+  },
+  {
+    "name": "なはーとジャズジャズマンス　沖縄ジャズ×アジア　関連イベント",
+    "name_zh": "",
+    "date_start": "2026-11-06",
+    "date_end": "2026-11-28",
+    "url": "https://www.okinawastory.jp/event/600023067",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://www.nahart.jp/userfiles/images/2026jisyukyosai/2611jazzkari.jpg",
+    "location": "那覇文化芸術劇場なはーと　小スタジオ，ロビー ・ 沖縄県那覇市久茂地3-26-27",
+    "price": "",
+    "official_url": "https://www.nahart.jp/course/nahartjazz/"
   },
   {
     "name": "「第15回中城護佐丸まつり」",
@@ -2221,6 +2401,21 @@
     "category": "沖繩",
     "stars": 5,
     "description": "多家酒造會在泡盛活動齊聚，適合一次認識不同產地與古酒"
+  },
+  {
+    "name": "竹富島 種子祭",
+    "name_zh": "",
+    "date_start": "2026-11-12",
+    "date_end": "2026-11-13",
+    "url": "https://www.okinawastory.jp/event/600023066",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "",
+    "location": "世持御嶽 ・ 沖縄県八重山郡竹富町竹富",
+    "price": "",
+    "official_url": "https://painusima.com/events/event/%e7%ab%b9%e5%af%8c%e5%b3%b6-%e7%a8%ae%e5%ad%90%e7%a5%ad/"
   },
   {
     "name": "第55回沖縄県芸術文化祭 開催決定！",
