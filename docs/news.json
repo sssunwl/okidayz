@@ -1,21 +1,174 @@
 [
   {
-    "date": "2026-09-17",
+    "date": "2026-09-18",
     "source": "氣象庁警報",
-    "title": "沖繩本島地區氣象警報・注意報",
-    "summary": "沖繩本島地區在29日中午前，需注意突如其來的強降雨與雷擊。",
+    "title": "沖繩本島地方氣象警報・注意報",
+    "summary": "沖繩本島地方截至29日中午前需留意突如其來的強降雨與雷擊。",
     "category": "天氣警報",
     "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=471000&lang=ja",
     "alert": true
   },
   {
-    "date": "2026-09-17",
+    "date": "2026-09-18",
     "source": "氣象庁警報",
-    "title": "大東島地區氣象警報與注意報",
-    "summary": "大東島地區請注意突如其來的強降雨與雷擊。原文僅提醒民眾提高警覺，未提及其他影響。",
+    "title": "大東島地區氣象警報、注意報",
+    "summary": "大東島地區需注意突發強降雨與雷擊。",
     "category": "天氣警報",
     "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=472000&lang=ja",
     "alert": true
+  },
+  {
+    "date": "2026-09-18",
+    "source": "沖縄タイムス",
+    "title": "記者座談：古謝玄太知事選的品牌策略",
+    "summary": "文章回顧古謝玄太以42萬票以上勝選的沖繩縣知事選。內容提到他在2025年成立兩個懇談團體，並與沖繩經濟界人士建立人脈。",
+    "category": "全國",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1925047",
+    "alert": false
+  },
+  {
+    "date": "2026-09-18",
+    "source": "沖縄タイムス",
+    "title": "琉球太陽皇家酒店將翻新 2028年春開新飯店",
+    "summary": "東京的不動產開發公司科倫比亞・工作斯取得那霸市東町的琉球太陽皇家酒店，預計於2028年春天開設新飯店。業者表示將在保留部分既有建築外觀的前提下進行翻新。",
+    "category": "觀光",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1926559",
+    "alert": false
+  },
+  {
+    "date": "2026-09-18",
+    "source": "沖縄タイムス",
+    "title": "沖繩知事當選古謝氏家人學校接獲爆破預告",
+    "summary": "沖繩知事選初當選的古謝玄太氏，其子女就讀的學校接獲爆破預告。縣警已掌握此事並調查中，古謝氏表示非常困擾，盼對方停止。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1926676",
+    "alert": false
+  },
+  {
+    "date": "2026-09-18",
+    "source": "沖縄タイムス",
+    "title": "高市改造內閣公布　沖繩振興與安保成焦點",
+    "summary": "第二次高市改造內閣中，沖繩基地負擔減輕等相關閣員多數留任。原沖繩擔當相更換為前法相葉梨康弘，並兼任六項職務。",
+    "category": "全國",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1926654",
+    "alert": false
+  },
+  {
+    "date": "2026-09-18",
+    "source": "沖縄タイムス",
+    "title": "葉梨康弘再任新任沖繩擔當相",
+    "summary": "第2次高市改造內閣17日經皇居認證式後正式上路。高市首相留任8人以維持政權骨幹，並任命葉梨康弘擔任沖繩擔當相。",
+    "category": "全國",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1926422",
+    "alert": false
+  },
+  {
+    "date": "2026-09-18",
+    "source": "沖縄タイムス",
+    "title": "自衛隊3人因猥褻與竊盜遭懲戒",
+    "summary": "航空自衛隊與陸上自衛隊在16、17日共對3名隊員作出懲戒處分。那霸基地一名空自尉官因不同意猥褻遭停職4個月。",
+    "category": "全國",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1926425",
+    "alert": false
+  },
+  {
+    "date": "2026-09-18",
+    "source": "沖縄タイムス",
+    "title": "舊南洋群島慰靈團自那霸出發",
+    "summary": "悼念太平洋戰爭時在舊南洋群島犧牲的沖繩縣出身者，「南洋群島・慰靈與交流之旅」參加者17日自那霸機場出發。參加者為16至94歲的遺族等，含途中會合共28人。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1926686",
+    "alert": false
+  },
+  {
+    "date": "2026-09-18",
+    "source": "沖縄タイムス",
+    "title": "石川文洋逾2萬張沖繩照片底片捐贈縣公文書館",
+    "summary": "8月去世的那霸市出身報導攝影家石川文洋，其拍攝的沖繩相關照片底片逾2萬點捐贈給縣公文書館。這批資料拍攝於回歸前至約2010年，成為石川相關收藏中規模最大的資料群。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1926672",
+    "alert": false
+  },
+  {
+    "date": "2026-09-18",
+    "source": "沖縄タイムス",
+    "title": "沖繩本島等地18日至19日大致晴朗",
+    "summary": "沖繩本島、宮古島、八重山與大東島地區18日至19日受高氣壓影響，預計大致晴朗。部分地區可能有陣雨，18日局部地區可能伴隨雷擊。",
+    "category": "天氣警報",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1926730",
+    "alert": false
+  },
+  {
+    "date": "2026-09-18",
+    "source": "沖縄タイムス",
+    "title": "［大弦小弦］空中的「喝」",
+    "summary": "文中提到大谷翔平的二刀流曾引發異議，也提及他因對奧運女子拳擊選手失言而遭批評。即使言談偶有爭議，其發言背後仍帶有情感，並因個性而受到親近感。",
+    "category": "全國",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1926652",
+    "alert": false
+  },
+  {
+    "date": "2026-09-18",
+    "source": "沖縄タイムス",
+    "title": "社論：高市改造內閣　應傾聽異議",
+    "summary": "高市早苗首相進行內閣改造，第2次改造內閣中，19名閣員有10人更替，初次入閣者為7人。自民黨派閥金流醜聞中受處分的2名議員也入閣，日本維新會前幹事長中司宏則出任規制改革擔當相。",
+    "category": "全國",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1926582",
+    "alert": false
+  },
+  {
+    "date": "2026-09-18",
+    "source": "沖縄タイムス",
+    "title": "失語症患者練習寫自己名字　展開復健",
+    "summary": "患者在入院約一個半月後，從那霸市立醫院轉到豐見城中央醫院，之後開始本格復健。每天清晨6時起床後先做自主訓練，反覆練習用漢字書寫自己的名字。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1926638",
+    "alert": false
+  },
+  {
+    "date": "2026-09-18",
+    "source": "沖縄タイムス",
+    "title": "球陽選手奪女子400公尺冠軍　破30年大會紀錄",
+    "summary": "沖繩縣高校新人體育大會17日在縣綜合運動公園陸上競技場舉行田徑首日賽事。女子400公尺決賽由球陽的ジャクソン・レイン幸榎以55秒96奪冠，並刷新30年未改寫的大會紀錄。",
+    "category": "全國",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1926619",
+    "alert": false
+  },
+  {
+    "date": "2026-09-18",
+    "source": "沖縄タイムス",
+    "title": "牡丹社事件犧牲者追思　宮古訪問團赴台祈福",
+    "summary": "宮古島市的浜川綾子等10人於4日至8日前往台灣，悼念1871年牡丹社事件中遇難的琉球王國相關人員。訪問團也進行台式慰靈祭，並盼望持續深化民間交流。",
+    "category": "觀光",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1926575",
+    "alert": false
+  },
+  {
+    "date": "2026-09-18",
+    "source": "沖縄タイムス",
+    "title": "國頭村試驗導入EF聚合物防赤土流失",
+    "summary": "國頭村、漁協、縣環境科學中心、琉球大學與EF聚合物等5團體，展開防止農地赤土流入海域的實證計畫。將利用100%天然來源的吸水性聚合物，抑制降雨時的土砂流出，預定明年4月導入農地。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1926558",
+    "alert": false
+  },
+  {
+    "date": "2026-09-18",
+    "source": "氣象庁警報",
+    "title": "宮古島地區氣象警報・注意報",
+    "summary": "解除注意報。",
+    "category": "天氣警報",
+    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=473000&lang=ja",
+    "alert": false
+  },
+  {
+    "date": "2026-09-18",
+    "source": "氣象庁警報",
+    "title": "八重山地區氣象警報・注意報",
+    "summary": "解除注意報。",
+    "category": "天氣警報",
+    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=474000&lang=ja",
+    "alert": false
   },
   {
     "date": "2026-09-17",
@@ -150,24 +303,6 @@
     "summary": "農業新創公司在沖繩推動草莓通年栽培，透過環境控制技術克服草莓喜冷、過去多限於冬季種植的限制。業者並以出口與技術提供為目標。",
     "category": "生活",
     "url": "http://www.okinawatimes.co.jp/articles/-/1925736",
-    "alert": false
-  },
-  {
-    "date": "2026-09-17",
-    "source": "氣象庁警報",
-    "title": "宮古島地區氣象警報・注意報解除",
-    "summary": "宮古島地區的注意報已解除。",
-    "category": "天氣警報",
-    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=473000&lang=ja",
-    "alert": false
-  },
-  {
-    "date": "2026-09-17",
-    "source": "氣象庁警報",
-    "title": "八重山地區氣象警報・注意報",
-    "summary": "八重山地區的注意報已解除。",
-    "category": "天氣警報",
-    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=474000&lang=ja",
     "alert": false
   },
   {
@@ -573,141 +708,6 @@
     "summary": "世界經濟論壇旗下、由30歲以下年輕人組成的國際社群沖繩據點，8月29日在糸滿市主辦「Youth Voice Lab vol.3」。活動以把日常遇到的困擾轉化為政策提案的工作坊形式進行。",
     "category": "生活",
     "url": "http://www.okinawatimes.co.jp/articles/-/1923099",
-    "alert": false
-  },
-  {
-    "date": "2026-09-13",
-    "source": "沖縄タイムス",
-    "title": "【致歉更正】名護市議候選人照片誤刊",
-    "summary": "9月13日刊登並於網站發布的「市議會議員選舉　候選人」名單中，名護市議候選人屋良里穂的照片誤植。報導已致歉，並改為刊登正確照片。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1922924",
-    "alert": false
-  },
-  {
-    "date": "2026-09-13",
-    "source": "沖縄タイムス",
-    "title": "沖繩縣知事選最後訴求",
-    "summary": "沖繩縣知事選進入最後一天，古謝玄太與玉城デニー各自在那霸市內舉行打上式，向支持者與聽眾發表最後訴求。兩人都在選戰收尾階段呼籲民眾支持。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1922854",
-    "alert": false
-  },
-  {
-    "date": "2026-09-13",
-    "source": "沖縄タイムス",
-    "title": "沖繩知事選打氣造勢　雙方呼籲支持",
-    "summary": "沖繩知事選最後一天，新人古謝玄太與現任玉城デ尼在那霸市各自舉行打氣造勢，呼籲民眾支持。報導也提到，選前社群媒體上曾擴散誹謗中傷與錯誤資訊。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1922814",
-    "alert": false
-  },
-  {
-    "date": "2026-09-13",
-    "source": "沖縄タイムス",
-    "title": "沖繩縣知事選前檢視政策　候選人回答14大領域",
-    "summary": "第15屆沖繩縣知事選將於13日投開票，共有6人參選。選戰聚焦美軍基地、公共交通網與兒童貧困對策等議題，沖繩時報並在告示前對候選人進行14項主要政策問卷。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1922743",
-    "alert": false
-  },
-  {
-    "date": "2026-09-13",
-    "source": "沖縄タイムス",
-    "title": "沖繩本島等地13至14日天氣預報",
-    "summary": "沖繩本島地方目前受高氣壓影響以晴天為主，但有局部驟雨。13日午後起轉多雲，夜間可能一度降雨並伴隨雷。14日受氣壓谷影響，預計多雲或有雨，部分地區可能打雷。",
-    "category": "天氣警報",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1922907",
-    "alert": false
-  },
-  {
-    "date": "2026-09-13",
-    "source": "沖縄タイムス",
-    "title": "《白麵包與獨裁者》：少年支撐崩壞的母親",
-    "summary": "文章介紹電影《白麵包與獨裁者》，描述一名在崇拜希特勒的母親撫養下長大的少年，目睹母親的信仰隨德國戰敗而崩解。文中也提到，納粹支持者可能被切斷了獨立思考的機會。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1921483",
-    "alert": false
-  },
-  {
-    "date": "2026-09-13",
-    "source": "沖縄タイムス",
-    "title": "沖繩統一地方選今日投開票",
-    "summary": "沖繩統一地方選於13日進行投開票，包含本部、伊是名、大宜味3町村長選舉，以及23個市町村議員選舉。議員選舉共有394人參選、總定數323席，預計14日凌晨前後大勢可明朗。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1922825",
-    "alert": false
-  },
-  {
-    "date": "2026-09-13",
-    "source": "沖縄タイムス",
-    "title": "沖繩縣知事選舉與地方選開票速報",
-    "summary": "沖繩時報社將於13日晚間在特設網站直播沖繩縣知事選與統一地方選的開票速報。知事選部分也會從兩處選舉事務所同時直播，並即時更新各候選人在全縣與各市町村的得票數。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1922902",
-    "alert": false
-  },
-  {
-    "date": "2026-09-13",
-    "source": "沖縄タイムス",
-    "title": "沖繩縣知事選舉今天投開票",
-    "summary": "任期屆滿的第15屆沖繩縣知事選於13日投開票。新人古謝玄太與現任玉城デニー12日在那霸市內舉行最後造勢活動。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1922824",
-    "alert": false
-  },
-  {
-    "date": "2026-09-13",
-    "source": "沖縄タイムス",
-    "title": "沖繩縣知事選舉出口調查今晚速報",
-    "summary": "沖繩縣知事選舉於今天投開票，將對已投票選民進行出口調查。調查結果預定在晚間8時後於網站速報。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1922181",
-    "alert": false
-  },
-  {
-    "date": "2026-09-13",
-    "source": "沖縄タイムス",
-    "title": "［社説］知事選今日投開票　投下未來一票",
-    "summary": "沖繩縣知事選舉於今天進行投開票。社論呼籲選民投下能表達對未來方向意志的一票。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1922779",
-    "alert": false
-  },
-  {
-    "date": "2026-09-13",
-    "source": "沖縄タイムス",
-    "title": "沖繩太陽碼頭體育館成區域經濟核心",
-    "summary": "位於沖繩市的沖繩太陽碼頭體育館，不僅是觀賽和演唱會場地，也逐漸成為支撐地區經濟的重要交流據點。自2021年開業以來，累計入場人數已超過218萬人。",
-    "category": "觀光",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1922874",
-    "alert": false
-  },
-  {
-    "date": "2026-09-13",
-    "source": "沖縄タイムス",
-    "title": "喜友名大里龍鳳館奪少年少女選拔空手冠軍",
-    "summary": "第5屆縣少年少女選拔大會12日在縣立武道館開幕。團體形決賽中，男子由喜友名大里龍鳳館奪冠，女子由金城山內龍鳳館奪冠，兩隊並取得明年2月全日本選拔賽參賽權。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1922803",
-    "alert": false
-  },
-  {
-    "date": "2026-09-13",
-    "source": "沖縄タイムス",
-    "title": "第76屆縣秋季棒球大會開幕 宮古大勝",
-    "summary": "第76屆沖繩縣秋季高校棒球大會12日開幕，59校50隊爭奪九州大會2個名額。首日6場比賽在宜野灣等地進行，宮古、糸滿、豐見城、八重山、那霸、讀谷晉級。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1922791",
-    "alert": false
-  },
-  {
-    "date": "2026-09-13",
-    "source": "沖縄タイムス",
-    "title": "米軍攻擊與洞窟毒氣回憶　南城市知念周次郎談戰爭體驗",
-    "summary": "1940年出生於舊玉城村糸數的知念周次郎，回憶童年時曾與當地日本兵接觸。日本兵常警告孩子們不要成為美軍俘虜，並提到可能遭到殘酷對待；母親也曾持有手榴彈並小心保存。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1922762",
     "alert": false
   }
 ]
