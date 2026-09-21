@@ -1,29 +1,182 @@
 [
   {
-    "date": "2026-09-20",
-    "source": "沖縄タイムス",
-    "title": "海中道路車禍　帕拉田徑獎牌得主重傷",
-    "summary": "19日上午，於宇流麻市縣道10號海中道路，一輛輕型貨車追撞正在練習的競技輪椅男子。男子為55歲、居住沖繩市的上與那原寬和，因腦挫傷與頸椎骨折陷入昏迷重症。",
-    "category": "交通",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928089",
-    "alert": true
-  },
-  {
-    "date": "2026-09-20",
+    "date": "2026-09-21",
     "source": "氣象庁警報",
-    "title": "沖繩本島地區氣象警報與注意報",
+    "title": "沖繩本島地區氣象警報・注意報",
     "summary": "沖繩本島地區在29日中午前，需注意突如其來的強降雨與雷擊。",
     "category": "天氣警報",
     "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=471000&lang=ja",
     "alert": true
   },
   {
-    "date": "2026-09-20",
+    "date": "2026-09-21",
     "source": "氣象庁警報",
-    "title": "大東島地區氣象警報與注意報",
-    "summary": "大東島地區需留意突發強降雨與雷擊。請提高警覺，注意天候變化。",
+    "title": "大東島地區氣象警報・注意報",
+    "summary": "大東島地區需注意突如其來的強降雨與雷擊。請留意天氣變化並提高警覺。",
     "category": "天氣警報",
     "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=472000&lang=ja",
+    "alert": true
+  },
+  {
+    "date": "2026-09-21",
+    "source": "沖縄タイムス",
+    "title": "情報戰與認知戰擴散 專家解析對立煽動目的",
+    "summary": "全球各地出現被稱為「情報戰」與「認知戰」的活動。除了社群媒體上的假訊息外，煽動人們對立的動向也越來越明顯，專家並說明其目的與因應方式。",
+    "category": "全國",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928607",
+    "alert": false
+  },
+  {
+    "date": "2026-09-21",
+    "source": "沖縄タイムス",
+    "title": "沖繩天氣預報：9月21日至22日多為晴朗",
+    "summary": "沖繩本島目前受高氣壓影響，天氣晴朗但部分地區有短暫陣雨。21日至22日各地大致可望維持晴天，21日仍可能局部降雨。",
+    "category": "天氣警報",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928582",
+    "alert": false
+  },
+  {
+    "date": "2026-09-21",
+    "source": "沖縄タイムス",
+    "title": "社論：生活支援待機者增加 籲建構老後支援體制",
+    "summary": "各地社會福祉協議會承辦的「日常生活自立支援事業」利用待機者，在2025年度合計達3931人。因人手不足等因素，申請後久未面談或面談後久未簽約的人數較前年度約增加1.4倍。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928463",
+    "alert": false
+  },
+  {
+    "date": "2026-09-21",
+    "source": "沖縄タイムス",
+    "title": "菲律賓遺留二世賀數亞德萊達盼年內訪沖",
+    "summary": "戰前移居菲律賓的沖繩男子與當地女性所生的賀數亞德萊達さん（90），在太平洋戰爭混亂中留在當地。她表示希望年內首次到沖繩，想見父親的親屬並找到父親的墓前往祭拜。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928549",
+    "alert": false
+  },
+  {
+    "date": "2026-09-21",
+    "source": "沖縄タイムス",
+    "title": "名護奪高校橄欖球市長杯六連霸",
+    "summary": "第52屆名護市長杯高中組決賽，名護以36比21擊敗讀谷奪冠。這是名護在疫情期間停賽後，達成六連霸。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928508",
+    "alert": false
+  },
+  {
+    "date": "2026-09-21",
+    "source": "沖縄タイムス",
+    "title": "2026知事選：那霸陣營整合與市長選影響受關注",
+    "summary": "沖繩知事選前，縣內政局出現流動，部分經濟界人士轉向支持玉城丹尼。報導也提到，經濟界雖曾是古謝玄太勝選的推力，但已有「離反」動向，並牽動那霸市長選等後續布局。",
+    "category": "全國",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928496",
+    "alert": false
+  },
+  {
+    "date": "2026-09-21",
+    "source": "沖縄タイムス",
+    "title": "81歲風帆好手：任何年紀都想待在海上",
+    "summary": "豐見城市81歲的垣花義孝已玩風帆40年以上。報導描述他靠腿力、腹肌與核心在板上保持平衡，熟練操控約10公斤的帆迎風前進。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928477",
+    "alert": false
+  },
+  {
+    "date": "2026-09-21",
+    "source": "沖縄タイムス",
+    "title": "學生採訪企業招募負責人　沖繩時報實習生參與",
+    "summary": "參加沖繩時報實習的學生，對各企業的採用負責人進行了訪問。來自縣內外大學的4名學生，以學生視角提出問題。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928460",
+    "alert": false
+  },
+  {
+    "date": "2026-09-21",
+    "source": "沖縄タイムス",
+    "title": "浦添78歲長者用AI與YouTube推廣詩吟",
+    "summary": "住在浦添市的與儀昌彥（78歲）開設部落格，並透過YouTube影片分享自己喜愛的詩吟魅力。網站建置過程中活用生成AI，並在孫子們協助下製作影片內容。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928452",
+    "alert": false
+  },
+  {
+    "date": "2026-09-21",
+    "source": "沖縄タイムス",
+    "title": "暗夜山道的恐懼：沖繩各地的「魔物坡」",
+    "summary": "文章介紹沖繩各地被稱為「マジムン坂」或「ばーきー坂」的坡道。這些昔日山道多石、雨天泥濘，夜晚更是一片漆黑，令人感到害怕。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928448",
+    "alert": false
+  },
+  {
+    "date": "2026-09-21",
+    "source": "沖縄タイムス",
+    "title": "琉球藍研究所以獨家技術追求更深藍色",
+    "summary": "琉球藍研究所以獨自技術，高濃度抽出琉球藍染料，打造更深藍色的藍染產品。該所從栽培、染料抽取到製品製造皆一貫處理。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928439",
+    "alert": false
+  },
+  {
+    "date": "2026-09-21",
+    "source": "沖縄タイムス",
+    "title": "新里・渡慶次組奪男子A冠軍",
+    "summary": "沖繩市雙打羽球大賽中，新里・渡慶次組在男子A組奪冠。這則報導主要是賽事結果，未提及對旅客的影響。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928435",
+    "alert": false
+  },
+  {
+    "date": "2026-09-21",
+    "source": "沖縄タイムス",
+    "title": "縣博舉辦山城見信展　27日辦座談活動",
+    "summary": "沖繩縣立博物館・美術館19日起舉辦已故畫家山城見信的展覽，展出其從初期到晚年的49件作品，並搭配草圖與筆記。展期至明年3月28日，當日一般票價400日圓。",
+    "category": "觀光",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928422",
+    "alert": false
+  },
+  {
+    "date": "2026-09-21",
+    "source": "沖縄タイムス",
+    "title": "今日賽程｜大相撲秋場所",
+    "summary": "這是沖繩時報紙面刊載的「今日的對戰」與大相撲秋場所相關記事。原文未提供具體比賽內容與影響資訊。",
+    "category": "全國",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928536",
+    "alert": false
+  },
+  {
+    "date": "2026-09-21",
+    "source": "沖縄タイムス",
+    "title": "宮里阿晉級新人王全日本代表戰",
+    "summary": "2026年度職業拳擊新人王錦標賽西部日本與中部日本對抗戰於20日在福岡舉行。宜野灣市出身的宮里阿連以第1回合2分50秒TKO擊敗對手，晉級代表戰。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928529",
+    "alert": false
+  },
+  {
+    "date": "2026-09-21",
+    "source": "氣象庁警報",
+    "title": "宮古島地區氣象警報、注意報解除",
+    "summary": "宮古島地區的注意報已解除。",
+    "category": "天氣警報",
+    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=473000&lang=ja",
+    "alert": false
+  },
+  {
+    "date": "2026-09-21",
+    "source": "氣象庁警報",
+    "title": "八重山地方氣象警報與注意報解除",
+    "summary": "八重山地區的注意報已解除。",
+    "category": "天氣警報",
+    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=474000&lang=ja",
+    "alert": false
+  },
+  {
+    "date": "2026-09-20",
+    "source": "沖縄タイムス",
+    "title": "海中道路車禍　帕拉田徑獎牌得主重傷",
+    "summary": "19日上午，於宇流麻市縣道10號海中道路，一輛輕型貨車追撞正在練習的競技輪椅男子。男子為55歲、居住沖繩市的上與那原寬和，因腦挫傷與頸椎骨折陷入昏迷重症。",
+    "category": "交通",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928089",
     "alert": true
   },
   {
@@ -150,24 +303,6 @@
     "summary": "讀谷村出身的池原盛憲回憶，1944年日本軍進入讀谷村後，學校被徵用，原本平靜的校園生活轉為戰時體制。1945年空襲加劇，學校停課並轉移到山中，孩子們在老師指示下進行戰爭模擬。",
     "category": "生活",
     "url": "http://www.okinawatimes.co.jp/articles/-/1927949",
-    "alert": false
-  },
-  {
-    "date": "2026-09-20",
-    "source": "氣象庁警報",
-    "title": "宮古島地區氣象警報・注意報解除",
-    "summary": "宮古島地區的氣象注意報已解除。",
-    "category": "天氣警報",
-    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=473000&lang=ja",
-    "alert": false
-  },
-  {
-    "date": "2026-09-20",
-    "source": "氣象庁警報",
-    "title": "八重山地區氣象警報・注意報解除",
-    "summary": "八重山地區的注意報已解除。",
-    "category": "天氣警報",
-    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=474000&lang=ja",
     "alert": false
   },
   {
@@ -573,141 +708,6 @@
     "summary": "農業新創公司在沖繩推動草莓通年栽培，透過環境控制技術克服草莓喜冷、過去多限於冬季種植的限制。業者並以出口與技術提供為目標。",
     "category": "生活",
     "url": "http://www.okinawatimes.co.jp/articles/-/1925736",
-    "alert": false
-  },
-  {
-    "date": "2026-09-16",
-    "source": "沖縄タイムス",
-    "title": "東京地裁命令揭露邊野古翻覆事故假圖發文者資訊",
-    "summary": "沖繩名護市邊野古海域翻覆事故相關，船隻運航團體表示，東京地方法院已裁定要求公開在社群媒體散播假圖片、涉及誹謗與毀損名譽的發文者資訊。團體於15日在官網公布此事。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1924873",
-    "alert": false
-  },
-  {
-    "date": "2026-09-16",
-    "source": "沖縄タイムス",
-    "title": "那霸－福岡線就航70週年　那霸機場辦紀念活動",
-    "summary": "日本航空與日本越洋航空15日在那霸機場舉辦那霸－福岡線就航70週年紀念儀式。現場以三線演奏送客，並發放紀念品；當天飛往福岡的班機共有158人搭乘，幾乎客滿。",
-    "category": "交通",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1924815",
-    "alert": false
-  },
-  {
-    "date": "2026-09-16",
-    "source": "沖縄タイムス",
-    "title": "沖繩縣議會議長中川京貴擬退任 島袋大接任最有力",
-    "summary": "據關係人士透露，沖繩縣議會議長中川京貴已決定退任。自民、無所屬會派內有任期約兩年輪替的慣例，後任以島袋大最被看好。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1924854",
-    "alert": false
-  },
-  {
-    "date": "2026-09-16",
-    "source": "沖縄タイムス",
-    "title": "北谷町住宅地與商業地地價漲幅居首",
-    "summary": "沖繩縣地價調查顯示，北谷町在住宅地與商業地的地價上升率都居首。除了海濱的美浜地區，內陸高地也有土地需求，幾乎全區地價都在上升。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1924811",
-    "alert": false
-  },
-  {
-    "date": "2026-09-16",
-    "source": "沖縄タイムス",
-    "title": "邊野古事故影響投票　沖繩知事選受訪者多支持古謝氏",
-    "summary": "沖繩知事選投票日調查顯示，名護市邊野古外海的船隻翻覆事故被部分選民認為影響了投票。受訪的50人中有18人表示受此影響，其中多數投給古謝玄太氏，也有人不認同玉城知事的事故後應對。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1924872",
-    "alert": false
-  },
-  {
-    "date": "2026-09-16",
-    "source": "沖縄タイムス",
-    "title": "沖繩知事選相關貼文約3.9萬件",
-    "summary": "媒體使用SNS分析工具，統計在沖繩知事選投開票日前1個月內，X上含有「沖繩」「知事選」「邊野古」「事故」等關鍵字的貼文，共計3萬8890件。這些貼文多集中在選戰後期的3天。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1924971",
-    "alert": false
-  },
-  {
-    "date": "2026-09-16",
-    "source": "沖縄タイムス",
-    "title": "普天間機場遭住民盼望關閉撤除",
-    "summary": "宜野灣市民在普天間飛行場附近生活，對新知事提出期待與不安。報導提到，居民最真切的願望是普天間機場早日關閉並撤除。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1924890",
-    "alert": false
-  },
-  {
-    "date": "2026-09-16",
-    "source": "沖縄タイムス",
-    "title": "石垣市殺父案　30多歲兒子獲不起訴",
-    "summary": "石垣市公寓內5月發生的70多歲男子遭殺害案，遭逮捕送辦的30多歲兒子被那霸地檢於15日處分不起訴。地檢表示，已從6月起進行鑑定留置，並綜合精神鑑定結果等作出判斷。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1924734",
-    "alert": false
-  },
-  {
-    "date": "2026-09-16",
-    "source": "沖縄タイムス",
-    "title": "玉城丹尼人氣下滑，知事選態勢吃緊",
-    "summary": "報導指出，距離沖繩知事選告示剩一個月時，玉城丹尼陣營內部對選舉宣傳內容表達不滿。文章提到其人氣衰退、主打政見難以聚焦，且支援人力也在減少。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1924852",
-    "alert": false
-  },
-  {
-    "date": "2026-09-16",
-    "source": "沖縄タイムス",
-    "title": "［大弦小弦］如何傳達戰爭記憶",
-    "summary": "隨著戰爭體驗者愈來愈少，如何將戰爭傳給後代成為重要課題。文章提到漫畫《佩里琉－樂園的格爾尼卡－》作者武田一義，以作品面對這個問題。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1924870",
-    "alert": false
-  },
-  {
-    "date": "2026-09-16",
-    "source": "沖縄タイムス",
-    "title": "西原町工地誘導警衛遭車輛擦撞後逃逸",
-    "summary": "15日下午2時左右，西原町幸地縣道上，一名正在引導工程車輛的20多歲保全員遭車輛碰撞後跌倒，胸部挫傷等輕傷。警方表示，疑似為輕型乘用車的駕駛未救護、未通報便離開現場，正在調查。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1924733",
-    "alert": false
-  },
-  {
-    "date": "2026-09-16",
-    "source": "沖縄タイムス",
-    "title": "電影《佩里琉－樂園的格爾尼卡》9/27那霸上映",
-    "summary": "赤十字國際委員會與沖繩時報社將於27日下午2時，在那霸市內的 Times Hall 放映電影《佩里琉－樂園的格爾尼卡》。作品描寫太平洋戰爭末期在佩里琉島作戰的年輕日本兵。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1924763",
-    "alert": false
-  },
-  {
-    "date": "2026-09-16",
-    "source": "沖縄タイムス",
-    "title": "沖繩基準地價上漲5.8%，連13年攀升",
-    "summary": "沖繩縣公布2026年地價調查結果，7月1日時點的基準地價在全用途（不含林地）上漲5.8%，連續13年上升。住宅地與商業地需求穩定，與觀光相關產業景氣良好有關。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1924868",
-    "alert": false
-  },
-  {
-    "date": "2026-09-16",
-    "source": "沖縄タイムス",
-    "title": "本想零開票當選卻失算　德尼人氣下滑",
-    "summary": "報導指出，原本以為可「零開票」勝選的陣營，在知事選告示後第5天得知選情陷入膠著。選對相關人士在緊急會議中面對德尼人氣下滑的現實。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1924867",
-    "alert": false
-  },
-  {
-    "date": "2026-09-16",
-    "source": "沖縄タイムス",
-    "title": "古謝氏要求重啟沖繩政策協議會",
-    "summary": "新當選的沖繩縣知事古謝玄太於15日在自民黨本部與高市首相等黨幹部會面。會中他要求明確美軍普天間飛行場返還期限，並重啟討論基地負擔減輕與振興策的「沖繩政策協議會」。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1924866",
     "alert": false
   }
 ]
