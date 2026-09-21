@@ -1,6 +1,6 @@
 # 派工單：OkiDayz 正式上線（L 系列）
 
-> 品牌 2026-09-21 定案由 OkinawaSundays 改名 **OkiDayz**，正式網域 `okidayz.com`（L1b 處理改名）。
+> 品牌 2026-09-21 定案由 OkinawaSundays 改名 **OkiDayz**，正式網域 `okidayz.com`（改名已完成，見 L1b）。
 
 > 2026-09-21 Claude 起草，實作給 Codex。每張工單都可以單獨做；**請照編號順序，一張做完、build 過、Claude 審過再做下一張**。
 > 全部工單都要遵守 `AGENTS.md`（品牌規則、`docs/` 不手改、外部文字要 escape、不在前端放 API key）。
@@ -21,6 +21,8 @@
 4. 4 條爬蟲 workflow 改成只 commit `data/`，然後觸發 deploy（`workflow_run` 或在同一條 job 裡直接 deploy，選一個並說明原因）。
 5. 前端有直接 fetch `docs/*.json` 的地方（例如 `rates.json`），build 時要把 json 複製到產物資料夾，確保路徑不變。
 
+6. **過期活動頁**：現在 build 不會清掉已結束活動的舊頁面，`docs/events/` 裡累積了 114 個孤兒頁（不在 sitemap 裡，內容還是舊品牌名）。改成每次都從零產生之後，這些頁會自然消失。請在回報裡列出消失的頁數。
+
 **驗收**：本機 `python3 build.py` 產出完整站；`git status` 看不到任何產物檔；手動觸發 deploy 之後，線上站跟改之前一樣。
 
 ---
@@ -36,7 +38,9 @@
 
 ---
 
-## L1b｜品牌改名 OkinawaSundays → OkiDayz
+## L1b｜品牌改名 OkinawaSundays → OkiDayz（✅ 2026-09-21 Claude 已完成，Codex 跳過這張）
+
+> 原始碼已全部改成 OkiDayz。Codex 只需要確認：logo 圖（`mark-*.png`）上有沒有舊名的字，有的話列出來回報。
 
 - 對外品牌一律寫作 `OkiDayz`（大小寫固定：O、D 大寫，結尾是 z 不是 s），**不加中文副名**。
 - 要改的地方（`grep -rn OkinawaSundays . --exclude-dir=docs --exclude-dir=.git`）：`build.py`（10 處）、`templates/base.html`（5 處，含 og:site_name）、`assets/site.js`、`news_crawler.py`、`AGENTS.md`、`README.md`。
