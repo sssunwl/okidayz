@@ -295,6 +295,7 @@ body.drawer-lock{overflow:hidden}
 footer{background:var(--navy);color:#fff;padding:52px 0 100px}
 .footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:50px}
 .footer-brand p{max-width:400px;color:#a9cad1;font-size:.85rem}
+footer .brand-copy small{color:#79d9e6}
 .footer-col strong{display:block;color:var(--lagoon);font-size:.72rem;letter-spacing:.12em;margin-bottom:13px}
 .footer-col a{display:block;text-decoration:none;color:#e5f4f6;margin:7px 0;font-size:.85rem}
 .footer-col a:hover{color:var(--sun)}
@@ -309,7 +310,7 @@ footer{background:var(--navy);color:#fff;padding:52px 0 100px}
   .community-card{grid-template-columns:1fr}.community-action{justify-content:flex-start}
 }
 @media(max-width:720px){
-  .shell{width:min(100% - 28px,var(--max))}.nav{height:68px}.brand-copy small{display:none}
+  .shell{width:min(100% - 28px,var(--max))}.nav{height:68px}.brand-copy small{margin-top:4px;font-size:.6rem;letter-spacing:.08em}
   .hero{padding:42px 0 56px}.hero h1{font-size:clamp(3.2rem,15vw,5rem)}.hero-lead{font-size:.95rem}
   .quick-search{box-shadow:6px 7px 0 var(--sun)}.quick-search button{padding:11px 13px}
   .hero-visual{min-height:410px}.feature-card{inset:12px 9px auto 5px;min-height:325px;padding:25px;box-shadow:12px 14px 0 var(--lagoon)}
