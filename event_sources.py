@@ -253,9 +253,41 @@ def parse_goyah_dates(text, posted):
     return None, None
 
 
+def _goyah_posts_from_feed():
+    """REST API 在 GitHub Actions 的 IP 會被擋 403,退回讀 RSS(最新幾篇、含全文)。"""
+    posts = []
+    for page in (1, 2, 3):
+        try:
+            res = requests.get("https://goyah.net/feed", params={"paged": page} if page > 1 else None,
+                               headers=HEADERS, timeout=25)
+            res.raise_for_status()
+        except Exception as e:
+            if page == 1:
+                print(f"⚠️ goyah RSS 失敗：{e}")
+            break
+        soup = BeautifulSoup(res.content, "xml")
+        for item in soup.find_all("item"):
+            try:
+                posted = datetime.strptime(item.pubDate.text.strip()[5:16], "%d %b %Y")
+            except Exception:
+                continue
+            body = item.find("encoded")
+            desc = item.find("description")
+            posts.append({
+                "date": _to_iso(posted),
+                "link": item.link.text.strip() if item.link else "",
+                "title": {"rendered": item.title.text if item.title else ""},
+                "excerpt": {"rendered": desc.text if desc else ""},
+                "content": {"rendered": body.text if body else ""},
+            })
+        time.sleep(0.5)
+    return posts
+
+
 def get_goyah_events(now=None, pages=2):
     now = now or datetime.now()
     events = []
+    batches = []
     for page in range(1, pages + 1):
         try:
             res = requests.get(GOYAH_API, headers=HEADERS, timeout=25, params={
@@ -265,10 +297,14 @@ def get_goyah_events(now=None, pages=2):
             if res.status_code == 400:
                 break
             res.raise_for_status()
-            posts = res.json()
+            batches.append(res.json())
         except Exception as e:
-            print(f"⚠️ goyah page {page} 失敗：{e}")
+            print(f"⚠️ goyah API page {page} 失敗：{e}")
             break
+        time.sleep(0.5)
+    if not batches:
+        batches = [_goyah_posts_from_feed()]
+    for posts in batches:
         for post in posts:
             try:
                 posted = datetime.strptime(post["date"][:10], "%Y-%m-%d")
@@ -290,7 +326,6 @@ def get_goyah_events(now=None, pages=2):
                 location=place,
                 description=_plain(post.get("excerpt", {}).get("rendered", "")).replace("[…]", "").strip()[:200],
             ))
-        time.sleep(0.5)
     events = [e for e in events if e["name"] and e["url"] and not _NOT_EVENT.search(e["name"])]
     print(f"✅ goyah: {len(events)} 筆")
     return events
