@@ -18,8 +18,11 @@
   }
   function displayName(event) { return event.name_zh || event.name || '未命名活動'; }
   function sourceName(event) {
-    if (event.source === 'today_is') return 'OKIP 文化日';
+    if (event.source === 'today_is') return 'OkiDayz 文化日';
     if (event.source === 'okinawastory') return 'おきなわ物語';
+    if (event.source === 'okimeguri') return 'おきめぐり（沖繩縣）';
+    if (event.source === 'jalan') return 'じゃらんnet';
+    if (event.source === 'goyah') return 'ごーやーどっとネット';
     return 'Visit Okinawa';
   }
   function planItem(event) {

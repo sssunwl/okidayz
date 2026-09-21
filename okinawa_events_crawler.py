@@ -7,6 +7,9 @@ import re
 import time
 
 from build import build_site
+from event_sources import (
+    WINDOW_DAYS, get_okimeguri_events, get_jalan_events, get_goyah_events, dedupe_across_sources,
+)
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
@@ -118,6 +121,10 @@ def to_iso(dt):
 # ── 翻譯 ─────────────────────────────────────────────────────────────
 
 def translate_ja_zh(text):
+    # Google 會把「令和８年」翻成「2020年」,先自己換成西元
+    text = re.sub(r"令和\s*([0-9０-９]+)\s*年",
+                  lambda m: f"{2018 + int(m.group(1).translate(str.maketrans('０１２３４５６７８９', '0123456789')))}年",
+                  text)
     try:
         resp = requests.get(
             "https://translate.googleapis.com/translate_a/single",
@@ -345,7 +352,7 @@ def get_visitokinawa_events(existing_by_url=None):
     url = "https://visitokinawajapan.com/zh-hant/discover/events/"
     events = []
     now = datetime.now()
-    upper = now + timedelta(days=90)
+    upper = now + timedelta(days=WINDOW_DAYS)
     seen_urls = set()
 
     try:
@@ -442,7 +449,7 @@ def get_okinawastory_events(existing_by_url=None, translate_cache=None):
                 continue
             if start_dt < now - timedelta(days=7):
                 continue
-            if start_dt > now + timedelta(days=90):
+            if start_dt > now + timedelta(days=WINDOW_DAYS):
                 continue
             link = base + href
             event = {
@@ -478,10 +485,17 @@ def merge(lists):
     return merged
 
 
+JA_SOURCES = {"okinawastory", "okimeguri", "jalan", "goyah"}
+
+
 def apply_translations(events, cache):
     for e in events:
-        if e["source"] == "okinawastory" and not e["name_zh"]:
-            e["name_zh"] = cache.get(e["url"], "") or translate_ja_zh(e["name"])
+        if e["source"] in JA_SOURCES and not e["name_zh"]:
+            cached = cache.get(e["url"], "")
+            if not cached:
+                cached = translate_ja_zh(e["name"])
+                time.sleep(0.1)
+            e["name_zh"] = cached
 
 
 # ── 網頁生成 ──────────────────────────────────────────────────────────
@@ -490,17 +504,91 @@ def apply_translations(events, cache):
 
 # ── Telegram ──────────────────────────────────────────────────────────
 
-def fmt_tg(e):
+SOURCE_TAGS = {
+    "visitokinawa": "VisitOkinawa", "okinawastory": "おきなわ物語", "okimeguri": "縣官方",
+    "jalan": "じゃらん", "goyah": "ごーやー",
+}
+
+
+def _md_safe(text):
+    """TG Markdown 遇到 [ ] _ * ` 會整則失敗,先換掉。"""
+    text = str(text).replace("[", "「").replace("]", "」")
+    return re.sub(r"[_*`]", " ", text).strip()
+
+
+def fmt_date_range(e):
     dt  = datetime.strptime(e["date_start"], "%Y-%m-%d")
     end = datetime.strptime(e["date_end"], "%Y-%m-%d") if e.get("date_end") else dt
-    wd  = WEEKDAYS[dt.weekday()]
-    date_str = f"{dt.month}/{dt.day}({wd})"
-    if e["date_start"] != e.get("date_end", e["date_start"]):
-        date_str += f"～{end.month}/{end.day}"
-    zh = e.get("name_zh") or e["name"]
-    if e.get("url"):
-        return f"📅 {date_str} [{zh}]({e['url']})\n"
-    return f"📅 {date_str} {zh}\n"
+    date_str = f"{dt.month}/{dt.day}({WEEKDAYS_SHORT[dt.weekday()]})"
+    if end != dt:
+        date_str += f"～{end.month}/{end.day}" if end.year == dt.year else f"～{end.year}/{end.month}/{end.day}"
+    return date_str
+
+
+def fmt_tg(e, with_area=False):
+    date_str = fmt_date_range(e)
+    zh = _md_safe(e.get("name_zh") or e["name"])
+    if len(zh) > 40:
+        zh = zh[:39] + "…"
+    # 官網優先;但有些官網網址是一長串編碼,訊息會爆長,那種就改用來源頁
+    official, source_url = e.get("official_url") or "", e.get("url") or ""
+    link = official if official and (len(official) <= 90 or not source_url) else source_url
+    area = f" · {_md_safe(e['area'])}" if with_area and e.get("area") else ""
+    if link:
+        return f"📅 {date_str} [{zh}]({link}){area}\n"
+    return f"📅 {date_str} {zh}{area}\n"
+
+
+def build_weekly_digest(events, today_is, now, days=60):
+    """未來 N 天的活動日程,按週分段;跨 14 天以上的長期活動另外收在最後。"""
+    today = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    horizon = today + timedelta(days=days)
+
+    def start_of(e):
+        return datetime.strptime(e["date_start"], "%Y-%m-%d")
+
+    def span(e):
+        return (datetime.strptime(e["date_end"], "%Y-%m-%d") - start_of(e)).days
+
+    window = [e for e in events if today <= start_of(e) <= horizon]
+    short = [e for e in window if span(e) < 14]
+    long_run = [e for e in window if span(e) >= 14]
+    specials = [e for e in today_is if today <= start_of(e) <= horizon]
+
+    lines = [f"🗓️ 沖繩未來 {days} 天活動日程（{today.month}/{today.day}～{horizon.month}/{horizon.day}，共 {len(window)} 個）", ""]
+    week_start = today - timedelta(days=today.weekday())
+    while week_start <= horizon:
+        week_end = week_start + timedelta(days=6)
+        in_week = sorted((e for e in short if week_start <= start_of(e) <= week_end),
+                         key=lambda e: e["date_start"])
+        sp = [e for e in specials if week_start <= start_of(e) <= week_end]
+        if in_week or sp:
+            lines.append(f"**▍{week_start.month}/{week_start.day}～{week_end.month}/{week_end.day}**")
+            for e in sp:
+                lines.append(f"🌟 {fmt_date_range(e)} {_md_safe(e['name_zh'])}")
+            for e in in_week:
+                lines.append(fmt_tg(e, with_area=True).rstrip("\n"))
+            lines.append("")
+        week_start += timedelta(days=7)
+    if long_run:
+        lines.append("**▍期間較長的展覽／活動**")
+        for e in sorted(long_run, key=lambda e: e["date_start"]):
+            lines.append(fmt_tg(e, with_area=True).rstrip("\n"))
+    return "\n".join(lines)
+
+
+def build_new_events_digest(new_events):
+    """每天的新上架活動,按月份分組。"""
+    lines = [f"🆕 新上架活動（{len(new_events)} 個，半年內）", ""]
+    month = None
+    for e in sorted(new_events, key=lambda e: e["date_start"]):
+        m = e["date_start"][:7]
+        if m != month:
+            month = m
+            lines.append(f"**▍{int(m[5:])} 月**")
+        tag = SOURCE_TAGS.get(e["source"], e["source"])
+        lines.append(fmt_tg(e, with_area=True).rstrip("\n") + f"（{tag}）")
+    return "\n".join(lines)
 
 
 def send_telegram(text):
@@ -540,20 +628,30 @@ def _post(api_url, text):
 
 # ── seen_events ───────────────────────────────────────────────────────
 
+# 第一次接上的來源不逐筆通知(否則一次灌幾百則),先靜默收進 seen
+LEGACY_SOURCES = ["visitokinawa", "okinawastory"]
+
+
 def load_seen():
     if os.path.exists(SEEN_FILE):
         with open(SEEN_FILE, "r", encoding="utf-8") as f:
-            return set(json.load(f).get("seen", []))
-    return set()
+            data = json.load(f)
+        return set(data.get("seen", [])), set(data.get("sources", LEGACY_SOURCES))
+    return set(), set()
 
 
-def save_seen(urls):
+def save_seen(urls, sources):
     with open(SEEN_FILE, "w", encoding="utf-8") as f:
         json.dump(
             {"seen": sorted(u for u in urls if u and u.startswith("http")),
+             "sources": sorted(sources),
              "updated": datetime.now().isoformat()},
             f, ensure_ascii=False, indent=2
         )
+
+
+def jst_now():
+    return datetime.utcnow() + timedelta(hours=9)
 
 
 # ── 主程式 ────────────────────────────────────────────────────────────
@@ -585,16 +683,29 @@ def main():
             existing_by_url = {e["url"]: e for e in json.load(f) if e.get("url")}
 
     today_is   = get_today_is_events()
-    scraped    = merge([
+    raw_scraped = merge([
         get_visitokinawa_events(existing_by_url),
         get_okinawastory_events(existing_by_url),
+        get_okimeguri_events(now),
+        get_jalan_events(now),
+        get_goyah_events(now),
     ])
+    # merge() 會依日期排序;去重時要讓舊來源(已有中文與詳情)排前面
+    source_rank = {s: i for i, s in enumerate(["visitokinawa", "okinawastory", "okimeguri", "jalan", "goyah"])}
+    raw_scraped.sort(key=lambda e: source_rank.get(e["source"], 99))
+    scraped = dedupe_across_sources(raw_scraped)
+    scraped.sort(key=lambda e: e["date_start"])
+    all_urls = {e["url"] for e in raw_scraped if e.get("url")}
+    for e in scraped:
+        e.pop("_dup_urls", None)
     all_events = merge([today_is, scraped])
-    print(f"📦 合計：{len(all_events)} 筆（今天是… {len(today_is)} 筆）")
+    print(f"📦 合計：{len(all_events)} 筆（今天是… {len(today_is)} 筆，去重前 {len(raw_scraped)}）")
 
-    seen = load_seen()
-    new_events = [e for e in scraped if e["url"] not in seen]
-    print(f"🆕 新活動：{len(new_events)} 筆")
+    seen, known_sources = load_seen()
+    fresh_sources = sorted({e["source"] for e in raw_scraped} - known_sources)
+    new_events = [e for e in scraped
+                  if e["url"] not in seen and e["source"] not in fresh_sources]
+    print(f"🆕 新活動：{len(new_events)} 筆；首次接上的來源：{fresh_sources or '無'}")
 
     cache = load_translation_cache()
     apply_translations(all_events, cache)
@@ -608,34 +719,24 @@ def main():
         json.dump(weather, f, ensure_ascii=False, indent=2)
     build_site(events=all_events, weather=weather, updated=now.strftime("%Y-%m-%d %H:%M"))
 
-    upcoming_ti = [e for e in today_is
-                   if now <= datetime.strptime(e["date_start"], "%Y-%m-%d") <= now + timedelta(days=7)]
-    upcoming_ev = [e for e in scraped
-                   if e["date_start"] and
-                   now <= datetime.strptime(e["date_start"], "%Y-%m-%d") <= now + timedelta(days=7)]
+    # 每週一(日本時間)推未來 60 天日程;手動觸發可用 FORCE_WEEKLY=1 補推
+    jst = jst_now()
+    is_weekly = jst.weekday() == 0 or os.getenv("FORCE_WEEKLY") == "1"
+    if is_weekly:
+        send_telegram(build_weekly_digest(scraped, today_is, jst))
 
-    if upcoming_ti:
-        msg = f"🌟 近 7 天「今天是…」（{len(upcoming_ti)} 個）\n\n"
-        for e in upcoming_ti:
-            msg += fmt_tg(e)
-        send_telegram(msg)
-
-    if upcoming_ev:
-        msg = f"📅 近 7 天沖繩活動（{len(upcoming_ev)} 個）\n\n"
-        for e in upcoming_ev:
-            msg += fmt_tg(e)
-        send_telegram(msg)
+    for source in fresh_sources:
+        count = sum(1 for e in scraped if e["source"] == source)
+        send_telegram(f"➕ 新增活動來源「{SOURCE_TAGS.get(source, source)}」：{count} 筆已收進年曆"
+                      "（這次不逐筆通知，之後有新活動才會推）")
 
     if new_events:
-        msg = f"🆕 新上架活動（{len(new_events)} 個）\n\n"
-        for e in new_events:
-            msg += fmt_tg(e)
-        send_telegram(msg)
+        send_telegram(build_new_events_digest(new_events))
 
-    if is_manual and not upcoming_ti and not upcoming_ev and not new_events:
-        send_telegram("✅ 近期無新資料，年曆已更新。")
+    if is_manual and not is_weekly and not new_events and not fresh_sources:
+        send_telegram("✅ 今天沒有新上架活動，年曆已更新。")
 
-    save_seen(seen | {e["url"] for e in scraped})
+    save_seen(seen | all_urls, known_sources | {e["source"] for e in raw_scraped})
 
 
 if __name__ == "__main__":

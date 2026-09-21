@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 23 * * *"  # 每天 08:00 JST
   workflow_dispatch:
+    inputs:
+      weekly:
+        description: "順便推一次未來 60 天日程(平常只在週一推)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -34,6 +39,7 @@ jobs:
           CHAT_ID: ${{ secrets.CHAT_ID }}
           DISCORD_WEBHOOK_OKINEWS: ${{ secrets.DISCORD_WEBHOOK_OKINEWS }}
           MANUAL_TRIGGER: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
+          FORCE_WEEKLY: ${{ inputs.weekly && '1' || '0' }}
         run: python okinawa_events_crawler.py
 
       - name: Commit updated files

@@ -559,6 +559,12 @@ def event_source_name(event):
         return "おきなわ物語"
     if source == "visitokinawa":
         return "Visit Okinawa"
+    if source == "okimeguri":
+        return "おきめぐり（沖繩縣）"
+    if source == "jalan":
+        return "じゃらんnet"
+    if source == "goyah":
+        return "ごーやーどっとネット"
     return source or "原始來源"
 
 

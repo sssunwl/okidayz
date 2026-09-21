@@ -9,6 +9,7 @@ webhook URL 來源(依序):
 import os
 import sys
 import json
+import time
 import urllib.request
 
 CHANNEL = "n-okinews"
@@ -29,20 +30,52 @@ def _webhook_url():
     return None
 
 
+LIMIT = 1900  # Discord 單則上限 2000 字
+SUPPRESS_EMBEDS = 1 << 2  # 一則幾十個連結時不要展開預覽卡
+
+
+def _chunks(text):
+    """依行切段,每段不超過 LIMIT;單行本身太長才硬切。"""
+    chunk = ""
+    for line in str(text).split("\n"):
+        while len(line) > LIMIT:
+            if chunk:
+                yield chunk
+                chunk = ""
+            yield line[:LIMIT]
+            line = line[LIMIT:]
+        candidate = f"{chunk}\n{line}" if chunk else line
+        if len(candidate) > LIMIT:
+            yield chunk
+            chunk = line
+        else:
+            chunk = candidate
+    if chunk.strip():
+        yield chunk
+
+
+def _post(url, body):
+    req = urllib.request.Request(
+        url,
+        data=json.dumps({"content": body, "flags": SUPPRESS_EMBEDS}).encode("utf-8"),
+        headers={
+            "Content-Type": "application/json",
+            "User-Agent": "SolBot (https://suniverse.local, 0.1)",
+        },
+    )
+    urllib.request.urlopen(req, timeout=10)
+
+
 def notify_discord(text):
     url = _webhook_url()
     if not url or not str(url).startswith("https"):
         return
-    body = str(text)[:1900]  # Discord 單則上限 2000 字
-    try:
-        req = urllib.request.Request(
-            url,
-            data=json.dumps({"content": body}).encode("utf-8"),
-            headers={
-                "Content-Type": "application/json",
-                "User-Agent": "SolBot (https://suniverse.local, 0.1)",
-            },
-        )
-        urllib.request.urlopen(req, timeout=10)
-    except Exception as e:
-        print(f"[discord] 通知失敗(不影響主流程): {e}", file=sys.stderr)
+    for body in _chunks(text):
+        if not body.strip():
+            continue
+        try:
+            _post(url, body)
+            time.sleep(1)  # webhook 限速約每秒 1~2 則
+        except Exception as e:
+            print(f"[discord] 通知失敗(不影響主流程): {e}", file=sys.stderr)
+            return

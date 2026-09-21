@@ -9,6 +9,7 @@
 ```
 build.py                     站台產生器（templates + content + docs/*.json → docs/）
 okinawa_events_crawler.py    抓活動與天氣，寫進 docs/events.json、docs/weather.json，最後呼叫 build_site()
+event_sources.py             額外活動來源（おきめぐり縣官方 API / じゃらん / ごーやー）與跨來源去重
 news_crawler.py              抓沖繩新聞/日本大事 + 氣象警報，用 OpenAI 整理成繁中摘要，寫進 docs/news.json
 rates_crawler.py             每日抓一次日圓匯率參考值，寫進 docs/rates.json
 ocean_crawler.py             每 3 小時抓三個岸潛點的風/浪/潮汐，寫進 docs/ocean-conditions.json
@@ -31,6 +32,17 @@ BUILD_ONLY=1 python3 okinawa_events_crawler.py   # 重算「今天是…」再�
 python3 news_crawler.py               # 抓新聞 + 氣象警報（需要 OPENAI_API_KEY，見下）
 python3 -m http.server 8000 --directory docs
 ```
+
+## 活動來源與通知（`okinawa_events_crawler.py`）
+
+來源五個，抓未來半年（`WINDOW_DAYS = 180`）：visitokinawa、おきなわ物語、おきめぐり（沖繩縣官方，走 `backend.okimeguri.com/v1` 公開 API）、じゃらんnet（離島祭典、馬拉松）、ごーやーどっとネット（在地社區活動，WordPress REST）。同一活動在多個來源出現時，由 `dedupe_across_sources()` 合併（開始日差 3 天內 + 正規化後名稱互相包含）。
+
+おきめぐり 裡跨超過 45 天的飯店 buffet、海灘營業公告不收；標題含「募集／出演者／出店者」的徵選公告也不收。
+
+TG 與 Discord #n-okinews 的推播：
+
+- **每天**：新上架活動（半年內、按月份分組）。第一次接上的來源只發一則「已收進 N 筆」，不逐筆灌訊息（`seen_events.json` 的 `sources` 記錄已接過的來源）。
+- **每週一（日本時間）**：未來 60 天活動日程，按週分段，跨 14 天以上的展覽另列。手動跑 workflow 勾 `weekly` 可補推。
 
 ## 新聞自動化（`news_crawler.py`）
 
