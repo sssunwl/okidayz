@@ -23,7 +23,7 @@ ASSETS = ROOT / "assets"
 CONTENT = ROOT / "content"
 DOCS = ROOT / "docs"
 
-SITE_URL = os.getenv("SITE_URL", "https://sssunwl.github.io/okinews/").rstrip("/") + "/"
+SITE_URL = os.getenv("SITE_URL", "https://sssunwl.github.io/okidayz/").rstrip("/") + "/"
 SITE_NAME = "OkinawaSundays"
 OG_IMAGE = SITE_URL + "assets/og-image.png"
 JST = timezone(timedelta(hours=9))
