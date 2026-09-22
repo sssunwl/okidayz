@@ -1,5 +1,12 @@
 {
   "seen": [
+    "https://goyah.net/okinawa_event/archives/9188",
+    "https://goyah.net/okinawa_event/archives/9221",
+    "https://goyah.net/okinawa_event/archives/9227",
+    "https://goyah.net/okinawa_event/archives/9251",
+    "https://goyah.net/okinawa_event/archives/9287",
+    "https://goyah.net/okinawa_event/archives/9340",
+    "https://goyah.net/okinawa_event/archives/9357",
     "https://okimeguri.com/prediction-calendar/details/events/3241",
     "https://okimeguri.com/prediction-calendar/details/events/4439",
     "https://okimeguri.com/prediction-calendar/details/events/5135",
@@ -738,10 +745,11 @@
     "https://www.okinawastory.jp/event/600023073"
   ],
   "sources": [
+    "goyah",
     "jalan",
     "okimeguri",
     "okinawastory",
     "visitokinawa"
   ],
-  "updated": "2026-09-21T07:58:48.068400"
+  "updated": "2026-09-22T01:31:54.809485"
 }
