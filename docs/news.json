@@ -1,6 +1,24 @@
 [
   {
-    "date": "2026-09-21",
+    "date": "2026-09-22",
+    "source": "沖縄タイムス",
+    "title": "台風25號影響沖繩航班 6070人受波及",
+    "summary": "受台風25號影響，沖繩起降的部分航班出現異動。21日全日空取消19班、日本航空集團取消4班，合計約6070人受到影響，其他航空公司也有部分航班取消。",
+    "category": "交通",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928986",
+    "alert": true
+  },
+  {
+    "date": "2026-09-22",
+    "source": "沖縄タイムス",
+    "title": "石垣—台灣渡輪「やいま丸」停航　市府研擬追加支援",
+    "summary": "石垣島與台灣基隆之間的定期渡輪「やいま丸」將自10月起暫停運航。石垣市長表示，市府可能對營運業者提供包含損失補償在內的追加支援。",
+    "category": "交通",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928966",
+    "alert": true
+  },
+  {
+    "date": "2026-09-22",
     "source": "氣象庁警報",
     "title": "沖繩本島地區氣象警報・注意報",
     "summary": "沖繩本島地區在29日中午前，需注意突如其來的強降雨與雷擊。",
@@ -9,13 +27,148 @@
     "alert": true
   },
   {
-    "date": "2026-09-21",
+    "date": "2026-09-22",
     "source": "氣象庁警報",
-    "title": "大東島地區氣象警報・注意報",
-    "summary": "大東島地區需注意突如其來的強降雨與雷擊。請留意天氣變化並提高警覺。",
+    "title": "大東島地區氣象警報與注意報",
+    "summary": "大東島地區需注意突如其來的強降雨與雷擊。",
     "category": "天氣警報",
     "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=472000&lang=ja",
     "alert": true
+  },
+  {
+    "date": "2026-09-22",
+    "source": "沖縄タイムス",
+    "title": "喜屋武岬外海車運船船員落海",
+    "summary": "21日下午，糸滿市喜屋武岬東南方約275公里海域，一艘自泰國往墨西哥航行的自動車運搬船通報有船員落海。那霸海上保安部表示，落海者疑為一名菲律賓籍50多歲男性。",
+    "category": "全國",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928979",
+    "alert": false
+  },
+  {
+    "date": "2026-09-22",
+    "source": "沖縄タイムス",
+    "title": "沖繩天氣：22日至23日大致晴朗",
+    "summary": "沖繩本島地區受高氣壓影響，目前天氣晴朗。22日至23日沖繩本島、宮古島、八重山與大東島地區大致晴朗，局部可能有短暫陣雨。",
+    "category": "天氣警報",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1929105",
+    "alert": false
+  },
+  {
+    "date": "2026-09-22",
+    "source": "沖縄タイムス",
+    "title": "社論：AI軍事利用　應建立國際規制",
+    "summary": "社論指出，AI可能將人類導向發展或走向滅亡，當前正處於關鍵岔路。報導提到，美軍今年春曾根據AI生成的錯誤資訊，計畫對中東海域中國船隻進行軍事行動。",
+    "category": "全國",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928941",
+    "alert": false
+  },
+  {
+    "date": "2026-09-22",
+    "source": "沖縄タイムス",
+    "title": "為失智走失者歸零　全國徵集家屬問卷",
+    "summary": "21日是「認知症日」。為了減少認知症患者走失，相關單位在全國進行家屬問卷調查，至30日止。調查對象也包含有興趣的民眾，目的是掌握外出狀況與所需支援，建立更完善的支援體制。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928973",
+    "alert": false
+  },
+  {
+    "date": "2026-09-22",
+    "source": "沖縄タイムス",
+    "title": "6名男性琉球舞踊家「蓬萊」10週年特別公演",
+    "summary": "男性琉球舞踊家6人組「蓬萊」於21日在浦添市國立劇場沖繩大劇場舉辦特別公演。這是自2017年首場演出以來的10週年紀念公演，並演出罕見的「素踊り」及舞踊劇《守り紅型》。",
+    "category": "觀光",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928987",
+    "alert": false
+  },
+  {
+    "date": "2026-09-22",
+    "source": "沖縄タイムス",
+    "title": "宜野灣市小二男童遭車撞傷　駕駛疑肇逃",
+    "summary": "21日下午，宜野灣市大山一處無號誌路口發生車輛與腳踏車碰撞事故。騎車的8歲男童跌倒，右肘輕傷，警方正以肇事逃逸案件調查。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928989",
+    "alert": false
+  },
+  {
+    "date": "2026-09-22",
+    "source": "沖縄タイムス",
+    "title": "首里城受災文化財修復進行中",
+    "summary": "沖繩美麗海財團正進行首里城火災受損美術工藝品的修理與復元。陶器、染織等依種類與損傷程度，採用不同且細緻的修復方法。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928983",
+    "alert": false
+  },
+  {
+    "date": "2026-09-22",
+    "source": "沖縄タイムス",
+    "title": "10月酒稅調漲前　零售業推促銷搶消費",
+    "summary": "10月酒稅改正前，發泡酒與第三類啤酒等稅率將上調。各零售業者已開始備貨，並推出整箱販售、點數加倍等活動，吸引民眾在漲價前提早購買。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928965",
+    "alert": false
+  },
+  {
+    "date": "2026-09-22",
+    "source": "沖縄タイムス",
+    "title": "美方何時返還普天間？邊野古縣政轉向",
+    "summary": "文章提到，沖繩知事選將迎來12年來首位容許邊野古移設的知事。古謝玄太在社群上寫下希望大浦灣側工程能在12年內完成，並明確示返還期限，引發華府關注。",
+    "category": "全國",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928957",
+    "alert": false
+  },
+  {
+    "date": "2026-09-22",
+    "source": "沖縄タイムス",
+    "title": "古謝玄太要求重啟沖政協　政府態度受關注",
+    "summary": "古謝玄太在知事選勝出後，要求政府重啟「沖繩政策協議會」，以推動振興政策充實與減輕基地負擔。報導指出，該會議過去除了討論振興措施，也曾成為基地問題協商的平台。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1928956",
+    "alert": false
+  },
+  {
+    "date": "2026-09-22",
+    "source": "沖縄タイムス",
+    "title": "工作與休假也是一體兩面",
+    "summary": "文章提到，銀色週期間各地景點與活動會場都很熱鬧，許多人正享受連假。並說明這次 5 連休之所以成立，是因為「國民的休日」的規定。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1929046",
+    "alert": false
+  },
+  {
+    "date": "2026-09-22",
+    "source": "沖縄タイムス",
+    "title": "首里城火災受災工藝品101件修復完成",
+    "summary": "2019年首里城火災受損的沖繩美麗島財團所藏美術工藝品755件中，截至今年3月31日，已有101件完成修理與復元。財團自2021年起依工藝類別委託職人修復，距離11月22日首里城正殿「復元完成式」還有2個月。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1929043",
+    "alert": false
+  },
+  {
+    "date": "2026-09-22",
+    "source": "沖縄タイムス",
+    "title": "神森在激戰中勝出 奪縣小學秋季手球冠軍",
+    "summary": "縣小學生秋季手球大會在ANA體育館浦添舉行，進行到男女決賽。女子組神森與宮城戰成26比26後進入7公尺擲球，神森以2比1獲勝，睽違12年拿下第10冠。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1929032",
+    "alert": false
+  },
+  {
+    "date": "2026-09-22",
+    "source": "氣象庁警報",
+    "title": "宮古島地方氣象警報・注意報解除",
+    "summary": "宮古島地方的氣象注意報已解除。",
+    "category": "天氣警報",
+    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=473000&lang=ja",
+    "alert": false
+  },
+  {
+    "date": "2026-09-22",
+    "source": "氣象庁警報",
+    "title": "八重山地區氣象警報・注意報",
+    "summary": "解除注意報。",
+    "category": "天氣警報",
+    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=474000&lang=ja",
+    "alert": false
   },
   {
     "date": "2026-09-21",
@@ -150,24 +303,6 @@
     "summary": "2026年度職業拳擊新人王錦標賽西部日本與中部日本對抗戰於20日在福岡舉行。宜野灣市出身的宮里阿連以第1回合2分50秒TKO擊敗對手，晉級代表戰。",
     "category": "生活",
     "url": "http://www.okinawatimes.co.jp/articles/-/1928529",
-    "alert": false
-  },
-  {
-    "date": "2026-09-21",
-    "source": "氣象庁警報",
-    "title": "宮古島地區氣象警報、注意報解除",
-    "summary": "宮古島地區的注意報已解除。",
-    "category": "天氣警報",
-    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=473000&lang=ja",
-    "alert": false
-  },
-  {
-    "date": "2026-09-21",
-    "source": "氣象庁警報",
-    "title": "八重山地方氣象警報與注意報解除",
-    "summary": "八重山地區的注意報已解除。",
-    "category": "天氣警報",
-    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=474000&lang=ja",
     "alert": false
   },
   {
@@ -573,141 +708,6 @@
     "summary": "國頭村、漁協、縣環境科學中心、琉球大學與EF聚合物等5團體，展開防止農地赤土流入海域的實證計畫。將利用100%天然來源的吸水性聚合物，抑制降雨時的土砂流出，預定明年4月導入農地。",
     "category": "生活",
     "url": "http://www.okinawatimes.co.jp/articles/-/1926558",
-    "alert": false
-  },
-  {
-    "date": "2026-09-17",
-    "source": "沖縄タイムス",
-    "title": "專修大生赴與那國町進行新聞研修",
-    "summary": "專修大文學部新聞學科每年在沖繩實施的田野調查課程「沖繩新聞論」，11日至15日在與那國町舉行。專修大自2006年起在沖繩研修，這次是首次造訪日本最西端的與那國島。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1925710",
-    "alert": false
-  },
-  {
-    "date": "2026-09-17",
-    "source": "沖縄タイムス",
-    "title": "那霸樋川新飯店計畫　2029年夏開業",
-    "summary": "沖繩銀行宣布，將與中國銀行合作為那霸市樋川、鄰近「のうれんプラザ」的飯店建設計畫提供非遡及型融資。該計畫名為「那覇樋川ホテルプロジェクト」，預計於2029年夏季開業。",
-    "category": "觀光",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1925637",
-    "alert": false
-  },
-  {
-    "date": "2026-09-17",
-    "source": "沖縄タイムス",
-    "title": "首里城周邊舉辦3天活動 旗頭、爵士與防災體驗",
-    "summary": "沖繩美麗島財團與首里城周邊業者將於19至21日在首里城公園周邊舉辦體驗、展示與舞台活動。內容包含防災、首里街區營造等工作坊，並透過活動展望地區未來。",
-    "category": "觀光",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1925717",
-    "alert": false
-  },
-  {
-    "date": "2026-09-17",
-    "source": "沖縄タイムス",
-    "title": "那霸市畫家作品繪本將於12月在義大利出版",
-    "summary": "那霸市畫家那感田村龍郎製作的繪本《君がいる場所》，將於今年12月由義大利出版社發行。這部作品因2024年在義大利波隆那國際繪本原畫展獲得評價而促成出版，主角也投射了他高中時期曾因不登校而受苦的自身經歷。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1925720",
-    "alert": false
-  },
-  {
-    "date": "2026-09-17",
-    "source": "沖縄タイムス",
-    "title": "浦添新體育館追加負擔逾14億日圓",
-    "summary": "沖繩縣浦添市多目的運動施設新建工程出現市府追加負擔問題，市長松本哲治表示，2024年9月的會議上並未收到「增額分不予補助」的報告。此事已在市議會9月定例會中被質詢。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1925659",
-    "alert": false
-  },
-  {
-    "date": "2026-09-17",
-    "source": "沖縄タイムス",
-    "title": "沖繩市酒駕疑雲　22歲美軍士兵遭逮捕",
-    "summary": "沖繩署16日以道路交通法違反（酒醉駕駛）現行犯逮捕一名22歲美軍海兵隊伍長。警方表示，該男子在接觸事故聽取時身上有酒味，當事人否認指控。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1925662",
-    "alert": false
-  },
-  {
-    "date": "2026-09-17",
-    "source": "沖縄タイムス",
-    "title": "豐見城市議開會前致歉：涉歧視性發言",
-    "summary": "豐見城市議會9月定例會中，副議長大田正樹對進行一般質問的共產黨市議說出「認知症ですか」的差別性發言。翌日大田在本會議開會前承認發言並致歉。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1925658",
-    "alert": false
-  },
-  {
-    "date": "2026-09-17",
-    "source": "沖縄タイムス",
-    "title": "同島面對面安心交流活動",
-    "summary": "一場以「同じ島で」為主題的交流活動在知事選當晚舉行，55人參加。現場讓人們能面對面安心對話，藉此療癒社群網路上的衝突。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1925657",
-    "alert": false
-  },
-  {
-    "date": "2026-09-17",
-    "source": "沖縄タイムス",
-    "title": "沖繩旅行社26日辦福島特產市集",
-    "summary": "沖繩旅行社26日上午10時至下午5時，將在那霸市的縣市町村自治會館首次舉辦福島觀光市集。活動由該公司主辦，現場將販售福島縣約50種特產。",
-    "category": "觀光",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1925638",
-    "alert": false
-  },
-  {
-    "date": "2026-09-17",
-    "source": "沖縄タイムス",
-    "title": "社論：高市政權與普天間歸還　為何不明示期限",
-    "summary": "文章指出，沖繩美軍基地集中，縣知事選舉若使縣政主導者更替，基地行政與中央、縣府關係都會改變，因此政府特別重視沖繩縣知事選。內容主要在討論普天間返還與政治關係，未提及旅遊即時影響。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1925619",
-    "alert": false
-  },
-  {
-    "date": "2026-09-17",
-    "source": "沖縄タイムス",
-    "title": "沖繩可全年栽培草莓 盼提升農家收入",
-    "summary": "國際農研等14個機構自2016年起驗證草莓夏季栽培，並共同開發環境控制技術，使沖繩縣內也能全年種植草莓。由於草莓售價較高，預期可帶動農家所得提升。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1925632",
-    "alert": false
-  },
-  {
-    "date": "2026-09-17",
-    "source": "沖縄タイムス",
-    "title": "政府內浮現沖繩相關預算增額案",
-    "summary": "知事選後，政府內傳出沖繩相關預算可能增額的方案。新當選的古謝玄太表示，作為官僚出身會重視行政的延續性，強調首長更替不代表一切都改變。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1925609",
-    "alert": false
-  },
-  {
-    "date": "2026-09-17",
-    "source": "沖縄タイムス",
-    "title": "「其他」選項的心理",
-    "summary": "文章談到自己因性格優柔寡斷，問卷中常會選擇「其他」。在統一地方選前，本報等也對名護市議選參選人進行政策問卷。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1925738",
-    "alert": false
-  },
-  {
-    "date": "2026-09-17",
-    "source": "沖縄タイムス",
-    "title": "古謝玄太獲頒當選證書",
-    "summary": "沖繩知事選初當選的前那霸市副市長古謝玄太，16日在縣廳由縣選管委員長頒發當選證書。他表示，對知事職責的份量更加深切感受。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1925737",
-    "alert": false
-  },
-  {
-    "date": "2026-09-17",
-    "source": "沖縄タイムス",
-    "title": "沖繩產草莓成功實現全年栽培",
-    "summary": "農業新創公司在沖繩推動草莓通年栽培，透過環境控制技術克服草莓喜冷、過去多限於冬季種植的限制。業者並以出口與技術提供為目標。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1925736",
     "alert": false
   }
 ]
