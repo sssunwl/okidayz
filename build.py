@@ -1422,6 +1422,9 @@ def copy_assets():
     for path in ASSETS.iterdir():
         if path.is_file():
             shutil.copy2(path, target / path.name)
+    fonts = ASSETS / "fonts"
+    if fonts.exists():
+        shutil.copytree(fonts, target / "fonts", dirs_exist_ok=True)
     covers = CONTENT / "covers"
     if covers.exists():
         shutil.copytree(covers, target / "covers", dirs_exist_ok=True)
