@@ -1,20 +1,110 @@
 [
   {
-    "date": "2026-09-23",
+    "date": "2026-09-24",
+    "source": "沖縄タイムス",
+    "title": "那霸飛佐賀的ANA班機緊急降落",
+    "summary": "23日晚間，從那霸飛往佐賀的ANA1502班機在那霸機場第一跑道緊急降落。機上158人全員以逃生滑梯撤離，3人受輕傷，無人重傷。",
+    "category": "交通",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1929872",
+    "alert": true
+  },
+  {
+    "date": "2026-09-24",
+    "source": "沖縄タイムス",
+    "title": "ANA航班在那霸機場緊急著陸",
+    "summary": "23日晚間，從那霸飛往佐賀的全日空1502班機在那霸機場第一跑道緊急著陸。班機起飛後右側引擎發生故障並折返，消防車出動但未進行滅火。",
+    "category": "交通",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1929838",
+    "alert": true
+  },
+  {
+    "date": "2026-09-24",
     "source": "氣象庁警報",
     "title": "沖繩本島地區氣象警報・注意報",
-    "summary": "沖繩本島地區在29日中午前，需注意突發強降雨與雷擊。",
+    "summary": "沖繩本島地區在29日中午前，需留意突如其來的強降雨與雷擊。請注意天氣變化，外出時提高警覺。",
     "category": "天氣警報",
     "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=471000&lang=ja",
     "alert": true
   },
   {
-    "date": "2026-09-23",
+    "date": "2026-09-24",
     "source": "氣象庁警報",
-    "title": "大東島地區發布氣象警報注意報",
-    "summary": "大東島地區需注意突如其來的強降雨與雷擊。",
+    "title": "大東島地區氣象警報與注意報",
+    "summary": "大東島地區需注意突發強降雨與雷擊。請留意天氣變化。",
     "category": "天氣警報",
     "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=472000&lang=ja",
+    "alert": true
+  },
+  {
+    "date": "2026-09-24",
+    "source": "沖縄タイムス",
+    "title": "ANA班機那霸機場緊急著陸　列重大事件調查",
+    "summary": "日本國土交通省將全日空班機在那霸機場的緊急著陸認定為可能導致事故的重大事件。運輸安全委員會已指派2名航空事故調查官進行原因調查。",
+    "category": "交通",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1929902",
+    "alert": false
+  },
+  {
+    "date": "2026-09-24",
+    "source": "沖縄タイムス",
+    "title": "9月24日至25日沖繩多地晴時有陣雨",
+    "summary": "沖繩本島目前受高氣壓影響，大致為晴天。24日至25日間，沖繩本島、宮古島、八重山與大東島地區預料仍以晴朗為主，但部分地區可能有短暫陣雨。",
+    "category": "天氣警報",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1929901",
+    "alert": false
+  },
+  {
+    "date": "2026-09-24",
+    "source": "沖縄タイムス",
+    "title": "FC琉球さくら出征誓言全力拚升級",
+    "summary": "女子足球FC琉球さくら22日在東風平運動公園足球場舉行壯行會，為9月26日至28日於福島舉行的女子聯賽升降級附加賽預選做準備。球隊向到場支持者表達力拚升級的決心。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1929452",
+    "alert": false
+  },
+  {
+    "date": "2026-09-24",
+    "source": "沖縄タイムス",
+    "title": "捐贈白米150公斤 支援兒童貧困與炊出活動",
+    "summary": "沖繩縣賓果與老虎機協同組合青年部在浦添市，將白米各150公斤贈給兩個團體。受贈對象分別是投入兒童貧困對策的團體，以及進行炊出活動的團體。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1929336",
+    "alert": false
+  },
+  {
+    "date": "2026-09-24",
+    "source": "沖縄タイムス",
+    "title": "名古屋舉辦全國縣人會祭　沖繩演出阿波舞",
+    "summary": "第24回「ふるさと全国県人会まつり2026」於5、6日在名古屋市中區的久屋大通公園舉行。活動由東海3縣的縣人會主導，介紹各地祭典、傳統藝能與特產。",
+    "category": "觀光",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1929333",
+    "alert": false
+  },
+  {
+    "date": "2026-09-24",
+    "source": "氣象庁警報",
+    "title": "宮古島地方氣象警報・注意報解除",
+    "summary": "宮古島地方的注意報已解除。",
+    "category": "天氣警報",
+    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=473000&lang=ja",
+    "alert": false
+  },
+  {
+    "date": "2026-09-24",
+    "source": "氣象庁警報",
+    "title": "八重山地區氣象警報・注意報解除",
+    "summary": "八重山地區的注意報已解除。",
+    "category": "天氣警報",
+    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=474000&lang=ja",
+    "alert": false
+  },
+  {
+    "date": "2026-09-23",
+    "source": "沖縄タイムス",
+    "title": "熱帶低壓恐成颱　28日或逼近沖繩南方",
+    "summary": "氣象廳表示，菲律賓東方的熱帶低氣壓正向西北西移動，未來可能發展成颱風並北上。預計28日將以較強勢力接近沖繩南方，八重山與宮古地區也有接近可能。",
+    "category": "天氣警報",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1929680",
     "alert": true
   },
   {
@@ -154,20 +244,65 @@
   },
   {
     "date": "2026-09-23",
-    "source": "氣象庁警報",
-    "title": "宮古島地區氣象警報・注意報解除",
-    "summary": "宮古島地區的注意報已解除。",
-    "category": "天氣警報",
-    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=473000&lang=ja",
+    "source": "沖縄タイムス",
+    "title": "美ノ海勝越　朝縣內首位三役前進",
+    "summary": "大相撲秋場所11日目，美ノ海擊敗琴勝峰，拿下第8勝，確定勝越。這讓他朝著沖繩縣出身力士首位晉升三役的目標再往前一步。",
+    "category": "全國",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1929743",
     "alert": false
   },
   {
     "date": "2026-09-23",
-    "source": "氣象庁警報",
-    "title": "八重山地區氣象注意報解除",
-    "summary": "八重山地區的氣象注意報已解除。",
-    "category": "天氣警報",
-    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=474000&lang=ja",
+    "source": "沖縄タイムス",
+    "title": "那霸市飯店驚傳刺傷案　35歲男子現行犯逮捕",
+    "summary": "沖繩縣警那霸署23日以傷害嫌疑，現行犯逮捕一名自稱那霸市、無職的35歲男子。該男子涉嫌在那霸市內的飯店，用菜刀刺傷一名55歲男性的右臂。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1929735",
+    "alert": false
+  },
+  {
+    "date": "2026-09-23",
+    "source": "沖縄タイムス",
+    "title": "縣秋季高校棒球賽　4校晉級3回戰",
+    "summary": "第76屆縣秋季大會第7日在宜野灣等地進行2回戰剩餘4場比賽。具志川、讀谷、コザ、首里獲勝，晉級3回戰。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1929710",
+    "alert": false
+  },
+  {
+    "date": "2026-09-23",
+    "source": "沖縄タイムス",
+    "title": "9月24、25日那霸舉辦浦添迷你市集",
+    "summary": "浦添市觀光協會將於24、25日下午在那霸市ゆいレールおもろまち站舉辦「うらそえminiマルシェ」。現場有特產販售、觀光與活動資訊介紹，25日還有迷你演出。",
+    "category": "觀光",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1929317",
+    "alert": false
+  },
+  {
+    "date": "2026-09-23",
+    "source": "沖縄タイムス",
+    "title": "緩和醫療不只限於人生末期",
+    "summary": "文章指出，提到「緩和醫療」時，常讓人聯想到癌症末期或人生最後階段的醫療。其實它也可在治療進行中並行使用，幫助維持自己的日常生活。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1929409",
+    "alert": false
+  },
+  {
+    "date": "2026-09-23",
+    "source": "沖縄タイムス",
+    "title": "沖繩縣立學校教職員月超時工作8小時以上比例降至2.0%",
+    "summary": "沖繩縣立學校教職員在2025年度，月平均加班超過80小時的比例為2.0%，較前年度改善0.1個百分點。市町村立學校為1.4%，也較前年度改善，兩者皆呈下降趨勢。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1929369",
+    "alert": false
+  },
+  {
+    "date": "2026-09-23",
+    "source": "沖縄タイムス",
+    "title": "沿道熱鬧！宇流麻市Eisa祭登場",
+    "summary": "第21屆宇流麻市Eisa祭於19、20日在縣道75號舉行，採道ジュネー形式已是第3年。沿途觀眾表示能感受到臨場感與太鼓震動，氣氛熱烈。",
+    "category": "觀光",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1929356",
     "alert": false
   },
   {
@@ -573,141 +708,6 @@
     "summary": "讀谷村出身的池原盛憲回憶，1944年日本軍進入讀谷村後，學校被徵用，原本平靜的校園生活轉為戰時體制。1945年空襲加劇，學校停課並轉移到山中，孩子們在老師指示下進行戰爭模擬。",
     "category": "生活",
     "url": "http://www.okinawatimes.co.jp/articles/-/1927949",
-    "alert": false
-  },
-  {
-    "date": "2026-09-19",
-    "source": "沖縄タイムス",
-    "title": "Orion啤酒公布11月1日人事與組織改編",
-    "summary": "Orion啤酒18日公布將於11月1日實施的人事與組織改編。新任執行役員由關口朋哉出任，並將「商品開發部」整併進「行銷本部」。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1927550",
-    "alert": false
-  },
-  {
-    "date": "2026-09-19",
-    "source": "沖縄タイムス",
-    "title": "時報大樓牆面出現「JJ」廣告　宣傳茉莉花茶割",
-    "summary": "沖繩三得利在那霸市久茂地的時報大樓特大牆面廣告，宣傳以茉莉花燒酎搭配茉莉花茶的「JJ」。這則廣告可在國道58號側看到，展出至10月12日。",
-    "category": "觀光",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1927548",
-    "alert": false
-  },
-  {
-    "date": "2026-09-19",
-    "source": "沖縄タイムス",
-    "title": "日銀升息引發沖繩經界憂慮",
-    "summary": "日銀決定將政策利率由約1.0%調升至約1.25%，這是自6月會議以來3個月內的再度升息。沖繩縣內經濟界擔心企業資金周轉惡化，住宅與設備投資也可能減少。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1927544",
-    "alert": false
-  },
-  {
-    "date": "2026-09-19",
-    "source": "沖縄タイムス",
-    "title": "玉城デニー知事選大敗原因分析",
-    "summary": "沖繩縣知事選中，玉城デニー在選前一度被看好連任，但投開票結果卻以大差敗給古謝玄太。報導回顧過去支撐玉城勝選的選戰力量，分析這次選舉運作出現了哪些變化。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1927075",
-    "alert": false
-  },
-  {
-    "date": "2026-09-19",
-    "source": "沖縄タイムス",
-    "title": "沖繩流感增至每機構16.61人，注意報持續",
-    "summary": "沖繩縣公布，9月7日至13日每家定點醫療機關通報流感感染者16.61人，較前一週約增加1.6倍。縣府表示流感注意報持續，且為全日本都道府縣中最多。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1927575",
-    "alert": false
-  },
-  {
-    "date": "2026-09-19",
-    "source": "沖縄タイムス",
-    "title": "葉梨沖繩擔當相將於9月24日會見玉城知事",
-    "summary": "葉梨康弘就任沖繩擔當相後首次開會表示，將傾聽地方意見，全力推動沖繩發展。他也透露，將於24日訪問沖繩，在縣廳會見玉城知事。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1927484",
-    "alert": false
-  },
-  {
-    "date": "2026-09-19",
-    "source": "沖縄タイムス",
-    "title": "國與縣將緊密合作　古謝縣政誕生",
-    "summary": "沖繩知事選中，古謝玄太當選後，日本政府表示國與縣將緊密合作。官房長官並提到，古謝氏主張將縣政與中央政府「連結」的政見。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1927483",
-    "alert": false
-  },
-  {
-    "date": "2026-09-19",
-    "source": "沖縄タイムス",
-    "title": "【大弦小弦】忘了語言就等於忘了島嶼",
-    "summary": "報導回顧15年前在夏威夷歐胡島開設的「沖繩語課程」。課程中，第四代沖繩裔年輕人表示，想用沖繩語和祖母交談。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1927532",
-    "alert": false
-  },
-  {
-    "date": "2026-09-19",
-    "source": "沖縄タイムス",
-    "title": "沖繩かなさ花火今晚在宜野灣登場",
-    "summary": "「沖繩かなさ花火」將於19日晚間8時在宜野灣市的特設會場舉行。活動將搭配安室奈美惠的樂曲，並以無人機、雷射與煙火點亮夜空。",
-    "category": "觀光",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1927577",
-    "alert": false
-  },
-  {
-    "date": "2026-09-19",
-    "source": "沖縄タイムス",
-    "title": "青色巡邏隊員證言：疑似美軍也視而不見",
-    "summary": "青色巡邏事業雖因美軍相關的女性殺害事件而啟動，但10年間隊員向縣警通報的美軍相關案件僅20件。前隊員受訪時表示，巡邏中就算看到疑似美軍的人，也會選擇視而不見。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1927514",
-    "alert": false
-  },
-  {
-    "date": "2026-09-19",
-    "source": "沖縄タイムス",
-    "title": "《さとこはいつも》描寫三位佐藤子的失意人生",
-    "summary": "文章介紹電影《さとこはいつも》，片中登場三位不同年齡的「さとこ」。她們各自面對失戀、不倫與未竟夢想，在不如意的日子裡感到低落。",
-    "category": "觀光",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1926557",
-    "alert": false
-  },
-  {
-    "date": "2026-09-19",
-    "source": "沖縄タイムス",
-    "title": "今井絵理子就任內閣府副大臣",
-    "summary": "在第2次高市改造內閣中，沖繩出身的今井絵理子參議員出任內閣府副大臣，負責沖繩北方、兒童政策與少子化對策等。她表示將與新知事合作。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1927485",
-    "alert": false
-  },
-  {
-    "date": "2026-09-19",
-    "source": "沖縄タイムス",
-    "title": "多良間村八月踊り開幕 9月20日止",
-    "summary": "多良間村國指定重要無形民俗文化財「多良間的豐年祭（八月踊り）」於18日開幕，地點在仲筋的土原御願。活動至9月20日，現場有歌三線演出，也吸引許多觀光客到訪。",
-    "category": "觀光",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1927531",
-    "alert": false
-  },
-  {
-    "date": "2026-09-19",
-    "source": "沖縄タイムス",
-    "title": "「青パト」抑止效果受質疑　10年僅通報20件",
-    "summary": "因2016年米軍屬殺害女性事件而成立的「沖繩・地域安全巡邏隊」已運作10年。報導指出，雖投入最多逾8億日圓預算，但工作多為處理一般醉酒者，與美軍相關通報10年僅20件。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1927528",
-    "alert": false
-  },
-  {
-    "date": "2026-09-19",
-    "source": "沖縄タイムス",
-    "title": "社論：成立民主改革會　強化在野監督",
-    "summary": "社論指出，議會制民主主義要健全運作，需有能監督執政黨並提出對案的強大在野黨。文中提到，脫離中道改革連合的立憲民主黨出身眾議員已成立新黨「民主改革之會」。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1927468",
     "alert": false
   }
 ]
