@@ -1,5 +1,176 @@
 [
   {
+    "date": "2026-09-25",
+    "source": "沖縄タイムス",
+    "title": "ANA客機右引擎故障 緊急返航那霸",
+    "summary": "原本飛往佐賀機場的ANA客機，23日晚因右引擎故障返航那霸機場並緊急著陸。24日凌晨抵達的乘客表示，當時有焦味與持續震動，並感到非常恐懼。",
+    "category": "交通",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1930672",
+    "alert": true
+  },
+  {
+    "date": "2026-09-25",
+    "source": "氣象庁警報",
+    "title": "沖繩本島地區氣象警報・注意報",
+    "summary": "沖繩本島地區在29日中午前需注意突發強降雨與雷擊。",
+    "category": "天氣警報",
+    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=471000&lang=ja",
+    "alert": true
+  },
+  {
+    "date": "2026-09-25",
+    "source": "氣象庁警報",
+    "title": "大東島地區氣象警報與注意報",
+    "summary": "大東島地區請注意突發強降雨與雷擊。",
+    "category": "天氣警報",
+    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=472000&lang=ja",
+    "alert": true
+  },
+  {
+    "date": "2026-09-25",
+    "source": "沖縄タイムス",
+    "title": "古謝玄太擬定2名副知事人事",
+    "summary": "沖繩縣知事當選人古謝玄太已確定副知事人事方針，打算起用前自民黨縣連會長翁長政俊。現任副知事宮城嗣吉也朝續任方向協調。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1930800",
+    "alert": false
+  },
+  {
+    "date": "2026-09-25",
+    "source": "沖縄タイムス",
+    "title": "沖繩本島等地9/25至9/26天氣預報",
+    "summary": "沖繩本島、宮古島、八重山與大東島地區受高氣壓影響，25日大致晴朗，但局部可能有雨或雷雨。26日受颱風周邊濕空氣影響，部分地區將轉為多雲或降雨，並可能伴隨打雷。",
+    "category": "天氣警報",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1930774",
+    "alert": false
+  },
+  {
+    "date": "2026-09-25",
+    "source": "沖縄タイムス",
+    "title": "社論：高市外交與ICC　為何不反駁美政權",
+    "summary": "高市早苗首相在第三度日美首腦會談及之後的聯合國演說中，展現出對美國的顧慮。她訪問美國紐約，並在聯合國大會上發表就任後首次演說。",
+    "category": "全國",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1930598",
+    "alert": false
+  },
+  {
+    "date": "2026-09-25",
+    "source": "沖縄タイムス",
+    "title": "下里豪志獲大賞後將於10月辦紀念獨奏會",
+    "summary": "第60回沖繩時報藝術選賞大賞得主、鋼琴家下里豪志將於10月12日下午1時，在沖繩會議中心劇場棟舉辦紀念獨奏會。該場地是他從中學時期就憧憬的地方，他表示大賞成為挑戰大舞台的推力。",
+    "category": "觀光",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1930720",
+    "alert": false
+  },
+  {
+    "date": "2026-09-25",
+    "source": "沖縄タイムス",
+    "title": "Junglia沖繩開業一年多陷入困境",
+    "summary": "Junglia沖繩開業一年多後，主題樂園事業已陷入困境。相關人士希望先刷新經營體制，並透過債務整理等方式重建財務基礎後再出發。",
+    "category": "觀光",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1930694",
+    "alert": false
+  },
+  {
+    "date": "2026-09-25",
+    "source": "沖縄タイムス",
+    "title": "ジャングリア營運公司首年虧損173億日圓",
+    "summary": "今歸仁村主題樂園「Junglia沖繩」的母公司 Japan Entertainment Holdings，開業後首次的2026年6月期決算出現約173億日圓最終赤字。公司將在25日召開定時股東會，說明財務狀況。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1930688",
+    "alert": false
+  },
+  {
+    "date": "2026-09-25",
+    "source": "沖縄タイムス",
+    "title": "古謝玄太就任前聽取縣府各部門課題",
+    "summary": "預定30日就任的古謝玄太，24日在那霸市聽取縣府四個部門說明懸案事項。接下來他將陸續向各部局了解縣政現況與課題，為上任後的施政做準備。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1930650",
+    "alert": false
+  },
+  {
+    "date": "2026-09-25",
+    "source": "沖縄タイムス",
+    "title": "對馬丸紀念館明天免費放映動畫《戰爭的製造方法》",
+    "summary": "對馬丸紀念館將於26日下午2時免費放映7分鐘短篇動畫《戰爭的製造方法》。映後也將以接力朗讀形式，朗讀戰爭體驗者手記集《給孫子們的證言》。",
+    "category": "觀光",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1930571",
+    "alert": false
+  },
+  {
+    "date": "2026-09-25",
+    "source": "沖縄タイムス",
+    "title": "2026年度選拔藝能祭將於10月舉行",
+    "summary": "2026年度沖繩時報「選拔藝能祭」將於10月3、4、10、12日，在那霸市久茂地的タイムスホール舉行。演出者為今年5月至8月傳統藝能選考會中，新人、優秀與最高各獎入賞者，共計212人。",
+    "category": "觀光",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1930559",
+    "alert": false
+  },
+  {
+    "date": "2026-09-25",
+    "source": "沖縄タイムス",
+    "title": "豐見城中學新角色定名「とみっプル」",
+    "summary": "豐見城中學第二代吉祥物角色決定為「とみっプル」。學生會正挑戰製作動畫，並於9日邀請講師到校，為校內廣播等使用的配音錄製接受建議。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1930513",
+    "alert": false
+  },
+  {
+    "date": "2026-09-25",
+    "source": "沖縄タイムス",
+    "title": "第40屆NAHA馬拉松12月6日舉行",
+    "summary": "距離第40屆紀念NAHA馬拉松只剩兩個多月，接下來早晚氣溫將逐漸下降，適合加強跑步訓練。報導也介紹了從腳下支撐跑步的跑鞋選擇，提醒參賽者做好準備。",
+    "category": "觀光",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1930512",
+    "alert": false
+  },
+  {
+    "date": "2026-09-25",
+    "source": "沖縄タイムス",
+    "title": "小禄自治會睽違14年舉辦卡吉馬耶祝壽遊行",
+    "summary": "那霸市字小禄自治會13日為96歲的上原真一舉辦卡吉馬耶遊行與敬老會，慶祝其虛歲97歲。這是該自治會睽違14年再次舉行此活動。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1930501",
+    "alert": false
+  },
+  {
+    "date": "2026-09-25",
+    "source": "沖縄タイムス",
+    "title": "島袋光尋橋壽公演　與後輩共演琉舞組踊",
+    "summary": "琉球舞踊島袋流家元島袋光尋於8月30日在那霸市舉辦「橋壽公演」。他演出祖父兼師匠島袋光裕擅長的舞踊與組踊，並在壓軸時表示自己仍然健康。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1930492",
+    "alert": false
+  },
+  {
+    "date": "2026-09-25",
+    "source": "沖縄タイムス",
+    "title": "戰時離散的縣系二世找到親族　將赴沖繩掃墓",
+    "summary": "太平洋戰爭中與糸滿市出身父親失散的縣系二世賀數亞德萊達女士，已找到在沖繩的親族。她計畫前往沖繩墓參，並表示得知父親墓地所在後感到很高興。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1930721",
+    "alert": false
+  },
+  {
+    "date": "2026-09-25",
+    "source": "氣象庁警報",
+    "title": "宮古島地方氣象警報・注意報解除",
+    "summary": "宮古島地方的注意報已解除。",
+    "category": "天氣警報",
+    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=473000&lang=ja",
+    "alert": false
+  },
+  {
+    "date": "2026-09-25",
+    "source": "氣象庁警報",
+    "title": "八重山地區氣象警報・注意報解除",
+    "summary": "八重山地區的注意報已解除。",
+    "category": "天氣警報",
+    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=474000&lang=ja",
+    "alert": false
+  },
+  {
     "date": "2026-09-24",
     "source": "沖縄タイムス",
     "title": "那霸飛佐賀的ANA班機緊急降落",
@@ -15,24 +186,6 @@
     "summary": "23日晚間，從那霸飛往佐賀的全日空1502班機在那霸機場第一跑道緊急著陸。班機起飛後右側引擎發生故障並折返，消防車出動但未進行滅火。",
     "category": "交通",
     "url": "http://www.okinawatimes.co.jp/articles/-/1929838",
-    "alert": true
-  },
-  {
-    "date": "2026-09-24",
-    "source": "氣象庁警報",
-    "title": "沖繩本島地區氣象警報・注意報",
-    "summary": "沖繩本島地區在29日中午前，需留意突如其來的強降雨與雷擊。請注意天氣變化，外出時提高警覺。",
-    "category": "天氣警報",
-    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=471000&lang=ja",
-    "alert": true
-  },
-  {
-    "date": "2026-09-24",
-    "source": "氣象庁警報",
-    "title": "大東島地區氣象警報與注意報",
-    "summary": "大東島地區需注意突發強降雨與雷擊。請留意天氣變化。",
-    "category": "天氣警報",
-    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=472000&lang=ja",
     "alert": true
   },
   {
@@ -78,24 +231,6 @@
     "summary": "第24回「ふるさと全国県人会まつり2026」於5、6日在名古屋市中區的久屋大通公園舉行。活動由東海3縣的縣人會主導，介紹各地祭典、傳統藝能與特產。",
     "category": "觀光",
     "url": "http://www.okinawatimes.co.jp/articles/-/1929333",
-    "alert": false
-  },
-  {
-    "date": "2026-09-24",
-    "source": "氣象庁警報",
-    "title": "宮古島地方氣象警報・注意報解除",
-    "summary": "宮古島地方的注意報已解除。",
-    "category": "天氣警報",
-    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=473000&lang=ja",
-    "alert": false
-  },
-  {
-    "date": "2026-09-24",
-    "source": "氣象庁警報",
-    "title": "八重山地區氣象警報・注意報解除",
-    "summary": "八重山地區的注意報已解除。",
-    "category": "天氣警報",
-    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=474000&lang=ja",
     "alert": false
   },
   {
@@ -573,141 +708,6 @@
     "summary": "2026年度職業拳擊新人王錦標賽西部日本與中部日本對抗戰於20日在福岡舉行。宜野灣市出身的宮里阿連以第1回合2分50秒TKO擊敗對手，晉級代表戰。",
     "category": "生活",
     "url": "http://www.okinawatimes.co.jp/articles/-/1928529",
-    "alert": false
-  },
-  {
-    "date": "2026-09-20",
-    "source": "沖縄タイムス",
-    "title": "海中道路車禍　帕拉田徑獎牌得主重傷",
-    "summary": "19日上午，於宇流麻市縣道10號海中道路，一輛輕型貨車追撞正在練習的競技輪椅男子。男子為55歲、居住沖繩市的上與那原寬和，因腦挫傷與頸椎骨折陷入昏迷重症。",
-    "category": "交通",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928089",
-    "alert": true
-  },
-  {
-    "date": "2026-09-20",
-    "source": "沖縄タイムス",
-    "title": "沖繩今冬氣溫偏高、雨量偏多",
-    "summary": "氣象廳18日公布，沖繩地區今年冬季（12月至明年2月）天氣預測為氣溫高於平年、降雨量較多。整體來看，全國氣溫預估為接近平年或偏高。",
-    "category": "天氣警報",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928092",
-    "alert": false
-  },
-  {
-    "date": "2026-09-20",
-    "source": "沖縄タイムス",
-    "title": "沖繩食品業者強化周邊商品拓新收益",
-    "summary": "沖繩縣內食品業者正強化自家品牌T恤、玩偶等周邊商品製作，藉此與競爭對手區隔並提升企業知名度。也有公司新設專責部門，仿效在IP商業化領先的企業，尋找新的收入來源。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928119",
-    "alert": false
-  },
-  {
-    "date": "2026-09-20",
-    "source": "沖縄タイムス",
-    "title": "1歲童被太鼓吸引 うるま市Eisa祭熱鬧登場",
-    "summary": "うるま市Eisa祭於19日開幕，市內各青年會帶來有力的演舞與手踊。沿道擠滿來自市內外的觀眾，欣賞道ジュネー的熱鬧氣氛。",
-    "category": "觀光",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928078",
-    "alert": false
-  },
-  {
-    "date": "2026-09-20",
-    "source": "沖縄タイムス",
-    "title": "9月20日至21日沖繩多地大致晴朗偶有陣雨",
-    "summary": "沖繩本島地方目前大致晴朗，但部分地區有陣雨。20日至21日受高氣壓影響，沖繩本島、宮古島、八重山及大東島地方大致晴朗，局部可能出現陣雨。",
-    "category": "天氣警報",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928154",
-    "alert": false
-  },
-  {
-    "date": "2026-09-20",
-    "source": "沖縄タイムス",
-    "title": "第21屆宇流麻市Eisa祭開幕",
-    "summary": "第21屆宇流麻市Eisa祭19日開幕，南風原、赤野區等市內6個青年會在縣道75號沿線演出傳統舞蹈，吸引沿途觀眾。活動將持續到20日。",
-    "category": "觀光",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928051",
-    "alert": false
-  },
-  {
-    "date": "2026-09-20",
-    "source": "沖縄タイムス",
-    "title": "【桜坂劇場・下地久美子の電影觀察】《臉》與異樣社會集體心理",
-    "summary": "文章談到人們會不斷從他人臉部獲取資訊，並因此產生情感與記憶。作者也指出，人的臉具有強大的影響力。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1926556",
-    "alert": false
-  },
-  {
-    "date": "2026-09-20",
-    "source": "沖縄タイムス",
-    "title": "宜野灣「沖繩かなさ花火」登場　花火與安室歌曲同步",
-    "summary": "在宜野灣市的普林斯宜野灣熱帶海灘特設會場，舉辦了以安室奈美惠歌曲搭配花火與無人機演出的「沖繩かなさ花火」。活動吸引約8千人到場。",
-    "category": "觀光",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928050",
-    "alert": false
-  },
-  {
-    "date": "2026-09-20",
-    "source": "沖縄タイムス",
-    "title": "社論：青色巡邏車事業10年　應檢證其妥當性",
-    "summary": "內閣府的「沖繩・地區安全巡邏事業」（青色巡邏車事業）已開始10年。社論指出，該事業目的與效果仍不明確，卻持續投入大量經費，應檢證是否真正有助於沖繩縣民。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928023",
-    "alert": false
-  },
-  {
-    "date": "2026-09-20",
-    "source": "沖縄タイムス",
-    "title": "角南連霸　沖水選手稱霸縣高校輕艇新人賽",
-    "summary": "縣高校新人運動大會19日舉行2項競賽。輕艇女子單人加拿大艇500公尺由角南妃織（沖繩水產）以2分18秒18完成二連霸，男子則由塩澤凪奪冠。男子雙人加拿大艇500公尺由塩澤、渡久地蒼海組合以1分54秒84摘金。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928102",
-    "alert": false
-  },
-  {
-    "date": "2026-09-20",
-    "source": "沖縄タイムス",
-    "title": "沖繩首屆手語語言論壇舉辦",
-    "summary": "沖繩聽覺障礙者協會19日在浦添市舉辦「第1回手話言語論壇in沖縄」，吸引縣內外300多人參加。天生失聰的川上惠女士在縣內首次演講，談到手語在人與人之間的連結與學習中的角色。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928077",
-    "alert": false
-  },
-  {
-    "date": "2026-09-20",
-    "source": "沖縄タイムス",
-    "title": "FC琉球さくら26日起挑戰升級賽",
-    "summary": "女子足球九州聯賽一部的FC琉球さくら，將於26日至28日在福島縣J-VILLAGE首次參加升降級預選賽，爭取進入日本女子職業聯賽二部。這是球隊挑戰更高層級聯賽的重要機會。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928067",
-    "alert": false
-  },
-  {
-    "date": "2026-09-20",
-    "source": "沖縄タイムス",
-    "title": "「全沖繩」野黨化，焦點轉向縣議會運作",
-    "summary": "沖繩縣議會在「全沖繩」勢力失去優勢後，運作方向成為焦點。報導引述落選的照屋大河表示，過去體制過度依賴玉城丹尼，未來有必要檢討並重新出發。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928040",
-    "alert": false
-  },
-  {
-    "date": "2026-09-20",
-    "source": "沖縄タイムス",
-    "title": "ERIー作品獲障礙者藝術琉球租賃獎",
-    "summary": "第8屆塔烏・帕拉林藝術大賽「琉球租賃獎」表彰式於18日在那霸市舉行。沖繩市的ERIー以作品「宇宙へ」獲獎，並從琉球租賃社長手中領取表彰狀與紀念杯。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928003",
-    "alert": false
-  },
-  {
-    "date": "2026-09-20",
-    "source": "沖縄タイムス",
-    "title": "讀谷村出身者回憶戰時以山薑黃充飢",
-    "summary": "讀谷村出身的池原盛憲回憶，1944年日本軍進入讀谷村後，學校被徵用，原本平靜的校園生活轉為戰時體制。1945年空襲加劇，學校停課並轉移到山中，孩子們在老師指示下進行戰爭模擬。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1927949",
     "alert": false
   }
 ]
