@@ -1,29 +1,182 @@
 [
   {
+    "date": "2026-09-26",
+    "source": "沖縄タイムス",
+    "title": "【颱風26號】沖繩最新資訊整理",
+    "summary": "這則報導以時間軸整理台風26號相關的沖繩縣內最新消息。內容包含後續防災準備與交通資訊，並會持續更新。",
+    "category": "天氣警報",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1931667",
+    "alert": true
+  },
+  {
+    "date": "2026-09-26",
+    "source": "沖縄タイムス",
+    "title": "台風26號影響 宜野灣羽衣祭9月27日取消",
+    "summary": "因台風26號接近，宜野灣市舉辦的第49回宜野灣羽衣祭決定取消9月27日最終日。第34回飛衣羽衣卡查西大會也將中止，26日則照常舉行。",
+    "category": "觀光",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1931555",
+    "alert": true
+  },
+  {
+    "date": "2026-09-26",
+    "source": "沖縄タイムス",
+    "title": "【颱風26號】沖繩臨時停課總整理",
+    "summary": "因颱風26號接近沖繩，各市町村已陸續決定小中學校與幼兒園的臨時停課、停園等措施。本文表示將在有最新資訊時持續更新。",
+    "category": "天氣警報",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1931659",
+    "alert": true
+  },
+  {
+    "date": "2026-09-26",
+    "source": "沖縄タイムス",
+    "title": "颱風26號逼近 中城村28日小中學臨時停課",
+    "summary": "受颱風26號接近影響，部分市町村教育委員會在25日決定28日臨時停課或停供午餐。中城村村立小中學校不論是否發布暴風警報都將休校，豐見城市與南風原町則採上午到校且不提供給食。",
+    "category": "天氣警報",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1931554",
+    "alert": true
+  },
+  {
+    "date": "2026-09-26",
+    "source": "沖縄タイムス",
+    "title": "台風26號28日左右恐接近沖繩本島",
+    "summary": "氣象廳表示，台風26號25日已在沖繩南方往西移動，今後可能在增強後接近沖繩地區。依路徑不同，沖繩本島地區27日至29日、大東島地區28日至29日恐有強風影響。",
+    "category": "天氣警報",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1931585",
+    "alert": true
+  },
+  {
+    "date": "2026-09-26",
+    "source": "氣象庁警報",
+    "title": "沖繩本島地方發布氣象警報・注意報",
+    "summary": "沖繩本島地方在29日中午前，需注意突如其來的強降雨與雷擊。",
+    "category": "天氣警報",
+    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=471000&lang=ja",
+    "alert": true
+  },
+  {
+    "date": "2026-09-26",
+    "source": "氣象庁警報",
+    "title": "大東島地區氣象警報與注意報",
+    "summary": "大東島地區請注意突如其來的強降雨與雷擊。",
+    "category": "天氣警報",
+    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=472000&lang=ja",
+    "alert": true
+  },
+  {
+    "date": "2026-09-26",
+    "source": "沖縄タイムス",
+    "title": "久志接力賽將於9月27日實施交通管制",
+    "summary": "第60屆久志接力賽將於9月27日在名護市久志區至嘉陽區舉行。比賽從上午10時開始，至預計11時30分結束前，縣道13號、國道329號與331號將實施交通管制。",
+    "category": "交通",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1931495",
+    "alert": false
+  },
+  {
+    "date": "2026-09-26",
+    "source": "沖縄タイムス",
+    "title": "小兒癌病童家屬盼獲經濟支援",
+    "summary": "支持小兒癌患者的「168（Iroha）檸檬水攤」活動，正推動向國家要求擴大對病童家庭的經濟支援。發起人表示，患者本人有支援，但家屬支援仍不足，盼社會共同面對。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1931550",
+    "alert": false
+  },
+  {
+    "date": "2026-09-26",
+    "source": "沖縄タイムス",
+    "title": "沖繩三大綱引之一糸滿大綱引 北組3年來首勝",
+    "summary": "沖繩三大綱引之一「糸滿大綱引」25日在糸滿舉行。北組與南組在舊曆8月15日以長180公尺、重8噸的大綱對拉，祈求五穀豐收與無病息災，北組睽違3年獲勝。",
+    "category": "觀光",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1931526",
+    "alert": false
+  },
+  {
+    "date": "2026-09-26",
+    "source": "沖縄タイムス",
+    "title": "豐見城市議會自主解散，市議選擬與市長選同日舉行",
+    "summary": "豐見城市議會25日通過自主解散決議，16人贊成、4人反對。原本預定明年2月的市議選，將配合10月25日投開票的市長選同日舉行。",
+    "category": "全國",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1931522",
+    "alert": false
+  },
+  {
+    "date": "2026-09-26",
+    "source": "沖縄タイムス",
+    "title": "豐見城市議會自主解散　盼節省約1200萬日圓",
+    "summary": "豐見城市議會在超過高門檻後，於25日決定自主解散。與市長選同日舉行，預估可節省約1200萬日圓經費，市民團體收集的5952筆同意署名也成為後押。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1931534",
+    "alert": false
+  },
+  {
+    "date": "2026-09-26",
+    "source": "沖縄タイムス",
+    "title": "JHED股東會意見交流逾2小時，正式議事不到10分鐘",
+    "summary": "營運「Junglia沖繩」的母公司日本娛樂控股在名護市舉行股東會，會議先以意見交換會形式進行。出席者表示，意見交流超過2小時，但正式股東會不到10分鐘。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1931474",
+    "alert": false
+  },
+  {
+    "date": "2026-09-26",
+    "source": "沖縄タイムス",
+    "title": "古謝玄太敲定副知事人事　重視政局穩定",
+    "summary": "古謝玄太在30日就任知事前，已敲定副知事人事案。前自民黨縣連會長翁長政俊被期待發揮與經濟界、政府及黨中央的聯繫作用。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1931533",
+    "alert": false
+  },
+  {
+    "date": "2026-09-26",
+    "source": "沖縄タイムス",
+    "title": "豐見城市議會自主解散　市議選與市長選同日投開票",
+    "summary": "豐見城市議會在9月定例會通過解散決議，將原定明年2月的市議選改為與10月25日的市長選同日投開票。市議會並已即日解散。",
+    "category": "全國",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1931586",
+    "alert": false
+  },
+  {
+    "date": "2026-09-26",
+    "source": "沖縄タイムス",
+    "title": "古謝縣政擬任翁長政俊為副知事",
+    "summary": "當選縣知事的古謝玄太已決定，將起用前自民黨縣連會長翁長政俊出任副知事。現任副知事宮城嗣吉則朝向暫時留任方向進行調整。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1931583",
+    "alert": false
+  },
+  {
+    "date": "2026-09-26",
+    "source": "沖縄タイムス",
+    "title": "森岡毅就道歉發言　JUNGLIA沖繩母公司召開股東會",
+    "summary": "經營「JUNGLIA沖繩」的母公司日本娛樂控股，25日在那霸市內召開第4回定時股東會。會中，森岡毅對外致歉，報導也提到公司經營惡化。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1931584",
+    "alert": false
+  },
+  {
+    "date": "2026-09-26",
+    "source": "氣象庁警報",
+    "title": "宮古島地區氣象警報・注意報解除",
+    "summary": "宮古島地區的注意報已解除。",
+    "category": "天氣警報",
+    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=473000&lang=ja",
+    "alert": false
+  },
+  {
+    "date": "2026-09-26",
+    "source": "氣象庁警報",
+    "title": "八重山地區氣象警報・注意報",
+    "summary": "八重山地區的注意報已解除。",
+    "category": "天氣警報",
+    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=474000&lang=ja",
+    "alert": false
+  },
+  {
     "date": "2026-09-25",
     "source": "沖縄タイムス",
     "title": "ANA客機右引擎故障 緊急返航那霸",
     "summary": "原本飛往佐賀機場的ANA客機，23日晚因右引擎故障返航那霸機場並緊急著陸。24日凌晨抵達的乘客表示，當時有焦味與持續震動，並感到非常恐懼。",
     "category": "交通",
     "url": "http://www.okinawatimes.co.jp/articles/-/1930672",
-    "alert": true
-  },
-  {
-    "date": "2026-09-25",
-    "source": "氣象庁警報",
-    "title": "沖繩本島地區氣象警報・注意報",
-    "summary": "沖繩本島地區在29日中午前需注意突發強降雨與雷擊。",
-    "category": "天氣警報",
-    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=471000&lang=ja",
-    "alert": true
-  },
-  {
-    "date": "2026-09-25",
-    "source": "氣象庁警報",
-    "title": "大東島地區氣象警報與注意報",
-    "summary": "大東島地區請注意突發強降雨與雷擊。",
-    "category": "天氣警報",
-    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=472000&lang=ja",
     "alert": true
   },
   {
@@ -150,24 +303,6 @@
     "summary": "太平洋戰爭中與糸滿市出身父親失散的縣系二世賀數亞德萊達女士，已找到在沖繩的親族。她計畫前往沖繩墓參，並表示得知父親墓地所在後感到很高興。",
     "category": "生活",
     "url": "http://www.okinawatimes.co.jp/articles/-/1930721",
-    "alert": false
-  },
-  {
-    "date": "2026-09-25",
-    "source": "氣象庁警報",
-    "title": "宮古島地方氣象警報・注意報解除",
-    "summary": "宮古島地方的注意報已解除。",
-    "category": "天氣警報",
-    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=473000&lang=ja",
-    "alert": false
-  },
-  {
-    "date": "2026-09-25",
-    "source": "氣象庁警報",
-    "title": "八重山地區氣象警報・注意報解除",
-    "summary": "八重山地區的注意報已解除。",
-    "category": "天氣警報",
-    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=474000&lang=ja",
     "alert": false
   },
   {
@@ -573,141 +708,6 @@
     "summary": "縣小學生秋季手球大會在ANA體育館浦添舉行，進行到男女決賽。女子組神森與宮城戰成26比26後進入7公尺擲球，神森以2比1獲勝，睽違12年拿下第10冠。",
     "category": "生活",
     "url": "http://www.okinawatimes.co.jp/articles/-/1929032",
-    "alert": false
-  },
-  {
-    "date": "2026-09-21",
-    "source": "沖縄タイムス",
-    "title": "情報戰與認知戰擴散 專家解析對立煽動目的",
-    "summary": "全球各地出現被稱為「情報戰」與「認知戰」的活動。除了社群媒體上的假訊息外，煽動人們對立的動向也越來越明顯，專家並說明其目的與因應方式。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928607",
-    "alert": false
-  },
-  {
-    "date": "2026-09-21",
-    "source": "沖縄タイムス",
-    "title": "沖繩天氣預報：9月21日至22日多為晴朗",
-    "summary": "沖繩本島目前受高氣壓影響，天氣晴朗但部分地區有短暫陣雨。21日至22日各地大致可望維持晴天，21日仍可能局部降雨。",
-    "category": "天氣警報",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928582",
-    "alert": false
-  },
-  {
-    "date": "2026-09-21",
-    "source": "沖縄タイムス",
-    "title": "社論：生活支援待機者增加 籲建構老後支援體制",
-    "summary": "各地社會福祉協議會承辦的「日常生活自立支援事業」利用待機者，在2025年度合計達3931人。因人手不足等因素，申請後久未面談或面談後久未簽約的人數較前年度約增加1.4倍。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928463",
-    "alert": false
-  },
-  {
-    "date": "2026-09-21",
-    "source": "沖縄タイムス",
-    "title": "菲律賓遺留二世賀數亞德萊達盼年內訪沖",
-    "summary": "戰前移居菲律賓的沖繩男子與當地女性所生的賀數亞德萊達さん（90），在太平洋戰爭混亂中留在當地。她表示希望年內首次到沖繩，想見父親的親屬並找到父親的墓前往祭拜。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928549",
-    "alert": false
-  },
-  {
-    "date": "2026-09-21",
-    "source": "沖縄タイムス",
-    "title": "名護奪高校橄欖球市長杯六連霸",
-    "summary": "第52屆名護市長杯高中組決賽，名護以36比21擊敗讀谷奪冠。這是名護在疫情期間停賽後，達成六連霸。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928508",
-    "alert": false
-  },
-  {
-    "date": "2026-09-21",
-    "source": "沖縄タイムス",
-    "title": "2026知事選：那霸陣營整合與市長選影響受關注",
-    "summary": "沖繩知事選前，縣內政局出現流動，部分經濟界人士轉向支持玉城丹尼。報導也提到，經濟界雖曾是古謝玄太勝選的推力，但已有「離反」動向，並牽動那霸市長選等後續布局。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928496",
-    "alert": false
-  },
-  {
-    "date": "2026-09-21",
-    "source": "沖縄タイムス",
-    "title": "81歲風帆好手：任何年紀都想待在海上",
-    "summary": "豐見城市81歲的垣花義孝已玩風帆40年以上。報導描述他靠腿力、腹肌與核心在板上保持平衡，熟練操控約10公斤的帆迎風前進。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928477",
-    "alert": false
-  },
-  {
-    "date": "2026-09-21",
-    "source": "沖縄タイムス",
-    "title": "學生採訪企業招募負責人　沖繩時報實習生參與",
-    "summary": "參加沖繩時報實習的學生，對各企業的採用負責人進行了訪問。來自縣內外大學的4名學生，以學生視角提出問題。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928460",
-    "alert": false
-  },
-  {
-    "date": "2026-09-21",
-    "source": "沖縄タイムス",
-    "title": "浦添78歲長者用AI與YouTube推廣詩吟",
-    "summary": "住在浦添市的與儀昌彥（78歲）開設部落格，並透過YouTube影片分享自己喜愛的詩吟魅力。網站建置過程中活用生成AI，並在孫子們協助下製作影片內容。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928452",
-    "alert": false
-  },
-  {
-    "date": "2026-09-21",
-    "source": "沖縄タイムス",
-    "title": "暗夜山道的恐懼：沖繩各地的「魔物坡」",
-    "summary": "文章介紹沖繩各地被稱為「マジムン坂」或「ばーきー坂」的坡道。這些昔日山道多石、雨天泥濘，夜晚更是一片漆黑，令人感到害怕。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928448",
-    "alert": false
-  },
-  {
-    "date": "2026-09-21",
-    "source": "沖縄タイムス",
-    "title": "琉球藍研究所以獨家技術追求更深藍色",
-    "summary": "琉球藍研究所以獨自技術，高濃度抽出琉球藍染料，打造更深藍色的藍染產品。該所從栽培、染料抽取到製品製造皆一貫處理。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928439",
-    "alert": false
-  },
-  {
-    "date": "2026-09-21",
-    "source": "沖縄タイムス",
-    "title": "新里・渡慶次組奪男子A冠軍",
-    "summary": "沖繩市雙打羽球大賽中，新里・渡慶次組在男子A組奪冠。這則報導主要是賽事結果，未提及對旅客的影響。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928435",
-    "alert": false
-  },
-  {
-    "date": "2026-09-21",
-    "source": "沖縄タイムス",
-    "title": "縣博舉辦山城見信展　27日辦座談活動",
-    "summary": "沖繩縣立博物館・美術館19日起舉辦已故畫家山城見信的展覽，展出其從初期到晚年的49件作品，並搭配草圖與筆記。展期至明年3月28日，當日一般票價400日圓。",
-    "category": "觀光",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928422",
-    "alert": false
-  },
-  {
-    "date": "2026-09-21",
-    "source": "沖縄タイムス",
-    "title": "今日賽程｜大相撲秋場所",
-    "summary": "這是沖繩時報紙面刊載的「今日的對戰」與大相撲秋場所相關記事。原文未提供具體比賽內容與影響資訊。",
-    "category": "全國",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928536",
-    "alert": false
-  },
-  {
-    "date": "2026-09-21",
-    "source": "沖縄タイムス",
-    "title": "宮里阿晉級新人王全日本代表戰",
-    "summary": "2026年度職業拳擊新人王錦標賽西部日本與中部日本對抗戰於20日在福岡舉行。宜野灣市出身的宮里阿連以第1回合2分50秒TKO擊敗對手，晉級代表戰。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1928529",
     "alert": false
   }
 ]
