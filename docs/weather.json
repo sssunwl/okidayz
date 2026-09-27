@@ -1,72 +1,72 @@
 [
   {
-    "date": "2026-09-26",
-    "weekday": "六",
-    "icon": "⛈️",
-    "temp_max": 30,
-    "temp_min": 26,
-    "rain_chance": 99,
-    "uv": 7.3,
-    "uv_label": "高"
-  },
-  {
     "date": "2026-09-27",
     "weekday": "日",
-    "icon": "⛈️",
+    "icon": "🌧️",
     "temp_max": 28,
-    "temp_min": 26,
-    "rain_chance": 94,
-    "uv": 6.5,
-    "uv_label": "高"
+    "temp_min": 25,
+    "rain_chance": 100,
+    "uv": 5.2,
+    "uv_label": "中等"
   },
   {
     "date": "2026-09-28",
     "weekday": "一",
     "icon": "⛈️",
-    "temp_max": 28,
+    "temp_max": 29,
     "temp_min": 26,
-    "rain_chance": 73,
-    "uv": 2.9,
-    "uv_label": "低"
+    "rain_chance": 79,
+    "uv": 7.4,
+    "uv_label": "高"
   },
   {
     "date": "2026-09-29",
     "weekday": "二",
-    "icon": "☁️",
+    "icon": "🌧️",
     "temp_max": 29,
-    "temp_min": 27,
-    "rain_chance": 47,
-    "uv": 7.2,
+    "temp_min": 26,
+    "rain_chance": 27,
+    "uv": 7.5,
     "uv_label": "高"
   },
   {
     "date": "2026-09-30",
     "weekday": "三",
-    "icon": "☁️",
-    "temp_max": 29,
-    "temp_min": 26,
-    "rain_chance": 39,
-    "uv": 7.0,
+    "icon": "🌧️",
+    "temp_max": 28,
+    "temp_min": 25,
+    "rain_chance": 29,
+    "uv": 7.2,
     "uv_label": "高"
   },
   {
     "date": "2026-10-01",
     "weekday": "四",
-    "icon": "🌧️",
-    "temp_max": 29,
-    "temp_min": 25,
-    "rain_chance": 49,
-    "uv": 1.2,
-    "uv_label": "低"
+    "icon": "⛈️",
+    "temp_max": 28,
+    "temp_min": 26,
+    "rain_chance": 73,
+    "uv": 7.2,
+    "uv_label": "高"
   },
   {
     "date": "2026-10-02",
     "weekday": "五",
-    "icon": "🌤️",
-    "temp_max": 29,
-    "temp_min": 26,
-    "rain_chance": 37,
-    "uv": 7.0,
+    "icon": "☁️",
+    "temp_max": 30,
+    "temp_min": 25,
+    "rain_chance": 22,
+    "uv": 7.5,
+    "uv_label": "高"
+  },
+  {
+    "date": "2026-10-03",
+    "weekday": "六",
+    "icon": "🌧️",
+    "temp_max": 28,
+    "temp_min": 25,
+    "rain_chance": 43,
+    "uv": 6.8,
     "uv_label": "高"
   }
 ]
