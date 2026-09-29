@@ -1,29 +1,182 @@
 [
   {
+    "date": "2026-09-29",
+    "source": "氣象庁警報",
+    "title": "沖繩本島地方氣象警報・注意報",
+    "summary": "沖繩本島地方到29日中午前，需留意突如其來的強降雨與雷擊。",
+    "category": "天氣警報",
+    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=471000&lang=ja",
+    "alert": true
+  },
+  {
+    "date": "2026-09-29",
+    "source": "氣象庁警報",
+    "title": "大東島地區發布氣象警報與注意報",
+    "summary": "大東島地區需留意突如其來的強降雨與雷擊。請提高警覺，注意天氣變化。",
+    "category": "天氣警報",
+    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=472000&lang=ja",
+    "alert": true
+  },
+  {
+    "date": "2026-09-29",
+    "source": "沖縄タイムス",
+    "title": "沖繩天氣：9月29日至30日多雲偶有雨",
+    "summary": "沖繩本島29日大致晴朗，局部可能有驟雨。30日受氣壓谷影響，預計多雲，部分地區有雨或雷雨。",
+    "category": "天氣警報",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1933488",
+    "alert": false
+  },
+  {
+    "date": "2026-09-29",
+    "source": "沖縄タイムス",
+    "title": "軟式野球秋季中央大會實年組決賽 那霸隊奪冠",
+    "summary": "第152回秋季中央大會軟式野球實年組26、27日在具志川球場舉行。決賽由哈伊賽酒店那霸空港店以3比1擊敗阿拉穆拉不動產，拿下優勝。",
+    "category": "全國",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1933282",
+    "alert": false
+  },
+  {
+    "date": "2026-09-29",
+    "source": "沖縄タイムス",
+    "title": "東正悟、山城珠奈奪下沖繩彈翻床盃A組冠軍",
+    "summary": "沖繩彈翻床盃選手權27日在うるま市具志川ドーム舉行。A組男子由東正悟奪冠，女子由山城珠奈摘下第一。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1933274",
+    "alert": false
+  },
+  {
+    "date": "2026-09-29",
+    "source": "沖縄タイムス",
+    "title": "沖繩首辦U8迷你棒球賽",
+    "summary": "為擴大軟式棒球人口，沖繩縣首次舉辦第1回縣迷你棒球U8大會。賽事於21日在宜野灣市舉行，來自縣內8支部18區塊選出的8隊參加，孩子們在歡呼中開心追球。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1933272",
+    "alert": false
+  },
+  {
+    "date": "2026-09-29",
+    "source": "沖縄タイムス",
+    "title": "玉城知事任期屆滿　最後一天到縣廳",
+    "summary": "擔任沖繩縣政 8 年的玉城知事，在 9 月 29 日任期屆滿日當天上午 9 時多到縣廳上班。之後將於上午 11 時 30 分出席退任記者會。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1933443",
+    "alert": false
+  },
+  {
+    "date": "2026-09-29",
+    "source": "沖縄タイムス",
+    "title": "八重瀬町千戶以上停水　調壓槽設備故障所致",
+    "summary": "南風原町、八重瀬町組成的南部水道企業團表示，八重瀬町新城、後原、大頓部分地區28日傍晚發生停水。原因是供水的新城調壓槽內浮球故障，導致槽體空了，初期影響千戶以上。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1933301",
+    "alert": false
+  },
+  {
+    "date": "2026-09-29",
+    "source": "沖縄タイムス",
+    "title": "沖繩市住宅遭竊　3人涉盜約1000萬日圓遭逮",
+    "summary": "沖繩市一處住宅遭人闖入並竊走現金等物品，縣警已逮捕3名嫌疑人。被害金額約1000萬日圓，3人身分與供述尚未公開。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1933300",
+    "alert": false
+  },
+  {
+    "date": "2026-09-29",
+    "source": "沖縄タイムス",
+    "title": "海自那霸基地60代隊員涉偷拍遭停職3個月",
+    "summary": "海上自衛隊那霸航空基地於28日，對第5航空群司令部一名60多歲海曹做出停職3個月的懲戒處分。該隊員被指今年2月在自宅內，未經對方同意以小型攝影機等偷拍成人民眾的不雅影像。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1933299",
+    "alert": false
+  },
+  {
+    "date": "2026-09-29",
+    "source": "沖縄タイムス",
+    "title": "台風26號遠離沖繩　大東島暴風警報解除",
+    "summary": "強烈台風26號28日晚間持續往東北東移動，正逐漸遠離沖繩。大東島地方的暴風警報已於同日中午解除，氣象廳並呼籲注意伴隨湧浪的高波。",
+    "category": "天氣警報",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1933296",
+    "alert": false
+  },
+  {
+    "date": "2026-09-29",
+    "source": "沖縄タイムス",
+    "title": "遺族捐款2000萬 續挺沖繩女性活動基金",
+    "summary": "支援沖繩女性相關社會活動與研究的「金城芳子基金」，將更名為「金城芳子・由井晶子基金」。已故由井晶子遺族向基金捐贈2000萬元，延續她推動基金成立與運作的志業。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1933291",
+    "alert": false
+  },
+  {
+    "date": "2026-09-29",
+    "source": "沖縄タイムス",
+    "title": "斎場御嶽研擬早朝參拜方案",
+    "summary": "南城市的觀光地區經營法人正研擬在世界文化遺產斎場御嶽推出早朝參拜方案。該法人今年4月起負責斎場御嶽的指定管理，並同時承擔觀光收益與解決在地課題的角色。",
+    "category": "觀光",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1933252",
+    "alert": false
+  },
+  {
+    "date": "2026-09-29",
+    "source": "沖縄タイムス",
+    "title": "鹿兒島銀行進軍沖繩11年　擴大事業融資",
+    "summary": "鹿兒島銀行進入沖繩已滿11年，貸出金餘額達2600億日圓。該行以低利率與放款速度為優勢，近年加強事業性融資，並於今年2月在本島中部新設營業據點。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1933231",
+    "alert": false
+  },
+  {
+    "date": "2026-09-29",
+    "source": "沖縄タイムス",
+    "title": "玉城縣政8年結束　卸任離開縣廳",
+    "summary": "玉城德男知事任滿兩屆8年，今天離開縣廳。其在2018年作為已故翁長雄志知事的接班人參選，並以阻止名護市邊野古新基地建設為訴求勝選。",
+    "category": "全國",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1933218",
+    "alert": false
+  },
+  {
+    "date": "2026-09-29",
+    "source": "沖縄タイムス",
+    "title": "豐見城市長選 新人大田善裕發表15項政策",
+    "summary": "表態參選豐見城市長選的新人、前市議大田善裕宣布15項政策。內容包括檢討大型事業、研議導入租車利用稅，以及推動高中生以下醫療費免費化。",
+    "category": "生活",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1933325",
+    "alert": false
+  },
+  {
+    "date": "2026-09-29",
+    "source": "沖縄タイムス",
+    "title": "嘉手納町長抗議美軍飛彈裝置保管計畫",
+    "summary": "嘉手納町長當山宏赴沖繩防衛局，抗議美軍中距離飛彈發射裝置「泰風」與高機動火箭砲系統「海馬士」將在嘉手納基地保管。抗議文指出，保管期限與地點缺乏明確說明。",
+    "category": "全國",
+    "url": "http://www.okinawatimes.co.jp/articles/-/1933323",
+    "alert": false
+  },
+  {
+    "date": "2026-09-29",
+    "source": "氣象庁警報",
+    "title": "宮古島氣象警報、注意報解除",
+    "summary": "宮古島的氣象注意報已解除。",
+    "category": "天氣警報",
+    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=473000&lang=ja",
+    "alert": false
+  },
+  {
+    "date": "2026-09-29",
+    "source": "氣象庁警報",
+    "title": "八重山地區氣象警報・注意報解除",
+    "summary": "八重山地區的注意報已解除。",
+    "category": "天氣警報",
+    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=474000&lang=ja",
+    "alert": false
+  },
+  {
     "date": "2026-09-28",
     "source": "沖縄タイムス",
     "title": "台風26號逼近　大東島地方發布暴風警報",
     "summary": "因非常強的台風26號接近，沖繩氣象台在28日上午8時13分對大東島地方發布暴風警報。預估台風將在28日中午前最接近，呼籲注意強風與土石災害。",
     "category": "天氣警報",
     "url": "http://www.okinawatimes.co.jp/articles/-/1932628",
-    "alert": true
-  },
-  {
-    "date": "2026-09-28",
-    "source": "氣象庁警報",
-    "title": "沖繩本島地區氣象警報與注意報",
-    "summary": "沖繩本島地區到29日中午前，需注意突如其來的強降雨與雷擊。",
-    "category": "天氣警報",
-    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=471000&lang=ja",
-    "alert": true
-  },
-  {
-    "date": "2026-09-28",
-    "source": "氣象庁警報",
-    "title": "大東島地區氣象警報與注意報",
-    "summary": "大東島地區須留意突然出現的強降雨與雷擊。請提高警覺，注意天候變化。",
-    "category": "天氣警報",
-    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=472000&lang=ja",
     "alert": true
   },
   {
@@ -141,24 +294,6 @@
     "summary": "御茶屋御殿復元期成會將於10月3日上午10點，在那霸市的卡托利克首里教會（信徒會館）舉辦研習會「御茶屋物語」。內容是介紹琉球王朝時代作為迎賓館使用的御茶屋御殿，非會員也可參加，免費入場。",
     "category": "觀光",
     "url": "http://www.okinawatimes.co.jp/articles/-/1932455",
-    "alert": false
-  },
-  {
-    "date": "2026-09-28",
-    "source": "氣象庁警報",
-    "title": "宮古島地方氣象警報・注意報解除",
-    "summary": "宮古島地方的氣象注意報已解除。",
-    "category": "天氣警報",
-    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=473000&lang=ja",
-    "alert": false
-  },
-  {
-    "date": "2026-09-28",
-    "source": "氣象庁警報",
-    "title": "八重山地區氣象注意報解除",
-    "summary": "八重山地區的氣象注意報已解除。",
-    "category": "天氣警報",
-    "url": "https://www.jma.go.jp/bosai/warning/#area_type=class20s&area_code=474000&lang=ja",
     "alert": false
   },
   {
@@ -555,69 +690,6 @@
     "summary": "太平洋戰爭中與糸滿市出身父親失散的縣系二世賀數亞德萊達女士，已找到在沖繩的親族。她計畫前往沖繩墓參，並表示得知父親墓地所在後感到很高興。",
     "category": "生活",
     "url": "http://www.okinawatimes.co.jp/articles/-/1930721",
-    "alert": false
-  },
-  {
-    "date": "2026-09-24",
-    "source": "沖縄タイムス",
-    "title": "那霸飛佐賀的ANA班機緊急降落",
-    "summary": "23日晚間，從那霸飛往佐賀的ANA1502班機在那霸機場第一跑道緊急降落。機上158人全員以逃生滑梯撤離，3人受輕傷，無人重傷。",
-    "category": "交通",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1929872",
-    "alert": true
-  },
-  {
-    "date": "2026-09-24",
-    "source": "沖縄タイムス",
-    "title": "ANA航班在那霸機場緊急著陸",
-    "summary": "23日晚間，從那霸飛往佐賀的全日空1502班機在那霸機場第一跑道緊急著陸。班機起飛後右側引擎發生故障並折返，消防車出動但未進行滅火。",
-    "category": "交通",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1929838",
-    "alert": true
-  },
-  {
-    "date": "2026-09-24",
-    "source": "沖縄タイムス",
-    "title": "ANA班機那霸機場緊急著陸　列重大事件調查",
-    "summary": "日本國土交通省將全日空班機在那霸機場的緊急著陸認定為可能導致事故的重大事件。運輸安全委員會已指派2名航空事故調查官進行原因調查。",
-    "category": "交通",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1929902",
-    "alert": false
-  },
-  {
-    "date": "2026-09-24",
-    "source": "沖縄タイムス",
-    "title": "9月24日至25日沖繩多地晴時有陣雨",
-    "summary": "沖繩本島目前受高氣壓影響，大致為晴天。24日至25日間，沖繩本島、宮古島、八重山與大東島地區預料仍以晴朗為主，但部分地區可能有短暫陣雨。",
-    "category": "天氣警報",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1929901",
-    "alert": false
-  },
-  {
-    "date": "2026-09-24",
-    "source": "沖縄タイムス",
-    "title": "FC琉球さくら出征誓言全力拚升級",
-    "summary": "女子足球FC琉球さくら22日在東風平運動公園足球場舉行壯行會，為9月26日至28日於福島舉行的女子聯賽升降級附加賽預選做準備。球隊向到場支持者表達力拚升級的決心。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1929452",
-    "alert": false
-  },
-  {
-    "date": "2026-09-24",
-    "source": "沖縄タイムス",
-    "title": "捐贈白米150公斤 支援兒童貧困與炊出活動",
-    "summary": "沖繩縣賓果與老虎機協同組合青年部在浦添市，將白米各150公斤贈給兩個團體。受贈對象分別是投入兒童貧困對策的團體，以及進行炊出活動的團體。",
-    "category": "生活",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1929336",
-    "alert": false
-  },
-  {
-    "date": "2026-09-24",
-    "source": "沖縄タイムス",
-    "title": "名古屋舉辦全國縣人會祭　沖繩演出阿波舞",
-    "summary": "第24回「ふるさと全国県人会まつり2026」於5、6日在名古屋市中區的久屋大通公園舉行。活動由東海3縣的縣人會主導，介紹各地祭典、傳統藝能與特產。",
-    "category": "觀光",
-    "url": "http://www.okinawatimes.co.jp/articles/-/1929333",
     "alert": false
   }
 ]
