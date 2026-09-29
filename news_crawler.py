@@ -156,9 +156,13 @@ SYSTEM_PROMPT = """你是幫沖繩旅遊網站 OkiDayz 做新聞整理的編輯�
 2. summary_zh：用 2-3 句繁體中文摘要，只摘要原文寫到的事實，不要杜撰數字、地名或細節，總長度不超過 {max_chars} 字。
 3. category：從這五個裡面選一個最貼切的：{categories}。
 4. alert：如果這則新聞會影響到來沖繩旅遊的旅客（例如颱風、航班或船班停飛、道路封閉、活動取消或異動、生效中的重大天氣警報），設為 true；否則 false。如果內容是「警報／注意報已解除」這種恢復正常的通知，alert 設為 false。
+5. area：從「那霸、北部、中部、南部、離島、全島」選一個；判斷不出來用「全島」。
+6. tourist_impact：這則是否直接影響旅客今天或這幾天的安排，從「high、low、none」選一個。警報、交通管制、颱風、大型活動、設施休館用 high；一般旅遊資訊用 low；完全不影響用 none。
+7. local_life：若是社區祭典、公民館、市場、新開店或在地人日常，設為 true，否則 false。
+8. vibe：若是音樂、DJ、fes、派對、pop-up、街頭文化、古著市集或運動賽事，設為 true，否則 false。
 
 只回傳這個 JSON，不要加其他文字、不要加 markdown code fence：
-{{"title_zh": "...", "summary_zh": "...", "category": "...", "alert": true}}""".format(
+{{"title_zh": "...", "summary_zh": "...", "category": "...", "alert": true, "area": "全島", "tourist_impact": "low", "local_life": false, "vibe": false}}""".format(
     max_chars=SUMMARY_MAX_CHARS, categories="、".join(CATEGORIES)
 )
 
@@ -189,16 +193,37 @@ def summarize(client, source, title_ja, description_ja):
     summary_zh = str(data.get("summary_zh", "")).strip()
     category = str(data.get("category", "")).strip()
     alert = bool(data.get("alert", False))
+    area = str(data.get("area", "")).strip()
+    tourist_impact = str(data.get("tourist_impact", "")).strip()
+    local_life = data.get("local_life", False)
+    vibe = data.get("vibe", False)
 
     if not title_zh or not summary_zh:
         skip("{}：{}".format(source, title_ja[:30]), "標題或摘要是空的")
         return None
     if category not in CATEGORIES:
         category = "生活" if source != "NHK" else "全國"
+    if area not in {"那霸", "北部", "中部", "南部", "離島", "全島"}:
+        area = "全島"
+    if tourist_impact not in {"high", "low", "none"}:
+        tourist_impact = "low"
+    if not isinstance(local_life, bool):
+        local_life = False
+    if not isinstance(vibe, bool):
+        vibe = False
     if len(summary_zh) > SUMMARY_MAX_CHARS:
         summary_zh = summary_zh[:SUMMARY_MAX_CHARS].rstrip() + "…"
 
-    return {"title": title_zh, "summary": summary_zh, "category": category, "alert": alert}
+    return {
+        "title": title_zh,
+        "summary": summary_zh,
+        "category": category,
+        "alert": alert,
+        "area": area,
+        "tourist_impact": tourist_impact,
+        "local_life": local_life,
+        "vibe": vibe,
+    }
 
 
 # ── 主流程 ────────────────────────────────────────────────────────────
@@ -273,6 +298,10 @@ def main():
             "category": summarized["category"],
             "url": item["url"],
             "alert": summarized["alert"],
+            "area": summarized["area"],
+            "tourist_impact": summarized["tourist_impact"],
+            "local_life": summarized["local_life"],
+            "vibe": summarized["vibe"],
         })
         REPORT["summarized"] += 1
 

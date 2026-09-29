@@ -62,6 +62,12 @@ TG 與 Discord #n-okinews 的推播：
 **琉球新報目前沒有公開 RSS**（`/feed/` 會 301 導回首頁），暫時沒收進來源；
 如果之後找到可用端點，加進 `news_crawler.py` 的 `fetch_rss` 呼叫即可。
 
+## 統一訊號檔（`signals.py`）
+
+`signals.py` 會把現有的新聞、氣象警報、未來 60 天活動、「今天是」與一週天氣整理成
+`docs/signals.json`，並附上地區、旅客影響、在地生活感與年輕潮感標籤。新聞與活動 workflow
+會在各自的 JSON 更新後重建這份檔案；任一來源讀取失敗時，該類資料會沿用上一版。
+
 ## 匯率換算（`rates_crawler.py`）
 
 免金鑰的 `open.er-api.com`，每日 07:00 JST 由 `.github/workflows/rates.yml` 抓一次
