@@ -591,6 +591,27 @@ def build_new_events_digest(new_events):
     return "\n".join(lines)
 
 
+def build_news_block(today_iso):
+    """附在每日推播後面:今天的新聞(警報、影響旅客的排前面)＋新聞頁連結。"""
+    from build import SITE_URL
+    try:
+        with open(os.path.join("docs", "news.json"), encoding="utf-8") as f:
+            news = json.load(f)
+    except (OSError, ValueError):
+        news = []
+    today = [n for n in news if n.get("date") == today_iso]
+    today.sort(key=lambda n: (not n.get("alert"), n.get("tourist_impact") != "high"))
+    lines = [f"📰 今日沖繩新聞（{len(today)} 則）→ [看全部]({SITE_URL}news/)"]
+    for n in today[:3]:
+        mark = "⚠️" if n.get("alert") else "・"
+        title = _md_safe(n.get("title", ""))
+        if n.get("url"):
+            lines.append(f"{mark}[{title}]({n['url']})")
+        else:
+            lines.append(f"{mark}{title}")
+    return "\n".join(lines)
+
+
 def send_telegram(text):
     try:  # 同時鏡射到 Discord #n-okinews(失敗不影響 TG)
         from _discord import notify_discord
@@ -657,7 +678,6 @@ def jst_now():
 # ── 主程式 ────────────────────────────────────────────────────────────
 
 def main():
-    is_manual = os.getenv("MANUAL_TRIGGER") == "1"
     now = datetime.now()
 
     if os.getenv("BUILD_ONLY") == "1":
@@ -730,11 +750,12 @@ def main():
         send_telegram(f"➕ 新增活動來源「{SOURCE_TAGS.get(source, source)}」：{count} 筆已收進年曆"
                       "（這次不逐筆通知，之後有新活動才會推）")
 
+    news_block = build_news_block(jst.strftime("%Y-%m-%d"))
     if new_events:
-        send_telegram(build_new_events_digest(new_events))
-
-    if is_manual and not is_weekly and not new_events and not fresh_sources:
-        send_telegram("✅ 今天沒有新上架活動，年曆已更新。")
+        send_telegram(build_new_events_digest(new_events) + "\n\n" + news_block)
+    else:
+        # 沒有新活動的日子也照樣推新聞,每天都看得到
+        send_telegram(news_block)
 
     save_seen(seen | all_urls, known_sources | {e["source"] for e in raw_scraped})
 
