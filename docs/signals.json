@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T10:24:28+09:00",
+  "generated_at": "2026-09-30T10:53:58+09:00",
   "items": [
     {
       "id": "event-7bcff577",
@@ -2342,6 +2342,21 @@
       "vibe": false
     },
     {
+      "id": "weather-949c791c",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週三多雲、週四雷雨、週五有雨、週六有雨、週日有雨、週一有雨、週二有雨；氣溫約 23～29°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-09-30",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "news-6869c803",
       "kind": "news",
       "title": "那霸首里汀良町十五夜獅子舞登場",
@@ -2653,21 +2668,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-20889d5a",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週二有雨、週三晴時多雲、週四雷雨、週五多雲、週六有雨、週日有雨、週一有雨；氣溫約 25～30°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-09-29",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -3746,21 +3746,6 @@
       "date": "2026-08-26",
       "date_end": "2026-09-30",
       "area": "那霸",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "event-3dd1efea",
-      "kind": "event",
-      "title": "南島洞穴探險",
-      "summary": "在沖繩最大型的石灰岩洞穴之一探索神秘的地質特徵",
-      "source": "visitokinawa",
-      "url": "https://www.gyokusendo.co.jp.t.aqs.hp.transer.com/okinawaworld/okinawacavetanken/exploration.html",
-      "date": "2026-07-18",
-      "date_end": "2026-09-30",
-      "area": "全島",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
