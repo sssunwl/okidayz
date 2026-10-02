@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T10:46:06+09:00",
+  "generated_at": "2026-10-02T11:04:26+09:00",
   "items": [
     {
       "id": "today-76699405",
@@ -2822,6 +2822,21 @@
       "vibe": false
     },
     {
+      "id": "weather-463bf9e0",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週五雷雨、週六有雨、週日雷雨、週一有雨、週二有雨、週三多雲、週四晴時多雲；氣溫約 23～30°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-10-02",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "news-f8555f3a",
       "kind": "news",
       "title": "防丟追蹤器遭濫用　跟騷諮詢創679件",
@@ -3148,21 +3163,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-6dcae384",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週四有雨、週五有雨、週六有雨、週日有雨、週一有雨、週二有雨、週三有雨；氣溫約 23～30°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-10-01",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
