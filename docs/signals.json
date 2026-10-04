@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T10:48:13+09:00",
+  "generated_at": "2026-10-04T11:28:19+09:00",
   "items": [
     {
       "id": "today-76699405",
@@ -1022,6 +1022,21 @@
       "vibe": false
     },
     {
+      "id": "event-4da554c2",
+      "kind": "event",
+      "title": "2026 年秋季昌普魯節",
+      "summary": "＼うまいが集まる！笑顔がはじける！🍺✨／ 沖縄最大のクラフトビールイベント「ちゃんぷる～フェスティバル2026秋」 いよいよ11月6日(金)〜8日(日)の3日間、那覇・さいおんスクエアにて開催！ 春に大盛況いただいた熱気 \nThe pos…",
+      "source": "goyah",
+      "url": "https://goyah.net/okinawa_event/archives/9464",
+      "date": "2026-11-06",
+      "date_end": "2026-11-08",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": true
+    },
+    {
       "id": "event-3864097a",
       "kind": "event",
       "title": "彩燈「Eclat de Zanpa」～殘波的閃爍～",
@@ -1189,7 +1204,7 @@
     {
       "id": "event-83250618",
       "kind": "event",
-      "title": "≪Las Luces Season 2026年11月～2027年2月イベント情報≫パティオイルミネーション",
+      "title": "≪拉斯盧塞斯季節 2026 年 11 月～2027 年 2 月 活動資訊≫ 帕蒂油彩燈飾",
       "summary": "",
       "source": "okinawastory",
       "url": "https://www.alivila.co.jp/topics/29990/",
@@ -1427,21 +1442,6 @@
       "vibe": true
     },
     {
-      "id": "event-802c9f4f",
-      "kind": "event",
-      "title": "朱日流 朱・尚子之会 会主披露公演 古典七踊り 心彩七舞",
-      "summary": "日時\n公演日2026/10/25 (日)\n\n開演時間13:30\n終演時間\n\n会場小劇場\n入場料\n一般4,000円高校生以下2,000円当日各500円増\n\n内容\n関連情報\n\n\n問090-8768-7903宮城",
-      "source": "okimeguri",
-      "url": "https://www.nt-okinawa.or.jp/performance-info/detail?performance_id=2862",
-      "date": "2026-10-25",
-      "date_end": "2026-10-25",
-      "area": "南部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "event-a96d6b25",
       "kind": "event",
       "title": "普天滿宮祭",
@@ -1451,6 +1451,21 @@
       "date": "2026-10-25",
       "date_end": "2026-10-25",
       "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-802c9f4f",
+      "kind": "event",
+      "title": "修二流修直子會會長表演 古典七舞 心齋七舞",
+      "summary": "日時\n公演日2026/10/25 (日)\n\n開演時間13:30\n終演時間\n\n会場小劇場\n入場料\n一般4,000円高校生以下2,000円当日各500円増\n\n内容\n関連情報\n\n\n問090-8768-7903宮城",
+      "source": "okimeguri",
+      "url": "https://www.nt-okinawa.or.jp/performance-info/detail?performance_id=2862",
+      "date": "2026-10-25",
+      "date_end": "2026-10-25",
+      "area": "南部",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
@@ -1952,6 +1967,21 @@
       "vibe": true
     },
     {
+      "id": "event-f0f554ba",
+      "kind": "event",
+      "title": "Tedako Pocket Festa ～第49屆浦添Tedako節～",
+      "summary": "かつて浦添が琉球の王都として繁栄した時代、英祖王（えいそおう）を“太陽の子”の意の「てだこ」と称したことに由来する「浦添てだこまつり」が開催されます。16日には前夜祭が行わ...",
+      "source": "jalan",
+      "url": "https://www.jalan.net/event/evt_364078/",
+      "date": "2026-10-17",
+      "date_end": "2026-10-18",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": true
+    },
+    {
       "id": "event-6d6d404c",
       "kind": "event",
       "title": "Churacos in 沖繩兒童王國 Vol.3（Churacos 贊助）",
@@ -2147,21 +2177,6 @@
       "vibe": false
     },
     {
-      "id": "event-146436f3",
-      "kind": "event",
-      "title": "首里で楽しむ首里の酒酔い、宵い",
-      "summary": "首里で楽しむ首里の酒酔い、宵い\n 秋の夜長を彩る、首里の宴 \n    首里城公園では、10月11日日15:0021:00(LO.20:30)まで、首里杜館すいむいかん1F   無料休憩所にて、首里で楽しむ、首里の酒酔い、宵いイベントを開催…",
-      "source": "okimeguri",
-      "url": "https://oki-park.jp/shurijo/events/detail/11366",
-      "date": "2026-10-11",
-      "date_end": "2026-10-11",
-      "area": "那霸",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "event-0e9b9369",
       "kind": "event",
       "title": "第一屆神宮寺祭的通知",
@@ -2237,6 +2252,21 @@
       "vibe": false
     },
     {
+      "id": "event-146436f3",
+      "kind": "event",
+      "title": "在首裡享受首裡的醉夜",
+      "summary": "首里で楽しむ首里の酒酔い、宵い\n 秋の夜長を彩る、首里の宴 \n    首里城公園では、10月11日日15:0021:00(LO.20:30)まで、首里杜館すいむいかん1F   無料休憩所にて、首里で楽しむ、首里の酒酔い、宵いイベントを開催…",
+      "source": "okimeguri",
+      "url": "https://oki-park.jp/shurijo/events/detail/11366",
+      "date": "2026-10-11",
+      "date_end": "2026-10-11",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "event-9756f422",
       "kind": "event",
       "title": "動物十月聯合生日",
@@ -2254,7 +2284,7 @@
     {
       "id": "event-16b90292",
       "kind": "event",
-      "title": "しんか-SHINKA-単独公演2026 こんこんと湧く祈りの波紋にゆらゆら泳ぐサムシング",
+      "title": "Shinka-SHINKA-Solo Performance 2026 在不斷流動的祈禱漣漪中游泳的東西",
       "summary": "日時\n2026年10月11日 (日)\n昼の部 - 開場 12:00開宴 13:00\n夜の部 - 開場 17:00開宴 18:00\n\n場所\n豊見城市立中央公民館 大ホール\n\nチケット\n大人高校生以上・・・1,500\n中学生以下・・・・・・・…",
       "source": "okimeguri",
       "url": "http://shinka2007.com/whatsnew.html",
@@ -2402,6 +2432,21 @@
       "vibe": true
     },
     {
+      "id": "event-c5804363",
+      "kind": "event",
+      "title": "我們來尋找一下吧！令人興奮的種子～讓你的好奇心綻放～在北谷公告",
+      "summary": "一般財団法人 沖縄美ら島財団さんとイベントを開催します。\n標本や解説パネル展示のほか、動物、植物、琉球文化の各専門スタッフとおしゃべりができるはかせとゆんたくや専門スタッフによるワークショップも開催します。\n\n日時2026年10月10日土…",
+      "source": "okinawastory",
+      "url": "https://museum.chatan.jp/news/%e3%81%95%e3%81%8c%e3%81%9d%e3%81%86%ef%bc%81%e3%82%8f%e3%81%8f%e3%82%8f%e3%81%8f%e3%81%ae%e3%82%bf%e3%83%8d%ef%bd%9e%e3%81%82%e3%81%aa%e3%81%9f%e3%81%ae%e5%a5%bd%e5%a5%87%e5%bf%83%e3%81%ae%e8%8a%b1/",
+      "date": "2026-10-10",
+      "date_end": "2026-10-11",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "event-dccedd42",
       "kind": "event",
       "title": "工作坊 讓我們一起打造國立科學博物館日本館",
@@ -2426,21 +2471,6 @@
       "date": "2026-10-10",
       "date_end": "2026-10-10",
       "area": "南部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "event-c5804363",
-      "kind": "event",
-      "title": "さがそう！わくわくのタネ～あなたの好奇心の花を咲かせます～in北谷　開催のお知らせ",
-      "summary": "一般財団法人 沖縄美ら島財団さんとイベントを開催します。\n標本や解説パネル展示のほか、動物、植物、琉球文化の各専門スタッフとおしゃべりができるはかせとゆんたくや専門スタッフによるワークショップも開催します。\n\n日時2026年10月10日土…",
-      "source": "okinawastory",
-      "url": "https://museum.chatan.jp/news/%e3%81%95%e3%81%8c%e3%81%9d%e3%81%86%ef%bc%81%e3%82%8f%e3%81%8f%e3%82%8f%e3%81%8f%e3%81%ae%e3%82%bf%e3%83%8d%ef%bd%9e%e3%81%82%e3%81%aa%e3%81%9f%e3%81%ae%e5%a5%bd%e5%a5%87%e5%bf%83%e3%81%ae%e8%8a%b1/",
-      "date": "2026-10-10",
-      "date_end": "2026-10-11",
-      "area": "中部",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
@@ -2535,6 +2565,21 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": true
+    },
+    {
+      "id": "weather-5e369e50",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週日有雨、週一有雨、週二有雨、週三多雲、週四有雨、週五有雨、週六有雨；氣溫約 22～30°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-10-04",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
     },
     {
       "id": "today-24a6a437",
@@ -2912,21 +2957,6 @@
       "vibe": false
     },
     {
-      "id": "weather-3a72f21b",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週六有雨、週日有雨、週一有雨、週二有雨、週三晴時多雲、週四多雲、週五有雨；氣溫約 22～29°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-10-03",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "news-b5bedba3",
       "kind": "news",
       "title": "首里織等沖繩傳統染織品特賣開幕",
@@ -3167,11 +3197,11 @@
       "vibe": false
     },
     {
-      "id": "event-300580ac",
+      "id": "event-791e199f",
       "kind": "event",
-      "title": "羅姆劇院京都保留劇目 市原佐藤子/Q《Kitty》",
+      "title": "羅姆劇院京都保留劇目 市原佐藤子 Q Kitty",
       "summary": "生と性の規範を根底からくつがえす市原佐都子が放つ宇宙規模の衝撃作。\n社会における不可触なタブーや性をめぐる矛盾を、大胆不敵かつ繊細に問いつづける劇作家・演出家、市原佐都子。今作では家父長制や資本主義、大量生産・消費システムのひずみから生じ…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.nahart.jp/stage/kitty2026100304/",
       "date": "2026-10-03",
       "date_end": "2026-10-04",
@@ -3201,7 +3231,7 @@
       "kind": "event",
       "title": "第46屆野國總觀祭",
       "summary": "おいもの歌大会出場者募集\nNEW\n10月3日土に開催される野國總管まつりにおいて、おいもの歌大会の出場者を募集いたします\n元気いっぱいの歌声をステージで披露してみませんか皆さまのご応募をお待ちしております\n\n開催日時令和8年10月3日土…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.town.kadena.okinawa.jp/events/eve8995.html",
       "date": "2026-10-03",
       "date_end": "2026-10-04",
@@ -3212,11 +3242,11 @@
       "vibe": false
     },
     {
-      "id": "event-6cf3c4d8",
+      "id": "event-bc84bfcf",
       "kind": "event",
-      "title": "第43屆烏納祭與第12屆恩納村美麗海花火大會",
+      "title": "第43屆烏納節 第12屆恩納村美麗海花火大會",
       "summary": "第43回うんなまつりについて\n日時令和8年10月3日(土)・4日(日)\n場所恩納村コミュニティ広場沖縄県国頭郡恩納村恩納Google Map\n臨時駐車場恩納村赤間総合運動場・瀬良垣漁港\n \n\nうんなまつりへのご協賛について\nうんなまつり実…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.vill.onna.okinawa.jp/about/event/1776991022/",
       "date": "2026-10-03",
       "date_end": "2026-10-04",
@@ -3227,11 +3257,11 @@
       "vibe": false
     },
     {
-      "id": "event-052ee728",
+      "id": "event-2eebd5fb",
       "kind": "event",
       "title": "第30屆宜野灣市青少年Eisa節舉行",
       "summary": "第30回宜野湾市青年エイサー祭り開催\n宜野湾市青年連合会、第30回宜野湾市青年エイサー祭り実行委員会では、宜野湾市青年エイサー祭りを下記の日程にて開催致します。当日は、日ごろお世話になっております地域の皆さまへ微力ながらも地域貢献するとの…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.city.ginowan.lg.jp/soshiki/kyoiku/1/3/1_1/20718.html",
       "date": "2026-10-03",
       "date_end": "2026-10-04",
@@ -3246,11 +3276,26 @@
       "kind": "event",
       "title": "北谷夜市",
       "summary": "期間\n・10月3日土\n・10月4日日\n\n時間\n・15:0021:00\n\n会場\n・駐車場エリア\n\n入場無料\n\nSTAGE\nエイサーや地元団体によるショーなど、多彩なステージを開催\n出演者やタイムテーブルなどはWebをチェック!\n\nPLAY…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.aeon-ryukyu.jp/event/",
       "date": "2026-10-03",
       "date_end": "2026-10-04",
       "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
+    },
+    {
+      "id": "event-15c7ad1c",
+      "kind": "event",
+      "title": "八重山產業節",
+      "summary": "八重山の特産品が一堂に並ぶ「八重山の産業まつり」が、2026年は“繋がる島々　ひろがる未来　やいまむん”をテーマに石垣市中央運動公園総合体育館メインアリーナで開催されます。農...",
+      "source": "jalan",
+      "url": "https://www.jalan.net/event/evt_364122/",
+      "date": "2026-10-03",
+      "date_end": "2026-10-04",
+      "area": "離島",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": true,
@@ -3284,21 +3329,6 @@
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "event-857f0bcc",
-      "kind": "event",
-      "title": "2020八重山產業節參展商及舞台表演者招募",
-      "summary": "八重山の特産品が一堂に並ぶ「八重山の産業まつり」が、2026年は“繋がる島々　ひろがる未来　やいまむん”をテーマに石垣市中央運動公園総合体育館メインアリーナで開催されます。農...",
-      "source": "okinawastory",
-      "url": "https://i-syokokai.or.jp/notice/post-4998/",
-      "date": "2026-10-03",
-      "date_end": "2026-10-04",
-      "area": "離島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": true,
       "vibe": false
     },
     {
@@ -4071,7 +4101,7 @@
       "kind": "event",
       "title": "2026年9月29日第36屆沖備連展",
       "summary": "期間\n9月29日火10月4日日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第1展示室第2展示室\n\n入場料\n無料\n\n展示内容\n絵画彫刻陶芸版画\nインスタレーション",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://naha-palette.jp/gallery/event/4927/",
       "date": "2026-09-29",
       "date_end": "2026-10-04",
@@ -4082,11 +4112,11 @@
       "vibe": false
     },
     {
-      "id": "event-3b882851",
+      "id": "event-46411ceb",
       "kind": "event",
-      "title": "2026年09月29日 第31回高良憲義絵画個展　生贄として亡びゆく沖縄",
+      "title": "2026年9月29日第31屆高良則吉繪畫個展沖繩逝世",
       "summary": "期間\n9月29日火10月4日日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第3展示室\n\n入場料\n無料\n\n展示内容\n絵画",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://naha-palette.jp/gallery/event/4930/",
       "date": "2026-09-29",
       "date_end": "2026-10-04",
