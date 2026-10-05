@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T10:07:11+09:00",
+  "generated_at": "2026-10-05T10:45:14+09:00",
   "items": [
     {
       "id": "today-76699405",
@@ -2552,6 +2552,21 @@
       "vibe": false
     },
     {
+      "id": "weather-2434c899",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週一有雨、週二有雨、週三多雲、週四多雲、週五有雨、週六有雨、週日有雨；氣溫約 22～30°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-10-05",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "news-d47662ee",
       "kind": "news",
       "title": "首里城正殿復原紀念合唱會11月1日登場",
@@ -2848,21 +2863,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-5e369e50",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週日有雨、週一有雨、週二有雨、週三多雲、週四有雨、週五有雨、週六有雨；氣溫約 22～30°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-10-04",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
