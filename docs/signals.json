@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T11:23:53+09:00",
+  "generated_at": "2026-10-06T11:46:04+09:00",
   "items": [
     {
       "id": "event-747be041",
@@ -1322,17 +1322,17 @@
       "vibe": false
     },
     {
-      "id": "event-0d219c8a",
+      "id": "event-0915597d",
       "kind": "event",
-      "title": "壺屋八門街節",
-      "summary": "沖縄を代表する“やちむん（焼物）”のまち「壺屋」は、約340年の歴史を誇り、毎年11月に「壺屋やちむん通り祭り」が開催されます。壺屋やちむん通り会の各店舗で焼物の割引販売が行...",
-      "source": "jalan",
-      "url": "https://www.jalan.net/event/evt_364105/",
+      "title": "第21屆壺屋八門街節",
+      "summary": "開催日時2026年10月31日土・11月1日日 10:0017:00\n交通規制は10001700福引景品の受け渡しも17:00までとなります。\n近隣住民の車両が徐行にて通り抜けしますので、歩行の際はお気をつけください。 \n各店舗は概ね18…",
+      "source": "okimeguri",
+      "url": "https://www.instagram.com/p/Ddu8-rAzzsE/",
       "date": "2026-10-31",
       "date_end": "2026-11-01",
       "area": "那霸",
       "category": "活動",
-      "tourist_impact": "low",
+      "tourist_impact": "high",
       "local_life": true,
       "vibe": false
     },
@@ -2387,7 +2387,7 @@
       "vibe": true
     },
     {
-      "id": "event-ee071566",
+      "id": "event-66c85dde",
       "kind": "event",
       "title": "生藤園感恩節2026～敬舊創新～",
       "summary": "今年も、日頃から育陶園を支えてくださる地域の皆さま、お客様への感謝の気持ちを込めて、感謝祭を開催します。\n\n今回のテーマは、古きを重んじ、新を生み出す。\n\n育陶園では、壺屋焼に受け継がれてきた昔ながらの技法やものづくりを大切にしながら、そ…",
@@ -2462,7 +2462,7 @@
       "vibe": true
     },
     {
-      "id": "event-c5804363",
+      "id": "event-72c20fbb",
       "kind": "event",
       "title": "我們來尋找一下吧！令人興奮的種子～讓你的好奇心綻放～在北谷公告",
       "summary": "一般財団法人 沖縄美ら島財団さんとイベントを開催します。\n標本や解説パネル展示のほか、動物、植物、琉球文化の各専門スタッフとおしゃべりができるはかせとゆんたくや専門スタッフによるワークショップも開催します。\n\n日時2026年10月10日土…",
@@ -2533,6 +2533,21 @@
       "area": "南部",
       "category": "活動",
       "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "weather-23189607",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週二多雲、週三多雲、週四有雨、週五有雨、週六有雨、週日有雨、週一有雨；氣溫約 23～29°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-10-06",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -2762,7 +2777,7 @@
       "vibe": false
     },
     {
-      "id": "event-e8c2ef61",
+      "id": "event-e151e540",
       "kind": "event",
       "title": "2026年10月6日第6回桃原紀之個展～震撼心靈的風景～",
       "summary": "期間\n10月6日火10月11日日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第展示室\n\n入場料\n無料\n\n展示内容\n絵画",
@@ -2792,7 +2807,7 @@
       "vibe": false
     },
     {
-      "id": "event-848eb3f4",
+      "id": "event-00477ca6",
       "kind": "event",
       "title": "2026年10月6日攝影師Hiroshi Kamachi𠮷攝影展感受之旅",
       "summary": "",
@@ -2863,21 +2878,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-2434c899",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週一有雨、週二有雨、週三多雲、週四多雲、週五有雨、週六有雨、週日有雨；氣溫約 22～30°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-10-05",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -3109,9 +3109,9 @@
     {
       "id": "event-9fd3f72b",
       "kind": "event",
-      "title": "2026年第六屆QAB CAP PGM錦標賽申請啟動和實施訊息",
+      "title": "2026年度 第6回 QAB CAP PGM CHAMPIONSHIP 申込開始及び実施のご案内",
       "summary": "2026年10月5日月、6日火に開催されます第6回 QAB CAP PGM CHAMPIONSHIPの申し込みが開始いたしました。\n所属クラブがあるお客様は各所属のゴルフ場よりお申し込みくださいませ。\n所属クラブがないお客様につきましては…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://booking.pacificgolf.co.jp/?p=guide.news_detail_page&news_id=61691&cc_id=138",
       "date": "2026-10-05",
       "date_end": "2026-10-06",
@@ -3572,7 +3572,7 @@
       "vibe": false
     },
     {
-      "id": "event-db726395",
+      "id": "event-b9bb4867",
       "kind": "event",
       "title": "舉辦週末限定自助午餐",
       "summary": "",
@@ -3617,7 +3617,7 @@
       "vibe": false
     },
     {
-      "id": "event-47e6075e",
+      "id": "event-591c0ee6",
       "kind": "event",
       "title": "【10月3日（週六）起舉辦！ 】 Merian立體昆蟲插畫展",
       "summary": "",
@@ -3857,7 +3857,7 @@
       "vibe": false
     },
     {
-      "id": "event-14312db0",
+      "id": "event-49eb0f01",
       "kind": "event",
       "title": "[10/2-1/24]中式晚餐自助餐正宗藥膳火鍋展",
       "summary": "",

@@ -1307,7 +1307,7 @@
     "area": "名護市"
   },
   {
-    "name": "【10/2～1/24】中華ディナーオーダーバイキング 本格薬膳火鍋フェア",
+    "name": "中華ディナーオーダーバイキング 本格薬膳火鍋フェア",
     "name_zh": "[10/2-1/24]中式晚餐自助餐正宗藥膳火鍋展",
     "date_start": "2026-10-02",
     "date_end": "2027-01-24",
@@ -1353,7 +1353,7 @@
     "area": "本部町"
   },
   {
-    "name": "【10/3（土）より開催！】メーリアンの立体昆虫図譜展",
+    "name": "メーリアンの立体昆虫図譜展",
     "name_zh": "【10月3日（週六）起舉辦！ 】 Merian立體昆蟲插畫展",
     "date_start": "2026-10-03",
     "date_end": "2027-03-15",
@@ -1368,7 +1368,7 @@
     "official_url": "https://www.southeast-botanical.jp/news/detail.php?id=339"
   },
   {
-    "name": "週末限定ランチブッフェを開催",
+    "name": "週末限定ランチブッフェ",
     "name_zh": "舉辦週末限定自助午餐",
     "date_start": "2026-10-03",
     "date_end": "2026-12-20",
@@ -1411,22 +1411,22 @@
   },
   {
     "name": "2026年度 第6回 QAB CAP PGM CHAMPIONSHIP 申込開始及び実施のご案内",
-    "name_zh": "2026年第六屆QAB CAP PGM錦標賽申請啟動和實施訊息",
+    "name_zh": "",
     "date_start": "2026-10-05",
     "date_end": "2026-10-06",
-    "url": "https://www.okinawastory.jp/event/600023006",
-    "source": "okinawastory",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6706",
+    "source": "okimeguri",
     "category": "",
     "stars": 0,
     "description": "2026年10月5日月、6日火に開催されます第6回 QAB CAP PGM CHAMPIONSHIPの申し込みが開始いたしました。\n所属クラブがあるお客様は各所属のゴルフ場よりお申し込みくださいませ。\n所属クラブがないお客様につきましては、下記申込書をまたは郵送のうえお申込みをお願いいたします。\nなお、お電話にてお申込みされるお客様につきましては、お申込み後3日以内にゴルフリゾート沖縄宛まで申込書",
     "image": "",
-    "location": "ＰＧＭゴルフリゾート沖縄 ・ 沖縄県国頭郡恩納村冨着１０４３",
+    "location": "ＰＧＭゴルフリゾート沖縄 ・ 恩納村",
     "price": "",
     "official_url": "https://booking.pacificgolf.co.jp/?p=guide.news_detail_page&news_id=61691&cc_id=138",
     "area": "恩納村"
   },
   {
-    "name": "2026年10月06日 写真家 蒲池弘𠮷 写真展 Feeling Journey",
+    "name": "写真家 蒲池弘𠮷 写真展 Feeling Journey",
     "name_zh": "2026年10月6日攝影師Hiroshi Kamachi𠮷攝影展感受之旅",
     "date_start": "2026-10-06",
     "date_end": "2026-10-11",
@@ -1441,7 +1441,7 @@
     "official_url": "https://naha-palette.jp/gallery/event/5069/"
   },
   {
-    "name": "2026年10月06日 第6回 桃原典之 個展 ～心揺さぶられた風景たち～",
+    "name": "第6回 桃原典之 個展 ～心揺さぶられた風景たち～",
     "name_zh": "2026年10月6日第6回桃原紀之個展～震撼心靈的風景～",
     "date_start": "2026-10-06",
     "date_end": "2026-10-11",
@@ -1531,7 +1531,7 @@
     "official_url": "https://www.naha-navi.or.jp/magazine/2026/07/49306/"
   },
   {
-    "name": "さがそう！わくわくのタネ～あなたの好奇心の花を咲かせます～in北谷　開催のお知らせ",
+    "name": "さがそう！わくわくのタネ～あなたの好奇心の花を咲かせます～in北谷",
     "name_zh": "我們來尋找一下吧！令人興奮的種子～讓你的好奇心綻放～在北谷公告",
     "date_start": "2026-10-10",
     "date_end": "2026-10-11",
@@ -1547,7 +1547,7 @@
     "area": "北谷町"
   },
   {
-    "name": "育陶園 感謝祭2026 　　～古きを重んじ、新を生み出す～",
+    "name": "育陶園 感謝祭2026　～古きを重んじ、新を生み出す～",
     "name_zh": "生藤園感恩節2026～敬舊創新～",
     "date_start": "2026-10-10",
     "date_end": "2026-10-12",
@@ -2389,22 +2389,6 @@
     "area": "浦添市"
   },
   {
-    "name": "第10回Okinawan Dream 100万人の平和コンサートinよみたん",
-    "name_zh": "第10屆讀谷百萬人沖繩夢想和平音樂會",
-    "date_start": "2026-10-23",
-    "date_end": "2026-10-23",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6762",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "",
-    "image": "",
-    "location": "読谷村運動広場 ・ 読谷村",
-    "price": "免費",
-    "official_url": "https://smileworks620.wixsite.com/peacepiece",
-    "area": "読谷村"
-  },
-  {
     "name": "第回セルラースタジアムムーンライトヨガについて",
     "name_zh": "關於第一屆蜂窩體育場月光瑜伽",
     "date_start": "2026-10-23",
@@ -2419,6 +2403,22 @@
     "price": "有料",
     "official_url": "https://nahataikyo.com/2026/09/01/%E7%AC%AC%EF%BC%98%E5%9B%9E%E3%82%BB%E3%83%AB%E3%83%A9%E3%83%BC%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%A2%E3%83%A0%E3%80%80%E3%83%A0%E3%83%BC%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%88%E3%83%A8%E3%82%AC%E3%81%AB/",
     "area": "那覇市"
+  },
+  {
+    "name": "第10回Okinawan Dream 100万人の平和コンサートinよみたん",
+    "name_zh": "第10屆讀谷百萬人沖繩夢想和平音樂會",
+    "date_start": "2026-10-23",
+    "date_end": "2026-10-23",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6762",
+    "source": "okimeguri",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "",
+    "location": "読谷村運動広場 ・ 読谷村",
+    "price": "免費",
+    "official_url": "https://smileworks620.wixsite.com/peacepiece",
+    "area": "読谷村"
   },
   {
     "name": "沖縄南国イルミネーション",
@@ -2750,20 +2750,20 @@
     "area": "読谷村"
   },
   {
-    "name": "壺屋やちむん通り祭り",
-    "name_zh": "壺屋八門街節",
+    "name": "第21回 壺屋やちむん通り祭り",
+    "name_zh": "第21屆壺屋八門街節",
     "date_start": "2026-10-31",
     "date_end": "2026-11-01",
-    "url": "https://www.jalan.net/event/evt_364105/",
-    "source": "jalan",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6823",
+    "source": "okimeguri",
     "category": "",
     "stars": 0,
-    "description": "沖縄を代表する“やちむん（焼物）”のまち「壺屋」は、約340年の歴史を誇り、毎年11月に「壺屋やちむん通り祭り」が開催されます。壺屋やちむん通り会の各店舗で焼物の割引販売が行...",
+    "description": "開催日時2026年10月31日土・11月1日日 10:0017:00\n交通規制は10001700福引景品の受け渡しも17:00までとなります。\n近隣住民の車両が徐行にて通り抜けしますので、歩行の際はお気をつけください。 \n各店舗は概ね18:00頃まで営業予定です。\n場所壺屋やちむん通り・すーじ小通り\n総合案内那覇市立壺屋焼物博物館098-862-3761\n\nイベント内容\n 通り会各店舗の割引セール",
     "image": "https://www.jalan.net/jalan/img/4/event/0364/KM/e364105a.jpg",
-    "location": "那覇市　壺屋やちむん通り",
+    "location": "壺屋やちむん通り・すーじ小通り ・ 那覇市",
     "price": "",
-    "official_url": "",
-    "area": "那覇"
+    "official_url": "https://www.instagram.com/p/Ddu8-rAzzsE/",
+    "area": "那覇市"
   },
   {
     "name": "龍球魔女マルシェ",
@@ -3200,6 +3200,22 @@
     "area": "西表島"
   },
   {
+    "name": "OIST創立15周年記念コンサート",
+    "name_zh": "OIST 15週年紀念音樂會",
+    "date_start": "2026-11-07",
+    "date_end": "2026-11-07",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6609",
+    "source": "okimeguri",
+    "category": "",
+    "stars": 0,
+    "description": "日付\n2026年11月7日土14:0016:00\n位置\nOIST講堂\n説明\nOIST創立15周年を記念するコンサートを開催します。詳細は後日お知らせいたします。 \n\n全OISTカテゴリー \n文化\n\nOIST カレンダーを購読するには 右クリックしてダウンロードし、カレンダーアプリケーションで開いてください。",
+    "image": "",
+    "location": "OIST講堂 ・ 恩納村",
+    "price": "",
+    "official_url": "https://groups.oist.jp/ja/culture/event/oist-15th-anniversary-celebration-concert",
+    "area": "恩納村"
+  },
+  {
     "name": "ツール・ド・おきなわサイクリングやんばるセンチュリーライド163km",
     "name_zh": "環沖繩自行車山原世紀騎行 163公里",
     "date_start": "2026-11-07",
@@ -3246,22 +3262,6 @@
     "price": "有料",
     "official_url": "https://www.tour-de-okinawa.jp/course-cycling.html",
     "area": "名護市"
-  },
-  {
-    "name": "OIST創立15周年記念コンサート",
-    "name_zh": "OIST 15週年紀念音樂會",
-    "date_start": "2026-11-07",
-    "date_end": "2026-11-07",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6609",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "日付\n2026年11月7日土14:0016:00\n位置\nOIST講堂\n説明\nOIST創立15周年を記念するコンサートを開催します。詳細は後日お知らせいたします。 \n\n全OISTカテゴリー \n文化\n\nOIST カレンダーを購読するには 右クリックしてダウンロードし、カレンダーアプリケーションで開いてください。",
-    "image": "",
-    "location": "OIST講堂 ・ 恩納村",
-    "price": "",
-    "official_url": "https://groups.oist.jp/ja/culture/event/oist-15th-anniversary-celebration-concert",
-    "area": "恩納村"
   },
   {
     "name": "ツール・ド・おきなわサイクリングワルミ大橋・古宇利大橋サイクリング42km",
@@ -3674,22 +3674,6 @@
     "area": "浦添市"
   },
   {
-    "name": "今後の大会スケジュールパチスロハナハナプレゼンツ OZ30th & OZAKI40th BATTLE BIG BONUS 2026 in OKINAWA",
-    "name_zh": "即將到來的比賽日程 Pachislot Hana Hana 在沖繩推出 OZ30th & OZAKI40th BATTLE BIG BONUS 2026",
-    "date_start": "2026-11-14",
-    "date_end": "2026-11-14",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6589",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "",
-    "image": "",
-    "location": "沖縄県立武道館（奥武山公園） ・ 那覇市",
-    "price": "",
-    "official_url": "https://oz-academy.com/archives/13748",
-    "area": "那覇市"
-  },
-  {
     "name": "石垣島フラフェスティバル2026開催決定",
     "name_zh": "石垣島草裙舞節2026即將舉行",
     "date_start": "2026-11-14",
@@ -3704,6 +3688,22 @@
     "price": "",
     "official_url": "https://ishigaki-hulafes.com/news/8380/",
     "area": "石垣島"
+  },
+  {
+    "name": "今後の大会スケジュールパチスロハナハナプレゼンツ OZ30th & OZAKI40th BATTLE BIG BONUS 2026 in OKINAWA",
+    "name_zh": "即將到來的比賽日程 Pachislot Hana Hana 在沖繩推出 OZ30th & OZAKI40th BATTLE BIG BONUS 2026",
+    "date_start": "2026-11-14",
+    "date_end": "2026-11-14",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6589",
+    "source": "okimeguri",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "",
+    "location": "沖縄県立武道館（奥武山公園） ・ 那覇市",
+    "price": "",
+    "official_url": "https://oz-academy.com/archives/13748",
+    "area": "那覇市"
   },
   {
     "name": "ひやみかちなはウォーク2026申込受付開始",
@@ -4122,6 +4122,22 @@
     "area": "浦添市"
   },
   {
+    "name": "第2回 沖縄残波岬夕空絶景マラソン大会",
+    "name_zh": "第2屆沖繩殘波岬日落景觀馬拉松",
+    "date_start": "2026-12-06",
+    "date_end": "2026-12-06",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6055",
+    "source": "okimeguri",
+    "category": "",
+    "stars": 0,
+    "description": "圧倒的に夕陽の美しい残波岬を眺めながら走り、自分をいやそう\n1身近な自然環境を利用して健康生活を目指す。\n2年齢、レベルにあわせて楽しくランニングイベントを親しんでもらう。\n3それぞれの観光資源を再認識し、スポーツを通して賑わい創出を現実にする。",
+    "image": "",
+    "location": "読谷村残波岬公園 ・ 読谷村",
+    "price": "有料",
+    "official_url": "https://www.sportsentry.ne.jp/event/t/104407",
+    "area": "読谷村"
+  },
+  {
     "name": "第40回NAHAマラソン開催決定",
     "name_zh": "第40屆那霸馬拉松即將舉行",
     "date_start": "2026-12-06",
@@ -4152,22 +4168,6 @@
     "price": "有料",
     "official_url": "https://www.instagram.com/yoshihisa_majikina?stkn=NHNkbmk2NXVnY2Rl",
     "area": "浦添市"
-  },
-  {
-    "name": "第2回 沖縄残波岬夕空絶景マラソン大会",
-    "name_zh": "第2屆沖繩殘波岬日落景觀馬拉松",
-    "date_start": "2026-12-06",
-    "date_end": "2026-12-06",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6055",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "圧倒的に夕陽の美しい残波岬を眺めながら走り、自分をいやそう\n1身近な自然環境を利用して健康生活を目指す。\n2年齢、レベルにあわせて楽しくランニングイベントを親しんでもらう。\n3それぞれの観光資源を再認識し、スポーツを通して賑わい創出を現実にする。",
-    "image": "",
-    "location": "読谷村残波岬公園 ・ 読谷村",
-    "price": "有料",
-    "official_url": "https://www.sportsentry.ne.jp/event/t/104407",
-    "area": "読谷村"
   },
   {
     "name": "今天是 ❄️ 大雪",
@@ -4672,6 +4672,22 @@
     "category": "生活",
     "stars": 3,
     "description": "2-22音似「喵喵喵」，散步時常會遇到在街角曬太陽的島貓"
+  },
+  {
+    "name": "第34回 読谷やちむん市 開催決定",
+    "name_zh": "第34屆讀谷Yachimun City舉辦",
+    "date_start": "2027-02-27",
+    "date_end": "2027-02-28",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6822",
+    "source": "okimeguri",
+    "category": "",
+    "stars": 0,
+    "description": "日程が確定いたしました\n\n出店者等、その他詳細につきましては決まり次第こちらでお知らせします。\n\n皆さまのご来場を心よりお待ちしております\n\n \n日程2027年2月27日(土)・28日(日)\n時間10:0017:00\n場所JAゆんた市場前広場駐車場\n\n \nお問い合わせ\n読谷やちむん市実行委員会事務局\n読谷村社会福祉協議会内\n098-958-1020",
+    "image": "",
+    "location": "JAゆんた市場前広場（駐車場） ・ 読谷村",
+    "price": "",
+    "official_url": "https://www.instagram.com/p/Db4P6oHBj83/",
+    "area": "読谷村"
   },
   {
     "name": "今天是 🎎 雛祭り",
