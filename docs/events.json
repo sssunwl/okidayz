@@ -1233,32 +1233,17 @@
     "description": "晝夜再次等長，沖繩秋天溫柔宜人，海水依然溫暖，旅遊旺季正式開始"
   },
   {
-    "name": "沖芸サテライト・ミニ・ギャラリーVol. 20",
-    "name_zh": "舉辦“Okigei Satellite Mini Gallery Vol.20”",
-    "date_start": "2026-09-30",
-    "date_end": "2027-03-29",
-    "url": "https://www.okinawastory.jp/event/600022924",
-    "source": "okinawastory",
-    "category": "",
-    "stars": 0,
-    "description": "",
-    "image": "https://www.okigei.ac.jp/wp-content/uploads/2026/08/opua-satellite-exhibit20.jpg",
-    "location": "沖縄県立図書館　4F ・ 沖縄県那覇市泉崎１丁目２０−１",
-    "price": "免費",
-    "official_url": "https://www.okigei.ac.jp/news/n-2026/%e3%80%8c%e6%b2%96%e8%8a%b8%e3%82%b5%e3%83%86%e3%83%a9%e3%82%a4%e3%83%88%e3%83%bb%e3%83%9f%e3%83%8b%e3%83%bb%e3%82%ae%e3%83%a3%e3%83%a9%e3%83%aa%e3%83%bcvol-20%e3%80%8d%e9%96%8b%e5%82%ac.html"
-  },
-  {
-    "name": "首里城復興祈念　琉球創作人形と絵画で伝える沖縄歴史夢物語　久場とよ・座間味末子作品展",
-    "name_zh": "首里城修復祈禱、透過琉球原創人偶和繪畫傳達沖繩歷史的夢想故事、久場東洋和座間味末子作品展",
+    "name": "首里城復興祈念琉球創作人形と絵画で伝える沖縄歴史夢物語久場とよ・座間味末子作品展",
+    "name_zh": "首里城復興禱告：透過琉球原創人偶和繪畫傳達沖繩歷史的夢幻故事久場東洋和座間味末子作品展",
     "date_start": "2026-09-30",
     "date_end": "2026-10-13",
-    "url": "https://www.okinawastory.jp/event/600022438",
-    "source": "okinawastory",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6247",
+    "source": "okimeguri",
     "category": "",
     "stars": 0,
     "description": "琉球王朝文化の優雅さ及び暮らしに根ざした生活風習を、人形を架け橋として国内は元より世界のウチナーンチュと海外の人に伝えることを目的に、2012年、特定非営利活動法人沖縄県琉球創作人形協会が設立されました。その初代理事長であり画家の久場とよ(1921-2017)と、久場に師事した琉球創作人形作家の座間味末子(1948-)が思いを込めて制作した多彩な作品を紹介します\n会場浦添市美術館企画展示室\n会期9",
-    "image": "https://s3.ap-northeast-1.amazonaws.com/jp.nnear.upload/1781415059173_tirashi01.png",
-    "location": "浦添市美術館 ・ 沖縄県浦添市仲間１丁目９−２",
+    "image": "",
+    "location": "浦添市美術館 ・ 浦添市",
     "price": "有料",
     "official_url": "https://urasoe-artmuseum.jp/exhibition/shuri-castle-revival-okinawa-art-exhibition/",
     "area": "浦添市"
@@ -1408,22 +1393,6 @@
     "price": "有料",
     "official_url": "https://urasoe-artmuseum.jp/event_topic/urushi-kawarinu2026/",
     "area": "浦添市"
-  },
-  {
-    "name": "2026年度 第6回 QAB CAP PGM CHAMPIONSHIP 申込開始及び実施のご案内",
-    "name_zh": "",
-    "date_start": "2026-10-05",
-    "date_end": "2026-10-06",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6706",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "2026年10月5日月、6日火に開催されます第6回 QAB CAP PGM CHAMPIONSHIPの申し込みが開始いたしました。\n所属クラブがあるお客様は各所属のゴルフ場よりお申し込みくださいませ。\n所属クラブがないお客様につきましては、下記申込書をまたは郵送のうえお申込みをお願いいたします。\nなお、お電話にてお申込みされるお客様につきましては、お申込み後3日以内にゴルフリゾート沖縄宛まで申込書",
-    "image": "",
-    "location": "ＰＧＭゴルフリゾート沖縄 ・ 恩納村",
-    "price": "",
-    "official_url": "https://booking.pacificgolf.co.jp/?p=guide.news_detail_page&news_id=61691&cc_id=138",
-    "area": "恩納村"
   },
   {
     "name": "写真家 蒲池弘𠮷 写真展 Feeling Journey",
@@ -2373,6 +2342,22 @@
     "area": "伊平屋島"
   },
   {
+    "name": "第10回Okinawan Dream 100万人の平和コンサートinよみたん",
+    "name_zh": "第10屆讀谷百萬人沖繩夢想和平音樂會",
+    "date_start": "2026-10-23",
+    "date_end": "2026-10-23",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6762",
+    "source": "okimeguri",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "",
+    "location": "読谷村運動広場 ・ 読谷村",
+    "price": "免費",
+    "official_url": "https://smileworks620.wixsite.com/peacepiece",
+    "area": "読谷村"
+  },
+  {
     "name": "かりゆし芸能公演 組踊公演 七期會 初",
     "name_zh": "Kariyushi娛樂表演組舞表演第7年第一次會議",
     "date_start": "2026-10-23",
@@ -2403,22 +2388,6 @@
     "price": "有料",
     "official_url": "https://nahataikyo.com/2026/09/01/%E7%AC%AC%EF%BC%98%E5%9B%9E%E3%82%BB%E3%83%AB%E3%83%A9%E3%83%BC%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%A2%E3%83%A0%E3%80%80%E3%83%A0%E3%83%BC%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%88%E3%83%A8%E3%82%AC%E3%81%AB/",
     "area": "那覇市"
-  },
-  {
-    "name": "第10回Okinawan Dream 100万人の平和コンサートinよみたん",
-    "name_zh": "第10屆讀谷百萬人沖繩夢想和平音樂會",
-    "date_start": "2026-10-23",
-    "date_end": "2026-10-23",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6762",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "",
-    "image": "",
-    "location": "読谷村運動広場 ・ 読谷村",
-    "price": "免費",
-    "official_url": "https://smileworks620.wixsite.com/peacepiece",
-    "area": "読谷村"
   },
   {
     "name": "沖縄南国イルミネーション",
@@ -2655,6 +2624,22 @@
     "description": "國際通り萬聖節遊行是沖繩秋季新興慶典，各式造型扮裝吸引大批人潮"
   },
   {
+    "name": "第21回 壺屋やちむん通り祭り",
+    "name_zh": "第21屆壺屋八門街節",
+    "date_start": "2026-10-31",
+    "date_end": "2026-11-01",
+    "url": "https://www.okinawastory.jp/event/600023134",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "開催日時2026年10月31日土・11月1日日 10:0017:00\n交通規制は10001700福引景品の受け渡しも17:00までとなります。\n近隣住民の車両が徐行にて通り抜けしますので、歩行の際はお気をつけください。 \n各店舗は概ね18:00頃まで営業予定です。\n場所壺屋やちむん通り・すーじ小通り\n総合案内那覇市立壺屋焼物博物館098-862-3761\n\nイベント内容\n 通り会各店舗の割引セール",
+    "image": "https://scontent-itm1-1.cdninstagram.com/v/t51.82787-15/825323453_18216804256350498_503288531564953756_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=Mzk5NDM5ODEwOTEwNjkxMjAwNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTE3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=uVS9h2z_l5gQ7kNvwFwru6i&_nc_oc=Adqdmv4nQmT2WuHSmFqtTcFN0Hq0tA69EWJrKLNGa1KGueXr5ZlJETmuumkhn2p68X4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-itm1-1.cdninstagram.com&_nc_gid=bP4FdzI4HbUTdgijXjIO5Q&_nc_ss=7a22e&oh=00_AQM7-GCTmcFM89yA_2nL-hfSCQDytdvq_6VxgEfjgtc5pQ&oe=6AC91B7A",
+    "location": "壺屋やちむん通り・すーじ小通り ・ 沖縄県那覇市壺屋１丁目",
+    "price": "",
+    "official_url": "https://www.instagram.com/p/Ddu8-rAzzsE/",
+    "area": "那覇市"
+  },
+  {
     "name": "令和８年度沖縄空手アカデミー",
     "name_zh": "2026 沖繩空手道學院",
     "date_start": "2026-10-31",
@@ -2748,22 +2733,6 @@
     "price": "有料",
     "official_url": "https://www.vill.yomitan.okinawa.jp/soshiki/bunka_center/gyomu/shisetsu/bunka_center/7278.html",
     "area": "読谷村"
-  },
-  {
-    "name": "第21回 壺屋やちむん通り祭り",
-    "name_zh": "第21屆壺屋八門街節",
-    "date_start": "2026-10-31",
-    "date_end": "2026-11-01",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6823",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "開催日時2026年10月31日土・11月1日日 10:0017:00\n交通規制は10001700福引景品の受け渡しも17:00までとなります。\n近隣住民の車両が徐行にて通り抜けしますので、歩行の際はお気をつけください。 \n各店舗は概ね18:00頃まで営業予定です。\n場所壺屋やちむん通り・すーじ小通り\n総合案内那覇市立壺屋焼物博物館098-862-3761\n\nイベント内容\n 通り会各店舗の割引セール",
-    "image": "https://www.jalan.net/jalan/img/4/event/0364/KM/e364105a.jpg",
-    "location": "壺屋やちむん通り・すーじ小通り ・ 那覇市",
-    "price": "",
-    "official_url": "https://www.instagram.com/p/Ddu8-rAzzsE/",
-    "area": "那覇市"
   },
   {
     "name": "龍球魔女マルシェ",
@@ -3876,6 +3845,22 @@
     "area": "沖縄市（コザ）・北谷・宜野湾"
   },
   {
+    "name": "第37回宜野湾市産業まつり",
+    "name_zh": "第37屆宜野灣市產業節",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-22",
+    "url": "https://www.jalan.net/event/evt_364080/",
+    "source": "jalan",
+    "category": "",
+    "stars": 0,
+    "description": "地域の産業を紹介する「宜野湾市産業まつり」が、宜野湾海浜公園で開催されます。地元特産品や農作物、工芸品、飲食物など、さまざまな産業に関する製品やサービスが、展示・販売され...",
+    "image": "https://www.jalan.net/jalan/img/4/event/0364/KM/e364080a.jpg",
+    "location": "沖縄県宜野湾市　宜野湾海浜公園",
+    "price": "",
+    "official_url": "",
+    "area": "沖縄市（コザ）・北谷・宜野湾"
+  },
+  {
     "name": "第２回沖縄そばグランプリ",
     "name_zh": "第2屆沖繩蕎麥麵大獎賽",
     "date_start": "2026-11-22",
@@ -4674,17 +4659,17 @@
     "description": "2-22音似「喵喵喵」，散步時常會遇到在街角曬太陽的島貓"
   },
   {
-    "name": "第34回 読谷やちむん市 開催決定",
-    "name_zh": "第34屆讀谷Yachimun City舉辦",
+    "name": "◆第34回 読谷やちむん市 開催決定◆",
+    "name_zh": "◆第34屆讀谷Yachimun City即將召開◆",
     "date_start": "2027-02-27",
     "date_end": "2027-02-28",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6822",
-    "source": "okimeguri",
+    "url": "https://www.okinawastory.jp/event/600023133",
+    "source": "okinawastory",
     "category": "",
     "stars": 0,
     "description": "日程が確定いたしました\n\n出店者等、その他詳細につきましては決まり次第こちらでお知らせします。\n\n皆さまのご来場を心よりお待ちしております\n\n \n日程2027年2月27日(土)・28日(日)\n時間10:0017:00\n場所JAゆんた市場前広場駐車場\n\n \nお問い合わせ\n読谷やちむん市実行委員会事務局\n読谷村社会福祉協議会内\n098-958-1020",
-    "image": "",
-    "location": "JAゆんた市場前広場（駐車場） ・ 読谷村",
+    "image": "https://scontent-itm1-1.cdninstagram.com/v/t51.82787-15/768888307_17990391078031351_4476163538410485363_n.jpg?stp=dst-jpg_e35_s640x640_sh2.08_tt6&_nc_cat=106&ig_cache_key=Mzk2MDk4NTg3MTc2NzE5MTM1MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjAzNi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=0SwJX8EnUwcQ7kNvwH-Pg8K&_nc_oc=AdqrcTD3ymKykKNDNIjOMShjpjTrS9K28nHMm9Hg-A35ohRZechjp2VOqVx7QKOtVWA&_nc_zt=23&_nc_ht=scontent-itm1-1.cdninstagram.com&_nc_gid=zS-YuM0jfSze9SLtcIBQgQ&_nc_ss=7b6a8&oh=00_AQPD0qa5rBr95WxKIDoTasOkRFYkWnaUmWdpKkBkHCFCuQ&oe=6AC8EFAF",
+    "location": "JAゆんた市場前広場（駐車場） ・ 沖縄県中頭郡読谷村喜名２３４６−１１",
     "price": "",
     "official_url": "https://www.instagram.com/p/Db4P6oHBj83/",
     "area": "読谷村"

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T10:43:19+09:00",
+  "generated_at": "2026-10-07T11:10:47+09:00",
   "items": [
     {
       "id": "event-fab75cb8",
@@ -299,6 +299,21 @@
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-3dfe6d0c",
+      "kind": "event",
+      "title": "第37屆宜野灣市產業節",
+      "summary": "地域の産業を紹介する「宜野湾市産業まつり」が、宜野湾海浜公園で開催されます。地元特産品や農作物、工芸品、飲食物など、さまざまな産業に関する製品やサービスが、展示・販売され...",
+      "source": "jalan",
+      "url": "https://www.jalan.net/event/evt_364080/",
+      "date": "2026-11-21",
+      "date_end": "2026-11-22",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
       "vibe": false
     },
     {
@@ -1371,7 +1386,7 @@
       "kind": "event",
       "title": "第21屆壺屋八門街節",
       "summary": "開催日時2026年10月31日土・11月1日日 10:0017:00\n交通規制は10001700福引景品の受け渡しも17:00までとなります。\n近隣住民の車両が徐行にて通り抜けしますので、歩行の際はお気をつけください。 \n各店舗は概ね18…",
-      "source": "okimeguri",
+      "source": "okinawastory",
       "url": "https://www.instagram.com/p/Ddu8-rAzzsE/",
       "date": "2026-10-31",
       "date_end": "2026-11-01",
@@ -2582,6 +2597,21 @@
       "vibe": false
     },
     {
+      "id": "weather-9046b1ff",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週三多雲、週四多雲、週五有雨、週六有雨、週日有雨、週一多雲、週二多雲；氣溫約 23～30°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-10-07",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "news-c7150721",
       "kind": "news",
       "title": "那霸金麥啤酒體驗活動至10月9日",
@@ -2863,21 +2893,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-23189607",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週二多雲、週三多雲、週四有雨、週五有雨、週六有雨、週日有雨、週一有雨；氣溫約 23～29°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-10-06",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -3932,30 +3947,15 @@
       "vibe": false
     },
     {
-      "id": "event-d0036771",
+      "id": "event-b4957f9c",
       "kind": "event",
-      "title": "首里城修復祈禱、透過琉球原創人偶和繪畫傳達沖繩歷史的夢想故事、久場東洋和座間味末子作品展",
+      "title": "首里城復興禱告：透過琉球原創人偶和繪畫傳達沖繩歷史的夢幻故事久場東洋和座間味末子作品展",
       "summary": "琉球王朝文化の優雅さ及び暮らしに根ざした生活風習を、人形を架け橋として国内は元より世界のウチナーンチュと海外の人に伝えることを目的に、2012年、特定非営利活動法人沖縄県琉球創作人形協会が設立されました。その初代理事長であり画家の久場とよ…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://urasoe-artmuseum.jp/exhibition/shuri-castle-revival-okinawa-art-exhibition/",
       "date": "2026-09-30",
       "date_end": "2026-10-13",
       "area": "南部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "event-be65ddcd",
-      "kind": "event",
-      "title": "舉辦“Okigei Satellite Mini Gallery Vol.20”",
-      "summary": "",
-      "source": "okinawastory",
-      "url": "https://www.okigei.ac.jp/news/n-2026/%e3%80%8c%e6%b2%96%e8%8a%b8%e3%82%b5%e3%83%86%e3%83%a9%e3%82%a4%e3%83%88%e3%83%bb%e3%83%9f%e3%83%8b%e3%83%bb%e3%82%ae%e3%83%a3%e3%83%a9%e3%83%aa%e3%83%bcvol-20%e3%80%8d%e9%96%8b%e5%82%ac.html",
-      "date": "2026-09-30",
-      "date_end": "2027-03-29",
-      "area": "那霸",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,

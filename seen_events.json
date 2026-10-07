@@ -15,6 +15,7 @@
     "https://goyah.net/okinawa_event/archives/9440",
     "https://goyah.net/okinawa_event/archives/9449",
     "https://goyah.net/okinawa_event/archives/9464",
+    "https://goyah.net/okinawa_event/archives/9475",
     "https://okimeguri.com/prediction-calendar/details/events/3241",
     "https://okimeguri.com/prediction-calendar/details/events/4439",
     "https://okimeguri.com/prediction-calendar/details/events/5135",
@@ -295,6 +296,7 @@
     "https://www.jalan.net/event/evt_364076/",
     "https://www.jalan.net/event/evt_364078/",
     "https://www.jalan.net/event/evt_364079/",
+    "https://www.jalan.net/event/evt_364080/",
     "https://www.jalan.net/event/evt_364081/",
     "https://www.jalan.net/event/evt_364082/",
     "https://www.jalan.net/event/evt_364083/",
@@ -819,7 +821,9 @@
     "https://www.okinawastory.jp/event/600023123",
     "https://www.okinawastory.jp/event/600023125",
     "https://www.okinawastory.jp/event/600023126",
-    "https://www.okinawastory.jp/event/600023127"
+    "https://www.okinawastory.jp/event/600023127",
+    "https://www.okinawastory.jp/event/600023133",
+    "https://www.okinawastory.jp/event/600023134"
   ],
   "sources": [
     "goyah",
@@ -828,5 +832,5 @@
     "okinawastory",
     "visitokinawa"
   ],
-  "updated": "2026-10-06T02:46:04.595335"
+  "updated": "2026-10-07T02:10:47.212883"
 }
