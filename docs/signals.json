@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T11:11:06+09:00",
+  "generated_at": "2026-10-08T11:36:29+09:00",
   "items": [
     {
       "id": "today-bc5e5804",
@@ -435,6 +435,21 @@
       "tourist_impact": "low",
       "local_life": true,
       "vibe": false
+    },
+    {
+      "id": "event-5ad02258",
+      "kind": "event",
+      "title": "おきなわ国際協力・交流フェスティバル2026",
+      "summary": "世界の文化にふれる「おきなわ国際協力・交流フェスティバル」が、JICA沖縄で開催されます。31回目となる2026年は、民族衣装ファッションショーや世界の歌と踊りが楽しめるステージを...",
+      "source": "jalan",
+      "url": "https://www.jalan.net/event/evt_364120/",
+      "date": "2026-11-15",
+      "date_end": "2026-11-15",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": true
     },
     {
       "id": "event-86c7b093",
@@ -2612,6 +2627,21 @@
       "vibe": false
     },
     {
+      "id": "weather-8373f970",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週四多雲、週五多雲、週六雷雨、週日有雨、週一有雨、週二有雨、週三有雨；氣溫約 23～30°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-10-08",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "news-f9738c70",
       "kind": "news",
       "title": "針對美軍事件再發防止 日美將協商",
@@ -2893,21 +2923,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-9046b1ff",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週三多雲、週四多雲、週五有雨、週六有雨、週日有雨、週一多雲、週二多雲；氣溫約 23～30°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-10-07",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -3932,12 +3947,12 @@
       "vibe": false
     },
     {
-      "id": "event-e1c836b3",
+      "id": "event-2a359293",
       "kind": "event",
-      "title": "今歸仁水花時光 - 沖繩北部今歸仁村的特產－今歸仁西瓜",
-      "summary": "期間2026年10月1日(木)10月31日(土)\n\n本州では秋の空気に包まれていく10月。\n\nけれど、沖縄・やんばるには、まだ夏の開放的な空気が流れています。\n\n青い空、鮮やかな緑、心地よい風。\n\n \n\n海ややんばるの自然を愉しんだあとも…",
-      "source": "okinawastory",
-      "url": "https://twin-line-hotel-yanbaru.jp/post-1916/",
+      "title": "餐廳HALLOWEEN APEROL Spritz 萬聖節 Aperol Spritz",
+      "summary": "期間2026年10月1日(木)31日(土)\n\n鮮やかなオレンジ色が目を惹く、ハロウィンのアペロール・スプリッツ。\n\nイタリア生まれのアペリティーボアペロールは、オレンジを思わせる爽やかな香りと、ハーブやスパイスが織りなすほろ苦さが魅力。…",
+      "source": "okimeguri",
+      "url": "https://twin-line-hotel-yanbaru.jp/post-1879/",
       "date": "2026-10-01",
       "date_end": "2026-10-31",
       "area": "北部",
@@ -3947,12 +3962,12 @@
       "vibe": false
     },
     {
-      "id": "event-2d5bd531",
+      "id": "event-81e09094",
       "kind": "event",
-      "title": "[餐廳] 萬聖節開胃酒 萬聖節開胃酒",
-      "summary": "期間2026年10月1日(木)31日(土)\n\n鮮やかなオレンジ色が目を惹く、ハロウィンのアペロール・スプリッツ。\n\nイタリア生まれのアペリティーボアペロールは、オレンジを思わせる爽やかな香りと、ハーブやスパイスが織りなすほろ苦さが魅力。…",
-      "source": "okinawastory",
-      "url": "https://twin-line-hotel-yanbaru.jp/post-1879/",
+      "title": "今歸仁水花時間沖繩北部今歸仁村的特產今歸仁西瓜半球",
+      "summary": "期間2026年10月1日(木)10月31日(土)\n\n本州では秋の空気に包まれていく10月。\n\nけれど、沖縄・やんばるには、まだ夏の開放的な空気が流れています。\n\n青い空、鮮やかな緑、心地よい風。\n\n \n\n海ややんばるの自然を愉しんだあとも…",
+      "source": "okimeguri",
+      "url": "https://twin-line-hotel-yanbaru.jp/post-1916/",
       "date": "2026-10-01",
       "date_end": "2026-10-31",
       "area": "北部",
