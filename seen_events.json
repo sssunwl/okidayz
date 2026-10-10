@@ -307,6 +307,7 @@
     "https://okimeguri.com/prediction-calendar/details/events/6869",
     "https://okimeguri.com/prediction-calendar/details/events/6870",
     "https://okimeguri.com/prediction-calendar/details/events/6871",
+    "https://okimeguri.com/prediction-calendar/details/events/6872",
     "https://visitokinawajapan.com/zh-hant/discover/events/cave-exploration-southern-okinawa/",
     "https://visitokinawajapan.com/zh-hant/discover/events/eisa-night/",
     "https://visitokinawajapan.com/zh-hant/discover/events/itoman-hare/",
@@ -873,7 +874,8 @@
     "https://www.okinawastory.jp/event/600023182",
     "https://www.okinawastory.jp/event/600023184",
     "https://www.okinawastory.jp/event/600023186",
-    "https://www.okinawastory.jp/event/600023187"
+    "https://www.okinawastory.jp/event/600023187",
+    "https://www.okinawastory.jp/event/600023189"
   ],
   "sources": [
     "goyah",
@@ -882,5 +884,5 @@
     "okinawastory",
     "visitokinawa"
   ],
-  "updated": "2026-10-09T02:52:32.958793"
+  "updated": "2026-10-10T02:11:21.988928"
 }

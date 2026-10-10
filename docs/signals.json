@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T10:51:43+09:00",
+  "generated_at": "2026-10-10T11:11:22+09:00",
   "items": [
     {
       "id": "today-bc5e5804",
@@ -1849,7 +1849,7 @@
     {
       "id": "event-51a03c96",
       "kind": "event",
-      "title": "沖縄南国イルミネーション 2026-2027",
+      "title": "沖繩熱帶燈飾2026-2027",
       "summary": "ヤシの木など南国の雰囲気が溢れ、カピバラやリスザルなどの動物とも出会える日本最大級の屋外植物園「美らヤシパークオキナワ・東南植物楽園」で、「沖縄南国イルミネーション」が開...",
       "source": "okinawastory",
       "url": "https://www.southeast-botanical.jp/illumination/",
@@ -2117,6 +2117,21 @@
       "vibe": false
     },
     {
+      "id": "event-2ac1546f",
+      "kind": "event",
+      "title": "金城哲夫生誕地イベント2026",
+      "summary": "10/17(土)・10/18(日) 金城哲夫展in那覇空港\n10/31(土)11001830・11/1(日)10001830 金城哲夫展\n11/1(日)1100 ウルトラマン上映会ウルトラマンテオショー\n観覧無料。ウルトラマンテオショーに…",
+      "source": "okinawastory",
+      "url": "https://www.haebaru-kankou.jp",
+      "date": "2026-10-17",
+      "date_end": "2026-11-01",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "event-1a5814e6",
       "kind": "event",
       "title": "豐見城產業祭",
@@ -2312,21 +2327,6 @@
       "vibe": true
     },
     {
-      "id": "event-5934a645",
-      "kind": "event",
-      "title": "第10回梧桐会主催大東文化大学書作展",
-      "summary": "第10回梧桐会主催大東文化大学書作展\n書道で有名な大東文化大学による書道作品展。\n会員には沖展の審査会員が複数名おり、漢字・かな・篆刻等のハイレベルな書道作品群を陳列予定\n\n第10回展を記念し、鄭嘉訓行書巻を中心に、掛軸、扇面等の特別企画…",
-      "source": "okimeguri",
-      "url": "https://urasoe-artmuseum.jp/exhibition/gotokai-daito-ob-shosaten10th-2026/",
-      "date": "2026-10-16",
-      "date_end": "2026-10-18",
-      "area": "南部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "event-bc6fa8ba",
       "kind": "event",
       "title": "現代版的組舞「北子的甘和」～秋季公演～",
@@ -2347,6 +2347,21 @@
       "title": "後藤會主辦第10屆大東文化大學校友書法展",
       "summary": "",
       "source": "okinawastory",
+      "url": "https://urasoe-artmuseum.jp/exhibition/gotokai-daito-ob-shosaten10th-2026/",
+      "date": "2026-10-16",
+      "date_end": "2026-10-18",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-5934a645",
+      "kind": "event",
+      "title": "後藤會主辦第10屆大東文化大學書法展",
+      "summary": "第10回梧桐会主催大東文化大学書作展\n書道で有名な大東文化大学による書道作品展。\n会員には沖展の審査会員が複数名おり、漢字・かな・篆刻等のハイレベルな書道作品群を陳列予定\n\n第10回展を記念し、鄭嘉訓行書巻を中心に、掛軸、扇面等の特別企画…",
+      "source": "okimeguri",
       "url": "https://urasoe-artmuseum.jp/exhibition/gotokai-daito-ob-shosaten10th-2026/",
       "date": "2026-10-16",
       "date_end": "2026-10-18",
@@ -2464,7 +2479,7 @@
     {
       "id": "event-49510a77",
       "kind": "event",
-      "title": "2026年10月13日 52周年沖縄女流美術展",
+      "title": "2026年10月13日 52週年沖繩女性藝術展",
       "summary": "期間\n10月13日火10月18日日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第1展示室第展示室\n\n入場料\n無料\n\n展示内容\n絵画彫刻インスタレーションなど",
       "source": "okinawastory",
       "url": "https://naha-palette.jp/gallery/event/5075/",
@@ -2684,6 +2699,21 @@
       "category": "活動",
       "tourist_impact": "low",
       "local_life": true,
+      "vibe": false
+    },
+    {
+      "id": "weather-2c585101",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週六有雨、週日雷雨、週一有雨、週二有雨、週三有雨、週四晴時多雲、週五有雨；氣溫約 23～29°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-10-10",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
       "vibe": false
     },
     {
@@ -3283,21 +3313,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-7e0b1631",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週五有雨、週六有雨、週日有雨、週一有雨、週二有雨、週三有雨、週四有雨；氣溫約 24～30°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-10-09",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -4277,41 +4292,11 @@
       "vibe": false
     },
     {
-      "id": "event-b9bb4867",
-      "kind": "event",
-      "title": "舉辦週末限定自助午餐",
-      "summary": "",
-      "source": "okinawastory",
-      "url": "https://prtimes.jp/main/html/rd/p/000002827.000011305.html",
-      "date": "2026-10-03",
-      "date_end": "2026-12-20",
-      "area": "北部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "event-8142d431",
-      "kind": "event",
-      "title": "第一屆棕櫚皇家豐崎棕櫚樹路跑步與步行",
-      "summary": "",
-      "source": "okinawastory",
-      "url": "https://www.sportsentry.ne.jp/event/t/106173",
-      "date": "2026-10-03",
-      "date_end": "2027-03-06",
-      "area": "南部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "event-cb2644f9",
       "kind": "event",
       "title": "笠原梨花藝術展",
       "summary": "笠原利香石垣島の愉快な生き物たち絵画展\n\nホテルエメラルドアイル石垣島2Fギャラリー\n\n2026年10月3日(土25日(日\n\n10001900入場無料\n\n \n\n笠原利香プロフィール\n\n年に神戸に生まれて神戸で育ちました。\n\n高校を卒業後、…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://isle.okinawa/news/archives/1567",
       "date": "2026-10-03",
       "date_end": "2026-10-25",
@@ -4322,30 +4307,15 @@
       "vibe": false
     },
     {
-      "id": "event-08064833",
+      "id": "event-6457766c",
       "kind": "event",
-      "title": "【數量有限】\n 致觀看琉球舞蹈活動的顧客\n 夜間行為沖繩蕎麥麵免費送",
+      "title": "數量有限 參加琉球舞蹈活動的顧客 夜間行為 沖繩蕎麥麵免費分送",
       "summary": "10月の毎週土曜日、琉球舞踊イベントをご鑑賞のお客様へ、夜の振る舞いとして沖縄そばを無料でお配りします。\n沖縄の文化とともに、温かい沖縄そばをお楽しみください。\n\n開催日\n10月3日・10日・17日・24日・31日毎週土曜日\n\n配布時間…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.motobu-green.com/news/20260928.html",
       "date": "2026-10-03",
       "date_end": "2026-10-31",
       "area": "北部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "event-591c0ee6",
-      "kind": "event",
-      "title": "【10月3日（週六）起舉辦！ 】 Merian立體昆蟲插畫展",
-      "summary": "",
-      "source": "okinawastory",
-      "url": "https://www.southeast-botanical.jp/news/detail.php?id=339",
-      "date": "2026-10-03",
-      "date_end": "2027-03-15",
-      "area": "中部",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
