@@ -1,21 +1,11 @@
 [
   {
-    "date": "2026-10-10",
-    "weekday": "六",
-    "icon": "🌧️",
-    "temp_max": 29,
-    "temp_min": 25,
-    "rain_chance": 99,
-    "uv": 4.3,
-    "uv_label": "中等"
-  },
-  {
     "date": "2026-10-11",
     "weekday": "日",
-    "icon": "⛈️",
-    "temp_max": 28,
-    "temp_min": 23,
-    "rain_chance": 96,
+    "icon": "🌧️",
+    "temp_max": 29,
+    "temp_min": 24,
+    "rain_chance": 94,
     "uv": 7.0,
     "uv_label": "高"
   },
@@ -24,9 +14,9 @@
     "weekday": "一",
     "icon": "🌧️",
     "temp_max": 28,
-    "temp_min": 24,
-    "rain_chance": 88,
-    "uv": 5.5,
+    "temp_min": 23,
+    "rain_chance": 97,
+    "uv": 5.6,
     "uv_label": "中等"
   },
   {
@@ -35,37 +25,47 @@
     "icon": "🌧️",
     "temp_max": 28,
     "temp_min": 24,
-    "rain_chance": 89,
-    "uv": 6.2,
-    "uv_label": "高"
+    "rain_chance": 84,
+    "uv": 5.3,
+    "uv_label": "中等"
   },
   {
     "date": "2026-10-14",
     "weekday": "三",
     "icon": "🌧️",
-    "temp_max": 28,
+    "temp_max": 29,
     "temp_min": 24,
-    "rain_chance": 50,
-    "uv": 5.8,
-    "uv_label": "中等"
+    "rain_chance": 59,
+    "uv": 6.2,
+    "uv_label": "高"
   },
   {
     "date": "2026-10-15",
     "weekday": "四",
     "icon": "🌤️",
-    "temp_max": 28,
+    "temp_max": 27,
     "temp_min": 23,
-    "rain_chance": 8,
+    "rain_chance": 7,
     "uv": 6.8,
     "uv_label": "高"
   },
   {
     "date": "2026-10-16",
     "weekday": "五",
-    "icon": "🌧️",
-    "temp_max": 28,
+    "icon": "☁️",
+    "temp_max": 30,
     "temp_min": 23,
-    "rain_chance": 53,
+    "rain_chance": 50,
+    "uv": 6.5,
+    "uv_label": "高"
+  },
+  {
+    "date": "2026-10-17",
+    "weekday": "六",
+    "icon": "🌧️",
+    "temp_max": 29,
+    "temp_min": 25,
+    "rain_chance": 55,
     "uv": 6.8,
     "uv_label": "高"
   }

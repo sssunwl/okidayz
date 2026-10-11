@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T10:07:23+09:00",
+  "generated_at": "2026-10-11T10:40:52+09:00",
   "items": [
     {
       "id": "today-bc5e5804",
@@ -389,6 +389,21 @@
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-1e0eeb3d",
+      "kind": "event",
+      "title": "小濱島婚禮",
+      "summary": "小浜島の「結願祭」は、島の年中行事の中でも豊年祭と並ぶ大きな祭りで、島民の心をひとつにする機会となっています。旧暦8月の戊亥のスクミから始まり、翌日の己子のショーニチにか...",
+      "source": "jalan",
+      "url": "https://www.jalan.net/event/evt_364097/",
+      "date": "2026-11-21",
+      "date_end": "2026-11-23",
+      "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
       "vibe": false
     },
     {
@@ -2119,7 +2134,7 @@
     {
       "id": "event-2ac1546f",
       "kind": "event",
-      "title": "金城哲夫生誕地イベント2026",
+      "title": "金城哲夫出生地活動 2026",
       "summary": "10/17(土)・10/18(日) 金城哲夫展in那覇空港\n10/31(土)11001830・11/1(日)10001830 金城哲夫展\n11/1(日)1100 ウルトラマン上映会ウルトラマンテオショー\n観覧無料。ウルトラマンテオショーに…",
       "source": "okinawastory",
       "url": "https://www.haebaru-kankou.jp",
@@ -2582,6 +2597,21 @@
       "vibe": true
     },
     {
+      "id": "weather-0fc8682e",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週日有雨、週一有雨、週二有雨、週三有雨、週四晴時多雲、週五多雲、週六有雨；氣溫約 23～30°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-10-11",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "news-387ab10f",
       "kind": "news",
       "title": "那霸市長選倒數1週　4人表態參選",
@@ -2987,21 +3017,6 @@
       "vibe": false
     },
     {
-      "id": "weather-2c585101",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週六有雨、週日雷雨、週一有雨、週二有雨、週三有雨、週四晴時多雲、週五有雨；氣溫約 23～29°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-10-10",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "news-c12c2387",
       "kind": "news",
       "title": "駐沖美軍進入30天反省期 夜間禁外出",
@@ -3257,6 +3272,21 @@
       "vibe": true
     },
     {
+      "id": "event-fb414912",
+      "kind": "event",
+      "title": "首里城美食节将于10/10（周六）、10/11（周日）举办！ ！",
+      "summary": "持込イベント飯フェスin首里城 \n首里城復興応援イベント飯フェスin首里城\nキッチンカー、テント出店でおもてなしします。\n皆様のご来場をお待ちしております。\n \nまた、会場内で首里城復興支援の募金に協力して頂いた方には、\n記念品として破損…",
+      "source": "okimeguri",
+      "url": "https://oki-park.jp/shurijo/events/detail/11421",
+      "date": "2026-10-10",
+      "date_end": "2026-10-11",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": true
+    },
+    {
       "id": "event-943fba7c",
       "kind": "event",
       "title": "那霸大拔河祭",
@@ -3291,7 +3321,7 @@
       "kind": "event",
       "title": "第38屆全島醒獅節",
       "summary": "月夜に舞う獅子の催し、今年も開催決定。伝統は、進化する。\n\n日時\n2026年10月10日土曜日 前夜祭勝連城スカイランタン宵祭り\n2026年10月11日日曜日 本祭り第38回全島獅子舞フェスティバル\n新着情報\nNEW前夜祭勝連城スカイラン…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.city.uruma.lg.jp/3001005000/contents/p000035.html",
       "date": "2026-10-10",
       "date_end": "2026-10-11",
@@ -3317,11 +3347,11 @@
       "vibe": false
     },
     {
-      "id": "event-4ef7c32a",
+      "id": "event-d2c7eca0",
       "kind": "event",
       "title": "海洋博公園美麗海秋季特別2026海洋博公園本部美食文化節",
       "summary": "海洋博公園では、小さなお子さまから大人まで家族みんなで楽しめる秋のイベントとして9月19日(土)11月29日(日)の期間中に、海洋博美ら海オータムスペシャル2026を開催します\nこどもに大人気のふわふわボ ール遊びや、昨年大好評を博した植…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://oki-park.jp/kaiyohaku/events/detail/11315",
       "date": "2026-10-10",
       "date_end": "2026-10-11",
@@ -3332,11 +3362,11 @@
       "vibe": true
     },
     {
-      "id": "event-72c20fbb",
+      "id": "event-f849f529",
       "kind": "event",
-      "title": "我們來尋找一下吧！令人興奮的種子～讓你的好奇心綻放～在北谷公告",
+      "title": "北谷令人興奮的種子搜尋活動的通知，讓您的好奇心綻放",
       "summary": "一般財団法人 沖縄美ら島財団さんとイベントを開催します。\n標本や解説パネル展示のほか、動物、植物、琉球文化の各専門スタッフとおしゃべりができるはかせとゆんたくや専門スタッフによるワークショップも開催します。\n\n日時2026年10月10日土…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://museum.chatan.jp/news/%e3%81%95%e3%81%8c%e3%81%9d%e3%81%86%ef%bc%81%e3%82%8f%e3%81%8f%e3%82%8f%e3%81%8f%e3%81%ae%e3%82%bf%e3%83%8d%ef%bd%9e%e3%81%82%e3%81%aa%e3%81%9f%e3%81%ae%e5%a5%bd%e5%a5%87%e5%bf%83%e3%81%ae%e8%8a%b1/",
       "date": "2026-10-10",
       "date_end": "2026-10-11",
@@ -3345,21 +3375,6 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false
-    },
-    {
-      "id": "event-c8227ca2",
-      "kind": "event",
-      "title": "將於10/10(週六)、10/11(週日)舉辦「首里城美食節」！ ！",
-      "summary": "持込イベント飯フェスin首里城 \n首里城復興応援イベント飯フェスin首里城\nキッチンカー、テント出店でおもてなしします。\n皆様のご来場をお待ちしております。\n \nまた、会場内で首里城復興支援の募金に協力して頂いた方には、\n記念品として破損…",
-      "source": "okinawastory",
-      "url": "https://oki-park.jp/shurijo/events/detail/11421",
-      "date": "2026-10-10",
-      "date_end": "2026-10-11",
-      "area": "那霸",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": true
     },
     {
       "id": "event-13ff9c5c",
@@ -3602,11 +3617,11 @@
       "vibe": false
     },
     {
-      "id": "event-6336c7be",
+      "id": "event-aff5ad50",
       "kind": "event",
-      "title": "綠香檳-Vol.2-",
+      "title": "綠色CHAMPUROO-Vol.2-",
       "summary": "珍奇・熱帯・逸品が混ざる緑の混沌市\nGREEN CHAMPUROO -Vol.2-\n県内外の植物専門店が沖縄に集結。今しか出会えない一鉢が、ここにある。\n県内だけでなく県外からも人気業者が集結し、植物業界の最新トレンドを体感できるほか、普…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://oki-park.jp/kaiyohaku/events/detail/11319",
       "date": "2026-10-09",
       "date_end": "2026-10-11",
@@ -4067,11 +4082,11 @@
       "vibe": false
     },
     {
-      "id": "event-e151e540",
+      "id": "event-8f5379c4",
       "kind": "event",
-      "title": "2026年10月6日第6回桃原紀之個展～震撼心靈的風景～",
+      "title": "2026年10月6日第六屆桃原紀之個展：感動我的風景",
       "summary": "期間\n10月6日火10月11日日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第展示室\n\n入場料\n無料\n\n展示内容\n絵画",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://naha-palette.jp/gallery/event/5072/",
       "date": "2026-10-06",
       "date_end": "2026-10-11",
@@ -4097,26 +4112,11 @@
       "vibe": false
     },
     {
-      "id": "event-00477ca6",
-      "kind": "event",
-      "title": "2026年10月6日攝影師Hiroshi Kamachi𠮷攝影展感受之旅",
-      "summary": "",
-      "source": "okinawastory",
-      "url": "https://naha-palette.jp/gallery/event/5069/",
-      "date": "2026-10-06",
-      "date_end": "2026-10-11",
-      "area": "那霸",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "event-870700e4",
       "kind": "event",
-      "title": "令和八年彩畫班",
+      "title": "2026年著色班",
       "summary": "漆を塗り重ねて研ぎ出したり、様な素材を使って独特の質感や色、模様を生み出す技法を変わり塗りといいます。全7回の本教室では、変わり塗りのお皿を制作します。\n講師大見謝恒雄氏(漆芸家)\n場所浦添市美術館実習室\n開催日令和年10月4日、11日、…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://urasoe-artmuseum.jp/event_topic/urushi-kawarinu2026/",
       "date": "2026-10-04",
       "date_end": "2026-11-15",
