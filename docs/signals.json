@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T12:06:41+09:00",
+  "generated_at": "2026-10-13T12:25:23+09:00",
   "items": [
     {
       "id": "event-9259e692",
@@ -1292,6 +1292,21 @@
       "vibe": false
     },
     {
+      "id": "event-428f9b40",
+      "kind": "event",
+      "title": "「クリスマスを、1日で終わらせない」 約2カ月間にわたる「フェスティブシーズン2026」開催 〜ブッフェ、アフタヌーンティー、鉄板焼、音楽、宿泊まで多彩な体験を展開〜",
+      "summary": "沖縄ハーバービューホテル（沖縄県那覇市泉崎2-46）は、2026年11月4日（水）から12月25日（金）まで、「フェスティブシーズン2026」を開催します。ブッフェやアフタヌーンティー、鉄板焼の限定メニューに加え、生演奏 \nThe pos…",
+      "source": "goyah",
+      "url": "https://goyah.net/okinawa_event/archives/9518",
+      "date": "2026-11-04",
+      "date_end": "2026-11-04",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": true
+    },
+    {
       "id": "today-926950bc",
       "kind": "today",
       "title": "🎭 文化の日",
@@ -1742,6 +1757,21 @@
       "vibe": false
     },
     {
+      "id": "event-891137a2",
+      "kind": "event",
+      "title": "【10/25】新エントランス リニューアル記念！エイサー特別演舞",
+      "summary": "いつもCAVE OKINAWAをご愛顧いただき、誠にありがとうございます。 このたび、CAVE OKINAWAの新エントランスリニューアルオープンを記念いたしまして、2026年10月25日（日）に豪華出演団体によるエイサ \nThe pos…",
+      "source": "goyah",
+      "url": "https://goyah.net/okinawa_event/archives/9530",
+      "date": "2026-10-25",
+      "date_end": "2026-10-25",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
+    },
+    {
       "id": "event-d3998c92",
       "kind": "event",
       "title": "Aramahaina Condo Hotel 七週年紀念活動書法藝術琉球古典音樂月花信息",
@@ -2132,7 +2162,7 @@
       "vibe": false
     },
     {
-      "id": "event-b9206176",
+      "id": "event-e0f6745e",
       "kind": "event",
       "title": "雲壇座美術館特別展「千花仁作品展：邊界1990-2024」（10/17-11/23）",
       "summary": "知花均氏は、令和8年度から世界遺産座喜味城跡ユンタンザミュージアムの館長に就任しました。本展は、専門分野のひとつである版画作品を中心とした個展となります。多くの皆様のご来館をお待ちしております。\n\n企画展名知花均作品展 境界性を巡って19…",
@@ -2147,7 +2177,7 @@
       "vibe": false
     },
     {
-      "id": "event-a1df943e",
+      "id": "event-964c1df5",
       "kind": "event",
       "title": "關於“第40屆豐見城節/第11屆豐見城工業節”",
       "summary": "イベント情報\n開催日\n令和8年10月17日土曜日、18日日曜日\n\n\n開催場所\n・とみぐすく祭り 豊崎海浜公園北側多目的広場\n・とみぐすく産業フェスタイーアス沖縄豊崎\n\n\n詳細につきましては、決まり次第こちらのページで順次公開いたします。…",
@@ -2252,7 +2282,7 @@
       "vibe": false
     },
     {
-      "id": "event-f3cced4a",
+      "id": "event-da60a6d1",
       "kind": "event",
       "title": "沖繩觀光鬥牛活動的通知",
       "summary": "",
@@ -2312,7 +2342,7 @@
       "vibe": true
     },
     {
-      "id": "event-6d6d404c",
+      "id": "event-f1c2e3d2",
       "kind": "event",
       "title": "Churacos in 沖繩兒童王國 Vol.3（Churacos 贊助）",
       "summary": "開催日\n2026年10月17日土・18日日\n沖縄こどもの国を会場として、コスプレイベントちゅらコス in 沖縄こどもの国 Vol.3が開催されます。アニメ・ゲーム・映画・オリジナルジャンルを超えたコスプレイヤーたちが、沖縄こどもの国に大集…",
@@ -2400,6 +2430,21 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false
+    },
+    {
+      "id": "event-bf379e43",
+      "kind": "event",
+      "title": "王様の一皿琉球、味の記憶",
+      "summary": "10月16日のおきみゅーナイトミュージアムは、\n\n王様の一皿琉球、味の記憶を開催\n琉球料理のお弁当をお召し上がりいただき、琉球料理のお話を聞いてみませんか\n\n講師は、琉球料理伝承人の伊是名カエ先生。\n\nおいしいお料理に、楽しく学びになるお…",
+      "source": "okimeguri",
+      "url": "https://okicul-pr.jp/200_/300_/2026-10-07-13-26.html",
+      "date": "2026-10-16",
+      "date_end": "2026-10-16",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": true
     },
     {
       "id": "event-4a895045",
@@ -2507,6 +2552,21 @@
       "vibe": false
     },
     {
+      "id": "weather-0d8fe142",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週二有雨、週三有雨、週四晴時多雲、週五有雨、週六有雨、週日有雨、週一有雨；氣溫約 23～29°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-10-13",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "news-38c6743a",
       "kind": "news",
       "title": "那霸機場國內線安檢一度關閉　已恢復",
@@ -2597,7 +2657,7 @@
       "vibe": false
     },
     {
-      "id": "event-57396a98",
+      "id": "event-58fb4010",
       "kind": "event",
       "title": "首里城修復結衣節～Umui wa Beyond the Sky～的通知（10/13-10/18）",
       "summary": "いつも那覇空港をご利用いただき、ありがとうございます。\n\nこのたび那覇空港では、首里城正殿の完成を祝し、令和8年10月13日火から18日日まで、\n国際線エリア2階首里城復興応援広場において 首里城復興 結フェスタ うむいは空を越えて を開…",
@@ -2612,7 +2672,7 @@
       "vibe": true
     },
     {
-      "id": "event-f2d66e46",
+      "id": "event-9a7c88ad",
       "kind": "event",
       "title": "2026年10月13日國松稔展",
       "summary": "期間\n10/13火10/18日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第展示室\n\n入場料\n無料\n\n展示内容\n写真コラージュ立体",
@@ -2627,7 +2687,7 @@
       "vibe": false
     },
     {
-      "id": "event-49510a77",
+      "id": "event-c7dd0c7e",
       "kind": "event",
       "title": "2026年10月13日 52週年沖繩女性藝術展",
       "summary": "期間\n10月13日火10月18日日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第1展示室第展示室\n\n入場料\n無料\n\n展示内容\n絵画彫刻インスタレーションなど",
@@ -2698,21 +2758,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-b584655d",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週一有雨、週二有雨、週三有雨、週四晴時多雲、週五有雨、週六有雨、週日有雨；氣溫約 22～29°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-10-12",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -3433,6 +3478,21 @@
       "area": "那霸",
       "category": "全國",
       "tourist_impact": "none",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-e3f037af",
+      "kind": "event",
+      "title": "FUSAKI HALLOWEEN 2026",
+      "summary": "石垣島にある、フサキビーチリゾート ホテル&ヴィラズ内のレストランISHIGAKI BOLD KITCHENにて、FUSAKI HALLOWEEN 2026と題したハロウィンランチブッフェを、2026年10月10日土31日土の土日祝日限定…",
+      "source": "okinawastory",
+      "url": "https://www.fusaki.com/blog/archives/25206",
+      "date": "2026-10-10",
+      "date_end": "2026-10-31",
+      "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
       "local_life": false,
       "vibe": false
     },
