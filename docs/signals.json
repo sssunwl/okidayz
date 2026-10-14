@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T10:19:21+09:00",
+  "generated_at": "2026-10-14T10:41:47+09:00",
   "items": [
     {
       "id": "event-9259e692",
@@ -2522,6 +2522,21 @@
       "vibe": false
     },
     {
+      "id": "weather-0879cd26",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週三有雨、週四多雲、週五有雨、週六多雲、週日雷雨、週一有雨、週二有雨；氣溫約 23～29°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-10-14",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "news-55b6266e",
       "kind": "news",
       "title": "西原町強盜傷害案　被告認罪",
@@ -2833,21 +2848,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-0d8fe142",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週二有雨、週三有雨、週四晴時多雲、週五有雨、週六有雨、週日有雨、週一有雨；氣溫約 23～29°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-10-13",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
