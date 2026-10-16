@@ -2728,7 +2728,8 @@
     "image": "",
     "location": "CAVE OKINAWA エントランス前広場　駐車場P1",
     "price": "https://ticket.cave.okinawa/products/505affee-4b43-5934-a286-69345aff369a?lng=ja",
-    "official_url": "https://www.cave.okinawa/"
+    "official_url": "https://www.cave.okinawa/",
+    "area": "うるま市"
   },
   {
     "name": "やえせde怪談話ヤースーがやってくる",
@@ -2809,6 +2810,21 @@
     "price": "免費",
     "official_url": "https://naha-palette.jp/gallery/event/5094",
     "area": "那覇市"
+  },
+  {
+    "name": "沖縄芝居（喜劇）多言語ガイド付き定期公演｜那覇・県庁前駅徒歩3分・約60分",
+    "name_zh": "",
+    "date_start": "2026-10-28",
+    "date_end": "2027-03-25",
+    "url": "https://www.okinawastory.jp/event/600023255",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://s3.ap-northeast-1.amazonaws.com/jp.nnear.upload/1791347007392_banner_032.jpg",
+    "location": "パレット市民劇場 ・ 沖縄県那覇市久茂地１丁目１−１ パレットくもじ 9F",
+    "price": "有料",
+    "official_url": "https://www.uchinaguchischool.com/okinawa-shibai/index.html"
   },
   {
     "name": "【10月28日･29日限定イベント】「秋の薬膳フレンチ」【ランチ・ディナー】",
@@ -3397,6 +3413,21 @@
     "area": "那覇市"
   },
   {
+    "name": "琉球/バインミー/人形 〜コムゴンで味わう琉球人形とベトナムのお土産品〜（Ryukyu / Bánh mì / Búp bê - Thưởng lãm búp bê Ryukyu và quà lưu niệm Việt Nam tại Cơm Ngon）",
+    "name_zh": "",
+    "date_start": "2026-11-07",
+    "date_end": "2026-12-06",
+    "url": "https://www.okinawastory.jp/event/600023254",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://s3.ap-northeast-1.amazonaws.com/jp.nnear.upload/1791541585917_s-4501x6001_v-frms_webp_7a271ac3-1707-442d-9e71-c0ea7d5f5a7a_regular.jpeg",
+    "location": "ベトナムバイク屋台コムゴン ・ 沖縄県那覇市壺屋１丁目３４−８",
+    "price": "免費",
+    "official_url": "https://higaleona.com/RyukyuBánhmìBúpbê"
+  },
+  {
     "name": "「第15回中城護佐丸まつり」",
     "name_zh": "關於「第15屆中城禦佐丸祭」的通知",
     "date_start": "2026-11-07",
@@ -3732,22 +3763,6 @@
     "official_url": "https://karate-event.jp/en/"
   },
   {
-    "name": "ツール・ド・おきなわ市民ロードレース市民レース50kmオーバー60s",
-    "name_zh": "環沖繩公民公路賽 公民賽 50 公里 60 秒以上",
-    "date_start": "2026-11-08",
-    "date_end": "2026-11-08",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6557",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "60代以上レーサーの50km\n\n60歳以上の挑戦を支える50kmカテゴリー\n60歳以上の男子が走る、市民レース50kmの年代別カテゴリです。",
-    "image": "",
-    "location": "21世紀の森体育館 ・ 名護市",
-    "price": "有料",
-    "official_url": "https://www.tour-de-okinawa.jp/citizen-road-race.html",
-    "area": "名護市"
-  },
-  {
     "name": "ツール・ド・おきなわ市民ロードレース市民レース100km マスターズ",
     "name_zh": "環沖繩公民公路賽 公民賽 100 公里大師賽",
     "date_start": "2026-11-08",
@@ -3773,22 +3788,6 @@
     "category": "",
     "stars": 0,
     "description": "50代レーサーの50km\n\n同世代で競い合う50kmカテゴリー\n50歳以上、59歳までの男子が走る、市民レース50kmの年代別カテゴリです。\n期日\n11月8日日\n参加対象\n50歳以上、59歳までの男子\n定員\n200名\n参加料\n15,000円",
-    "image": "",
-    "location": "21世紀の森体育館 ・ 名護市",
-    "price": "有料",
-    "official_url": "https://www.tour-de-okinawa.jp/citizen-road-race.html",
-    "area": "名護市"
-  },
-  {
-    "name": "ツール・ド・おきなわ市民ロードレースチャレンジレース200km",
-    "name_zh": "環沖繩市民公路賽挑戰賽 200 公里",
-    "date_start": "2026-11-08",
-    "date_end": "2026-11-08",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6558",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "順位表彰なしの完走チャレンジ\n\n200km完走へ挑むロングチャレンジ\n沖縄やんばるを駆け抜け、新しい星をつかみ取れチャレンジレース種目においては、完走を目指す方の種目となるため、上位入賞者の表彰を実施致しません。\n期日\n11月8日日\n参加対象\n19歳以上の男子\n定員\n100名\n参加料\n30,000円",
     "image": "",
     "location": "21世紀の森体育館 ・ 名護市",
     "price": "有料",
@@ -3890,6 +3889,38 @@
     "price": "有料",
     "official_url": "https://17end-miyakojima.com/outline/",
     "area": "宮古島"
+  },
+  {
+    "name": "ツール・ド・おきなわ市民ロードレース市民レース50kmオーバー60s",
+    "name_zh": "環沖繩公民公路賽 公民賽 50 公里 60 秒以上",
+    "date_start": "2026-11-08",
+    "date_end": "2026-11-08",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6557",
+    "source": "okimeguri",
+    "category": "",
+    "stars": 0,
+    "description": "60代以上レーサーの50km\n\n60歳以上の挑戦を支える50kmカテゴリー\n60歳以上の男子が走る、市民レース50kmの年代別カテゴリです。",
+    "image": "",
+    "location": "21世紀の森体育館 ・ 名護市",
+    "price": "有料",
+    "official_url": "https://www.tour-de-okinawa.jp/citizen-road-race.html",
+    "area": "名護市"
+  },
+  {
+    "name": "ツール・ド・おきなわ市民ロードレースチャレンジレース200km",
+    "name_zh": "環沖繩市民公路賽挑戰賽 200 公里",
+    "date_start": "2026-11-08",
+    "date_end": "2026-11-08",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6558",
+    "source": "okimeguri",
+    "category": "",
+    "stars": 0,
+    "description": "順位表彰なしの完走チャレンジ\n\n200km完走へ挑むロングチャレンジ\n沖縄やんばるを駆け抜け、新しい星をつかみ取れチャレンジレース種目においては、完走を目指す方の種目となるため、上位入賞者の表彰を実施致しません。\n期日\n11月8日日\n参加対象\n19歳以上の男子\n定員\n100名\n参加料\n30,000円",
+    "image": "",
+    "location": "21世紀の森体育館 ・ 名護市",
+    "price": "有料",
+    "official_url": "https://www.tour-de-okinawa.jp/citizen-road-race.html",
+    "area": "名護市"
   },
   {
     "name": "ツール・ド・おきなわ市民ロードレースチャレンジレース50km",
@@ -4952,6 +4983,22 @@
     "category": "傳統",
     "stars": 5,
     "description": "沖繩人在首里城前迎接第一道日出，新年的喜慶從南島海邊開始"
+  },
+  {
+    "name": "海中道路 初日の出",
+    "name_zh": "",
+    "date_start": "2027-01-01",
+    "date_end": "2027-01-01",
+    "url": "https://www.jalan.net/event/evt_366162/",
+    "source": "jalan",
+    "category": "",
+    "stars": 0,
+    "description": "本島の与勝半島と平安座島を結ぶ全長4.7kmの海中道路は、ドライブコースとして人気があり、元旦には初日の出見物をする人々で賑わいます。海中道路のほぼ中央にあるロードパークから...",
+    "image": "https://www.jalan.net/jalan/img/6/event/0366/KM/e366162.jpg",
+    "location": "沖縄県うるま市　海中道路",
+    "price": "",
+    "official_url": "",
+    "area": "西海岸・東海岸"
   },
   {
     "name": "今天是 🌿 七草粥",

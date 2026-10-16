@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T09:33:33+09:00",
+  "generated_at": "2026-10-16T10:04:26+09:00",
   "items": [
     {
       "id": "event-4e635205",
@@ -1232,6 +1232,21 @@
       "vibe": false
     },
     {
+      "id": "event-01d253ca",
+      "kind": "event",
+      "title": "琉球/バインミー/人形 〜コムゴンで味わう琉球人形とベトナムのお土産品〜（Ryukyu / Bánh mì / Búp bê - Thưởng lãm búp bê Ryukyu và quà lưu niệm Việt Nam tại Cơm Ngon）",
+      "summary": "",
+      "source": "okinawastory",
+      "url": "https://higaleona.com/RyukyuBánhmìBúpbê",
+      "date": "2026-11-07",
+      "date_end": "2026-12-06",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "event-d908f090",
       "kind": "event",
       "title": "漫步珊瑚天堂宮古島",
@@ -1907,6 +1922,21 @@
       "vibe": false
     },
     {
+      "id": "event-f9efca09",
+      "kind": "event",
+      "title": "沖縄芝居（喜劇）多言語ガイド付き定期公演｜那覇・県庁前駅徒歩3分・約60分",
+      "summary": "",
+      "source": "okinawastory",
+      "url": "https://www.uchinaguchischool.com/okinawa-shibai/index.html",
+      "date": "2026-10-28",
+      "date_end": "2027-03-25",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "event-77d3e47e",
       "kind": "event",
       "title": "【10月28日･29日限定イベント】「秋の薬膳フレンチ」【ランチ・ディナー】",
@@ -2065,7 +2095,7 @@
       "url": "https://www.cave.okinawa/",
       "date": "2026-10-25",
       "date_end": "2026-10-25",
-      "area": "全島",
+      "area": "中部",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": true,
@@ -2998,6 +3028,21 @@
       "area": "南部",
       "category": "活動",
       "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "weather-0b40e025",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週五多雲、週六有雨、週日雷雨、週一晴時多雲、週二有雨、週三多雲、週四有雨；氣溫約 22～30°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-10-16",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
