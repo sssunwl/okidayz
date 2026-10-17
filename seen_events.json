@@ -18,6 +18,8 @@
     "https://goyah.net/okinawa_event/archives/9475",
     "https://goyah.net/okinawa_event/archives/9518",
     "https://goyah.net/okinawa_event/archives/9530",
+    "https://goyah.net/okinawa_event/archives/9548",
+    "https://goyah.net/okinawa_event/archives/9553",
     "https://okimeguri.com/prediction-calendar/details/events/3241",
     "https://okimeguri.com/prediction-calendar/details/events/4439",
     "https://okimeguri.com/prediction-calendar/details/events/5135",
@@ -372,6 +374,7 @@
     "https://visitokinawajapan.com/zh-hant/discover/events/nago-summer-festival/",
     "https://visitokinawajapan.com/zh-hant/discover/events/naha-tug-of-war-festival/",
     "https://visitokinawajapan.com/zh-hant/discover/events/ocean-expo-park-summer-festival/",
+    "https://visitokinawajapan.com/zh-hant/discover/events/okinawa-industrial-festival/",
     "https://visitokinawajapan.com/zh-hant/discover/events/okinawa-zento-eisa-matsuri/",
     "https://visitokinawajapan.com/zh-hant/discover/events/orion-beerfest-koza/",
     "https://visitokinawajapan.com/zh-hant/discover/events/shurijo-castle-festival/",
@@ -417,6 +420,7 @@
     "https://www.jalan.net/event/evt_366162/",
     "https://www.jalan.net/event/evt_366176/",
     "https://www.jalan.net/event/evt_366180/",
+    "https://www.jalan.net/event/evt_366184/",
     "https://www.okinawastory.jp/event/600019114",
     "https://www.okinawastory.jp/event/600020944",
     "https://www.okinawastory.jp/event/600020994",
@@ -972,5 +976,5 @@
     "okinawastory",
     "visitokinawa"
   ],
-  "updated": "2026-10-16T01:04:26.586829"
+  "updated": "2026-10-17T01:12:49.727149"
 }
