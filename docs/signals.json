@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T09:09:02+09:00",
+  "generated_at": "2026-10-18T09:44:03+09:00",
   "items": [
     {
       "id": "event-4e635205",
@@ -2087,21 +2087,6 @@
       "vibe": false
     },
     {
-      "id": "event-891137a2",
-      "kind": "event",
-      "title": "[10/25]新入口更新紀念！ Eisa特色舞蹈",
-      "summary": "いつもCAVE OKINAWAをご愛顧いただき、誠にありがとうございます。\r\n\r\nこのたび、CAVE OKINAWAの新エントランスリニューアルオープンを記念いたしまして、2026年10月25日（日）に豪華出演団体によるエイサー特別演舞イ…",
-      "source": "okimeguri",
-      "url": "https://www.cave.okinawa/",
-      "date": "2026-10-25",
-      "date_end": "2026-10-25",
-      "area": "中部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": true,
-      "vibe": false
-    },
-    {
       "id": "event-f1fdf0a7",
       "kind": "event",
       "title": "Yaese de 鬼故事 Yasu 來了",
@@ -2144,6 +2129,21 @@
       "category": "活動",
       "tourist_impact": "high",
       "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-f1f07fc4",
+      "kind": "event",
+      "title": "10/25新エントランス リニューアル記念エイサー特別演舞",
+      "summary": "いつもCAVE OKINAWAをご愛顧いただき、誠にありがとうございます。\n\nこのたび、CAVE OKINAWAの新エントランスリニューアルオープンを記念いたしまして、2026年10月25日日に豪華出演団体によるエイサー特別演舞イベントを…",
+      "source": "okimeguri",
+      "url": "https://www.cave.okinawa/2026/10/13/%e3%80%9010-25%e3%80%91%e6%96%b0%e3%82%a8%e3%83%b3%e3%83%88%e3%83%a9%e3%83%b3%e3%82%b9-%e3%83%aa%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%a2%e3%83%ab%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e8%a8%98%e5%bf%b5/",
+      "date": "2026-10-25",
+      "date_end": "2026-10-25",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
       "vibe": false
     },
     {
@@ -2222,21 +2222,6 @@
       "vibe": false
     },
     {
-      "id": "event-86b055ec",
-      "kind": "event",
-      "title": "KIDS HALLOWEEN WEEK 2026 ウミカジ＆あしびなーハロウィン2026",
-      "summary": "2026年のハロウィンはウミカジテラスさんとコラボ開催\n2施設のハロウィンイベントにご参加いただくとお菓子がもらえる特典もございます\n\n開催日10月24日土\nスタンプラリーフォトミッション\nミッション達成で先着500名様にお菓子プレゼント…",
-      "source": "okinawastory",
-      "url": "https://dorigin-www.ashibinaa.com/news_detail.html?code=1750",
-      "date": "2026-10-24",
-      "date_end": "2026-10-31",
-      "area": "南部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "event-ac8006af",
       "kind": "event",
       "title": "2026 年馬卡引節",
@@ -2252,6 +2237,21 @@
       "vibe": true
     },
     {
+      "id": "event-86b055ec",
+      "kind": "event",
+      "title": "2026 年兒童萬聖節週 Umikaji & Ashibina 萬聖節 2026",
+      "summary": "2026年のハロウィンはウミカジテラスさんとコラボ開催\n2施設のハロウィンイベントにご参加いただくとお菓子がもらえる特典もございます\n\n開催日10月24日土\nスタンプラリーフォトミッション\nミッション達成で先着500名様にお菓子プレゼント…",
+      "source": "okinawastory",
+      "url": "https://dorigin-www.ashibinaa.com/news_detail.html?code=1750",
+      "date": "2026-10-24",
+      "date_end": "2026-10-31",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "event-de2b752e",
       "kind": "event",
       "title": "關於第一屆蜂窩體育場月光瑜伽",
@@ -2261,6 +2261,21 @@
       "date": "2026-10-23",
       "date_end": "2026-10-23",
       "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-4e5de65d",
+      "kind": "event",
+      "title": "關於「第32屆全國重要非物質文化遺產保護群體優秀展覽」的公告",
+      "summary": "第32回全国重要無形文化財保持団体秀作展日本の伝統美と技の世界が開催されます。\n\n重要無形文化財保持団体に認定された16団体の作品が集結\n\n陶芸・染織・漆芸・和紙、それぞれの高度な工芸技術を駆使して製作された作品が一堂に会します。各地で受…",
+      "source": "okinawastory",
+      "url": "https://www.city.nago.okinawa.jp/articles/2026100300015/",
+      "date": "2026-10-23",
+      "date_end": "2026-11-12",
+      "area": "北部",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
@@ -2417,21 +2432,6 @@
       "vibe": true
     },
     {
-      "id": "event-4e5de65d",
-      "kind": "event",
-      "title": "「第32回全国重要無形文化財保持団体秀作展」開催のお知らせ",
-      "summary": "第32回全国重要無形文化財保持団体秀作展日本の伝統美と技の世界が開催されます。\n\n重要無形文化財保持団体に認定された16団体の作品が集結\n\n陶芸・染織・漆芸・和紙、それぞれの高度な工芸技術を駆使して製作された作品が一堂に会します。各地で受…",
-      "source": "okinawastory",
-      "url": "https://www.city.nago.okinawa.jp/articles/2026100300015/",
-      "date": "2026-10-23",
-      "date_end": "2026-11-12",
-      "area": "北部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "event-55d67657",
       "kind": "event",
       "title": "Kariyushi娛樂表演組舞表演第7年第一次會議",
@@ -2509,7 +2509,7 @@
     {
       "id": "event-3bfb217b",
       "kind": "event",
-      "title": "2026年10月20日 第35回全琉秀作写真選抜展",
+      "title": "2026年10月20日 第35屆全琉球名作攝影精選展",
       "summary": "期間\n10/20火10/25日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第1展示室第2展示室\n\n入場料\n無料\n\n展示内容\n写真",
       "source": "okinawastory",
       "url": "https://naha-palette.jp/gallery/event/5081/",
@@ -2519,6 +2519,21 @@
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-a0abedbc",
+      "kind": "event",
+      "title": "預定舉辦：北中城地倉町宣言紀念活動",
+      "summary": "2026年10月19日(月\nきくらげでつながる、まちの未来へ。北中城きくらげのまち宣言記念イベントを開催します\n2026年10月19日月、北中城村中央公民館にて、北中城きくらげのまち宣言を記念する村民参加型イベントを開催します。\n\n沖縄で…",
+      "source": "okimeguri",
+      "url": "https://www.kitapo.jp/event/kikuragenomati/",
+      "date": "2026-10-19",
+      "date_end": "2026-10-19",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
       "vibe": false
     },
     {
@@ -2537,21 +2552,6 @@
       "vibe": false
     },
     {
-      "id": "event-a0abedbc",
-      "kind": "event",
-      "title": "開催予定 北中城きくらげのまち宣言記念イベント",
-      "summary": "2026年10月19日(月\nきくらげでつながる、まちの未来へ。北中城きくらげのまち宣言記念イベントを開催します\n2026年10月19日月、北中城村中央公民館にて、北中城きくらげのまち宣言を記念する村民参加型イベントを開催します。\n\n沖縄で…",
-      "source": "okimeguri",
-      "url": "https://www.kitapo.jp/event/kikuragenomati/",
-      "date": "2026-10-19",
-      "date_end": "2026-10-19",
-      "area": "中部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": true,
-      "vibe": false
-    },
-    {
       "id": "event-32be7489",
       "kind": "event",
       "title": "薑格里亞潑水節",
@@ -2565,6 +2565,21 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": true
+    },
+    {
+      "id": "weather-9ed6b83a",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週日有雨、週一有雨、週二有雨、週三雷雨、週四雷雨、週五雷雨、週六有雨；氣溫約 24～31°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-10-18",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
     },
     {
       "id": "news-4acae21b",
@@ -3062,21 +3077,6 @@
       "vibe": false
     },
     {
-      "id": "weather-257e0298",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週六有雨、週日有雨、週一有雨、週二有雨、週三有雨、週四有雨、週五雷雨；氣溫約 25～31°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-10-17",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "news-eac341fd",
       "kind": "news",
       "title": "酷暑與電費高漲下 防暑省能資材受注目",
@@ -3317,21 +3317,6 @@
       "vibe": false
     },
     {
-      "id": "event-964c1df5",
-      "kind": "event",
-      "title": "關於“第40屆豐見城節/第11屆豐見城工業節”",
-      "summary": "イベント情報\n開催日\n令和8年10月17日土曜日、18日日曜日\n\n\n開催場所\n・とみぐすく祭り 豊崎海浜公園北側多目的広場\n・とみぐすく産業フェスタイーアス沖縄豊崎\n\n\n詳細につきましては、決まり次第こちらのページで順次公開いたします。…",
-      "source": "okinawastory",
-      "url": "https://www.city.tomigusuku.lg.jp/event_lecture/9820.html",
-      "date": "2026-10-17",
-      "date_end": "2026-10-18",
-      "area": "南部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": true,
-      "vibe": true
-    },
-    {
       "id": "event-2ac1546f",
       "kind": "event",
       "title": "金城哲夫出生地活動 2026",
@@ -3347,26 +3332,11 @@
       "vibe": false
     },
     {
-      "id": "event-1a5814e6",
-      "kind": "event",
-      "title": "豐見城產業祭",
-      "summary": "一年一度的豐見城產業祭舉辦於Orion Eco chura Sun 海灘上，您可以在此品嚐美食、觀賞Eisa太鼓舞表演、傳統表演藝術和煙火秀。",
-      "source": "visitokinawa",
-      "url": "https://www-city-tomigusuku-lg-jp.translate.goog/soshiki/1/1005/gyomuannai/3/3/9819.html?_x_tr_sl=auto&_x_tr_tl=zh-TW&_x_tr_hl=ja",
-      "date": "2026-10-17",
-      "date_end": "2026-10-18",
-      "area": "南部",
-      "category": "活動",
-      "tourist_impact": "high",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "event-674d88fd",
       "kind": "event",
       "title": "萬聖節趣味粉絲市場",
       "summary": "ハンドメイド雑貨や植物販売、ワークショップや焼き菓子などの飲食販売など \n沢山のお店があしびなーの中央ストリートに大集合 \n\n開催日 年月日土、日日\n開催時間 \n開催場所 あしびなー 中央ストリート",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://dorigin-www.ashibinaa.com/news_detail.html?code=1767",
       "date": "2026-10-17",
       "date_end": "2026-10-18",
@@ -3377,11 +3347,26 @@
       "vibe": false
     },
     {
-      "id": "event-a912b13a",
+      "id": "event-8a0fb48a",
       "kind": "event",
-      "title": "第47屆金鎮節",
+      "title": "第40回とみぐすく祭り・第11回とみぐすく産業フェスタについて",
+      "summary": "イベント情報\n開催日\n令和8年10月17日土曜日、18日日曜日\n\n\n開催場所\n・とみぐすく祭り 豊崎海浜公園北側多目的広場\n・とみぐすく産業フェスタイーアス沖縄豊崎\n\n\n詳細につきましては、決まり次第こちらのページで順次公開いたします。…",
+      "source": "okimeguri",
+      "url": "https://www.city.tomigusuku.lg.jp/event_lecture/9820.html",
+      "date": "2026-10-17",
+      "date_end": "2026-10-18",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": true
+    },
+    {
+      "id": "event-660abd3c",
+      "kind": "event",
+      "title": "第 47 屆金鎮節 2026 / 2026",
       "summary": "第47回金武町まつり  金武魂を我が心に。 R8.10.1710.18\n2026金武町まつりプログラム\n金武町まつり会場案内\nkaizyoureiauto\n会場内への車両の侵入は、駐車券および通行許可証をお持ちの方、金武町役場公用車、シャ…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.town.kin.okinawa.jp/soshiki/somuka/gyomuannai/matsuri/kintownmaturi2026_1/index.html",
       "date": "2026-10-17",
       "date_end": "2026-10-18",
@@ -3437,30 +3422,30 @@
       "vibe": false
     },
     {
-      "id": "event-604304eb",
+      "id": "event-58f6db87",
       "kind": "event",
-      "title": "世界キツネザルの日2026",
-      "summary": "今年は10月30日が世界キツネザルの日World Lemur Dayです\n\n絶滅の危機にあるキツネザルについての理解を深め、保全活動への協力を呼びかける目的で、\n\nIUCN世界自然保護連合霊長類専門家グループが毎年10月最終金曜日を世界キ…",
-      "source": "okinawastory",
-      "url": "https://www.neopark.co.jp/topics/35146/",
+      "title": "Churacos in 沖繩兒童王國 Vol.3 由 Churacos 贊助",
+      "summary": "開催日\n2026年10月17日土・18日日\n沖縄こどもの国を会場として、コスプレイベントちゅらコス in 沖縄こどもの国 Vol.3が開催されます。アニメ・ゲーム・映画・オリジナルジャンルを超えたコスプレイヤーたちが、沖縄こどもの国に大集…",
+      "source": "okimeguri",
+      "url": "https://www.okzm.jp/event/5258/",
       "date": "2026-10-17",
-      "date_end": "2026-11-02",
-      "area": "北部",
+      "date_end": "2026-10-18",
+      "area": "中部",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false
     },
     {
-      "id": "event-f1c2e3d2",
+      "id": "event-604304eb",
       "kind": "event",
-      "title": "Churacos in 沖繩兒童王國 Vol.3（Churacos 贊助）",
-      "summary": "開催日\n2026年10月17日土・18日日\n沖縄こどもの国を会場として、コスプレイベントちゅらコス in 沖縄こどもの国 Vol.3が開催されます。アニメ・ゲーム・映画・オリジナルジャンルを超えたコスプレイヤーたちが、沖縄こどもの国に大集…",
+      "title": "2026 年世界狐猴日",
+      "summary": "今年は10月30日が世界キツネザルの日World Lemur Dayです\n\n絶滅の危機にあるキツネザルについての理解を深め、保全活動への協力を呼びかける目的で、\n\nIUCN世界自然保護連合霊長類専門家グループが毎年10月最終金曜日を世界キ…",
       "source": "okinawastory",
-      "url": "https://www.okzm.jp/event/5258/",
+      "url": "https://www.neopark.co.jp/topics/35146/",
       "date": "2026-10-17",
-      "date_end": "2026-10-18",
-      "area": "中部",
+      "date_end": "2026-11-02",
+      "area": "北部",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
@@ -3692,36 +3677,6 @@
       "vibe": false
     },
     {
-      "id": "event-4aaaae27",
-      "kind": "event",
-      "title": "手田子口袋節～第49屆浦添手田子節～",
-      "summary": "今年もてだこポケットフェスタを開催します\n\nポケットフェスタって\n各ブースをポケットに見立て、ポケットから楽しいことがたくさん飛び出してくることをイメージし、まつりの名称をてだこポケットフェスタ、通称ポケフェスと銘打ち開催しています。…",
-      "source": "okinawastory",
-      "url": "https://www.city.urasoe.lg.jp/doc/2026091100106/",
-      "date": "2026-10-16",
-      "date_end": "2026-10-18",
-      "area": "南部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": true,
-      "vibe": true
-    },
-    {
-      "id": "event-4a895045",
-      "kind": "event",
-      "title": "後藤會主辦第10屆大東文化大學校友書法展",
-      "summary": "",
-      "source": "okinawastory",
-      "url": "https://urasoe-artmuseum.jp/exhibition/gotokai-daito-ob-shosaten10th-2026/",
-      "date": "2026-10-16",
-      "date_end": "2026-10-18",
-      "area": "南部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "event-5934a645",
       "kind": "event",
       "title": "後藤會主辦第10屆大東文化大學書法展",
@@ -3737,11 +3692,26 @@
       "vibe": false
     },
     {
-      "id": "event-f3b6a2d0",
+      "id": "event-3da0a0a2",
       "kind": "event",
-      "title": "ALOHAISAI將於2026年舉行",
+      "title": "てだこポケットフェスタ第49回浦添てだこまつり開催のお知らせ",
+      "summary": "今年もてだこポケットフェスタを開催します\n\nポケットフェスタって\n各ブースをポケットに見立て、ポケットから楽しいことがたくさん飛び出してくることをイメージし、まつりの名称をてだこポケットフェスタ、通称ポケフェスと銘打ち開催しています。…",
+      "source": "okimeguri",
+      "url": "https://www.city.urasoe.lg.jp/doc/2026091100106/",
+      "date": "2026-10-16",
+      "date_end": "2026-10-18",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": true
+    },
+    {
+      "id": "event-5b6f2ecc",
+      "kind": "event",
+      "title": "ALOHAISAI 2026年開催決定",
       "summary": "ALOHAISAI 2026\nかりゆしアロハイ祭2026\n開催決定\n ハワイと沖縄をつなぐ3日間の祭典 \n\nアロハはハワイのあいさつ、こんにちは。\nハイサイは沖縄のあいさつ、こんにちは。\nそれぞれの地域が育んできた魅力や人の温かな心をつな…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://kariyushi-oceanspa.jp/topics/2026/07/event-5959/",
       "date": "2026-10-16",
       "date_end": "2026-10-18",
@@ -4232,11 +4202,11 @@
       "vibe": false
     },
     {
-      "id": "event-58fb4010",
+      "id": "event-1eb93060",
       "kind": "event",
-      "title": "首里城修復結衣節～Umui wa Beyond the Sky～的通知（10/13-10/18）",
+      "title": "首里城修復 Yui Festa Umu wa Beyond the Sky 公告 10/1310/18",
       "summary": "いつも那覇空港をご利用いただき、ありがとうございます。\n\nこのたび那覇空港では、首里城正殿の完成を祝し、令和8年10月13日火から18日日まで、\n国際線エリア2階首里城復興応援広場において 首里城復興 結フェスタ うむいは空を越えて を開…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.naha-airport.co.jp/news/22451/",
       "date": "2026-10-13",
       "date_end": "2026-10-18",
@@ -4262,11 +4232,11 @@
       "vibe": false
     },
     {
-      "id": "event-9a7c88ad",
+      "id": "event-f2d66e46",
       "kind": "event",
       "title": "2026年10月13日國松稔展",
       "summary": "期間\n10/13火10/18日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第展示室\n\n入場料\n無料\n\n展示内容\n写真コラージュ立体",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://naha-palette.jp/gallery/event/5078",
       "date": "2026-10-13",
       "date_end": "2026-10-18",
@@ -4277,11 +4247,11 @@
       "vibe": false
     },
     {
-      "id": "event-c7dd0c7e",
+      "id": "event-49510a77",
       "kind": "event",
-      "title": "2026年10月13日 52週年沖繩女性藝術展",
+      "title": "2026年10月13日 52周年沖縄女流美術展",
       "summary": "期間\n10月13日火10月18日日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第1展示室第展示室\n\n入場料\n無料\n\n展示内容\n絵画彫刻インスタレーションなど",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://naha-palette.jp/gallery/event/5075/",
       "date": "2026-10-13",
       "date_end": "2026-10-18",
@@ -4292,11 +4262,11 @@
       "vibe": false
     },
     {
-      "id": "event-dee9012c",
+      "id": "event-818c14de",
       "kind": "event",
-      "title": "名護農業公園裡令人興奮的兒童公園（名護農業公園現在有室內遊樂園！）",
+      "title": "名護農業公園令人興奮的兒童公園 名護農業公園現已開設室內遊樂園",
       "summary": "雨の日でも安心\nなごアグリパークで初の屋内型遊園地が登場\n \n小さなお子様から小学生向けに遊べるふわふわ遊具やトランポリン、\nハムスターボール、滑り台大型、ボルダリング、園内あそびなどいろんな遊具が無料で利用できます。。\n屋内の遊園地のた…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://website.okinawatraveler.net/nagoagri",
       "date": "2026-10-11",
       "date_end": "2026-11-23",
