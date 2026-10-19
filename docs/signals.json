@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T09:21:13+09:00",
+  "generated_at": "2026-10-19T09:56:51+09:00",
   "items": [
     {
       "id": "event-4e635205",
@@ -2207,7 +2207,7 @@
       "vibe": true
     },
     {
-      "id": "event-d36ef8f5",
+      "id": "event-af147cfd",
       "kind": "event",
       "title": "[門票資訊]關於琉球大發呈現第5屆沖繩競技場盃的舉辦",
       "summary": "大会情報\n主催\n一般財団法人沖縄県バスケットボール協会\n\n日程\n令和年月日土・日日\n\n会場\n沖縄サントリーアリーナ\n\n大会ポスターPDFはこちらです\nチケット販売について\nRYUKYU DAIHATSU Presents 第5回沖縄アリー…",
@@ -2267,7 +2267,7 @@
       "vibe": false
     },
     {
-      "id": "event-4e5de65d",
+      "id": "event-7b2ad201",
       "kind": "event",
       "title": "關於「第32屆全國重要非物質文化遺產保護群體優秀展覽」的公告",
       "summary": "第32回全国重要無形文化財保持団体秀作展日本の伝統美と技の世界が開催されます。\n\n重要無形文化財保持団体に認定された16団体の作品が集結\n\n陶芸・染織・漆芸・和紙、それぞれの高度な工芸技術を駆使して製作された作品が一堂に会します。各地で受…",
@@ -2507,7 +2507,7 @@
       "vibe": false
     },
     {
-      "id": "event-3bfb217b",
+      "id": "event-34d7e56b",
       "kind": "event",
       "title": "2026年10月20日 第35屆全琉球名作攝影精選展",
       "summary": "期間\n10/20火10/25日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第1展示室第2展示室\n\n入場料\n無料\n\n展示内容\n写真",
@@ -2518,6 +2518,21 @@
       "area": "那霸",
       "category": "活動",
       "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "weather-2d4ce4fe",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週一多雲、週二有雨、週三有雨、週四有雨、週五雷雨、週六雷雨、週日有雨；氣溫約 24～31°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-10-19",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -2762,7 +2777,7 @@
       "vibe": false
     },
     {
-      "id": "event-5763e7d3",
+      "id": "event-e1769626",
       "kind": "event",
       "title": "關於「戰前的與那原城鎮與村莊－韓國濟州大學收藏的航空照片中看到的與那原」的公告 相關展覽的公告",
       "summary": "戦前の与那原の町並みが写っている空中写真についてのトークイベントを開催します\n清水肇琉球大学名誉教授が収集した韓国済州国立大学所蔵ジョセフ・E・スペンサー空中写真コレクションの複製写真の中に、1944昭和19年10月10日に米軍が南西諸島…",
@@ -2848,21 +2863,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-9ed6b83a",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週日有雨、週一有雨、週二有雨、週三雷雨、週四雷雨、週五雷雨、週六有雨；氣溫約 24～31°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-10-18",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -3902,11 +3902,11 @@
       "vibe": false
     },
     {
-      "id": "event-9ccb6160",
+      "id": "event-1821c214",
       "kind": "event",
-      "title": "森谷美里個展 讓我們永遠走下去！",
+      "title": "森谷美里 個展 末永くいこう",
       "summary": "10/13(火)10/19(月)\n2F ryubo art gallery",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://ryubo.jp/moritani-misato-koten2610/",
       "date": "2026-10-13",
       "date_end": "2026-10-19",
