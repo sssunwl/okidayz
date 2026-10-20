@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T10:09:05+09:00",
+  "generated_at": "2026-10-20T10:38:51+09:00",
   "items": [
     {
       "id": "event-6d84b847",
@@ -764,6 +764,21 @@
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-73c9ed76",
+      "kind": "event",
+      "title": "河馬駕校車輛節！ ！",
+      "summary": "【イベント名】 ひーぷー自動車学校 のりものFESTIVAL 【開催日時】 2026年11月14日（土）8:00～16:00 2026年11月15日（日）10:00～16:00 【開催場所】 モータースポーツマルチフィー \nThe pos…",
+      "source": "goyah",
+      "url": "https://goyah.net/okinawa_event/archives/9577",
+      "date": "2026-11-14",
+      "date_end": "2026-11-14",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
       "vibe": false
     },
     {
@@ -2194,7 +2209,7 @@
     {
       "id": "event-f1f07fc4",
       "kind": "event",
-      "title": "10/25新エントランス リニューアル記念エイサー特別演舞",
+      "title": "10/25 新入口更新紀念Eisa特別演出",
       "summary": "いつもCAVE OKINAWAをご愛顧いただき、誠にありがとうございます。\n\nこのたび、CAVE OKINAWAの新エントランスリニューアルオープンを記念いたしまして、2026年10月25日日に豪華出演団体によるエイサー特別演舞イベントを…",
       "source": "okimeguri",
       "url": "https://www.cave.okinawa/2026/10/13/%e3%80%9010-25%e3%80%91%e6%96%b0%e3%82%a8%e3%83%b3%e3%83%88%e3%83%a9%e3%83%b3%e3%82%b9-%e3%83%aa%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%a2%e3%83%ab%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e8%a8%98%e5%bf%b5/",
@@ -2552,6 +2567,21 @@
       "vibe": false
     },
     {
+      "id": "weather-fac2b3ee",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週二多雲、週三有雨、週四雷雨、週五雷雨、週六雷雨、週日有雨、週一有雨；氣溫約 24～31°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-10-20",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "news-a90d931a",
       "kind": "news",
       "title": "黑標啤酒推出沖繩環保限定罐",
@@ -2863,21 +2893,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-2d4ce4fe",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週一多雲、週二有雨、週三有雨、週四有雨、週五雷雨、週六雷雨、週日有雨；氣溫約 24～31°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-10-19",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
