@@ -1442,22 +1442,6 @@
     "area": "名護市"
   },
   {
-    "name": "歴代人間国宝巨匠・現代人気作家陶芸展［特集］井上萬二・伊勢﨑淳追悼展",
-    "name_zh": "在世國寶大師及當代人氣藝術家陶瓷展【特集】井上萬二、伊勢崎潤紀念展",
-    "date_start": "2026-10-15",
-    "date_end": "2026-10-21",
-    "url": "https://www.okinawastory.jp/event/600023151",
-    "source": "okinawastory",
-    "category": "",
-    "stars": 0,
-    "description": "10/15(木)10/21(水)\n6F イベントスペース",
-    "image": "https://ryubo.jp/wp-content/uploads/2026/09/ningen-kokuho-1300-1.jpg",
-    "location": "デパートリウボウ　 6F イベントスペース ・ 沖縄県那覇市久茂地1-1-1",
-    "price": "",
-    "official_url": "https://ryubo.jp/living-national-treasure-exihibition2610/",
-    "area": "那覇市"
-  },
-  {
     "name": "「記録が語る沖縄展」―戦後の歩みから考える私たちの社会― Records Tell the Story of Okinawa–Reflecting on Our Society through Okinawa’s Postwar History",
     "name_zh": "《記錄述沖繩的故事－透過沖繩戰後歷史反思我們的社會》",
     "date_start": "2026-10-15",
@@ -1471,6 +1455,22 @@
     "location": "沖縄県公文書館展示室 ・ 沖縄県島尻郡南風原町新川148−3",
     "price": "免費",
     "official_url": "https://www.archives.pref.okinawa.jp/event_information/exhibition_course/154319"
+  },
+  {
+    "name": "歴代人間国宝巨匠・現代人気作家陶芸展特集井上萬二・伊勢﨑淳追悼展",
+    "name_zh": "",
+    "date_start": "2026-10-15",
+    "date_end": "2026-10-21",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6853",
+    "source": "okimeguri",
+    "category": "",
+    "stars": 0,
+    "description": "10/15(木)10/21(水)\n6F イベントスペース",
+    "image": "",
+    "location": "デパートリウボウ　 6F イベントスペース ・ 那覇市",
+    "price": "",
+    "official_url": "https://ryubo.jp/living-national-treasure-exihibition2610/",
+    "area": "那覇市"
   },
   {
     "name": "和田直樹　かじあきの 和田直樹 ＋ かじあきの　二人展",
@@ -1647,8 +1647,8 @@
     "area": "那覇市"
   },
   {
-    "name": "沖繩產業祭",
-    "name_zh": "沖繩產業祭",
+    "name": "沖繩產業祭（已取消）",
+    "name_zh": "沖繩產業祭（已取消）",
     "date_start": "2026-10-23",
     "date_end": "2026-10-25",
     "url": "https://visitokinawajapan.com/zh-hant/discover/events/okinawa-industrial-festival/",
@@ -1660,38 +1660,6 @@
     "location": "﻿﻿﻿奥武山公園站 沖繩縣立武道館",
     "price": "免費",
     "official_url": "https://www.okikouren.or.jp/49sangyou-maturi.html"
-  },
-  {
-    "name": "第29回 商工会特産品フェア ありんくりん市",
-    "name_zh": "第29屆阿林庫林市工商會特產博覽會",
-    "date_start": "2026-10-23",
-    "date_end": "2026-10-25",
-    "url": "https://www.okinawastory.jp/event/600023249",
-    "source": "okinawastory",
-    "category": "",
-    "stars": 0,
-    "description": "",
-    "image": "https://www.oki-shokoren.or.jp/arinkurin/wp-content/uploads/2026/09/%E3%82%B5%E3%82%A4%E3%83%88%E3%83%90%E3%83%8A_0825-1024x296.png",
-    "location": "奥武山公園 ・ 沖縄県那覇市奥武山町５２",
-    "price": "",
-    "official_url": "https://www.oki-shokoren.or.jp/arinkurin/",
-    "area": "那覇市"
-  },
-  {
-    "name": "第50回沖縄の産業まつり",
-    "name_zh": "第50屆沖繩工業節",
-    "date_start": "2026-10-23",
-    "date_end": "2026-10-25",
-    "url": "https://www.okinawastory.jp/event/600023248",
-    "source": "okinawastory",
-    "category": "",
-    "stars": 0,
-    "description": "第50回沖縄の産業まつりは、2026年10月23日(金)、24日(土)、25日(日)に那覇市奥武山公園、県立武道館において開催いたします。\n\n\n会場別事業内容\nチラシ(PDF)\n*十月中旬公開予定\n会場案内パンフレット(PDF)\n*十月中旬公開予定\n\n\n\n\n\n沖縄の産業まつり実行委員会\n公益社団法人沖縄県工業連合会事務局内\n\n900-0025\n沖縄県那覇市字小禄1831番地1\n沖縄産業支援センター",
-    "image": "https://www.okikouren.or.jp/50maturi/50poster.jpg",
-    "location": "奥武山公園・県立武道館 ・ 沖縄県那覇市奥武山町５２",
-    "price": "",
-    "official_url": "https://www.okikouren.or.jp/sangyou-maturi.html",
-    "area": "那覇市"
   },
   {
     "name": "昭和100年記念特別展示会 第一弾",
@@ -1790,6 +1758,22 @@
     "area": "読谷村"
   },
   {
+    "name": "第29回 商工会特産品フェア ありんくりん市",
+    "name_zh": "",
+    "date_start": "2026-10-23",
+    "date_end": "2026-10-25",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6926",
+    "source": "okimeguri",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "",
+    "location": "奥武山公園 ・ 那覇市",
+    "price": "",
+    "official_url": "https://www.oki-shokoren.or.jp/arinkurin/",
+    "area": "那覇市"
+  },
+  {
     "name": "かりゆし芸能公演 組踊公演 七期會 初",
     "name_zh": "Kariyushi娛樂表演組舞表演第7年第一次會議",
     "date_start": "2026-10-23",
@@ -1851,6 +1835,22 @@
     "location": "沖縄県立博物館・美術館（おきみゅー） ・ 那覇市",
     "price": "有料",
     "official_url": "https://okicul-pr.jp/200_/300_/2026-10-08-18-33.html",
+    "area": "那覇市"
+  },
+  {
+    "name": "第50回沖縄の産業まつり",
+    "name_zh": "",
+    "date_start": "2026-10-23",
+    "date_end": "2026-10-25",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6925",
+    "source": "okimeguri",
+    "category": "",
+    "stars": 0,
+    "description": "第50回沖縄の産業まつりは、2026年10月23日(金)、24日(土)、25日(日)に那覇市奥武山公園、県立武道館において開催いたします。\n\n\n会場別事業内容\nチラシ(PDF)\n*十月中旬公開予定\n会場案内パンフレット(PDF)\n*十月中旬公開予定\n\n\n\n\n\n沖縄の産業まつり実行委員会\n公益社団法人沖縄県工業連合会事務局内\n\n900-0025\n沖縄県那覇市字小禄1831番地1\n沖縄産業支援センター",
+    "image": "https://www.jalan.net/jalan/img/4/event/0364/KM/e364091a.jpg",
+    "location": "奥武山公園・県立武道館 ・ 那覇市",
+    "price": "",
+    "official_url": "https://www.okikouren.or.jp/sangyou-maturi.html",
     "area": "那覇市"
   },
   {
@@ -2482,6 +2482,21 @@
     "location": "",
     "price": "",
     "official_url": ""
+  },
+  {
+    "name": "喜璃癒志百萬夢幻節",
+    "name_zh": "喜璃癒志百萬夢幻節",
+    "date_start": "2026-11-01",
+    "date_end": "2027-02-28",
+    "url": "https://visitokinawajapan.com/zh-hant/discover/events/kariyushi-dream-fantasy/",
+    "source": "visitokinawa",
+    "category": "",
+    "stars": 0,
+    "description": "每年冬季時，您可以在沖繩喜璃癒志海灘度假飯店舉辦的喜璃癒志百萬夢幻節，欣賞到池畔燈光秀和精彩的噴泉表演。",
+    "image": "https://visitokinawajapan.com/wp-content/uploads/2021/11/ev167_01_kariyushi-dream-fantasy.webp",
+    "location": "沖繩喜璃癒志海灘渡假飯店",
+    "price": "免費",
+    "official_url": "https://kariyushi-oceanspa.jp/topics/6199/"
   },
   {
     "name": "首里城復活祭",
