@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T09:47:31+09:00",
+  "generated_at": "2026-10-22T10:22:04+09:00",
   "items": [
     {
       "id": "event-784224ec",
@@ -74,6 +74,36 @@
       "category": "活動",
       "tourist_impact": "low",
       "local_life": true,
+      "vibe": false
+    },
+    {
+      "id": "event-79e38243",
+      "kind": "event",
+      "title": "2026年12月19日12月30日 RYUKYU GRAND LUNCH BUFFET Holiday Season開催のお知らせ",
+      "summary": "平素より、琉球ホテルリゾート 名城ビーチにご愛顧を賜りまして誠にありがとうございます。\n\nビュッフェダイニングNashiroでは、2026年12月19日12月30日の期間でRYUKYU GRAND LUNCH BUFFET Holiday…",
+      "source": "okimeguri",
+      "url": "https://ryukyuhotel.kenhotels.com/news/122200",
+      "date": "2026-12-19",
+      "date_end": "2026-12-30",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": true
+    },
+    {
+      "id": "event-42216016",
+      "kind": "event",
+      "title": "国際女子野球クリスマスリーグ2026 開催決定",
+      "summary": "今年も沖縄で国際女子野球クリスマスリーグを開催します\n\n国内外から集まった女子野球選手が、所属チームの枠を越えてチームを結成。\n海外選手、日本女子野球のトップクラスの指導者と一緒に、野球を通じて交流できる特別な6日間です\n\n野球だけでなく…",
+      "source": "okimeguri",
+      "url": "https://www.instagram.com/p/DedUWT-mTYs/",
+      "date": "2026-12-18",
+      "date_end": "2026-12-23",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
       "vibe": false
     },
     {
@@ -197,6 +227,21 @@
       "vibe": false
     },
     {
+      "id": "event-a3e656fc",
+      "kind": "event",
+      "title": "LIAマルシェ",
+      "summary": "子供向け\nファミリーイベント",
+      "source": "okimeguri",
+      "url": "https://www.instagram.com/lia_marche__okinawa?cplk=OWMyd3VyMHZ1aTFr&utm_source=qr",
+      "date": "2026-12-06",
+      "date_end": "2026-12-06",
+      "area": "北部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
+    },
+    {
       "id": "event-747be041",
       "kind": "event",
       "title": "研究成果 仁道吉",
@@ -254,6 +299,21 @@
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-ccbeea2b",
+      "kind": "event",
+      "title": "ケラマブルーカップ2026",
+      "summary": "大会コンセプト\n環境に配慮した大会運営の実現と、SUPの普及、青少年の育成\nケラマブルーカップでは大会を通じてより多くの方にSUPという競技を知っていただき、年齢という垣根を越え、大人から子どもまで真剣に競技に取り組む過程の中で、地域交流…",
+      "source": "okimeguri",
+      "url": "https://kerama-bluecup.com/",
+      "date": "2026-12-04",
+      "date_end": "2026-12-05",
+      "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
       "vibe": false
     },
     {
@@ -315,6 +375,21 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false
+    },
+    {
+      "id": "event-bf9bcf0d",
+      "kind": "event",
+      "title": "沖縄ウイスキースピリッツフェスティバル",
+      "summary": "2026年の開催が決定\n沖縄最大級のウイスキースピリッツカクテルイベント\n5回目の開催となる沖縄ウイスキースピリッツフェスティバルは、例年1,500名前後が来場するなど、国内有数の規模を誇る洋酒イベントです。\n\n今回も、70社以上のウイス…",
+      "source": "okimeguri",
+      "url": "https://okinawa-ws-fes.jp/",
+      "date": "2026-11-29",
+      "date_end": "2026-11-29",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": true
     },
     {
       "id": "event-9b555459",
@@ -812,6 +887,21 @@
       "vibe": false
     },
     {
+      "id": "event-246ac0d2",
+      "kind": "event",
+      "title": "令和8年度 聞得大君 御新下り- 2026年11月14日土",
+      "summary": "南城市民、県民、世界中の人の幸せを祈り、南城市まつりの安全祈願を目的として聞得大君の就任儀礼である御新下りおあらおりを模したイベントを開催いたします。\n\n御新下りについて\n開催日時\n行列のルート\nご観覧に関してのご注意\nお問合せ\n御新下り…",
+      "source": "okimeguri",
+      "url": "https://www.city.nanjo.okinawa.jp/topics/1788910419/",
+      "date": "2026-11-14",
+      "date_end": "2026-11-14",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
+    },
+    {
       "id": "event-02f54727",
       "kind": "event",
       "title": "世界遺產中城城跡夜行 Vol. 1",
@@ -1127,6 +1217,21 @@
       "vibe": true
     },
     {
+      "id": "event-ca2894e6",
+      "kind": "event",
+      "title": "Leiohu Ryderがやって来る",
+      "summary": "年月日日沖縄市あしびなー劇場にて\n\nAloha in action コンサートLeiohu Ryder, Maydeen Iao\n\n国連より平和教育者賞、ガンジー.キング平和英雄賞、ウーマン.オブ.オナー賞等\n\n平和活動をしているレイオフ…",
+      "source": "okimeguri",
+      "url": "https://halau-hula-kalakaua-okinawa.com/news/lei%ca%bbohu-ryder%e3%81%8c%e3%82%84%e3%81%a3%e3%81%a6%e6%9d%a5%e3%82%8b%ef%bc%81/",
+      "date": "2026-11-08",
+      "date_end": "2026-11-08",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "event-1d62f197",
       "kind": "event",
       "title": "2026年地域振興節第19屆禦久城祭",
@@ -1307,6 +1412,21 @@
       "vibe": false
     },
     {
+      "id": "event-8f0fb53d",
+      "kind": "event",
+      "title": "琉球CRIT in 北谷2026 supported by SMC開催決定",
+      "summary": "sfiDARE CRIT 沖縄に再び上陸\n\n大会概要\n詳細は随時公式SNSでアップデートします。お楽しみに\n\n2026年11月7日 土曜日 雨天決行\n\n場所沖縄県北谷町フィッシャリーナ地区特別会場\n          904-0115 沖…",
+      "source": "okimeguri",
+      "url": "https://www.sfidarecrit.com/2026series/2026ryukyu-crit/",
+      "date": "2026-11-07",
+      "date_end": "2026-11-07",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": true
+    },
+    {
       "id": "event-01d253ca",
       "kind": "event",
       "title": "琉球/Bánh mì/娃娃～在Com Gon品嚐琉球娃娃和越南土特產～",
@@ -1457,6 +1577,21 @@
       "vibe": false
     },
     {
+      "id": "event-ea1f1134",
+      "kind": "event",
+      "title": "11/8(日)あぐに島まつり2026沖縄",
+      "summary": "11/8(日)あぐに島まつり2026沖縄",
+      "source": "okimeguri",
+      "url": "https://jaabourbonz.studio.site/live/K2N3xSCl",
+      "date": "2026-11-07",
+      "date_end": "2026-11-08",
+      "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
+    },
+    {
       "id": "event-eb81cda3",
       "kind": "event",
       "title": "Na Heart Jazz 爵士樂月 沖繩爵士 x 亞洲 相關活動",
@@ -1562,6 +1697,66 @@
       "vibe": false
     },
     {
+      "id": "event-2afe816e",
+      "kind": "event",
+      "title": "中学生・高校生が主役 首里城復興記念企画首里の鼓動を2026年11月3日(火・祝)に沖縄・くくる糸満で開催決定",
+      "summary": "一般社団法人プレジャートレジャー所在地 沖縄県那覇市宇栄原3丁目21番6号 、代表平良仁隆は、首里城正殿の完成を記念し、沖縄の中学生・高校生が主役となる創作エイサー演劇の舞台、首里城復興記念企画首里の鼓動PULSE OF SHURIを、2…",
+      "source": "okimeguri",
+      "url": "https://www.atpress.ne.jp/news/9902175",
+      "date": "2026-11-03",
+      "date_end": "2026-11-03",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
+    },
+    {
+      "id": "event-62d1e678",
+      "kind": "event",
+      "title": "2026年11月03日 第回あじ彩の会 絵画展 秋うらら心に彩りを",
+      "summary": "期間\n11/3火11/8日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第展示室\n\n入場料\n無料\n\n展示内容\n絵画",
+      "source": "okimeguri",
+      "url": "https://naha-palette.jp/gallery/event/5135",
+      "date": "2026-11-03",
+      "date_end": "2026-11-08",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-aebbdac8",
+      "kind": "event",
+      "title": "2026年11月03日 仲間智登志の世界 木彫展",
+      "summary": "期間\n11/3火11/8日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第1展示室\n\n入場料\n無料\n\n展示内容\n木彫",
+      "source": "okimeguri",
+      "url": "https://naha-palette.jp/gallery/event/5131",
+      "date": "2026-11-03",
+      "date_end": "2026-11-08",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-8925dcd2",
+      "kind": "event",
+      "title": "1103_岐阜戦 - FC琉球",
+      "summary": "",
+      "source": "okimeguri",
+      "url": "https://fcryukyu.com/homegame/homegame-2026-27-15/",
+      "date": "2026-11-03",
+      "date_end": "2026-11-03",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "event-7c611bb3",
       "kind": "event",
       "title": "𓇼 沖繩自由潛水杯 2026 𓇼 宮古錦標賽",
@@ -1589,6 +1784,21 @@
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-f0d015c3",
+      "kind": "event",
+      "title": "護佐丸歴史資料図書館10周年企画芸能上演会中城村の十五夜獅子舞と打花鼓",
+      "summary": "護佐丸歴史資料図書館10周年企画芸能上演会中城村の十五夜獅子舞と打花鼓\n当館が今年で10周年を迎えたことを記念し、中城村の十五夜と芸能をテーマに企画イベントを実施します\nメインイベントは11月1日日曜日開催の芸能上演会中城村の十五夜獅子舞…",
+      "source": "okimeguri",
+      "url": "https://www.vill.nakagusuku.okinawa.jp/library/topics/1792127051/",
+      "date": "2026-11-01",
+      "date_end": "2026-11-01",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
       "vibe": false
     },
     {
@@ -1646,6 +1856,21 @@
       "date": "2026-11-01",
       "date_end": "2026-11-02",
       "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-9233ba89",
+      "kind": "event",
+      "title": "沖縄こどもの国 秋の感謝祭 2026",
+      "summary": "開催日\n2026年11月1日日30日月\n11月は、ありがとうを伝えるきっかけに\n\n沖縄こどもの国では、いつも支えてくださっている皆さまへの感謝を込めて、11月1日30日までの間沖縄こどもの国 秋の感謝祭を開催いたします期間中は、お得なキャ…",
+      "source": "okimeguri",
+      "url": "https://www.okzm.jp/event/5373/",
+      "date": "2026-11-01",
+      "date_end": "2026-11-30",
+      "area": "中部",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
@@ -1712,6 +1937,51 @@
       "vibe": false
     },
     {
+      "id": "event-18bcd79f",
+      "kind": "event",
+      "title": "クイチャーフェスティバル開催とチケット販売について",
+      "summary": "クイチャーフェスティバル実行委員会よりご案内が届いておりますので周知いたします。\n\nなお、チケット販売につきましては、平日の午前8:3012:00、午後1:005:30の間、\n当協会窓口でも販売しております。\n\n\n今年は25周年の節目を迎…",
+      "source": "okimeguri",
+      "url": "https://miyako-island.net/news/%e3%80%8c%e3%82%af%e3%82%a4%e3%83%81%e3%83%a3%e3%83%bc%e3%83%95%e3%82%a7%e3%82%b9%e3%83%86%e3%82%a3%e3%83%90%e3%83%ab%e3%80%8d%e9%96%8b%e5%82%ac%e3%81%a8%e3%83%81%e3%82%b1%e3%83%83%e3%83%88%e8%b2%a9/",
+      "date": "2026-11-01",
+      "date_end": "2026-11-01",
+      "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": true
+    },
+    {
+      "id": "event-0c968d43",
+      "kind": "event",
+      "title": "よなばる水辺のマルシェ",
+      "summary": "与那原町の魅力を体験アクティビティを楽しむ一日\nカヌー乗船体験やクルージング体験、音楽ライブにキャラクター綱曳大会など、子どもから大人まで楽しめる催しが盛りだくさん",
+      "source": "okimeguri",
+      "url": "https://www.yonabaru.okinawa/event/1790837367/",
+      "date": "2026-11-01",
+      "date_end": "2026-11-01",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": true
+    },
+    {
+      "id": "event-42971aee",
+      "kind": "event",
+      "title": "ゆめみらいフェス",
+      "summary": "ありがとうをカタチにみんなで楽しむ参加型イベントゆめみらいフェス\n沖縄県労働金庫は、これまで支えてくださった地域の皆さまに感謝を込めて、みんなで楽しむ体験型まつりを開催します。\nお仕事体験やワークショップ、物販など多彩なプログラムをご用意…",
+      "source": "okimeguri",
+      "url": "https://roukin60.studio.site/",
+      "date": "2026-11-01",
+      "date_end": "2026-11-01",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": true
+    },
+    {
       "id": "event-9e6eeeb5",
       "kind": "event",
       "title": "「首里城修復祭2020」即將舉辦！ (11/1-11/3) |首里城 - 講述琉球王國繁榮故事的世界遺產首里城",
@@ -1736,6 +2006,21 @@
       "date": "2026-11-01",
       "date_end": "2027-02-28",
       "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-384d97dd",
+      "kind": "event",
+      "title": "CHURA MIKU STREET 2026",
+      "summary": "CHURA\nMIKU\nSTREETとは\n沖縄へ めんそーれ\n初音ミクと美ら島の旅\nCHURA MIKU STREETは、初音ミクをきっかけに沖縄の街・文化・食・観光を\n楽しんでもらうことを目的とした、街全体を活用した周遊型イベントです。…",
+      "source": "okimeguri",
+      "url": "https://39-street.com/",
+      "date": "2026-11-01",
+      "date_end": "2026-12-13",
+      "area": "那霸",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
@@ -1847,6 +2132,21 @@
       "vibe": true
     },
     {
+      "id": "event-e0555dc1",
+      "kind": "event",
+      "title": "羽地ハロウィンフェス",
+      "summary": "みんなで楽しもう大人も子供も集合仮装して来てくれた方にはお菓子プレゼント\n2026年10月31日土\n14:0019:00\n名護市役所羽地支所\n全26店舗出店",
+      "source": "okimeguri",
+      "url": "https://www.instagram.com/haneji.1031/?hl=ja",
+      "date": "2026-10-31",
+      "date_end": "2026-10-31",
+      "area": "北部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": true
+    },
+    {
       "id": "event-0915597d",
       "kind": "event",
       "title": "第21屆壺屋八門街節",
@@ -1858,6 +2158,21 @@
       "area": "那霸",
       "category": "活動",
       "tourist_impact": "high",
+      "local_life": true,
+      "vibe": false
+    },
+    {
+      "id": "event-240bb381",
+      "kind": "event",
+      "title": "石垣ハロウィン2026",
+      "summary": "拾ったゴミで、お化けになろう。\n石垣ハロウィン は海洋ゴミでオバケに仮装して石垣島をパレードする、一風変わったハロウィンイベント。一度きりの飾りや衣装が大量に消費・廃棄されてしまう 使い捨てのハロウィン をやめてサステナブルなハロウィン…",
+      "source": "okimeguri",
+      "url": "https://ishigakihalloween.com/",
+      "date": "2026-10-31",
+      "date_end": "2026-10-31",
+      "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
       "local_life": true,
       "vibe": false
     },
@@ -1997,6 +2312,36 @@
       "vibe": false
     },
     {
+      "id": "event-36d89f50",
+      "kind": "event",
+      "title": "1031_鳥取戦 - FC琉球",
+      "summary": "",
+      "source": "okimeguri",
+      "url": "https://fcryukyu.com/homegame/homegame-2026-27-14/",
+      "date": "2026-10-31",
+      "date_end": "2026-10-31",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-9528f8a1",
+      "kind": "event",
+      "title": "1020更新はえばる2026ふるさと博覧会についてTopページ第23回はえばる2026ふるさと博覧会第18回福祉まつり・第31回児童館まつり",
+      "summary": "第23回はえばる2026ふるさと博覧会第18回福祉まつり・第31回児童館まつり\n日付令和8年10月31日(土曜日)11時00分20時00分\n 11月1日(日曜日)10時00分20時00分\n会場南風原町立中央公民館・文化センター及び周辺駐車…",
+      "source": "okimeguri",
+      "url": "https://www.town.haebaru.lg.jp/site/kankou/16983.html",
+      "date": "2026-10-31",
+      "date_end": "2026-11-01",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
+    },
+    {
       "id": "event-238c1d22",
       "kind": "event",
       "title": "[商店街活動]10月30日（星期五）舉行！第39屆Sunpark嘉年華",
@@ -2065,6 +2410,21 @@
       "url": "https://www.naha.jalcity.co.jp/6435/",
       "date": "2026-10-28",
       "date_end": "2026-10-29",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-dded03fb",
+      "kind": "event",
+      "title": "第8回世界のウチナーンチュ大会の開催日程のお知らせ",
+      "summary": "世界のウチナーンチュ大会は、本県の貴重な人的財産である世界各地のウチナーンチュが、5年に一度母県である沖縄に集い、そのルーツやアイデンティティーを確認するとともに、県民との交流を通してウチナーネットワークを拡大・発展させ、次世代へと継承し…",
+      "source": "okimeguri",
+      "url": "https://www.pref.okinawa.lg.jp/bunkakoryu/koryu/1023165/1040297.html",
+      "date": "2026-10-27",
+      "date_end": "2026-10-31",
       "area": "那霸",
       "category": "活動",
       "tourist_impact": "low",
@@ -2295,6 +2655,21 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": true
+    },
+    {
+      "id": "event-8edba7b5",
+      "kind": "event",
+      "title": "杜deマルシェ後編",
+      "summary": "10/24.25(土日)はおきなわ工芸の杜にて杜deマルシェ後編が開催されます\nハロウィン企画やホテルランチ券などが当たる300円ガチャも\nぜひ遊びに来てくださいね\n\n10/24.25(土日) 11:00-16:00\nおきなわ工芸の杜…",
+      "source": "okimeguri",
+      "url": "https://www.instagram.com/p/DeVGNSdkyua/?img_index=1",
+      "date": "2026-10-24",
+      "date_end": "2026-10-25",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
     },
     {
       "id": "event-b4696008",
@@ -2582,6 +2957,21 @@
       "vibe": false
     },
     {
+      "id": "weather-80799c05",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週四雷雨、週五雷雨、週六雷雨、週日有雨、週一有雨、週二有雨、週三多雲；氣溫約 21～29°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-10-22",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "news-9e5e2ec4",
       "kind": "news",
       "title": "颱風致產業祭中止　攤商在社群尋找銷路",
@@ -2863,21 +3253,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-31fb3453",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週三有雨、週四雷雨、週五雷雨、週六雷雨、週日有雨、週一有雨、週二有雨；氣溫約 24～31°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-10-21",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -3347,6 +3722,21 @@
       "vibe": false
     },
     {
+      "id": "event-3dfd9de2",
+      "kind": "event",
+      "title": "金城宏次紅型展",
+      "summary": "10/20(火)10/26(月)\n2F ryubo art gallery",
+      "source": "okimeguri",
+      "url": "https://ryubo.jp/hiroji-kinjo-exihibition2610/",
+      "date": "2026-10-20",
+      "date_end": "2026-10-26",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "event-e0f16fe6",
       "kind": "event",
       "title": "2026年10月20日第九屆久米亮藝術展",
@@ -3617,6 +4007,21 @@
       "vibe": false
     },
     {
+      "id": "event-737ad40a",
+      "kind": "event",
+      "title": "しまくとぅばの日20周年琉大図書館で記念パネル展示しまくとぅば保存と琉大の取組を開催します",
+      "summary": "2006年にしまくとぅばの日に関する条例ができてから、今年でなんと20周年\nこれを記念して、琉球大学附属図書館で企画展しまくとぅば保存と琉大の取組を開催することになりました。\n \n今回の展示では、これまでの沖縄県や琉球大学の取り組みをわか…",
+      "source": "okimeguri",
+      "url": "https://shimakutuba.jp/shimakotoba-info/post6413/",
+      "date": "2026-10-19",
+      "date_end": "2026-11-13",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "news-4acae21b",
       "kind": "news",
       "title": "［大弦小弦］感受植物的機會",
@@ -3842,11 +4247,11 @@
       "vibe": false
     },
     {
-      "id": "event-aa6a265b",
+      "id": "event-5f5c510c",
       "kind": "event",
-      "title": "關於第52屆讀谷祭暨第10屆和平音樂會",
+      "title": "第52回読谷まつり・第10回平和コンサートの開催について",
       "summary": "第52回読谷まつり・第10回平和コンサートの開催について\n詳細は随時更新します\n\n第29回読谷まつり闘牛大会\n日時  令和8年10月18日日曜日13時開始予定\n場所  石川多目的ドーム\n入場料無料\n\n第10回Okinawan Dream…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.vill.yomitan.okinawa.jp/kanko_bunka_sports/event/matsuri/7174.html",
       "date": "2026-10-18",
       "date_end": "2026-10-24",
@@ -3947,15 +4352,15 @@
       "vibe": false
     },
     {
-      "id": "event-0bbfb037",
+      "id": "event-f3347a38",
       "kind": "event",
-      "title": "《記錄述沖繩的故事－透過沖繩戰後歷史反思我們的社會》",
-      "summary": "",
-      "source": "okinawastory",
-      "url": "https://www.archives.pref.okinawa.jp/event_information/exhibition_course/154319",
+      "title": "新里堅進原画展の開催について",
+      "summary": "マンガ原画の価値を、沖縄マンガ界の至宝・新里堅進氏の作品を一挙公開\n\n新里堅進氏京都精華大学国際マンガ研究センター提供\n\n新里堅進氏\n\n近年、地元沖縄での半世紀にわたるその画業があらためて注目されている新里堅進氏。\n\n卓越した画力に支えら…",
+      "source": "okimeguri",
+      "url": "https://www.city.uruma.lg.jp/3001005000/contents/p000042.html",
       "date": "2026-10-15",
-      "date_end": "2027-09-26",
-      "area": "南部",
+      "date_end": "2026-11-29",
+      "area": "中部",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
