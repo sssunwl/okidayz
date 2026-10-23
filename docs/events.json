@@ -1276,22 +1276,6 @@
     "area": "那覇市"
   },
   {
-    "name": "巡回展 推しの文化財",
-    "name_zh": "巡迴展覽 最愛的文化財產",
-    "date_start": "2026-10-01",
-    "date_end": "2026-10-22",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6846",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "企画展のお知らせ\n\n推しの文化財展\n\n今回開催する企画展は、国頭地区文化財行政連絡協議会が主催する企画展の巡回展です。\n\n国頭地区文化財行政連絡協議会は、沖縄島北部・周辺離島の文化財担当者や文化財保護調査審議会の委員で構成される団体です。\n\n今回の企画展では、やんばるの各市町村に所在する指定文化財や、指定文化財の候補となる文化財を推しの文化財として紹介します。\n\nそして今回、この企画展が巡回展とし",
-    "image": "",
-    "location": "東村立山と水の生活博物館 ・ 東村",
-    "price": "有料",
-    "official_url": "https://yamamizu.vill.higashi.okinawa.jp/topics/detail.jsp?id__=321",
-    "area": "東村"
-  },
-  {
     "name": "10/1-11/110月ピックアップ展示工房嬉楽きらく作品展コザ工芸館ふんどぅ",
     "name_zh": "10/1-11/11 10月精選展覽工作坊 Kiraku Kiraku作品展 Koza Crafts Museum Fundu",
     "date_start": "2026-10-01",
@@ -1427,7 +1411,7 @@
   },
   {
     "name": "新里堅進原画展の開催について",
-    "name_zh": "",
+    "name_zh": "關於舉辦新利謙信原創藝術展",
     "date_start": "2026-10-15",
     "date_end": "2026-11-29",
     "url": "https://okimeguri.com/prediction-calendar/details/events/6959",
@@ -1537,7 +1521,7 @@
   },
   {
     "name": "第52回読谷まつり・第10回平和コンサートの開催について",
-    "name_zh": "",
+    "name_zh": "關於第52屆讀谷祭暨第10屆和平音樂會",
     "date_start": "2026-10-18",
     "date_end": "2026-10-24",
     "url": "https://okimeguri.com/prediction-calendar/details/events/6550",
@@ -1550,6 +1534,22 @@
     "price": "",
     "official_url": "https://www.vill.yomitan.okinawa.jp/kanko_bunka_sports/event/matsuri/7174.html",
     "area": "うるま市"
+  },
+  {
+    "name": "【しまくとぅばの日20周年】琉大図書館で記念パネル展示「しまくとぅば保存と琉大の取組」を開催します！",
+    "name_zh": "【島鳥羽日20週年紀念】在琉球大學圖書館將舉辦「島鳥羽保護與琉球大學的舉措」紀念展板展！",
+    "date_start": "2026-10-19",
+    "date_end": "2026-11-13",
+    "url": "https://www.okinawastory.jp/event/600023273",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "2006年にしまくとぅばの日に関する条例ができてから、今年でなんと20周年\nこれを記念して、琉球大学附属図書館で企画展しまくとぅば保存と琉大の取組を開催することになりました。\n \n今回の展示では、これまでの沖縄県や琉球大学の取り組みをわかりやすいパネルで紹介します。しまくとぅばのこれまでの歩みを振り返りながら、これからの未来に思いをはせてみませんか\n \n大学にお立ち寄りの際は、ぜひ気軽に覗いてみて",
+    "image": "https://shimakutuba.jp/ctladmin/wp-content/uploads/2021/05/rogo2-316x448.png",
+    "location": "琉球大学附属図書館 本館2階 ラーニング・コモンズ、琉球大学附属図書館 医学部分館 ラーニング・コモンズ ・ 沖縄県中頭郡西原町千原1",
+    "price": "",
+    "official_url": "https://shimakutuba.jp/shimakotoba-info/post6413/",
+    "area": "西原町"
   },
   {
     "name": "『戦前の与那原のまちと集落 -韓国済州国立大学所蔵の空中写真でみる与那原-』",
@@ -1568,20 +1568,20 @@
     "area": "与那原町"
   },
   {
-    "name": "しまくとぅばの日20周年琉大図書館で記念パネル展示しまくとぅば保存と琉大の取組を開催します",
-    "name_zh": "",
-    "date_start": "2026-10-19",
-    "date_end": "2026-11-13",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6961",
-    "source": "okimeguri",
+    "name": "金城宏次　紅型展",
+    "name_zh": "金城浩司紅型展",
+    "date_start": "2026-10-20",
+    "date_end": "2026-10-26",
+    "url": "https://www.okinawastory.jp/event/600023282",
+    "source": "okinawastory",
     "category": "",
     "stars": 0,
-    "description": "2006年にしまくとぅばの日に関する条例ができてから、今年でなんと20周年\nこれを記念して、琉球大学附属図書館で企画展しまくとぅば保存と琉大の取組を開催することになりました。\n \n今回の展示では、これまでの沖縄県や琉球大学の取り組みをわかりやすいパネルで紹介します。しまくとぅばのこれまでの歩みを振り返りながら、これからの未来に思いをはせてみませんか\n \n大学にお立ち寄りの際は、ぜひ気軽に覗いてみて",
-    "image": "",
-    "location": "琉球大学附属図書館 本館2階 ラーニング・コモンズ、琉球大学附属図書館 医学部分館 ラーニング・コモンズ ・ 西原町",
+    "description": "10/20(火)10/26(月)\n2F ryubo art gallery",
+    "image": "https://ryubo.jp/wp-content/uploads/2026/10/kinjo-hirotsugu-1300.jpg",
+    "location": "デパートリウボウ　2F ryubo art gallery ・ 沖縄県那覇市久茂地1-1-1",
     "price": "",
-    "official_url": "https://shimakutuba.jp/shimakotoba-info/post6413/",
-    "area": "西原町"
+    "official_url": "https://ryubo.jp/hiroji-kinjo-exihibition2610/",
+    "area": "那覇市"
   },
   {
     "name": "第35回全琉秀作写真選抜展",
@@ -1613,22 +1613,6 @@
     "location": "那覇市民ギャラリー第3展示室 ・ 沖縄県那覇市久茂地１丁目１−１",
     "price": "免費",
     "official_url": "https://naha-palette.jp/gallery/event/5084",
-    "area": "那覇市"
-  },
-  {
-    "name": "金城宏次紅型展",
-    "name_zh": "",
-    "date_start": "2026-10-20",
-    "date_end": "2026-10-26",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6952",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "10/20(火)10/26(月)\n2F ryubo art gallery",
-    "image": "",
-    "location": "デパートリウボウ　2F ryubo art gallery ・ 那覇市",
-    "price": "",
-    "official_url": "https://ryubo.jp/hiroji-kinjo-exihibition2610/",
     "area": "那覇市"
   },
   {
@@ -1727,22 +1711,6 @@
     "area": "那覇市"
   },
   {
-    "name": "第32回伊平屋ムーンライトマラソン",
-    "name_zh": "第32屆伊平屋月光馬拉松",
-    "date_start": "2026-10-23",
-    "date_end": "2026-10-24",
-    "url": "https://www.okinawastory.jp/event/600021969",
-    "source": "okinawastory",
-    "category": "",
-    "stars": 0,
-    "description": "星の声援、月の伴走。\n海沿いの道路を使用した全体的にほぼ平坦なコース。時間とともに変わる空の色と景色を楽しむことができます。スタートしてしばらくは、明るい中で田園風景や海岸の景色を堪能し、やがて島の西海岸に沈む美しい夕日が見られます。日が暮れた後は、東海岸から昇る満月の光とペンライトの明かりを頼りにゴールを目指します。暑さに弱い初心者や陽射しが気になる女性も気軽に参加できるのが、ムーンライトマラソ",
-    "image": "https://iheya-moonlight.jp/userfiles/images/2026_announcement.png",
-    "location": "伊平屋村（伊平屋島、野甫島） ・ 沖縄県島尻郡伊平屋村我喜屋３００",
-    "price": "有料",
-    "official_url": "https://iheya-moonlight.jp/",
-    "area": "伊平屋島"
-  },
-  {
     "name": "第10回Okinawan Dream 100万人の平和コンサートinよみたん",
     "name_zh": "第10屆讀谷百萬人沖繩夢想和平音樂會",
     "date_start": "2026-10-23",
@@ -1760,7 +1728,7 @@
   },
   {
     "name": "第29回 商工会特産品フェア ありんくりん市",
-    "name_zh": "",
+    "name_zh": "第29屆阿林庫林市工商會特產博覽會",
     "date_start": "2026-10-23",
     "date_end": "2026-10-25",
     "url": "https://okimeguri.com/prediction-calendar/details/events/6926",
@@ -1773,6 +1741,22 @@
     "price": "",
     "official_url": "https://www.oki-shokoren.or.jp/arinkurin/",
     "area": "那覇市"
+  },
+  {
+    "name": "第32回伊平屋ムーンライトマラソン",
+    "name_zh": "第32屆伊平屋月光馬拉松",
+    "date_start": "2026-10-23",
+    "date_end": "2026-10-24",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/5844",
+    "source": "okimeguri",
+    "category": "",
+    "stars": 0,
+    "description": "星の声援、月の伴走。\n海沿いの道路を使用した全体的にほぼ平坦なコース。時間とともに変わる空の色と景色を楽しむことができます。スタートしてしばらくは、明るい中で田園風景や海岸の景色を堪能し、やがて島の西海岸に沈む美しい夕日が見られます。日が暮れた後は、東海岸から昇る満月の光とペンライトの明かりを頼りにゴールを目指します。暑さに弱い初心者や陽射しが気になる女性も気軽に参加できるのが、ムーンライトマラソ",
+    "image": "",
+    "location": "伊平屋村（伊平屋島、野甫島） ・ 伊平屋島",
+    "price": "有料",
+    "official_url": "https://iheya-moonlight.jp/",
+    "area": "伊平屋島"
   },
   {
     "name": "かりゆし芸能公演 組踊公演 七期會 初",
@@ -1840,7 +1824,7 @@
   },
   {
     "name": "第50回沖縄の産業まつり",
-    "name_zh": "",
+    "name_zh": "第50屆沖繩工業節",
     "date_start": "2026-10-23",
     "date_end": "2026-10-25",
     "url": "https://okimeguri.com/prediction-calendar/details/events/6925",
@@ -1885,6 +1869,22 @@
     "price": "",
     "official_url": "",
     "area": "離島"
+  },
+  {
+    "name": "【杜deマルシェ後編】",
+    "name_zh": "[馬爾凱之森第二部]",
+    "date_start": "2026-10-24",
+    "date_end": "2026-10-25",
+    "url": "https://www.okinawastory.jp/event/600023299",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "10/24.25(土日)はおきなわ工芸の杜にて杜deマルシェ後編が開催されます\nハロウィン企画やホテルランチ券などが当たる300円ガチャも\nぜひ遊びに来てくださいね\n\n10/24.25(土日) 11:00-16:00\nおきなわ工芸の杜\n\nハンドメイド出店者一覧\n\n10/24.25(土日\n革ゃ米丸\n@yonemaru828 \n@yonemaru358\nハンドメイドレザークラフト\n\n10/24.25(",
+    "image": "",
+    "location": "おきなわ工芸の杜 ・ 沖縄県豊見城市豊見城１１１４−１",
+    "price": "",
+    "official_url": "https://www.instagram.com/p/DeVGNSdkyua/?img_index=1",
+    "area": "豊見城市"
   },
   {
     "name": "【チケット情報】RYUKYUDAIHATSU Presents 第5回沖縄アリーナカップ",
@@ -1967,22 +1967,6 @@
     "area": "小浜島"
   },
   {
-    "name": "杜deマルシェ後編",
-    "name_zh": "",
-    "date_start": "2026-10-24",
-    "date_end": "2026-10-25",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6969",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "10/24.25(土日)はおきなわ工芸の杜にて杜deマルシェ後編が開催されます\nハロウィン企画やホテルランチ券などが当たる300円ガチャも\nぜひ遊びに来てくださいね\n\n10/24.25(土日) 11:00-16:00\nおきなわ工芸の杜\n\nハンドメイド出店者一覧\n\n10/24.25(土日\n革ゃ米丸\n@yonemaru828 \n@yonemaru358\nハンドメイドレザークラフト\n\n10/24.25(",
-    "image": "",
-    "location": "おきなわ工芸の杜 ・ 豊見城市",
-    "price": "",
-    "official_url": "https://www.instagram.com/p/DeVGNSdkyua/?img_index=1",
-    "area": "豊見城市"
-  },
-  {
     "name": "宜野座村まつり＆美ら島花火大会",
     "name_zh": "宜野座村祭＆美麗島煙火大會",
     "date_start": "2026-10-24",
@@ -2031,6 +2015,22 @@
     "area": "那覇市"
   },
   {
+    "name": "アラマハイナ コンドホテル7周年記念イベント 書アート琉球古典音楽月華のご案内",
+    "name_zh": "Aramahaina Condo Hotel 七週年紀念活動書法藝術琉球古典音樂月花信息",
+    "date_start": "2026-10-25",
+    "date_end": "2026-10-25",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6740",
+    "source": "okimeguri",
+    "category": "",
+    "stars": 0,
+    "description": "10月25日日、アラマハイナ コンドホテル開業7周年を記念し、書と琉球古典音楽が織りなす一夜限りのライブパフォーマンス月華げっか首里城復興への願いをのせてを開催いたします。\n力強く躍動感あふれる筆致で魅せる書浪人 善隆。その一画一画に、澤井 毎里子による横笛、竹田 祐規による三線の音色が重なり、沖縄の伝統文化が響き合う特別なステージをお届けします。\n月明かりを思わせる幻想的な空間で、目の前で生まれ",
+    "image": "",
+    "location": "アラマハイナ コンドホテル ・ 本部町",
+    "price": "免費",
+    "official_url": "https://www.ala-mahaina.com/news/detail.php?id=215",
+    "area": "本部町"
+  },
+  {
     "name": "10/25日おきみゅーエントランスコンサート 美術コース作品展示 応援ミニコンサート",
     "name_zh": "10/25 Okimyu入口音樂會藝術課程作品展支持迷你音樂會",
     "date_start": "2026-10-25",
@@ -2077,22 +2077,6 @@
     "price": "免費",
     "official_url": "https://momoyamaeisa.com/2026/08/19/2026-eisa-festival/",
     "area": "沖縄市"
-  },
-  {
-    "name": "アラマハイナ コンドホテル7周年記念イベント 書アート琉球古典音楽月華のご案内",
-    "name_zh": "Aramahaina Condo Hotel 七週年紀念活動書法藝術琉球古典音樂月花信息",
-    "date_start": "2026-10-25",
-    "date_end": "2026-10-25",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6740",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "10月25日日、アラマハイナ コンドホテル開業7周年を記念し、書と琉球古典音楽が織りなす一夜限りのライブパフォーマンス月華げっか首里城復興への願いをのせてを開催いたします。\n力強く躍動感あふれる筆致で魅せる書浪人 善隆。その一画一画に、澤井 毎里子による横笛、竹田 祐規による三線の音色が重なり、沖縄の伝統文化が響き合う特別なステージをお届けします。\n月明かりを思わせる幻想的な空間で、目の前で生まれ",
-    "image": "",
-    "location": "アラマハイナ コンドホテル ・ 本部町",
-    "price": "免費",
-    "official_url": "https://www.ala-mahaina.com/news/detail.php?id=215",
-    "area": "本部町"
   },
   {
     "name": "沖縄交響楽団創立70周年記念演奏会",
@@ -2191,6 +2175,22 @@
     "area": "沖縄市"
   },
   {
+    "name": "第8回世界のウチナーンチュ大会の開催日程のお知らせ",
+    "name_zh": "第八屆世界Uchinanchu錦標賽行程公佈",
+    "date_start": "2026-10-27",
+    "date_end": "2026-10-31",
+    "url": "https://www.okinawastory.jp/event/600023296",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "世界のウチナーンチュ大会は、本県の貴重な人的財産である世界各地のウチナーンチュが、5年に一度母県である沖縄に集い、そのルーツやアイデンティティーを確認するとともに、県民との交流を通してウチナーネットワークを拡大・発展させ、次世代へと継承していくことを目的としています。今回、第8回目の開催日が決定しましたので以下のとおりお知らせいたします。\n\n\n\n開催期間\n2027年10月27日水曜日から2027年",
+    "image": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/040/297/b_image.jpg",
+    "location": "沖縄セルラースタジアム・パーク、県立武道館、奥武山公園 ・ 沖縄県那覇市奥武山町４２−１",
+    "price": "",
+    "official_url": "https://www.pref.okinawa.lg.jp/bunkakoryu/koryu/1023165/1040297.html",
+    "area": "那覇市"
+  },
+  {
     "name": "2026年10月27日 第3回 饒平名知健 個展 ～「永遠のまなざし」・紡いだ生の軌跡～",
     "name_zh": "2026年10月27日第3回那智健良平個展～「永恆的凝視」/生命的軌跡旋轉～",
     "date_start": "2026-10-27",
@@ -2204,22 +2204,6 @@
     "location": "那覇市民ギャラリー第3展示室 ・ 沖縄県那覇市久茂地１丁目１−１",
     "price": "免費",
     "official_url": "https://naha-palette.jp/gallery/event/5094",
-    "area": "那覇市"
-  },
-  {
-    "name": "第8回世界のウチナーンチュ大会の開催日程のお知らせ",
-    "name_zh": "",
-    "date_start": "2026-10-27",
-    "date_end": "2026-10-31",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6966",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "世界のウチナーンチュ大会は、本県の貴重な人的財産である世界各地のウチナーンチュが、5年に一度母県である沖縄に集い、そのルーツやアイデンティティーを確認するとともに、県民との交流を通してウチナーネットワークを拡大・発展させ、次世代へと継承していくことを目的としています。今回、第8回目の開催日が決定しましたので以下のとおりお知らせいたします。\n\n\n\n開催期間\n2027年10月27日水曜日から2027年",
-    "image": "",
-    "location": "沖縄セルラースタジアム・パーク、県立武道館、奥武山公園 ・ 那覇市",
-    "price": "",
-    "official_url": "https://www.pref.okinawa.lg.jp/bunkakoryu/koryu/1023165/1040297.html",
     "area": "那覇市"
   },
   {
@@ -2310,6 +2294,22 @@
     "category": "文化",
     "stars": 3,
     "description": "國際通り萬聖節遊行是沖繩秋季新興慶典，各式造型扮裝吸引大批人潮"
+  },
+  {
+    "name": "（1020更新）はえばる2026ふるさと博覧会について【Topページ】　第23回はえばる2026ふるさと博覧会　第18回福祉まつり・第31回児童館まつり",
+    "name_zh": "（更新1020） 關於羽原2026故鄉博覽會 [首頁] 第23屆羽原2026故鄉博覽會第18屆福利節/第31屆兒童中心節",
+    "date_start": "2026-10-31",
+    "date_end": "2026-11-01",
+    "url": "https://www.okinawastory.jp/event/600023262",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "第23回はえばる2026ふるさと博覧会第18回福祉まつり・第31回児童館まつり\n日付令和8年10月31日(土曜日)11時00分20時00分\n 11月1日(日曜日)10時00分20時00分\n会場南風原町立中央公民館・文化センター及び周辺駐車場\n\n\n\n令和8年10月31日、11月1日にはえばるふるさと博覧会の開催が決定しました。ふるさと博覧会の開催にあたり、現在、協賛企業を募集しています。詳細について",
+    "image": "https://www.town.haebaru.lg.jp/uploaded/image/7397.png",
+    "location": "南風原町立中央公民館・文化センター及び周辺駐車場 ・ 沖縄県島尻郡南風原町喜屋武２３６",
+    "price": "",
+    "official_url": "https://www.town.haebaru.lg.jp/site/kankou/16983.html",
+    "area": "南風原町"
   },
   {
     "name": "海辺のやちむん市",
@@ -2440,7 +2440,7 @@
   },
   {
     "name": "1031_鳥取戦 - FC琉球",
-    "name_zh": "",
+    "name_zh": "1031_鳥取比賽 – FC琉球",
     "date_start": "2026-10-31",
     "date_end": "2026-10-31",
     "url": "https://okimeguri.com/prediction-calendar/details/events/6944",
@@ -2471,24 +2471,8 @@
     "area": "読谷村"
   },
   {
-    "name": "1020更新はえばる2026ふるさと博覧会についてTopページ第23回はえばる2026ふるさと博覧会第18回福祉まつり・第31回児童館まつり",
-    "name_zh": "",
-    "date_start": "2026-10-31",
-    "date_end": "2026-11-01",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6933",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "第23回はえばる2026ふるさと博覧会第18回福祉まつり・第31回児童館まつり\n日付令和8年10月31日(土曜日)11時00分20時00分\n 11月1日(日曜日)10時00分20時00分\n会場南風原町立中央公民館・文化センター及び周辺駐車場\n\n\n\n令和8年10月31日、11月1日にはえばるふるさと博覧会の開催が決定しました。ふるさと博覧会の開催にあたり、現在、協賛企業を募集しています。詳細について",
-    "image": "",
-    "location": "南風原町立中央公民館・文化センター及び周辺駐車場 ・ 南風原町",
-    "price": "",
-    "official_url": "https://www.town.haebaru.lg.jp/site/kankou/16983.html",
-    "area": "南風原町"
-  },
-  {
     "name": "石垣ハロウィン2026",
-    "name_zh": "",
+    "name_zh": "石垣島萬聖節 2026",
     "date_start": "2026-10-31",
     "date_end": "2026-10-31",
     "url": "https://okimeguri.com/prediction-calendar/details/events/6943",
@@ -2504,7 +2488,7 @@
   },
   {
     "name": "羽地ハロウィンフェス",
-    "name_zh": "",
+    "name_zh": "羽路萬聖節祭",
     "date_start": "2026-10-31",
     "date_end": "2026-10-31",
     "url": "https://okimeguri.com/prediction-calendar/details/events/6951",
@@ -2609,6 +2593,53 @@
     "location": "首里城公園、國際通等",
     "price": "可能需要酌收費用",
     "official_url": "https://oki-park.jp.t.ms.hp.transer.com/shurijo/events/detail/10970"
+  },
+  {
+    "name": "CHURA MIKU STREET 2026",
+    "name_zh": "美麗未來街2026",
+    "date_start": "2026-11-01",
+    "date_end": "2026-12-13",
+    "url": "https://www.okinawastory.jp/event/600023300",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "CHURA\nMIKU\nSTREETとは\n沖縄へ めんそーれ\n初音ミクと美ら島の旅\nCHURA MIKU STREETは、初音ミクをきっかけに沖縄の街・文化・食・観光を\n楽しんでもらうことを目的とした、街全体を活用した周遊型イベントです。\n\n沖縄の言葉で美しいきれいを意味する美らCHURAと、国際通りが県道39号線であることにちなんだMIKU STREETを組み合わせて名づけられました。今年は首里城",
+    "image": "https://39-street.com/assets/img/kv_main_logo.png?v=260819",
+    "location": "沖縄県 国際通り・首里 周辺 ・ 沖縄県那覇市",
+    "price": "",
+    "official_url": "https://39-street.com/",
+    "area": "那覇市"
+  },
+  {
+    "name": "Blue Lagoon Christmas 2026　Blue Lagoonイルミネーション",
+    "name_zh": "藍色潟湖聖誕節2026：藍色潟湖彩燈",
+    "date_start": "2026-11-01",
+    "date_end": "2027-02-28",
+    "url": "https://www.okinawastory.jp/event/600023281",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://renaissance-okinawa.com/cdn/shop/files/beach_02.jpg?v=1791876647",
+    "location": "ルネッサンスリゾートオキナワ ・ 沖縄県国頭郡恩納村山田３４２５−２",
+    "price": "",
+    "official_url": "https://renaissance-okinawa.com/blogs/news/bluelagoonchristmas-2026"
+  },
+  {
+    "name": "沖縄こどもの国 秋の感謝祭 2026",
+    "name_zh": "沖繩兒童王國秋季感恩節 2026",
+    "date_start": "2026-11-01",
+    "date_end": "2026-11-30",
+    "url": "https://www.okinawastory.jp/event/600023277",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "開催日\n2026年11月1日日30日月\n11月は、ありがとうを伝えるきっかけに\n\n沖縄こどもの国では、いつも支えてくださっている皆さまへの感謝を込めて、11月1日30日までの間沖縄こどもの国 秋の感謝祭を開催いたします期間中は、お得なキャンペーンやさまざまな特別企画をご用意して、皆様をお迎えいたします。\n\nイベント盛りだくさんの11月。\nご家族やお友達、大切な人と一緒に、沖縄こどもの国で楽しいひと",
+    "image": "https://www.okzm.jp/cms/wp-content/uploads/2026/10/無題-2026年9月28日-14.19.09-1.png",
+    "location": "沖縄こどもの国 ・ 沖縄県沖縄市胡屋5-7-1",
+    "price": "",
+    "official_url": "https://www.okzm.jp/event/5373/",
+    "area": "沖縄市"
   },
   {
     "name": "雪と光に満ちたあの美しき街で。Winter Elegance",
@@ -2766,7 +2797,7 @@
   },
   {
     "name": "よなばる水辺のマルシェ",
-    "name_zh": "",
+    "name_zh": "與那原水邊馬爾凱",
     "date_start": "2026-11-01",
     "date_end": "2026-11-01",
     "url": "https://okimeguri.com/prediction-calendar/details/events/6950",
@@ -2782,7 +2813,7 @@
   },
   {
     "name": "クイチャーフェスティバル開催とチケット販売について",
-    "name_zh": "",
+    "name_zh": "關於奎恰節及門票銷售",
     "date_start": "2026-11-01",
     "date_end": "2026-11-01",
     "url": "https://okimeguri.com/prediction-calendar/details/events/6936",
@@ -2798,7 +2829,7 @@
   },
   {
     "name": "護佐丸歴史資料図書館10周年企画芸能上演会中城村の十五夜獅子舞と打花鼓",
-    "name_zh": "",
+    "name_zh": "護佐丸史料圖書館10週年紀念特別演藝表演中城村第15夜舞獅與內鼓",
     "date_start": "2026-11-01",
     "date_end": "2026-11-01",
     "url": "https://okimeguri.com/prediction-calendar/details/events/6956",
@@ -2814,7 +2845,7 @@
   },
   {
     "name": "ゆめみらいフェス",
-    "name_zh": "",
+    "name_zh": "夢未來祭",
     "date_start": "2026-11-01",
     "date_end": "2026-11-01",
     "url": "https://okimeguri.com/prediction-calendar/details/events/6963",
@@ -2827,22 +2858,6 @@
     "price": "免費",
     "official_url": "https://roukin60.studio.site/",
     "area": "那覇市"
-  },
-  {
-    "name": "沖縄こどもの国 秋の感謝祭 2026",
-    "name_zh": "",
-    "date_start": "2026-11-01",
-    "date_end": "2026-11-30",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6957",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "開催日\n2026年11月1日日30日月\n11月は、ありがとうを伝えるきっかけに\n\n沖縄こどもの国では、いつも支えてくださっている皆さまへの感謝を込めて、11月1日30日までの間沖縄こどもの国 秋の感謝祭を開催いたします期間中は、お得なキャンペーンやさまざまな特別企画をご用意して、皆様をお迎えいたします。\n\nイベント盛りだくさんの11月。\nご家族やお友達、大切な人と一緒に、沖縄こどもの国で楽しいひと",
-    "image": "",
-    "location": "沖縄こどもの国 ・ 沖縄市",
-    "price": "",
-    "official_url": "https://www.okzm.jp/event/5373/",
-    "area": "沖縄市"
   },
   {
     "name": "第23回 琉球国王 尚巴志ハーフマラソンin南城市大会",
@@ -2877,22 +2892,6 @@
     "area": "浦添市"
   },
   {
-    "name": "CHURA MIKU STREET 2026",
-    "name_zh": "",
-    "date_start": "2026-11-01",
-    "date_end": "2026-12-13",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6970",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "CHURA\nMIKU\nSTREETとは\n沖縄へ めんそーれ\n初音ミクと美ら島の旅\nCHURA MIKU STREETは、初音ミクをきっかけに沖縄の街・文化・食・観光を\n楽しんでもらうことを目的とした、街全体を活用した周遊型イベントです。\n\n沖縄の言葉で美しいきれいを意味する美らCHURAと、国際通りが県道39号線であることにちなんだMIKU STREETを組み合わせて名づけられました。今年は首里城",
-    "image": "",
-    "location": "沖縄県 国際通り・首里 周辺 ・ 那覇市",
-    "price": "",
-    "official_url": "https://39-street.com/",
-    "area": "那覇市"
-  },
-  {
     "name": "ホテル日航アリビラ「パティオイルミネーション」",
     "name_zh": "Alivila 日航酒店“帕蒂油彩燈飾”",
     "date_start": "2026-11-01",
@@ -2909,6 +2908,21 @@
     "area": "西海岸・東海岸"
   },
   {
+    "name": "1日5組限定「初雪（はつゆき）のアフタヌーンティー」 11月1日(日)より期間限定で提供開始。",
+    "name_zh": "從11月1日（週日）起，將限時推出每天限定5組的「初雪下午茶」。",
+    "date_start": "2026-11-01",
+    "date_end": "2026-11-01",
+    "url": "https://goyah.net/okinawa_event/archives/9596",
+    "source": "goyah",
+    "category": "",
+    "stars": 0,
+    "description": "2026年11月1日（日）から2027年1月31日（日）までの期間限定で「初雪（はつゆき）のアフタヌーンティー」を提供します。雪の降らない沖縄で、純白のスイーツやセイボリー、冬の情景をイメージした限定ドリンクを通して、雪 \nThe post 1日5組限定「初雪（はつゆき）のアフタヌーンティー」 11月1日(日)より期間限定で提供開始。 first appeared on ごーやーどっとネット.\n©",
+    "image": "",
+    "location": "",
+    "price": "",
+    "official_url": ""
+  },
+  {
     "name": "今天是 🎭 文化の日",
     "name_zh": "🎭 文化の日",
     "date_start": "2026-11-03",
@@ -2920,8 +2934,54 @@
     "description": "首里城一帶常有文化活動，能近距離認識琉球王朝的服飾與藝能"
   },
   {
+    "name": "企画展【伊波メンサー～織に込められた想い～】",
+    "name_zh": "特別展覽【Iha Mensah - 編織的思考】",
+    "date_start": "2026-11-03",
+    "date_end": "2027-02-28",
+    "url": "https://www.okinawastory.jp/event/600023276",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://www.city.uruma.lg.jp/images/10936/ihamennsa-hp.jpg",
+    "location": "うるま市立石川歴史民俗資料館　企画展示室 ・ 沖縄県うるま市石川曙２丁目１−５５",
+    "price": "免費",
+    "official_url": "https://www.city.uruma.lg.jp/3001005000/contents/p000041.html"
+  },
+  {
+    "name": "2026年11月03日 第４回あじ彩の会 絵画展 ～秋うらら　心に彩りを～",
+    "name_zh": "2026 年 11 月 3 日 第 4 屆紫陽彩畫展 ～浦良之秋 - Color your heart～",
+    "date_start": "2026-11-03",
+    "date_end": "2026-11-08",
+    "url": "https://www.okinawastory.jp/event/600023266",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://naha-palette.jp/gallery/cms/wp-content/uploads/2026/09/11%E6%9C%883%E6%97%A5%EF%BD%9E%E3%81%82%E3%81%98%E5%BD%A9%E3%81%AE%E4%BC%9A-pdf.jpg",
+    "location": "那覇市民ギャラリー　第２展示室 ・ 沖縄県那覇市久茂地１丁目１−１",
+    "price": "免費",
+    "official_url": "https://naha-palette.jp/gallery/event/5135"
+  },
+  {
+    "name": "2026年11月03日 仲間智登志の世界 〜木彫展〜",
+    "name_zh": "2026年11月3日仲間千歲的世界～木雕展～",
+    "date_start": "2026-11-03",
+    "date_end": "2026-11-08",
+    "url": "https://www.okinawastory.jp/event/600023265",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "期間\n11/3火11/8日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第1展示室\n\n入場料\n無料\n\n展示内容\n木彫",
+    "image": "https://naha-palette.jp/gallery/cms/wp-content/uploads/2026/10/11%E6%9C%883%E6%97%A5%EF%BD%9E%E4%BB%B2%E9%96%93%E6%99%BA%E7%99%BB%E5%BF%97%E3%81%AE%E4%B8%96%E7%95%8C-pdf.jpg",
+    "location": "那覇市民ギャラリー　第1展示室 ・ 沖縄県那覇市久茂地１丁目１−１",
+    "price": "免費",
+    "official_url": "https://naha-palette.jp/gallery/event/5131",
+    "area": "那覇市"
+  },
+  {
     "name": "1103_岐阜戦 - FC琉球",
-    "name_zh": "",
+    "name_zh": "1103_岐阜比賽 – FC琉球",
     "date_start": "2026-11-03",
     "date_end": "2026-11-03",
     "url": "https://okimeguri.com/prediction-calendar/details/events/6945",
@@ -2937,7 +2997,7 @@
   },
   {
     "name": "2026年11月03日 第回あじ彩の会 絵画展 秋うらら心に彩りを",
-    "name_zh": "",
+    "name_zh": "2026年11月3日 第一屆紫陽花畫展 為秋天的心塗上色彩",
     "date_start": "2026-11-03",
     "date_end": "2026-11-08",
     "url": "https://okimeguri.com/prediction-calendar/details/events/6937",
@@ -2949,22 +3009,6 @@
     "location": "那覇市民ギャラリー　第２展示室 ・ 那覇市",
     "price": "免費",
     "official_url": "https://naha-palette.jp/gallery/event/5135",
-    "area": "那覇市"
-  },
-  {
-    "name": "2026年11月03日 仲間智登志の世界 木彫展",
-    "name_zh": "",
-    "date_start": "2026-11-03",
-    "date_end": "2026-11-08",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6938",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "期間\n11/3火11/8日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第1展示室\n\n入場料\n無料\n\n展示内容\n木彫",
-    "image": "",
-    "location": "那覇市民ギャラリー　第1展示室 ・ 那覇市",
-    "price": "免費",
-    "official_url": "https://naha-palette.jp/gallery/event/5131",
     "area": "那覇市"
   },
   {
@@ -3001,7 +3045,7 @@
   },
   {
     "name": "中学生・高校生が主役 首里城復興記念企画首里の鼓動を2026年11月3日(火・祝)に沖縄・くくる糸満で開催決定",
-    "name_zh": "",
+    "name_zh": "首里城修復紀念事業《首里城的心跳》將於2026年11月3日（週二·假日）在沖繩縣糸滿市舉辦，以國中生和高中生為主角",
     "date_start": "2026-11-03",
     "date_end": "2026-11-03",
     "url": "https://okimeguri.com/prediction-calendar/details/events/6939",
@@ -3019,16 +3063,16 @@
     "name": "「クリスマスを、1日で終わらせない」 約2カ月間にわたる「フェスティブシーズン2026」開催 〜ブッフェ、アフタヌーンティー、鉄板焼、音楽、宿泊まで多彩な体験を展開〜",
     "name_zh": "「聖誕節不是一天結束的」「節慶2026」將舉辦兩個月左右～提供自助餐、下午茶、鐵板燒、音樂、過夜等多種體驗～",
     "date_start": "2026-11-04",
-    "date_end": "2026-11-04",
-    "url": "https://goyah.net/okinawa_event/archives/9518",
-    "source": "goyah",
+    "date_end": "2026-12-25",
+    "url": "https://www.okinawastory.jp/event/600023298",
+    "source": "okinawastory",
     "category": "",
     "stars": 0,
     "description": "沖縄ハーバービューホテル（沖縄県那覇市泉崎2-46）は、2026年11月4日（水）から12月25日（金）まで、「フェスティブシーズン2026」を開催します。ブッフェやアフタヌーンティー、鉄板焼の限定メニューに加え、生演奏 \nThe post 「クリスマスを、1日で終わらせない」 約2カ月間にわたる「フェスティブシーズン2026」開催 〜ブッフェ、アフタヌーンティー、鉄板焼、音楽、宿泊まで多彩な体験",
-    "image": "",
-    "location": "",
+    "image": "https://oka-hvh.com/wp/wp-content/uploads/2026/10/%E3%83%97%E3%83%A9%E3%83%B3%E3%82%BF%E3%83%B3%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%96%E3%83%83%E3%83%95%E3%82%A7-scaled.jpg",
+    "location": "沖縄ハーバービューホテル　ブッフェレストラン「プランタン」／ 鉄板焼 「泉崎」／ Lounge＆Bar ・ 沖縄県那覇市泉崎2-46",
     "price": "",
-    "official_url": ""
+    "official_url": "https://oka-hvh.com/christmas2026/"
   },
   {
     "name": "イルミネーション「Eclat de Zanpa (エクラ・ドゥ・ザンパ)」～残波のきらめき～",
@@ -3076,6 +3120,22 @@
     "price": "",
     "official_url": "https://www.nahart.jp/course/nahartjazz/",
     "area": "那覇市"
+  },
+  {
+    "name": "11/8(日)あぐに島まつり2026＠沖縄",
+    "name_zh": "11/8（週日）2026年粟國島節@沖繩",
+    "date_start": "2026-11-07",
+    "date_end": "2026-11-08",
+    "url": "https://www.okinawastory.jp/event/600023279",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "11/8(日)あぐに島まつり2026沖縄",
+    "image": "https://storage.googleapis.com/studio-design-asset-files/projects/EXawRNByqD/s-595x842_v-fs_webp_efd9b60f-f6a5-4a8a-992f-9c7f9f84a426.webp",
+    "location": "粟国島湾内特設会場 ・ 沖縄県島尻郡粟国村",
+    "price": "",
+    "official_url": "https://jaabourbonz.studio.site/live/K2N3xSCl",
+    "area": "島尻郡粟国村"
   },
   {
     "name": "琉球/バインミー/人形 〜コムゴンで味わう琉球人形とベトナムのお土産品〜（Ryukyu / Bánh mì / Búp bê - Thưởng lãm búp bê Ryukyu và quà lưu niệm Việt Nam tại Cơm Ngon）",
@@ -3238,7 +3298,7 @@
   },
   {
     "name": "琉球CRIT in 北谷2026 supported by SMC開催決定",
-    "name_zh": "",
+    "name_zh": "SMC支持的琉球CRIT北谷2026即將舉行",
     "date_start": "2026-11-07",
     "date_end": "2026-11-07",
     "url": "https://okimeguri.com/prediction-calendar/details/events/6946",
@@ -3251,22 +3311,6 @@
     "price": "",
     "official_url": "https://www.sfidarecrit.com/2026series/2026ryukyu-crit/",
     "area": "北谷町"
-  },
-  {
-    "name": "11/8(日)あぐに島まつり2026沖縄",
-    "name_zh": "",
-    "date_start": "2026-11-07",
-    "date_end": "2026-11-08",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6955",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "11/8(日)あぐに島まつり2026沖縄",
-    "image": "",
-    "location": "粟国島湾内特設会場 ・ 島尻郡粟国村",
-    "price": "",
-    "official_url": "https://jaabourbonz.studio.site/live/K2N3xSCl",
-    "area": "島尻郡粟国村"
   },
   {
     "name": "OIST創立15周年記念コンサート",
@@ -3365,22 +3409,6 @@
     "area": "名護市"
   },
   {
-    "name": "令和8年度 星空観察会 要事前申込主催沖縄県地域環境センター",
-    "name_zh": "2026年星空觀測活動（需提前申請）沖繩縣地區環境中心主辦",
-    "date_start": "2026-11-07",
-    "date_end": "2026-11-07",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6913",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "開催日\n令和8年11月7日土\n夜空を見上げて、星空を楽しんでみませんか\n毎年恒例の星空観察会を今年も開催します\n星空観察を通して、私たちの暮らしと大気環境のつながりについて考えてみましょう。\n子どもから大人まで楽しめる観察会です。ご家族やご友人と一緒に、夜空に広がる星を眺めてみませんかぜひご参加ください\n\n開催日時\n令和8年11月7日土18:3020:00受付開始17:30\n\n開催場所\n沖縄県平和",
-    "image": "",
-    "location": "沖縄県平和創造の森公園　管理事務所前広場 ・ 糸満市",
-    "price": "免費",
-    "official_url": "https://www.okzm.jp/event/5345/",
-    "area": "糸満市"
-  },
-  {
     "name": "2026中城村ロゲイニング大会なかぐすくトレジャーウォーク",
     "name_zh": "2026年中城村落寶大會 中城城寶藏漫步",
     "date_start": "2026-11-07",
@@ -3397,20 +3425,20 @@
     "area": "中城村"
   },
   {
-    "name": "琉球/バインミー/人形 コムゴンで味わう琉球人形とベトナムのお土産品Ryukyu / Bnh m / Bp b - Thng lm bp b Ryukyu v qu lu nim Vit Nam ti Cm Ngon",
-    "name_zh": "琉球/Banh Mi/娃娃 在 Comgon Ryukyu / Bnh m / Bp b - Thng lm bp b Ryukyu v qu lu nim Vit Nam ti Cm Ngon 享用琉球娃娃和越南紀念品",
+    "name": "令和8年度 星空観察会 要事前申込主催沖縄県地域環境センター",
+    "name_zh": "2026年星空觀測活動（需提前申請）沖繩縣地區環境中心主辦",
     "date_start": "2026-11-07",
-    "date_end": "2026-12-06",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6909",
+    "date_end": "2026-11-07",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6913",
     "source": "okimeguri",
     "category": "",
     "stars": 0,
-    "description": "ベトナムと沖縄。双方の風土や文化は、亜熱帯地域の特徴を保ちつつも、それぞれの文脈を帯びる。本展示では、ベトナム料理・バインミーを看板メニューとするコムゴンを会場に、互いの地でお土産品として生み出されたフィギュアの魅力と背景を、共に辿っていく。\nひがれおは、琉球人形収集家。土産品や手工芸品のリサーチを手がかりに、日常に潜む政治性や過去の痕跡をたどる作品を制作している。\n予約不要。\n\n11/14土17",
+    "description": "開催日\n令和8年11月7日土\n夜空を見上げて、星空を楽しんでみませんか\n毎年恒例の星空観察会を今年も開催します\n星空観察を通して、私たちの暮らしと大気環境のつながりについて考えてみましょう。\n子どもから大人まで楽しめる観察会です。ご家族やご友人と一緒に、夜空に広がる星を眺めてみませんかぜひご参加ください\n\n開催日時\n令和8年11月7日土18:3020:00受付開始17:30\n\n開催場所\n沖縄県平和",
     "image": "",
-    "location": "ベトナムバイク屋台コムゴン ・ 那覇市",
+    "location": "沖縄県平和創造の森公園　管理事務所前広場 ・ 糸満市",
     "price": "免費",
-    "official_url": "https://higaleona.com/RyukyuBánhmìBúpbê",
-    "area": "那覇市"
+    "official_url": "https://www.okzm.jp/event/5345/",
+    "area": "糸満市"
   },
   {
     "name": "緊急開催 11/7(土)ディスコナイトフィーバー 2026 Vol.3 開催スペシャルゲストDJ TA-SHI登場",
@@ -3426,6 +3454,22 @@
     "location": "ロワジールホテル那覇 3階 ボールルーム「天妃」 ・ 那覇市",
     "price": "有料",
     "official_url": "https://www.loisir-naha.com/news/509/",
+    "area": "那覇市"
+  },
+  {
+    "name": "琉球/バインミー/人形 コムゴンで味わう琉球人形とベトナムのお土産品Ryukyu / Bnh m / Bp b - Thng lm bp b Ryukyu v qu lu nim Vit Nam ti Cm Ngon",
+    "name_zh": "琉球/Banh Mi/娃娃 在 Comgon Ryukyu / Bnh m / Bp b - Thng lm bp b Ryukyu v qu lu nim Vit Nam ti Cm Ngon 享用琉球娃娃和越南紀念品",
+    "date_start": "2026-11-07",
+    "date_end": "2026-12-06",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6909",
+    "source": "okimeguri",
+    "category": "",
+    "stars": 0,
+    "description": "ベトナムと沖縄。双方の風土や文化は、亜熱帯地域の特徴を保ちつつも、それぞれの文脈を帯びる。本展示では、ベトナム料理・バインミーを看板メニューとするコムゴンを会場に、互いの地でお土産品として生み出されたフィギュアの魅力と背景を、共に辿っていく。\nひがれおは、琉球人形収集家。土産品や手工芸品のリサーチを手がかりに、日常に潜む政治性や過去の痕跡をたどる作品を制作している。\n予約不要。\n\n11/14土17",
+    "image": "",
+    "location": "ベトナムバイク屋台コムゴン ・ 那覇市",
+    "price": "免費",
+    "official_url": "https://higaleona.com/RyukyuBánhmìBúpbê",
     "area": "那覇市"
   },
   {
@@ -3524,22 +3568,6 @@
     "area": "名護市"
   },
   {
-    "name": "2026年地域コミュニティ活性化まつり第19回越来城下まつり",
-    "name_zh": "2026年地域振興節第19屆禦久城祭",
-    "date_start": "2026-11-08",
-    "date_end": "2026-11-08",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6771",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "日時令和8年11月8日日曜日\n\n場所越来水辺公園周辺\n\n共催自治会越来・城前・照屋・安慶田・室川・住吉・嘉間良・吉原・センター・八重島\n\n老人会・婦人会・こども会その他関係団体、サークル出演\n\n越来城下まつりは歴史、文化を尊重し、地域間交流を図り、地域活性化を目指しています",
-    "image": "",
-    "location": "越来水辺公園周辺 ・ 沖縄市",
-    "price": "",
-    "official_url": "https://www.city.okinawa.okinawa.jp/k014/contents/p00070.html",
-    "area": "沖縄市"
-  },
-  {
     "name": "ツール・ド・おきなわ市民ロードレースチャレンジレース50km",
     "name_zh": "環沖繩市民公路賽挑戰賽 50 公里",
     "date_start": "2026-11-08",
@@ -3570,6 +3598,22 @@
     "price": "有料",
     "official_url": "https://www.tour-de-okinawa.jp/citizen-road-race.html",
     "area": "名護市"
+  },
+  {
+    "name": "2026年地域コミュニティ活性化まつり第19回越来城下まつり",
+    "name_zh": "2026年地域振興節第19屆禦久城祭",
+    "date_start": "2026-11-08",
+    "date_end": "2026-11-08",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6771",
+    "source": "okimeguri",
+    "category": "",
+    "stars": 0,
+    "description": "日時令和8年11月8日日曜日\n\n場所越来水辺公園周辺\n\n共催自治会越来・城前・照屋・安慶田・室川・住吉・嘉間良・吉原・センター・八重島\n\n老人会・婦人会・こども会その他関係団体、サークル出演\n\n越来城下まつりは歴史、文化を尊重し、地域間交流を図り、地域活性化を目指しています",
+    "image": "",
+    "location": "越来水辺公園周辺 ・ 沖縄市",
+    "price": "",
+    "official_url": "https://www.city.okinawa.okinawa.jp/k014/contents/p00070.html",
+    "area": "沖縄市"
   },
   {
     "name": "ツール・ド・おきなわ市民ロードレース中学生レース50km",
@@ -3701,7 +3745,7 @@
   },
   {
     "name": "Leiohu Ryderがやって来る",
-    "name_zh": "",
+    "name_zh": "萊奧胡·萊德來了",
     "date_start": "2026-11-08",
     "date_end": "2026-11-08",
     "url": "https://okimeguri.com/prediction-calendar/details/events/6941",
@@ -3791,6 +3835,22 @@
     "area": "那覇市"
   },
   {
+    "name": "第32回日本最西端与那国島一周マラソン",
+    "name_zh": "第32屆環日本最西端與那國島馬拉松",
+    "date_start": "2026-11-14",
+    "date_end": "2026-11-14",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6053",
+    "source": "okimeguri",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "",
+    "location": "与那国中学校グラウンド、日本最西端の地（西崎灯台）、与那国空港（与那国空港周辺） ・ 与那国島",
+    "price": "有料",
+    "official_url": "https://yonaguni-oneroundmarathon.jp/",
+    "area": "与那国島"
+  },
+  {
     "name": "ひやみかちなはウォーク2026申込受付開始",
     "name_zh": "Hiyamikachinaha Walk 2026申請開始受理",
     "date_start": "2026-11-14",
@@ -3808,7 +3868,7 @@
   },
   {
     "name": "令和8年度 聞得大君 御新下り- 2026年11月14日土",
-    "name_zh": "",
+    "name_zh": "2026 Kintoku Daikun Goshin Kudari - 2026 年 11 月 14 日星期六",
     "date_start": "2026-11-14",
     "date_end": "2026-11-14",
     "url": "https://okimeguri.com/prediction-calendar/details/events/6935",
@@ -3821,22 +3881,6 @@
     "price": "",
     "official_url": "https://www.city.nanjo.okinawa.jp/topics/1788910419/",
     "area": "南城市"
-  },
-  {
-    "name": "第32回日本最西端与那国島一周マラソン",
-    "name_zh": "第32屆環日本最西端與那國島馬拉松",
-    "date_start": "2026-11-14",
-    "date_end": "2026-11-14",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6053",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "",
-    "image": "",
-    "location": "与那国中学校グラウンド、日本最西端の地（西崎灯台）、与那国空港（与那国空港周辺） ・ 与那国島",
-    "price": "有料",
-    "official_url": "https://yonaguni-oneroundmarathon.jp/",
-    "area": "与那国島"
   },
   {
     "name": "企画公演 国立劇場寄席(きかくこうえん こくりつげきじょうよせ)",
@@ -4357,7 +4401,7 @@
   },
   {
     "name": "沖縄ウイスキースピリッツフェスティバル",
-    "name_zh": "",
+    "name_zh": "沖繩威士忌烈酒節",
     "date_start": "2026-11-29",
     "date_end": "2026-11-29",
     "url": "https://okimeguri.com/prediction-calendar/details/events/6960",
@@ -4415,6 +4459,22 @@
     "description": "寄一張沖繩明信片給遠方的朋友，比任何禮物都更有旅行的溫度"
   },
   {
+    "name": "ケラマブルーカップ2026",
+    "name_zh": "慶良間藍盃 2026",
+    "date_start": "2026-12-04",
+    "date_end": "2026-12-05",
+    "url": "https://www.okinawastory.jp/event/600023263",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "大会コンセプト\n環境に配慮した大会運営の実現と、SUPの普及、青少年の育成\nケラマブルーカップでは大会を通じてより多くの方にSUPという競技を知っていただき、年齢という垣根を越え、大人から子どもまで真剣に競技に取り組む過程の中で、地域交流を深め、青少年の育成に努めていく大会を目指します。\n環境への配慮として、ビーチクリーンの実施再利用を心掛け極力ゴミを出さないプラスチックを使用しないなどといった環",
+    "image": "https://kerama-bluecup.com/wp-content/uploads/2022/03/OGP.png",
+    "location": "座間味村 古座間味ビーチ ・ 沖縄県島尻郡座間味村座間味",
+    "price": "",
+    "official_url": "https://kerama-bluecup.com/",
+    "area": "座間味島"
+  },
+  {
     "name": "琉球文化の宴シリーズ 第一弾現存最古の三線と人間国宝・太鼓の音色が鳴り響く一夜",
     "name_zh": "琉球文化宴會系列第1部 充滿現存最古老的三線與現存國寶太鼓之聲的夜晚",
     "date_start": "2026-12-04",
@@ -4429,22 +4489,6 @@
     "price": "有料",
     "official_url": "https://kyuyourfilm.com/ryukyu-bunka-no-utage",
     "area": "那覇市"
-  },
-  {
-    "name": "ケラマブルーカップ2026",
-    "name_zh": "",
-    "date_start": "2026-12-04",
-    "date_end": "2026-12-05",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6940",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "大会コンセプト\n環境に配慮した大会運営の実現と、SUPの普及、青少年の育成\nケラマブルーカップでは大会を通じてより多くの方にSUPという競技を知っていただき、年齢という垣根を越え、大人から子どもまで真剣に競技に取り組む過程の中で、地域交流を深め、青少年の育成に努めていく大会を目指します。\n環境への配慮として、ビーチクリーンの実施再利用を心掛け極力ゴミを出さないプラスチックを使用しないなどといった環",
-    "image": "",
-    "location": "座間味村 古座間味ビーチ ・ 座間味島",
-    "price": "",
-    "official_url": "https://kerama-bluecup.com/",
-    "area": "座間味島"
   },
   {
     "name": "研究公演 二童敵討(けんきゅうこうえん にどうてきうち)",
@@ -4496,7 +4540,7 @@
   },
   {
     "name": "LIAマルシェ",
-    "name_zh": "",
+    "name_zh": "利亞馬爾凱",
     "date_start": "2026-12-06",
     "date_end": "2026-12-06",
     "url": "https://okimeguri.com/prediction-calendar/details/events/6964",
@@ -4634,20 +4678,36 @@
     "area": "伊江島"
   },
   {
-    "name": "国際女子野球クリスマスリーグ2026 開催決定",
-    "name_zh": "",
+    "name": "🎄⚾ 国際女子野球クリスマスリーグ2026 開催決定！ ⚾🎄",
+    "name_zh": "🎄⚾ 2026年國際女子棒球聖誕聯賽即將舉行！ ⚾🎄",
     "date_start": "2026-12-18",
     "date_end": "2026-12-23",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6949",
-    "source": "okimeguri",
+    "url": "https://www.okinawastory.jp/event/600023288",
+    "source": "okinawastory",
     "category": "",
     "stars": 0,
     "description": "今年も沖縄で国際女子野球クリスマスリーグを開催します\n\n国内外から集まった女子野球選手が、所属チームの枠を越えてチームを結成。\n海外選手、日本女子野球のトップクラスの指導者と一緒に、野球を通じて交流できる特別な6日間です\n\n野球だけでなく、沖縄の文化やグルメなども楽しみながら、国や言葉を越えた仲間との交流を深めます\n\n 開催期間\n2026年12月18日金12月23日水\n\n 会場\n・嘉手納野球場\n・",
     "image": "",
-    "location": "嘉手納野球場、オキハム読谷平和の森球場 ・ 中頭郡嘉手納町",
+    "location": "嘉手納野球場、オキハム読谷平和の森球場 ・ 沖縄県中頭郡嘉手納町",
     "price": "有料",
     "official_url": "https://www.instagram.com/p/DedUWT-mTYs/",
     "area": "中頭郡嘉手納町"
+  },
+  {
+    "name": "【2026年12月19日～12月30日】 RYUKYU GRAND LUNCH BUFFET ～Holiday Season～開催のお知らせ",
+    "name_zh": "[2026年12月19日至12月30日]琉球豪華午餐自助餐〜假期季節〜的通知",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-30",
+    "url": "https://www.okinawastory.jp/event/600023280",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "平素より、琉球ホテルリゾート 名城ビーチにご愛顧を賜りまして誠にありがとうございます。\n\nビュッフェダイニングNashiroでは、2026年12月19日12月30日の期間でRYUKYU GRAND LUNCH BUFFET Holiday Seasonを開催いたします。\n\n期間中は大人気のランチビュッフェがグレードアップ\nさらに、アーティストによる生演奏を毎日開催し、美食と音楽が交差する華やかで優",
+    "image": "https://ryukyuhotel.kenhotels.com/wp/wp-content/uploads/2026/10/37cc24f0ca17115dc14c27779358d3a7-1280x850.jpg",
+    "location": "琉球ホテル&リゾート 名城ビーチ ・ 沖縄県糸満市名城９６３",
+    "price": "",
+    "official_url": "https://ryukyuhotel.kenhotels.com/news/122200",
+    "area": "糸満市"
   },
   {
     "name": "令和8年度冬巡業　大相撲うるま場所　開催！",
@@ -4711,22 +4771,6 @@
     "price": "有料",
     "official_url": "https://onsen-gastronomy.com/eventinfo/ginoza-20261212/",
     "area": "宜野座村"
-  },
-  {
-    "name": "2026年12月19日12月30日 RYUKYU GRAND LUNCH BUFFET Holiday Season開催のお知らせ",
-    "name_zh": "",
-    "date_start": "2026-12-19",
-    "date_end": "2026-12-30",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6954",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "平素より、琉球ホテルリゾート 名城ビーチにご愛顧を賜りまして誠にありがとうございます。\n\nビュッフェダイニングNashiroでは、2026年12月19日12月30日の期間でRYUKYU GRAND LUNCH BUFFET Holiday Seasonを開催いたします。\n\n期間中は大人気のランチビュッフェがグレードアップ\nさらに、アーティストによる生演奏を毎日開催し、美食と音楽が交差する華やかで優",
-    "image": "",
-    "location": "琉球ホテル&リゾート 名城ビーチ ・ 糸満市",
-    "price": "",
-    "official_url": "https://ryukyuhotel.kenhotels.com/news/122200",
-    "area": "糸満市"
   },
   {
     "name": "大会要項 | 第9回沖縄100Kウルトラマラソン公式",
@@ -4827,7 +4871,7 @@
   },
   {
     "name": "2027年 南城市新春マラソン大会の開催について",
-    "name_zh": "",
+    "name_zh": "關於舉辦2027南城市新年馬拉松",
     "date_start": "2027-01-02",
     "date_end": "2027-01-02",
     "url": "https://okimeguri.com/prediction-calendar/details/events/6942",
@@ -4869,6 +4913,22 @@
     "area": "本部町"
   },
   {
+    "name": "プリンスアイスワールド2026-2027 THE REVUE ON ICE 沖縄公演",
+    "name_zh": "冰王子世界2026-2027 THE REVUE ON ICE 沖繩公演",
+    "date_start": "2027-01-16",
+    "date_end": "2027-01-17",
+    "url": "https://www.okinawastory.jp/event/600023261",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "時代を超えた名曲をブレードに纏い、光り輝く銀盤で華麗に舞う唯一無二のエンターテインメント\n\n\n\n  沖縄公演特設サイトは こちら  \n\n\n\n\n\n公演概要\n\n公演名プリンスアイスワールド2026-2027 THE REVUE ON ICE 沖縄公演\n\n\n\n日程2027年1月16日(土)・17日(日)2日間4公演予定\n\n時間[1回目]開場10:15開演11:30[2回目]開場14:45開演16:00\n",
+    "image": "https://contents.perfect.ne.jp/media/gVCB1m/skmlk6zvfm.jpg",
+    "location": "沖縄サントリーアリーナ ・ 沖縄県沖縄市山内１丁目１６−１",
+    "price": "有料",
+    "official_url": "https://www.princeiceworld.com/posts/iceshow/zdfrhi",
+    "area": "沖縄市"
+  },
+  {
     "name": "1月16日・17日 琉球舞踊公演 琉球舞踊特選会(りゅうきゅうぶようこうえん りゅうきゅうぶようとくせんかい)2027/01/16 (土)",
     "name_zh": "1月16日及17日琉球舞蹈表演琉球舞蹈特別精選（琉球部洋光園）2027/01/16（星期六）",
     "date_start": "2027-01-16",
@@ -4883,22 +4943,6 @@
     "price": "有料",
     "official_url": "https://www.nt-okinawa.or.jp/performance-info/detail?performance_id=2817",
     "area": "浦添市"
-  },
-  {
-    "name": "プリンスアイスワールド2026-2027 THE REVUE ON ICE 沖縄公演",
-    "name_zh": "",
-    "date_start": "2027-01-16",
-    "date_end": "2027-01-17",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6934",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "時代を超えた名曲をブレードに纏い、光り輝く銀盤で華麗に舞う唯一無二のエンターテインメント\n\n\n\n  沖縄公演特設サイトは こちら  \n\n\n\n\n\n公演概要\n\n公演名プリンスアイスワールド2026-2027 THE REVUE ON ICE 沖縄公演\n\n\n\n日程2027年1月16日(土)・17日(日)2日間4公演予定\n\n時間[1回目]開場10:15開演11:30[2回目]開場14:45開演16:00\n",
-    "image": "",
-    "location": "沖縄サントリーアリーナ ・ 沖縄市",
-    "price": "有料",
-    "official_url": "https://www.princeiceworld.com/posts/iceshow/zdfrhi",
-    "area": "沖縄市"
   },
   {
     "name": "第52回豊見城市新春健康マラソン・ウォーキング大会開催について",
@@ -5271,7 +5315,7 @@
     "description": "2-22音似「喵喵喵」，散步時常會遇到在街角曬太陽的島貓"
   },
   {
-    "name": "第34回 読谷やちむん市",
+    "name": "第34回  読谷やちむん市",
     "name_zh": "◆第34屆讀谷Yachimun City即將召開◆",
     "date_start": "2027-02-27",
     "date_end": "2027-02-28",
@@ -5315,7 +5359,7 @@
   },
   {
     "name": "やんばる東村アドベンチャーラリー2027",
-    "name_zh": "",
+    "name_zh": "山原東村冒險拉力賽 2027",
     "date_start": "2027-03-06",
     "date_end": "2027-03-06",
     "url": "https://okimeguri.com/prediction-calendar/details/events/6947",
@@ -5331,7 +5375,7 @@
   },
   {
     "name": "第45回 東村つつじマラソン大会",
-    "name_zh": "",
+    "name_zh": "第45屆東村杜鵑花馬拉松",
     "date_start": "2027-03-07",
     "date_end": "2027-03-07",
     "url": "https://okimeguri.com/prediction-calendar/details/events/6948",

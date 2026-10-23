@@ -21,6 +21,7 @@
     "https://goyah.net/okinawa_event/archives/9548",
     "https://goyah.net/okinawa_event/archives/9553",
     "https://goyah.net/okinawa_event/archives/9577",
+    "https://goyah.net/okinawa_event/archives/9596",
     "https://okimeguri.com/prediction-calendar/details/events/3241",
     "https://okimeguri.com/prediction-calendar/details/events/4439",
     "https://okimeguri.com/prediction-calendar/details/events/5135",
@@ -1002,7 +1003,24 @@
     "https://www.okinawastory.jp/event/600023250",
     "https://www.okinawastory.jp/event/600023253",
     "https://www.okinawastory.jp/event/600023254",
-    "https://www.okinawastory.jp/event/600023255"
+    "https://www.okinawastory.jp/event/600023255",
+    "https://www.okinawastory.jp/event/600023261",
+    "https://www.okinawastory.jp/event/600023262",
+    "https://www.okinawastory.jp/event/600023263",
+    "https://www.okinawastory.jp/event/600023265",
+    "https://www.okinawastory.jp/event/600023266",
+    "https://www.okinawastory.jp/event/600023273",
+    "https://www.okinawastory.jp/event/600023276",
+    "https://www.okinawastory.jp/event/600023277",
+    "https://www.okinawastory.jp/event/600023279",
+    "https://www.okinawastory.jp/event/600023280",
+    "https://www.okinawastory.jp/event/600023281",
+    "https://www.okinawastory.jp/event/600023282",
+    "https://www.okinawastory.jp/event/600023288",
+    "https://www.okinawastory.jp/event/600023296",
+    "https://www.okinawastory.jp/event/600023298",
+    "https://www.okinawastory.jp/event/600023299",
+    "https://www.okinawastory.jp/event/600023300"
   ],
   "sources": [
     "goyah",
@@ -1011,5 +1029,5 @@
     "okinawastory",
     "visitokinawa"
   ],
-  "updated": "2026-10-22T01:22:04.115744"
+  "updated": "2026-10-23T01:21:52.600368"
 }
