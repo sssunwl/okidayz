@@ -22,6 +22,7 @@
     "https://goyah.net/okinawa_event/archives/9553",
     "https://goyah.net/okinawa_event/archives/9577",
     "https://goyah.net/okinawa_event/archives/9596",
+    "https://goyah.net/okinawa_event/archives/9607",
     "https://okimeguri.com/prediction-calendar/details/events/3241",
     "https://okimeguri.com/prediction-calendar/details/events/4439",
     "https://okimeguri.com/prediction-calendar/details/events/5135",
@@ -402,6 +403,10 @@
     "https://okimeguri.com/prediction-calendar/details/events/6967",
     "https://okimeguri.com/prediction-calendar/details/events/6969",
     "https://okimeguri.com/prediction-calendar/details/events/6970",
+    "https://okimeguri.com/prediction-calendar/details/events/6971",
+    "https://okimeguri.com/prediction-calendar/details/events/6972",
+    "https://okimeguri.com/prediction-calendar/details/events/6973",
+    "https://okimeguri.com/prediction-calendar/details/events/6974",
     "https://visitokinawajapan.com/zh-hant/discover/events/cave-exploration-southern-okinawa/",
     "https://visitokinawajapan.com/zh-hant/discover/events/eisa-night/",
     "https://visitokinawajapan.com/zh-hant/discover/events/itoman-hare/",
@@ -452,6 +457,7 @@
     "https://www.jalan.net/event/evt_364120/",
     "https://www.jalan.net/event/evt_364122/",
     "https://www.jalan.net/event/evt_364123/",
+    "https://www.jalan.net/event/evt_364124/",
     "https://www.jalan.net/event/evt_366160/",
     "https://www.jalan.net/event/evt_366162/",
     "https://www.jalan.net/event/evt_366176/",
@@ -1020,7 +1026,8 @@
     "https://www.okinawastory.jp/event/600023296",
     "https://www.okinawastory.jp/event/600023298",
     "https://www.okinawastory.jp/event/600023299",
-    "https://www.okinawastory.jp/event/600023300"
+    "https://www.okinawastory.jp/event/600023300",
+    "https://www.okinawastory.jp/event/600023305"
   ],
   "sources": [
     "goyah",
@@ -1029,5 +1036,5 @@
     "okinawastory",
     "visitokinawa"
   ],
-  "updated": "2026-10-23T01:21:52.600368"
+  "updated": "2026-10-24T01:25:41.963845"
 }
