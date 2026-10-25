@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T09:27:08+09:00",
+  "generated_at": "2026-10-25T09:55:09+09:00",
   "items": [
     {
       "id": "today-600c1663",
@@ -164,6 +164,21 @@
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-1f53091d",
+      "kind": "event",
+      "title": "工作坊“讓我們製作一棵聖誕樹！”",
+      "summary": "浦添市美術館では、12月12日（土）にワークショップ「クリスマスツリーを作ろう！」を開催します。工作キット「くるっと工作ブック」を使用してクリスマスツリーを作ります。キラキラのオーナメントや模様がたくさんデザインされてい \nThe pos…",
+      "source": "goyah",
+      "url": "https://goyah.net/okinawa_event/archives/9625",
+      "date": "2026-12-12",
+      "date_end": "2026-12-12",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
       "vibe": false
     },
     {
@@ -2432,21 +2447,6 @@
       "vibe": false
     },
     {
-      "id": "event-238c1d22",
-      "kind": "event",
-      "title": "[商店街活動]10月30日（星期五）舉行！第39屆Sunpark嘉年華",
-      "summary": "第39回サンパークカーニバルについて   市内の商店街組合等であるサンパークてだこ通り会より、イベントのご案内です。 令和８年10月30日（金）17時30分から第39回サンパークカーニバルを開催い \nThe post 【商店街イベント】1…",
-      "source": "goyah",
-      "url": "https://goyah.net/okinawa_event/archives/9449",
-      "date": "2026-10-30",
-      "date_end": "2026-10-30",
-      "area": "全島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": true,
-      "vibe": false
-    },
-    {
       "id": "event-040a0af6",
       "kind": "event",
       "title": "Kahuna Asahibashi 萬聖節 2026 傳單已完成 Kahuna Asahibashi 萬聖節 2026 將舉行",
@@ -2474,6 +2474,21 @@
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-cd980e22",
+      "kind": "event",
+      "title": "10月29日舉行！ ！那霸市就業支援博覽會",
+      "summary": "服装自由！説明を聞くだけでもOK！お好きなタイミングでお気軽にお越しください。(予約優先)\nThe post 10月29日開催!!お仕事応援フェアIn那覇市 first appeared on ごーやーどっとネット.\n© ごーやーどっとネ…",
+      "source": "goyah",
+      "url": "https://goyah.net/okinawa_event/archives/9610",
+      "date": "2026-10-29",
+      "date_end": "2026-10-29",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
       "vibe": false
     },
     {
@@ -2548,6 +2563,21 @@
       "area": "中部",
       "category": "活動",
       "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "weather-d26063e1",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週日有雨、週一有雨、週二有雨、週三多雲、週四有雨、週五有雨、週六晴時多雲；氣溫約 21～28°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-10-25",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -2867,6 +2897,21 @@
       "vibe": false
     },
     {
+      "id": "event-891137a2",
+      "kind": "event",
+      "title": "[10/25]新入口更新紀念！ Eisa特色舞蹈",
+      "summary": "いつもCAVE OKINAWAをご愛顧いただき、誠にありがとうございます。\r\n\r\nこのたび、CAVE OKINAWAの新エントランスリニューアルオープンを記念いたしまして、2026年10月25日（日）に豪華出演団体によるエイサー特別演舞イ…",
+      "source": "okimeguri",
+      "url": "https://www.cave.okinawa/",
+      "date": "2026-10-25",
+      "date_end": "2026-10-25",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
+    },
+    {
       "id": "event-f1fdf0a7",
       "kind": "event",
       "title": "Yaese de 鬼故事 Yasu 來了",
@@ -2909,21 +2954,6 @@
       "category": "活動",
       "tourist_impact": "high",
       "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "event-f1f07fc4",
-      "kind": "event",
-      "title": "10/25 新入口更新紀念Eisa特別演出",
-      "summary": "いつもCAVE OKINAWAをご愛顧いただき、誠にありがとうございます。\n\nこのたび、CAVE OKINAWAの新エントランスリニューアルオープンを記念いたしまして、2026年10月25日日に豪華出演団体によるエイサー特別演舞イベントを…",
-      "source": "okimeguri",
-      "url": "https://www.cave.okinawa/2026/10/13/%e3%80%9010-25%e3%80%91%e6%96%b0%e3%82%a8%e3%83%b3%e3%83%88%e3%83%a9%e3%83%b3%e3%82%b9-%e3%83%aa%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%a2%e3%83%ab%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e8%a8%98%e5%bf%b5/",
-      "date": "2026-10-25",
-      "date_end": "2026-10-25",
-      "area": "中部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": true,
       "vibe": false
     },
     {
@@ -2998,21 +3028,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-bceacfae",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週六雷雨、週日有雨、週一有雨、週二有雨、週三有雨、週四有雨、週五有雨；氣溫約 22～29°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-10-24",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -3242,11 +3257,41 @@
       "vibe": false
     },
     {
+      "id": "event-8edba7b5",
+      "kind": "event",
+      "title": "馬爾凱之森 第 2 部分",
+      "summary": "10/24.25(土日)はおきなわ工芸の杜にて杜deマルシェ後編が開催されます\nハロウィン企画やホテルランチ券などが当たる300円ガチャも\nぜひ遊びに来てくださいね\n\n10/24.25(土日) 11:00-16:00\nおきなわ工芸の杜…",
+      "source": "okimeguri",
+      "url": "https://www.instagram.com/p/DeVGNSdkyua/?img_index=1",
+      "date": "2026-10-24",
+      "date_end": "2026-10-25",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
+    },
+    {
+      "id": "event-be5c9af2",
+      "kind": "event",
+      "title": "門票資訊 琉球大發呈獻第五屆沖繩競技場盃",
+      "summary": "大会情報\n主催\n一般財団法人沖縄県バスケットボール協会\n\n日程\n令和年月日土・日日\n\n会場\n沖縄サントリーアリーナ\n\n大会ポスターPDFはこちらです\nチケット販売について\nRYUKYU DAIHATSU Presents 第5回沖縄アリー…",
+      "source": "okimeguri",
+      "url": "https://okinawabba.jp/archives/uncategorized/24231/",
+      "date": "2026-10-24",
+      "date_end": "2026-10-25",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "event-574c73c4",
       "kind": "event",
       "title": "沖繩兒童之鄉萬聖節嘉年華2026",
       "summary": "開催日\n2026年10月24土・25日日\n10月は毎週土日祝に黄金南瓜を探せのハロウィン特別ミッションを開催します。さらに、10/23・24限定でハロウィンオリジナルゲームなど楽しいプログラムが盛りだくさん動物園では、動物たちに特別なトリ…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.okzm.jp/event/5295/",
       "date": "2026-10-24",
       "date_end": "2026-10-25",
@@ -3272,41 +3317,11 @@
       "vibe": true
     },
     {
-      "id": "event-67d2af5c",
-      "kind": "event",
-      "title": "[馬爾凱之森第二部]",
-      "summary": "10/24.25(土日)はおきなわ工芸の杜にて杜deマルシェ後編が開催されます\nハロウィン企画やホテルランチ券などが当たる300円ガチャも\nぜひ遊びに来てくださいね\n\n10/24.25(土日) 11:00-16:00\nおきなわ工芸の杜…",
-      "source": "okinawastory",
-      "url": "https://www.instagram.com/p/DeVGNSdkyua/?img_index=1",
-      "date": "2026-10-24",
-      "date_end": "2026-10-25",
-      "area": "南部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": true,
-      "vibe": false
-    },
-    {
-      "id": "event-af147cfd",
-      "kind": "event",
-      "title": "[門票資訊]關於琉球大發呈現第5屆沖繩競技場盃的舉辦",
-      "summary": "大会情報\n主催\n一般財団法人沖縄県バスケットボール協会\n\n日程\n令和年月日土・日日\n\n会場\n沖縄サントリーアリーナ\n\n大会ポスターPDFはこちらです\nチケット販売について\nRYUKYU DAIHATSU Presents 第5回沖縄アリー…",
-      "source": "okinawastory",
-      "url": "https://okinawabba.jp/archives/uncategorized/24231/",
-      "date": "2026-10-24",
-      "date_end": "2026-10-25",
-      "area": "中部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "event-ac8006af",
       "kind": "event",
       "title": "2026 年馬卡引節",
       "summary": "秋のマカヒキフェスティバル開催決定皆さまぜひ会場へお越しくださいね",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://makahiki.kumulani.co.jp/",
       "date": "2026-10-24",
       "date_end": "2026-10-25",
@@ -3572,21 +3587,6 @@
       "vibe": false
     },
     {
-      "id": "event-9c43ab02",
-      "kind": "event",
-      "title": "金島拓哉 x 栗山田宮新作《代替終結》",
-      "summary": "チケット発売月28日金1000\n那覇文化芸術劇場なはーと開館周年記念事業\n兼島拓也栗山民也終わりの代わりに\nあらすじ\n1958年。終戦から13年経った沖縄で暮らす、大湾暁子とその母・佐代子。暁子は休日のたびに、沖縄戦で死亡した兄・佳純の遺…",
-      "source": "okinawastory",
-      "url": "https://www.nahart.jp/stage/owarinokawarini/",
-      "date": "2026-10-23",
-      "date_end": "2026-10-25",
-      "area": "那霸",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "event-70ddcbd0",
       "kind": "event",
       "title": "讀谷節",
@@ -3600,6 +3600,21 @@
       "tourist_impact": "low",
       "local_life": true,
       "vibe": true
+    },
+    {
+      "id": "event-bcaffbc0",
+      "kind": "event",
+      "title": "而不是金島拓哉和栗山田宮的新作完結",
+      "summary": "チケット発売月28日金1000\n那覇文化芸術劇場なはーと開館周年記念事業\n兼島拓也栗山民也終わりの代わりに\nあらすじ\n1958年。終戦から13年経った沖縄で暮らす、大湾暁子とその母・佐代子。暁子は休日のたびに、沖縄戦で死亡した兄・佳純の遺…",
+      "source": "okimeguri",
+      "url": "https://www.nahart.jp/stage/owarinokawarini/",
+      "date": "2026-10-23",
+      "date_end": "2026-10-25",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
     },
     {
       "id": "event-1df2c4b1",
@@ -3626,21 +3641,6 @@
       "date": "2026-10-23",
       "date_end": "2026-10-25",
       "area": "那霸",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "event-163d80b0",
-      "kind": "event",
-      "title": "沖繩產業祭（已取消）",
-      "summary": "在最盛大的沖繩產業祭中品嚐當地美食，並選購沖繩特色產品。",
-      "source": "visitokinawa",
-      "url": "https://www.okikouren.or.jp/49sangyou-maturi.html",
-      "date": "2026-10-23",
-      "date_end": "2026-10-25",
-      "area": "全島",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
@@ -4176,7 +4176,7 @@
       "kind": "event",
       "title": "2026年10月20日第九屆久米亮藝術展",
       "summary": "期間\n10/20火10/25日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第展示室\n\n入場料\n無料\n\n展示内容\n絵画書写真工芸彫刻",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://naha-palette.jp/gallery/event/5084",
       "date": "2026-10-20",
       "date_end": "2026-10-25",
@@ -4187,11 +4187,11 @@
       "vibe": false
     },
     {
-      "id": "event-34d7e56b",
+      "id": "event-3bfb217b",
       "kind": "event",
-      "title": "2026年10月20日 第35屆全琉球名作攝影精選展",
+      "title": "2026年10月20日 第35回全琉秀作写真選抜展",
       "summary": "期間\n10/20火10/25日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第1展示室第2展示室\n\n入場料\n無料\n\n展示内容\n写真",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://naha-palette.jp/gallery/event/5081/",
       "date": "2026-10-20",
       "date_end": "2026-10-25",
