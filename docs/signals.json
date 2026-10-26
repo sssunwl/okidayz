@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T09:32:35+09:00",
+  "generated_at": "2026-10-26T10:03:27+09:00",
   "items": [
     {
       "id": "today-600c1663",
@@ -885,6 +885,21 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": true
+    },
+    {
+      "id": "event-e38b24f9",
+      "kind": "event",
+      "title": "琉球氷会",
+      "summary": "2年ぶりに琉球氷会の開催が決定しました 今年はなんと2日間連続開催！ 各日6店舗ずつ、県内外の有名かき氷店が沖縄に集結しますので是非お越しください 11月14日(土) ・お食事＆かき氷 キッチンZEN(静岡県) ・茶房オ \nThe pos…",
+      "source": "goyah",
+      "url": "https://goyah.net/okinawa_event/archives/9645",
+      "date": "2026-11-14",
+      "date_end": "2026-11-14",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
     },
     {
       "id": "event-90890da3",
@@ -2117,7 +2132,7 @@
       "vibe": false
     },
     {
-      "id": "event-9e6eeeb5",
+      "id": "event-32d0e4e5",
       "kind": "event",
       "title": "「首里城修復祭2020」即將舉辦！ (11/1-11/3) |首里城 - 講述琉球王國繁榮故事的世界遺產首里城",
       "summary": "首里城祭は令和年度より首里城復興祭と改称し開催しております。\n\n復興への想いを繋ぐ\n首里城祭実行委員会は、11 月 1 日日から 3 日火・祝日までの 3 日間、首里城公園内および周辺、那覇市国際通りで令和 8 年度 首里城復興祭を開催し…",
@@ -2207,7 +2222,7 @@
       "vibe": false
     },
     {
-      "id": "event-132a4bcf",
+      "id": "event-5d0e26b0",
       "kind": "event",
       "title": "（更新1020） 關於羽原2026故鄉博覽會 [首頁] 第23屆羽原2026故鄉博覽會第18屆福利節/第31屆兒童中心節",
       "summary": "第23回はえばる2026ふるさと博覧会第18回福祉まつり・第31回児童館まつり\n日付令和8年10月31日(土曜日)11時00分20時00分\n 11月1日(日曜日)10時00分20時00分\n会場南風原町立中央公民館・文化センター及び周辺駐車…",
@@ -2402,11 +2417,26 @@
       "vibe": true
     },
     {
-      "id": "event-393bba60",
+      "id": "event-173c914a",
       "kind": "event",
       "title": "2026年10月31日（星期六）、11月1日（星期日）「第9屆Gakual FESTA Kobunren輕音樂大賽」（第50屆沖繩縣立高中綜合文化節輕音樂部門）將在宇流麻市木睦高會館（免費入場）舉行！",
       "summary": "第9回ガクアルFESTA高文連軽音楽コンテスト第50回沖縄県高等学校総合文化祭軽音楽部門は、沖縄県高等学校文化連盟軽音楽専門部とガクアルFESTA実行委員会株式会社ガクアルで部活動として軽音楽部活動に励む生徒への発表の機会になること、並び…",
       "source": "okinawastory",
+      "url": "https://gakuaru.jp/gakuarufesta_music/",
+      "date": "2026-10-31",
+      "date_end": "2026-11-01",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": true
+    },
+    {
+      "id": "event-ae3ddd7c",
+      "kind": "event",
+      "title": "2026年10月31日土・11月1日日 第9回ガクアルFESTA高文連軽音楽コンテスト 第50回沖縄県高等学校総合文化祭軽音楽部門 をうるま市きむたかホール入場無料で開催",
+      "summary": "第9回ガクアルFESTA高文連軽音楽コンテスト第50回沖縄県高等学校総合文化祭軽音楽部門は、沖縄県高等学校文化連盟軽音楽専門部とガクアルFESTA実行委員会株式会社ガクアルで部活動として軽音楽部活動に励む生徒への発表の機会になること、並び…",
+      "source": "okimeguri",
       "url": "https://gakuaru.jp/gakuarufesta_music/",
       "date": "2026-10-31",
       "date_end": "2026-11-01",
@@ -2522,7 +2552,7 @@
       "vibe": false
     },
     {
-      "id": "event-dded03fb",
+      "id": "event-a4d53305",
       "kind": "event",
       "title": "第八屆世界Uchinanchu錦標賽行程公佈",
       "summary": "世界のウチナーンチュ大会は、本県の貴重な人的財産である世界各地のウチナーンチュが、5年に一度母県である沖縄に集い、そのルーツやアイデンティティーを確認するとともに、県民との交流を通してウチナーネットワークを拡大・発展させ、次世代へと継承し…",
@@ -2537,7 +2567,7 @@
       "vibe": false
     },
     {
-      "id": "event-30c3710d",
+      "id": "event-a8aa6cff",
       "kind": "event",
       "title": "2026年10月27日第3回那智健良平個展～「永恆的凝視」/生命的軌跡旋轉～",
       "summary": "期間\n10/27火11/1日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第展示室\n\n入場料\n無料\n\n展示内容\n絵画",
@@ -2548,6 +2578,21 @@
       "area": "那霸",
       "category": "活動",
       "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "weather-cfe262b5",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週一有雨、週二有雨、週三多雲、週四有雨、週五有雨、週六晴時多雲、週日晴時多雲；氣溫約 21～27°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-10-26",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -2848,21 +2893,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-d26063e1",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週日有雨、週一有雨、週二有雨、週三多雲、週四有雨、週五有雨、週六晴時多雲；氣溫約 21～28°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-10-25",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -3842,11 +3872,11 @@
       "vibe": false
     },
     {
-      "id": "event-57d1fda5",
+      "id": "event-3dfd9de2",
       "kind": "event",
-      "title": "金城浩司紅型展",
+      "title": "金城宏次紅型展",
       "summary": "10/20(火)10/26(月)\n2F ryubo art gallery",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://ryubo.jp/hiroji-kinjo-exihibition2610/",
       "date": "2026-10-20",
       "date_end": "2026-10-26",
@@ -3857,11 +3887,11 @@
       "vibe": false
     },
     {
-      "id": "event-e1769626",
+      "id": "event-c12554af",
       "kind": "event",
-      "title": "關於「戰前的與那原城鎮與村莊－韓國濟州大學收藏的航空照片中看到的與那原」的公告 相關展覽的公告",
+      "title": "戦前の与那原のまちと集落 -韓国済州国立大学所蔵の空中写真でみる与那原-開催のお知らせ関連企画展のお知らせ",
       "summary": "戦前の与那原の町並みが写っている空中写真についてのトークイベントを開催します\n清水肇琉球大学名誉教授が収集した韓国済州国立大学所蔵ジョセフ・E・スペンサー空中写真コレクションの複製写真の中に、1944昭和19年10月10日に米軍が南西諸島…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.town.yonabaru.okinawa.jp/soshiki/17/10488.html",
       "date": "2026-10-19",
       "date_end": "2026-11-02",
@@ -3872,11 +3902,11 @@
       "vibe": false
     },
     {
-      "id": "event-5752aab7",
+      "id": "event-737ad40a",
       "kind": "event",
-      "title": "【島鳥羽日20週年紀念】在琉球大學圖書館將舉辦「島鳥羽保護與琉球大學的舉措」紀念展板展！",
+      "title": "しまくとぅばの日20周年琉大図書館で記念パネル展示しまくとぅば保存と琉大の取組を開催します",
       "summary": "2006年にしまくとぅばの日に関する条例ができてから、今年でなんと20周年\nこれを記念して、琉球大学附属図書館で企画展しまくとぅば保存と琉大の取組を開催することになりました。\n \n今回の展示では、これまでの沖縄県や琉球大学の取り組みをわか…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://shimakutuba.jp/shimakotoba-info/post6413/",
       "date": "2026-10-19",
       "date_end": "2026-11-13",
