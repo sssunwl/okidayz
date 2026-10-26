@@ -435,7 +435,7 @@ def render_page(path, main, title, description, active="", page_data="", page_sc
         "BODY_CLASS": body_class,
         "NAV": nav_html(prefix, active),
         "NAV_MOBILE": nav_html(prefix, active, mobile=True),
-        "MAIN": main,
+        "MAIN": fill(main, {"PREFIX": prefix}),
         "PAGE_DATA": page_data,
         "PAGE_SCRIPT": page_script,
         "UPDATED": REPORT["generated"],
@@ -501,7 +501,7 @@ def build_home(posts, events, weather, news, months):
         banner = (
             '  <section class="know-banner combo-col">\n'
             '    <div class="shell know-card">\n'
-            '      <div><div class="eyebrow">Know Okinawa</div>'
+            '      <div><div class="eyebrow"><img class="eyebrow-icon" src="<<<PREFIX>>>assets/brand/icons/culture.svg" alt="">Know Okinawa</div>'
             '<h2>{title}</h2><p>{summary}</p>'
             '<a class="know-link" href="{href}">讀這篇 →</a></div>\n'
             '      <a class="know-all" href="okinawa/">認識沖繩全部主題 →</a>\n'
@@ -516,7 +516,7 @@ def build_home(posts, events, weather, news, months):
         banner = (
             '  <section class="know-banner combo-col">\n'
             '    <div class="shell know-card">\n'
-            '      <div><div class="eyebrow">Know Okinawa</div>'
+            '      <div><div class="eyebrow"><img class="eyebrow-icon" src="<<<PREFIX>>>assets/brand/icons/culture.svg" alt="">Know Okinawa</div>'
             '<h2>認識沖繩</h2><p>琉球王國、傳統祭典與信仰。內容整理中。</p>'
             '<a class="know-link" href="okinawa/">看這一區 →</a></div>\n'
             '    </div>\n'
@@ -1425,6 +1425,10 @@ def copy_assets():
     fonts = ASSETS / "fonts"
     if fonts.exists():
         shutil.copytree(fonts, target / "fonts", dirs_exist_ok=True)
+    brand = ASSETS / "brand"
+    if brand.exists():
+        shutil.copytree(brand, target / "brand", dirs_exist_ok=True,
+                        ignore=shutil.ignore_patterns("index.html"))
     covers = CONTENT / "covers"
     if covers.exists():
         shutil.copytree(covers, target / "covers", dirs_exist_ok=True)

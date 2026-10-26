@@ -29,8 +29,8 @@
 
 <div class="ocean-waves" aria-hidden="true">
   <svg viewBox="0 0 2400 120" preserveAspectRatio="none" style="width:200%">
-    <path class="ocean-wave-back" d="M0,70 C50,40 150,100 200,70 C250,40 350,100 400,70 C450,40 550,100 600,70 C650,40 750,100 800,70 C850,40 950,100 1000,70 C1050,40 1150,100 1200,70 C1250,40 1350,100 1400,70 C1450,40 1550,100 1600,70 C1650,40 1750,100 1800,70 C1850,40 1950,100 2000,70 C2050,40 2150,100 2200,70 C2250,40 2350,100 2400,70 L2400,120 L0,120 Z" fill="rgba(121,217,230,.5)"/>
-    <path class="ocean-wave-front" d="M0,86 C50,64 150,110 200,86 C250,64 350,110 400,86 C450,64 550,110 600,86 C650,64 750,110 800,86 C850,64 950,110 1000,86 C1050,64 1150,110 1200,86 C1250,64 1350,110 1400,86 C1450,64 1550,110 1600,86 C1650,64 1750,110 1800,86 C1850,64 1950,110 2000,86 C2050,64 2150,110 2200,86 C2250,64 2350,110 2400,86 L2400,120 L0,120 Z" fill="rgba(8,127,156,.42)"/>
+    <path class="ocean-wave-back" d="M0,70 C50,40 150,100 200,70 C250,40 350,100 400,70 C450,40 550,100 600,70 C650,40 750,100 800,70 C850,40 950,100 1000,70 C1050,40 1150,100 1200,70 C1250,40 1350,100 1400,70 C1450,40 1550,100 1600,70 C1650,40 1750,100 1800,70 C1850,40 1950,100 2000,70 C2050,40 2150,100 2200,70 C2250,40 2350,100 2400,70 L2400,120 L0,120 Z" fill="rgba(216,241,244,.5)"/>
+    <path class="ocean-wave-front" d="M0,86 C50,64 150,110 200,86 C250,64 350,110 400,86 C450,64 550,110 600,86 C650,64 750,110 800,86 C850,64 950,110 1000,86 C1050,64 1150,110 1200,86 C1250,64 1350,110 1400,86 C1450,64 1550,110 1600,86 C1650,64 1750,110 1800,86 C1850,64 1950,110 2000,86 C2050,64 2150,110 2200,86 C2250,64 2350,110 2400,86 L2400,120 L0,120 Z" fill="rgba(26,155,179,.42)"/>
   </svg>
 </div>
 
@@ -74,7 +74,7 @@
     <div class="shell hero-grid">
       <div class="today-left">
         <div class="hero-kicker"><span class="live-dot"></span><span id="todayLabel">沖繩時間</span>・情報每日更新</div>
-        <h1>今天，在沖繩<br><span class="play">玩什麼？</span><span class="hero-hand-label" aria-hidden="true">local pick</span></h1>
+        <h1>今天，在沖繩<br><span class="play">玩什麼？</span><img class="hero-hand-label" src="assets/brand/stamps/this-week.svg" alt="" aria-hidden="true"></h1>
         <div class="wx-now" id="wxNow" aria-label="今日沖繩天氣"></div>
       </div>
       <div class="today-right">
@@ -90,7 +90,7 @@
   <section class="weather-mini" id="weather" aria-label="沖繩一週天氣">
     <div class="shell-narrow">
       <div class="weather-mini-head">
-        <span class="eyebrow">This Week's Weather</span>
+        <span class="eyebrow"><img class="eyebrow-icon" src="assets/brand/icons/weather.svg" alt="">This Week's Weather</span>
         <span class="weather-mini-note">Open-Meteo 沖繩市預報・海況與颱風另以業者與氣象廳公告為準</span>
       </div>
       <div class="weather-strip" id="weatherStrip"></div>
@@ -112,7 +112,7 @@
   <section class="picks" id="now">
     <div class="shell">
       <div class="section-head">
-        <div><div class="eyebrow">Now in Okinawa</div><h2>這幾天，<br>可以這樣玩。</h2></div>
+        <div><div class="eyebrow"><img class="eyebrow-icon" src="assets/brand/icons/event.svg" alt="">Now in Okinawa</div><h2>這幾天，<br>可以這樣玩。</h2></div>
         <a class="section-more" href="events/">打開活動年曆 →</a>
       </div>
       <div class="pick-grid" id="pickGrid" data-events-href="events/"></div>
@@ -124,7 +124,7 @@
     <section class="home-section combo-col" id="guide-picks">
       <div class="shell">
         <div class="section-head">
-          <div><div class="eyebrow">Travel Guide</div><h2>沖繩旅遊攻略。</h2></div>
+          <div><div class="eyebrow"><img class="eyebrow-icon" src="assets/brand/icons/spot.svg" alt="">Travel Guide</div><h2>沖繩旅遊攻略。</h2></div>
           <a class="section-more" href="guide/">看全部攻略 →</a>
         </div>
       <div class="post-grid"><a class="post-card" href="guide/july-okinawa/" data-tags="玩|7月|自駕|沖繩本島"><div class="post-card-body"><div class="post-tags"><span>玩</span><span>7月</span><span>自駕</span></div><h3>7 月的沖繩：最海、也最熱</h3><p>梅雨剛結束、海況最好，但也是紫外線與颱風同時登場的月份。</p><span class="post-more">看內容 →</span></div></a><a class="post-card" href="guide/naha-one-day/" data-tags="玩|一天遊|不自駕|沖繩本島|南部|那霸"><div class="post-card-body"><div class="post-tags"><span>玩</span><span>一天遊</span><span>不自駕</span></div><h3>那霸一天怎麼玩才不趕</h3><p>不開車、不跨區，用單軌電車加走路把那霸走順一天的排法。</p><span class="post-more">看內容 →</span></div></a><a class="post-card" href="guide/rainy-day-okinawa/" data-tags="玩|親子|沖繩本島"><div class="post-card-body"><div class="post-tags"><span>玩</span><span>親子</span><span>沖繩本島</span></div><h3>沖繩下雨怎麼辦</h3><p>沖繩的雨常常是一陣一陣的。與其跨區追晴天，不如在同一區備好室內備案。</p><span class="post-more">看內容 →</span></div></a></div>
@@ -133,7 +133,7 @@
     </section>
   <section class="know-banner combo-col">
     <div class="shell know-card">
-      <div><div class="eyebrow">Know Okinawa</div><h2>沖繩一年的祭典與年中行事</h2><p>從舊曆新年到十月的祭典季，沖繩的節慶大多按舊曆走，跟你熟悉的日本本島曆法不太一樣。</p><a class="know-link" href="okinawa/matsuri-and-rituals/">讀這篇 →</a></div>
+      <div><div class="eyebrow"><img class="eyebrow-icon" src="assets/brand/icons/culture.svg" alt="">Know Okinawa</div><h2>沖繩一年的祭典與年中行事</h2><p>從舊曆新年到十月的祭典季，沖繩的節慶大多按舊曆走，跟你熟悉的日本本島曆法不太一樣。</p><a class="know-link" href="okinawa/matsuri-and-rituals/">讀這篇 →</a></div>
       <a class="know-all" href="okinawa/">認識沖繩全部主題 →</a>
     </div>
   </section>
@@ -144,7 +144,7 @@
     <section class="home-section combo-col" id="home-ocean">
       <div class="shell">
         <div class="section-head">
-          <div><div class="eyebrow">Ocean Time</div><h2>玩水・潛水。</h2></div>
+          <div><div class="eyebrow"><img class="eyebrow-icon" src="assets/brand/icons/sea.svg" alt="">Ocean Time</div><h2>玩水・潛水。</h2></div>
           <a class="section-more" href="ocean/">看玩水資訊 →</a>
         </div>
       <div class="post-grid"><a class="post-card" href="ocean/choosing-a-beach/" data-tags="海灘|沖繩本島|沖繩外島|南部|中部|北部"><div class="post-card-body"><div class="post-tags"><span>海灘</span><span>沖繩本島</span><span>沖繩外島</span></div><h3>沖繩海灘怎麼選：本島 vs 離島</h3><p>不是每個海灘都適合每一種人。用交通時間跟你想要的體驗來選，比看照片準。</p><span class="post-more">看內容 →</span></div></a><a class="post-card" href="ocean/first-time-diving/" data-tags="潛水|沖繩本島"><div class="post-card-body"><div class="post-tags"><span>潛水</span><span>沖繩本島</span></div><h3>沖繩潛水入門：體驗潛水 vs 考證照</h3><p>第一次潛水不需要先考證照。搞懂體驗潛水跟開放水域證照的差別，再決定要不要往下走。</p><span class="post-more">看內容 →</span></div></a><a class="post-card" href="ocean/how-to-judge-conditions/" data-tags="浮潛|潛水|沖繩本島|中部|北部"><div class="post-card-body"><div class="post-tags"><span>浮潛</span><span>潛水</span><span>沖繩本島</span></div><h3>風向、風力、浪高、潮汐：怎麼判斷今天適不適合下水</h3><p>同一片海，換個風向就從平穩變危險。學會看這四個數字，比到了現場才問快。</p><span class="post-more">看內容 →</span></div></a></div>
@@ -154,7 +154,7 @@
     <section class="home-section alt combo-col" id="home-goods">
       <div class="shell">
         <div class="section-head">
-          <div><div class="eyebrow">Okinawa Goods</div><h2>沖繩好物。</h2></div>
+          <div><div class="eyebrow"><img class="eyebrow-icon" src="assets/brand/icons/shop.svg" alt="">Okinawa Goods</div><h2>沖繩好物。</h2></div>
           <a class="section-more" href="goods/">看全部好物 →</a>
         </div>
       <div class="post-grid"><a class="post-card" href="goods/drugstore-must-buys/" data-tags="藥妝|沖繩本島"><div class="post-card-body"><div class="post-tags"><span>藥妝</span><span>沖繩本島</span></div><h3>沖繩藥妝店必買清單</h3><p>不是每一支面膜都值得扛回家。挑真正解決旅途痛點、回家也會繼續買的那幾樣。</p><span class="post-more">看內容 →</span></div></a><a class="post-card" href="goods/konbini-supermarket-picks/" data-tags="超市|便利店|食品|沖繩本島"><div class="post-card-body"><div class="post-tags"><span>超市</span><span>便利店</span><span>食品</span></div><h3>沖繩超市與便利店，真的值得帶回家的</h3><p>不是伴手禮店的高價包裝，而是在地人自己家裡也會放的那些。</p><span class="post-more">看內容 →</span></div></a><a class="post-card" href="goods/yachimun-and-crafts/" data-tags="工藝|沖繩本島|南部|那霸"><div class="post-card-body"><div class="post-tags"><span>工藝</span><span>沖繩本島</span><span>南部</span></div><h3>沖繩工藝伴手禮：やちむん、琉球玻璃、紅型</h3><p>三種最能代表沖繩的手作工藝，也是最經得起帶回家用的伴手禮。</p><span class="post-more">看內容 →</span></div></a></div>
@@ -201,7 +201,7 @@
       <div class="footer-col"><strong>MORE</strong><a href="goods/">沖繩好物</a><a href="okinawa/">認識沖繩</a><a href="toolkit/">旅行小抄</a></div>
     </div>
     <p class="ai-note">本站內容由 AI 自動整理，資訊可能有誤或過時，出發前請再確認官方公告。</p>
-    <div class="fineprint"><span>© OkiDayz / Suniverse</span><span>更新 2026-10-26 12:55 JST</span></div>
+    <div class="fineprint"><span>© OkiDayz / Suniverse</span><span>更新 2026-10-26 19:19 JST</span></div>
   </div>
 </footer>
 
