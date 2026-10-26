@@ -12,7 +12,7 @@
 - 不要在對外頁面秀內部指標（資料筆數、更新時間戳、語言標示這類）。旅客不在乎。
 - 活動日期、地點與安全資訊必須有來源；爬取內容只顯示原始來源連結，不擅自補寫未驗證資訊。
 - **活動的主要外連只給主辦方官網**，其他旅遊平台降級為小字「資料來源」。
-- 品牌視覺與內容架構以 `../SonaSNS-Platform/brands/OKIPLAYGROUND/BRAND_DNA.md` 為準（該檔內容即本站 DNA，資料夾名稱尚未跟著改名）。
+- 品牌視覺（配色、畫風、素材）以 `BRAND.md` 為準（2026-10-26 起；舊的 `../SonaSNS-Platform/brands/OKIPLAYGROUND/BRAND_DNA.md` 是客戶品牌 OKIPLAYGROUND 的，不再適用本站視覺）。
 
 ## 全自動發佈
 

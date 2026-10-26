@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OkiDayz 素材</title>
+<style>
+:root{--paper:#fdfaf4;--tile:#d4523a;--mango:#f4a72e;--sun:#ffd27a;--sea:#1a9bb3;--foam:#d8f1f4;--ink:#2f2420}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:'jf-openhuninn','Huninn','PingFang TC','Noto Sans TC',sans-serif;padding:32px 20px 60px}
+main{max-width:960px;margin:0 auto}
+h1{font-size:30px;margin:0 0 4px;line-height:1.15}
+h1 mark{background:linear-gradient(transparent 55%,var(--sun) 55%);color:inherit;padding:0 2px}
+h2{font-size:17px;margin:40px 0 14px;color:var(--tile)}
+p.note{margin:0;color:#7a6a5e;font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:14px}
+figure{margin:0;text-align:center}
+figure img{height:64px;max-width:100%;display:block;margin:0 auto 6px}
+figcaption{font-size:13px;color:#7a6a5e}
+.pat div{height:150px;border-radius:10px;border:1px solid #eee3d2;background-size:96px}
+.pats{grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
+.sw{display:flex;flex-wrap:wrap;gap:8px}
+.sw span{width:92px;padding:34px 8px 6px;border-radius:8px;font-size:12px}
+.ill{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;align-items:start}
+.ill img{width:100%;border-radius:10px;border:1px solid #eee3d2}
+.card{position:relative;max-width:420px;background:#fff;border:1px solid #eee3d2;border-radius:14px;padding:22px 22px 26px;overflow:hidden}
+.card h3{font-size:24px;margin:0 0 6px;line-height:1.2}
+.card h3 mark{background:linear-gradient(transparent 55%,var(--sun) 55%);color:inherit}
+.card .row{display:flex;gap:12px;align-items:center;padding:12px 0;border-top:1px dashed #e4d7c4}
+.card .row img{height:44px}
+.card .row b{display:block;font-size:16px}
+.card .row small{color:#7a6a5e;font-size:13px}
+.card .stamp{position:absolute;right:14px;top:12px;height:86px}
+.card .band{height:46px;margin:6px -22px -26px;background:url(patterns/wave.svg) 0 0/96px}
+</style></head><body><main>
+<h1>OkiDayz <mark>手繪素材</mark></h1>
+<p class="note">鉛筆線稿＋紅色印章。由 tools/brand_assets.py 生成，改生成器再重跑。</p>
+<h2>配色</h2>
+<div class="sw">
+<span style="background:var(--paper);border:1px solid #eee3d2">漆喰白 #fdfaf4</span>
+<span style="background:var(--tile);color:#fff">赤瓦 #d4523a</span>
+<span style="background:var(--mango)">芒果 #f4a72e</span>
+<span style="background:var(--sun)">陽光 #ffd27a</span>
+<span style="background:var(--sea);color:#fff">海 #1a9bb3</span>
+<span style="background:var(--foam)">泡 #d8f1f4</span>
+<span style="background:var(--ink);color:#fff">墨 #2f2420</span>
+</div>
+<h2>圖示</h2><div class="grid"><figure><img src="icons/spot.svg" alt=""><figcaption>景點</figcaption></figure><figure><img src="icons/sea.svg" alt=""><figcaption>海況</figcaption></figure><figure><img src="icons/weather.svg" alt=""><figcaption>天氣</figcaption></figure><figure><img src="icons/food.svg" alt=""><figcaption>美食</figcaption></figure><figure><img src="icons/event.svg" alt=""><figcaption>活動</figcaption></figure><figure><img src="icons/bus.svg" alt=""><figcaption>交通</figcaption></figure><figure><img src="icons/typhoon.svg" alt=""><figcaption>颱風</figcaption></figure><figure><img src="icons/festival.svg" alt=""><figcaption>祭典</figcaption></figure><figure><img src="icons/shop.svg" alt=""><figcaption>購物</figcaption></figure><figure><img src="icons/culture.svg" alt=""><figcaption>文化</figcaption></figure></div>
+<h2>印章</h2><div class="grid"><figure><img src="stamps/this-week.svg" alt="" style="height:96px"><figcaption>本週</figcaption></figure><figure><img src="stamps/weekend.svg" alt="" style="height:64px"><figcaption>週末</figcaption></figure><figure><img src="stamps/free.svg" alt="" style="height:76px"><figcaption>免費</figcaption></figure><figure><img src="stamps/local.svg" alt="" style="height:96px"><figcaption>在地推薦</figcaption></figure><figure><img src="stamps/rain-ok.svg" alt="" style="height:64px"><figcaption>雨天OK</figcaption></figure><figure><img src="stamps/date.svg" alt="" style="height:64px"><figcaption>日期</figcaption></figure></div>
+<h2>紋樣</h2><div class="grid pats"><figure class="pat"><div style="background-image:url(patterns/tiles.svg)"></div><figcaption>赤瓦</figcaption></figure><figure class="pat"><div style="background-image:url(patterns/block.svg)"></div><figcaption>花ブロック</figcaption></figure><figure class="pat"><div style="background-image:url(patterns/wave.svg)"></div><figcaption>浪</figcaption></figure></div>
+<h2>主視覺插畫（Codex 生圖）</h2><div class="ill"><img src="illustrations/hero-village.png" alt=""><img src="illustrations/people-cover.png" alt=""><img src="illustrations/season-beach.png" alt=""></div>
+<h2>用起來的樣子</h2>
+<div class="card">
+<img class="stamp" src="stamps/this-week.svg" alt="">
+<h3>今天，在<mark>沖繩</mark>做什麼？</h3>
+<p class="note">住在沖繩的朋友幫你挑好了。</p>
+<div class="row"><img src="icons/festival.svg" alt=""><div><b>一萬人太鼓舞</b><small>11/3 · 那霸國際通</small></div></div>
+<div class="row"><img src="icons/sea.svg" alt=""><div><b>北谷海況</b><small>浪 0.5m · 適合下水</small></div></div>
+<div class="row"><img src="icons/food.svg" alt=""><div><b>新開的沖繩麵店</b><small>浦添 · 在地人排隊</small></div></div>
+<div class="band"></div>
+</div>
+</main></body></html>
