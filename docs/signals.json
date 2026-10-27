@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T10:34:39+09:00",
+  "generated_at": "2026-10-27T10:53:33+09:00",
   "items": [
     {
       "id": "today-600c1663",
@@ -287,21 +287,6 @@
       "vibe": false
     },
     {
-      "id": "event-73d6de57",
-      "kind": "event",
-      "title": "名護明夫步行 2026",
-      "summary": "自然豊かなやんばるの地、名護で、沖縄ならではの自然や歴史を楽しめるウォーキングイベントが、毎年12月に開催されます。2026年は久志（くし）地域を会場に、10km、5km、3kmコース、...",
-      "source": "jalan",
-      "url": "https://www.jalan.net/event/evt_366184/",
-      "date": "2026-12-05",
-      "date_end": "2026-12-05",
-      "area": "北部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": true,
-      "vibe": false
-    },
-    {
       "id": "event-14d02167",
       "kind": "event",
       "title": "2026 年手田子燈籠之夜 |帶著願望的光芒射向夜空。",
@@ -557,21 +542,6 @@
       "vibe": false
     },
     {
-      "id": "event-db369115",
-      "kind": "event",
-      "title": "節日 節日 西表島",
-      "summary": "農作への感謝と五穀豊饒、健康と繁栄を祈願するお祭りで、毎年旧暦10月前後の己亥（つちのとい）に行われます。2日目は、祖納は前泊浜、干立は前の浜にて執り行われ、芸能や船漕など...",
-      "source": "jalan",
-      "url": "https://www.jalan.net/event/evt_364095/",
-      "date": "2026-11-22",
-      "date_end": "2026-11-22",
-      "area": "離島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": true,
-      "vibe": false
-    },
-    {
       "id": "event-4de4fe25",
       "kind": "event",
       "title": "第2屆沖繩蕎麥麵大獎賽",
@@ -632,21 +602,6 @@
       "vibe": false
     },
     {
-      "id": "event-3dfe6d0c",
-      "kind": "event",
-      "title": "第37屆宜野灣市產業節",
-      "summary": "地域の産業を紹介する「宜野湾市産業まつり」が、宜野湾海浜公園で開催されます。地元特産品や農作物、工芸品、飲食物など、さまざまな産業に関する製品やサービスが、展示・販売され...",
-      "source": "jalan",
-      "url": "https://www.jalan.net/event/evt_364080/",
-      "date": "2026-11-21",
-      "date_end": "2026-11-22",
-      "area": "中部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": true,
-      "vibe": false
-    },
-    {
       "id": "event-208d83da",
       "kind": "event",
       "title": "第26屆多良間島圓形馬拉松",
@@ -660,36 +615,6 @@
       "tourist_impact": "high",
       "local_life": false,
       "vibe": true
-    },
-    {
-      "id": "event-e8a6dbae",
-      "kind": "event",
-      "title": "沖繩桑巴嘉年華",
-      "summary": "華やかなダンスパフォーマンスが圧巻の「沖縄サンバカーニバル」が、沖縄市胡屋（ごや）地区、北谷町アラハビーチで開催されます。沖縄市国際交流協会と共催で、コザ・ミュージックタ...",
-      "source": "jalan",
-      "url": "https://www.jalan.net/event/evt_364081/",
-      "date": "2026-11-21",
-      "date_end": "2026-11-22",
-      "area": "中部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "event-1e0eeb3d",
-      "kind": "event",
-      "title": "小濱島婚禮",
-      "summary": "小浜島の「結願祭」は、島の年中行事の中でも豊年祭と並ぶ大きな祭りで、島民の心をひとつにする機会となっています。旧暦8月の戊亥のスクミから始まり、翌日の己子のショーニチにか...",
-      "source": "jalan",
-      "url": "https://www.jalan.net/event/evt_364097/",
-      "date": "2026-11-21",
-      "date_end": "2026-11-23",
-      "area": "離島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": true,
-      "vibe": false
     },
     {
       "id": "event-0278e7e3",
@@ -889,7 +814,7 @@
     {
       "id": "event-e38b24f9",
       "kind": "event",
-      "title": "琉球氷会",
+      "title": "琉球冰學會",
       "summary": "2年ぶりに琉球氷会の開催が決定しました 今年はなんと2日間連続開催！ 各日6店舗ずつ、県内外の有名かき氷店が沖縄に集結しますので是非お越しください 11月14日(土) ・お食事＆かき氷 キッチンZEN(静岡県) ・茶房オ \nThe pos…",
       "source": "goyah",
       "url": "https://goyah.net/okinawa_event/archives/9645",
@@ -1004,21 +929,6 @@
       "category": "活動",
       "tourist_impact": "low",
       "local_life": true,
-      "vibe": false
-    },
-    {
-      "id": "event-5b13460a",
-      "kind": "event",
-      "title": "竹富島種通節",
-      "summary": "竹富島の種子取祭（タナドゥイ）は、旧暦9月から10月頃の庚寅、辛卯の2日間を中心に、毎年、島をあげて開催されます。「かしくさや　うつぐみどまさる（一致協力することが何よりも大...",
-      "source": "jalan",
-      "url": "https://www.jalan.net/event/evt_364085/",
-      "date": "2026-11-12",
-      "date_end": "2026-11-13",
-      "area": "離島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
       "vibe": false
     },
     {
@@ -1322,6 +1232,21 @@
       "vibe": true
     },
     {
+      "id": "event-bf2d6357",
+      "kind": "event",
+      "title": "關於2026年第62屆石垣島祭相關的交通規則 |石垣市",
+      "summary": "令和8年11月7日（土曜日）および8日（日曜日）に、新栄公園をメイン会場として 第62回石垣島まつり2026を開催いたします。 　近隣にお住まいの皆様、ならびに交通規制のかかる道路をご利用の皆様には、 ご不便をおかけい \nThe post…",
+      "source": "goyah",
+      "url": "https://goyah.net/okinawa_event/archives/9548",
+      "date": "2026-11-07",
+      "date_end": "2026-11-07",
+      "area": "離島",
+      "category": "活動",
+      "tourist_impact": "high",
+      "local_life": true,
+      "vibe": false
+    },
+    {
       "id": "event-5f375b98",
       "kind": "event",
       "title": "蒙古800嘎節\n  多麼美好的世界啊！ ！ 26",
@@ -1350,21 +1275,6 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": true
-    },
-    {
-      "id": "event-4bc90b3f",
-      "kind": "event",
-      "title": "石垣島節",
-      "summary": "豊かな自然に満ち溢れた石垣島の市民イベント「石垣島まつり」が、新栄公園を会場に開催されます。友好親善都市の特産品の即売などが行われ、大勢の人で賑わいます。夜空に打ち上がる...",
-      "source": "jalan",
-      "url": "https://www.jalan.net/event/evt_364089/",
-      "date": "2026-11-07",
-      "date_end": "2026-11-08",
-      "area": "離島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": true,
-      "vibe": false
     },
     {
       "id": "event-8c0ab011",
@@ -2162,21 +2072,6 @@
       "vibe": false
     },
     {
-      "id": "event-01335e52",
-      "kind": "event",
-      "title": "Alivila 日航酒店“帕蒂油彩燈飾”",
-      "summary": "グリーン電力を起用したLED電球のイルミネーションやライトアップにより、ホテル日航アリビラのパティオ（中庭）やプールサイド、エントランスが美しく彩られます。キャンドルカラー...",
-      "source": "jalan",
-      "url": "https://www.jalan.net/event/evt_364098/",
-      "date": "2026-11-01",
-      "date_end": "2027-02-28",
-      "area": "中部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "event-75c68864",
       "kind": "event",
       "title": "2026年地域振興節第14屆中華裡節",
@@ -2434,7 +2329,7 @@
     {
       "id": "event-ae3ddd7c",
       "kind": "event",
-      "title": "2026年10月31日土・11月1日日 第9回ガクアルFESTA高文連軽音楽コンテスト 第50回沖縄県高等学校総合文化祭軽音楽部門 をうるま市きむたかホール入場無料で開催",
+      "title": "2026年10月31日星期六、11月1日星期日第9屆Gakual FESTA弘文聯輕音樂大賽第50屆沖繩縣立高中綜合文化節輕音樂部門將在宇流麻市木高禮堂舉行，入場免費",
       "summary": "第9回ガクアルFESTA高文連軽音楽コンテスト第50回沖縄県高等学校総合文化祭軽音楽部門は、沖縄県高等学校文化連盟軽音楽専門部とガクアルFESTA実行委員会株式会社ガクアルで部活動として軽音楽部活動に励む生徒への発表の機会になること、並び…",
       "source": "okimeguri",
       "url": "https://gakuaru.jp/gakuarufesta_music/",
@@ -2548,6 +2443,21 @@
       "area": "那霸",
       "category": "活動",
       "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "weather-43e40e72",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週二有雨、週三有雨、週四有雨、週五有雨、週六晴時多雲、週日晴時多雲、週一多雲；氣溫約 21～27°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-10-27",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -2863,21 +2773,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-cfe262b5",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週一有雨、週二有雨、週三多雲、週四有雨、週五有雨、週六晴時多雲、週日晴時多雲；氣溫約 21～27°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-10-26",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -3846,7 +3741,7 @@
       "kind": "event",
       "title": "惡夢展覽第7卷",
       "summary": "テーマホラー・ハロウィンの展示会です。\nオバケやカボチャ、モンスターに魔女\n身の毛もよだつ作品からポップで可愛い作品まで\n作家さんの自由な発想、多彩な作品形態でホラー・ハロウィンに関連する作品を展示予定。\n出店作家によって内容は異なります。",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "http://curiositiesokinawa.weebly.com/",
       "date": "2026-10-21",
       "date_end": "2026-10-27",
@@ -3859,7 +3754,7 @@
     {
       "id": "event-c12554af",
       "kind": "event",
-      "title": "戦前の与那原のまちと集落 -韓国済州国立大学所蔵の空中写真でみる与那原-開催のお知らせ関連企画展のお知らせ",
+      "title": "戰前的與那原城鎮和村莊 - 韓國濟州大學收藏空拍照片中的與那原 - 活動公告 相關展覽公告",
       "summary": "戦前の与那原の町並みが写っている空中写真についてのトークイベントを開催します\n清水肇琉球大学名誉教授が収集した韓国済州国立大学所蔵ジョセフ・E・スペンサー空中写真コレクションの複製写真の中に、1944昭和19年10月10日に米軍が南西諸島…",
       "source": "okimeguri",
       "url": "https://www.town.yonabaru.okinawa.jp/soshiki/17/10488.html",
@@ -3874,7 +3769,7 @@
     {
       "id": "event-737ad40a",
       "kind": "event",
-      "title": "しまくとぅばの日20周年琉大図書館で記念パネル展示しまくとぅば保存と琉大の取組を開催します",
+      "title": "島鳥羽日20週年紀念展將在琉球大學圖書館舉辦，介紹島鳥羽保護和琉球大學的努力",
       "summary": "2006年にしまくとぅばの日に関する条例ができてから、今年でなんと20周年\nこれを記念して、琉球大学附属図書館で企画展しまくとぅば保存と琉大の取組を開催することになりました。\n \n今回の展示では、これまでの沖縄県や琉球大学の取り組みをわか…",
       "source": "okimeguri",
       "url": "https://shimakutuba.jp/shimakotoba-info/post6413/",
