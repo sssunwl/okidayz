@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T10:31:57+09:00",
+  "generated_at": "2026-10-28T11:03:49+09:00",
   "items": [
     {
       "id": "today-600c1663",
@@ -287,6 +287,21 @@
       "vibe": false
     },
     {
+      "id": "event-73d6de57",
+      "kind": "event",
+      "title": "名護あけみおウォーク2026",
+      "summary": "自然豊かなやんばるの地、名護で、沖縄ならではの自然や歴史を楽しめるウォーキングイベントが、毎年12月に開催されます。2026年は久志（くし）地域を会場に、10km、5km、3kmコース、...",
+      "source": "jalan",
+      "url": "https://www.jalan.net/event/evt_366184/",
+      "date": "2026-12-05",
+      "date_end": "2026-12-05",
+      "area": "北部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
+    },
+    {
       "id": "event-14d02167",
       "kind": "event",
       "title": "2026 年手田子燈籠之夜 |帶著願望的光芒射向夜空。",
@@ -542,6 +557,21 @@
       "vibe": false
     },
     {
+      "id": "event-db369115",
+      "kind": "event",
+      "title": "節祭　西表島",
+      "summary": "農作への感謝と五穀豊饒、健康と繁栄を祈願するお祭りで、毎年旧暦10月前後の己亥（つちのとい）に行われます。2日目は、祖納は前泊浜、干立は前の浜にて執り行われ、芸能や船漕など...",
+      "source": "jalan",
+      "url": "https://www.jalan.net/event/evt_364095/",
+      "date": "2026-11-22",
+      "date_end": "2026-11-22",
+      "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
+    },
+    {
       "id": "event-4de4fe25",
       "kind": "event",
       "title": "第2屆沖繩蕎麥麵大獎賽",
@@ -602,6 +632,36 @@
       "vibe": false
     },
     {
+      "id": "event-1e0eeb3d",
+      "kind": "event",
+      "title": "結願祭　小浜島",
+      "summary": "小浜島の「結願祭」は、島の年中行事の中でも豊年祭と並ぶ大きな祭りで、島民の心をひとつにする機会となっています。旧暦8月の戊亥のスクミから始まり、翌日の己子のショーニチにか...",
+      "source": "jalan",
+      "url": "https://www.jalan.net/event/evt_364097/",
+      "date": "2026-11-21",
+      "date_end": "2026-11-23",
+      "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
+    },
+    {
+      "id": "event-3dfe6d0c",
+      "kind": "event",
+      "title": "第37回宜野湾市産業まつり",
+      "summary": "地域の産業を紹介する「宜野湾市産業まつり」が、宜野湾海浜公園で開催されます。地元特産品や農作物、工芸品、飲食物など、さまざまな産業に関する製品やサービスが、展示・販売され...",
+      "source": "jalan",
+      "url": "https://www.jalan.net/event/evt_364080/",
+      "date": "2026-11-21",
+      "date_end": "2026-11-22",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
+    },
+    {
       "id": "event-208d83da",
       "kind": "event",
       "title": "第26屆多良間島圓形馬拉松",
@@ -615,6 +675,21 @@
       "tourist_impact": "high",
       "local_life": false,
       "vibe": true
+    },
+    {
+      "id": "event-e8a6dbae",
+      "kind": "event",
+      "title": "沖縄サンバカーニバル",
+      "summary": "華やかなダンスパフォーマンスが圧巻の「沖縄サンバカーニバル」が、沖縄市胡屋（ごや）地区、北谷町アラハビーチで開催されます。沖縄市国際交流協会と共催で、コザ・ミュージックタ...",
+      "source": "jalan",
+      "url": "https://www.jalan.net/event/evt_364081/",
+      "date": "2026-11-21",
+      "date_end": "2026-11-22",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
     },
     {
       "id": "event-0278e7e3",
@@ -947,6 +1022,21 @@
       "vibe": false
     },
     {
+      "id": "event-5b13460a",
+      "kind": "event",
+      "title": "竹富島　種子取祭",
+      "summary": "竹富島の種子取祭（タナドゥイ）は、旧暦9月から10月頃の庚寅、辛卯の2日間を中心に、毎年、島をあげて開催されます。「かしくさや　うつぐみどまさる（一致協力することが何よりも大...",
+      "source": "jalan",
+      "url": "https://www.jalan.net/event/evt_364085/",
+      "date": "2026-11-12",
+      "date_end": "2026-11-13",
+      "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "today-cd0a310f",
       "kind": "today",
       "title": "🍶 沖繩泡盛祭",
@@ -1232,21 +1322,6 @@
       "vibe": true
     },
     {
-      "id": "event-bf2d6357",
-      "kind": "event",
-      "title": "關於2026年第62屆石垣島祭相關的交通規則 |石垣市",
-      "summary": "令和8年11月7日（土曜日）および8日（日曜日）に、新栄公園をメイン会場として 第62回石垣島まつり2026を開催いたします。 　近隣にお住まいの皆様、ならびに交通規制のかかる道路をご利用の皆様には、 ご不便をおかけい \nThe post…",
-      "source": "goyah",
-      "url": "https://goyah.net/okinawa_event/archives/9548",
-      "date": "2026-11-07",
-      "date_end": "2026-11-07",
-      "area": "離島",
-      "category": "活動",
-      "tourist_impact": "high",
-      "local_life": true,
-      "vibe": false
-    },
-    {
       "id": "event-5f375b98",
       "kind": "event",
       "title": "蒙古800嘎節\n  多麼美好的世界啊！ ！ 26",
@@ -1275,6 +1350,21 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": true
+    },
+    {
+      "id": "event-4bc90b3f",
+      "kind": "event",
+      "title": "石垣島まつり",
+      "summary": "豊かな自然に満ち溢れた石垣島の市民イベント「石垣島まつり」が、新栄公園を会場に開催されます。友好親善都市の特産品の即売などが行われ、大勢の人で賑わいます。夜空に打ち上がる...",
+      "source": "jalan",
+      "url": "https://www.jalan.net/event/evt_364089/",
+      "date": "2026-11-07",
+      "date_end": "2026-11-08",
+      "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
     },
     {
       "id": "event-8c0ab011",
@@ -2042,6 +2132,21 @@
       "vibe": false
     },
     {
+      "id": "event-01335e52",
+      "kind": "event",
+      "title": "ホテル日航アリビラ「パティオイルミネーション」",
+      "summary": "グリーン電力を起用したLED電球のイルミネーションやライトアップにより、ホテル日航アリビラのパティオ（中庭）やプールサイド、エントランスが美しく彩られます。キャンドルカラー...",
+      "source": "jalan",
+      "url": "https://www.jalan.net/event/evt_364098/",
+      "date": "2026-11-01",
+      "date_end": "2027-02-28",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "event-32d0e4e5",
       "kind": "event",
       "title": "「首里城修復祭2020」即將舉辦！ (11/1-11/3) |首里城 - 講述琉球王國繁榮故事的世界遺產首里城",
@@ -2417,6 +2522,21 @@
       "vibe": false
     },
     {
+      "id": "weather-c50de194",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週三多雲、週四有雨、週五有雨、週六晴時多雲、週日晴時多雲、週一晴時多雲、週二晴時多雲；氣溫約 21～27°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-10-28",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "news-d8dee4c1",
       "kind": "news",
       "title": "金原ひと美在那霸分享沖繩新作短篇",
@@ -2728,21 +2848,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-43e40e72",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週二有雨、週三有雨、週四有雨、週五有雨、週六晴時多雲、週日晴時多雲、週一多雲；氣溫約 21～27°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-10-27",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
