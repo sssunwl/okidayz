@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T10:54:38+09:00",
+  "generated_at": "2026-10-29T11:15:35+09:00",
   "items": [
     {
       "id": "today-600c1663",
@@ -29,6 +29,21 @@
       "category": "活動",
       "tourist_impact": "high",
       "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-32fde4ae",
+      "kind": "event",
+      "title": "2026 東民中手工市場",
+      "summary": "イベント名：令和8年度とみんちゅ手作り市 会場：東京バスアリーナとみぐすく（豊見城市民体育館） 日時：令和8年12月20日（日）　10:30～15:00 東京バスアリーナとみぐすく１年に１度の恒例イベント「とみんちゅ手作 \nThe pos…",
+      "source": "goyah",
+      "url": "https://goyah.net/okinawa_event/archives/9688",
+      "date": "2026-12-20",
+      "date_end": "2026-12-20",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
       "vibe": false
     },
     {
@@ -289,7 +304,7 @@
     {
       "id": "event-73d6de57",
       "kind": "event",
-      "title": "名護あけみおウォーク2026",
+      "title": "名護明夫步行 2026",
       "summary": "自然豊かなやんばるの地、名護で、沖縄ならではの自然や歴史を楽しめるウォーキングイベントが、毎年12月に開催されます。2026年は久志（くし）地域を会場に、10km、5km、3kmコース、...",
       "source": "jalan",
       "url": "https://www.jalan.net/event/evt_366184/",
@@ -482,6 +497,21 @@
       "vibe": true
     },
     {
+      "id": "event-d74f1770",
+      "kind": "event",
+      "title": "受保護貓咖啡館瑜珈活動",
+      "summary": "保護猫ちゃんと一緒にヨガをして、心と身体を癒しながら整える時間。\n\n受付9:20ふれあいタイム\nヨガ9:3010:30\n場所nouvelle vague / 宜野湾\n定員5名さま限定",
+      "source": "okimeguri",
+      "url": "https://www.instagram.com/reel/De6ZLKmzX1y/?mdxt=cnM0NnppdWlkbWZp",
+      "date": "2026-11-28",
+      "date_end": "2026-11-28",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "event-9ef2757a",
       "kind": "event",
       "title": "KAZE JETSKI 在宮古島享受耐力",
@@ -557,9 +587,24 @@
       "vibe": false
     },
     {
+      "id": "event-1bb3e386",
+      "kind": "event",
+      "title": "與那原町脫碳推進活動",
+      "summary": "与那原町脱炭素プロモーションイベント\n開催日2026年11月23日(月祝日)14時16時(開場13時30分)\n場所与那原町上の森かなちホール\n目的与那原町は令和年に環境省の脱炭素先行地域に選定され、脱炭素の取り組みを通じて、稼ぐ力の向上や…",
+      "source": "okimeguri",
+      "url": "https://www.town.yonabaru.okinawa.jp/site/datsutanso/10757.html",
+      "date": "2026-11-23",
+      "date_end": "2026-11-23",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
+    },
+    {
       "id": "event-db369115",
       "kind": "event",
-      "title": "節祭　西表島",
+      "title": "節日 節日 西表島",
       "summary": "農作への感謝と五穀豊饒、健康と繁栄を祈願するお祭りで、毎年旧暦10月前後の己亥（つちのとい）に行われます。2日目は、祖納は前泊浜、干立は前の浜にて執り行われ、芸能や船漕など...",
       "source": "jalan",
       "url": "https://www.jalan.net/event/evt_364095/",
@@ -617,6 +662,36 @@
       "vibe": false
     },
     {
+      "id": "event-ca8e92fb",
+      "kind": "event",
+      "title": "Nahart Jazzmance 沖繩爵士 x 亞洲",
+      "summary": "那覇市文化芸術劇場なはーと開館周年記念事業\n台湾・韓国のジャズミュージシャンと、那覇を中心に活動するジャズミュージシャンが大集結\n国によって表情の異なるジャズの豊かさと、この日だけの即興演奏をお楽しみください。\n\nDAY11月22日日15…",
+      "source": "okinawastory",
+      "url": "https://www.nahart.jp/stage/okinawajazz/",
+      "date": "2026-11-22",
+      "date_end": "2026-11-29",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-ca50b668",
+      "kind": "event",
+      "title": "關於第37屆宜野灣市工業節的通知",
+      "summary": "令和8年11月21日土曜日・22日日曜日の2日間、第37回宜野湾市産業まつりを開催いたします。\n\n農水産物や市内商工業製品等の各種販売に加え、牛・ヤギの畜産共進会、ヒージャーオーラセー、子ども達にも大人気魚つかみ取り、はたらくのりものコー…",
+      "source": "okinawastory",
+      "url": "https://www.city.ginowan.lg.jp/soshiki/keizai/3/1_1/20848.html",
+      "date": "2026-11-21",
+      "date_end": "2026-11-22",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
+    },
+    {
       "id": "event-62b38cca",
       "kind": "event",
       "title": "關於2020年沖繩縣沙灘排球錦標賽第29屆吉田杯沖繩麵粉沙灘排球錦標賽2026",
@@ -629,36 +704,6 @@
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "event-1e0eeb3d",
-      "kind": "event",
-      "title": "結願祭　小浜島",
-      "summary": "小浜島の「結願祭」は、島の年中行事の中でも豊年祭と並ぶ大きな祭りで、島民の心をひとつにする機会となっています。旧暦8月の戊亥のスクミから始まり、翌日の己子のショーニチにか...",
-      "source": "jalan",
-      "url": "https://www.jalan.net/event/evt_364097/",
-      "date": "2026-11-21",
-      "date_end": "2026-11-23",
-      "area": "離島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": true,
-      "vibe": false
-    },
-    {
-      "id": "event-3dfe6d0c",
-      "kind": "event",
-      "title": "第37回宜野湾市産業まつり",
-      "summary": "地域の産業を紹介する「宜野湾市産業まつり」が、宜野湾海浜公園で開催されます。地元特産品や農作物、工芸品、飲食物など、さまざまな産業に関する製品やサービスが、展示・販売され...",
-      "source": "jalan",
-      "url": "https://www.jalan.net/event/evt_364080/",
-      "date": "2026-11-21",
-      "date_end": "2026-11-22",
-      "area": "中部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": true,
       "vibe": false
     },
     {
@@ -679,7 +724,7 @@
     {
       "id": "event-e8a6dbae",
       "kind": "event",
-      "title": "沖縄サンバカーニバル",
+      "title": "沖繩桑巴嘉年華",
       "summary": "華やかなダンスパフォーマンスが圧巻の「沖縄サンバカーニバル」が、沖縄市胡屋（ごや）地区、北谷町アラハビーチで開催されます。沖縄市国際交流協会と共催で、コザ・ミュージックタ...",
       "source": "jalan",
       "url": "https://www.jalan.net/event/evt_364081/",
@@ -689,6 +734,21 @@
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-1e0eeb3d",
+      "kind": "event",
+      "title": "小濱島婚禮",
+      "summary": "小浜島の「結願祭」は、島の年中行事の中でも豊年祭と並ぶ大きな祭りで、島民の心をひとつにする機会となっています。旧暦8月の戊亥のスクミから始まり、翌日の己子のショーニチにか...",
+      "source": "jalan",
+      "url": "https://www.jalan.net/event/evt_364097/",
+      "date": "2026-11-21",
+      "date_end": "2026-11-23",
+      "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
       "vibe": false
     },
     {
@@ -705,6 +765,21 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false
+    },
+    {
+      "id": "event-3ae05551",
+      "kind": "event",
+      "title": "首里城修復紀念館 琉球弗拉門戈正橋和首里城",
+      "summary": "沖縄とスペインが交わる一夜限りの公演。フラメンコと琉球舞踊、ギターと三線、カンテ歌と民謡・琉歌が舞台で交わり一つになる。\n首里城復興を記念して、尚巴志王を題材に舞台化。東京スペイン公演を経て沖縄で再演\n東京、沖縄、スペインからアーティスト…",
+      "source": "okimeguri",
+      "url": "https://www.kennagata.com/okinawa",
+      "date": "2026-11-20",
+      "date_end": "2026-11-20",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": true
     },
     {
       "id": "event-edffa893",
@@ -875,7 +950,7 @@
       "id": "event-c119a3c9",
       "kind": "event",
       "title": "石垣島草裙舞節2026即將舉行",
-      "summary": "",
+      "summary": "石垣島フラフェスティバル2026開催決定\n日時11月14日土10001800\n会場石垣シーサイドホテル\n \n石垣島フラフェスティバル2026は\n好評のため、定員に達しましたので参加者の募集を締め切りとさせていただきました。\nご応募いただき…",
       "source": "okimeguri",
       "url": "https://ishigaki-hulafes.com/news/8380/",
       "date": "2026-11-14",
@@ -917,6 +992,21 @@
       "vibe": false
     },
     {
+      "id": "event-64886983",
+      "kind": "event",
+      "title": "我們的樂園之歌26",
+      "summary": "2026.11.14 sat\n\nNAGO AGRI PARK\n\n沖縄の太陽とみどり。\n\nアートと音楽、人がつくる\n名護のグルーヴ。\n\n11月14日、土曜日。\n\n2年越しの新しい景色へ。\n\n\n2026.11.14 SAT\nOURSONGS…",
+      "source": "okimeguri",
+      "url": "https://oursongs.jp/",
+      "date": "2026-11-14",
+      "date_end": "2026-11-14",
+      "area": "北部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": true
+    },
+    {
       "id": "event-565f7f13",
       "kind": "event",
       "title": "即將到來的比賽日程 Pachislot Hana Hana 在沖繩推出 OZ30th & OZAKI40th BATTLE BIG BONUS 2026",
@@ -945,6 +1035,21 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": true
+    },
+    {
+      "id": "event-a8e5644e",
+      "kind": "event",
+      "title": "The AsPY Vol.8 AsPY 俱樂部之夜",
+      "summary": "",
+      "source": "okimeguri",
+      "url": "https://aspy-localbase.com/",
+      "date": "2026-11-14",
+      "date_end": "2026-11-14",
+      "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
     },
     {
       "id": "event-abf4f37e",
@@ -1007,6 +1112,21 @@
       "vibe": false
     },
     {
+      "id": "event-5b13460a",
+      "kind": "event",
+      "title": "竹富島種通節",
+      "summary": "竹富島の種子取祭（タナドゥイ）は、旧暦9月から10月頃の庚寅、辛卯の2日間を中心に、毎年、島をあげて開催されます。「かしくさや　うつぐみどまさる（一致協力することが何よりも大...",
+      "source": "jalan",
+      "url": "https://www.jalan.net/event/evt_364085/",
+      "date": "2026-11-12",
+      "date_end": "2026-11-13",
+      "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "event-ba43204f",
       "kind": "event",
       "title": "竹富島種子節",
@@ -1019,21 +1139,6 @@
       "category": "活動",
       "tourist_impact": "low",
       "local_life": true,
-      "vibe": false
-    },
-    {
-      "id": "event-5b13460a",
-      "kind": "event",
-      "title": "竹富島　種子取祭",
-      "summary": "竹富島の種子取祭（タナドゥイ）は、旧暦9月から10月頃の庚寅、辛卯の2日間を中心に、毎年、島をあげて開催されます。「かしくさや　うつぐみどまさる（一致協力することが何よりも大...",
-      "source": "jalan",
-      "url": "https://www.jalan.net/event/evt_364085/",
-      "date": "2026-11-12",
-      "date_end": "2026-11-13",
-      "area": "離島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
       "vibe": false
     },
     {
@@ -1277,6 +1382,21 @@
       "vibe": false
     },
     {
+      "id": "event-ddedf219",
+      "kind": "event",
+      "title": "動物十一月聯合生日",
+      "summary": "開催日\n2026年11月8日日\n\nみなさんに命のつながりを感じてもらい、動物たちの魅力をもっと知ってもらう毎月定例の合同バースデーです。11月はライオン・インドゾウなどの2種2頭の動物たちをお祝いします。飼育員から動物達へ、採食エンリッチ…",
+      "source": "okimeguri",
+      "url": "https://www.okzm.jp/event/5387/",
+      "date": "2026-11-08",
+      "date_end": "2026-11-08",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "event-6fb71725",
       "kind": "event",
       "title": "免費入場 南城市親子Chimugukuru Fureai Festival 2026",
@@ -1290,6 +1410,21 @@
       "tourist_impact": "low",
       "local_life": true,
       "vibe": true
+    },
+    {
+      "id": "event-74804c0f",
+      "kind": "event",
+      "title": "GRAVITY舞台2026天堂@沖繩URUMA CITY 在可以聽到祈禱曲的藍色星星上 HY Niisato 主演",
+      "summary": "GRAVITY on Stage 2026 楽園 @Okinawa URUMA CITY祈りの歌が聴こえる碧き星にて\n\n \n\n公演日\n\n2026年11月8日日\n\n \n\n開演時間\n\n昼の部13:00開演\n\n夜の部17:00開演\n\n全2回公演…",
+      "source": "okimeguri",
+      "url": "https://hy-road.net/contents/1090197",
+      "date": "2026-11-08",
+      "date_end": "2026-11-08",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
     },
     {
       "id": "event-1d62f197",
@@ -1350,21 +1485,6 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": true
-    },
-    {
-      "id": "event-4bc90b3f",
-      "kind": "event",
-      "title": "石垣島まつり",
-      "summary": "豊かな自然に満ち溢れた石垣島の市民イベント「石垣島まつり」が、新栄公園を会場に開催されます。友好親善都市の特産品の即売などが行われ、大勢の人で賑わいます。夜空に打ち上がる...",
-      "source": "jalan",
-      "url": "https://www.jalan.net/event/evt_364089/",
-      "date": "2026-11-07",
-      "date_end": "2026-11-08",
-      "area": "離島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": true,
-      "vibe": false
     },
     {
       "id": "event-8c0ab011",
@@ -1532,6 +1652,36 @@
       "vibe": false
     },
     {
+      "id": "event-531ab0ca",
+      "kind": "event",
+      "title": "享受久米島大海的恩惠，吃海鮮節2026",
+      "summary": "11月のお楽しみイベントのお知らせです\n11月7日(土)に、久米島町水産物加工処理施設にて海の幸を食べてくだ祭 2026が開催されます \nくみマルシェの豪華な海鮮丼や航空自衛隊のシーフードカレーなど、美味しい島グルメが大集合\n女性マグロ解…",
+      "source": "okimeguri",
+      "url": "https://www.instagram.com/p/Dep5XWJAWm9/",
+      "date": "2026-11-07",
+      "date_end": "2026-11-07",
+      "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
+    },
+    {
+      "id": "event-62e43765",
+      "kind": "event",
+      "title": "五里沖繩節",
+      "summary": "沖縄を、アジアNo.1のエンタメアイランドへ\n2026.11.7 SAT  11.8 SUN\n\nパレットくもじ\n入場無料\n総合プロデューサーガレッジセール・ゴリ\nYouTube ゴリオキナワ\nX@goriokinawafesをフォロー\nI…",
+      "source": "okinawastory",
+      "url": "https://goriokinawafes.com/",
+      "date": "2026-11-07",
+      "date_end": "2026-11-08",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": true
+    },
+    {
       "id": "event-1bafafa7",
       "kind": "event",
       "title": "Tour de Okinawa Cycling 環沖繩本島騎行 325公里",
@@ -1592,6 +1742,21 @@
       "vibe": false
     },
     {
+      "id": "event-7cb65788",
+      "kind": "event",
+      "title": "Ensou - ENSOU - 一場充滿美感和聲音的盛宴。",
+      "summary": "rica tomorlの歌声とYukieのフルート演奏が響く艶奏をお楽しみ下さい。\n\n開催日時2026年11月7日土開演20時\n出演rica tomorl、Yukie、波照間剛、森朗\n会場蔵元 SAKE & GALLERY石垣島ホテルクク…",
+      "source": "okimeguri",
+      "url": "https://www.kura-sakegallery.com/post/艶奏-ensou-美が響き、音に酔う宴〜開催",
+      "date": "2026-11-07",
+      "date_end": "2026-11-07",
+      "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "event-263d3661",
       "kind": "event",
       "title": "Ansari演唱會2026秋月夜歌",
@@ -1620,6 +1785,21 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": true
+    },
+    {
+      "id": "event-a27e73c4",
+      "kind": "event",
+      "title": "2026年第62屆石垣島祭信息",
+      "summary": "石垣島まつり開催場所及び開催日程\n\n石垣島まつりタイムスケジュール\n\n石垣島まつりステージプログラム\n\n石垣島まつりステージ出演ゲスト紹介外部リンクNEW!\n\n石垣島まつり市民大パレード出演団体紹介及びルート案内\n\n石垣島まつり友好親善都…",
+      "source": "okinawastory",
+      "url": "https://www.city.ishigaki.okinawa.jp/soshiki/shoko_shinko/event/event-information/11500.html",
+      "date": "2026-11-07",
+      "date_end": "2026-11-08",
+      "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
     },
     {
       "id": "event-1000fbfb",
@@ -1664,6 +1844,21 @@
       "category": "活動",
       "tourist_impact": "low",
       "local_life": true,
+      "vibe": false
+    },
+    {
+      "id": "event-6d2e9f5e",
+      "kind": "event",
+      "title": "11.7 地風迴響我是我的朋友2026",
+      "summary": "2026年11月7日\n 1:30 PM\n 沖縄\n那覇文化芸術劇場なはーと\n風響む(かじとぅゆむ) 我(ばん)たがみゃーくふつ 2026\n目的みゃーくふつ(宮古語)の表現の豊かさ、魅力を未来へ継承する\n\n日時2026年11月7日(土)開場…",
+      "source": "okimeguri",
+      "url": "https://arize.jp/event-post/11-7%ef%bc%88%e5%9c%9f%ef%bc%89%e9%a2%a8%e9%9f%bf%e3%82%80-%e6%88%91%e3%81%9f%e3%81%8c%e3%81%bf%e3%82%83%e3%83%bc%e3%81%8f%e3%81%b5%e3%81%a42026/",
+      "date": "2026-11-07",
+      "date_end": "2026-11-07",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
       "vibe": false
     },
     {
@@ -1712,6 +1907,36 @@
       "vibe": false
     },
     {
+      "id": "event-392b6172",
+      "kind": "event",
+      "title": "紀念更名為五週年的「感恩節」將於11月4日（週三）至12月10日（週四）舉辦原始東方酒店傳承的「幻影菜單」限時重印",
+      "summary": "島とあそぶ森とつながるをコンセプトに、亜熱帯の豊かな自然が広がり、世界自然遺産にも登録された沖縄県北部やんばるの入り口に位置するオリエンタルホテル 沖縄リゾートスパ(沖縄県名護市)は、リブランド5周年を記念し、2026年11月4日(水)か…",
+      "source": "okinawastory",
+      "url": "https://www.okinawa.oriental-hotels.com/news/948/",
+      "date": "2026-11-04",
+      "date_end": "2026-12-10",
+      "area": "北部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-94bd498b",
+      "kind": "event",
+      "title": "令和沖繩縣當地生產當地消費研討會",
+      "summary": "開催日時2026年11月4日(水)13301530開場1300\n開催場所イーアス沖縄豊崎Fイーアスホール\n定員100名\n入場無料\n事前申込制\nhttps://business.form-mailer.jp/fms/468ffd123699…",
+      "source": "okimeguri",
+      "url": "https://okinawashokuzainomise.kuwachii-okinawa.com/event/event-4245/",
+      "date": "2026-11-04",
+      "date_end": "2026-11-04",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "event-428f9b40",
       "kind": "event",
       "title": "「聖誕節不是一天結束的」「節慶2026」將舉辦兩個月左右～提供自助餐、下午茶、鐵板燒、音樂、過夜等多種體驗～",
@@ -1742,6 +1967,21 @@
       "vibe": false
     },
     {
+      "id": "event-5c85d919",
+      "kind": "event",
+      "title": "體育嘉年華",
+      "summary": "日付\n2026年11月3日火13:00\n位置\nオンナ村コミュニティグラウンド\n説明\nスポーツフィエスタ2026は、11月3日火文化の日祝日に開催されることが正式に決定しました\n新しい会場を探すために様な選択肢を検討しましたが、残念ながら利…",
+      "source": "okimeguri",
+      "url": "https://groups.oist.jp/ja/sac/event/sports-fiesta-0",
+      "date": "2026-11-03",
+      "date_end": "2026-11-03",
+      "area": "北部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "event-2afe816e",
       "kind": "event",
       "title": "首里城修復紀念事業《首里城的心跳》將於2026年11月3日（週二·假日）在沖繩縣糸滿市舉辦，以國中生和高中生為主角",
@@ -1754,6 +1994,21 @@
       "category": "活動",
       "tourist_impact": "low",
       "local_life": true,
+      "vibe": false
+    },
+    {
+      "id": "event-e82d6ea3",
+      "kind": "event",
+      "title": "音樂會大芝柏蕭邦故事",
+      "summary": "過去のアンケートより\nおんがくがはなしてるようにきこえた。小2・男子\n演奏とおしばい、こんな形で子どもたちが本物に興味をもつようになる企画は初めて見ました年長の父親\n公演概要\nぼくはワルシャワを永遠にはなれるように思えてならない。二度と家…",
+      "source": "okimeguri",
+      "url": "https://mimumimu.org/chopin2026/",
+      "date": "2026-11-03",
+      "date_end": "2026-11-03",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
       "vibe": false
     },
     {
@@ -1787,6 +2042,21 @@
       "vibe": false
     },
     {
+      "id": "event-7b100efe",
+      "kind": "event",
+      "title": "文化日特別活動 故鄉園祭",
+      "summary": "開催日\n2026年11月3日火祝\n文化の日にちなみ、国の登録有形文化財に指定されているふるさと園で、特別イベントを開催します昔の沖縄の情景が浮かぶ展示では、ひーじゃーやンマを展示するほか、沖縄チャーン保存会の協力によるチャーン謡い合わせ会…",
+      "source": "okimeguri",
+      "url": "https://www.okzm.jp/event/5385/",
+      "date": "2026-11-03",
+      "date_end": "2026-11-03",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
+    },
+    {
       "id": "event-4e751a28",
       "kind": "event",
       "title": "嬰兒島山羊命名儀式",
@@ -1799,6 +2069,21 @@
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-dd447177",
+      "kind": "event",
+      "title": "BK 馬爾凱沖繩",
+      "summary": "会期2026年11月3日\n場所おきなわ工芸の杜エントランスホール\n料金入場無料\n主催BKマルシェ実行委員会\n時間10:0016:00",
+      "source": "okimeguri",
+      "url": "https://okinawa-kougeinomori.jp/event/19395",
+      "date": "2026-11-03",
+      "date_end": "2026-11-03",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
       "vibe": false
     },
     {
@@ -1823,6 +2108,21 @@
       "summary": "期間\n11/3火11/8日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第展示室\n\n入場料\n無料\n\n展示内容\n絵画",
       "source": "okimeguri",
       "url": "https://naha-palette.jp/gallery/event/5135",
+      "date": "2026-11-03",
+      "date_end": "2026-11-08",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-aa461ca4",
+      "kind": "event",
+      "title": "2026年11月3日 第3屆比嘉浩水彩畫展",
+      "summary": "期間\n11/3火11/8日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第展示室\n\n入場料\n無料\n\n展示内容\n絵画",
+      "source": "okinawastory",
+      "url": "https://naha-palette.jp/gallery/event/5138",
       "date": "2026-11-03",
       "date_end": "2026-11-08",
       "area": "那霸",
@@ -2132,21 +2432,6 @@
       "vibe": false
     },
     {
-      "id": "event-01335e52",
-      "kind": "event",
-      "title": "ホテル日航アリビラ「パティオイルミネーション」",
-      "summary": "グリーン電力を起用したLED電球のイルミネーションやライトアップにより、ホテル日航アリビラのパティオ（中庭）やプールサイド、エントランスが美しく彩られます。キャンドルカラー...",
-      "source": "jalan",
-      "url": "https://www.jalan.net/event/evt_364098/",
-      "date": "2026-11-01",
-      "date_end": "2027-02-28",
-      "area": "中部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "event-32d0e4e5",
       "kind": "event",
       "title": "「首里城修復祭2020」即將舉辦！ (11/1-11/3) |首里城 - 講述琉球王國繁榮故事的世界遺產首里城",
@@ -2168,6 +2453,21 @@
       "summary": "",
       "source": "okinawastory",
       "url": "https://www.alivila.co.jp/topics/29990/",
+      "date": "2026-11-01",
+      "date_end": "2027-02-28",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-01335e52",
+      "kind": "event",
+      "title": "Alivila 日航酒店“帕蒂油彩燈飾”",
+      "summary": "グリーン電力を起用したLED電球のイルミネーションやライトアップにより、ホテル日航アリビラのパティオ（中庭）やプールサイド、エントランスが美しく彩られます。キャンドルカラー...",
+      "source": "jalan",
+      "url": "https://www.jalan.net/event/evt_364098/",
       "date": "2026-11-01",
       "date_end": "2027-02-28",
       "area": "中部",
@@ -2387,6 +2687,21 @@
       "vibe": true
     },
     {
+      "id": "event-4d7ee94f",
+      "kind": "event",
+      "title": "W LEAGUE 2026-27 沖繩錦標賽 W League 開始！一場激烈的戰鬥在沖繩開始。",
+      "summary": "沖縄アリーナ株式会社は、Wリーグ2026-27シーズン開幕戦を沖縄サントリーアリーナで開催いたします。\n本開催は、沖縄アリーナ株式会社の自主事業として実施するものであり、琉球ゴールデンキングスのホームゲームと初めて同日に開催します。男子プ…",
+      "source": "okinawastory",
+      "url": "https://okinawa-arena.jp/news/q0lbql3f78",
+      "date": "2026-10-31",
+      "date_end": "2026-11-01",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "event-8e3554ae",
       "kind": "event",
       "title": "NOWS 石垣島 OWS 錦標賽 2026",
@@ -2415,6 +2730,36 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": true
+    },
+    {
+      "id": "event-8d0d10b3",
+      "kind": "event",
+      "title": "ASHIBINAA 萬聖節快樂",
+      "summary": "開催日10月31日土\n\nキッズパレード\n仮装してパレードに参加してお菓子をゲットしよう\n参加無料\n周遊時間14:0015:0016:00\n対象者小学生以下のお子様\n集合場所あしびなー広場無くなり次第終了\n \nクイズラリー\n各ポイントでクイ…",
+      "source": "okimeguri",
+      "url": "https://dorigin-www.ashibinaa.com/news_detail.html?code=1820",
+      "date": "2026-10-31",
+      "date_end": "2026-10-31",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-16b08305",
+      "kind": "event",
+      "title": "26.10.31.SatANTEROOM HALLOWEEN 2026",
+      "summary": "ホテル アンテルーム 那覇では、10月31日土に一夜限りのハロウィンディナーANTEROOM HALLOWEEN 2026を開催いたします。\n\n今年のテーマはPop & Stylish Horror。\n当館ならではのアート空間で、特製のハ…",
+      "source": "okimeguri",
+      "url": "https://www.uds-hotels.com/anteroom/naha/exhibition/event/%e3%80%9026-10-31-sat%e3%80%91anteroom-halloween-2026/",
+      "date": "2026-10-31",
+      "date_end": "2026-10-31",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
     },
     {
       "id": "event-173c914a",
@@ -2488,6 +2833,21 @@
       "area": "那霸",
       "category": "活動",
       "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "weather-524ec747",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週四有雨、週五有雨、週六晴時多雲、週日晴時多雲、週一多雲、週二多雲、週三有雨；氣溫約 21～28°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-10-29",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -2807,21 +3167,6 @@
       "vibe": false
     },
     {
-      "id": "weather-c50de194",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週三多雲、週四有雨、週五有雨、週六晴時多雲、週日晴時多雲、週一晴時多雲、週二晴時多雲；氣溫約 21～27°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-10-28",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "news-d8dee4c1",
       "kind": "news",
       "title": "金原ひと美在那霸分享沖繩新作短篇",
@@ -3062,11 +3407,11 @@
       "vibe": false
     },
     {
-      "id": "event-77d3e47e",
+      "id": "event-39c13627",
       "kind": "event",
-      "title": "[10月28日、29日限定活動]「秋季藥用法式」[午餐/晚餐]",
+      "title": "10月28、29日限定活動秋季藥膳法式午餐/晚餐",
       "summary": "薬膳の考えを取り入れたフルコースで美味しく整う食体験\n\n薬膳の知恵とフレンチの技法が融合した特別イベント秋の薬膳フレンチ第二弾を開催します。\n前回のご好評を受け、今回はイベント初となる2日間連続での開催が決定しました。\n総料理長 喜屋武…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.naha.jalcity.co.jp/6435/",
       "date": "2026-10-28",
       "date_end": "2026-10-29",
@@ -3298,6 +3643,21 @@
       "area": "那霸",
       "category": "交通",
       "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-184873c3",
+      "kind": "event",
+      "title": "蘇打薰藝術展 PEACE, LOVE & SHUREI",
+      "summary": "10/27(火)11/2(月)\n2F ryubo art gallery",
+      "source": "okinawastory",
+      "url": "https://ryubo.jp/kaoru-sauda-exhibition2610/",
+      "date": "2026-10-27",
+      "date_end": "2026-11-02",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
       "local_life": false,
       "vibe": false
     },
@@ -3812,6 +4172,21 @@
       "vibe": false
     },
     {
+      "id": "event-0905f249",
+      "kind": "event",
+      "title": "沖繩縣立藝術大學建校40週年紀念展",
+      "summary": "沖縄県立芸術大学開学40周年記念作品展\n本展は、開学40周年事業の一環として、これまでの教育研究の成果を作品展示によって紹介します。\n伝統芸術の継承と発展にとどまらず、新たな芸術創造の可能性を広げ、幅広く活躍できる人材の育成を目的として歩…",
+      "source": "okinawastory",
+      "url": "https://urasoe-artmuseum.jp/exhibition/opua-40th-anniversary-exhibition/",
+      "date": "2026-10-23",
+      "date_end": "2026-11-03",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "event-51a03c96",
       "kind": "event",
       "title": "沖繩熱帶燈飾2026-2027",
@@ -3836,6 +4211,21 @@
       "date": "2026-10-23",
       "date_end": "2026-11-06",
       "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-7368293d",
+      "kind": "event",
+      "title": "流寶食堂一週年紀念日",
+      "summary": "おかげさまでRYUBO FOOD HALLは、1周年を迎えます\n\n日頃よりご来店いただいている皆さまへ、1年間の感謝を込めて、10月22日木11月15日日の期間1周年アニバーサリーを開催します\n\n期間中は、各店舗のおすすめランチやディナー…",
+      "source": "okimeguri",
+      "url": "https://ryubofoodhall.jp/8117/",
+      "date": "2026-10-22",
+      "date_end": "2026-11-15",
+      "area": "那霸",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
