@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T10:20:26+09:00",
+  "generated_at": "2026-11-01T10:59:30+09:00",
   "items": [
     {
       "id": "today-7a4ee3ce",
@@ -2282,6 +2282,21 @@
       "vibe": false
     },
     {
+      "id": "weather-39aab6c5",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週日多雲、週一有雨、週二多雲、週三有雨、週四有雨、週五有雨、週六多雲；氣溫約 21～27°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-11-01",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "news-4945e8bc",
       "kind": "news",
       "title": "買福島縣米有機會抽中旅行",
@@ -2777,6 +2792,21 @@
       "vibe": false
     },
     {
+      "id": "event-69fc2c3e",
+      "kind": "event",
+      "title": "チケット好評発売中宝くじ公演TEAMパフォーマンスラボガチャピン・ムックのサーカスエコロジカル",
+      "summary": "開催場所・会場宜野湾市民会館大ホール\n開催日・期間11月01日(日曜日)\nエリア野嵩\nイベントの種類分野催し・イベント / 環境保全\n\n好評につき、残席わずか\n\n\n\n\nイベントの詳細\n内容\n楽しみながら、SDGsについて学ぶ実験パフォーマ…",
+      "source": "okimeguri",
+      "url": "https://www.city.ginowan.lg.jp/event/20751.html",
+      "date": "2026-11-01",
+      "date_end": "2026-11-01",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
+    },
+    {
       "id": "event-32d0e4e5",
       "kind": "event",
       "title": "「首里城修復祭2020」即將舉辦！ (11/1-11/3) |首里城 - 講述琉球王國繁榮故事的世界遺產首里城",
@@ -2908,21 +2938,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-2f8b779c",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週六晴時多雲、週日多雲、週一有雨、週二晴時多雲、週三有雨、週四晴時多雲、週五有雨；氣溫約 21～27°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-10-31",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -3152,26 +3167,11 @@
       "vibe": false
     },
     {
-      "id": "event-5d0e26b0",
-      "kind": "event",
-      "title": "（更新1020） 關於羽原2026故鄉博覽會 [首頁] 第23屆羽原2026故鄉博覽會第18屆福利節/第31屆兒童中心節",
-      "summary": "第23回はえばる2026ふるさと博覧会第18回福祉まつり・第31回児童館まつり\n日付令和8年10月31日(土曜日)11時00分20時00分\n 11月1日(日曜日)10時00分20時00分\n会場南風原町立中央公民館・文化センター及び周辺駐車…",
-      "source": "okinawastory",
-      "url": "https://www.town.haebaru.lg.jp/site/kankou/16983.html",
-      "date": "2026-10-31",
-      "date_end": "2026-11-01",
-      "area": "南部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": true,
-      "vibe": false
-    },
-    {
       "id": "event-0915597d",
       "kind": "event",
-      "title": "第21屆壺屋八門街節",
+      "title": "第21回 壺屋やちむん通り祭り",
       "summary": "開催日時2026年10月31日土・11月1日日 10:0017:00\n交通規制は10001700福引景品の受け渡しも17:00までとなります。\n近隣住民の車両が徐行にて通り抜けしますので、歩行の際はお気をつけください。 \n各店舗は概ね18…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.instagram.com/p/Ddu8-rAzzsE/",
       "date": "2026-10-31",
       "date_end": "2026-11-01",
@@ -3197,11 +3197,11 @@
       "vibe": false
     },
     {
-      "id": "event-d03f3e25",
+      "id": "event-3cfbb1e6",
       "kind": "event",
-      "title": "兩天的沖繩工藝品聚會〜Gala Aoiumi陶器節〜“第21屆讀谷Yachimun和工藝品市場”",
+      "title": "沖縄の工芸が集う2日間   Pottery Festival in Gala Aoiumi   第21回 読谷やちむんと工芸市",
       "summary": "日程2026.10/31(土)・11/1(日)\n時間10:0018:00\n場所Gala青い海読谷村高志保915番地\n入場無料・駐車場あり・雨天決行\n\n------------------------------\n\n秋の訪れとともに、\n今年…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.instagram.com/p/Dcus3lalP_h/?img_index=1",
       "date": "2026-10-31",
       "date_end": "2026-11-01",
@@ -3212,26 +3212,11 @@
       "vibe": true
     },
     {
-      "id": "event-4d7ee94f",
+      "id": "event-716d8db2",
       "kind": "event",
-      "title": "W LEAGUE 2026-27 沖繩錦標賽 W League 開始！一場激烈的戰鬥在沖繩開始。",
-      "summary": "沖縄アリーナ株式会社は、Wリーグ2026-27シーズン開幕戦を沖縄サントリーアリーナで開催いたします。\n本開催は、沖縄アリーナ株式会社の自主事業として実施するものであり、琉球ゴールデンキングスのホームゲームと初めて同日に開催します。男子プ…",
-      "source": "okinawastory",
-      "url": "https://okinawa-arena.jp/news/q0lbql3f78",
-      "date": "2026-10-31",
-      "date_end": "2026-11-01",
-      "area": "中部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "event-fc44b316",
-      "kind": "event",
-      "title": "Mabuioto 17將舉行！",
+      "title": "マブイオト17開催決定",
       "summary": "ガンガラーの谷presents\n\n魂の音楽祭 マブイオトvol.17 \n\nProduce by coba",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.mabuioto.com/post/マブイオト17開催決定！",
       "date": "2026-10-31",
       "date_end": "2026-11-01",
@@ -3242,19 +3227,19 @@
       "vibe": true
     },
     {
-      "id": "event-173c914a",
+      "id": "event-f6b5bc91",
       "kind": "event",
-      "title": "2026年10月31日（星期六）、11月1日（星期日）「第9屆Gakual FESTA Kobunren輕音樂大賽」（第50屆沖繩縣立高中綜合文化節輕音樂部門）將在宇流麻市木睦高會館（免費入場）舉行！",
-      "summary": "第9回ガクアルFESTA高文連軽音楽コンテスト第50回沖縄県高等学校総合文化祭軽音楽部門は、沖縄県高等学校文化連盟軽音楽専門部とガクアルFESTA実行委員会株式会社ガクアルで部活動として軽音楽部活動に励む生徒への発表の機会になること、並び…",
-      "source": "okinawastory",
-      "url": "https://gakuaru.jp/gakuarufesta_music/",
+      "title": "W LEAGUE 2026-27 沖縄大会 Wリーグ開幕沖縄で、熱戦の幕が上がる。",
+      "summary": "沖縄アリーナ株式会社は、Wリーグ2026-27シーズン開幕戦を沖縄サントリーアリーナで開催いたします。\n本開催は、沖縄アリーナ株式会社の自主事業として実施するものであり、琉球ゴールデンキングスのホームゲームと初めて同日に開催します。男子プ…",
+      "source": "okimeguri",
+      "url": "https://okinawa-arena.jp/news/q0lbql3f78",
       "date": "2026-10-31",
       "date_end": "2026-11-01",
       "area": "中部",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
-      "vibe": true
+      "vibe": false
     },
     {
       "id": "event-ae3ddd7c",
@@ -3284,6 +3269,21 @@
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-9528f8a1",
+      "kind": "event",
+      "title": "1020更新はえばる2026ふるさと博覧会についてTopページ第23回はえばる2026ふるさと博覧会第18回福祉まつり・第31回児童館まつり",
+      "summary": "第23回はえばる2026ふるさと博覧会第18回福祉まつり・第31回児童館まつり\n日付令和8年10月31日(土曜日)11時00分20時00分\n 11月1日(日曜日)10時00分20時00分\n会場南風原町立中央公民館・文化センター及び周辺駐車…",
+      "source": "okimeguri",
+      "url": "https://www.town.haebaru.lg.jp/site/kankou/16983.html",
+      "date": "2026-10-31",
+      "date_end": "2026-11-01",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
       "vibe": false
     },
     {
@@ -3992,11 +3992,11 @@
       "vibe": false
     },
     {
-      "id": "event-a8aa6cff",
+      "id": "event-12a4304f",
       "kind": "event",
-      "title": "2026年10月27日第3回那智健良平個展～「永恆的凝視」/生命的軌跡旋轉～",
+      "title": "2026年10月27日 第3回 饒平名知健 個展 永遠のまなざし・紡いだ生の軌跡",
       "summary": "期間\n10/27火11/1日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第展示室\n\n入場料\n無料\n\n展示内容\n絵画",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://naha-palette.jp/gallery/event/5094",
       "date": "2026-10-27",
       "date_end": "2026-11-01",
