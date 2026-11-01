@@ -85,7 +85,9 @@ TG 與 Discord #n-okinews 的推播：
 （面對哪個方向、被什麼擋住，寫在 `ocean_crawler.py` 的 `SPOTS` 常數裡），
 在 `/ocean/` 頁面上方render成三張卡片，並清楚標示「僅供參考，實際請以現場、
 教練與官方公告為準」——尤其真栄田岬本身就有官方旗幟／即時影像系統，那才是
-最終依據。搭配教學文章 `content/ocean/how-to-judge-conditions.md` 講風向、
+最終依據。青の洞窟每次更新會讀 `maedamisaki.jp/sea-status` 的官方狀態顯示在卡片上，
+官方禁止時蓋過模型判斷，並連同我們當下的判斷記進 `docs/official-flag-log.json`，
+累積後用來校準門檻（2026-11-01 加，想法來自 bluecave-today.com 的事後對答案）。搭配教學文章 `content/ocean/how-to-judge-conditions.md` 講風向、
 風力、浪高、潮汐怎麼看，並用這三個點做對比案例。
 
 ## IG 產線

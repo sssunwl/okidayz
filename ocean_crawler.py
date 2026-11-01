@@ -11,6 +11,7 @@
 """
 
 import json
+import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -18,6 +19,8 @@ import requests
 
 ROOT = Path(__file__).parent
 OUTPUT_FILE = ROOT / "docs" / "ocean-conditions.json"
+FLAG_LOG_FILE = ROOT / "docs" / "official-flag-log.json"
+FLAG_LOG_LIMIT = 1500  # 每 3 小時一筆，約留一年半
 JST = timezone(timedelta(hours=9))
 HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"}
 
@@ -56,14 +59,16 @@ SPOTS = [
         "lat": 26.5057,
         "lon": 127.8783,
         "kind": "岬角浮潛・沿階梯下水",
-        # 同樣是西側岬角地形，強西／西北風浪會讓階梯下水口變危險，官方會直接封閉。
-        "good_wind": [(45, 135)],
-        "bad_wind": [(255, 345)],
-        "exposure": "岬角地形、沿階梯下水，強西／西北風浪會使入水口變得危險，現場有官方旗幟與即時影像可查。",
+        # 本島西岸往西北伸出的岬角，洞口在北側。北寄りの風時會起浪中止（HIS 沖繩特輯），
+        # 11–2 月北風季關閉多；西／西北強風同樣打進階梯下水口。
+        "good_wind": [(90, 180)],
+        "bad_wind": [(255, 360), (0, 45)],
+        "exposure": "岬角北側的洞口、沿階梯下水，北風季（11–2 月）最常關閉，西／西北強風同樣危險；關閉時店家常改去砂邊或殘波。",
         "reference_url": "https://windy.app/forecast2/spot/8519891/Cape+Maeda+Blue+Cave",
-        "official_note": "真栄田岬official網站有即時影像與旗幟燈號（藍=可下水／黃=僅隨教練／紅=禁止），以現場公告為準。",
+        "official_note": "真栄田岬官網有即時影像與旗幟（藍=可能／黃=注意，穿防護衣與救生衣／紅=禁止），以現場公告為準。",
         "official_url": "https://maedamisaki.jp/sea-status",
         "official_label": "真栄田岬official 即時海況 ↗",
+        "official_status_url": "https://maedamisaki.jp/sea-status",
     },
     {
         "slug": "gorilla-chop",
@@ -238,6 +243,29 @@ def build_verdict(spot, wind_speed, wind_deg, wave_height):
     return level, labels[level], "；".join(reasons)
 
 
+def fetch_official_status(url):
+    """真栄田岬官網的現場遊泳可否。抓不到回空字串，不影響其他海況。"""
+    try:
+        res = requests.get(url, headers=HEADERS, timeout=15)
+        res.raise_for_status()
+    except requests.RequestException as error:
+        print("⚠️ 官方狀態抓取失敗（{}）".format(error))
+        return ""
+    res.encoding = "utf-8"
+    match = re.search(r'id="nowstatus"[^>]*>([^<]+)<', res.text)
+    return match.group(1).strip() if match else ""
+
+
+def append_flag_log(entry):
+    """記下官方狀態和我們的判斷，日後用來校準門檻。"""
+    try:
+        log = json.loads(FLAG_LOG_FILE.read_text(encoding="utf-8"))
+    except (FileNotFoundError, ValueError):
+        log = []
+    log.append(entry)
+    FLAG_LOG_FILE.write_text(json.dumps(log[-FLAG_LOG_LIMIT:], ensure_ascii=False, indent=0), encoding="utf-8")
+
+
 def build_spot(spot, now):
     wind = fetch_wind(spot["lat"], spot["lon"])
     marine = fetch_marine(spot["lat"], spot["lon"])
@@ -259,6 +287,19 @@ def build_spot(spot, now):
     level, label, reason = build_verdict(spot, wind_speed, wind_deg, wave_height)
     timeline = build_timeline(spot, wind, marine, now)
 
+    official_status = ""
+    if spot.get("official_status_url"):
+        official_status = fetch_official_status(spot["official_status_url"])
+        if official_status:
+            append_flag_log({
+                "at": now.strftime("%Y-%m-%d %H:%M"), "spot": spot["slug"], "official": official_status,
+                "our_verdict": level, "wave_height_m": round(wave_height, 2),
+                "wind_speed_kn": round(wind_speed, 1), "wind_deg": round(wind_deg),
+            })
+        # 官方禁止時，模型算出來再平穩也不能說平穩。
+        if "☓" in official_status:
+            level, label, reason = "avoid", "官方禁止中", "現場公告：" + official_status
+
     return {
         "slug": spot["slug"],
         "name": spot["name"],
@@ -268,6 +309,7 @@ def build_spot(spot, now):
         "official_note": spot.get("official_note", ""),
         "official_url": spot.get("official_url", ""),
         "official_label": spot.get("official_label", ""),
+        "official_status": official_status,
         "reference_url": spot["reference_url"],
         "timeline": timeline,
         "closest_timeline_hour": closest_timeline_hour(now),

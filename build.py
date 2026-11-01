@@ -918,8 +918,10 @@ def ocean_conditions_html(conditions, note_label="地形要注意", heading="", 
                 turn_text = "約 {} 小時前{}（{}）".format(abs(hours), turn["kind"], turn["time"])
 
         official = ""
+        if spot.get("official_status"):
+            official += '<p class="cond-official"><strong>官方現場狀態：{}</strong></p>'.format(html.escape(str(spot["official_status"])))
         if spot.get("official_note"):
-            official = '<p class="cond-official">📍 {}</p>'.format(html.escape(str(spot["official_note"])))
+            official += '<p class="cond-official">📍 {}</p>'.format(html.escape(str(spot["official_note"])))
 
         official_link = ""
         if spot.get("official_url"):
