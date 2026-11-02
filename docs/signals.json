@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T10:41:58+09:00",
+  "generated_at": "2026-11-02T11:11:04+09:00",
   "items": [
     {
       "id": "today-880e3aad",
@@ -2312,6 +2312,21 @@
       "vibe": false
     },
     {
+      "id": "weather-4649f207",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週一有雨、週二多雲、週三晴時多雲、週四有雨、週五有雨、週六晴時多雲、週日多雲；氣溫約 21～27°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-11-02",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "news-cec11ace",
       "kind": "news",
       "title": "自民黨擬任用下地幹郎　遭沖繩地方聯盟不滿",
@@ -2597,21 +2612,6 @@
       "vibe": false
     },
     {
-      "id": "weather-39aab6c5",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週日多雲、週一有雨、週二多雲、週三有雨、週四有雨、週五有雨、週六多雲；氣溫約 21～27°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-11-01",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "news-4945e8bc",
       "kind": "news",
       "title": "買福島縣米有機會抽中旅行",
@@ -2837,21 +2837,6 @@
       "vibe": false
     },
     {
-      "id": "event-7c611bb3",
-      "kind": "event",
-      "title": "𓇼 沖繩自由潛水杯 2026 𓇼 宮古錦標賽",
-      "summary": "",
-      "source": "okinawastory",
-      "url": "https://www.instagram.com/p/DYW-RT9mPsZ/?img_index=1",
-      "date": "2026-11-01",
-      "date_end": "2026-11-02",
-      "area": "離島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "event-5fabbf12",
       "kind": "event",
       "title": "首里城復活祭",
@@ -2936,6 +2921,21 @@
       "date": "2026-11-01",
       "date_end": "2026-11-30",
       "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false
+    },
+    {
+      "id": "event-a36a84ad",
+      "kind": "event",
+      "title": "沖縄フリーダイビングカップ2026 (OFC2026)",
+      "summary": "沖縄フリーダイビングカップ2026は、沖縄本島(恩納村)・石垣島・宮古島で開催することが決定いたしました。\n\n大会名沖縄フリーダイビングカップ2026 (OFC2026)\n\n日程7/18,19沖縄フリーダイビングカップ2026沖縄大会選手…",
+      "source": "okimeguri",
+      "url": "https://okinawa.truenorth.jp/ofc2026/",
+      "date": "2026-11-01",
+      "date_end": "2026-11-02",
+      "area": "離島",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
@@ -3041,21 +3041,6 @@
       "date": "2026-11-01",
       "date_end": "2027-02-28",
       "area": "中部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "event-a36a84ad",
-      "kind": "event",
-      "title": "2026 年沖繩自由潛水杯 (OFC2026)",
-      "summary": "沖縄フリーダイビングカップ2026は、沖縄本島(恩納村)・石垣島・宮古島で開催することが決定いたしました。\n\n大会名沖縄フリーダイビングカップ2026 (OFC2026)\n\n日程7/18,19沖縄フリーダイビングカップ2026沖縄大会選手…",
-      "source": "okinawastory",
-      "url": "https://okinawa.truenorth.jp/ofc2026/",
-      "date": "2026-11-01",
-      "date_end": "2026-11-02",
-      "area": "離島",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
@@ -3782,11 +3767,11 @@
       "vibe": false
     },
     {
-      "id": "event-184873c3",
+      "id": "event-ecb50857",
       "kind": "event",
-      "title": "蘇打薰藝術展 PEACE, LOVE & SHUREI",
+      "title": "左右田薫 アート展PEACE,LOVESHUREI",
       "summary": "10/27(火)11/2(月)\n2F ryubo art gallery",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://ryubo.jp/kaoru-sauda-exhibition2610/",
       "date": "2026-10-27",
       "date_end": "2026-11-02",
