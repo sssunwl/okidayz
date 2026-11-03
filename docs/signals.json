@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T12:34:39+09:00",
+  "generated_at": "2026-11-03T12:52:29+09:00",
   "items": [
     {
       "id": "event-8570e23d",
@@ -199,7 +199,7 @@
     {
       "id": "event-80a52d1e",
       "kind": "event",
-      "title": "【ランチ】11月1日より「フランスフェア」開催！",
+      "title": "【午餐】11月1日起舉辦「法國博覽會」！",
       "summary": "人気のブイヤベースをはじめ、“美食の国”フランス各地の料理をボナペティ風にアレンジしたメニューなどが勢ぞろい。 さらに12月19日～25日の期間は、一部メニューがクリスマスバージョンに。ご家族やご友人とのお食事や、これか \nThe pos…",
       "source": "goyah",
       "url": "https://goyah.net/okinawa_event/archives/9714",
@@ -341,6 +341,21 @@
       "date": "2026-12-12",
       "date_end": "2026-12-13",
       "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
+    },
+    {
+      "id": "event-ada28a25",
+      "kind": "event",
+      "title": "2026 年聖誕市集",
+      "summary": "沖縄アウトレットモールあしびなーで「Christmas Market 2026」を開催します。開催日は2026年12月12日(土)・13日(日)・19日(土)・20日(日)の4日間、各日10:00〜16:00です。※12 \nThe pos…",
+      "source": "goyah",
+      "url": "https://goyah.net/okinawa_event/archives/9773",
+      "date": "2026-12-12",
+      "date_end": "2026-12-12",
+      "area": "全島",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": true,
@@ -1007,6 +1022,21 @@
       "vibe": false
     },
     {
+      "id": "event-0f95d302",
+      "kind": "event",
+      "title": "沖繩電磁波技術中心開放日 2026",
+      "summary": "沖縄電磁波技術センターでは、11月15日（日）に「オープンハウス2026」を開催します。 宇宙天気のおはなし、きゅむろんVR、スピードガン、施設公開など、電磁波や宇宙のふしぎを楽しく体験できる企画が盛りだくさん！ 入場無 \nThe pos…",
+      "source": "goyah",
+      "url": "https://goyah.net/okinawa_event/archives/9705",
+      "date": "2026-11-15",
+      "date_end": "2026-11-15",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false
+    },
+    {
       "id": "event-5ad02258",
       "kind": "event",
       "title": "沖繩國際合作交流節2026",
@@ -1020,21 +1050,6 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": true
-    },
-    {
-      "id": "event-0f95d302",
-      "kind": "event",
-      "title": "沖縄電磁波技術センターオープンハウス2026",
-      "summary": "沖縄電磁波技術センターでは、11月15日（日）に「オープンハウス2026」を開催します。 宇宙天気のおはなし、きゅむろんVR、スピードガン、施設公開など、電磁波や宇宙のふしぎを楽しく体験できる企画が盛りだくさん！ 入場無 \nThe pos…",
-      "source": "goyah",
-      "url": "https://goyah.net/okinawa_event/archives/9705",
-      "date": "2026-11-15",
-      "date_end": "2026-11-15",
-      "area": "全島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": true,
-      "vibe": false
     },
     {
       "id": "event-dcd2bb14",
@@ -1526,6 +1541,21 @@
       "date": "2026-11-08",
       "date_end": "2026-11-08",
       "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": true
+    },
+    {
+      "id": "event-48d20235",
+      "kind": "event",
+      "title": "歡迎回到首里城",
+      "summary": "2026年11月8日（日曜日）開催首里城に「おかえりなさい」の寿ぎを、当館に「ただいま」の歓びを。新・首里公民館の再開を記念して贈る、特別な2時間。 記念演奏：田渕 愛子 氏（琉球古典音楽安冨祖流絃聲会 師範）　＆公民館 \nThe pos…",
+      "source": "goyah",
+      "url": "https://goyah.net/okinawa_event/archives/9745",
+      "date": "2026-11-08",
+      "date_end": "2026-11-08",
+      "area": "全島",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": true,
@@ -2117,6 +2147,21 @@
       "vibe": true
     },
     {
+      "id": "weather-3420e8f3",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週二多雲、週三有雨、週四有雨、週五有雨、週六多雲、週日多雲、週一晴時多雲；氣溫約 22～27°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-11-03",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "today-926950bc",
       "kind": "today",
       "title": "🎭 文化の日",
@@ -2612,21 +2657,6 @@
       "vibe": false
     },
     {
-      "id": "weather-4649f207",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週一有雨、週二多雲、週三晴時多雲、週四有雨、週五有雨、週六晴時多雲、週日多雲；氣溫約 21～27°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-11-02",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "news-cec11ace",
       "kind": "news",
       "title": "自民黨擬任用下地幹郎　遭沖繩地方聯盟不滿",
@@ -3077,21 +3107,6 @@
       "vibe": false
     },
     {
-      "id": "event-5fabbf12",
-      "kind": "event",
-      "title": "首里城復活祭",
-      "summary": "參與每年11月首里城祭，並在此欣賞特色遊行——「琉球王朝繪卷行列」，以及琉球傳統音樂和舞蹈。",
-      "source": "visitokinawa",
-      "url": "https://oki-park.jp.t.ms.hp.transer.com/shurijo/events/detail/10970",
-      "date": "2026-11-01",
-      "date_end": "2026-11-03",
-      "area": "全島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "event-339997bd",
       "kind": "event",
       "title": "藍色潟湖聖誕節2026：藍色潟湖彩燈",
@@ -3212,11 +3227,11 @@
       "vibe": false
     },
     {
-      "id": "event-32d0e4e5",
+      "id": "event-58c5b741",
       "kind": "event",
-      "title": "「首里城修復祭2020」即將舉辦！ (11/1-11/3) |首里城 - 講述琉球王國繁榮故事的世界遺產首里城",
+      "title": "令和 8 年度 首里城復興祭 開催決定11/111/3 | 首里城  琉球王国の栄華を物語る 世界遺産 首里城",
       "summary": "首里城祭は令和年度より首里城復興祭と改称し開催しております。\n\n復興への想いを繋ぐ\n首里城祭実行委員会は、11 月 1 日日から 3 日火・祝日までの 3 日間、首里城公園内および周辺、那覇市国際通りで令和 8 年度 首里城復興祭を開催し…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://oki-park.jp/shurijo/events/detail/10970",
       "date": "2026-11-01",
       "date_end": "2026-11-03",
