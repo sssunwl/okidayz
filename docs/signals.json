@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T11:32:00+09:00",
+  "generated_at": "2026-11-04T11:57:24+09:00",
   "items": [
     {
       "id": "event-8570e23d",
@@ -317,18 +317,18 @@
       "vibe": false
     },
     {
-      "id": "event-1f53091d",
+      "id": "event-4c171767",
       "kind": "event",
-      "title": "工作坊“讓我們製作一棵聖誕樹！”",
-      "summary": "浦添市美術館では、12月12日（土）にワークショップ「クリスマスツリーを作ろう！」を開催します。工作キット「くるっと工作ブック」を使用してクリスマスツリーを作ります。キラキラのオーナメントや模様がたくさんデザインされてい \nThe pos…",
-      "source": "goyah",
-      "url": "https://goyah.net/okinawa_event/archives/9625",
+      "title": "工作坊 讓我們一起做一棵聖誕樹",
+      "summary": "浦添市美術館では、12月12日土にワークショップクリスマスツリーを作ろうを開催します。工作キットくるっと工作ブックを使用してクリスマスツリーを作ります。キラキラのオーナメントや模様がたくさんデザインされているので、自分の使いたいパーツを切…",
+      "source": "okimeguri",
+      "url": "https://urasoe-artmuseum.jp/event_topic/how-to-make-christmas-tree2026/",
       "date": "2026-12-12",
       "date_end": "2026-12-12",
-      "area": "全島",
+      "area": "南部",
       "category": "活動",
       "tourist_impact": "low",
-      "local_life": true,
+      "local_life": false,
       "vibe": false
     },
     {
@@ -434,6 +434,21 @@
       "category": "活動",
       "tourist_impact": "low",
       "local_life": true,
+      "vibe": false
+    },
+    {
+      "id": "event-14e4c9da",
+      "kind": "event",
+      "title": "聖誕節工作坊 讓我們用毛線絨球堆雪人",
+      "summary": "浦添市美術館では、クリスマスワークショップ毛糸のポンポンで雪だるまを作ろうを開催します。現代アートでは紐や糸を使い創作活動が行われており、毛糸は編み物だけではなく芸術表現の素材でもあります。毛糸ならではのふわふわとした柔らかい手触り、そし…",
+      "source": "okimeguri",
+      "url": "https://urasoe-artmuseum.jp/event_topic/yarn-pom-pom-snowman2026/",
+      "date": "2026-12-05",
+      "date_end": "2026-12-05",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
       "vibe": false
     },
     {
@@ -2102,6 +2117,21 @@
       "vibe": false
     },
     {
+      "id": "weather-afb9c464",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週三多雲、週四有雨、週五有雨、週六多雲、週日多雲、週一有雨、週二有雨；氣溫約 20～27°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-11-04",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "news-e3728b87",
       "kind": "news",
       "title": "首里舉辦兒童大綱曳　盼復興綾門大綱",
@@ -2428,21 +2458,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-3420e8f3",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週二多雲、週三有雨、週四有雨、週五有雨、週六多雲、週日多雲、週一晴時多雲；氣溫約 22～27°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-11-03",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -3602,21 +3617,6 @@
       "vibe": false
     },
     {
-      "id": "event-f9efca09",
-      "kind": "event",
-      "title": "沖繩戲劇（喜劇）定期演出，多語言導遊|距離那霸縣廳前站步行3分鐘，約60分鐘",
-      "summary": "",
-      "source": "okinawastory",
-      "url": "https://www.uchinaguchischool.com/okinawa-shibai/index.html",
-      "date": "2026-10-28",
-      "date_end": "2027-03-25",
-      "area": "那霸",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "event-bc7b52b0",
       "kind": "event",
       "title": "第32屆全國重要非物質文化遺產保護團體優秀作品展公告",
@@ -3649,7 +3649,7 @@
     {
       "id": "event-ae2aa03c",
       "kind": "event",
-      "title": "昭和100年記念特別展示会 第一弾",
+      "title": "1975年100週年特別展覽第1部分",
       "summary": "当課では昭和100年の節目に合わせてこれまでの発掘調査を振り返る昭和100年記念特別企画展を開催いたします。\n\n八重山では沖縄本島とは異なった、独自の歴史の歩みがありました。\n\nその主な事柄を紹介すると、約2万7千年前の白保竿根田原洞穴遺…",
       "source": "okimeguri",
       "url": "https://www.city.ishigaki.okinawa.jp/soshiki/bunkazaisisihennsyuka/bunakazaikinanbutu1/event/9802.html",
