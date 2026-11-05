@@ -1341,6 +1341,21 @@
     "description": "國際通り萬聖節遊行是沖繩秋季新興慶典，各式造型扮裝吸引大批人潮"
   },
   {
+    "name": "座間味島ファン感謝月間",
+    "name_zh": "座間味島粉絲感謝月",
+    "date_start": "2026-10-31",
+    "date_end": "2026-11-21",
+    "url": "https://www.okinawastory.jp/event/600023376",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://www.vill.zamami.okinawa.jp/userfiles/images/%E7%A5%AD%E3%82%8A%E3%83%BB%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E7%94%A8/9yvk1atmo098.jpg",
+    "location": "座間味村歴史文化・健康づくりセンター ・ 沖縄県島尻郡座間味村座間味島",
+    "price": "",
+    "official_url": "https://www.vill.zamami.okinawa.jp/article/1793174923/"
+  },
+  {
     "name": "海辺のやちむん市",
     "name_zh": "海邊Yachimun City",
     "date_start": "2026-10-31",
@@ -1385,6 +1400,21 @@
     "location": "沖繩喜璃癒志海灘渡假飯店",
     "price": "免費",
     "official_url": "https://kariyushi-oceanspa.jp/topics/6199/"
+  },
+  {
+    "name": "ART EVENT · NOVEMBER — DECEMBER 2026 『Slow Sketch Yanbaru』やんばるを、ゆっくり描く。",
+    "name_zh": "藝術活動 · 2026 年 11 月 — 12 月 “慢速素描 Yanbaru” 慢慢畫 Yanbaru。",
+    "date_start": "2026-11-01",
+    "date_end": "2026-12-31",
+    "url": "https://www.okinawastory.jp/event/600023378",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://twin-line-hotel-yanbaru.jp/wp/wp-content/uploads/2026/08/4b535bec3b09870d84ddca26821a874c-1024x683.jpg",
+    "location": "TWIN-LINE HOTEL YANBARU OKINAWA JAPAN ホテル棟11F「1 LIVING ROOM」 ・ 沖縄県名護市幸喜１０８",
+    "price": "免費",
+    "official_url": "https://twin-line-hotel-yanbaru.jp/post-2008/"
   },
   {
     "name": "CHURA MIKU STREET 2026",
@@ -1464,21 +1494,6 @@
     "official_url": "https://www.alivila.co.jp/topics/29990/"
   },
   {
-    "name": "Adventure Museum in Kanucha",
-    "name_zh": "卡努查冒險博物館",
-    "date_start": "2026-11-01",
-    "date_end": "2027-02-14",
-    "url": "https://www.okinawastory.jp/event/600023125",
-    "source": "okinawastory",
-    "category": "",
-    "stars": 0,
-    "description": "",
-    "image": "https://www.kanucha.jp/adventure-museum/wp-content/themes/amk-teaser2/assets/img/th2_kv-1440.webp",
-    "location": "カヌチャリゾート　カヌチャベイホテル＆ヴィラズ／カヌチャゴルフコース ・ 沖縄県名護市安部１５６−２",
-    "price": "",
-    "official_url": "https://www.kanucha.jp/adventure-museum/"
-  },
-  {
     "name": "南国リゾートを幻想的な光が包み込む「かりゆしドリームファンタジー」開催",
     "name_zh": "將舉辦“Kariyushi Dream Fantasy”，熱帶度假勝地將被夢幻般的燈光包圍。",
     "date_start": "2026-11-01",
@@ -1536,7 +1551,22 @@
     "description": "首里城一帶常有文化活動，能近距離認識琉球王朝的服飾與藝能"
   },
   {
-    "name": "2026年11月03日 第3回 比嘉博　水彩画展",
+    "name": "與那嶺しのぶ 絵画展「ウグシク」",
+    "name_zh": "米嶺忍繪畫展“Ugushiku”",
+    "date_start": "2026-11-03",
+    "date_end": "2026-11-09",
+    "url": "https://www.okinawastory.jp/event/600023385",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://ryubo.jp/wp-content/uploads/2026/10/yonamine-shinobu-1300.jpg",
+    "location": "デパートリウボウ　 2F ryubo art gallery ・ 沖縄県那覇市久茂地1-1-1",
+    "price": "",
+    "official_url": "https://ryubo.jp/shinobu-yonamine-exhibiton2610/"
+  },
+  {
+    "name": "第3回 比嘉博　水彩画展",
     "name_zh": "2026年11月3日 第3屆比嘉浩水彩畫展",
     "date_start": "2026-11-03",
     "date_end": "2026-11-08",
@@ -1567,7 +1597,7 @@
     "official_url": "https://www.city.uruma.lg.jp/3001005000/contents/p000041.html"
   },
   {
-    "name": "2026年11月03日 第４回あじ彩の会 絵画展 ～秋うらら　心に彩りを～",
+    "name": "第４回あじ彩の会 絵画展 ～秋うらら 心に彩りを～",
     "name_zh": "2026 年 11 月 3 日 第 4 屆紫陽彩畫展 ～浦良之秋 - Color your heart～",
     "date_start": "2026-11-03",
     "date_end": "2026-11-08",
@@ -1575,14 +1605,15 @@
     "source": "okinawastory",
     "category": "",
     "stars": 0,
-    "description": "",
+    "description": "期間\n11/3火11/8日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第展示室\n\n入場料\n無料\n\n展示内容\n絵画",
     "image": "https://naha-palette.jp/gallery/cms/wp-content/uploads/2026/09/11%E6%9C%883%E6%97%A5%EF%BD%9E%E3%81%82%E3%81%98%E5%BD%A9%E3%81%AE%E4%BC%9A-pdf.jpg",
     "location": "那覇市民ギャラリー　第２展示室 ・ 沖縄県那覇市久茂地１丁目１−１",
     "price": "免費",
-    "official_url": "https://naha-palette.jp/gallery/event/5135"
+    "official_url": "https://naha-palette.jp/gallery/event/5135",
+    "area": "那覇市"
   },
   {
-    "name": "2026年11月03日 仲間智登志の世界 〜木彫展〜",
+    "name": "仲間智登志の世界 〜木彫展〜",
     "name_zh": "2026年11月3日仲間千歲的世界～木雕展～",
     "date_start": "2026-11-03",
     "date_end": "2026-11-08",
@@ -1598,23 +1629,7 @@
     "area": "那覇市"
   },
   {
-    "name": "2026年11月03日 第回あじ彩の会 絵画展 秋うらら心に彩りを",
-    "name_zh": "2026年11月3日 第一屆紫陽花畫展 為秋天的心塗上色彩",
-    "date_start": "2026-11-03",
-    "date_end": "2026-11-08",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6937",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "期間\n11/3火11/8日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第展示室\n\n入場料\n無料\n\n展示内容\n絵画",
-    "image": "",
-    "location": "那覇市民ギャラリー　第２展示室 ・ 那覇市",
-    "price": "免費",
-    "official_url": "https://naha-palette.jp/gallery/event/5135",
-    "area": "那覇市"
-  },
-  {
-    "name": "リブランド5周年記念「感謝祭フェア」を11月4日(水)～12月10日(木)に開催 旧オリエンタルホテルより受け継がれた“幻のメニュー”を期間限定で復刻",
+    "name": "リブランド5周年記念「感謝祭フェア」",
     "name_zh": "紀念更名為五週年的「感恩節」將於11月4日（週三）至12月10日（週四）舉辦原始東方酒店傳承的「幻影菜單」限時重印",
     "date_start": "2026-11-04",
     "date_end": "2026-12-10",
@@ -1630,7 +1645,7 @@
     "area": "名護市"
   },
   {
-    "name": "「クリスマスを、1日で終わらせない」 約2カ月間にわたる「フェスティブシーズン2026」開催 〜ブッフェ、アフタヌーンティー、鉄板焼、音楽、宿泊まで多彩な体験を展開〜",
+    "name": "「フェスティブシーズン2026」 〜ブッフェ、アフタヌーンティー、鉄板焼、音楽、宿泊まで多彩な体験を展開〜",
     "name_zh": "「聖誕節不是一天結束的」「節慶2026」將舉辦兩個月左右～提供自助餐、下午茶、鐵板燒、音樂、過夜等多種體驗～",
     "date_start": "2026-11-04",
     "date_end": "2026-12-25",
@@ -1643,22 +1658,6 @@
     "location": "沖縄ハーバービューホテル　ブッフェレストラン「プランタン」／ 鉄板焼 「泉崎」／ Lounge＆Bar ・ 沖縄県那覇市泉崎2-46",
     "price": "",
     "official_url": "https://oka-hvh.com/christmas2026/"
-  },
-  {
-    "name": "令和年度沖縄県地産地消シンポジウム",
-    "name_zh": "令和沖繩縣當地生產當地消費研討會",
-    "date_start": "2026-11-04",
-    "date_end": "2026-11-04",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6983",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "開催日時2026年11月4日(水)13301530開場1300\n開催場所イーアス沖縄豊崎Fイーアスホール\n定員100名\n入場無料\n事前申込制\nhttps://business.form-mailer.jp/fms/468ffd12369910",
-    "image": "",
-    "location": "イーアス沖縄豊崎 ・ 豊見城市",
-    "price": "免費",
-    "official_url": "https://okinawashokuzainomise.kuwachii-okinawa.com/event/event-4245/",
-    "area": "豊見城市"
   },
   {
     "name": "イルミネーション「Eclat de Zanpa (エクラ・ドゥ・ザンパ)」～残波のきらめき～",
@@ -1708,7 +1707,82 @@
     "area": "那覇市"
   },
   {
-    "name": "第62回　石垣島まつり2026のご案内",
+    "name": "「北谷の産業まつり2026」開催のお知らせ",
+    "name_zh": "",
+    "date_start": "2026-11-07",
+    "date_end": "2026-11-08",
+    "url": "https://www.okinawastory.jp/event/600023403",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://chatantourism.com/manage/wp-content/uploads/2026/10/2611_%E5%8C%97%E8%B0%B7%E3%81%AE%E7%94%A3%E6%A5%AD%E3%81%BE%E3%81%A4%E3%82%8A_A2%E3%83%9D%E3%82%B9%E3%82%BF%E3%83%BC_01_page-0001-%E3%82%B3%E3%83%94%E3%83%BC-1098x1536.jpg",
+    "location": "Agreスタジアム北谷 北谷公園野球場前広場 ・ 沖縄県中頭郡北谷町美浜２",
+    "price": "免費",
+    "official_url": "https://chatantourism.com/info/%e3%80%8c%e5%8c%97%e8%b0%b7%e3%81%ae%e7%94%a3%e6%a5%ad%e3%81%be%e3%81%a4%e3%82%8a2026%e3%80%8d%e9%96%8b%e5%82%ac%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/"
+  },
+  {
+    "name": "うるまハロウィンコスプレフェス2026",
+    "name_zh": "宇流麻萬聖節角色扮演節 2026",
+    "date_start": "2026-11-07",
+    "date_end": "2026-11-08",
+    "url": "https://www.okinawastory.jp/event/600023398",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uzyq67BQZmPwHm0QR6CMxeciY7pP3PlMEI8vKsftYUtkY12mxfvq5st68N0BIMO5T9NoSxM0eoZRIhfMrxTenjVLWGHq1zQVwFLNHuOlcqfqEx_xGOwdRM9uSKT1TXKvYA8pBQ950ZrgSI0S5IGcWL2nykUMMt3MtnZ_OKR9iHjeQmlE8C1fIA1MUUPE-8hjyHI2oEw8FUrDJHJdAKUkrbryz8X0Hv0NjU5qMI=w1280",
+    "location": "TERUMA east coast ・ 沖縄県うるま市与那城照間１８６０−１",
+    "price": "",
+    "official_url": "https://www.uruhallow.jp/"
+  },
+  {
+    "name": "おきなわ探検マルシェ",
+    "name_zh": "沖繩探索馬爾凱",
+    "date_start": "2026-11-07",
+    "date_end": "2026-11-08",
+    "url": "https://www.okinawastory.jp/event/600023390",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://image-cdn.aeonmall.jp/uploads/9da49c63-092b-4aab-b16f-1b0d466daee8.jpg?width=1200&amp",
+    "location": "イオンモール沖縄ライカム　1F グランドスクエア ・ 沖縄県中頭郡北中城村ライカム1",
+    "price": "",
+    "official_url": "https://okinawarycom.aeonmall.jp/event/2f7a446e-e200-4cd7-a588-87a79047272d"
+  },
+  {
+    "name": "オーシャンマルシェ",
+    "name_zh": "海洋馬爾凱",
+    "date_start": "2026-11-07",
+    "date_end": "2026-11-08",
+    "url": "https://www.okinawastory.jp/event/600023387",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://dorigin-www.ashibinaa.com/share/news/1869/1869.jpg",
+    "location": "沖縄アウトレットモール あしびなー　中央ストリート ・ 沖縄県豊見城市豊崎１−１８８",
+    "price": "免費",
+    "official_url": "https://dorigin-www.ashibinaa.com/news_detail.html?code=1869"
+  },
+  {
+    "name": "草月流 いけばな 第13回 ムーミンの小部屋 愉快な仲間たち 花展",
+    "name_zh": "草月風格花道第13屆姆明小房間Fun Friends花卉展",
+    "date_start": "2026-11-07",
+    "date_end": "2026-11-08",
+    "url": "https://www.okinawastory.jp/event/600023384",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://www.aeon-ryukyu.jp/cms/wp-content/uploads/2026/10/396e3b2c63cc337a5153b7b1cb588cd6.jpg",
+    "location": "イオン北谷店　2階 イベント広場（フードコート横） ・ 沖縄県中頭郡北谷町美浜８−３",
+    "price": "免費",
+    "official_url": "https://www.aeon-ryukyu.jp/event/"
+  },
+  {
+    "name": "第62回 石垣島まつり2026",
     "name_zh": "2026年第62屆石垣島祭信息",
     "date_start": "2026-11-07",
     "date_end": "2026-11-08",
@@ -1771,7 +1845,7 @@
     "official_url": "https://higaleona.com/RyukyuBánhmìBúpbê"
   },
   {
-    "name": "「第15回中城護佐丸まつり」",
+    "name": "第15回中城護佐丸まつり",
     "name_zh": "關於「第15屆中城禦佐丸祭」的通知",
     "date_start": "2026-11-07",
     "date_end": "2026-11-08",
@@ -2169,6 +2243,22 @@
     "official_url": "https://karate-event.jp/en/"
   },
   {
+    "name": "ツール・ド・おきなわ市民ロードレース市民レース100km マスターズ",
+    "name_zh": "環沖繩公民公路賽 公民賽 100 公里大師賽",
+    "date_start": "2026-11-08",
+    "date_end": "2026-11-08",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6515",
+    "source": "okimeguri",
+    "category": "",
+    "stars": 0,
+    "description": "オーバー40の100kmカテゴリ\n\n経験を重ねたレーサーが挑む100km\n40歳以上の男子が挑む、市民レース100kmのマスターズオーバー40カテゴリです。\n期日\n11月8日日\n参加対象\n40歳以上の男子\n定員\n250名\n参加料\n27,000円\n市民レース100kmマスターズ コースマップ\nコースマップ\nクリックで拡大",
+    "image": "",
+    "location": "奥やんばるの里 ・ 国頭村",
+    "price": "有料",
+    "official_url": "https://www.tour-de-okinawa.jp/citizen-road-race.html",
+    "area": "国頭村"
+  },
+  {
     "name": "ツール・ド・おきなわ市民ロードレース市民レース200km",
     "name_zh": "環沖繩公民公路賽 公民賽 200 公里",
     "date_start": "2026-11-08",
@@ -2295,22 +2385,6 @@
     "price": "有料",
     "official_url": "https://17end-miyakojima.com/outline/",
     "area": "宮古島"
-  },
-  {
-    "name": "ツール・ド・おきなわ市民ロードレース市民レース100km マスターズ",
-    "name_zh": "環沖繩公民公路賽 公民賽 100 公里大師賽",
-    "date_start": "2026-11-08",
-    "date_end": "2026-11-08",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6515",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "オーバー40の100kmカテゴリ\n\n経験を重ねたレーサーが挑む100km\n40歳以上の男子が挑む、市民レース100kmのマスターズオーバー40カテゴリです。\n期日\n11月8日日\n参加対象\n40歳以上の男子\n定員\n250名\n参加料\n27,000円\n市民レース100kmマスターズ コースマップ\nコースマップ\nクリックで拡大",
-    "image": "",
-    "location": "奥やんばるの里 ・ 国頭村",
-    "price": "有料",
-    "official_url": "https://www.tour-de-okinawa.jp/citizen-road-race.html",
-    "area": "国頭村"
   },
   {
     "name": "第回 アクティビティフェスティバル",
@@ -2472,6 +2546,51 @@
     "official_url": ""
   },
   {
+    "name": "Cycle展 創造するエネルギー 2026",
+    "name_zh": "",
+    "date_start": "2026-11-10",
+    "date_end": "2026-11-29",
+    "url": "https://www.okinawastory.jp/event/600023361",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://groups.oist.jp/sites/default/files/styles/group_image/public/eventimg/2610/Cycle_2-1_2.jpg",
+    "location": "OISTキャンパス (センター棟Ｃ階) ・ 沖縄県国頭郡恩納村谷茶",
+    "price": "免費",
+    "official_url": "https://groups.oist.jp/ja/culture/event/cycle-exhibition-2026"
+  },
+  {
+    "name": "2026年11月10日 ムサビの力2026南の端 武蔵野美術大学校友会沖縄支部展Vol.7",
+    "name_zh": "2026年11月10日 The Power of Musabi 2026南端武藏野美術大學校友會沖繩分會展Vol.7",
+    "date_start": "2026-11-10",
+    "date_end": "2026-11-15",
+    "url": "https://www.okinawastory.jp/event/600023356",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://naha-palette.jp/gallery/cms/wp-content/uploads/2026/09/11%E6%9C%8810%E6%97%A5%EF%BD%9E%E6%AD%A6%E8%94%B5%E9%87%8E%E7%BE%8E%E5%A4%A7%E6%A0%A1%E5%8F%8B%E4%BC%9A%E6%B2%96%E7%B8%84%E6%94%AF%E9%83%A8%E5%B1%95-pdf.jpg",
+    "location": "那覇市民ギャラリー　第1展示室　第２展示室 ・ 沖縄県那覇市久茂地１丁目１−１",
+    "price": "免費",
+    "official_url": "https://naha-palette.jp/gallery/event/5174"
+  },
+  {
+    "name": "2026年11月10日 第４回デジカメサークル若竹写真展",
+    "name_zh": "2026年11月10日第4屆數位相機圈若竹攝影展",
+    "date_start": "2026-11-10",
+    "date_end": "2026-11-15",
+    "url": "https://www.okinawastory.jp/event/600023355",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://naha-palette.jp/gallery/cms/wp-content/uploads/2026/09/11%E6%9C%8810%E6%97%A5%EF%BD%9E%E7%AC%AC4%E5%9B%9E%E3%83%87%E3%82%B8%E3%82%AB%E3%83%A1%E3%82%B5%E3%83%BC%E3%82%AF%E3%83%AB%E8%8B%A5%E7%AB%B9%E5%86%99%E7%9C%9F%E5%B1%95-pdf.jpg",
+    "location": "那覇市民ギャラリー　第３展示室 ・ 沖縄県那覇市久茂地１丁目１−１",
+    "price": "免費",
+    "official_url": "https://naha-palette.jp/gallery/event/5178"
+  },
+  {
     "name": "今天是 🍶 沖繩泡盛祭",
     "name_zh": "🍶 沖繩泡盛祭",
     "date_start": "2026-11-11",
@@ -2481,6 +2600,36 @@
     "category": "沖繩",
     "stars": 5,
     "description": "多家酒造會在泡盛活動齊聚，適合一次認識不同產地與古酒"
+  },
+  {
+    "name": "第29回沖縄ウッディフェア",
+    "name_zh": "第29屆沖繩木本博覽會",
+    "date_start": "2026-11-12",
+    "date_end": "2026-11-15",
+    "url": "https://www.okinawastory.jp/event/600023394",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://i0.wp.com/api.okinawa-kougeinomori.jp/wp-content/uploads/2026/11/2026woodyposter.png?resize=600%2C849&ssl=1",
+    "location": "おきなわ工芸の杜　展示室・エントランスホール・多目的室他 ・ 沖縄県豊見城市豊見城1114-1",
+    "price": "免費",
+    "official_url": "https://okinawa-kougeinomori.jp/event/19461"
+  },
+  {
+    "name": "【Galleryはらいそ識名園】紅型三人展「びんとも！」",
+    "name_zh": "[Gallery識名園]紅形三人展“Bintomo!”",
+    "date_start": "2026-11-12",
+    "date_end": "2026-11-24",
+    "url": "https://www.okinawastory.jp/event/600023360",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://haraiso.gallery/wp-content/uploads/2026/10/680-390bintomo.jpg",
+    "location": "Galleryはらいそ識名園 ・ 沖縄県那覇市真地４１−５",
+    "price": "",
+    "official_url": "https://haraiso.gallery/exhibition/exhibition202611/"
   },
   {
     "name": "竹富島 種子祭",
@@ -2513,6 +2662,51 @@
     "price": "",
     "official_url": "",
     "area": "離島"
+  },
+  {
+    "name": "琉球氷会",
+    "name_zh": "琉球冰學會",
+    "date_start": "2026-11-14",
+    "date_end": "2026-11-15",
+    "url": "https://www.okinawastory.jp/event/600023399",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "2年ぶりに琉球氷会の開催が決定しました 今年はなんと2日間連続開催！ 各日6店舗ずつ、県内外の有名かき氷店が沖縄に集結しますので是非お越しください 11月14日(土) ・お食事＆かき氷 キッチンZEN(静岡県) ・茶房オ \nThe post 琉球氷会 first appeared on ごーやーどっとネット.\n© ごーやーどっとネット　無断転載を禁じます。全文は元記事でご覧ください： https:",
+    "image": "",
+    "location": "CAPE ZANPA DRIVE-IN ・ 沖縄県中頭郡読谷村宇座６７５−１８６１",
+    "price": "",
+    "official_url": "https://www.instagram.com/p/Dc3CjkdSBHF/?vrfl=MXJrdnVvczJic3dq"
+  },
+  {
+    "name": "大宜味村夏まつり開催します！",
+    "name_zh": "大宜味村夏季祭即將舉辦！",
+    "date_start": "2026-11-14",
+    "date_end": "2026-11-15",
+    "url": "https://www.okinawastory.jp/event/600023395",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "",
+    "location": "塩屋漁港広場 ・ 沖縄県国頭郡大宜味村塩屋９８７−３",
+    "price": "",
+    "official_url": "https://www.vill.ogimi.okinawa.jp/soshiki/kikaku_kanko/gyomu/maturikankei/968.html"
+  },
+  {
+    "name": "「第45回 宜野湾市文化祭」開催のお知らせ",
+    "name_zh": "關於「第45屆宜野灣市文化節」的通知",
+    "date_start": "2026-11-14",
+    "date_end": "2026-11-15",
+    "url": "https://www.okinawastory.jp/event/600023366",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://www.city.ginowan.lg.jp/material/images/group/48/45bunkasai.jpg",
+    "location": "宜野湾市民会館　ロビー・大ホール、宜野湾市立中央公民館、 ・ 沖縄県宜野湾市野嵩１丁目１−２",
+    "price": "",
+    "official_url": "https://www.city.ginowan.lg.jp/event/18670.html"
   },
   {
     "name": "ひーぷー自動車学校 のりものFESTIVAL",
@@ -2723,21 +2917,6 @@
     "area": "名護市"
   },
   {
-    "name": "琉球氷会",
-    "name_zh": "琉球冰學會",
-    "date_start": "2026-11-14",
-    "date_end": "2026-11-14",
-    "url": "https://goyah.net/okinawa_event/archives/9645",
-    "source": "goyah",
-    "category": "",
-    "stars": 0,
-    "description": "2年ぶりに琉球氷会の開催が決定しました 今年はなんと2日間連続開催！ 各日6店舗ずつ、県内外の有名かき氷店が沖縄に集結しますので是非お越しください 11月14日(土) ・お食事＆かき氷 キッチンZEN(静岡県) ・茶房オ \nThe post 琉球氷会 first appeared on ごーやーどっとネット.\n© ごーやーどっとネット　無断転載を禁じます。全文は元記事でご覧ください： https:",
-    "image": "",
-    "location": "",
-    "price": "",
-    "official_url": ""
-  },
-  {
     "name": "今天是 👘 七五三",
     "name_zh": "👘 七五三",
     "date_start": "2026-11-15",
@@ -2828,6 +3007,51 @@
     "official_url": ""
   },
   {
+    "name": "2026年11月17日 豊里友行の沖縄写真特急便　おきなわ",
+    "name_zh": "2026 年 11 月 17 日 豐裡智之 沖繩 Photo Express Okinawa",
+    "date_start": "2026-11-17",
+    "date_end": "2026-11-22",
+    "url": "https://www.okinawastory.jp/event/600023358",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://naha-palette.jp/gallery/cms/wp-content/uploads/2026/11/11%E6%9C%8817%E6%97%A5%EF%BD%9E%E8%B1%8A%E9%87%8C-pdf.jpg",
+    "location": "那覇市民ギャラリー　第1展示室 ・ 沖縄県那覇市久茂地１丁目１−１",
+    "price": "免費",
+    "official_url": "https://naha-palette.jp/gallery/event/5325"
+  },
+  {
+    "name": "2026年11月17日 第56回沖縄新象展",
+    "name_zh": "2026年11月17日第56屆沖繩新象展",
+    "date_start": "2026-11-17",
+    "date_end": "2026-11-22",
+    "url": "https://www.okinawastory.jp/event/600023354",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://naha-palette.jp/gallery/cms/wp-content/uploads/2026/11/20261103175213-pdf.jpg",
+    "location": "那覇市民ギャラリー　第２展示室 ・ 沖縄県那覇市久茂地１丁目１−１",
+    "price": "免費",
+    "official_url": "https://naha-palette.jp/gallery/event/5181"
+  },
+  {
+    "name": "2026年11月17日 七色会水彩画展",
+    "name_zh": "2026年11月17日七敷會水彩展",
+    "date_start": "2026-11-17",
+    "date_end": "2026-11-22",
+    "url": "https://www.okinawastory.jp/event/600023353",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://naha-palette.jp/gallery/cms/wp-content/uploads/2026/11/11%E6%9C%8817%E6%97%A5%E4%B8%83%E8%89%B2%E4%BC%9A-pdf.jpg",
+    "location": "那覇市民ギャラリー　第３展示室 ・ 沖縄県那覇市久茂地１丁目１−１",
+    "price": "免費",
+    "official_url": "https://naha-palette.jp/gallery/event/5185"
+  },
+  {
     "name": "2026年度 11/17（火）〜11/19（木）開催  2026年 OTV杯 マスターズゴルフ選手権大会",
     "name_zh": "2026年OTV盃大師高爾夫錦標賽於2026年11月17日（星期二）至11月19日（星期四）舉行",
     "date_start": "2026-11-17",
@@ -2842,6 +3066,36 @@
     "price": "有料",
     "official_url": "https://www.jgmgroup.co.jp/churaorchard/events/events-97/",
     "area": "恩納村"
+  },
+  {
+    "name": "浦添市のおいしいがおもろまち駅に集合！『うらそえ産品マルシェ』のお知らせ",
+    "name_zh": "浦添市歌町車站集合！ 「浦添商品市場」的公告",
+    "date_start": "2026-11-20",
+    "date_end": "2026-11-21",
+    "url": "https://www.okinawastory.jp/event/600023373",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://www.city.urasoe.lg.jp/doc/2026101400080/file_contents/file_2026103059263_1.png",
+    "location": "ゆいレール おもろまち駅 ・ 沖縄県那覇市おもろまち４丁目１",
+    "price": "免費",
+    "official_url": "https://www.city.urasoe.lg.jp/doc/2026101400080/"
+  },
+  {
+    "name": "第５０回首里織展のお知らせ",
+    "name_zh": "第50屆首裡織展通知",
+    "date_start": "2026-11-20",
+    "date_end": "2026-11-23",
+    "url": "https://www.okinawastory.jp/event/600023359",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "",
+    "location": "首里染織館suikara 1F〜3F（メイン会場：2F） ・ 沖縄県那覇市首里当蔵町２丁目１６",
+    "price": "",
+    "official_url": "https://shuri-ori.com/archives/3348"
   },
   {
     "name": "2026沖縄本島1周サバイバルラン",
@@ -2890,6 +3144,66 @@
     "price": "有料",
     "official_url": "https://www.kennagata.com/okinawa",
     "area": "北谷町"
+  },
+  {
+    "name": "第三回沖縄クラフトアンドアートラボ展示会～工芸と植物～",
+    "name_zh": "第3回沖繩工藝美術實驗室展～製程與植物～",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-22",
+    "url": "https://www.okinawastory.jp/event/600023393",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://i0.wp.com/api.okinawa-kougeinomori.jp/wp-content/uploads/2026/11/551df0ea64c12d31ee0ec60c5bd2753c.png?resize=600%2C853&ssl=1",
+    "location": "おきなわ工芸の杜　多目的室１・２・３ ・ 沖縄県豊見城市豊見城１１１４−１",
+    "price": "免費",
+    "official_url": "https://okinawa-kougeinomori.jp/event/19453"
+  },
+  {
+    "name": "小浜島　結願祭",
+    "name_zh": "小濱島京岸齋",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-23",
+    "url": "https://www.okinawastory.jp/event/600023368",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "",
+    "location": "嘉保根御嶽 ・ 沖縄県八重山郡竹富町小浜３１５",
+    "price": "",
+    "official_url": "https://painusima.com/events/event/%E5%B0%8F%E6%B5%9C%E5%B3%B6%E3%80%80%E7%B5%90%E9%A1%98%E7%A5%AD/"
+  },
+  {
+    "name": "西表島　節祭",
+    "name_zh": "西表島節",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-23",
+    "url": "https://www.okinawastory.jp/event/600023367",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "",
+    "location": "前泊浜、前の浜、干立御嶽境内 ・ 沖縄県八重山郡竹富町西表",
+    "price": "",
+    "official_url": "https://painusima.com/events/event/%E8%A5%BF%E8%A1%A8%E5%B3%B6%E3%80%80%E7%AF%80%E7%A5%AD/"
+  },
+  {
+    "name": "2026「くぅーすの杜忠孝蔵」秋祭りのお知らせ",
+    "name_zh": "2026年「草之森忠光三」秋季祭典通知",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-22",
+    "url": "https://www.okinawastory.jp/event/600023363",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://www.chuko-awamori.com/wp-content/uploads/2026/10/fa9d234f5728381eff1b9f829faa1193-1.jpg",
+    "location": "忠孝蔵特設会場 ・ 沖縄県豊見城市伊良波５５６−２",
+    "price": "",
+    "official_url": "https://www.chuko-awamori.com/news/2026%E3%80%8C%E3%81%8F%E3%81%85%E3%83%BC%E3%81%99%E3%81%AE%E6%9D%9C%E5%BF%A0%E5%AD%9D%E8%94%B5%E3%80%8D%E7%A7%8B%E7%A5%AD%E3%82%8A%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B"
   },
   {
     "name": "第37回宜野湾市産業まつり開催のお知らせ",
@@ -3126,6 +3440,21 @@
     "area": "名護市"
   },
   {
+    "name": "離島フェア2026～島の香りも、音も、味も。ぜんぶ、ここに。～の開催について",
+    "name_zh": "2026 年偏遠島嶼博覽會 - 島嶼的氣味、聲音和味道。都在這裡。關於持有~",
+    "date_start": "2026-11-27",
+    "date_end": "2026-11-29",
+    "url": "https://www.okinawastory.jp/event/600023402",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://www.pref.okinawa.lg.jp/_res/projects/default_project/_page_/001/041/716/feafyer.jpg",
+    "location": "沖縄セルラーパーク那覇（奥武山公園内） ・ 沖縄県那覇市奥武山町５０ 那覇市営奥武山屋内運動場",
+    "price": "",
+    "official_url": "https://www.pref.okinawa.lg.jp/kensei/shinko/1017087/1017118/1030785/1041716.html"
+  },
+  {
     "name": "🏝４名様追加募集🏝2026年11月ヨガフェスタ琉球　沖縄リトリート開催のお知らせ",
     "name_zh": "🏝新增4人招募🏝2026年11月瑜珈節琉球沖繩靜修會通知",
     "date_start": "2026-11-27",
@@ -3140,6 +3469,21 @@
     "price": "有料",
     "official_url": "https://maitrii-yoga.com/information/14815/",
     "area": "本部町"
+  },
+  {
+    "name": "OKINAWA FOOD FLEA vol.28",
+    "name_zh": "沖繩美食跳蚤 vol.28",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-29",
+    "url": "https://www.okinawastory.jp/event/600023388",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://s3.ap-northeast-1.amazonaws.com/jp.nnear.upload/1793667135454_842466135_18411011986090732_7960905574266357376_n.jpg",
+    "location": "宜野湾港マリーナ ・ 沖縄県宜野湾市宇地泊３丁目１８−１",
+    "price": "有料",
+    "official_url": "https://www.instagram.com/p/DeTQriwAWXN/?img_index=1"
   },
   {
     "name": "ディズニー・オン・クラシック 〜まほうの夜の音楽会 2026",
@@ -3361,6 +3705,21 @@
     "area": "那覇市"
   },
   {
+    "name": "うちなー希望フェス",
+    "name_zh": "烏奇納希望節",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-06",
+    "url": "https://www.okinawastory.jp/event/600023401",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://www.city.okinawa.okinawa.jp/images/24725/uchinafes.png",
+    "location": "沖縄県総合運動公園 ・ 沖縄県沖縄市比屋根５丁目３−１",
+    "price": "免費",
+    "official_url": "https://www.city.okinawa.okinawa.jp/k071/event/p00007.html"
+  },
+  {
     "name": "研究公演 二童敵討(けんきゅうこうえん にどうてきうち)",
     "name_zh": "研究成果 仁道吉",
     "date_start": "2026-12-05",
@@ -3377,22 +3736,6 @@
     "area": "浦添市"
   },
   {
-    "name": "クリスマスワークショップ毛糸のポンポンで雪だるまを作ろう",
-    "name_zh": "聖誕節工作坊 讓我們用毛線絨球堆雪人",
-    "date_start": "2026-12-05",
-    "date_end": "2026-12-05",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/7005",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "浦添市美術館では、クリスマスワークショップ毛糸のポンポンで雪だるまを作ろうを開催します。現代アートでは紐や糸を使い創作活動が行われており、毛糸は編み物だけではなく芸術表現の素材でもあります。毛糸ならではのふわふわとした柔らかい手触り、そして温かみのある質感で可愛らしい雪だるまを作りましょう\n日時2026年12月5日土13:3015:00\n対象大人\n定員各回名\n事前申込制申込期間2026年11月1日",
-    "image": "",
-    "location": "浦添市美術館　実習室４ ・ 浦添市",
-    "price": "有料",
-    "official_url": "https://urasoe-artmuseum.jp/event_topic/yarn-pom-pom-snowman2026/",
-    "area": "浦添市"
-  },
-  {
     "name": "てだこランタンナイト2026 | 願いを込めて、夜空に放つ光。",
     "name_zh": "2026 年手田子燈籠之夜 |帶著願望的光芒射向夜空。",
     "date_start": "2026-12-05",
@@ -3406,6 +3749,22 @@
     "location": "浦添城跡 ・ 浦添市",
     "price": "免費",
     "official_url": "https://yeg-tedakolantern.com/",
+    "area": "浦添市"
+  },
+  {
+    "name": "クリスマスワークショップ毛糸のポンポンで雪だるまを作ろう",
+    "name_zh": "聖誕節工作坊 讓我們用毛線絨球堆雪人",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/7005",
+    "source": "okimeguri",
+    "category": "",
+    "stars": 0,
+    "description": "浦添市美術館では、クリスマスワークショップ毛糸のポンポンで雪だるまを作ろうを開催します。現代アートでは紐や糸を使い創作活動が行われており、毛糸は編み物だけではなく芸術表現の素材でもあります。毛糸ならではのふわふわとした柔らかい手触り、そして温かみのある質感で可愛らしい雪だるまを作りましょう\n日時2026年12月5日土13:3015:00\n対象大人\n定員各回名\n事前申込制申込期間2026年11月1日",
+    "image": "",
+    "location": "浦添市美術館　実習室４ ・ 浦添市",
+    "price": "有料",
+    "official_url": "https://urasoe-artmuseum.jp/event_topic/yarn-pom-pom-snowman2026/",
     "area": "浦添市"
   },
   {
@@ -3762,6 +4121,21 @@
     "description": "冬至日照時間較短，適合把夜晚留給溫泉、街區散步或觀星"
   },
   {
+    "name": "ミュージカル『刀剣乱舞』 ～真剣乱舞祭2026～",
+    "name_zh": "音樂劇《刀劍亂舞》～新劍亂舞祭2026～",
+    "date_start": "2026-12-26",
+    "date_end": "2026-12-27",
+    "url": "https://www.okinawastory.jp/event/600023397",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://musical-toukenranbu.jp/s3/skiyaki/uploads/ckeditor/pictures/880961/content_TR_SRS26_MV_nocr.jpg",
+    "location": "沖縄サントリーアリーナ ・ 沖縄県沖縄市山内１丁目１６−１",
+    "price": "有料",
+    "official_url": "https://musical-toukenranbu.jp/pages/shinkenranbusai2026"
+  },
+  {
     "name": "今天是 🎋 大晦日",
     "name_zh": "🎋 大晦日",
     "date_start": "2026-12-31",
@@ -3873,6 +4247,21 @@
     "category": "傳統",
     "stars": 4,
     "description": "春の七草煮成粥，祈求一整年無病息災，開啟清淡健康的新年"
+  },
+  {
+    "name": "R8 螺鈿教室",
+    "name_zh": "R8螺電教室",
+    "date_start": "2027-01-10",
+    "date_end": "2027-02-21",
+    "url": "https://www.okinawastory.jp/event/600023381",
+    "source": "okinawastory",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "https://s3.ap-northeast-1.amazonaws.com/jp.nnear.upload/1793260744420_raden01.png",
+    "location": "浦添市美術館 ・ 沖縄県浦添市仲間１丁目９−２",
+    "price": "有料",
+    "official_url": "https://urasoe-artmuseum.jp/event_topic/radenclass_4nd/"
   },
   {
     "name": "第7回ちゅらうみ海道サイクリン グ2027",
@@ -4266,22 +4655,6 @@
     "description": "日本傳統由女生送巧克力，沖繩海景餐廳也常推出期間限定餐點"
   },
   {
-    "name": "宮古島大学駅伝 ワイドー・ズミ2027",
-    "name_zh": "宮古島大學 Ekiden Wideau Zumi 2027",
-    "date_start": "2027-02-14",
-    "date_end": "2027-02-14",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6498",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "期日\n2027年2月14日(日)\n\n主旨\n三大大学駅伝の出場に向けて強化に取り組んでいる大学駅伝チームの支援\n及び宮古島への合宿誘致活動の一環とする\n\n主催\n宮古島大学駅伝ワイドー・ズミ 実行委員会\n(宮古島観光協会 / 宮古島市陸上競技協会 / 報知新聞社/スターツグループ)\n\n共催\n宮古島市\n\n主管\n宮古島市陸上競技協会\n\n後援\n沖縄県 / 沖縄県スポーツ協会/ 沖縄観光コンベンションビューロ",
-    "image": "",
-    "location": "宮古島市陸上競技場 ・ 宮古島",
-    "price": "",
-    "official_url": "https://miyakojima-ekiden.com/guideline/",
-    "area": "宮古島"
-  },
-  {
     "name": "2月13日・14日 沖縄芝居公演 史劇大新城忠勇伝(おきなわしばいこうえん しげきうふあらぐしくちゅうゆうでん)2027/02/14 (日)",
     "name_zh": "2月13日、14日 沖繩戲劇公演 歷史劇 大神城中游傳",
     "date_start": "2027-02-14",
@@ -4296,6 +4669,22 @@
     "price": "有料",
     "official_url": "https://www.nt-okinawa.or.jp/performance-info/detail?performance_id=2821",
     "area": "浦添市"
+  },
+  {
+    "name": "宮古島大学駅伝 ワイドー・ズミ2027",
+    "name_zh": "宮古島大學 Ekiden Wideau Zumi 2027",
+    "date_start": "2027-02-14",
+    "date_end": "2027-02-14",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6498",
+    "source": "okimeguri",
+    "category": "",
+    "stars": 0,
+    "description": "期日\n2027年2月14日(日)\n\n主旨\n三大大学駅伝の出場に向けて強化に取り組んでいる大学駅伝チームの支援\n及び宮古島への合宿誘致活動の一環とする\n\n主催\n宮古島大学駅伝ワイドー・ズミ 実行委員会\n(宮古島観光協会 / 宮古島市陸上競技協会 / 報知新聞社/スターツグループ)\n\n共催\n宮古島市\n\n主管\n宮古島市陸上競技協会\n\n後援\n沖縄県 / 沖縄県スポーツ協会/ 沖縄観光コンベンションビューロ",
+    "image": "",
+    "location": "宮古島市陸上競技場 ・ 宮古島",
+    "price": "",
+    "official_url": "https://miyakojima-ekiden.com/guideline/",
+    "area": "宮古島"
   },
   {
     "name": "おきなわミニマラソン",
