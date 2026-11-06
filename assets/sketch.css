@@ -1,0 +1,77 @@
+/* 手感層(2026-11-06):跟 Sona 品牌手冊同一套視覺 —— 點點紙底、鉛筆雙描框、手寫小標、斜線排線。
+   只覆蓋外觀,不改版面結構;要拿掉就把 base.html 的 sketch.css 連結刪掉。視覺規則見 BRAND.md */
+@font-face{
+  font-family:"Caveat";
+  src:url("fonts/caveat-700.woff2") format("woff2");
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+}
+:root{
+  --hand:"Caveat","Noto Sans TC",cursive;
+  --pen:rgba(47,36,32,.82);
+  --pen-soft:rgba(47,36,32,.4);
+  --wobble:255px 14px 225px 16px/16px 225px 14px 255px;
+  --wobble-b:225px 16px 255px 14px/14px 255px 16px 225px;
+  /* 雙描:框外再錯開一條細線 */
+  --double:4px 4px 0 -2px var(--paper),4px 4px 0 0 var(--pen-soft);
+  --hatch-mango:repeating-linear-gradient(-45deg,rgba(244,167,46,.5) 0 2px,transparent 2px 8px);
+  --hatch-tile:repeating-linear-gradient(-45deg,rgba(212,82,58,.3) 0 2px,transparent 2px 8px);
+  --hatch-sea:repeating-linear-gradient(-45deg,rgba(26,155,179,.3) 0 2px,transparent 2px 8px);
+  --hatch-white:repeating-linear-gradient(-45deg,rgba(255,255,255,.13) 0 2px,transparent 2px 9px);
+}
+body{
+  background-image:radial-gradient(rgba(47,36,32,.045) 1px,transparent 1.2px);
+  background-size:7px 7px;
+}
+
+/* 手寫小標 */
+.eyebrow{
+  display:inline-flex;align-items:center;gap:6px;
+  font-family:var(--hand);font-size:1.45rem;font-weight:700;letter-spacing:0;text-transform:none;line-height:1.1;
+  transform:rotate(-2deg);transform-origin:left center;
+}
+.eyebrow .eyebrow-icon{transform:rotate(2deg)}
+.hero-kicker{font-family:inherit;border:1.5px solid var(--pen);border-radius:var(--wobble);background:#fff}
+
+/* 鉛筆雙描框 */
+.today-card,.wx-now,.wx-card,.month-tile,.pick-card,.event-card,.cond-card,.okiregion-card,.item-card,
+.post-card,.toolkit-card,.dash-card,.saved-card,.calendar-panel,.ig-slot,.official-cta{
+  border:2px solid var(--pen);
+  border-radius:var(--wobble);
+  box-shadow:var(--double);
+}
+.wx-card,.month-tile,.dash-card{border-width:1.5px;border-radius:var(--wobble-b)}
+.event-card:nth-child(even),.pick-card:nth-child(even),.post-card:nth-child(even),.okiregion-card:nth-child(even),.item-card:nth-child(even){border-radius:var(--wobble-b)}
+.cond-card{border-top-width:5px}
+.pick-card:hover,.post-card:hover,.event-card:hover,.okiregion-card:hover{transform:rotate(-.5deg) translateY(-2px);box-shadow:var(--double)}
+.today-card .eyebrow{font-size:1.25rem}
+
+/* 小按鈕、篩選標籤:手繪膠囊 */
+.mood-chip,.filter-tab,.tag-chip,.save-btn,.source-btn,.more-btn,.cal-nav button{border:1.5px solid var(--pen);border-radius:var(--wobble)}
+.filter-tab.active,.tag-chip.active{border-color:var(--tile)}
+.section-more,.region-more,.official-cta{border-radius:var(--wobble)}
+
+/* 日期塊、今天的天氣:斜線排線上色,不平塗 */
+.event-date{background-color:var(--sun);background-image:var(--hatch-mango);border:1.5px solid var(--pen);border-radius:var(--wobble-b)}
+.wx-card.today{background-image:var(--hatch-mango)}
+.cal-day.today{background-image:var(--hatch-mango)}
+.region-card{background-image:var(--hatch-mango);border:2px solid var(--pen);box-shadow:var(--double)}
+.know-card,.community-card{background-image:var(--hatch-white)}
+.cond-card.cond-good{background-image:var(--hatch-sea);background-size:auto}
+
+/* 標題螢光筆 */
+.hero h1 .play,.page-head h1 em{background:linear-gradient(transparent 58%,var(--sun) 58%,var(--sun) 92%,transparent 92%)}
+
+/* 章節印章(home.html 的 .sec-stamp) */
+.section-head{position:relative}
+.sec-stamp{position:absolute;right:0;top:-34px;width:96px;transform:rotate(-8deg);pointer-events:none}
+.section-head:has(.sec-stamp) .section-more{margin-right:110px}
+@media(max-width:720px){
+  .sec-stamp{width:72px;top:-18px}
+  .section-head:has(.sec-stamp) .section-more{margin-right:0}
+  .eyebrow{font-size:1.3rem}
+}
+@media(prefers-reduced-motion:reduce){
+  .pick-card:hover,.post-card:hover,.event-card:hover,.okiregion-card:hover{transform:none}
+}
