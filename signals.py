@@ -269,6 +269,7 @@ def event_signals(items, today=None):
             "tourist_impact": impact,
             "local_life": local_life,
             "vibe": vibe,
+            "first_seen": text(item.get("first_seen")) or None,
         })
     return results
 

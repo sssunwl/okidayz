@@ -131,16 +131,29 @@ def translate_ja_zh(text):
             params={"client": "gtx", "sl": "ja", "tl": "zh-TW", "dt": "t", "q": text},
             headers=HEADERS, timeout=10
         )
-        return resp.json()[0][0][0]
+        # 長文會被切成好幾段,全部接起來(原本只取第一段,第二句以後會不見)
+        return "".join(seg[0] for seg in resp.json()[0] if seg and seg[0])
     except Exception:
         return ""
 
 
+def has_kana(text):
+    return bool(re.search(r"[\u3040-\u30fa\u30fc-\u30ff]", text or ""))
+
+
 def load_translation_cache():
+    """上一版 events.json 已翻好的東西:url→中文名;(url, 欄位, 日文原文)→中文。"""
+    cache = {"name": {}, "text": {}}
     if os.path.exists(EVENTS_FILE):
         with open(EVENTS_FILE, "r", encoding="utf-8") as f:
-            return {e["url"]: e.get("name_zh", "") for e in json.load(f) if e.get("url")}
-    return {}
+            for e in json.load(f):
+                if not e.get("url"):
+                    continue
+                cache["name"][e["url"]] = e.get("name_zh", "")
+                for field in TRANSLATE_FIELDS:
+                    if e.get(field + "_ja"):
+                        cache["text"][(e["url"], field, e[field + "_ja"])] = e.get(field, "")
+    return cache
 
 
 # ── 天氣（Open-Meteo，免金鑰） ────────────────────────────────────────
@@ -486,16 +499,47 @@ def merge(lists):
 
 
 JA_SOURCES = {"okinawastory", "okimeguri", "jalan", "goyah"}
+# 網站以繁中為主:說明和地點有假名就翻成中文,原文留在 <欄位>_ja
+TRANSLATE_FIELDS = ("description", "location")
 
 
 def apply_translations(events, cache):
     for e in events:
-        if e["source"] in JA_SOURCES and not e["name_zh"]:
-            cached = cache.get(e["url"], "")
-            if not cached:
-                cached = translate_ja_zh(e["name"])
+        if e["source"] == "today_is":
+            continue
+        if (e["source"] in JA_SOURCES and not e["name_zh"]) or has_kana(e.get("name_zh")):
+            cached = cache["name"].get(e["url"], "")
+            if not cached or has_kana(cached):
+                cached = translate_ja_zh(e["name"]) or cached
                 time.sleep(0.1)
             e["name_zh"] = cached
+        # 「關於「X」的通知」這種公告標題只留活動名
+        if e.get("name_zh"):
+            e["name_zh"] = re.sub(r"^關於「(.+)」的?(通知|公告|資訊)$", r"\1", e["name_zh"])
+        for field in TRANSLATE_FIELDS:
+            ja = e.get(field) or ""
+            if not has_kana(ja):
+                continue
+            zh = cache["text"].get((e.get("url", ""), field, ja), "")
+            if not zh:
+                zh = translate_ja_zh(ja)
+                time.sleep(0.1)
+            # 專有名詞可能保留片假名,只要比原文少一半以上就算翻好
+            if zh and len(re.findall(r"[\u3040-\u30fa\u30fc-\u30ff]", zh)) * 2 < len(re.findall(r"[\u3040-\u30fa\u30fc-\u30ff]", ja)):
+                e[field + "_ja"] = ja
+                e[field] = zh
+
+
+def stamp_first_seen(events, today):
+    """記每個活動第一次被抓到的日期,給 Sona「島の告示板」挑新活動。
+    上一版就有的沿用(舊資料是空字串=不知道),這次才出現的記今天。"""
+    prev = {}
+    if os.path.exists(EVENTS_FILE):
+        with open(EVENTS_FILE, "r", encoding="utf-8") as f:
+            prev = {e["url"]: e.get("first_seen", "") for e in json.load(f) if e.get("url")}
+    for e in events:
+        if e.get("url") and e["source"] != "today_is":
+            e["first_seen"] = prev.get(e["url"], today)
 
 
 # ── 網頁生成 ──────────────────────────────────────────────────────────
@@ -729,6 +773,7 @@ def main():
 
     cache = load_translation_cache()
     apply_translations(all_events, cache)
+    stamp_first_seen(all_events, jst_now().strftime("%Y-%m-%d"))
 
     weather = get_weather()
 

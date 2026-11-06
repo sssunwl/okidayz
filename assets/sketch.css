@@ -75,3 +75,65 @@ body{
 @media(prefers-reduced-motion:reduce){
   .pick-card:hover,.post-card:hover,.event-card:hover,.okiregion-card:hover{transform:none}
 }
+
+/* ── 第二輪(2026-11-06):讓首頁像一本沖繩手帖,不只是一般資訊站 ── */
+
+/* Logo 字:Oki 墨色、Dayz 赤瓦＋芒果螢光筆 */
+.brand-mark{border-radius:0;width:52px;height:52px;transform:rotate(-4deg)}
+.brand:hover .brand-mark{transform:rotate(-12deg) scale(1.06)}
+.wordmark{font-size:1.32rem!important;font-weight:900;letter-spacing:-.01em!important;line-height:1}
+.wordmark span{color:var(--tile);background:linear-gradient(transparent 62%,var(--sun) 62%,var(--sun) 92%,transparent 92%);padding:0 1px}
+footer .wordmark{color:#fff}
+footer .wordmark span{color:var(--sun);background:none}
+
+/* 今日島況跑馬燈:赤瓦色帶 */
+.island-ticker{position:relative;overflow:hidden;background:var(--tile);color:#fff;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);font-weight:800;font-size:.9rem;white-space:nowrap}
+.island-ticker::before{content:"";position:absolute;inset:0;background:var(--hatch-white);pointer-events:none}
+.island-ticker .run{display:inline-flex;gap:38px;padding:9px 0;animation:ticker 48s linear infinite}
+.island-ticker .run span{display:inline-flex;align-items:center;gap:8px}
+.island-ticker .run b{background:var(--sun);color:var(--ink);font-weight:900;font-size:.78rem;padding:2px 9px;border-radius:var(--wobble);line-height:1.5}
+.island-ticker:hover .run{animation-play-state:paused}
+@keyframes ticker{to{transform:translateX(-50%)}}
+
+/* 手帖章節編號:01、02… 手寫大數字 */
+main{counter-reset:sec}
+.section-head>div:first-child{counter-increment:sec;position:relative}
+.section-head>div:first-child::before{content:counter(sec,decimal-leading-zero);position:absolute;left:-4px;top:-58px;font:700 4.4rem/1 var(--hand);color:var(--mango);opacity:.55;transform:rotate(-6deg);pointer-events:none;z-index:-1}
+.section-head h2{position:relative}
+
+/* 首屏三張卡:便利貼、橫線筆記紙、明信片 */
+#todayCulture{background-color:#fff6dc;background-image:var(--hatch-mango);background-size:auto;transform:rotate(-1.2deg);position:relative}
+#todayCulture::before{content:"";position:absolute;top:-13px;left:42%;width:96px;height:26px;background:rgba(26,155,179,.28);border:1px dashed rgba(47,36,32,.25);transform:rotate(-4deg)}
+.today-card.news-card{background-image:repeating-linear-gradient(transparent 0 33px,rgba(26,155,179,.16) 33px 34px);transform:rotate(.6deg)}
+.wx-now{position:relative;transform:rotate(-.6deg)}
+.hero-hand-note{display:inline-block;font:700 1.5rem/1.1 var(--hand);color:var(--tile);transform:rotate(-4deg);margin:2px 0 14px 6px}
+
+/* 活動卡:拍立得＋紙膠帶,一張張歪歪地貼 */
+.pick-card{transform:rotate(-1.4deg)}
+.pick-card:nth-child(2n){transform:rotate(1.2deg)}
+.pick-card:nth-child(3n){transform:rotate(-.4deg)}
+.pick-card::after{content:"";position:absolute;top:-6px;left:50%;width:92px;height:24px;margin-left:-46px;background:rgba(244,167,46,.55);background-image:var(--hatch-white);transform:rotate(-3deg);z-index:3;pointer-events:none}
+.pick-card:nth-child(2n)::after{background-color:rgba(26,155,179,.35);transform:rotate(4deg)}
+.pick-card:hover{transform:rotate(0) translateY(-4px) scale(1.01)}
+.pick-grid{padding-top:10px}
+
+/* 章節之間:赤瓦屋簷 */
+.picks,.toolkit-strip{position:relative}
+.picks::before,.toolkit-strip::before{content:"";position:absolute;left:0;right:0;top:0;height:22px;background:url("brand/patterns/tiles.svg") 0 0/66px repeat-x;opacity:.55;border-bottom:2px solid var(--pen-soft)}
+
+/* 攻略／旅行小抄:明信片(郵票角＋虛線) */
+.toolkit-card,.know-card{position:relative}
+.toolkit-card::after{content:"";position:absolute;right:22px;top:-18px;width:92px;height:92px;background:url("brand/stamps/local.svg") center/contain no-repeat;transform:rotate(10deg)}
+.toolkit-card{border-style:dashed}
+
+/* 頁尾簽名 */
+footer::before{content:"Everyday Sunday.";position:absolute;left:auto;right:max(20px,calc(50% - 560px));top:-50px;font:700 2.6rem/1 var(--hand);color:var(--tile);transform:rotate(-4deg)}
+
+@media(max-width:720px){
+  .section-head>div:first-child::before{font-size:3.2rem;top:-40px}
+  .pick-card,.pick-card:nth-child(2n),.pick-card:nth-child(3n){transform:rotate(0)}
+  #todayCulture,.today-card.news-card,.wx-now{transform:none}
+  footer::before{font-size:2rem;top:-24px}
+  .wordmark{font-size:1.15rem!important}
+}
+@media(prefers-reduced-motion:reduce){.island-ticker .run{animation:none}}

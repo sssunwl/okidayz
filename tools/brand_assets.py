@@ -350,6 +350,33 @@ STAMPS = [
 ]
 
 
+# ── Logo(2026-11-06)──────────────────────────────────
+# 圓框裡:芒果太陽從赤瓦屋頂後面升起,下面一條海。42px 也看得出「屋頂＋太陽」。
+
+def logo_mark(p):
+    S = 120
+    p.line(circle(60, 60, 54, 28, p.rng, 0.004), True, width=3.2, fill="#fff", amt=0.35)
+    sun = circle(78, 40, 17, 12, p.rng, 0.03)
+    p.hatch(sun, MANGO, angle=-40, gap=3.2, width=1.7)
+    p.line(sun, True, width=2.2)
+    for k in range(7):  # 光芒
+        a = math.radians(-160 + k * 30)
+        p.line([(78 + 22 * math.cos(a), 40 + 22 * math.sin(a)), (78 + 29 * math.cos(a), 40 + 29 * math.sin(a))], width=1.8, amt=0.4)
+    roof = [(22, 66), (38, 48), (82, 48), (98, 66)]
+    p.line(roof, True, width=2.6, fill="#fff", corner=True)
+    p.hatch(densify(roof, True, 3), TILE, angle=20, gap=3, width=1.8)
+    p.line(roof, True, width=2.6, corner=True)
+    p.line([(36, 50), (84, 50)], width=1.6, amt=0.4)  # 屋脊白漆喰
+    for x in (44, 56, 68, 80):  # 瓦溝
+        p.line([(x, 51), (x - 6, 64)], width=1.2, amt=0.4)
+    p.line([(30, 66), (30, 80), (90, 80), (90, 66)], width=2.4, amt=0.5)  # 牆
+    p.line([(54, 80), (54, 70), (66, 70), (66, 80)], width=2, amt=0.4)  # 門
+    sea = wave_pts(18, 102, 90, 2.6, 18, 4)
+    p.line(sea, width=2.4, color=SEA, amt=0.5)
+    p.line(wave_pts(30, 90, 99, 2, 16, 4), width=1.8, color=SEA, amt=0.5)
+    return S
+
+
 # ── 總覽頁 ──────────────────────────────────────────────
 
 def preview_html():
@@ -398,6 +425,7 @@ figcaption{{font-size:13px;color:#7a6a5e}}
 </style></head><body><main>
 <h1>OkiDayz <mark>手繪素材</mark></h1>
 <p class="note">鉛筆線稿＋紅色印章。由 tools/brand_assets.py 生成，改生成器再重跑。</p>
+<h2>Logo</h2><div class="grid"><figure><img src="logo/mark.svg" alt="" style="height:96px"><figcaption>mark.svg</figcaption></figure></div>
 <h2>配色</h2>
 <div class="sw">
 <span style="background:var(--paper);border:1px solid #eee3d2">漆喰白 {PAPER}</span>
@@ -439,6 +467,10 @@ def main():
         (OUT / "patterns" / f"{key}.svg").write_text(p.svg(96, 96), encoding="utf-8")
     for key, _label, seed, w, h, shape, lines, rot in STAMPS:
         (OUT / "stamps" / f"{key}.svg").write_text(stamp(seed, w, h, shape, lines, rot), encoding="utf-8")
+    (OUT / "logo").mkdir(parents=True, exist_ok=True)
+    p = Pen(300)
+    size = logo_mark(p)
+    (OUT / "logo" / "mark.svg").write_text(p.svg(size, size), encoding="utf-8")
     (OUT / "index.html").write_text(preview_html(), encoding="utf-8")
     print(f"{len(ICONS)} 圖示、{len(PATTERNS)} 紋樣、{len(STAMPS)} 印章 → {OUT.relative_to(ROOT)}/")
 

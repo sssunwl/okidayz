@@ -1467,6 +1467,10 @@ def build_site(events=None, weather=None, updated=None):
     urls = [SITE_URL]
     event_urls = build_event_pages(events)  # 要先跑，才能讓 home/events 拿到 _detail_slug
     month_urls = build_month_pages(months)  # 要先跑，才能讓首頁的月份磚連得到頁面
+    # 月份速覽給 Sona 輪播「月の沖繩手帖」讀(只放 front matter,不放內文)
+    (DOCS / "months.json").write_text(json.dumps(
+        [{k: v for k, v in m.items() if k != "body"} for m in months],
+        ensure_ascii=False, indent=1, default=str), encoding="utf-8")
     build_home(posts, events, weather, news, months)
     build_events(events, len(events))
     build_news(news)
