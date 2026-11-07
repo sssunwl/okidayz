@@ -490,10 +490,17 @@ def row_cards(posts, prefix="", limit=3):
 def build_home(posts, events, weather, news, months):
     today = datetime.now(JST).strftime("%Y-%m-%d")
     horizon = (datetime.now(JST) + timedelta(days=90)).strftime("%Y-%m-%d")
-    home_events = [
-        event for event in events
-        if event.get("date_start") and today <= event["date_start"] <= horizon
-    ][:60]
+    # 首頁月曆要看得到「正在舉辦」和 90 天內開始的活動；只留畫卡片要的欄位，控制頁面大小
+    keep = ("name_zh", "name", "date_start", "date_end", "location", "image",
+            "category", "source", "url", "_detail_slug")
+    home_events = []
+    for event in events:
+        start = event.get("date_start")
+        if not start or start > horizon or (event.get("date_end") or start) < today:
+            continue
+        item = {k: event[k] for k in keep if event.get(k)}
+        item["description"] = str(event.get("description") or "")[:140]
+        home_events.append(item)
 
     okinawa_posts = posts.get("okinawa") or []
     if okinawa_posts:
@@ -586,7 +593,7 @@ def build_event_pages(events):
         name = event_display_name(event)
         name_ja = event.get("name") or ""
         subtitle = ""
-        if name_ja and name_ja != name:
+        if False and name_ja and name_ja != name:  # 日文原名只放 Sona 資訊庫
             subtitle = '      <p class="article-lead">{}</p>'.format(html.escape(name_ja))
 
         meta_bits = []
@@ -834,7 +841,10 @@ def cond_point_payload(wind_dir, wind_speed, wave, tide, verdict, label, reason)
 
 
 def ocean_timeline_html(spot):
-    points = spot.get("timeline") or []
+    # 前台只看白天能下水的時段（06–20 點），22 點、半夜這種細節留給 DiveInOut
+    points = [p for p in (spot.get("timeline") or [])
+              if str(p.get("hour", "")).isdigit() and 6 <= int(p["hour"]) <= 20]
+    points.sort(key=lambda p: (bool(p.get("is_tomorrow")), int(p["hour"])))  # 今天在前，明天早上排後面
     if not points:
         return ""
 
@@ -861,12 +871,13 @@ def ocean_timeline_html(spot):
         tomorrow = point.get("is_tomorrow")
         buttons.append(
             '<button type="button" class="cond-hour cond-{level}{tmr_class}" '
-            'data-hour="{hour}" data-point=\'{payload}\'{title}>{hour}</button>'.format(
+            'data-hour="{hour}" data-point=\'{payload}\'{title}>{hour}{tmr}</button>'.format(
                 level=html.escape(str(point.get("verdict", "caution"))),
                 tmr_class=" cond-hour-tomorrow" if tomorrow else "",
                 hour=html.escape(hour),
                 payload=payload,
                 title=' title="明天 {}:00"'.format(html.escape(hour)) if tomorrow else "",
+                tmr="<small>明天</small>" if tomorrow else "",
             )
         )
 
@@ -936,7 +947,7 @@ def ocean_conditions_html(conditions, note_label="地形要注意", heading="", 
             '<p class="cond-region">{region}・{kind}</p>'
             '<div class="cond-grid" data-cond-grid>'
             '<div><span>風</span><strong data-cond-wind>{wind_dir} {wind_speed} 節</strong><small>陣風 {gust} 節</small></div>'
-            '<div><span>浪高</span><strong data-cond-wave>{wave} m</strong><small>湧浪 {swell}m・{period}s</small></div>'
+            '<div><span>浪高</span><strong data-cond-wave>{wave} m</strong></div>'
             '<div><span>潮位</span><strong data-cond-tide>{tide} m {arrow}</strong><small>{turn_text}</small></div>'
             '</div>'
             '<p class="cond-reason" data-cond-reason>{reason}</p>'
@@ -944,7 +955,7 @@ def ocean_conditions_html(conditions, note_label="地形要注意", heading="", 
             '<p class="cond-exposure"><strong>{note_label}：</strong>{exposure}</p>'
             '{official}'
             '<div class="cond-links">'
-            '<a class="cond-link" href="{ref_url}" target="_blank" rel="noopener">看完整逐時預報 ↗</a>'
+            '<a class="cond-link" href="https://sssunwl.github.io/diveinout/" target="_blank" rel="noopener">想看更細的潛水海況 → DiveInOut ↗</a>'
             '{official_link}'
             '</div>'
             '</article>'
@@ -1138,13 +1149,12 @@ NEWS_OKINAWA_SOURCES = ("沖縄タイムス", "氣象庁警報")
 def news_entry_html(item):
     return (
         '<article class="news-item">'
-        '<div class="news-meta"><span class="news-cat">{cat}</span><span>{source}</span></div>'
+        '<div class="news-meta"><span class="news-cat">{cat}</span>{area}</div>'
         '<h3>{title}</h3><p>{summary}</p>'
-        '<a href="{url}" target="_blank" rel="noopener">看原文 ↗</a>'
         '</article>'
     ).format(
         cat=html.escape(str(item.get("category", "沖繩"))),
-        source=html.escape(str(item.get("source", ""))),
+        area='<span>{}</span>'.format(html.escape(str(item["area"]))) if item.get("area") else "",
         title=html.escape(str(item.get("title", ""))),
         summary=html.escape(str(item.get("summary", ""))),
         url=html.escape(str(item.get("url", "")), quote=True),
@@ -1189,7 +1199,7 @@ def build_news(news):
         '    <div class="shell">\n'
         '      <div class="eyebrow">Okinawa News</div>\n'
         '      <h1>沖繩新聞・日本大事</h1>\n'
-        '      <p>每日自動彙整，只做重點摘要與原文連結，不轉載全文。影響旅客的消息會排在最前面。</p>\n'
+        '      <p>每天整理成繁體中文重點。會影響旅客的交通、天氣與活動異動，排在最前面。</p>\n'
         '    </div>\n'
         '  </section>\n\n'
         '  <section class="news-section">\n'

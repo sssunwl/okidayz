@@ -34,10 +34,30 @@
       <div class="section-head">
         <div><div class="eyebrow"><img class="eyebrow-icon" src="<<<PREFIX>>>assets/brand/icons/event.svg" alt="">Now in Okinawa</div><h2>這幾天，<br>可以這樣玩。</h2></div>
         <img class="sec-stamp" src="<<<PREFIX>>>assets/brand/stamps/weekend.svg" alt="" aria-hidden="true">
-        <a class="section-more" href="events/">打開活動年曆 →</a>
+        <a class="section-more" href="#calendar">按日子看 ↓</a>
       </div>
       <div class="pick-grid" id="pickGrid" data-events-href="events/"></div>
-      <p class="section-tail">近期正在舉辦或即將開始的活動。點開看整理過的日期、地點與官方資訊。</p>
+      <p class="section-tail">近期正在舉辦或即將開始的活動。想按日子找，往下看活動年曆。</p>
+    </div>
+  </section>
+
+  <section class="home-cal-sec" id="calendar">
+    <div class="shell">
+      <div class="section-head">
+        <div><div class="eyebrow"><img class="eyebrow-icon" src="<<<PREFIX>>>assets/brand/icons/event.svg" alt="">Play Calendar</div><h2>沖繩活動年曆。</h2></div>
+        <a class="section-more" href="events/">搜尋全部活動 →</a>
+      </div>
+      <div class="home-cal" id="homeCal" data-events-href="events/">
+        <div class="hc-cal">
+          <div class="hc-nav"><button type="button" data-cal-nav="-1" aria-label="上個月">←</button><strong data-cal-title></strong><button type="button" data-cal-nav="1" aria-label="下個月">→</button></div>
+          <div class="hc-week"><span>日</span><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span></div>
+          <div class="hc-grid" data-cal-grid></div>
+        </div>
+        <div class="hc-side">
+          <h3 class="hc-day-head" data-cal-day></h3>
+          <ul class="hc-list" data-cal-list></ul>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -96,3 +116,4 @@
     </div>
   </section>
 <script src="<<<PREFIX>>>assets/sketch.js" defer></script>
+<script src="<<<PREFIX>>>assets/home-cal.js" defer></script>

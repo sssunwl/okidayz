@@ -137,3 +137,85 @@ footer::before{content:"Everyday Sunday.";position:absolute;left:auto;right:max(
   .wordmark{font-size:1.15rem!important}
 }
 @media(prefers-reduced-motion:reduce){.island-ticker .run{animation:none}}
+
+/* 海況逐時:只剩 06–20 點,一排排好不左右捲 */
+.cond-hour-row{flex-wrap:wrap;overflow:visible}
+.cond-hour{flex:1 0 40px}
+.cond-scrollbar{display:none}
+
+/* 近期活動=拍立得:照片在上,字在下面白底(不壓在海報上) */
+.pick-card.pick-polaroid{padding:10px 10px 14px;background:#fff;color:var(--ink);min-height:0}
+.pick-polaroid .pick-photo{aspect-ratio:4/3;background:var(--paper) center/cover no-repeat;border:1.5px solid var(--pen-soft);border-radius:4px}
+.pick-polaroid .pick-photo-empty{display:grid;place-items:center;background-color:var(--sun);background-image:var(--hatch-white)}
+.pick-polaroid .pick-icon{margin:0}
+.pick-polaroid .pick-body{padding:12px 6px 0;display:flex;flex-direction:column;gap:6px;flex:1}
+.pick-polaroid .pick-no{color:var(--tile);opacity:1}
+.pick-polaroid h3{font-size:1.12rem;margin:0}
+.pick-polaroid p{font-size:.8rem;color:var(--muted);opacity:1;margin:0}
+.pick-polaroid .pick-loc{margin-top:auto;padding-top:4px}
+
+/* 首頁活動年曆:左月曆,右當天活動標題,點標題才展開 */
+.home-cal-sec{padding:20px 0 70px}
+.home-cal{display:grid;grid-template-columns:minmax(0,380px) minmax(0,1fr);gap:22px;align-items:start}
+.hc-cal,.hc-side{background:#fff;border:2px solid var(--pen);border-radius:var(--wobble);padding:16px;box-shadow:var(--double)}
+.hc-nav{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.hc-nav strong{font-size:1.05rem;font-weight:900}
+.hc-nav button{width:34px;height:34px;border:1.5px solid var(--pen);border-radius:50%;background:#fff;font-weight:900;cursor:pointer}
+.hc-week,.hc-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;text-align:center}
+.hc-week span{font-size:.72rem;font-weight:800;color:var(--muted);padding-bottom:4px}
+.hc-day{position:relative;aspect-ratio:1;border:1px solid transparent;border-radius:10px;background:none;font:inherit;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;padding:0}
+.hc-day b{font-size:.88rem;font-weight:800}
+.hc-day i{font-style:normal;font-size:.6rem;font-weight:900;color:#fff;background:var(--tile);border-radius:999px;padding:0 5px;line-height:1.5}
+.hc-day.is-past{opacity:.38}
+.hc-day.is-today b{background:var(--sun);border-radius:50%;width:24px;line-height:24px}
+.hc-day:hover{border-color:var(--pen-soft)}
+.hc-day.is-on{border:2px solid var(--pen);background:var(--paper)}
+.hc-day-head{display:flex;align-items:baseline;gap:10px;margin:2px 0 10px;font-size:1.3rem;font-weight:900}
+.hc-day-head small{font-size:.8rem;color:var(--tile);font-weight:800}
+.hc-list{list-style:none;margin:0;padding:0;max-height:440px;overflow-y:auto}
+.hc-list li{border-bottom:1.5px dashed var(--line)}
+.hc-item{width:100%;display:flex;align-items:center;gap:8px;padding:11px 2px;background:none;border:0;font:inherit;text-align:left;cursor:pointer;color:var(--ink)}
+.hc-item span{flex:1;min-width:0;font-weight:800;font-size:.95rem;line-height:1.4}
+.hc-item em{font-style:normal;font-weight:900;color:var(--tile)}
+.hc-item .hc-new{flex:0 0 auto;font-size:.66rem;font-weight:900;color:#fff;background:var(--tile);padding:1px 7px;border-radius:4px}
+.hc-preview{display:grid;grid-template-columns:110px minmax(0,1fr);gap:12px;padding:2px 2px 14px}
+.hc-preview[hidden]{display:none}
+.hc-thumb{aspect-ratio:1;background:center/cover;border-radius:6px;border:1.5px solid var(--pen-soft)}
+.hc-meta{margin:0 0 6px;font-size:.8rem;color:var(--muted);line-height:1.6}
+.hc-desc{margin:0 0 8px;font-size:.85rem;line-height:1.7}
+.hc-go{font-weight:900;color:var(--tile);text-decoration:none;font-size:.85rem}
+.hc-empty{padding:16px 0;color:var(--muted);font-size:.9rem}
+@media (max-width:760px){
+  .home-cal{grid-template-columns:1fr}
+  .hc-preview{grid-template-columns:76px minmax(0,1fr)}
+}
+
+/* 文章排版:標題和內文拉開層次(手帳風) */
+.article h1{font-size:clamp(2.3rem,6vw,3.6rem);font-weight:900;line-height:1.12;margin-bottom:18px}
+.article .article-lead{font-size:1.15rem;font-weight:700;color:var(--ink);line-height:1.75;padding:4px 0 4px 16px;border-left:4px solid var(--tile)}
+.article-body{counter-reset:h2;font-size:1.02rem;line-height:1.95;color:#4a3d36}
+.article-body>p:first-child{font-size:1.12rem;color:var(--ink)}
+.article-body h2{counter-increment:h2;position:relative;font-size:clamp(1.55rem,3.6vw,1.95rem);font-weight:900;line-height:1.25;color:var(--ink);margin:64px 0 18px;padding-bottom:12px}
+.article-body h2::before{content:counter(h2,decimal-leading-zero);display:block;font:700 2.1rem/1 var(--hand);color:var(--tile);margin-bottom:4px;transform:rotate(-3deg);transform-origin:left}
+.article-body h2::after{content:"";position:absolute;left:0;bottom:0;width:120px;height:9px;background-image:var(--hatch-mango);border-top:2px solid var(--pen)}
+.article-body h3{font-size:1.18rem;font-weight:900;color:var(--tile);margin:36px 0 10px;padding-left:14px;border-left:4px solid var(--sun)}
+.article-body strong{color:var(--ink);background:linear-gradient(transparent 60%,rgba(255,210,122,.75) 60%);padding:0 2px}
+.article-body ul{list-style:none;padding-left:4px}
+.article-body ul>li{position:relative;padding-left:22px}
+.article-body ul>li::before{content:"";position:absolute;left:2px;top:.85em;width:10px;height:3px;border-radius:2px;background:var(--mango, #f4a72e);transform:rotate(-8deg)}
+.article-body ol{padding-left:26px}
+.article-body ol>li::marker{font-weight:900;color:var(--tile)}
+.article-body blockquote{background:#fff7d6;border:0;border-radius:4px;padding:20px 22px;color:var(--ink);box-shadow:var(--double);transform:rotate(-.4deg)}
+.article-body table{width:100%;border-collapse:collapse;font-size:.92rem;background:#fff;border:2px solid var(--pen);border-radius:12px;overflow:hidden}
+.article-body th{background:var(--paper);font-weight:900;color:var(--ink)}
+.article-body th,.article-body td{padding:10px 12px;border-bottom:1.5px dashed var(--line);text-align:left}
+.article-body hr{border:0;height:22px;background:url("brand/patterns/tiles.svg") center/66px repeat-x;opacity:.4;margin:44px 0}
+
+/* 手機不要左右溢出:表格縮進欄寬、海況分頁換行 */
+.article-body table{table-layout:fixed}
+.article-body th,.article-body td{overflow-wrap:anywhere}
+@media (max-width:560px){.article-body table{font-size:.8rem}.article-body th,.article-body td{padding:8px 6px}}
+.cond-tabs{flex-wrap:wrap;overflow:visible}
+.cond-hour-row{display:grid;grid-template-columns:repeat(auto-fill,minmax(42px,1fr))}
+.cond-hour{min-width:0}
+.cond-hour-track{align-items:flex-start}.cond-hour-track>.cond-hour-now{flex:0 0 56px;align-self:flex-start}

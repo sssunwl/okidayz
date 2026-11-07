@@ -97,7 +97,7 @@
     newsEl.innerHTML = NEWS.length ? NEWS.slice(0, 3).map(function (item) {
       return '<li><a href="' + escapeHTML(newsEl.dataset.newsHref || 'news/') + '">' +
         (item.alert ? '<span class="news-alert">要注意</span>' : '') +
-        escapeHTML(item.title) + '</a><small>' + escapeHTML(item.source || '') + '</small></li>';
+        escapeHTML(item.title) + '</a><small>' + escapeHTML(item.area || item.category || '') + '</small></li>';
     }).join('') : '<li class="news-empty">今日新聞整理中。</li>';
   }
 
@@ -108,23 +108,27 @@
       return event.source !== 'today_is' && event.date_start >= today;
     }).sort(function (a, b) { return a.date_start.localeCompare(b.date_start); }).slice(0, 4);
     var icons = ['☀️', '🥁', '🌊', '🌙'];
+    // 拍立得：照片在上、字在下面白底，不再把字壓在海報上
     pickGrid.innerHTML = upcoming.length ? upcoming.map(function (event, index) {
       var img = safeURL(event.image);
-      var style = img ? ' style="background-image:url(\'' + escapeHTML(img) + '\')"' : '';
-      var loc = event.location ? '<p class="pick-loc">📍 ' + escapeHTML(event.location) + '</p>' : '';
-      return '<article class="pick-card' + (img ? ' has-image' : '') +
-        '" data-pick-id="' + escapeHTML(eventId(event)) + '" tabindex="0"' + style + '>' +
+      var photo = img
+        ? '<div class="pick-photo" style="background-image:url(\'' + escapeHTML(img) + '\')"></div>'
+        : '<div class="pick-photo pick-photo-empty"><span class="pick-icon">' + icons[index] + '</span></div>';
+      var loc = event.location ? '<p class="pick-loc">📍 ' + escapeHTML(truncate(event.location, 24)) + '</p>' : '';
+      return '<article class="pick-card pick-polaroid" data-pick-id="' + escapeHTML(eventId(event)) + '"' +
+        (event._detail_slug ? ' data-detail="' + escapeHTML(event._detail_slug) + '"' : '') + ' tabindex="0">' +
+        photo + '<div class="pick-body">' +
         '<span class="pick-no">0' + (index + 1) + '・' + escapeHTML(fmtDate(event.date_start)) + '</span>' +
-        '<span class="pick-arrow">↗</span>' + (img ? '' : '<span class="pick-icon">' + icons[index] + '</span>') +
         '<h3>' + escapeHTML(displayName(event)) + '</h3>' +
-        '<p>' + escapeHTML(truncate(event.description, 46) || '點開看活動詳情與官方資訊。') + '</p>' + loc +
-        '</article>';
+        '<p>' + escapeHTML(truncate(event.description, 40) || '點開看活動日期與地點。') + '</p>' + loc +
+        '</div></article>';
     }).join('') : '<div class="empty-state"><strong>近期活動整理中</strong>晚點再回來看看。</div>';
 
     var eventsHref = pickGrid.dataset.eventsHref || 'events/';
     function openPick(card) {
       if (!card) return;
-      location.href = eventsHref + '?q=' + encodeURIComponent(card.querySelector('h3').textContent);
+      location.href = card.dataset.detail ? eventsHref + card.dataset.detail + '/'
+        : eventsHref + '?q=' + encodeURIComponent(card.querySelector('h3').textContent);
     }
     pickGrid.addEventListener('click', function (event) {
       openPick(event.target.closest('[data-pick-id]'));

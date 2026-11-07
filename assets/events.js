@@ -127,18 +127,17 @@
     var title = detailHref
       ? '<a href="' + detailHref + '">' + escapeHTML(displayName(event)) + '</a>'
       : escapeHTML(displayName(event));
-    var ja = event.name && event.name !== displayName(event)
-      ? '<div class="event-ja">' + escapeHTML(event.name) + '</div>' : '';
+    var ja = '';  // 日文原名、資料來源只放 Sona 資訊庫，前台不顯示
     var loc = event.location
       ? '<p class="event-location">📍 ' + escapeHTML(event.location) +
         (event.price ? '<span class="event-price">' + escapeHTML(event.price) + '</span>' : '') + '</p>' : '';
-    var source = culture ? '' : '<p class="event-source-note">資料來源：' + escapeHTML(sourceName(event)) + '</p>';
+    var source = '';
     return '<article class="event-card' + (culture ? ' culture' : '') +
       '" id="event-' + escapeHTML(encodeURIComponent(eventId(event))) +
       '" style="animation-delay:' + Math.min(index, 10) * 0.025 + 's">' +
       '<div class="event-date">' + escapeHTML(fmtDate(event.date_start)) +
       '<small>' + escapeHTML(end || event.category || '活動') + '</small></div>' +
-      '<div class="event-body"><span class="event-source">' + escapeHTML(sourceName(event)) +
+      '<div class="event-body"><span class="event-source">' + escapeHTML(culture ? '今天是…' : (event.category || '活動')) +
       '</span><h4>' + title + '</h4>' + ja +
       (event.description ? '<p class="event-desc">' + escapeHTML(event.description) + '</p>' : '') + loc + source + '</div>' +
       '<div class="event-actions">' +
