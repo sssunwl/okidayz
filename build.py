@@ -16,6 +16,7 @@ import re
 import shutil
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import quote
 
 ROOT = Path(__file__).parent
 TEMPLATES = ROOT / "templates"
@@ -916,6 +917,19 @@ OCEAN_KINDS = (("beach", "沙灘", "🏖️"), ("dive", "潛水", "🤿"), ("sur
 OCEAN_REGIONS = ("北部", "中部", "南部", "離島")
 
 
+def ocean_photo_html(spot):
+    photo = spot.get("photo") or {}
+    url = str(photo.get("url") or "")
+    if not url.startswith(("https://upload.wikimedia.org/", "https://thumb.wikimedia.org/")):
+        return '<div class="os-photo os-photo-empty" aria-hidden="true"></div>'
+    # Commons 授權(CC BY／BY-SA)規定要標作者，所以照片角落留一行小字
+    return ('<figure class="os-photo"><img src="{src}" alt="{alt}" loading="lazy" decoding="async">'
+            '<figcaption><a href="{page}" target="_blank" rel="noopener">© {credit}・{lic}</a></figcaption></figure>').format(
+        src=html.escape(url, quote=True), alt=html.escape(spot.get("name", "")),
+        page=html.escape(str(photo.get("page") or ""), quote=True),
+        credit=html.escape(str(photo.get("credit") or "")), lic=html.escape(str(photo.get("license") or "")))
+
+
 def ocean_spots_html():
     """海況頁的「沖繩海邊點位」：沙灘／潛水／衝浪三分頁，依北中南離島分組。
     資料在 data/ocean_spots.json；地圖之後再做，先放點位介紹。"""
@@ -939,14 +953,18 @@ def ocean_spots_html():
             if not items:
                 continue
             cards = "".join(
-                '<article class="os-card">'
+                '<article class="os-card">{photo}'
                 '<div class="os-head"><h4>{name}</h4><span class="os-level">{level}</span></div>'
                 '<p class="os-ja">{ja}・{area}</p>'
                 '<p class="os-feature">{feature}</p>'
                 '<dl class="os-facts"><dt>季節</dt><dd>{season}</dd>{type_row}</dl>'
                 '<p class="os-tip"><b>注意</b>{tip}</p>'
                 '<div class="os-tags">{tags}</div>'
+                '<a class="os-map" href="{map}" target="_blank" rel="noopener">📍 在 Google 地圖打開 ↗</a>'
                 '</article>'.format(
+                    photo=ocean_photo_html(x),
+                    map=html.escape("https://www.google.com/maps/search/?api=1&query=" + quote(
+                        re.sub(r"（.*?）", "", x.get("ja", "")) + " " + x.get("area", "").split("・")[0] + " 沖縄"), quote=True),
                     name=html.escape(x.get("name", "")), level=html.escape(x.get("level", "")),
                     ja=html.escape(x.get("ja", "")), area=html.escape(x.get("area", "")),
                     feature=html.escape(x.get("feature", "")), season=html.escape(x.get("season", "")),

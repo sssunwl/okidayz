@@ -230,6 +230,13 @@
   initDate();
   renderAll();
 
-  var initial = new URLSearchParams(location.search).get('q');
+  var params = new URLSearchParams(location.search);
+  var initial = params.get('q');
   if (initial) runSearch(initial);
+  // 首頁月曆「看這天全部活動」帶 ?date=YYYY-MM-DD 過來
+  var day = params.get('date');
+  if (!initial && /^\d{4}-\d{2}-\d{2}$/.test(day || '')) {
+    state.year = Number(day.slice(0, 4)); state.month = Number(day.slice(5, 7)) - 1;
+    state.selectedDate = day; renderAll();
+  }
 })();

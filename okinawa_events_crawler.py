@@ -504,6 +504,40 @@ JA_SOURCES = {"okinawastory", "okimeguri", "jalan", "goyah", "naha", "pref", "pr
 TRANSLATE_FIELDS = ("description", "location")
 
 
+CJK = r"\u4e00-\u9fff\u3400-\u4dbf"
+
+
+def short_title(t):
+    """機翻後的活動名常帶公告腔、日期、括號、新聞稿長句。縮成看得懂的活動名。"""
+    t = (t or "").strip()
+    if not t:
+        return t
+    s = t
+    s = re.sub(r"^(【[^】]*】|\[[^\]]*\]|≪[^≫]*≫|〔[^〕]*〕)\s*", "", s)
+    s = re.sub(r"^(緊急活動|免費入場)\s*", "", s)
+    s = re.sub(r"^\d{4}\s*年\s*\d{1,2}\s*月\s*\d{1,2}\s*日\s*", "", s)
+    s = re.sub(r"^\d{1,2}/\d{1,2}\s*[（(][^）)]*[）)]\s*", "", s)
+    s = re.sub(r"^\d{1,2}月\d{1,2}日(及|、|和)\d{1,2}日\s*", "", s)
+    s = re.sub(r"^關於(舉辦)?", "", s)
+    s = re.sub(r"(的)?(通知|公告|資訊)$", "", s)
+    s = re.sub(r"\s*[（(][\d/\-～~ ]+[）)]\s*$", "", s)
+    s = re.sub(r"\s*\d{4}/\d{2}/\d{2}\s*[（(][^）)]*[）)]$", "", s)
+    s = re.sub(r"\s*-\s*\d{4}\s*年.*$", "", s)
+    s = re.sub(r"(將於|將在|於).{0,30}(舉辦|舉行|開幕|開始)[！!。]*$", "", s)
+    s = re.sub(r"[！!。]+$", "", s).strip()
+    s = re.sub(r"(即將)?(舉辦|舉行)$|訊息$", "", s).strip()
+    if len(s) > 24:
+        q = re.findall(r"[「『“\"]([^」』”\"]{6,30})[」』”\"]", s)
+        if q:
+            s = max(q, key=len)
+    if len(s) > 26:
+        parts = re.split(r"(?<=[%s])\s+(?=[%s])|\s+[～~—\-]\s*|～" % (CJK, CJK), s)
+        if parts and len(parts[0]) >= 6:
+            s = parts[0]
+    s = s.strip(" 　～~-—·・:：")
+    return s if len(s) >= 3 else t
+
+
 def apply_translations(events, cache):
     for e in events:
         if e["source"] == "today_is":
@@ -517,6 +551,10 @@ def apply_translations(events, cache):
         # 「關於「X」的通知」這種公告標題只留活動名
         if e.get("name_zh"):
             e["name_zh"] = re.sub(r"^關於「(.+)」的?(通知|公告|資訊)$", r"\1", e["name_zh"])
+            short = short_title(e["name_zh"])
+            if short != e["name_zh"]:
+                e.setdefault("name_zh_full", e["name_zh"])  # Sona 資訊庫看得到完整譯名
+                e["name_zh"] = short
         for field in TRANSLATE_FIELDS:
             ja = e.get(field) or ""
             if not has_kana(ja):

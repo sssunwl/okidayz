@@ -271,3 +271,21 @@ footer{padding:64px 0 48px}
 .os-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto}
 .os-tags span{font-size:.7rem;font-weight:800;padding:1px 8px;border:1.5px dashed var(--pen-soft);border-radius:999px}
 .table-wrap{overflow:visible}.table-wrap table{min-width:0}
+
+/* 首頁年曆:沒圖的預覽改單欄、標題太長不爆、「這天全部」連結 */
+.hc-preview.no-img{grid-template-columns:minmax(0,1fr)}
+.hc-item span{overflow-wrap:anywhere}
+.hc-day-head{flex-wrap:wrap}
+.hc-all{margin-left:auto;font-size:.8rem;font-weight:900;color:var(--tile);text-decoration:none}
+.hc-list{scroll-padding-top:0}
+.hc-list{max-height:none;overflow:visible}.hc-item:focus-visible{outline:2px dashed var(--tile);outline-offset:2px}
+.os-card{overflow:hidden}
+.os-photo{position:relative;margin:-16px -16px 4px;aspect-ratio:16/10;background:var(--paper)}
+.os-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.os-photo-empty{background-color:var(--foam, #d8f1f4);background-image:var(--hatch-sea)}
+.os-photo figcaption{position:absolute;right:6px;bottom:5px;max-width:90%}
+.os-photo figcaption a{display:block;font-size:.58rem;line-height:1.3;color:#fff;background:rgba(47,36,32,.55);padding:1px 6px;border-radius:4px;text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.os-map{align-self:flex-start;font-size:.82rem;font-weight:900;color:var(--tile);text-decoration:none;border-bottom:2px dashed var(--tile)}
+
+/* 手寫感中文短句(霞鶩文楷,只載入用到的字) */
+.hero-hand-note,.footer-hand,.os-map-note{font-family:"Caveat","LXGW WenKai TC",var(--hand);font-weight:700;letter-spacing:.02em}

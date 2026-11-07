@@ -21,9 +21,23 @@
   function iso(d) {
     return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
   }
+  // 首頁只放遊客會有興趣的：當天開始的、祭典市集花火這類；長期展覽、比賽、講座留給年曆頁
+  var LIKE = /祭|節|花火|煙火|燈|光|音樂|演唱|爵士|Jazz|JAZZ|Fes|fes|市集|マルシェ|市場|美食|啤酒|BBQ|海|沙灘|水族館|首里城|琉球|舞|太鼓|三線|エイサー|聖誕|跨年|新年|夜|馬拉松|親子|兒童|新開張|開幕|開業|限定|聯名|派對/;
+  var MEH = /紀念展|作品展|特展|展覽|美術展|陶藝展|錦標賽|高爾夫|駕訓|比賽|大會|攝影展|畫展|水彩|書法|書道|會員|校友|研討|講座|說明會|招募|募集|相談|研修|課程|考試/;
+  function span(e) { return (Date.parse(e.date_end || e.date_start) - Date.parse(e.date_start)) / 864e5; }
+  function score(e, day) {
+    var t = name(e) + ' ' + (e.category || '');
+    return (e.date_start === day ? 3 : 0) + (LIKE.test(t) ? 2 : 0) - (MEH.test(t) ? 3 : 0) -
+      (e.date_start !== day && span(e) > 14 ? 2 : 0);
+  }
+  function all(day) {
+    return EVENTS.filter(function (e) { return e.date_start <= day && (e.date_end || e.date_start) >= day; });
+  }
   function on(day) {
-    return EVENTS.filter(function (e) { return e.date_start <= day && (e.date_end || e.date_start) >= day; })
-      .sort(function (a, b) { return (b.date_start === day) - (a.date_start === day) || a.date_start.localeCompare(b.date_start); });
+    return all(day).map(function (e) { return { e: e, s: score(e, day) }; })
+      .filter(function (x) { return x.s >= 0; })
+      .sort(function (a, b) { return b.s - a.s || a.e.date_start.localeCompare(b.e.date_start); })
+      .slice(0, 8).map(function (x) { return x.e; });
   }
   function name(e) { return e.name_zh || e.name || '未命名活動'; }
 
@@ -45,8 +59,10 @@
 
   function drawList() {
     var items = on(selected);
-    head.innerHTML = escapeHTML(fmtDate(selected)) + '<small>' + items.length + ' 個活動</small>';
-    if (!items.length) { list.innerHTML = '<li class="hc-empty">這天還沒有整理到活動，換一天看看。</li>'; return; }
+    var total = all(selected).length;
+    head.innerHTML = escapeHTML(fmtDate(selected)) + '<small>精選 ' + items.length + ' 個</small>' +
+      (total ? '<a class="hc-all" href="' + eventsHref + '?date=' + selected + '">這天全部 ' + total + ' 個 →</a>' : '');
+    if (!items.length) { list.innerHTML = '<li class="hc-empty">這天沒有特別推薦的活動，看看全部活動或換一天。</li>'; return; }
     list.innerHTML = items.map(function (e, i) {
       var start = e.date_start === selected ? '<span class="hc-new">開始</span>' : '';
       return '<li><button type="button" class="hc-item" data-i="' + i + '" aria-expanded="false">' + start +
@@ -73,7 +89,11 @@
     var item = ev.target.closest('.hc-item');
     if (item) {
       var pane = item.nextElementSibling, open = item.getAttribute('aria-expanded') === 'true';
-      if (!open && !pane.innerHTML) pane.innerHTML = preview(list._items[Number(item.dataset.i)]);
+      if (!open && !pane.innerHTML) {
+        var ev0 = list._items[Number(item.dataset.i)];
+        pane.innerHTML = preview(ev0);
+        pane.classList.toggle('no-img', !safeURL(ev0.image));
+      }
       item.setAttribute('aria-expanded', String(!open));
       item.querySelector('em').textContent = open ? '＋' : '－';
       pane.hidden = open;
