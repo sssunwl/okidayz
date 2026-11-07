@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T17:07:18+09:00",
+  "generated_at": "2026-11-07T11:03:03+09:00",
   "items": [
     {
       "id": "event-8570e23d",
@@ -53,7 +53,7 @@
       "id": "event-6a348751",
       "kind": "event",
       "title": "東崎初見日出",
-      "summary": "与那国島の東端にある岬、東崎（あがりざき）では、日本で一番遅い初日の出を楽しめます。水平線から昇る太陽を望めるスポットとして知られ、晴れた日には、東に西表島を見ることがで...",
+      "summary": "在與那國島東端的上崎岬，您可以欣賞到日本最晚的日出。這裡以可以看到太陽從地平線升起而聞名，天氣晴朗時還可以看到東邊的西表島…",
       "source": "jalan",
       "url": "https://www.jalan.net/event/evt_366166/",
       "date": "2027-01-01",
@@ -338,6 +338,22 @@
       "first_seen": null
     },
     {
+      "id": "event-5d00babb",
+      "kind": "event",
+      "title": "讀谷山燒北窯陶器市場",
+      "summary": "每年 12 月中旬，讀著穀八門之裡都會舉辦一年一度的陶器市集。深受陶瓷愛好者歡迎的讀谷山燒北伽，將由製造商直接出售。這裡擠滿了很多人，包括當地人和遊客...",
+      "source": "jalan",
+      "url": "https://www.jalan.net/event/evt_366183/",
+      "date": "2026-12-12",
+      "date_end": "2026-12-13",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-07"
+    },
+    {
       "id": "event-9259e692",
       "kind": "event",
       "title": "第4屆黃金路線沖繩美麗海超級健行2026",
@@ -482,6 +498,22 @@
       "first_seen": null
     },
     {
+      "id": "event-4185404d",
+      "kind": "event",
+      "title": "江島町Panja節（產業節/鄉村文化節）",
+      "summary": "「伊島中Panja節」將作為工業節和伊江村文化節的聯合活動舉行。在伊江村農村環境整治中心，將會有農產品和手工藝品的展示，還有村莊圈子…",
+      "source": "jalan",
+      "url": "https://www.jalan.net/event/evt_366175/",
+      "date": "2026-12-06",
+      "date_end": "2026-12-06",
+      "area": "北部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false,
+      "first_seen": "2026-11-07"
+    },
+    {
       "id": "event-a3e656fc",
       "kind": "event",
       "title": "利亞馬爾凱",
@@ -512,6 +544,22 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
+    },
+    {
+      "id": "event-104814cf",
+      "kind": "event",
+      "title": "第 2 屆 Okinawa Cellular 體育 GOMI",
+      "summary": "スポGOMIとは、チームで力を合わせて、制限時間内に決められたエリアのごみを拾い、ごみの種類や量などをポイント化して競い合う、スポーツ感覚のごみ拾いです。楽しみながら街や海をきれいにし、環境美化について考えるきっかけにもつながります。…",
+      "source": "okimeguri",
+      "url": "https://okinawa-navi.jp/event/2nd-spogomi-by-okinawa-cellular/",
+      "date": "2026-12-05",
+      "date_end": "2026-12-05",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-07"
     },
     {
       "id": "event-747be041",
@@ -560,6 +608,22 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
+    },
+    {
+      "id": "event-f40d60cd",
+      "kind": "event",
+      "title": "【沖縄美ら海水族館】気仙沼市×沖縄美ら海水族館 共催イベント「ホヤぼーや 全国ステージキャラバンin 沖縄美ら海水族館」を12月5日(土)6日(日)に開催",
+      "summary": "[沖繩美麗海水族館] 氣仙沼市×沖繩美麗海水族館聯合活動「Hoya Boya National Stage Caravan in 沖繩美麗水族箱」將於12月5日（週六）、6日（週日）舉辦",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000241.000024500.html",
+      "date": "2026-12-05",
+      "date_end": "2026-12-05",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-07"
     },
     {
       "id": "event-14d02167",
@@ -786,6 +850,22 @@
       "first_seen": null
     },
     {
+      "id": "event-0d4314a1",
+      "kind": "event",
+      "title": "木育キャラバン INなは 2026",
+      "summary": "",
+      "source": "naha",
+      "url": "https://www.city.naha.okinawa.jp/child/child-event/1008231/1012048.html",
+      "date": "2026-11-28",
+      "date_end": "2026-11-28",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-07"
+    },
+    {
       "id": "event-d74f1770",
       "kind": "event",
       "title": "受保護貓咖啡館瑜珈活動",
@@ -800,6 +880,22 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
+    },
+    {
+      "id": "event-feaa3b0c",
+      "kind": "event",
+      "title": "【(一財)沖縄美ら島財団】11月28日(土)29日(日)小中学生向けイベント開催!「さがそう!わくわくのタネ~あなたの好奇心の花を咲かせます~」~in海洋博公園",
+      "summary": "[沖繩美麗島財團] 中小學生的活動將於11月28日（週六）、29日（週日）舉辦！ 「來搜尋吧！令人興奮的種子～讓你的好奇心綻放～」～海洋博公園",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000243.000024500.html",
+      "date": "2026-11-28",
+      "date_end": "2026-11-28",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-07"
     },
     {
       "id": "event-9ef2757a",
@@ -949,7 +1045,7 @@
       "id": "event-4de4fe25",
       "kind": "event",
       "title": "第2屆沖繩蕎麥麵大獎賽",
-      "summary": "タイトル第2回沖縄そばグランプuri\n\n日期：2026 年 11 月 22 日（週日和 23 日假日）晚上 11:00 開始銷售發售於16:00結束，23日頒獎典禮將於17:00開始，根據沖繩兒童國家公園閉園時間。\n\n地點 沖繩兒童國家水…",
+      "summary": "第2屆沖繩蕎麥麵大uri\n\n日期：2026年11月22日（平日、第23天休息）上午11:00開始，16:00開始集會，23日下午5:00開始，在根主沖繩兒童國立公園結束。\n\n地點 沖繩兒童之家水綠廣場\n沖繩縣沖繩市戈野町\n\n入場費：兒童國…",
       "source": "okinawastory",
       "url": "https://www.instagram.com/okinawasobagp/",
       "date": "2026-11-22",
@@ -1013,7 +1109,7 @@
       "id": "event-1a6ead1d",
       "kind": "event",
       "title": "太極氣功螺旋棒全國交流會",
-      "summary": "全国から、太極螺旋棒を習った方、またこれから体験したい方の集まりです。健康に興味を持って方、誰でも参加出来ます。太極拳の交流など、気功、螺旋棒、太極拳、瞑想の愛好者との交流致します。",
+      "summary": "這是來自全國各地學習太極羅森坊和想嘗試太極羅森坊的人們的聚會。任何對健康有興趣的人都可以參加。我們會和氣功、螺旋棒、太極拳、冥想愛好者互動，包括太極拳交流。",
       "source": "okimeguri",
       "url": "http://onseisho.com",
       "date": "2026-11-22",
@@ -1024,6 +1120,22 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
+    },
+    {
+      "id": "event-a2e50232",
+      "kind": "event",
+      "title": "なはワンニャンDay",
+      "summary": "動物撫摸活動 獸醫關於動物的講座 小組展覽 親子問答角",
+      "source": "naha",
+      "url": "https://www.city.naha.okinawa.jp/kurasitetuduki/animal/1002272/1008638.html",
+      "date": "2026-11-22",
+      "date_end": "2026-11-22",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-07"
     },
     {
       "id": "event-ca8e92fb",
@@ -1538,6 +1650,22 @@
       "first_seen": null
     },
     {
+      "id": "event-e632bc96",
+      "kind": "event",
+      "title": "首里城正殿完成を記念し、「SAKE COMPETITION 2026 泡盛部門」首里城授賞式&パーティーを11月14日に開催",
+      "summary": "為紀念首里城正殿竣工，將於11月14日舉辦「SAKE COMPETITION 2026泡盛部門」首里城頒獎典禮暨派對。",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000003.000193918.html",
+      "date": "2026-11-14",
+      "date_end": "2026-11-14",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": true,
+      "first_seen": "2026-11-07"
+    },
+    {
       "id": "event-f65c4215",
       "kind": "event",
       "title": "第四島清酒馬爾凱",
@@ -1938,6 +2066,22 @@
       "first_seen": null
     },
     {
+      "id": "event-e48e0abd",
+      "kind": "event",
+      "title": "【沖縄県限定】「県産きのこ」のおむすびやパスタ全4品が登場!『食育×地域 応援フェア』を11月10日(火)から開催!",
+      "summary": "【沖縄県限定】「県産きのこ」のおむすびやパスタ全4品が登場!『食育×地域 応援フェア』を11月10日(火)から開催!",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000001336.000155396.html",
+      "date": "2026-11-10",
+      "date_end": "2026-11-10",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false,
+      "first_seen": "2026-11-07"
+    },
+    {
       "id": "event-e491207e",
       "kind": "event",
       "title": "2026年11月10日第一屆數位相機圈若竹攝影展",
@@ -2231,7 +2375,7 @@
       "title": "歡迎回到首里城",
       "summary": "於 2026 年 11 月 8 日星期日舉行 祝首里城擁有“歡迎回來”的喜悅以及我們酒店“家”的喜悅。為紀念新首里社區中心重新開放而舉辦的兩小時特別活動。紀念演出：田淵愛子女士（琉球古典音樂安風祖流源生會講師）及社區中心\n歡迎回到首里城的…",
       "source": "goyah",
-      "url": "https://goyah.net/okinawa_event/archives/9745",
+      "url": "https://www.city.naha.okinawa.jp/kurasitetuduki/sankaku-kyoudou/1002706/1004745/1004833/1007488/1012609.html",
       "date": "2026-11-08",
       "date_end": "2026-11-08",
       "area": "全島",
@@ -2320,6 +2464,21 @@
       "local_life": true,
       "vibe": false,
       "first_seen": null
+    },
+    {
+      "id": "weather-45904e1d",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週六多雲、週日有雨、週一有雨、週二有雨、週三有雨、週四多雲、週五多雲；氣溫約 21～27°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-11-07",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
     },
     {
       "id": "event-2fbd197b",
@@ -2594,6 +2753,22 @@
       "first_seen": null
     },
     {
+      "id": "event-f9a0de02",
+      "kind": "event",
+      "title": "沖縄にプレミアムベビー用品ブランド「Nuna」の世界観を体感できる新店舗が誕生",
+      "summary": "沖繩新店開業，體驗高級嬰兒用品品牌「Nuna」的世界",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000034.000142562.html",
+      "date": "2026-11-07",
+      "date_end": "2026-12-07",
+      "area": "全島",
+      "category": "新開張",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-07"
+    },
+    {
       "id": "event-72e770c9",
       "kind": "event",
       "title": "宇流麻萬聖節角色扮演節 2026",
@@ -2656,6 +2831,22 @@
       "local_life": false,
       "vibe": true,
       "first_seen": null
+    },
+    {
+      "id": "event-7075c659",
+      "kind": "event",
+      "title": "【中央図書館】11月のおはなし会",
+      "summary": "故事志工說故事",
+      "source": "naha",
+      "url": "https://www.city.naha.okinawa.jp/lib/n-ohanasi/1006711.html",
+      "date": "2026-11-07",
+      "date_end": "2026-11-22",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-07"
     },
     {
       "id": "event-1bafafa7",
@@ -2850,6 +3041,22 @@
       "first_seen": null
     },
     {
+      "id": "event-b3b390c5",
+      "kind": "event",
+      "title": "11/6(金)ヘルスサポート ブランド KINDCARE (カインドケア)沖縄アウトレットモール あしびなーにグランドオープン",
+      "summary": "11/6（星期五）健康支援品牌KINDCARE沖繩Outlet Mall Ashibinaani盛大開幕",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000104.000020961.html",
+      "date": "2026-11-07",
+      "date_end": "2026-12-07",
+      "area": "全島",
+      "category": "新開張",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-07"
+    },
+    {
       "id": "event-6d2e9f5e",
       "kind": "event",
       "title": "11.7 地風迴響我是我的朋友2026",
@@ -2864,21 +3071,6 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
-    },
-    {
-      "id": "weather-e5d8faec",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週五有雨、週六多雲、週日有雨、週一有雨、週二有雨、週三有雨、週四有雨；氣溫約 21～27°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-11-06",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
-      "local_life": false,
-      "vibe": false
     },
     {
       "id": "news-efc031db",
@@ -4390,7 +4582,7 @@
       "kind": "event",
       "title": "海邊Yachimun City",
       "summary": "海邊Yachimun市集是以沖繩工藝品Yachimun陶器為主題的活動。在此期間的周六和周日，活躍在沖繩島的36家工坊將舉辦直銷活動，您可以享受每日展覽，從70多家工坊中找到您最喜歡的作品。一邊享受咖啡廳的時光，一邊看、聽、買、吃，了解Y…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://banta-cafe.com/topics/4255/",
       "date": "2026-10-31",
       "date_end": "2026-11-23",
@@ -4399,14 +4591,14 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-07"
     },
     {
       "id": "event-532ce6d6",
       "kind": "event",
       "title": "座間味島粉絲感謝月",
-      "summary": "這是座間味島粉絲感謝月的通知。\n\n島民藝術表演 座間味村歷史文化健康振興中心\n10 月 31 日星期六\n11 月 7 日星期六\n11 月 14 日，星期六\n11 月 21 日星期六",
-      "source": "okinawastory",
+      "summary": "座間味島粉絲感謝月的相關資訊。\n\n島民藝術表演 座間味村歷史文化健康振興中心\n10 月 31 日星期六\n11 月 7 日星期六\n11 月 14 日，星期六\n11 月 21 日星期六",
+      "source": "okimeguri",
       "url": "https://www.vill.zamami.okinawa.jp/article/1793174923/",
       "date": "2026-10-31",
       "date_end": "2026-11-21",
@@ -4415,23 +4607,7 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": null
-    },
-    {
-      "id": "event-37078eb9",
-      "kind": "event",
-      "title": "2026 沖繩空手道學院",
-      "summary": "",
-      "source": "okinawastory",
-      "url": "https://karatekaikan.jp/blogs/news/%E4%BB%A4%E5%92%8C8%E5%B9%B4%E5%BA%A6-%E6%B2%96%E7%B8%84%E7%A9%BA%E6%89%8B%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC%E9%96%8B%E5%82%AC%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
-      "date": "2026-10-31",
-      "date_end": "2027-01-23",
-      "area": "南部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-07"
     },
     {
       "id": "event-bc7b52b0",
@@ -4459,22 +4635,6 @@
       "date": "2026-10-23",
       "date_end": "2027-05-23",
       "area": "中部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": null
-    },
-    {
-      "id": "event-ae2aa03c",
-      "kind": "event",
-      "title": "1975年100週年特別展覽第1部分",
-      "summary": "為了配合昭和100週年，本部將舉辦紀念昭和1970週年的特別展覽，回顧迄今的發掘工作。\n\n八重山有著與沖繩本島不同的自己的歷史。\n\n主要內容包括發現了距今約27,000年前的白寶山根田原洞窟遺址、透過大田原遺址確認了早稻田年代的倒轉、以及…",
-      "source": "okimeguri",
-      "url": "https://www.city.ishigaki.okinawa.jp/soshiki/bunkazaisisihennsyuka/bunakazaikinanbutu1/event/9802.html",
-      "date": "2026-10-23",
-      "date_end": "2026-11-06",
-      "area": "離島",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
