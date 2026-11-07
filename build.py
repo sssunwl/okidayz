@@ -572,6 +572,8 @@ def event_source_name(event):
         return "じゃらんnet"
     if source == "goyah":
         return "ごーやーどっとネット"
+    if source in ("naha", "pref", "prtimes"):
+        return {"naha": "那覇市役所", "pref": "沖縄縣廳", "prtimes": "PR TIMES"}[source]
     return source or "原始來源"
 
 
@@ -908,6 +910,68 @@ def condition_tabs_html(spots):
     )
     return '<div class="cond-tabs" data-cond-tabs>{}</div>'.format(tabs)
 
+
+
+OCEAN_KINDS = (("beach", "沙灘", "🏖️"), ("dive", "潛水", "🤿"), ("surf", "衝浪", "🏄"))
+OCEAN_REGIONS = ("北部", "中部", "南部", "離島")
+
+
+def ocean_spots_html():
+    """海況頁的「沖繩海邊點位」：沙灘／潛水／衝浪三分頁，依北中南離島分組。
+    資料在 data/ocean_spots.json；地圖之後再做，先放點位介紹。"""
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "ocean_spots.json")
+    try:
+        with open(path, encoding="utf-8") as f:
+            spots = json.load(f).get("spots") or []
+    except (OSError, ValueError):
+        return ""
+    if not spots:
+        return ""
+    tabs = "".join(
+        '<button type="button" class="os-tab{on}" data-os-kind="{k}">{icon} {label}<small>{n}</small></button>'.format(
+            on=" on" if i == 0 else "", k=k, icon=icon, label=label,
+            n=sum(1 for x in spots if x.get("kind") == k))
+        for i, (k, label, icon) in enumerate(OCEAN_KINDS))
+    groups = []
+    for kind, label, _ in OCEAN_KINDS:
+        for region in OCEAN_REGIONS:
+            items = [x for x in spots if x.get("kind") == kind and x.get("region") == region]
+            if not items:
+                continue
+            cards = "".join(
+                '<article class="os-card">'
+                '<div class="os-head"><h4>{name}</h4><span class="os-level">{level}</span></div>'
+                '<p class="os-ja">{ja}・{area}</p>'
+                '<p class="os-feature">{feature}</p>'
+                '<dl class="os-facts"><dt>季節</dt><dd>{season}</dd>{type_row}</dl>'
+                '<p class="os-tip"><b>注意</b>{tip}</p>'
+                '<div class="os-tags">{tags}</div>'
+                '</article>'.format(
+                    name=html.escape(x.get("name", "")), level=html.escape(x.get("level", "")),
+                    ja=html.escape(x.get("ja", "")), area=html.escape(x.get("area", "")),
+                    feature=html.escape(x.get("feature", "")), season=html.escape(x.get("season", "")),
+                    type_row='<dt>方式</dt><dd>{}</dd>'.format(html.escape(x["type"])) if x.get("type") else "",
+                    tip=html.escape(x.get("tip", "")),
+                    tags="".join('<span>{}</span>'.format(html.escape(t)) for t in x.get("tags") or []),
+                ) for x in items)
+            groups.append(
+                '<div class="os-group" data-os-group="{kind}"{hidden}><h3 class="os-region">{region}<small>{n} 個點</small></h3>'
+                '<div class="os-grid">{cards}</div></div>'.format(
+                    kind=kind, hidden="" if kind == OCEAN_KINDS[0][0] else " hidden",
+                    region=html.escape(region), n=len(items), cards=cards))
+    return (
+        '<section class="ocean-spots" id="spots"><div class="shell">'
+        '<div class="section-head"><div><div class="eyebrow">Beach・Dive・Surf</div>'
+        '<h2>沖繩的海，<br>先挑一個去處。</h2></div>'
+        '<p class="os-map-note">地圖整理中，先看點位介紹 ✎</p></div>'
+        '<div class="os-tabs" role="tablist">{tabs}</div>{groups}'
+        '<p class="section-tail">游泳期間（多半是 4–10 月）有救生員的海灘最安全。潛水、衝浪點的細節海況請看 '
+        '<a href="https://sssunwl.github.io/diveinout/" target="_blank" rel="noopener">DiveInOut ↗</a>。</p>'
+        '</div></section>'
+        '<script>document.addEventListener("click",function(e){{var b=e.target.closest("[data-os-kind]");if(!b)return;'
+        'document.querySelectorAll("[data-os-kind]").forEach(function(x){{x.classList.toggle("on",x===b)}});'
+        'document.querySelectorAll("[data-os-group]").forEach(function(g){{g.hidden=g.dataset.osGroup!==b.dataset.osKind}})}});</script>'
+    ).format(tabs=tabs, groups="".join(groups))
 
 def ocean_conditions_html(conditions, note_label="地形要注意", heading="", eyebrow="Live Conditions",
                            section_id="live-conditions", section_class="ocean-conditions"):
@@ -1494,7 +1558,7 @@ def build_site(events=None, weather=None, updated=None):
         if key == "ocean":
             dive_spots = (ocean_conditions or {}).get("spots") or []
             surf_spots = (surf_conditions or {}).get("spots") or []
-            extra_block = ocean_conditions_html(
+            extra_block = ocean_spots_html() + ocean_conditions_html(
                 ocean_conditions,
                 note_label="潛水要注意",
                 heading="{}個熱門岸潛點，即時海況。".format(cn_num(len(dive_spots))),

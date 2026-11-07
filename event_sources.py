@@ -3,6 +3,8 @@
 - okimeguri:沖繩縣官方「おきめぐり」,走它前端用的公開 API(結構化、附主辦方官網)
 - jalan:じゃらんnet 沖繩活動列表(離島祭典、馬拉松、大型活動)
 - goyah:ごーやーどっとネット(在地社區活動,每天有新文章),走 WordPress REST API
+- naha / pref:那霸市、沖繩縣官網活動行事曆(/event.js),只收一般活動
+- prtimes:PR TIMES 新聞稿(新開張、聯名、限定活動),標題要有沖繩地名
 
 任何一個來源失敗都只回傳空清單,不影響其他來源。
 """
@@ -329,6 +331,130 @@ def get_goyah_events(now=None, pages=2):
     events = [e for e in events if e["name"] and e["url"] and not _NOT_EVENT.search(e["name"])]
     print(f"✅ goyah: {len(events)} 筆")
     return events
+
+
+# ── 那霸市／沖繩縣官網的活動行事曆(同一套 CMS,資料在 /event.js) ───────────
+
+# 公所行事曆一大半是講座、說明會、招募,旅客用不到
+_CIVIC_SKIP = re.compile(
+    r"募集|説明会|相談|研修|講座|学級|シンポジウム|セミナー|ワークショップ|会議|就職|就農|教室|"
+    r"受付終了|講演|養成|障がい|事業者|審議|入札|検診|健診|プログラム|ミーティング|お知らせ$")
+CIVIC_SITES = (
+    ("naha", "https://www.city.naha.okinawa.jp", "那覇市"),
+    ("pref", "https://www.pref.okinawa.lg.jp", ""),
+)
+
+
+def _civic_event_js(base):
+    res = requests.get(base + "/event.js", headers=HEADERS, timeout=25)
+    res.raise_for_status()
+    text = res.content.decode("utf-8", "replace")
+    start = text.index("events:") + len("events:")
+    events, _ = __import__("json").JSONDecoder().raw_decode(text[start:].lstrip())
+    return events
+
+
+def get_civic_events(now=None):
+    """category 10 = 一般活動。只收一般民眾/旅客能去的,而且期間不超過 45 天。"""
+    now = now or datetime.now()
+    out = []
+    for source, base, city in CIVIC_SITES:
+        try:
+            items = _civic_event_js(base)
+        except Exception as e:
+            print(f"⚠️ {source} 活動行事曆失敗：{e}")
+            continue
+        count = 0
+        for item in items:
+            title = unicodedata.normalize("NFKC", item.get("eventtitle", "")).strip()
+            if "10" not in (item.get("category") or []) or not title or _CIVIC_SKIP.search(title):
+                continue
+            days = sorted(d for d in item.get("opendays") or [] if re.match(r"\d{4}/\d{2}/\d{2}$", d))
+            if not days:
+                continue
+            start = datetime.strptime(days[0], "%Y/%m/%d")
+            end = datetime.strptime(days[-1], "%Y/%m/%d")
+            if (end - start).days > OKIMEGURI_MAX_SPAN_DAYS or not _in_window(start, end, now):
+                continue
+            place = (item.get("place2") or item.get("place") or "").strip()
+            if re.search(r"東京|大阪|名古屋|福岡|〒[0-8]", place):
+                continue  # 縣政府在縣外辦的展覽/說明會
+            out.append(_event(
+                re.sub(r"(の)?(開催)?(について|のお知らせ|のご案内|特設サイト)$", "", title).strip(), start, end,
+                _safe_url(base + item.get("url", "")), source,
+                location=(place or city)[:80],
+                description=_plain(item.get("description", ""))[:200],
+                official_url=_safe_url(base + item.get("url", "")),
+            ))
+            count += 1
+        print(f"✅ {source}: {count} 筆")
+    return out
+
+
+# ── PR TIMES(店家／品牌新聞稿：新開張、聯名、限定活動) ──────────────────
+
+PRTIMES_API = "https://prtimes.jp/api/keyword_search.php/search"
+# 標題裡要有沖繩的地名才算沖繩的消息(否則「沖縄物産展 in 東京」也會進來)
+_OKI_PLACE = re.compile(
+    r"沖縄|那覇|国際通り|首里|宮古|石垣|八重山|北谷|美浜|読谷|恩納|名護|本部|美ら海|海洋博|今帰仁|"
+    r"浦添|宜野湾|うるま|糸満|豊見城|南城|瀬長島|久米島|西表|竹富|やんばる|古宇利|慶良間|座間味")
+_PR_SKIP = re.compile(r"物産展|物産フェア|アンテナショップ|ふるさと納税|発着|ツアー|採用|求人|資金調達|"
+                      r"業務提携|協定|就航|運賃|セール|プレゼント|キャンペーン|カンファレンス|企業向け|研修|"
+                      r"東京|大阪|名古屋|福岡|鎌倉|横浜|京都|札幌|ソウル|台北|台湾|香港|韓国")
+_PR_EVENT = re.compile(r"開催|オープン|開業|誕生|新店舗|出店|期間限定|限定|フェア|フェス|イベント|コラボ|公開|開幕")
+_PR_DATE = re.compile(r"(?:(\d{4})年)?\s*(\d{1,2})月(\d{1,2})日")
+
+
+def get_prtimes_events(now=None, pages=3):
+    now = now or datetime.now()
+    out, seen = [], set()
+    for page in range(1, pages + 1):
+        try:
+            res = requests.get(PRTIMES_API, headers=HEADERS, timeout=25,
+                               params={"keyword": "沖縄", "page": page, "limit": 40})
+            res.raise_for_status()
+            items = (res.json().get("data") or {}).get("release_list") or []
+        except Exception as e:
+            print(f"⚠️ PR TIMES page {page} 失敗：{e}")
+            break
+        for item in items:
+            title = unicodedata.normalize("NFKC", item.get("title", "")).strip()
+            url = _safe_url("https://prtimes.jp" + (item.get("release_url") or ""))
+            if not url or url in seen or not _OKI_PLACE.search(title) or _PR_SKIP.search(title) \
+                    or not _PR_EVENT.search(title):
+                continue
+            seen.add(url)
+            dates = []
+            for y, m, d in _PR_DATE.findall(title):
+                year = int(y) if y else now.year
+                try:
+                    dt = datetime(year, int(m), int(d))
+                except ValueError:
+                    continue
+                if not y and dt < now - timedelta(days=60):
+                    dt = dt.replace(year=now.year + 1)
+                dates.append(dt)
+            opening = re.search(r"オープン|開業|誕生|新店舗|出店", title)
+            if not dates:
+                if not opening:
+                    continue
+                dates = [now]  # 新開張沒寫日期:當天上架,放一個月
+                dates.append(now + timedelta(days=30))
+            start, end = min(dates), max(dates)
+            if opening and end == start:
+                end = start + timedelta(days=30)
+            if not _in_window(start, end, now):
+                continue
+            out.append(_event(
+                title, start, end, url, "prtimes",
+                category="新開張" if opening else "",
+                description=title,
+                image=_safe_url((item.get("thumbnail_url") or "").split("?")[0]),
+                location=item.get("company_name", "")[:60],
+            ))
+        time.sleep(0.5)
+    print(f"✅ prtimes: {len(out)} 筆")
+    return out
 
 
 # ── 跨來源去重 ──────────────────────────────────────────────────────

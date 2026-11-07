@@ -9,6 +9,7 @@ import time
 from build import build_site
 from event_sources import (
     WINDOW_DAYS, get_okimeguri_events, get_jalan_events, get_goyah_events, dedupe_across_sources,
+    get_civic_events, get_prtimes_events,
 )
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
@@ -551,6 +552,7 @@ def stamp_first_seen(events, today):
 SOURCE_TAGS = {
     "visitokinawa": "VisitOkinawa", "okinawastory": "おきなわ物語", "okimeguri": "縣官方",
     "jalan": "じゃらん", "goyah": "ごーやー",
+    "naha": "那覇市", "pref": "沖縄縣", "prtimes": "PR TIMES",
 }
 
 
@@ -753,9 +755,11 @@ def main():
         get_okimeguri_events(now),
         get_jalan_events(now),
         get_goyah_events(now),
+        get_civic_events(now),
+        get_prtimes_events(now),
     ])
     # merge() 會依日期排序;去重時要讓舊來源(已有中文與詳情)排前面
-    source_rank = {s: i for i, s in enumerate(["visitokinawa", "okinawastory", "okimeguri", "jalan", "goyah"])}
+    source_rank = {s: i for i, s in enumerate(["visitokinawa", "okinawastory", "okimeguri", "jalan", "goyah", "pref", "naha", "prtimes"])}
     raw_scraped.sort(key=lambda e: source_rank.get(e["source"], 99))
     scraped = dedupe_across_sources(raw_scraped)
     scraped.sort(key=lambda e: e["date_start"])
