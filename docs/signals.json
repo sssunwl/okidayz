@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T11:03:03+09:00",
+  "generated_at": "2026-11-07T11:05:03+09:00",
   "items": [
     {
       "id": "event-8570e23d",
@@ -549,7 +549,7 @@
       "id": "event-104814cf",
       "kind": "event",
       "title": "第 2 屆 Okinawa Cellular 體育 GOMI",
-      "summary": "スポGOMIとは、チームで力を合わせて、制限時間内に決められたエリアのごみを拾い、ごみの種類や量などをポイント化して競い合う、スポーツ感覚のごみ拾いです。楽しみながら街や海をきれいにし、環境美化について考えるきっかけにもつながります。…",
+      "summary": "SPOGOMI是一項類似於運動的垃圾撿拾活動，團隊在規定的時間內在指定區域撿起垃圾，並根據垃圾的類型和數量進行得分比賽。在玩樂的同時，你可以清理城市和海洋，也給你一個思考環境美化的機會。\n 此外，這次我們還將同時舉辦智慧型手機課程。這是一…",
       "source": "okimeguri",
       "url": "https://okinawa-navi.jp/event/2nd-spogomi-by-okinawa-cellular/",
       "date": "2026-12-05",
@@ -612,7 +612,7 @@
     {
       "id": "event-f40d60cd",
       "kind": "event",
-      "title": "【沖縄美ら海水族館】気仙沼市×沖縄美ら海水族館 共催イベント「ホヤぼーや 全国ステージキャラバンin 沖縄美ら海水族館」を12月5日(土)6日(日)に開催",
+      "title": "[沖繩美麗海水族館] 氣仙沼市×沖繩美麗海水族館聯合活動「Hoya Boya National Stage Caravan in 沖繩美麗水族箱」將於12月5日（週六）、6日（週日）舉辦",
       "summary": "[沖繩美麗海水族館] 氣仙沼市×沖繩美麗海水族館聯合活動「Hoya Boya National Stage Caravan in 沖繩美麗水族箱」將於12月5日（週六）、6日（週日）舉辦",
       "source": "prtimes",
       "url": "https://prtimes.jp/main/html/rd/p/000000241.000024500.html",
@@ -818,6 +818,22 @@
       "first_seen": null
     },
     {
+      "id": "event-0d4314a1",
+      "kind": "event",
+      "title": "那霸樹木教育大篷車 2026",
+      "summary": "",
+      "source": "naha",
+      "url": "https://www.city.naha.okinawa.jp/child/child-event/1008231/1012048.html",
+      "date": "2026-11-28",
+      "date_end": "2026-11-28",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-07"
+    },
+    {
       "id": "event-ba2e966f",
       "kind": "event",
       "title": "迪士尼經典 ~ 魔術之夜音樂會 2026",
@@ -850,22 +866,6 @@
       "first_seen": null
     },
     {
-      "id": "event-0d4314a1",
-      "kind": "event",
-      "title": "木育キャラバン INなは 2026",
-      "summary": "",
-      "source": "naha",
-      "url": "https://www.city.naha.okinawa.jp/child/child-event/1008231/1012048.html",
-      "date": "2026-11-28",
-      "date_end": "2026-11-28",
-      "area": "那霸",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-07"
-    },
-    {
       "id": "event-d74f1770",
       "kind": "event",
       "title": "受保護貓咖啡館瑜珈活動",
@@ -884,7 +884,7 @@
     {
       "id": "event-feaa3b0c",
       "kind": "event",
-      "title": "【(一財)沖縄美ら島財団】11月28日(土)29日(日)小中学生向けイベント開催!「さがそう!わくわくのタネ~あなたの好奇心の花を咲かせます~」~in海洋博公園",
+      "title": "[沖繩美麗島財團] 中小學生的活動將於11月28日（週六）、29日（週日）舉辦！ 「來尋找吧！令人興奮的種子～讓你的好奇心綻放～」～海洋博公園",
       "summary": "[沖繩美麗島財團] 中小學生的活動將於11月28日（週六）、29日（週日）舉辦！ 「來搜尋吧！令人興奮的種子～讓你的好奇心綻放～」～海洋博公園",
       "source": "prtimes",
       "url": "https://prtimes.jp/main/html/rd/p/000000243.000024500.html",
@@ -1026,6 +1026,22 @@
       "first_seen": null
     },
     {
+      "id": "event-a2e50232",
+      "kind": "event",
+      "title": "那霸一年日",
+      "summary": "動物撫摸活動 獸醫關於動物的講座 小組展覽 親子問答角",
+      "source": "naha",
+      "url": "https://www.city.naha.okinawa.jp/kurasitetuduki/animal/1002272/1008638.html",
+      "date": "2026-11-22",
+      "date_end": "2026-11-22",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-07"
+    },
+    {
       "id": "event-db369115",
       "kind": "event",
       "title": "節日 節日 西表島",
@@ -1120,22 +1136,6 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
-    },
-    {
-      "id": "event-a2e50232",
-      "kind": "event",
-      "title": "なはワンニャンDay",
-      "summary": "動物撫摸活動 獸醫關於動物的講座 小組展覽 親子問答角",
-      "source": "naha",
-      "url": "https://www.city.naha.okinawa.jp/kurasitetuduki/animal/1002272/1008638.html",
-      "date": "2026-11-22",
-      "date_end": "2026-11-22",
-      "area": "那霸",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-07"
     },
     {
       "id": "event-ca8e92fb",
@@ -1650,22 +1650,6 @@
       "first_seen": null
     },
     {
-      "id": "event-e632bc96",
-      "kind": "event",
-      "title": "首里城正殿完成を記念し、「SAKE COMPETITION 2026 泡盛部門」首里城授賞式&パーティーを11月14日に開催",
-      "summary": "為紀念首里城正殿竣工，將於11月14日舉辦「SAKE COMPETITION 2026泡盛部門」首里城頒獎典禮暨派對。",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000003.000193918.html",
-      "date": "2026-11-14",
-      "date_end": "2026-11-14",
-      "area": "全島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": true,
-      "first_seen": "2026-11-07"
-    },
-    {
       "id": "event-f65c4215",
       "kind": "event",
       "title": "第四島清酒馬爾凱",
@@ -1792,6 +1776,22 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
+    },
+    {
+      "id": "event-e632bc96",
+      "kind": "event",
+      "title": "為紀念首里城正殿竣工，將於11月14日舉辦「SAKE COMPETITION 2026泡盛部門」首里城頒獎典禮暨派對。",
+      "summary": "為紀念首里城正殿竣工，將於11月14日舉辦「SAKE COMPETITION 2026泡盛部門」首里城頒獎典禮暨派對。",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000003.000193918.html",
+      "date": "2026-11-14",
+      "date_end": "2026-11-14",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": true,
+      "first_seen": "2026-11-07"
     },
     {
       "id": "event-64886983",
@@ -2068,8 +2068,8 @@
     {
       "id": "event-e48e0abd",
       "kind": "event",
-      "title": "【沖縄県限定】「県産きのこ」のおむすびやパスタ全4品が登場!『食育×地域 応援フェア』を11月10日(火)から開催!",
-      "summary": "【沖縄県限定】「県産きのこ」のおむすびやパスタ全4品が登場!『食育×地域 応援フェア』を11月10日(火)から開催!",
+      "title": "【沖繩縣限定】使用「縣產菇」製作的飯糰和義大利麵全4種現已上市！ 「食育×地域支援展」將於11月10日（週二）起舉辦！",
+      "summary": "【沖繩縣限定】使用「縣產菇」製作的飯糰和義大利麵全4種現已上市！ 「食育×地域支援展」將於11月10日（週二）起舉辦！",
       "source": "prtimes",
       "url": "https://prtimes.jp/main/html/rd/p/000001336.000155396.html",
       "date": "2026-11-10",
@@ -2737,6 +2737,22 @@
       "first_seen": null
     },
     {
+      "id": "event-f9a0de02",
+      "kind": "event",
+      "title": "沖繩新店開業，體驗高級嬰兒用品品牌「Nuna」的世界",
+      "summary": "沖繩新店開業，體驗高級嬰兒用品品牌「Nuna」的世界",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000034.000142562.html",
+      "date": "2026-11-07",
+      "date_end": "2026-12-07",
+      "area": "全島",
+      "category": "新開張",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-07"
+    },
+    {
       "id": "event-6dba7a0a",
       "kind": "event",
       "title": "沖繩探索馬爾凱",
@@ -2751,22 +2767,6 @@
       "local_life": true,
       "vibe": false,
       "first_seen": null
-    },
-    {
-      "id": "event-f9a0de02",
-      "kind": "event",
-      "title": "沖縄にプレミアムベビー用品ブランド「Nuna」の世界観を体感できる新店舗が誕生",
-      "summary": "沖繩新店開業，體驗高級嬰兒用品品牌「Nuna」的世界",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000034.000142562.html",
-      "date": "2026-11-07",
-      "date_end": "2026-12-07",
-      "area": "全島",
-      "category": "新開張",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-07"
     },
     {
       "id": "event-72e770c9",
@@ -3043,7 +3043,7 @@
     {
       "id": "event-b3b390c5",
       "kind": "event",
-      "title": "11/6(金)ヘルスサポート ブランド KINDCARE (カインドケア)沖縄アウトレットモール あしびなーにグランドオープン",
+      "title": "11/6（星期五）健康支援品牌KINDCARE沖繩Outlet Mall Ashibinaani盛大開幕",
       "summary": "11/6（星期五）健康支援品牌KINDCARE沖繩Outlet Mall Ashibinaani盛大開幕",
       "source": "prtimes",
       "url": "https://prtimes.jp/main/html/rd/p/000000104.000020961.html",
