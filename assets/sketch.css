@@ -289,3 +289,6 @@ footer{padding:64px 0 48px}
 
 /* 手寫感中文短句(霞鶩文楷,只載入用到的字) */
 .hero-hand-note,.footer-hand,.os-map-note{font-family:"Caveat","LXGW WenKai TC",var(--hand);font-weight:700;letter-spacing:.02em}
+/* 品牌手繪 emoji(assets/emoji.js 換上去的) */
+.oki-emoji{display:inline-block;width:1.15em;height:1.15em;vertical-align:-.2em;margin:0 .05em}
+.icon-btn .oki-emoji,.menu-btn .oki-emoji,.drawer-close .oki-emoji{width:1.35em;height:1.35em}

@@ -1,6 +1,146 @@
 [
   {
     "section": "guide",
+    "slug": "central-west-one-day",
+    "title": "中部西海岸一天：斷崖、陶器、外人住宅、美國村夕陽",
+    "url": "https://sssunwl.github.io/okidayz/guide/central-west-one-day/",
+    "cover": "中部西海岸，一路往南玩",
+    "slides": [
+      "路線：恩納 → 讀谷 → 浦添 → 北谷，越玩越靠近那霸",
+      "上午：萬座毛，早上人少、海最藍",
+      "中午：殘波岬，白色燈塔＋整排斷崖",
+      "下午：讀谷やちむんの里，陶器工房和登窯",
+      "傍晚前：港川外人住宅，一間一間的小咖啡店",
+      "晚上：美國村看夕陽，海堤上一排人一起等",
+      "提醒：週末美國村停車場下午就滿，早點到"
+    ],
+    "caption": "中部西海岸適合從北往南玩：早上在恩納看斷崖，晚上回北谷看夕陽。\n中間停讀谷的陶器村、浦添的外人住宅咖啡，一天剛好排滿。\n越玩越靠近那霸，最後回飯店的路也不會太累。",
+    "hashtags": [
+      "沖繩中部",
+      "北谷",
+      "美國村",
+      "讀谷",
+      "沖繩自駕"
+    ],
+    "images": [
+      "https://sssunwl.github.io/okidayz/assets/ig/central-west-one-day/01.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/central-west-one-day/02.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/central-west-one-day/03.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/central-west-one-day/04.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/central-west-one-day/05.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/central-west-one-day/06.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/central-west-one-day/07.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/central-west-one-day/08.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/central-west-one-day/09.jpg"
+    ]
+  },
+  {
+    "section": "guide",
+    "slug": "kerama-one-day",
+    "title": "慶良間一日來回：從那霸坐船去座間味",
+    "url": "https://sssunwl.github.io/okidayz/guide/kerama-one-day/",
+    "cover": "慶良間，一天來回也可以",
+    "slides": [
+      "從那霸泊港坐高速船，大約 50 分鐘到座間味",
+      "船票要先訂，夏天和連假很快沒位",
+      "古座間味海灘：島上最有名的那片藍",
+      "阿真海灘：運氣好在淺水區看得到海龜",
+      "展望台：租台電動腳踏車，騎上去看整片海",
+      "1–3 月：賞鯨季，座間味是出發地",
+      "提醒：風浪大會停航，出發前一天看船公司公告"
+    ],
+    "caption": "想看慶良間的海，不一定要住離島。\n早上從那霸泊港坐高速船，五十分鐘就到座間味，下午再坐船回來。\n島上沒有很多景點，游泳、看海龜、騎車上展望台，一天剛好。",
+    "hashtags": [
+      "慶良間",
+      "座間味",
+      "沖繩離島",
+      "沖繩浮潛",
+      "沖繩自由行"
+    ],
+    "images": [
+      "https://sssunwl.github.io/okidayz/assets/ig/kerama-one-day/01.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/kerama-one-day/02.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/kerama-one-day/03.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/kerama-one-day/04.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/kerama-one-day/05.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/kerama-one-day/06.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/kerama-one-day/07.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/kerama-one-day/08.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/kerama-one-day/09.jpg"
+    ]
+  },
+  {
+    "section": "guide",
+    "slug": "north-one-day",
+    "title": "北部一天：水族館、福木林道、城跡、古宇利島",
+    "url": "https://sssunwl.github.io/okidayz/guide/north-one-day/",
+    "cover": "北部一天，早起就賺到",
+    "slides": [
+      "從那霸開到本部：高速＋一般道路，大約 2 小時",
+      "08:30：美ら海水族館一開門就進，先看大水槽",
+      "中午：備瀨福木林道，樹蔭下騎腳踏車",
+      "午餐：本部的沖繩麵，排隊店早點去",
+      "下午：今歸仁城跡，彎來彎去的城牆",
+      "傍晚：古宇利大橋，整條橋兩邊都是海",
+      "提醒：回那霸要 2 小時，天黑前出發"
+    ],
+    "caption": "北部要玩得舒服，關鍵是早起：七點前從那霸出發，水族館一開門就進去。\n看完往旁邊的備瀨福木林道走走，下午去今歸仁城跡，最後開上古宇利大橋。\n回程要兩小時，天黑前出發，路上不會太累。",
+    "hashtags": [
+      "沖繩北部",
+      "美ら海水族館",
+      "古宇利島",
+      "今歸仁城跡",
+      "沖繩自駕"
+    ],
+    "images": [
+      "https://sssunwl.github.io/okidayz/assets/ig/north-one-day/01.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/north-one-day/02.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/north-one-day/03.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/north-one-day/04.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/north-one-day/05.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/north-one-day/06.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/north-one-day/07.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/north-one-day/08.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/north-one-day/09.jpg"
+    ]
+  },
+  {
+    "section": "guide",
+    "slug": "south-one-day",
+    "title": "南部一天：聖地、海橋、天婦羅、看夕陽",
+    "url": "https://sssunwl.github.io/okidayz/guide/south-one-day/",
+    "cover": "南部一天，不用開很遠",
+    "slides": [
+      "從那霸開到南城：大約 40 分鐘",
+      "上午：齋場御嶽，琉球最重要的聖地",
+      "順路：ニライカナイ橋，下坡那段海最好看",
+      "中午：知念岬公園，坐著吹風就好",
+      "下午：奧武島，現炸天婦羅一個一百多圓",
+      "傍晚：瀨長島ウミカジテラス，飛機從頭上飛過",
+      "提醒：齋場御嶽舊曆特定日子不開，先查"
+    ],
+    "caption": "南部是沖繩最好排的一天：從那霸出發，路程都在半小時上下。\n上午去齋場御嶽、中午在知念岬吹風、下午去奧武島吃現炸天婦羅。\n最後停瀨長島看夕陽，離機場十分鐘，最後一天排這條也行。",
+    "hashtags": [
+      "沖繩南部",
+      "南城",
+      "齋場御嶽",
+      "沖繩自駕",
+      "沖繩自由行"
+    ],
+    "images": [
+      "https://sssunwl.github.io/okidayz/assets/ig/south-one-day/01.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/south-one-day/02.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/south-one-day/03.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/south-one-day/04.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/south-one-day/05.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/south-one-day/06.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/south-one-day/07.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/south-one-day/08.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/south-one-day/09.jpg"
+    ]
+  },
+  {
+    "section": "guide",
     "slug": "july-okinawa",
     "title": "7 月的沖繩：最海、也最熱",
     "url": "https://sssunwl.github.io/okidayz/guide/july-okinawa/",

@@ -1539,6 +1539,9 @@ def copy_assets():
     ig = ASSETS / "ig"
     if ig.exists():
         shutil.copytree(ig, target / "ig", dirs_exist_ok=True)
+    photos = ASSETS / "photos"
+    if photos.exists():
+        shutil.copytree(photos, target / "photos", dirs_exist_ok=True)
 
 
 def ig_images(slug):
