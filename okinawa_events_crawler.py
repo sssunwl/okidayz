@@ -499,7 +499,7 @@ def merge(lists):
     return merged
 
 
-JA_SOURCES = {"okinawastory", "okimeguri", "jalan", "goyah"}
+JA_SOURCES = {"okinawastory", "okimeguri", "jalan", "goyah", "naha", "pref", "prtimes"}
 # 網站以繁中為主:說明和地點有假名就翻成中文,原文留在 <欄位>_ja
 TRANSLATE_FIELDS = ("description", "location")
 
