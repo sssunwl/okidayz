@@ -1177,10 +1177,19 @@ def build_article(post, siblings):
     ig_slot = ""
     if isinstance(ig, dict) and ig.get("slides"):
         slides = ig.get("slides") or []
-        cards = "".join(
-            '<div class="ig-slide"><span>{}</span><p>{}</p></div>'.format(index + 1, html.escape(str(slide)))
-            for index, slide in enumerate(slides)
-        )
+        images = ig_images(post["slug"])
+        if images:
+            # 有成品圖就放圖;alt 用封面句+每頁文字,讀不到圖的人跟搜尋引擎也看得懂
+            alts = [ig.get("cover") or post.get("title", "")] + [str(x) for x in slides] + ["收藏起來，到了沖繩再打開"]
+            cards = "".join(
+                '<div class="ig-slide ig-img"><img src="{}assets/ig/{}/{}" alt="{}" loading="lazy" width="1080" height="1350"></div>'.format(
+                    prefix, html.escape(post["slug"]), name, html.escape(alts[i] if i < len(alts) else ""))
+                for i, name in enumerate(images))
+        else:
+            cards = "".join(
+                '<div class="ig-slide"><span>{}</span><p>{}</p></div>'.format(index + 1, html.escape(str(slide)))
+                for index, slide in enumerate(slides)
+            )
         ig_slot = (
             '      <section class="ig-slot" data-ig-embed aria-label="這篇的 IG 版本">\n'
             '        <div class="ig-slot-head"><span class="eyebrow">Carousel</span>'
@@ -1494,6 +1503,7 @@ def write_ig_queue(posts):
                 "slides": ig.get("slides") or [],
                 "caption": ig.get("caption", ""),
                 "hashtags": ig.get("hashtags") or [],
+                "images": [SITE_URL + "assets/ig/{}/{}".format(post["slug"], n) for n in ig_images(post["slug"])],
             })
     (DOCS / "ig-queue.json").write_text(
         json.dumps(queue, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -1526,6 +1536,15 @@ def copy_assets():
     covers = CONTENT / "covers"
     if covers.exists():
         shutil.copytree(covers, target / "covers", dirs_exist_ok=True)
+    ig = ASSETS / "ig"
+    if ig.exists():
+        shutil.copytree(ig, target / "ig", dirs_exist_ok=True)
+
+
+def ig_images(slug):
+    """文章輪播的成品圖(Sona 發文台出圖後放 assets/ig/<slug>/01.jpg…)。"""
+    folder = ASSETS / "ig" / str(slug)
+    return sorted(p.name for p in folder.glob("*.jpg")) if folder.exists() else []
 
 
 def read_json(name, fallback):
