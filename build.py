@@ -37,6 +37,7 @@ NAV = [
     ("ocean", "ocean/", "玩水"),
     ("goods", "goods/", "好物"),
     ("okinawa", "okinawa/", "認識沖繩"),
+    ("bigdayz", "bigdayz/", "Big Dayz"),
 ]
 
 # 內容區塊定義：篩選軸決定該區 index 頁出現哪幾排 chip
@@ -78,6 +79,13 @@ SECTIONS = {
             ("方式", ["浮潛", "潛水", "海灘", "SUP", "獨木舟"]),
             REGION_AXIS,
         ],
+    },
+    # 不叫婚禮專區：寫的是「在沖繩的大日子」，教堂先當景點寫，每篇最後才接「想在這裡行禮？」
+    "bigdayz": {
+        "title": "Big Dayz｜在沖繩的大日子",
+        "eyebrow": "Big Dayz",
+        "lead": "求婚、婚紗旅拍、教堂行禮、結婚紀念日旅行。就算不結婚，海邊的教堂也值得順路看一眼。",
+        "axes": [("主題", ["求婚", "婚紗旅拍", "教堂", "紀念日"]), REGION_AXIS],
     },
 }
 
@@ -457,10 +465,18 @@ def post_href(post, prefix=""):
     return "{}{}/{}/".format(prefix, post["section"], post["slug"])
 
 
+def cover_src(cover, prefix=""):
+    """cover 可以是 assets/covers/ 裡的檔名，也可以是場地官網圖的完整網址。"""
+    cover = str(cover)
+    if cover.startswith("https://"):
+        return cover
+    return prefix + "assets/covers/" + cover
+
+
 def post_card(post, prefix=""):
     tags = post.get("tags") or []
     cover = post.get("cover")
-    style = ' style="background-image:url(\'{}{}\')"'.format(prefix + "assets/covers/", html.escape(cover, quote=True)) if cover else ""
+    style = ' style="background-image:url(\'{}\')"'.format(html.escape(cover_src(cover, prefix), quote=True)) if cover else ""
     chips = "".join('<span>{}</span>'.format(html.escape(str(tag))) for tag in tags[:3])
     return (
         '<a class="post-card{cover_cls}" href="{href}" data-tags="{tags}"{style}>'
@@ -1170,8 +1186,8 @@ def build_article(post, siblings):
 
     cover = ""
     if post.get("cover"):
-        cover = ('      <img class="article-cover" src="{}assets/covers/{}" alt="" loading="lazy">'
-                 .format(prefix, html.escape(str(post["cover"]), quote=True)))
+        cover = ('      <img class="article-cover" src="{}" alt="" loading="lazy">'
+                 .format(html.escape(cover_src(post["cover"], prefix), quote=True)))
 
     ig = post.get("ig") or {}
     ig_slot = ""

@@ -32,3 +32,9 @@
 - 互動功能必須可用鍵盤操作，動畫需尊重 `prefers-reduced-motion`。
 - 不加入需要 API key 的前端功能；需要外部資料的小工具（例如匯率）改成 Actions 每日寫成 json，前端讀靜態檔。
 - 憑證只使用 GitHub Secrets。
+
+## Big Dayz（2026-11-09 開）
+
+- 「在沖繩的大日子」欄目（`content/bigdayz/`，導覽列 Big Dayz）：求婚 → 婚紗旅拍 → 教堂行禮 → 紀念日旅行。**不叫婚禮專區**，教堂先當景點寫，每篇最後才接「想在這裡行禮？」。流量起來再照規則獨立成「沖繩婚禮誌」。
+- 教堂地圖文章由 `tools/bigdayz_chapels.py` 從 `../wedding/data/chapels.json` 產生；照片只用各教堂／婚宴場地官網圖（直連，每張標官網出處），不用 JWC 客戶的圖。
+- 文章 `cover` 可以填完整 https 網址（場地官網圖），不一定要放 `assets/covers/`。
