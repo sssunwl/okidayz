@@ -225,7 +225,7 @@ footer{padding:64px 0 48px}
 .footer-top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 24px;padding-bottom:26px;border-bottom:1.5px dashed rgba(253,250,244,.22)}
 .footer-top .brand-mark{width:56px;height:56px}
 .footer-hand{margin:0;font:700 1.5rem/1.2 var(--hand);color:var(--sun);transform:rotate(-2deg)}
-.footer-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:26px}
+.footer-links{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;margin-top:26px}
 .fl-group{display:flex;flex-direction:column;gap:10px;min-width:0}
 .fl-group>strong{font-size:.78rem;letter-spacing:.14em;color:var(--sun)}
 .fl{display:flex;align-items:center;gap:12px;padding:10px 12px;border:1.5px solid rgba(253,250,244,.28);border-radius:var(--wobble);text-decoration:none;color:#fff;background:rgba(253,250,244,.04);transition:transform .15s,background-color .15s,border-color .15s}
