@@ -106,19 +106,19 @@
   if (pickGrid) {
     var upcoming = EVENTS.filter(function (event) {
       return event.source !== 'today_is' && event.date_start >= today;
-    }).sort(function (a, b) { return a.date_start.localeCompare(b.date_start); }).slice(0, 4);
+    }).sort(function (a, b) { return a.date_start.localeCompare(b.date_start); }).slice(0, 12);
     var icons = ['☀️', '🥁', '🌊', '🌙'];
     // 拍立得：照片在上、字在下面白底，不再把字壓在海報上
     pickGrid.innerHTML = upcoming.length ? upcoming.map(function (event, index) {
       var img = safeURL(event.image);
       var photo = img
         ? '<div class="pick-photo" style="background-image:url(\'' + escapeHTML(img) + '\')"></div>'
-        : '<div class="pick-photo pick-photo-empty"><span class="pick-icon">' + icons[index] + '</span></div>';
+        : '<div class="pick-photo pick-photo-empty"><span class="pick-icon">' + icons[index % icons.length] + '</span></div>';
       var loc = event.location ? '<p class="pick-loc">📍 ' + escapeHTML(truncate(event.location, 24)) + '</p>' : '';
       return '<article class="pick-card pick-polaroid" data-pick-id="' + escapeHTML(eventId(event)) + '"' +
         (event._detail_slug ? ' data-detail="' + escapeHTML(event._detail_slug) + '"' : '') + ' tabindex="0">' +
         photo + '<div class="pick-body">' +
-        '<span class="pick-no">0' + (index + 1) + '・' + escapeHTML(fmtDate(event.date_start)) + '</span>' +
+        '<span class="pick-no">' + (index < 9 ? '0' : '') + (index + 1) + '・' + escapeHTML(fmtDate(event.date_start)) + '</span>' +
         '<h3>' + escapeHTML(displayName(event)) + '</h3>' +
         '<p>' + escapeHTML(truncate(event.description, 40) || '點開看活動日期與地點。') + '</p>' + loc +
         '</div></article>';
@@ -139,6 +139,23 @@
         openPick(event.target.closest('[data-pick-id]'));
       }
     });
+
+    // 一行左右滑：箭頭一次翻一整排，滑到兩端時把該邊箭頭變淡
+    var pickBtns = document.querySelectorAll('[data-pick-scroll]');
+    function syncPickBtns() {
+      var max = pickGrid.scrollWidth - pickGrid.clientWidth - 2;
+      pickBtns.forEach(function (btn) {
+        btn.disabled = btn.dataset.pickScroll === '-1' ? pickGrid.scrollLeft <= 2 : pickGrid.scrollLeft >= max;
+      });
+    }
+    pickBtns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        pickGrid.scrollBy({ left: Number(btn.dataset.pickScroll) * pickGrid.clientWidth * 0.9, behavior: 'smooth' });
+      });
+    });
+    pickGrid.addEventListener('scroll', syncPickBtns, { passive: true });
+    window.addEventListener('resize', syncPickBtns);
+    syncPickBtns();
   }
 
   /* ── 1-12 月預覽列：滑過／focus 換文字，觸控裝置直接點進去看當月詳細 ── */
