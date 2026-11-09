@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T10:49:56+09:00",
+  "generated_at": "2026-11-09T11:29:43+09:00",
   "items": [
     {
       "id": "event-c32fc895",
@@ -210,6 +210,22 @@
       "first_seen": null
     },
     {
+      "id": "event-2d1e47aa",
+      "kind": "event",
+      "title": "沖繩100K超級馬拉松",
+      "summary": "每年12月，您可以在沖繩美麗風光的環繞中參與沖繩100K超級馬拉松，挑戰並通過智慧型手機程式追蹤比賽進度。",
+      "source": "visitokinawa",
+      "url": "https://visitokinawajapan.com/zh-hant/discover/events/okinawa-ultra-marathon/",
+      "date": "2026-12-20",
+      "date_end": "2026-12-20",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-09"
+    },
+    {
       "id": "event-32fde4ae",
       "kind": "event",
       "title": "2026 東民中手工市場",
@@ -240,6 +256,22 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
+    },
+    {
+      "id": "event-d70b7e0c",
+      "kind": "event",
+      "title": "聖誕夢幻燈飾",
+      "summary": "每年的12月至隔年1月，不論大人或小孩都可以在沖繩兒童王國欣賞到燈飾、雷射燈光秀和美麗雪景。",
+      "source": "visitokinawa",
+      "url": "https://www.xmas-fantasy.com/english.html#china2",
+      "date": "2026-12-19",
+      "date_end": "2026-12-31",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-09"
     },
     {
       "id": "event-36dc2a11",
@@ -562,6 +594,22 @@
       "first_seen": null
     },
     {
+      "id": "event-63ae7ce8",
+      "kind": "event",
+      "title": "NAHA馬拉松",
+      "summary": "您可以參與每年12月的那霸馬拉松，或在參賽者們沿著國際通經過和平紀念公園時為他們加油打氣。",
+      "source": "visitokinawa",
+      "url": "https://visitokinawajapan.com/zh-hant/discover/events/naha-marathon/",
+      "date": "2026-12-06",
+      "date_end": "2026-12-06",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-09"
+    },
+    {
       "id": "event-14e4c9da",
       "kind": "event",
       "title": "聖誕節工作坊 讓我們用毛線絨球堆雪人",
@@ -624,22 +672,6 @@
       "local_life": false,
       "vibe": true,
       "first_seen": null
-    },
-    {
-      "id": "event-f40d60cd",
-      "kind": "event",
-      "title": "氣仙沼市×沖繩美麗海水族館聯合活動「Hoya Boya National Stage Caravan in 沖繩美麗水族箱」",
-      "summary": "[沖繩美麗海水族館] 氣仙沼市×沖繩美麗海水族館聯合活動「Hoya Boya National Stage Caravan in 沖繩美麗水族箱」將於12月5日（週六）、6日（週日）舉辦",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000241.000024500.html",
-      "date": "2026-12-05",
-      "date_end": "2026-12-05",
-      "area": "全島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-07"
     },
     {
       "id": "event-73d6de57",
@@ -2162,6 +2194,21 @@
       "first_seen": null
     },
     {
+      "id": "weather-d687fb4c",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週一有雨、週二有雨、週三有雨、週四多雲、週五多雲、週六多雲、週日有雨；氣溫約 20～28°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-11-09",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "news-3b946317",
       "kind": "news",
       "title": "終戰日紀錄：17歲疏開少年盼歸鄉",
@@ -2387,6 +2434,38 @@
       "vibe": false
     },
     {
+      "id": "event-b1118bbc",
+      "kind": "event",
+      "title": "沖繩新店開業，體驗高級嬰兒用品品牌「Nuna」的世界",
+      "summary": "沖繩新店開業，體驗高級嬰兒用品品牌「Nuna」的世界",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000034.000142562.html",
+      "date": "2026-11-09",
+      "date_end": "2026-12-09",
+      "area": "全島",
+      "category": "新開張",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-07"
+    },
+    {
+      "id": "event-d5200e7e",
+      "kind": "event",
+      "title": "健康支援品牌KINDCARE沖繩Outlet Mall Ashibinaani盛大開幕",
+      "summary": "11/6（星期五）健康支援品牌KINDCARE沖繩Outlet Mall Ashibinaani盛大開幕",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000104.000020961.html",
+      "date": "2026-11-09",
+      "date_end": "2026-12-09",
+      "area": "全島",
+      "category": "新開張",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-07"
+    },
+    {
       "id": "alert-4cfb5423",
       "kind": "alert",
       "title": "沖繩本島地區需防範強降雨與雷擊",
@@ -2443,21 +2522,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-cbd4127f",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週日多雲、週一有雨、週二有雨、週三有雨、週四多雲、週五晴時多雲、週六有雨；氣溫約 21～27°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-11-08",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -2685,38 +2749,6 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false
-    },
-    {
-      "id": "event-db4c77ab",
-      "kind": "event",
-      "title": "沖繩新店開業，體驗高級嬰兒用品品牌「Nuna」的世界",
-      "summary": "沖繩新店開業，體驗高級嬰兒用品品牌「Nuna」的世界",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000034.000142562.html",
-      "date": "2026-11-08",
-      "date_end": "2026-12-08",
-      "area": "全島",
-      "category": "新開張",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-07"
-    },
-    {
-      "id": "event-a1bb1dad",
-      "kind": "event",
-      "title": "健康支援品牌KINDCARE沖繩Outlet Mall Ashibinaani盛大開幕",
-      "summary": "11/6（星期五）健康支援品牌KINDCARE沖繩Outlet Mall Ashibinaani盛大開幕",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000104.000020961.html",
-      "date": "2026-11-08",
-      "date_end": "2026-12-08",
-      "area": "全島",
-      "category": "新開張",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-07"
     },
     {
       "id": "news-5b2b16b9",
@@ -3506,11 +3538,11 @@
       "first_seen": null
     },
     {
-      "id": "event-55ed08bf",
+      "id": "event-e9e45d93",
       "kind": "event",
-      "title": "米嶺忍繪畫展“Ugushiku”",
+      "title": "與那嶺しのぶ 絵画展ウグシク",
       "summary": "11/3(火)11/9(月)\n2F ryubo art gallery",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://ryubo.jp/shinobu-yonamine-exhibiton2610/",
       "date": "2026-11-03",
       "date_end": "2026-11-09",
@@ -3519,7 +3551,7 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-09"
     },
     {
       "id": "event-bbfad0cb",
@@ -3632,6 +3664,22 @@
       "local_life": false,
       "vibe": false,
       "first_seen": "2026-11-07"
+    },
+    {
+      "id": "event-ccf37bed",
+      "kind": "event",
+      "title": "東南植物樂園燈飾活動",
+      "summary": "您可以在冬季展演中欣賞數以百萬計的光芒照射在東南植物樂園中，並看見被照亮的樹木和鑲滿燈光的草坪。",
+      "source": "visitokinawa",
+      "url": "https://www.southeast-botanical.jp/tw/illumination/",
+      "date": "2026-10-24",
+      "date_end": "2027-05-23",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-09"
     },
     {
       "id": "event-bc7b52b0",
