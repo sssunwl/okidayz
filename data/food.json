@@ -5,8 +5,7 @@
   "塔可飯・美式",
   "肉・阿古豬",
   "海鮮・市場",
-  "甜點・冰",
-  "咖啡・輕食"
+  "飯糰・早餐"
  ],
  "scenes": [
   "早餐",
@@ -205,37 +204,6 @@
    "nearby": []
   },
   {
-   "slug": "blueseal-makiminato",
-   "name": {
-    "zh": "Blue Seal 牧港本店",
-    "en": "Blue Seal Makiminato",
-    "ja": "ブルーシール 牧港本店"
-   },
-   "area_ja": "浦添市",
-   "area_zh": "浦添市",
-   "region": "中部",
-   "cats": [
-    "甜點・冰"
-   ],
-   "scenes": [
-    "老店",
-    "雨天OK"
-   ],
-   "summary": "從美軍基地內做起的冰淇淋品牌，牧港這間是本店。紅芋、鹽金楚糕這些沖繩口味全島都吃得到，本店的店面比較大、可以坐。",
-   "tips": [
-    "國際通、機場都有分店，不一定要專程來本店。"
-   ],
-   "photo": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/JP_%E6%97%A5%E6%9C%AC_Japan_%E6%B2%96%E7%B9%A9_OKINAWA_Ashibinaa_mall_%E8%B1%90%E8%A6%8B%E5%9F%8E%E5%B8%82_Tomigusuku_shop_Blue_Seal_Ice_Cream_January_2025_R12S_17.jpg/960px-JP_%E6%97%A5%E6%9C%AC_Japan_%E6%B2%96%E7%B9%A9_OKINAWA_Ashibinaa_mall_%E8%B1%90%E8%A6%8B%E5%9F%8E%E5%B8%82_Tomigusuku_shop_Blue_Seal_Ice_Cream_January_2025_R12S_17.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:JP_%E6%97%A5%E6%9C%AC_Japan_%E6%B2%96%E7%B9%A9_OKINAWA_Ashibinaa_mall_%E8%B1%90%E8%A6%8B%E5%9F%8E%E5%B8%82_Tomigusuku_shop_Blue_Seal_Ice_Cream_January_2025_R12S_17.jpg",
-    "credit": "Naha Mama Pavilionz",
-    "license": "CC0",
-    "sample": true
-   },
-   "official_url": "https://www.blueseal.co.jp/",
-   "nearby": []
-  },
-  {
    "slug": "jackie-steak",
    "name": {
     "zh": "Jackie 牛排館",
@@ -358,84 +326,6 @@
    ]
   },
   {
-   "slug": "senjichi",
-   "name": {
-    "zh": "千日",
-    "en": "Senjichi",
-    "ja": "千日"
-   },
-   "area_ja": "那覇市",
-   "area_zh": "那霸市",
-   "region": "南部",
-   "cats": [
-    "甜點・冰"
-   ],
-   "scenes": [
-    "老店"
-   ],
-   "summary": "那霸久米的老甜品店，沖繩的「ぜんざい」不是熱紅豆湯，而是金時豆配刨冰。這間開了五十年以上，夏天必排。",
-   "tips": [
-    "沖繩的ぜんざい是冰的，跟日本本州的熱紅豆湯不一樣。"
-   ],
-   "photo": null,
-   "official_url": "",
-   "nearby": []
-  },
-  {
-   "slug": "fujiya-tomari",
-   "name": {
-    "zh": "富士家 泊本店",
-    "en": "Fujiya Tomari",
-    "ja": "ぜんざいの富士家 泊本店"
-   },
-   "area_ja": "那覇市",
-   "area_zh": "那霸市",
-   "region": "南部",
-   "cats": [
-    "甜點・冰"
-   ],
-   "scenes": [],
-   "summary": "泊的ぜんざい專門店，刨冰下面是煮得很軟的金時豆。和泊魚市場離不遠，吃完海鮮可以接著吃冰。",
-   "tips": [],
-   "photo": null,
-   "official_url": "",
-   "nearby": []
-  },
-  {
-   "slug": "hamabe-no-chaya",
-   "name": {
-    "zh": "浜辺の茶屋",
-    "en": "Hamabe no Chaya",
-    "ja": "浜辺の茶屋"
-   },
-   "area_ja": "南城市",
-   "area_zh": "南城市",
-   "region": "南部",
-   "cats": [
-    "咖啡・輕食"
-   ],
-   "scenes": [
-    "海景",
-    "早餐"
-   ],
-   "summary": "1994 年開的海邊咖啡店，窗邊吧檯直接面對太平洋，漲潮時海水就在腳下。早上八點開門，南部一日遊的第一站很適合。",
-   "tips": [
-    "漲潮和退潮看到的景完全不同，可以先查潮汐。",
-    "2025 年整修後重開，營業時間以店家公告為準。"
-   ],
-   "photo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/%E6%B5%9C%E8%BE%BA%E3%81%AE%E8%8C%B6%E5%B1%8B_%EF%BC%88Hamabe_no_Chaya%29_-_panoramio.jpg",
-    "page": "https://commons.wikimedia.org/wiki/File:%E6%B5%9C%E8%BE%BA%E3%81%AE%E8%8C%B6%E5%B1%8B_%EF%BC%88Hamabe_no_Chaya)_-_panoramio.jpg",
-    "credit": "popsaurus",
-    "license": "CC BY 3.0"
-   },
-   "official_url": "",
-   "nearby": [
-    "sefa-utaki",
-    "chinen-cape"
-   ]
-  },
-  {
    "slug": "pork-tamago",
    "name": {
     "zh": "豬肉蛋飯糰 本店",
@@ -446,7 +336,7 @@
    "area_zh": "那霸市",
    "region": "南部",
    "cats": [
-    "咖啡・輕食"
+    "飯糰・早餐"
    ],
    "scenes": [
     "早餐"

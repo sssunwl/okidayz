@@ -1,0 +1,319 @@
+{
+ "_note": "喫茶頁（咖啡・茶室・甜點）資料，格式同 food.json。照片：sample=true 代表不是這間店本身（示意圖）。營業時間不寫，常變。",
+ "cats": [
+  "咖啡",
+  "茶室・古民家",
+  "甜點・冰"
+ ],
+ "scenes": [
+  "早餐",
+  "海景",
+  "老店",
+  "雨天OK",
+  "近機場",
+  "順路景點"
+ ],
+ "places": [
+  {
+   "slug": "blueseal-makiminato",
+   "name": {
+    "zh": "Blue Seal 牧港本店",
+    "en": "Blue Seal Makiminato",
+    "ja": "ブルーシール 牧港本店"
+   },
+   "area_ja": "浦添市",
+   "area_zh": "浦添市",
+   "region": "中部",
+   "cats": [
+    "甜點・冰"
+   ],
+   "scenes": [
+    "老店",
+    "雨天OK"
+   ],
+   "summary": "從美軍基地內做起的冰淇淋品牌，牧港這間是本店。紅芋、鹽金楚糕這些沖繩口味全島都吃得到，本店的店面比較大、可以坐。",
+   "tips": [
+    "國際通、機場都有分店，不一定要專程來本店。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/JP_%E6%97%A5%E6%9C%AC_Japan_%E6%B2%96%E7%B9%A9_OKINAWA_Ashibinaa_mall_%E8%B1%90%E8%A6%8B%E5%9F%8E%E5%B8%82_Tomigusuku_shop_Blue_Seal_Ice_Cream_January_2025_R12S_17.jpg/960px-JP_%E6%97%A5%E6%9C%AC_Japan_%E6%B2%96%E7%B9%A9_OKINAWA_Ashibinaa_mall_%E8%B1%90%E8%A6%8B%E5%9F%8E%E5%B8%82_Tomigusuku_shop_Blue_Seal_Ice_Cream_January_2025_R12S_17.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:JP_%E6%97%A5%E6%9C%AC_Japan_%E6%B2%96%E7%B9%A9_OKINAWA_Ashibinaa_mall_%E8%B1%90%E8%A6%8B%E5%9F%8E%E5%B8%82_Tomigusuku_shop_Blue_Seal_Ice_Cream_January_2025_R12S_17.jpg",
+    "credit": "Naha Mama Pavilionz",
+    "license": "CC0",
+    "sample": true
+   },
+   "official_url": "https://www.blueseal.co.jp/",
+   "nearby": []
+  },
+  {
+   "slug": "senjichi",
+   "name": {
+    "zh": "千日",
+    "en": "Senjichi",
+    "ja": "千日"
+   },
+   "area_ja": "那覇市",
+   "area_zh": "那霸市",
+   "region": "南部",
+   "cats": [
+    "甜點・冰"
+   ],
+   "scenes": [
+    "老店"
+   ],
+   "summary": "那霸久米的老甜品店，沖繩的「ぜんざい」不是熱紅豆湯，而是金時豆配刨冰。這間開了五十年以上，夏天必排。",
+   "tips": [
+    "沖繩的ぜんざい是冰的，跟日本本州的熱紅豆湯不一樣。"
+   ],
+   "photo": null,
+   "official_url": "",
+   "nearby": []
+  },
+  {
+   "slug": "fujiya-tomari",
+   "name": {
+    "zh": "富士家 泊本店",
+    "en": "Fujiya Tomari",
+    "ja": "ぜんざいの富士家 泊本店"
+   },
+   "area_ja": "那覇市",
+   "area_zh": "那霸市",
+   "region": "南部",
+   "cats": [
+    "甜點・冰"
+   ],
+   "scenes": [],
+   "summary": "泊的ぜんざい專門店，刨冰下面是煮得很軟的金時豆。和泊魚市場離不遠，吃完海鮮可以接著吃冰。",
+   "tips": [],
+   "photo": null,
+   "official_url": "",
+   "nearby": []
+  },
+  {
+   "slug": "hamabe-no-chaya",
+   "name": {
+    "zh": "浜辺の茶屋",
+    "en": "Hamabe no Chaya",
+    "ja": "浜辺の茶屋"
+   },
+   "area_ja": "南城市",
+   "area_zh": "南城市",
+   "region": "南部",
+   "cats": [
+    "咖啡"
+   ],
+   "scenes": [
+    "海景",
+    "早餐"
+   ],
+   "summary": "1994 年開的海邊咖啡店，窗邊吧檯直接面對太平洋，漲潮時海水就在腳下。早上八點開門，南部一日遊的第一站很適合。",
+   "tips": [
+    "漲潮和退潮看到的景完全不同，可以先查潮汐。",
+    "2025 年整修後重開，營業時間以店家公告為準。"
+   ],
+   "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/%E6%B5%9C%E8%BE%BA%E3%81%AE%E8%8C%B6%E5%B1%8B_%EF%BC%88Hamabe_no_Chaya%29_-_panoramio.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%E6%B5%9C%E8%BE%BA%E3%81%AE%E8%8C%B6%E5%B1%8B_%EF%BC%88Hamabe_no_Chaya)_-_panoramio.jpg",
+    "credit": "popsaurus",
+    "license": "CC BY 3.0"
+   },
+   "official_url": "",
+   "nearby": [
+    "sefa-utaki",
+    "chinen-cape"
+   ]
+  },
+  {
+   "slug": "shisa-en",
+   "name": {
+    "zh": "やちむん喫茶 シーサー園",
+    "en": "Yachimun Kissa Shisa-en",
+    "ja": "やちむん喫茶 シーサー園"
+   },
+   "area_ja": "本部町",
+   "area_zh": "本部町",
+   "region": "北部",
+   "cats": [
+    "茶室・古民家"
+   ],
+   "scenes": [
+    "老店",
+    "順路景點"
+   ],
+   "summary": "山腰上的紅瓦古民家茶室，屋頂和牆上蹲滿陶燒風獅爺。坐緣側吃黑糖ぜんざい、喝さんぴん茶，看著綠意發呆。",
+   "tips": [
+    "座位不多，假日中午前到比較不用等。",
+    "從美麗海水族館開車約 20 分鐘，去程或回程順路。"
+   ],
+   "official_url": "",
+   "nearby": [
+    "churaumi",
+    "bise-fukugi"
+   ]
+  },
+  {
+   "slug": "arakaki-zenzai",
+   "name": {
+    "zh": "新垣ぜんざい屋",
+    "en": "Arakaki Zenzai",
+    "ja": "新垣ぜんざい屋"
+   },
+   "area_ja": "本部町",
+   "area_zh": "本部町",
+   "region": "北部",
+   "cats": [
+    "甜點・冰"
+   ],
+   "scenes": [
+    "老店",
+    "順路景點"
+   ],
+   "summary": "本部港旁的老字號，只賣一樣：沖繩式ぜんざい（金時豆加黑糖，上面堆滿刨冰）。先在門口買餐券再入座。",
+   "tips": [
+    "菜單只有一種，人多也翻桌很快。",
+    "離水族館不遠，夏天玩完來吃剛好。"
+   ],
+   "official_url": "",
+   "nearby": [
+    "churaumi"
+   ]
+  },
+  {
+   "slug": "ryuhyo-onna",
+   "name": {
+    "zh": "琉冰 おんなの駅店",
+    "en": "Ryuhyo Onna-no-eki",
+    "ja": "琉冰 おんなの駅店"
+   },
+   "area_ja": "恩納村",
+   "area_zh": "恩納村",
+   "region": "中部",
+   "cats": [
+    "甜點・冰"
+   ],
+   "scenes": [
+    "順路景點"
+   ],
+   "summary": "在恩納村休息站「おんなの駅」裡，招牌是堆成小山的芒果、紅芋刨冰。北上走 58 號線經過很好停。",
+   "tips": [
+    "休息站裡還有沖繩小吃攤，可以一起吃。",
+    "夏天排隊比較長，旁邊攤位先逛。"
+   ],
+   "official_url": "",
+   "nearby": [
+    "manzamo"
+   ]
+  },
+  {
+   "slug": "cafe-kurukuma",
+   "name": {
+    "zh": "カフェくるくま",
+    "en": "Cafe Kurukuma",
+    "ja": "カフェくるくま"
+   },
+   "area_ja": "南城市",
+   "area_zh": "南城市",
+   "region": "南部",
+   "cats": [
+    "咖啡"
+   ],
+   "scenes": [
+    "海景"
+   ],
+   "summary": "南城知念的高台上，花園露台正對太平洋，天氣好看得到久高島。賣的是泰式咖哩，飯後咖啡坐著看海最舒服。",
+   "tips": [
+    "露台座位熱門，晴天中午前到。",
+    "可以跟齋場御嶽、知念岬排成同一條路線。"
+   ],
+   "official_url": "",
+   "nearby": [
+    "sefa-utaki",
+    "chinen-cape"
+   ]
+  },
+  {
+   "slug": "ashibiunaa",
+   "name": {
+    "zh": "琉球茶房 あしびうなぁ",
+    "en": "Ryukyu Sabo Ashibiunaa",
+    "ja": "琉球茶房 あしびうなぁ"
+   },
+   "area_ja": "那覇市",
+   "area_zh": "那覇市",
+   "region": "南部",
+   "cats": [
+    "茶室・古民家"
+   ],
+   "scenes": [
+    "老店",
+    "順路景點",
+    "雨天OK"
+   ],
+   "summary": "首里城附近的赤瓦古民家，坐在榻榻米上看日式庭園。有沖繩麵和定食，下午來吃ぜんざい配茶也很好。",
+   "tips": [
+    "參觀首里城前後順路，走路就到。",
+    "中午用餐時段人多，下午比較安靜。"
+   ],
+   "official_url": "",
+   "nearby": [
+    "shurijo"
+   ]
+  },
+  {
+   "slug": "hibariya",
+   "name": {
+    "zh": "珈琲屋台 ひばり屋",
+    "en": "Coffee Yatai Hibariya",
+    "ja": "珈琲屋台 ひばり屋"
+   },
+   "area_ja": "那覇市",
+   "area_zh": "那覇市",
+   "region": "南部",
+   "cats": [
+    "咖啡"
+   ],
+   "scenes": [
+    "雨天OK",
+    "順路景點"
+   ],
+   "summary": "藏在國際通旁邊小巷裡的屋台咖啡，穿過窄巷才看得到的小庭院。逛完市場想找個地方坐一下，這裡最剛好。",
+   "tips": [
+    "位置很隱密，用 Google 地圖導航到巷口再找招牌。",
+    "露天座位，大雨時座位會變少。"
+   ],
+   "official_url": "",
+   "nearby": [
+    "makishi-market",
+    "kokusai-yatai"
+   ]
+  },
+  {
+   "slug": "ohacorte-minatogawa",
+   "name": {
+    "zh": "oHacorté 港川本店",
+    "en": "oHacorté Minatogawa",
+    "ja": "oHacorté 港川本店"
+   },
+   "area_ja": "浦添市",
+   "area_zh": "浦添市",
+   "region": "中部",
+   "cats": [
+    "甜點・冰",
+    "咖啡"
+   ],
+   "scenes": [
+    "雨天OK",
+    "順路景點"
+   ],
+   "summary": "港川外人住宅街裡的水果塔名店，白色美軍舊宿舍改成的小店，季節水果塔一片片排在玻璃櫃。外帶或內用都可以。",
+   "tips": [
+    "熱門口味下午就賣完，想挑選早點去。",
+    "整條外人住宅街都是小店，可以順便散步。"
+   ],
+   "official_url": "",
+   "nearby": [
+    "minatogawa"
+   ]
+  }
+ ]
+}

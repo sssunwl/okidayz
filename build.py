@@ -40,7 +40,7 @@ NAV = [
 ]
 # 頂部選單的子分頁（桌面滑過展開、手機選單縮排列出）
 NAV_SUB = {
-    "guide": [("guide/spots/", "景點與海灘"), ("guide/food/", "美食"),
+    "guide": [("guide/spots/", "景點與海灘"), ("guide/food/", "美食"), ("guide/cafe/", "喫茶"),
               ("guide/#postGrid", "路線與文章"), ("guide/bigdayz/", "BigDayz")],
 }
 
@@ -1513,13 +1513,19 @@ PLACE_TYPES = {
     "venue": ("宴會廳", "guide/bigdayz"),
     "villa": ("包棟會場", "guide/bigdayz"),
     "food": ("美食", "guide/food"),
+    "cafe": ("喫茶", "guide/cafe"),
 }
 SPOTS_HUB = ("guide/spots", "景點與海灘", "Spots & Beaches",
              "每個地方一頁：重點、出發前要知道的事，加上當天的天氣、海況和附近活動。")
 FOOD_HUB = ("guide/food", "沖繩美食", "Okinawa Food",
             "照「吃什麼」「適合什麼時候」「在哪一區」挑。每間一頁，附近景點、當天天氣和活動一起看。")
+CAFE_HUB = ("guide/cafe", "喫茶｜咖啡・茶室・甜點", "Cafés & Sweets",
+            "走累了坐下來的地方：海景咖啡、古民家茶室、刨冰和ぜんざい。每間一頁，附近景點、當天天氣和活動一起看。")
 BIGDAYZ_HUB = ("guide/bigdayz", "BigDayz｜在沖繩的大日子", "BigDayz",
                "求婚、婚紗旅拍、教堂行禮、結婚紀念日旅行。教堂、宴會廳和包棟會場一間一頁，不結婚也可以當景點順路看。")
+
+
+EAT_TYPES = ("food", "cafe")
 
 
 def read_data_json(name, fallback):
@@ -1610,17 +1616,18 @@ def load_places():
         })
         places[place["slug"]] = place
 
-    food = read_data_json("food.json", {})
-    for shop in food.get("places") or []:
-        place = dict(shop)
-        place.update({
-            "type": "food", "kind": shop["cats"][0],
-            "photos": [shop["photo"]] if shop.get("photo") else [],
-            "tips": list(shop.get("tips") or []) + ["營業時間和公休常變動，出發前看店家公告或 Google 地圖。"],
-            "facts": [("吃什麼", "、".join(shop["cats"])), ("適合", "、".join(shop.get("scenes") or [])),
-                      ("地區", "{}・{}".format(shop["region"], shop["area_zh"]))],
-        })
-        places[place["slug"]] = place
+    # 美食和喫茶共用一種格式，只是分兩頁
+    for kind, name, label in (("food", "food.json", "吃什麼"), ("cafe", "cafe.json", "喝什麼")):
+        for shop in read_data_json(name, {}).get("places") or []:
+            place = dict(shop)
+            place.update({
+                "type": kind, "kind": shop["cats"][0],
+                "photos": [shop["photo"]] if shop.get("photo") else [],
+                "tips": list(shop.get("tips") or []) + ["營業時間和公休常變動，出發前看店家公告或 Google 地圖。"],
+                "facts": [(label, "、".join(shop["cats"])), ("適合", "、".join(shop.get("scenes") or [])),
+                          ("地區", "{}・{}".format(shop["region"], shop["area_zh"]))],
+            })
+            places[place["slug"]] = place
 
     for place in places.values():
         place["path"] = "{}/{}".format(PLACE_TYPES[place["type"]][1], place["slug"])
@@ -1637,7 +1644,7 @@ def place_map_url(place):
 
 
 def place_tags(place):
-    if place["type"] == "food":
+    if place["type"] in EAT_TYPES:
         return place["cats"] + list(place.get("scenes") or []) + [place.get("region", "")]
     tags = [PLACE_TYPES[place["type"]][0], place.get("region", "")]
     if place["type"] in ("venue", "villa"):
@@ -1732,7 +1739,7 @@ def place_photos_html(place):
 def build_place(place, places, routes):
     type_label, base = PLACE_TYPES[place["type"]]
     prefix = "../../../"
-    hub = {BIGDAYZ_HUB[0]: BIGDAYZ_HUB, FOOD_HUB[0]: FOOD_HUB}.get(base, SPOTS_HUB)
+    hub = {BIGDAYZ_HUB[0]: BIGDAYZ_HUB, FOOD_HUB[0]: FOOD_HUB, CAFE_HUB[0]: CAFE_HUB}.get(base, SPOTS_HUB)
     crumbs = ('<a href="{0}">首頁</a><span>/</span><a href="{0}guide/">攻略</a><span>/</span>'
               '<a href="{0}{1}/">{2}</a>').format(prefix, hub[0], html.escape(hub[1].split("｜")[0]))
 
@@ -1771,11 +1778,11 @@ def build_place(place, places, routes):
         nearby += [p for p in places.values() if p["type"] in ("spot", "beach") and p["slug"] != place["slug"]
                    and p.get("area_ja") == place.get("area_ja") and p not in nearby]
         nearby += [p for p in places.values() if p["type"] in ("chapel", "villa") and p.get("area_ja") == place.get("area_ja")]
-    if place["type"] in ("spot", "beach", "food"):
-        eats = [p for p in places.values() if p["type"] == "food" and p["slug"] != place["slug"]
+    if place["type"] in ("spot", "beach") + EAT_TYPES:
+        eats = [p for p in places.values() if p["type"] in EAT_TYPES and p["slug"] != place["slug"]
                 and (p.get("area_ja") == place.get("area_ja") or place["slug"] in (p.get("nearby") or []))]
         if eats:
-            blocks.append('<section class="pl-sec"><h2>附近吃什麼</h2><div class="place-grid place-grid-sm">{}</div></section>'.format(
+            blocks.append('<section class="pl-sec"><h2>附近吃喝</h2><div class="place-grid place-grid-sm">{}</div></section>'.format(
                 "".join(place_card(p, prefix) for p in eats[:6])))
     if nearby:
         blocks.append('<section class="pl-sec"><h2>附近可以順路</h2><div class="place-grid place-grid-sm">{}</div></section>'.format(
@@ -1861,11 +1868,13 @@ def guide_entry_html(places):
         "spots": sum(1 for p in places.values() if p["type"] in ("spot", "beach")),
         "chapels": sum(1 for p in places.values() if p["type"] == "chapel"),
         "food": sum(1 for p in places.values() if p["type"] == "food"),
+        "cafe": sum(1 for p in places.values() if p["type"] == "cafe"),
         "venues": sum(1 for p in places.values() if p["type"] in ("venue", "villa")),
     }
     tiles = [
         ("spots/", "景點與海灘", "{} 個地點，每頁都有當天天氣、海況和附近活動。".format(counts["spots"])),
         ("food/", "美食", "{} 間店，照吃什麼、適合什麼時候、哪一區挑。".format(counts["food"])),
+        ("cafe/", "喫茶", "{} 間咖啡、茶室和甜點店，走累了坐下來。".format(counts["cafe"])),
         ("#postGrid", "一日遊路線", "照著走就能玩完一天，每一站都連到地點頁。"),
         ("bigdayz/", "BigDayz", "{} 座海邊教堂、{} 個宴會場地，不結婚也能當景點看。".format(counts["chapels"], counts["venues"])),
     ]
@@ -1890,6 +1899,10 @@ def build_places(places, guide_posts):
             "".join(post_card(post, "../../") for post in eats))
     urls.append(build_place_hub(FOOD_HUB, shops, [("吃什麼", food.get("cats") or []), ("適合", food.get("scenes") or []),
                                                   ("地區", ["南部", "中部", "北部", "離島"])], food_extra))
+    cafe = read_data_json("cafe.json", {})
+    urls.append(build_place_hub(CAFE_HUB, [p for p in places.values() if p["type"] == "cafe"],
+                                [("喝什麼", cafe.get("cats") or []), ("適合", cafe.get("scenes") or []),
+                                 ("地區", ["南部", "中部", "北部", "離島"])]))
     weddings = [p for p in places.values() if p["type"] in ("chapel", "venue", "villa")]
     stories = [post for post in guide_posts if "BigDayz" in (post.get("tags") or [])]
     extra = ""
@@ -1901,6 +1914,9 @@ def build_places(places, guide_posts):
                                  ("宴會人數", ["30 人以下", "31–60 人", "60 人以上"])], extra))
     write_redirect("bigdayz", SITE_URL + "guide/bigdayz/")
     write_redirect("bigdayz/okinawa-seaview-chapels", SITE_URL + "guide/okinawa-seaview-chapels/")
+    # 2026-11-09 咖啡甜點從美食拆到喫茶頁
+    for slug in ("blueseal-makiminato", "senjichi", "fujiya-tomari", "hamabe-no-chaya"):
+        write_redirect("guide/food/" + slug, SITE_URL + "guide/cafe/{}/".format(slug))
     return urls
 
 
