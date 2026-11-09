@@ -1497,11 +1497,12 @@ PLACE_TYPES = {
     "beach": ("海灘", "guide/spots"),
     "chapel": ("教堂", "guide/bigdayz"),
     "venue": ("宴會廳", "guide/bigdayz"),
+    "villa": ("包棟會場", "guide/bigdayz"),
 }
 SPOTS_HUB = ("guide/spots", "景點與海灘", "Spots & Beaches",
              "每個地方一頁：重點、出發前要知道的事，加上當天的天氣、海況和附近活動。")
 BIGDAYZ_HUB = ("guide/bigdayz", "BigDayz｜在沖繩的大日子", "BigDayz",
-               "求婚、婚紗旅拍、教堂行禮、結婚紀念日旅行。教堂和宴會廳一間一頁，不結婚也可以當景點順路看。")
+               "求婚、婚紗旅拍、教堂行禮、結婚紀念日旅行。教堂、宴會廳和包棟會場一間一頁，不結婚也可以當景點順路看。")
 
 
 def read_data_json(name, fallback):
@@ -1580,6 +1581,18 @@ def load_places():
         }
         chapel.setdefault("venues", []).append(venue["slug"])
 
+    # 包棟會場：不屬於教堂，整棟包下來拍婚紗＋辦派對＋住宿
+    for villa in read_data_json("bigdayz_venues.json", {}).get("villas") or []:
+        place = dict(villa)
+        place.update({
+            "type": "villa", "kind": "包棟會場",
+            "photos": [{"url": url, "credit": villa["source"], "page": villa["official_url"]} for url in villa.get("photos") or []],
+            "facts": [("婚宴", "最多 {} 人".format(villa["capacity_max"])), ("住宿", "最多 {} 人".format(villa["capacity_stay"])),
+                      ("適合", "、".join(villa.get("good_for") or [])), ("設施", villa.get("facilities", "")),
+                      ("地址", villa.get("address", "")), ("地區", "{}・{}".format(villa["region"], villa["area_zh"]))],
+        })
+        places[place["slug"]] = place
+
     for place in places.values():
         place["path"] = "{}/{}".format(PLACE_TYPES[place["type"]][1], place["slug"])
     return places
@@ -1596,7 +1609,7 @@ def place_map_url(place):
 
 def place_tags(place):
     tags = [PLACE_TYPES[place["type"]][0], place.get("region", "")]
-    if place["type"] == "venue":
+    if place["type"] in ("venue", "villa"):
         top = place.get("capacity_max", 0)
         tags.append("30 人以下" if top <= 30 else "31–60 人" if top <= 60 else "60 人以上")
     return [tag for tag in tags if tag]
@@ -1725,11 +1738,11 @@ def build_place(place, places, routes):
     if place["type"] in ("spot", "beach"):
         nearby += [p for p in places.values() if p["type"] in ("spot", "beach") and p["slug"] != place["slug"]
                    and p.get("area_ja") == place.get("area_ja") and p not in nearby]
-        nearby += [p for p in places.values() if p["type"] == "chapel" and p.get("area_ja") == place.get("area_ja")]
+        nearby += [p for p in places.values() if p["type"] in ("chapel", "villa") and p.get("area_ja") == place.get("area_ja")]
     if nearby:
         blocks.append('<section class="pl-sec"><h2>附近可以順路</h2><div class="place-grid place-grid-sm">{}</div></section>'.format(
             "".join(place_card(p, prefix) for p in nearby[:6])))
-    if place["type"] == "chapel":
+    if place["type"] in ("chapel", "villa"):
         blocks.append('<section class="pl-sec pl-cta"><h2>想在這裡行禮？</h2><p>挙式方案、見學預約、婚紗旅拍（フォトウェディング）'
                       '都可以直接問官網。第一次聯絡時先講好日期、人數和要不要辦宴會，回覆會快很多。</p>'
                       '<a class="pl-btn pl-btn-main" href="{}" target="_blank" rel="noopener">到 {} 官網 ↗</a></section>'.format(
@@ -1809,12 +1822,12 @@ def guide_entry_html(places):
     counts = {
         "spots": sum(1 for p in places.values() if p["type"] in ("spot", "beach")),
         "chapels": sum(1 for p in places.values() if p["type"] == "chapel"),
-        "venues": sum(1 for p in places.values() if p["type"] == "venue"),
+        "venues": sum(1 for p in places.values() if p["type"] in ("venue", "villa")),
     }
     tiles = [
         ("spots/", "景點與海灘", "{} 個地點，每頁都有當天天氣、海況和附近活動。".format(counts["spots"])),
         ("#postGrid", "一日遊路線", "照著走就能玩完一天，每一站都連到地點頁。"),
-        ("bigdayz/", "BigDayz", "{} 座海邊教堂、{} 間宴會廳，不結婚也能當景點看。".format(counts["chapels"], counts["venues"])),
+        ("bigdayz/", "BigDayz", "{} 座海邊教堂、{} 個宴會場地，不結婚也能當景點看。".format(counts["chapels"], counts["venues"])),
     ]
     return ('  <section class="guide-entry"><div class="shell"><div class="entry-grid">{}</div></div></section>\n').format(
         "".join('<a class="entry-tile" href="{}"><strong>{}</strong><span>{}</span></a>'.format(
@@ -1828,14 +1841,14 @@ def build_places(places, guide_posts):
         urls.append(build_place(place, places, routes))
     spots = [p for p in places.values() if p["type"] in ("spot", "beach")]
     urls.append(build_place_hub(SPOTS_HUB, spots, [("類型", ["景點", "海灘"]), ("地區", ["南部", "中部", "北部", "離島"])]))
-    weddings = [p for p in places.values() if p["type"] in ("chapel", "venue")]
+    weddings = [p for p in places.values() if p["type"] in ("chapel", "venue", "villa")]
     stories = [post for post in guide_posts if "BigDayz" in (post.get("tags") or [])]
     extra = ""
     if stories:
         extra = ('      <h2 class="cards-heading">BigDayz 文章</h2>\n      <div class="post-grid">{}</div>\n').format(
             "".join(post_card(post, "../../") for post in stories))
     urls.append(build_place_hub(BIGDAYZ_HUB, weddings,
-                                [("類型", ["教堂", "宴會廳"]), ("地區", ["中部", "北部"]),
+                                [("類型", ["教堂", "宴會廳", "包棟會場"]), ("地區", ["中部", "北部"]),
                                  ("宴會人數", ["30 人以下", "31–60 人", "60 人以上"])], extra))
     write_redirect("bigdayz", SITE_URL + "guide/bigdayz/")
     write_redirect("bigdayz/okinawa-seaview-chapels", SITE_URL + "guide/okinawa-seaview-chapels/")

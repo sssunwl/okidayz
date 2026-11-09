@@ -211,5 +211,51 @@
    },
    "photo": "https://www.resortwedding.net/okinawa/img_2024/renaissance/more_content01_pic03.jpg"
   }
+ ],
+ "villas": [
+  {
+   "slug": "la-casa-panacea",
+   "name": {
+    "zh": "La Casa Panacea 恩納村海景別墅",
+    "en": "La Casa Panacea Okinawa Resort",
+    "ja": "ラ・カーサ・パナシア 沖縄リゾート恩納村"
+   },
+   "area_ja": "恩納村",
+   "area_zh": "恩納村",
+   "region": "中部",
+   "address": "沖縄県国頭郡恩納村安冨祖1355-1",
+   "summary": "恩納村安富祖海邊一整棟、只有 10 間套房的私人別墅，可以整棟包下來辦婚禮。白天在泳池草地和後面的海灘拍婚紗，晚上直接在泳池露台開派對，派對完就住下來，不用趕最後一班車。",
+   "tips": [
+    "整棟包場：住宿最多 30 人，婚宴最多 60 人。",
+    "後門走 1 分鐘就是海灘，挙式、婚紗照、大合照都可以在沙灘上拍。",
+    "晚上可以續攤到很晚（二次會、after party），下雨時改用館內餐廳。",
+    "衣服、花、攝影、佈置都可以自己帶，不收持込料。",
+    "婚禮方案由 Partyup!Wedding 承辦（旅婚リゾート，2 晚 3 天），費用與檔期以官網報價為準。"
+   ],
+   "photos": [
+    "https://partyup.style/wp-content/uploads/2026/03/IMG_6880.jpg",
+    "https://partyup.style/wp-content/uploads/2026/03/IMG_6909.jpg",
+    "https://partyup.style/wp-content/uploads/2026/03/IMG_6908.jpg",
+    "https://partyup.style/wp-content/uploads/2026/03/IMG_6893.jpg",
+    "https://partyup.style/wp-content/uploads/2026/04/IMG_5312-1.jpg",
+    "https://partyup.style/wp-content/uploads/2026/03/IMG_6910.jpg",
+    "https://partyup.style/wp-content/uploads/2026/04/IMG_5306-2.jpg",
+    "https://partyup.style/wp-content/uploads/2026/04/IMG_5314-1.jpg"
+   ],
+   "capacity_stay": 30,
+   "capacity_max": 60,
+   "good_for": [
+    "白天婚紗照",
+    "晚上派對",
+    "包棟住宿"
+   ],
+   "facilities": "泳池、BBQ 露台、私人海灘、低溫乾式桑拿、餐廳、圖書室",
+   "source": "Partyup!Wedding",
+   "official_url": "https://partyup.style/tabikon-okinawawedding/",
+   "nearby": [
+    "manzamo",
+    "moon-beach"
+   ]
+  }
  ]
 }
