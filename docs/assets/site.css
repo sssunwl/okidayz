@@ -841,7 +841,7 @@ body:has(.ocean-conditions) .ocean-waves{display:block}
 .shell-narrow .route-box{grid-template-columns:1fr}
 
 .guide-entry{padding:4px 0 8px}
-.entry-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.entry-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
 .entry-tile{display:grid;gap:4px;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:#fff;text-decoration:none}
 .entry-tile strong{font-size:1rem}
 .entry-tile span{font-size:.8rem;color:var(--muted)}
@@ -850,7 +850,7 @@ body:has(.ocean-conditions) .ocean-waves{display:block}
 @media (max-width:900px){
   .pl-layout,.route-box{grid-template-columns:1fr}
   .pl-side{position:static}
-  .entry-grid{grid-template-columns:1fr}
+  .entry-grid{grid-template-columns:1fr 1fr}
   .pl-thumbs{grid-template-columns:repeat(4,1fr)}
 }
 @media (max-width:560px){
@@ -871,3 +871,13 @@ body:has(.ocean-conditions) .ocean-waves{display:block}
 @media(max-width:1100px){.pick-grid.pick-row{grid-auto-columns:calc((100% - 3 * 14px) / 4)}}
 @media(max-width:720px){.pick-grid.pick-row{grid-auto-columns:42%}.pick-nav .pick-arrow-btn{display:none}.section-head .pick-nav{margin-left:0}}
 @media(max-width:460px){.pick-grid.pick-row{grid-auto-columns:68%}}
+
+/* 頂部選單子分頁 */
+.nav-group{position:relative;display:flex;align-items:center}
+.nav-sub{position:absolute;top:100%;left:50%;transform:translate(-50%,6px);min-width:150px;padding:8px;margin-top:10px;background:var(--paper);border:2px solid var(--ink);border-radius:12px;box-shadow:4px 5px 0 var(--ink);display:flex;flex-direction:column;opacity:0;visibility:hidden;transition:opacity .15s,transform .15s,visibility .15s;z-index:120}
+.nav-sub::before{content:"";position:absolute;left:0;right:0;top:-14px;height:14px}
+.nav-group:hover .nav-sub,.nav-group:focus-within .nav-sub{opacity:1;visibility:visible;transform:translate(-50%,0)}
+.desktop-nav .nav-sub a{padding:8px 12px;border-radius:8px;font-size:.86rem;white-space:nowrap}
+.desktop-nav .nav-sub a::after{display:none}
+.desktop-nav .nav-sub a:hover{background:var(--sun)}
+.drop-nav a.drop-sub{padding:10px 20px 10px 38px;font-weight:700;font-size:.9rem;color:var(--muted,#6b5e57)}

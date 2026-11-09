@@ -1,0 +1,471 @@
+{
+ "_note": "美食地點頁資料。照片：sample=true 代表不是這間店本身（示意圖）。營業時間不寫，常變。",
+ "cats": [
+  "沖繩麵",
+  "塔可飯・美式",
+  "肉・阿古豬",
+  "海鮮・市場",
+  "甜點・冰",
+  "咖啡・輕食"
+ ],
+ "scenes": [
+  "早餐",
+  "海景",
+  "老店",
+  "雨天OK",
+  "近機場",
+  "順路景點"
+ ],
+ "places": [
+  {
+   "slug": "shuri-soba",
+   "name": {
+    "zh": "首里そば",
+    "en": "Shuri Soba",
+    "ja": "首里そば"
+   },
+   "area_ja": "那覇市",
+   "area_zh": "那霸市",
+   "region": "南部",
+   "cats": [
+    "沖繩麵"
+   ],
+   "scenes": [
+    "老店",
+    "順路景點"
+   ],
+   "summary": "首里城附近巷子裡的沖繩麵店，麵條用傳統方法手打，湯頭清爽。賣完就關，想吃最好中午前到。",
+   "tips": [
+    "中午前後就可能賣完，越早去越保險。",
+    "店在住宅區巷內，沒有大停車場，從首里城走過去比較方便。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Shuri_Soba_Restaurant.JPG/960px-Shuri_Soba_Restaurant.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Shuri_Soba_Restaurant.JPG",
+    "credit": "Abasaa",
+    "license": "Public domain"
+   },
+   "official_url": "",
+   "nearby": [
+    "shurijo"
+   ]
+  },
+  {
+   "slug": "kishimoto-shokudo",
+   "name": {
+    "zh": "岸本食堂 本店",
+    "en": "Kishimoto Shokudo",
+    "ja": "きしもと食堂 本店"
+   },
+   "area_ja": "本部町",
+   "area_zh": "本部町",
+   "region": "北部",
+   "cats": [
+    "沖繩麵"
+   ],
+   "scenes": [
+    "老店",
+    "順路景點"
+   ],
+   "summary": "1905 年開業的老店，還在用木灰水做麵的傳統做法。去美麗海水族館前後順路吃一碗，是北部行程最常見的排法。",
+   "tips": [
+    "假日中午常排隊，錯開正午會好很多。",
+    "八重岳那邊另有分店，本店在渡久地港附近。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Okinawa_soba_restaurant_by_kikmoyoo_in_Okinawa.jpg/960px-Okinawa_soba_restaurant_by_kikmoyoo_in_Okinawa.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Okinawa_soba_restaurant_by_kikmoyoo_in_Okinawa.jpg",
+    "credit": "kikmoyoo",
+    "license": "CC BY-SA 2.0"
+   },
+   "official_url": "",
+   "nearby": [
+    "churaumi",
+    "bise-fukugi"
+   ]
+  },
+  {
+   "slug": "gabusoka-shokudo",
+   "name": {
+    "zh": "我部祖河食堂 本店",
+    "en": "Gabusoka Shokudo",
+    "ja": "我部祖河食堂 本店"
+   },
+   "area_ja": "名護市",
+   "area_zh": "名護市",
+   "region": "北部",
+   "cats": [
+    "沖繩麵"
+   ],
+   "scenes": [
+    "老店"
+   ],
+   "summary": "1966 年開業、以軟骨排骨麵（ソーキそば）出名的食堂，北上路上在名護停一下剛好。",
+   "tips": [
+    "營業到下午，晚餐時段吃不到。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Soki_Soba_at_Takenoko.jpg/960px-Soki_Soba_at_Takenoko.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Soki_Soba_at_Takenoko.jpg",
+    "credit": "Jpatokal",
+    "license": "CC BY-SA 3.0",
+    "sample": true
+   },
+   "official_url": "",
+   "nearby": []
+  },
+  {
+   "slug": "king-tacos-kin",
+   "name": {
+    "zh": "King Tacos 金武本店",
+    "en": "King Tacos Kin",
+    "ja": "キングタコス 金武本店"
+   },
+   "area_ja": "金武町",
+   "area_zh": "金武町",
+   "region": "北部",
+   "cats": [
+    "塔可飯・美式"
+   ],
+   "scenes": [
+    "老店"
+   ],
+   "summary": "塔可飯（タコライス）的發源地就在金武，這間是當地人提到塔可飯第一個想到的店。份量很大，兩個人點一份也可以。",
+   "tips": [
+    "份量大，先點少一點再加。",
+    "附近是美軍基地前的金武新開地，店招與街景很有美國味。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Taco_Rice.jpg/960px-Taco_Rice.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Taco_Rice.jpg",
+    "credit": "Nelo Hotsuma",
+    "license": "CC BY 2.0",
+    "sample": true
+   },
+   "official_url": "",
+   "nearby": []
+  },
+  {
+   "slug": "jef-tomigusuku",
+   "name": {
+    "zh": "Jef 豐見城店",
+    "en": "Jef Tomigusuku",
+    "ja": "ジェフ 豊見城店"
+   },
+   "area_ja": "豊見城市",
+   "area_zh": "豐見城市",
+   "region": "南部",
+   "cats": [
+    "塔可飯・美式"
+   ],
+   "scenes": [
+    "近機場"
+   ],
+   "summary": "沖繩本地的漢堡連鎖，招牌是夾苦瓜炒蛋的「ぬーやるバーガー」。離那霸機場不遠，回程前吃最後一餐很順。",
+   "tips": [
+    "有得來速，趕飛機可以外帶。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Jef_Nuuyaru_Burger_Eaten.jpg/960px-Jef_Nuuyaru_Burger_Eaten.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jef_Nuuyaru_Burger_Eaten.jpg",
+    "credit": "Asamboi",
+    "license": "CC BY-SA 4.0"
+   },
+   "official_url": "",
+   "nearby": []
+  },
+  {
+   "slug": "aw-makiminato",
+   "name": {
+    "zh": "A&W 牧港店",
+    "en": "A&W Makiminato",
+    "ja": "A&W 牧港店"
+   },
+   "area_ja": "浦添市",
+   "area_zh": "浦添市",
+   "region": "中部",
+   "cats": [
+    "塔可飯・美式"
+   ],
+   "scenes": [
+    "老店",
+    "雨天OK"
+   ],
+   "summary": "沖繩人叫它「エンダー」，美軍時代留下來的速食店，牧港店是有得來速的大型店。一定要配一杯沙士（ルートビア），可以續杯。",
+   "tips": [
+    "沙士是沖繩限定的口味，不喝的人會覺得像藥水，先點小杯。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/A%26W_Makiminato.jpg/960px-A%26W_Makiminato.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:A%26W_Makiminato.jpg",
+    "credit": "Abasaa",
+    "license": "Public domain"
+   },
+   "official_url": "https://www.awok.co.jp/",
+   "nearby": []
+  },
+  {
+   "slug": "blueseal-makiminato",
+   "name": {
+    "zh": "Blue Seal 牧港本店",
+    "en": "Blue Seal Makiminato",
+    "ja": "ブルーシール 牧港本店"
+   },
+   "area_ja": "浦添市",
+   "area_zh": "浦添市",
+   "region": "中部",
+   "cats": [
+    "甜點・冰"
+   ],
+   "scenes": [
+    "老店",
+    "雨天OK"
+   ],
+   "summary": "從美軍基地內做起的冰淇淋品牌，牧港這間是本店。紅芋、鹽金楚糕這些沖繩口味全島都吃得到，本店的店面比較大、可以坐。",
+   "tips": [
+    "國際通、機場都有分店，不一定要專程來本店。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/JP_%E6%97%A5%E6%9C%AC_Japan_%E6%B2%96%E7%B9%A9_OKINAWA_Ashibinaa_mall_%E8%B1%90%E8%A6%8B%E5%9F%8E%E5%B8%82_Tomigusuku_shop_Blue_Seal_Ice_Cream_January_2025_R12S_17.jpg/960px-JP_%E6%97%A5%E6%9C%AC_Japan_%E6%B2%96%E7%B9%A9_OKINAWA_Ashibinaa_mall_%E8%B1%90%E8%A6%8B%E5%9F%8E%E5%B8%82_Tomigusuku_shop_Blue_Seal_Ice_Cream_January_2025_R12S_17.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:JP_%E6%97%A5%E6%9C%AC_Japan_%E6%B2%96%E7%B9%A9_OKINAWA_Ashibinaa_mall_%E8%B1%90%E8%A6%8B%E5%9F%8E%E5%B8%82_Tomigusuku_shop_Blue_Seal_Ice_Cream_January_2025_R12S_17.jpg",
+    "credit": "Naha Mama Pavilionz",
+    "license": "CC0",
+    "sample": true
+   },
+   "official_url": "https://www.blueseal.co.jp/",
+   "nearby": []
+  },
+  {
+   "slug": "jackie-steak",
+   "name": {
+    "zh": "Jackie 牛排館",
+    "en": "Jackie Steak House",
+    "ja": "ジャッキーステーキハウス"
+   },
+   "area_ja": "那覇市",
+   "area_zh": "那霸市",
+   "region": "南部",
+   "cats": [
+    "肉・阿古豬"
+   ],
+   "scenes": [
+    "老店"
+   ],
+   "summary": "那霸西町的老牌牛排館，美軍時代開到現在，菜單簡單、價錢實在，是沖繩「宵夜吃牛排」文化的代表。",
+   "tips": [
+    "熱門時段常要排隊，早點去比較好。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/JP_%E6%B2%96%E7%B9%A9_Okinawa_%E5%90%8D%E8%AD%B7_Nago_%E7%89%9B%E6%89%92%E5%B1%8B_Steak_House_Restaurant_dinner_in_January_2026_N13P_204.jpg/960px-JP_%E6%B2%96%E7%B9%A9_Okinawa_%E5%90%8D%E8%AD%B7_Nago_%E7%89%9B%E6%89%92%E5%B1%8B_Steak_House_Restaurant_dinner_in_January_2026_N13P_204.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:JP_%E6%B2%96%E7%B9%A9_Okinawa_%E5%90%8D%E8%AD%B7_Nago_%E7%89%9B%E6%89%92%E5%B1%8B_Steak_House_Restaurant_dinner_in_January_2026_N13P_204.jpg",
+    "credit": "NORTLAUKAU 26088 JP",
+    "license": "CC0",
+    "sample": true
+   },
+   "official_url": "",
+   "nearby": []
+  },
+  {
+   "slug": "ufuya",
+   "name": {
+    "zh": "百年古家 大家",
+    "en": "Ufuya",
+    "ja": "百年古家 大家（うふやー）"
+   },
+   "area_ja": "名護市",
+   "area_zh": "名護市",
+   "region": "北部",
+   "cats": [
+    "肉・阿古豬"
+   ],
+   "scenes": [
+    "老店",
+    "雨天OK"
+   ],
+   "summary": "名護山裡的琉球古民家餐廳，母屋建於 1901 年。招牌是阿古豬涮涮鍋，吃飯的地方本身就是景點。",
+   "tips": [
+    "午餐和晚餐中間有休息，晚餐建議先訂位。",
+    "在山路裡面，自駕比較方便。"
+   ],
+   "photo": null,
+   "official_url": "",
+   "nearby": [
+    "churaumi"
+   ]
+  },
+  {
+   "slug": "tomari-iyumachi",
+   "name": {
+    "zh": "泊魚市場（泊いゆまち）",
+    "en": "Tomari Iyumachi Fish Market",
+    "ja": "泊いゆまち"
+   },
+   "area_ja": "那覇市",
+   "area_zh": "那霸市",
+   "region": "南部",
+   "cats": [
+    "海鮮・市場"
+   ],
+   "scenes": [
+    "早餐"
+   ],
+   "summary": "泊港旁的漁協市場，裡面一攤一攤賣當天的生魚片和海鮮丼，有地方可以坐下來吃。去離島坐船前後順路。",
+   "tips": [
+    "早上去魚最多，下午就少了。",
+    "離泊港碼頭很近，去慶良間的船從這裡出發。"
+   ],
+   "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/JP-47_Naha_Tomari-Pier.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:JP-47_Naha_Tomari-Pier.jpg",
+    "credit": "Flickr user: jetalone / Hajime NAKANO\n\nTokyo, Japan\n\n https:",
+    "license": "CC BY 2.0",
+    "sample": true
+   },
+   "official_url": "",
+   "nearby": []
+  },
+  {
+   "slug": "hamanoya",
+   "name": {
+    "zh": "海鮮料理 浜之家",
+    "en": "Hama no Ie",
+    "ja": "海鮮料理 浜の家"
+   },
+   "area_ja": "恩納村",
+   "area_zh": "恩納村",
+   "region": "中部",
+   "cats": [
+    "海鮮・市場"
+   ],
+   "scenes": [
+    "海景"
+   ],
+   "summary": "恩納村仲泊的海鮮食堂，老闆以前是漁夫，招牌是奶油煎魚和アバサー（刺河豚）湯。住西海岸度假飯店的人很方便。",
+   "tips": [
+    "假日晚餐人多，提早到比較好。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/JP_%E6%97%A5%E6%9C%AC_Japan_%E6%B2%96%E7%B9%A9_OKINAWA_%E9%82%A3%E9%9C%B8_Naha_%E9%AD%9A%E5%B1%8B%E6%B5%B7%E9%AE%AE_Izakaya_%E5%B1%85%E9%85%92%E5%B1%8B%E9%A3%9F%E5%A0%82_Japanese_seafood_restaurant_Sushi_n_Sashimi_February_2026_N13P_04.jpg/960px-JP_%E6%97%A5%E6%9C%AC_Japan_%E6%B2%96%E7%B9%A9_OKINAWA_%E9%82%A3%E9%9C%B8_Naha_%E9%AD%9A%E5%B1%8B%E6%B5%B7%E9%AE%AE_Izakaya_%E5%B1%85%E9%85%92%E5%B1%8B%E9%A3%9F%E5%A0%82_Japanese_seafood_restaurant_Sushi_n_Sashimi_February_2026_N13P_04.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:JP_%E6%97%A5%E6%9C%AC_Japan_%E6%B2%96%E7%B9%A9_OKINAWA_%E9%82%A3%E9%9C%B8_Naha_%E9%AD%9A%E5%B1%8B%E6%B5%B7%E9%AE%AE_Izakaya_%E5%B1%85%E9%85%92%E5%B1%8B%E9%A3%9F%E5%A0%82_Japanese_seafood_restaurant_Sushi_n_Sashimi_February_2026_N13P_04.jpg",
+    "credit": "NORTLAUKAU 26088 JP",
+    "license": "CC0",
+    "sample": true
+   },
+   "official_url": "",
+   "nearby": [
+    "manzamo",
+    "moon-beach"
+   ]
+  },
+  {
+   "slug": "senjichi",
+   "name": {
+    "zh": "千日",
+    "en": "Senjichi",
+    "ja": "千日"
+   },
+   "area_ja": "那覇市",
+   "area_zh": "那霸市",
+   "region": "南部",
+   "cats": [
+    "甜點・冰"
+   ],
+   "scenes": [
+    "老店"
+   ],
+   "summary": "那霸久米的老甜品店，沖繩的「ぜんざい」不是熱紅豆湯，而是金時豆配刨冰。這間開了五十年以上，夏天必排。",
+   "tips": [
+    "沖繩的ぜんざい是冰的，跟日本本州的熱紅豆湯不一樣。"
+   ],
+   "photo": null,
+   "official_url": "",
+   "nearby": []
+  },
+  {
+   "slug": "fujiya-tomari",
+   "name": {
+    "zh": "富士家 泊本店",
+    "en": "Fujiya Tomari",
+    "ja": "ぜんざいの富士家 泊本店"
+   },
+   "area_ja": "那覇市",
+   "area_zh": "那霸市",
+   "region": "南部",
+   "cats": [
+    "甜點・冰"
+   ],
+   "scenes": [],
+   "summary": "泊的ぜんざい專門店，刨冰下面是煮得很軟的金時豆。和泊魚市場離不遠，吃完海鮮可以接著吃冰。",
+   "tips": [],
+   "photo": null,
+   "official_url": "",
+   "nearby": []
+  },
+  {
+   "slug": "hamabe-no-chaya",
+   "name": {
+    "zh": "浜辺の茶屋",
+    "en": "Hamabe no Chaya",
+    "ja": "浜辺の茶屋"
+   },
+   "area_ja": "南城市",
+   "area_zh": "南城市",
+   "region": "南部",
+   "cats": [
+    "咖啡・輕食"
+   ],
+   "scenes": [
+    "海景",
+    "早餐"
+   ],
+   "summary": "1994 年開的海邊咖啡店，窗邊吧檯直接面對太平洋，漲潮時海水就在腳下。早上八點開門，南部一日遊的第一站很適合。",
+   "tips": [
+    "漲潮和退潮看到的景完全不同，可以先查潮汐。",
+    "2025 年整修後重開，營業時間以店家公告為準。"
+   ],
+   "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/%E6%B5%9C%E8%BE%BA%E3%81%AE%E8%8C%B6%E5%B1%8B_%EF%BC%88Hamabe_no_Chaya%29_-_panoramio.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%E6%B5%9C%E8%BE%BA%E3%81%AE%E8%8C%B6%E5%B1%8B_%EF%BC%88Hamabe_no_Chaya)_-_panoramio.jpg",
+    "credit": "popsaurus",
+    "license": "CC BY 3.0"
+   },
+   "official_url": "",
+   "nearby": [
+    "sefa-utaki",
+    "chinen-cape"
+   ]
+  },
+  {
+   "slug": "pork-tamago",
+   "name": {
+    "zh": "豬肉蛋飯糰 本店",
+    "en": "Pork Tamago Onigiri",
+    "ja": "ポークたまごおにぎり本店"
+   },
+   "area_ja": "那覇市",
+   "area_zh": "那霸市",
+   "region": "南部",
+   "cats": [
+    "咖啡・輕食"
+   ],
+   "scenes": [
+    "早餐"
+   ],
+   "summary": "沖繩人早餐常吃的午餐肉煎蛋飯糰，這間把它做成專門店，就在牧志公設市場旁邊。早上逛市場前先買一個。",
+   "tips": [
+    "早上排隊最長，口味很多，可以先在官網看好再去。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Pork_and_tamago_onigiri_001.jpg/960px-Pork_and_tamago_onigiri_001.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pork_and_tamago_onigiri_001.jpg",
+    "credit": "Ocdp",
+    "license": "CC0",
+    "sample": true
+   },
+   "official_url": "https://porktamago.com/",
+   "nearby": [
+    "makishi-market"
+   ]
+  }
+ ]
+}

@@ -1,4 +1,4 @@
-/* 內容區塊：多維 tag 篩選（交集）。一個頁面可以有多組獨立的篩選器＋格子
+/* 內容區塊：多維 tag 篩選（同一排任一符合、不同排要同時符合）。一個頁面可以有多組獨立的篩選器＋格子
    （例如 /goods/ 同時有好物卡片格跟文章格），靠 data-target 對應各自的 grid。 */
 (function () {
   'use strict';
@@ -15,9 +15,19 @@
     function apply() {
       var cards = grid.children;
       var shown = 0;
+      // 同一排（例如「教堂」「宴會廳」）點兩個是「都想看」，不是「兩個條件都要有」
+      var groups = {};
+      active.forEach(function (tag) {
+        var row = filters.querySelector('.tag-chip[data-tag="' + tag.replace(/"/g, '\\"') + '"]');
+        var label = row && row.closest('.filter-row');
+        var key = label ? label.querySelector('.filter-label').textContent : tag;
+        (groups[key] = groups[key] || []).push(tag);
+      });
       for (var i = 0; i < cards.length; i++) {
         var tags = (cards[i].dataset.tags || '').split('|');
-        var match = active.every(function (tag) { return tags.indexOf(tag) >= 0; });
+        var match = Object.keys(groups).every(function (key) {
+          return groups[key].some(function (tag) { return tags.indexOf(tag) >= 0; });
+        });
         cards[i].hidden = !match;
         if (match) shown++;
       }
