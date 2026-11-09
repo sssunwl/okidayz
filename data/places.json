@@ -1,0 +1,560 @@
+{
+ "_note": "地點頁資料(景點)。海灘另外從 data/ocean_spots.json 的 beach 轉進來，這裡的 beach_overrides 只補英文名、市町村與連到哪個即時海況點。內容只寫攻略文章裡已查證過的事，不補未驗證的票價／時間。照片用 tools/spot_photos.py 從 Wikimedia Commons 找可商用授權的，人工看過才留。",
+ "spots": [
+  {
+   "slug": "sefa-utaki",
+   "name": {
+    "zh": "齋場御嶽",
+    "en": "Sefa-utaki",
+    "ja": "斎場御嶽（せーふぁうたき）"
+   },
+   "region": "南部",
+   "area_ja": "南城市",
+   "area_zh": "南城市",
+   "kind": "世界遺產・聖地",
+   "photo_q": "Sefa-utaki",
+   "summary": "琉球王國最重要的聖地，現在是世界遺產。裡面沒有神殿，只有石灰岩、樹林和一道三角形的岩縫，穿過去能看到遠方的久高島。",
+   "tips": [
+    "門票在附近的「南城市地域物產館」買，買完再走過去。",
+    "舊曆的特定日子會休園（給當地人祭祀用），出發前查南城市的公告。",
+    "現在還有人在這裡拜，碰到祭祀請安靜繞過去。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Okinawa_Nanjo_Sefa-utaki_Gusuku_site_Yuinchi_02.jpg/960px-Okinawa_Nanjo_Sefa-utaki_Gusuku_site_Yuinchi_02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Okinawa_Nanjo_Sefa-utaki_Gusuku_site_Yuinchi_02.jpg",
+    "credit": "Hyppolyte de Saint-Rambert",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "slug": "nirai-kanai-bridge",
+   "name": {
+    "zh": "ニライカナイ橋",
+    "en": "Nirai Kanai Bridge",
+    "ja": "ニライカナイ橋"
+   },
+   "region": "南部",
+   "area_ja": "南城市",
+   "area_zh": "南城市",
+   "kind": "景觀道路",
+   "photo_q": "Nirai Kanai Bridge Okinawa",
+   "summary": "從山上往海邊下坡的那條彎道橋。從上往下開的那一段，整片海會在前面打開。",
+   "tips": [
+    "橋上不能停車，想拍照停在橋頭上方的展望處。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Nirai_Kanai_Bridge_202208.jpg/960px-Nirai_Kanai_Bridge_202208.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nirai_Kanai_Bridge_202208.jpg",
+    "credit": "Kugel~commonswiki",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "slug": "chinen-cape",
+   "name": {
+    "zh": "知念岬公園",
+    "en": "Chinen Cape Park",
+    "ja": "知念岬公園"
+   },
+   "region": "南部",
+   "area_ja": "南城市",
+   "area_zh": "南城市",
+   "kind": "海岬・公園",
+   "photo_q": "知念岬",
+   "summary": "一片突出去的草地，前面就是海。沒有門票、沒有商店，坐在階梯上吹風就是全部的行程。",
+   "tips": [
+    "旁邊的「がんじゅう駅・南城」可以休息買飲料。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Cape_Chinen_Park_and_Kudakajima_Island.JPG/960px-Cape_Chinen_Park_and_Kudakajima_Island.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Cape_Chinen_Park_and_Kudakajima_Island.JPG",
+    "credit": "そらみみ",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "slug": "ojima",
+   "name": {
+    "zh": "奧武島",
+    "en": "Ojima Island",
+    "ja": "奥武島"
+   },
+   "region": "南部",
+   "area_ja": "南城市",
+   "area_zh": "南城市",
+   "kind": "小島・天婦羅",
+   "photo_q": "Ou Island Nanjo 202208.jpg",
+   "summary": "靠一座短橋連著本島的小島。島上的天婦羅店現點現炸，魚、花枝、紅芋都有，吃完沿著海堤走一圈大約十分鐘。",
+   "tips": [
+    "排隊很正常。",
+    "天婦羅很燙，拿到海邊吃的話小心老鷹。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Ou_Island_Nanjo_202208.jpg/960px-Ou_Island_Nanjo_202208.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ou_Island_Nanjo_202208.jpg",
+    "credit": "Kugel~commonswiki",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "slug": "senaga-umikaji",
+   "name": {
+    "zh": "瀨長島ウミカジテラス",
+    "en": "Senagajima Umikaji Terrace",
+    "ja": "瀬長島ウミカジテラス"
+   },
+   "region": "南部",
+   "area_ja": "豊見城市",
+   "area_zh": "豐見城市",
+   "kind": "海邊商店街",
+   "photo_q": "Umikaji Terrace Senagajima",
+   "summary": "白色建築沿著山坡蓋在海邊，有咖啡、甜點和小店。離那霸機場很近，飛機會從頭上低低飛過，夕陽時段最熱鬧。",
+   "tips": [
+    "還車前、去機場前順路最剛好。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Umikaji_Terrace_Senagajima.jpg/960px-Umikaji_Terrace_Senagajima.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Umikaji_Terrace_Senagajima.jpg",
+    "credit": "Kugel~commonswiki",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "slug": "makishi-market",
+   "name": {
+    "zh": "牧志公設市場",
+    "en": "Makishi Public Market",
+    "ja": "第一牧志公設市場"
+   },
+   "region": "南部",
+   "area_ja": "那覇市",
+   "area_zh": "那霸市",
+   "kind": "市場",
+   "photo_q": "Fish of Okinawa sold in Makishi First Public Market.JPG",
+   "summary": "一樓挑海鮮，付錢後拿到二樓請熟食店家代為料理，另外付一份加工費。自己選大小和種類，不是看菜單點。",
+   "tips": [
+    "市場周邊很多店週一公休。",
+    "單軌牧志站走過去。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Fish_of_Okinawa_sold_in_Makishi_First_Public_Market.JPG/960px-Fish_of_Okinawa_sold_in_Makishi_First_Public_Market.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Fish_of_Okinawa_sold_in_Makishi_First_Public_Market.JPG",
+    "credit": "さかおり (talk)",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "slug": "tsuboya-yachimun",
+   "name": {
+    "zh": "壺屋やちむん通り",
+    "en": "Tsuboya Yachimun Street",
+    "ja": "壺屋やちむん通り"
+   },
+   "region": "南部",
+   "area_ja": "那覇市",
+   "area_zh": "那霸市",
+   "kind": "陶器街",
+   "photo_q": "Tsuboya Yachimun Street",
+   "summary": "石板路兩側都是陶器（やちむん）工作室。買一個回家真的會用的杯子或碗，比買一堆紀念品實在。",
+   "tips": [
+    "多數店家可以寄送，國際運費要先問清楚。"
+   ],
+   "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Tsuboya_Yachimun_Street.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tsuboya_Yachimun_Street.jpg",
+    "credit": "Hajime NAKANO",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "slug": "shurijo",
+   "name": {
+    "zh": "首里城公園",
+    "en": "Shurijo Castle Park",
+    "ja": "首里城公園"
+   },
+   "region": "南部",
+   "area_ja": "那覇市",
+   "area_zh": "那霸市",
+   "kind": "世界遺產・城跡",
+   "photo_q": "Shureimon 20150211.jpg",
+   "summary": "琉球王國的政治中心。2019 年正殿火災後園區持續重建，開放範圍會調整；城郭、石階與眺望台本身就值得走一趟。",
+   "tips": [
+    "出發前先看官方公告的開放範圍。",
+    "單軌首里站走過去。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Shureimon_20150211.jpg/960px-Shureimon_20150211.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Shureimon_20150211.jpg",
+    "credit": "Suicasmo",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "slug": "kokusai-yatai",
+   "name": {
+    "zh": "國際通屋台村",
+    "en": "Kokusai-dori Yatai Village",
+    "ja": "国際通り屋台村"
+   },
+   "region": "南部",
+   "area_ja": "那覇市",
+   "area_zh": "那霸市",
+   "kind": "小吃攤",
+   "photo_q": "Night at Kokusai-dori 20250503184244.jpg",
+   "summary": "多間小吃攤集合在同一個區塊，營業到深夜。一個人來也不尷尬，適合把白天沒吃到的沖繩家常菜補齊。",
+   "tips": [],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Night_at_Kokusai-dori_20250503184244.jpg/960px-Night_at_Kokusai-dori_20250503184244.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Night_at_Kokusai-dori_20250503184244.jpg",
+    "credit": "TurnOnTheNight",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "slug": "churaumi",
+   "name": {
+    "zh": "美ら海水族館",
+    "en": "Okinawa Churaumi Aquarium",
+    "ja": "沖縄美ら海水族館"
+   },
+   "region": "北部",
+   "area_ja": "本部町",
+   "area_zh": "本部町",
+   "kind": "水族館",
+   "photo_q": "Okinawa Churaumi Aquarium",
+   "summary": "一開門就進去，先看黑潮之海大水槽（鯨鯊在這裡）。海豚表演和海龜館在園區外面，不用另外買票。",
+   "tips": [
+    "十點以後團體客進來會很擠。",
+    "從那霸開車約 2 小時，早上七點前出發。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Okinawa_Aquarium.jpg/960px-Okinawa_Aquarium.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Okinawa_Aquarium.jpg",
+    "credit": "Jordy Meow",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "slug": "bise-fukugi",
+   "name": {
+    "zh": "備瀨福木林道",
+    "en": "Bise Fukugi Tree Road",
+    "ja": "備瀬のフクギ並木"
+   },
+   "region": "北部",
+   "area_ja": "本部町",
+   "area_zh": "本部町",
+   "kind": "村落・林道",
+   "photo_q": "Bise Fukugi",
+   "summary": "水族館旁邊的小村子，兩邊是幾百年的福木樹，路是白沙。可以租腳踏車，或一路走到底的海邊。",
+   "tips": [
+    "夏天樹蔭下比外面涼很多。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Bise_Fukugi_Tree_Road_01.JPG/960px-Bise_Fukugi_Tree_Road_01.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Bise_Fukugi_Tree_Road_01.JPG",
+    "credit": "Abasaa",
+    "license": "Public domain"
+   }
+  },
+  {
+   "slug": "nakijin-castle",
+   "name": {
+    "zh": "今歸仁城跡",
+    "en": "Nakijin Castle Ruins",
+    "ja": "今帰仁城跡"
+   },
+   "region": "北部",
+   "area_ja": "今帰仁村",
+   "area_zh": "今歸仁村",
+   "kind": "世界遺產・城跡",
+   "photo_q": "Nakijin Okinawa Japan Nakikjin-Castle-01.jpg",
+   "summary": "世界遺產之一。城牆是彎彎曲曲的石灰岩，跟日本本島的城很不一樣。走完大約一小時。",
+   "tips": [
+    "一月底到二月初有寒緋櫻。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Nakijin_Okinawa_Japan_Nakikjin-Castle-01.jpg/960px-Nakijin_Okinawa_Japan_Nakikjin-Castle-01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nakijin_Okinawa_Japan_Nakikjin-Castle-01.jpg",
+    "credit": "CEphoto, Uwe Aranas",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "slug": "kouri-bridge",
+   "name": {
+    "zh": "古宇利大橋・古宇利島",
+    "en": "Kouri Bridge & Kouri Island",
+    "ja": "古宇利大橋・古宇利島"
+   },
+   "region": "北部",
+   "area_ja": "今帰仁村",
+   "area_zh": "今歸仁村",
+   "kind": "跨海大橋・小島",
+   "photo_q": "Kouri Bridge",
+   "summary": "連著屋我地島和古宇利島的長橋，開在橋上兩邊都是淺藍色的海。過橋後島上有海灘和小店，繞島一圈大約 15 分鐘。",
+   "tips": [
+    "橋頭的海灘可以停車拍照。",
+    "回那霸大約兩小時，天黑前出發比較輕鬆。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Nago_Okinawa_Kouri-Bridge-02.jpg/960px-Nago_Okinawa_Kouri-Bridge-02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nago_Okinawa_Kouri-Bridge-02.jpg",
+    "credit": "CEphoto, Uwe Aranas",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "slug": "ama-beach",
+   "type": "beach",
+   "name": {
+    "zh": "阿真海灘",
+    "en": "Ama Beach",
+    "ja": "阿真ビーチ"
+   },
+   "region": "離島",
+   "area_ja": "座間味村",
+   "area_zh": "座間味島・慶良間",
+   "kind": "海灘",
+   "photo_q": "阿真ビーチ 座間味",
+   "summary": "座間味港另一邊的海灘，運氣好在淺水區就看得到海龜。",
+   "tips": [
+    "看到海龜保持距離，不要摸、不要追。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Ama_beach_in_Zamami_Island.jpg/960px-Ama_beach_in_Zamami_Island.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ama_beach_in_Zamami_Island.jpg",
+    "credit": "Hashi photo",
+    "license": "CC BY 3.0"
+   }
+  },
+  {
+   "slug": "takatsukiyama",
+   "name": {
+    "zh": "高月山展望台",
+    "en": "Takatsukiyama Observatory",
+    "ja": "高月山展望台"
+   },
+   "region": "離島",
+   "area_ja": "座間味村",
+   "area_zh": "座間味島・慶良間",
+   "kind": "展望台",
+   "photo_q": "高月山展望台",
+   "summary": "座間味島上最好上的展望台，可以看到慶良間的海和小島。",
+   "tips": [
+    "坡很陡，建議在港口租電動腳踏車或機車。",
+    "1 到 3 月是賞鯨季，可以加訂一趟賞鯨船。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Zamamijima.jpg/960px-Zamamijima.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Zamamijima.jpg",
+    "credit": "Si-take. at Japanese Wikipedia(しいたけ)",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "slug": "manzamo",
+   "name": {
+    "zh": "萬座毛",
+    "en": "Cape Manzamo",
+    "ja": "万座毛"
+   },
+   "region": "中部",
+   "area_ja": "恩納村",
+   "area_zh": "恩納村",
+   "kind": "斷崖・海景",
+   "photo_q": "Manzamo",
+   "ocean": "cape-maeda",
+   "summary": "像大象鼻子的斷崖，下面的海是一層一層的藍。步道一圈大約 20 分鐘，入口有停車場和小賣店。",
+   "tips": [
+    "早上九點前人少，光線也順。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Onna_Okinawa_Japan_Cape-Manzamo-01.jpg/960px-Onna_Okinawa_Japan_Cape-Manzamo-01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Onna_Okinawa_Japan_Cape-Manzamo-01.jpg",
+    "credit": "CEphoto, Uwe Aranas",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "slug": "zanpa-cape",
+   "name": {
+    "zh": "殘波岬",
+    "en": "Cape Zanpa",
+    "ja": "残波岬"
+   },
+   "region": "中部",
+   "area_ja": "読谷村",
+   "area_zh": "讀谷村",
+   "kind": "海岬・燈塔",
+   "photo_q": "Cape Zanpa lighthouse",
+   "surf": "zanpa-surf",
+   "summary": "讀谷村最西邊的岬角，白色燈塔旁邊是一整排斷崖。燈塔可以付費爬上去，看完一圈大約 30 分鐘；旁邊的殘波岬公園有大草地和一隻很大的風獅爺。",
+   "tips": [
+    "風很大，帽子要壓好。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Cape_Zampa_Lighthouse_and_rocks_on_Cape_Zampa_2.JPG/960px-Cape_Zampa_Lighthouse_and_rocks_on_Cape_Zampa_2.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Cape_Zampa_Lighthouse_and_rocks_on_Cape_Zampa_2.JPG",
+    "credit": "そらみみ (Soramimi)",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "slug": "yomitan-yachimun",
+   "name": {
+    "zh": "讀谷やちむんの里",
+    "en": "Yomitan Pottery Village",
+    "ja": "読谷やちむんの里"
+   },
+   "region": "中部",
+   "area_ja": "読谷村",
+   "area_zh": "讀谷村",
+   "kind": "陶器工房",
+   "photo_q": "やちむんの里 読谷",
+   "summary": "十幾間陶器工房聚在同一片樹林裡，中間有一座很長的登窯。各家風格不同，逛的時候可以問能不能拿起來看。",
+   "tips": [
+    "買大件可以問寄送，國際運費先問清楚。"
+   ],
+   "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Yomitan_Yachimun_no_Sato.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Yomitan_Yachimun_no_Sato.jpg",
+    "credit": "N",
+    "license": "Public domain"
+   }
+  },
+  {
+   "slug": "minatogawa",
+   "name": {
+    "zh": "港川外人住宅",
+    "en": "Minatogawa Stateside Town",
+    "ja": "港川外人住宅"
+   },
+   "region": "中部",
+   "area_ja": "浦添市",
+   "area_zh": "浦添市",
+   "kind": "咖啡・小店",
+   "photo_q": "港川外人住宅",
+   "summary": "以前給美軍家屬住的白色平房，現在改成咖啡店、甜點店和雜貨店。每條巷子用美國州名命名。",
+   "tips": [
+    "很多店下午五六點就打烊，不要排太晚。"
+   ],
+   "photo": null
+  },
+  {
+   "slug": "american-village",
+   "name": {
+    "zh": "北谷美國村",
+    "en": "American Village",
+    "ja": "美浜アメリカンビレッジ"
+   },
+   "region": "中部",
+   "area_ja": "北谷町",
+   "area_zh": "北谷町",
+   "kind": "商圈・夕陽",
+   "photo_q": "Mihama Town Resort American Village 20160720.jpg",
+   "ocean": "sunabe",
+   "surf": "sunabe-surf",
+   "summary": "海邊那排摩天輪和彩色建築。日落前半小時走到サンセットビーチ旁的海堤，很多人坐成一排一起等夕陽。",
+   "tips": [
+    "週末下午停車場常常滿，想看夕陽就提早一小時到。"
+   ],
+   "photo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Mihama_Town_Resort_American_Village_20160720.jpg/960px-Mihama_Town_Resort_American_Village_20160720.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mihama_Town_Resort_American_Village_20160720.jpg",
+    "credit": "Suikotei",
+    "license": "CC BY-SA 4.0"
+   }
+  }
+ ],
+ "beach_overrides": {
+  "翡翠海灘": {
+   "slug": "emerald-beach",
+   "en": "Emerald Beach",
+   "area_ja": "本部町"
+  },
+  "古宇利海灘": {
+   "slug": "kouri-beach",
+   "en": "Kouri Beach",
+   "area_ja": "今帰仁村"
+  },
+  "瀨底海灘": {
+   "slug": "sesoko-beach",
+   "en": "Sesoko Beach",
+   "area_ja": "本部町"
+  },
+  "備瀨崎": {
+   "slug": "cape-bise",
+   "en": "Cape Bise",
+   "area_ja": "本部町",
+   "ocean": "gorilla-chop"
+  },
+  "美國村日落海灘": {
+   "slug": "sunset-beach",
+   "en": "Sunset Beach",
+   "area_ja": "北谷町",
+   "ocean": "sunabe",
+   "surf": "sunabe-surf"
+  },
+  "安良波海灘": {
+   "slug": "araha-beach",
+   "en": "Araha Beach",
+   "area_ja": "北谷町",
+   "ocean": "sunabe",
+   "surf": "sunabe-surf"
+  },
+  "熱帶海灘": {
+   "slug": "tropical-beach",
+   "en": "Tropical Beach",
+   "area_ja": "宜野湾市"
+  },
+  "殘波海灘": {
+   "slug": "zanpa-beach",
+   "en": "Zanpa Beach",
+   "area_ja": "読谷村",
+   "surf": "zanpa-surf"
+  },
+  "月亮海灘": {
+   "slug": "moon-beach",
+   "en": "Moon Beach",
+   "area_ja": "恩納村",
+   "ocean": "cape-maeda"
+  },
+  "波上海灘": {
+   "slug": "naminoue-beach",
+   "en": "Naminoue Beach",
+   "area_ja": "那覇市"
+  },
+  "美美海灘": {
+   "slug": "mibi-beach",
+   "en": "Mibi Beach Itoman",
+   "area_ja": "糸満市"
+  },
+  "新原海灘": {
+   "slug": "mibaru-beach",
+   "en": "Mibaru Beach",
+   "area_ja": "南城市"
+  },
+  "安座真燦燦海灘": {
+   "slug": "azama-sansan-beach",
+   "en": "Azama Sun Sun Beach",
+   "area_ja": "南城市"
+  },
+  "與那霸前濱": {
+   "slug": "maehama-beach",
+   "en": "Yonaha Maehama Beach",
+   "area_ja": "宮古島"
+  },
+  "古座間味海灘": {
+   "slug": "furuzamami-beach",
+   "en": "Furuzamami Beach",
+   "area_ja": "座間味村"
+  },
+  "川平灣": {
+   "slug": "kabira-bay",
+   "en": "Kabira Bay",
+   "area_ja": "石垣島"
+  }
+ }
+}

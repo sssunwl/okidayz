@@ -4,6 +4,7 @@ slug: kerama-one-day
 summary: 不用住離島也能看到慶良間的海。從那霸泊港坐高速船，在座間味待半天，看海龜、走展望台，傍晚坐船回來。
 tags: [玩, 一天遊, 不自駕, 沖繩外島, 海]
 updated: 2026-11-07
+stops: [furuzamami-beach, ama-beach, takatsukiyama]
 ig:
   cover: 慶良間，一天來回也可以
   slides:

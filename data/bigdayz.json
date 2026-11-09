@@ -1,0 +1,372 @@
+{
+ "_note": "由 tools/bigdayz_sync.py 從 wedding/data/chapels.json 產生，不要手改。",
+ "chapels": [
+  {
+   "slug": "centlegenda-chapel",
+   "name": {
+    "zh": "聖陶芮塔教堂",
+    "en": "Centlegenda Chapel",
+    "ja": "セントレジェンダ OKINAWA"
+   },
+   "area_ja": "北谷町",
+   "area_zh": "北谷町",
+   "region": "中部",
+   "summary": "在北谷美濱，離美國村很近，從那霸過來最近的一座。",
+   "capacity": "95",
+   "aisle_m": 9,
+   "ocean_view": false,
+   "opened": "",
+   "cuisine": "精緻法式料理",
+   "nearby_hotel": "Hilton Okinawa Chatan Resort(徒步3分鐘)",
+   "photos": [
+    "https://wedding.escrit.jp/place/centlegenda/content/wp-content/themes/centlegenda/assets/images/top/mv_01_pc.webp",
+    "https://wedding.escrit.jp/place/centlegenda/content/wp-content/themes/centlegenda/assets/images/top/img_about-01.webp",
+    "https://wedding.escrit.jp/place/centlegenda/content/wp-content/themes/centlegenda/assets/images/top/img_ceremony-01.webp",
+    "https://wedding.escrit.jp/place/centlegenda/content/wp-content/themes/centlegenda/assets/images/top/img_gallery-01.jpg",
+    "https://wedding.escrit.jp/place/centlegenda/content/wp-content/themes/centlegenda/assets/images/top/img_gallery-02.jpg",
+    "https://wedding.escrit.jp/place/centlegenda/content/wp-content/themes/centlegenda/assets/images/top/img_gallery-03.jpg",
+    "https://wedding.escrit.jp/place/centlegenda/content/wp-content/themes/centlegenda/assets/images/top/img_gallery-04.jpg",
+    "https://wedding.escrit.jp/place/centlegenda/content/wp-content/themes/centlegenda/assets/images/top/img_gallery-05.jpg"
+   ],
+   "source": "CENTLEGENDA OKINAWA（Escrit）",
+   "official_url": "https://wedding.escrit.jp/place/centlegenda/",
+   "nearby": [
+    "american-village",
+    "sunset-beach",
+    "araha-beach"
+   ]
+  },
+  {
+   "slug": "lazor-siele-chapel",
+   "name": {
+    "zh": "沖繩希艾爾教堂",
+    "en": "Lazor Siele Chapel",
+    "ja": "ラソール シー リゾート シエール教会"
+   },
+   "area_ja": "読谷村",
+   "area_zh": "讀谷村",
+   "region": "中部",
+   "summary": "2025 年 2 月才開的新教堂，蓋在讀谷都屋的白沙灘旁，挑高玻璃牆整面對著海。",
+   "capacity": "48",
+   "aisle_m": 12,
+   "ocean_view": true,
+   "opened": "2025年2月",
+   "cuisine": "精緻法式料理",
+   "nearby_hotel": "Lazor Sea Resort(徒步2分鐘)",
+   "photos": [
+    "https://www.resortwedding.net/okinawa/img_2024/lazorsea/mv_pc.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/lazorsea/about_bg_pc.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/lazorsea/chapel_pic01.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/lazorsea/chapel_pic02.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/lazorsea/chapel_pic03.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/lazorsea/gallery_pic01.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/lazorsea/gallery_pic02.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/lazorsea/gallery_pic03.jpg"
+   ],
+   "source": "TUTU Resort Wedding",
+   "official_url": "https://www.resortwedding.net/okinawa/lazor-sea/",
+   "nearby": [
+    "yomitan-yachimun",
+    "zanpa-cape"
+   ]
+  },
+  {
+   "slug": "lazor-garden-alivila",
+   "name": {
+    "zh": "克麗絲蒂教堂",
+    "en": "Lazor Garden Alivila Chapel",
+    "ja": "ラソール ガーデン・アリビラ クリスティア教会"
+   },
+   "area_ja": "読谷村",
+   "area_zh": "讀谷村",
+   "region": "中部",
+   "summary": "在日航アリビラ和虹夕諾雅沖繩中間，住這兩間的人散步五分鐘就到。",
+   "capacity": "60",
+   "aisle_m": 12,
+   "ocean_view": true,
+   "opened": "",
+   "cuisine": "精緻法式料理",
+   "nearby_hotel": "Hotel Nikko Alivila(徒步5分鐘)／虹夕諾雅沖繩 Hoshino Resort(徒步5分鐘)",
+   "photos": [
+    "https://www.resortwedding.net/okinawa/img_2024/lazor/mv_pc.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/lazor/about_bg_pc.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/lazor/chapel_pic01.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/lazor/chapel_pic02.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/lazor/chapel_pic03.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/lazor/gallery_pic01.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/lazor/gallery_pic02.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/lazor/gallery_pic03.jpg"
+   ],
+   "source": "TUTU Resort Wedding",
+   "official_url": "https://www.resortwedding.net/okinawa/lazor/",
+   "nearby": [
+    "yomitan-yachimun",
+    "zanpa-cape"
+   ]
+  },
+  {
+   "slug": "alivila-glory-church",
+   "name": {
+    "zh": "沖繩海之耀教堂",
+    "en": "Alivila Glory Chapel",
+    "ja": "アリビラ・グローリー教会"
+   },
+   "area_ja": "読谷村",
+   "area_zh": "讀谷村",
+   "region": "中部",
+   "summary": "紅瓦白牆、尖塔加彩繪玻璃，就在日航アリビラ旁邊，是讀谷海岸線最好認的一座。",
+   "capacity": "100",
+   "aisle_m": 14,
+   "ocean_view": true,
+   "opened": "",
+   "cuisine": "精緻和洋料理",
+   "nearby_hotel": "Hotel Nikko Alivila(徒步3分鐘)",
+   "photos": [
+    "https://www.resortwedding.net/okinawa/img_2024/alivila/mv_pc.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/alivila/about_bg_pc.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/alivila/chapel_pic01.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/alivila/chapel_pic02.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/alivila/chapel_pic03.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/alivila/gallery_pic01.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/alivila/gallery_pic02.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/alivila/gallery_pic03.jpg"
+   ],
+   "source": "TUTU Resort Wedding",
+   "official_url": "https://www.resortwedding.net/okinawa/alivila/",
+   "nearby": [
+    "yomitan-yachimun",
+    "zanpa-cape"
+   ]
+  },
+  {
+   "slug": "aquagrace-wedding-chapel",
+   "name": {
+    "zh": "艾葵雅教堂",
+    "en": "Aquagrace Wedding Chapel",
+    "ja": "ザ・ヨミタンリゾート アクアグレイス・チャペル"
+   },
+   "area_ja": "読谷村",
+   "area_zh": "讀谷村",
+   "region": "中部",
+   "summary": "在殘波岬附近的宇座海灘，順路玩殘波岬燈塔的話可以一起排。",
+   "capacity": "60",
+   "aisle_m": 13,
+   "ocean_view": false,
+   "opened": "",
+   "cuisine": "精緻法式或和式料理",
+   "nearby_hotel": "Grand Mercure Okinawa Cape Zanpa Resort(徒步4分鐘)／The Uza Terrace Beach Club Villas(徒步5分鐘)",
+   "photos": [
+    "https://www.watabe-wedding.co.jp/okinawa/chapel_aqua_grace/img/bg-headvis-chapel-details-0001.jpg",
+    "https://www.watabe-wedding.co.jp/okinawa/chapel_aqua_grace/assets/img/img-chapel-info-0001.jpg",
+    "https://www.watabe-wedding.co.jp/okinawa/chapel_aqua_grace/assets/img/img-chapel-info-0002.jpg",
+    "https://www.watabe-wedding.co.jp/okinawa/chapel_aqua_grace/assets/img/img-chapel-info-0003.jpg",
+    "https://www.watabe-wedding.co.jp/okinawa/chapel_aqua_grace/assets/img/img-chapel-info-0004.jpg",
+    "https://www.watabe-wedding.co.jp/okinawa/chapel_aqua_grace/assets/img/img-chapel-info-0006.jpg",
+    "https://www.watabe-wedding.co.jp/okinawa/chapel_aqua_grace/assets/img/img-chapel-info-0007.jpg",
+    "https://www.watabe-wedding.co.jp/okinawa/chapel_aqua_grace/assets/img/img-chapel-info-0009.jpg"
+   ],
+   "source": "Watabe Wedding",
+   "official_url": "https://www.watabe-wedding.co.jp/okinawa/chapel_aqua_grace/",
+   "nearby": [
+    "zanpa-cape",
+    "zanpa-beach"
+   ]
+  },
+  {
+   "slug": "monterey-lumer-chapel",
+   "name": {
+    "zh": "露梅爾教堂",
+    "en": "Monterey Lumer Chapel",
+    "ja": "モントレ・ルメール教会"
+   },
+   "area_ja": "恩納村",
+   "area_zh": "恩納村",
+   "region": "中部",
+   "summary": "在ホテルモントレ沖縄旁，恩納村西海岸一整排度假飯店的其中一段。",
+   "capacity": "70",
+   "aisle_m": 16,
+   "ocean_view": true,
+   "opened": "",
+   "cuisine": "精緻法式料理",
+   "nearby_hotel": "Hotel Monterey Okinawa Spa & Resort(徒步2分鐘)",
+   "photos": [
+    "https://www.resortwedding.net/okinawa/img_2024/monterey/mv_pc.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/monterey/about_bg_pc.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/monterey/chapel_pic01.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/monterey/chapel_pic02.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/monterey/chapel_pic03.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/monterey/gallery_pic01.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/monterey/gallery_pic02.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/monterey/gallery_pic03.jpg"
+   ],
+   "source": "TUTU Resort Wedding",
+   "official_url": "https://www.resortwedding.net/okinawa/monterey/",
+   "nearby": [
+    "manzamo",
+    "moon-beach"
+   ]
+  },
+  {
+   "slug": "renaissance-ribera-church",
+   "name": {
+    "zh": "海之心教堂",
+    "en": "Renaissance Ribera Church",
+    "ja": "ルネッサンス・リベーラ教会"
+   },
+   "area_ja": "恩納村",
+   "area_zh": "恩納村",
+   "region": "中部",
+   "summary": "離ルネッサンス リゾート オキナワ走路約 5 分鐘，住這間的人最方便順路。",
+   "capacity": "48",
+   "aisle_m": 12,
+   "ocean_view": false,
+   "opened": "",
+   "cuisine": "精緻法式料理",
+   "nearby_hotel": "Renaissance Okinawa Resort(徒步5分鐘)",
+   "photos": [
+    "https://www.resortwedding.net/okinawa/img_2024/renaissance/mv_pc.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/renaissance/about_bg_pc.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/renaissance/chapel_pic01.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/renaissance/chapel_pic02.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/renaissance/chapel_pic03.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/renaissance/gallery_pic01.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/renaissance/gallery_pic02.jpg",
+    "https://www.resortwedding.net/okinawa/img_2024/renaissance/gallery_pic03.jpg"
+   ],
+   "source": "TUTU Resort Wedding",
+   "official_url": "https://www.resortwedding.net/okinawa/renaissance/",
+   "nearby": [
+    "manzamo",
+    "moon-beach"
+   ]
+  },
+  {
+   "slug": "diamond-ocean-chapel",
+   "name": {
+    "zh": "鑽石海洋教堂",
+    "en": "Diamond Ocean Chapel",
+    "ja": "チャペル・ダイアモンドオーシャン"
+   },
+   "area_ja": "恩納村",
+   "area_zh": "恩納村",
+   "region": "中部",
+   "summary": "在沖縄かりゆしビーチリゾート・オーシャンスパ的丘上，全面玻璃往下看海。",
+   "capacity": "60",
+   "aisle_m": 8,
+   "ocean_view": true,
+   "opened": "",
+   "cuisine": "精緻和洋料理",
+   "nearby_hotel": "喜璃癒志海灘渡假飯店(徒步1分鐘)",
+   "photos": [
+    "https://diamond-ocean.jp/cms/wp-content/themes/diamond-ocean/images/top/top__mv_202507_01.jpg",
+    "https://diamond-ocean.jp/cms/wp-content/themes/diamond-ocean/images/top/top__mv_202507_02.jpg",
+    "https://diamond-ocean.jp/cms/wp-content/themes/diamond-ocean/images/top/top__mv_202507_03.jpg",
+    "https://diamond-ocean.jp/cms/wp-content/themes/diamond-ocean/images/top/top__mv_202507_04.jpg",
+    "https://diamond-ocean.jp/cms/wp-content/themes/diamond-ocean/images/top/top__mv_202507_05.jpg"
+   ],
+   "source": "Chapel Diamond Ocean（沖繩かりゆしビーチリゾート）",
+   "official_url": "https://diamond-ocean.jp/",
+   "nearby": [
+    "manzamo"
+   ]
+  },
+  {
+   "slug": "eines-villa-di-nozze-okinawa",
+   "name": {
+    "zh": "五感教堂",
+    "en": "Eines Villa di Nozze Okinawa",
+    "ja": "アイネス ヴィラノッツェ 沖縄"
+   },
+   "area_ja": "名護市",
+   "area_zh": "名護市",
+   "region": "北部",
+   "summary": "名護許田附近，玻璃教堂正對海灘，北上去美麗海水族館前會經過這一帶。",
+   "capacity": "40",
+   "aisle_m": 10,
+   "ocean_view": false,
+   "opened": "",
+   "cuisine": "法式料理 / 沖繩料理",
+   "nearby_hotel": "Hotel Resonex Nago(徒步5分鐘)",
+   "photos": [
+    "https://www.couture-naoco.com/fileadmin/res/eines-okinawa/chapel.jpg",
+    "https://www.couture-naoco.com/fileadmin/res/eines-okinawa/ceremony/ceremony.jpg",
+    "https://www.couture-naoco.com/fileadmin/res/eines-okinawa/beach.jpg",
+    "https://www.couture-naoco.com/fileadmin/res/eines-okinawa/garden.jpg",
+    "https://www.couture-naoco.com/fileadmin/res/eines-okinawa/banquet.jpg",
+    "https://www.couture-naoco.com/fileadmin/res/eines-okinawa/villa.jpg",
+    "https://www.couture-naoco.com/fileadmin/res/eines-okinawa/concepts/1.jpg",
+    "https://www.couture-naoco.com/fileadmin/res/eines-okinawa/concepts/2.jpg"
+   ],
+   "source": "Couture Naoco Wedding",
+   "official_url": "https://www.couture-naoco.com/eines-okinawa/",
+   "nearby": [
+    "churaumi",
+    "bise-fukugi"
+   ]
+  },
+  {
+   "slug": "grand-bleu-chapel",
+   "name": {
+    "zh": "藍色海洋教堂",
+    "en": "Grand Bleu Chapel",
+    "ja": "アイネス ヴィラノッツェ in カヌチャベイ グラン・ブルーチャペル"
+   },
+   "area_ja": "名護市",
+   "area_zh": "名護市",
+   "region": "北部",
+   "summary": "在東海岸的カヌチャリゾート園區裡，跟西海岸那排完全是另一種安靜。",
+   "capacity": "40",
+   "aisle_m": 10,
+   "ocean_view": true,
+   "opened": "",
+   "cuisine": "法式料理／BBQ",
+   "nearby_hotel": "Kanucha Bay Resort(教堂所在地點)",
+   "photos": [
+    "https://www.couture-naoco.com/fileadmin/res/kanucha/hero-1.jpg",
+    "https://www.couture-naoco.com/fileadmin/res/kanucha/hero-2.jpg",
+    "https://www.couture-naoco.com/fileadmin/res/kanucha/hero-3.jpg",
+    "https://www.couture-naoco.com/fileadmin/res/kanucha/hero-4.jpg",
+    "https://www.couture-naoco.com/fileadmin/res/kanucha/concept/concept-img.jpg",
+    "https://www.couture-naoco.com/fileadmin/res/kanucha/top/2022/ceremony-2.jpg",
+    "https://www.couture-naoco.com/fileadmin/res/kanucha/top/2022/ceremony-3.jpg",
+    "https://www.couture-naoco.com/fileadmin/res/kanucha/top/2022/ceremony-4.jpg"
+   ],
+   "source": "Couture Naoco Wedding",
+   "official_url": "https://www.couture-naoco.com/kanucha/",
+   "nearby": []
+  },
+  {
+   "slug": "kouri-island-celeste-chapel",
+   "name": {
+    "zh": "古宇利島天空教堂",
+    "en": "Kouri Island Celeste Chapel",
+    "ja": "古宇利島 空と海の教会"
+   },
+   "area_ja": "今帰仁村",
+   "area_zh": "今歸仁村",
+   "region": "北部",
+   "summary": "過古宇利大橋上島就到，白色三角形屋頂很好認，玩古宇利島可以一起看。",
+   "capacity": "40",
+   "aisle_m": 9,
+   "ocean_view": true,
+   "opened": "",
+   "cuisine": "BBQ或精緻法式",
+   "nearby_hotel": "One Suite THE TERRACE(車程3分鐘)",
+   "photos": [
+    "https://www.watabe-wedding.co.jp/okinawa/chapel_kourijima/img/bg-headvis-chapel-details-0001.jpg",
+    "https://www.watabe-wedding.co.jp/okinawa/chapel_kourijima/img/img-chapel-info-0001.jpg",
+    "https://www.watabe-wedding.co.jp/okinawa/chapel_kourijima/img/img-chapel-info-0002.jpg",
+    "https://www.watabe-wedding.co.jp/okinawa/chapel_kourijima/img/img-chapel-info-0003.jpg",
+    "https://www.watabe-wedding.co.jp/okinawa/chapel_kourijima/img/img-chapel-info-0004.jpg",
+    "https://www.watabe-wedding.co.jp/okinawa/chapel_kourijima/img/img-chapel-info-0005.jpg"
+   ],
+   "source": "Watabe Wedding",
+   "official_url": "https://www.watabe-wedding.co.jp/okinawa/chapel_kourijima/",
+   "nearby": [
+    "kouri-bridge",
+    "kouri-beach",
+    "nakijin-castle"
+   ]
+  }
+ ]
+}

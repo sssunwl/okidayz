@@ -4,6 +4,7 @@ slug: central-west-one-day
 summary: 從恩納往南玩回北谷，萬座毛、殘波岬、讀谷やちむんの里、港川外人住宅，晚上留在美國村看夕陽吃晚餐。
 tags: [玩, 一天遊, 自駕, 沖繩本島, 中部]
 updated: 2026-11-07
+stops: [manzamo, zanpa-cape, yomitan-yachimun, minatogawa, american-village]
 ig:
   cover: 中部西海岸，一路往南玩
   slides:

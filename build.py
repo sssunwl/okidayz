@@ -37,7 +37,6 @@ NAV = [
     ("ocean", "ocean/", "玩水"),
     ("goods", "goods/", "好物"),
     ("okinawa", "okinawa/", "認識沖繩"),
-    ("bigdayz", "bigdayz/", "Big Dayz"),
 ]
 
 # 內容區塊定義：篩選軸決定該區 index 頁出現哪幾排 chip
@@ -52,7 +51,7 @@ SECTIONS = {
         "eyebrow": "Travel Guide",
         "lead": "依主題、旅行方式、月份與地區整理。先挑一個最接近你這趟的方式，再往下看細節。",
         "axes": [
-            ("主題", ["食", "玩", "住", "買", "拍"]),
+            ("主題", ["食", "玩", "住", "買", "拍", "BigDayz"]),
             ("旅行方式", ["一天遊", "自駕", "不自駕", "親子", "情侶", "一人", "三代同行", "長住"]),
             REGION_AXIS,
             ("月份", ["1月", "2月", "3月", "4月", "5月", "6月",
@@ -80,13 +79,6 @@ SECTIONS = {
             REGION_AXIS,
         ],
     },
-    # 不叫婚禮專區：寫的是「在沖繩的大日子」，教堂先當景點寫，每篇最後才接「想在這裡行禮？」
-    "bigdayz": {
-        "title": "Big Dayz｜在沖繩的大日子",
-        "eyebrow": "Big Dayz",
-        "lead": "求婚、婚紗旅拍、教堂行禮、結婚紀念日旅行。就算不結婚，海邊的教堂也值得順路看一眼。",
-        "axes": [("主題", ["求婚", "婚紗旅拍", "教堂", "紀念日"]), REGION_AXIS],
-    },
 }
 
 # 個別好物卡片用的兩軸分類：店舖類型（去哪買）與好物類型（是什麼）。這不是一個
@@ -97,6 +89,7 @@ GOODS_ITEM_AXES = [
 ]
 
 REPORT = {"generated": "", "pages": 0, "skipped": [], "warnings": []}
+PLACES = {}  # build_site 開頭載入；文章頁的路線地點要用
 
 
 def warn(message):
@@ -800,26 +793,7 @@ def goods_items_html(items):
         for tag in (item.get("tags") or []):
             used_tags.add(str(tag))
 
-    rows = []
-    for axis_name, values in GOODS_ITEM_AXES:
-        chips = [tag for tag in values if tag in used_tags]
-        if not chips:
-            continue
-        buttons = "".join(
-            '<button class="tag-chip" type="button" data-tag="{0}">{0}</button>'.format(html.escape(tag))
-            for tag in chips
-        )
-        rows.append('        <div class="filter-row"><span class="filter-label">{}</span>'
-                    '<div class="filter-chips">{}</div></div>'.format(html.escape(axis_name), buttons))
-
-    filters = ""
-    if rows:
-        filters = (
-            '      <div class="filter-block" id="itemFilters" data-target="itemGrid">\n'
-            '        <div class="filter-row"><span class="filter-label">全部</span>'
-            '<div class="filter-chips"><button class="tag-chip active" type="button" data-tag="">看全部</button></div></div>\n'
-            + "\n".join(rows) + "\n      </div>"
-        )
+    filters = filter_bar_html(GOODS_ITEM_AXES, "itemFilters", "itemGrid", used_tags)
 
     cards = "\n".join("        " + goods_item_card(item) for item in items)
 
@@ -1119,24 +1093,7 @@ def build_section(key, posts, extra_block="", show_filters=True, cards_heading="
         for tag in (post.get("tags") or []):
             used_tags.add(str(tag))
 
-    rows = []
-    if show_filters:
-        for axis_name, values in meta["axes"]:
-            chips = [tag for tag in values if tag in used_tags]
-            if not chips:
-                continue
-            buttons = "".join(
-                '<button class="tag-chip" type="button" data-tag="{0}">{0}</button>'.format(html.escape(tag))
-                for tag in chips
-            )
-            rows.append('        <div class="filter-row"><span class="filter-label">{}</span>'
-                        '<div class="filter-chips">{}</div></div>'.format(html.escape(axis_name), buttons))
-    filters = ""
-    if rows:
-        filters = ('      <div class="filter-block" id="postFilters" data-target="postGrid">\n'
-                   '        <div class="filter-row"><span class="filter-label">全部</span>'
-                   '<div class="filter-chips"><button class="tag-chip active" type="button" data-tag="">看全部</button></div></div>\n'
-                   + "\n".join(rows) + "\n      </div>")
+    filters = filter_bar_html(meta["axes"], "postFilters", "postGrid", used_tags) if show_filters else ""
 
     heading = ""
     if cards_heading:
@@ -1188,6 +1145,9 @@ def build_article(post, siblings):
     if post.get("cover"):
         cover = ('      <img class="article-cover" src="{}" alt="" loading="lazy">'
                  .format(html.escape(cover_src(post["cover"], prefix), quote=True)))
+
+    if post.get("stops"):
+        cover = route_stops_html(post, PLACES, prefix) + cover
 
     ig = post.get("ig") or {}
     ig_slot = ""
@@ -1246,7 +1206,8 @@ def build_article(post, siblings):
         str(post.get("summary", "")),
         active=post["section"],
         og_type="article",
-        page_script='<script src="../../assets/ig-carousel.js"></script>' if ig_slot else "",
+        page_script=('<script src="../../assets/ig-carousel.js"></script>' if ig_slot else "")
+        + ('<script src="../../assets/place.js"></script>' if post.get("stops") else ""),
     )
 
 
@@ -1526,6 +1487,361 @@ def write_ig_queue(posts):
     return queue
 
 
+# ── 地點頁（景點／海灘／教堂／宴會廳）───────────────────────────────
+# 文章寫「怎麼玩」，地點頁寫「這個地方」。地點頁的固定資料在 build 時寫好，
+# 右側「今天」面板由 assets/place.js 在瀏覽器讀 events/weather/海況 json，
+# 所以只要那幾份 json 每天更新，每一頁就跟著更新，不會變成死文章。
+
+PLACE_TYPES = {
+    "spot": ("景點", "guide/spots"),
+    "beach": ("海灘", "guide/spots"),
+    "chapel": ("教堂", "guide/bigdayz"),
+    "venue": ("宴會廳", "guide/bigdayz"),
+}
+SPOTS_HUB = ("guide/spots", "景點與海灘", "Spots & Beaches",
+             "每個地方一頁：重點、出發前要知道的事，加上當天的天氣、海況和附近活動。")
+BIGDAYZ_HUB = ("guide/bigdayz", "BigDayz｜在沖繩的大日子", "BigDayz",
+               "求婚、婚紗旅拍、教堂行禮、結婚紀念日旅行。教堂和宴會廳一間一頁，不結婚也可以當景點順路看。")
+
+
+def read_data_json(name, fallback):
+    path = ROOT / "data" / name
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        warn("讀不到 data/{}".format(name))
+        return fallback
+
+
+def load_places():
+    """把四種地點整理成同一個形狀，回傳 {slug: place}（保留加入順序）。"""
+    places = {}
+    raw = read_data_json("places.json", {})
+    for spot in raw.get("spots") or []:
+        place = dict(spot)
+        place.setdefault("type", "spot")
+        place["photos"] = [spot["photo"]] if spot.get("photo") else []
+        place["facts"] = [("類型", spot.get("kind", "")), ("地區", "{}・{}".format(spot["region"], spot["area_zh"]))]
+        places[place["slug"]] = place
+
+    overrides = raw.get("beach_overrides") or {}
+    for beach in read_data_json("ocean_spots.json", {}).get("spots") or []:
+        extra = overrides.get(beach.get("name"))
+        if beach.get("kind") != "beach" or not extra:
+            continue
+        places[extra["slug"]] = {
+            "slug": extra["slug"], "type": "beach",
+            "name": {"zh": beach["name"], "en": extra.get("en", ""), "ja": beach.get("ja", "")},
+            "region": beach.get("region", ""), "area_ja": extra.get("area_ja", ""),
+            "area_zh": beach.get("area", ""), "kind": "海灘",
+            "summary": beach.get("feature", ""), "tips": [beach["tip"]] if beach.get("tip") else [],
+            "photos": [beach["photo"]] if beach.get("photo") else [],
+            "facts": [("適合", beach.get("level", "")), ("季節", beach.get("season", "")),
+                      ("設施", "、".join(beach.get("tags") or [])), ("地區", "{}・{}".format(beach.get("region", ""), beach.get("area", "")))],
+            "ocean": extra.get("ocean"), "surf": extra.get("surf"),
+        }
+
+    bigdayz = read_data_json("bigdayz.json", {})
+    chapels = {}
+    for chapel in bigdayz.get("chapels") or []:
+        credit = {"credit": chapel["source"], "page": chapel["official_url"]}
+        place = dict(chapel)
+        place.update({
+            "type": "chapel", "kind": "教堂",
+            "photos": [dict(credit, url=url) for url in chapel.get("photos") or []],
+            "tips": ["教堂是婚禮場地，室內要看通常得預約見學（ブライダルフェア），日程看官網。",
+                     "白天常有婚禮進行，遇到儀式請不要靠近、不要拍新人。"],
+            "facts": [("容納", "約 {} 人".format(chapel["capacity"])), ("走道", "{} 公尺".format(chapel["aisle_m"])),
+                      ("海景", "有" if chapel.get("ocean_view") else "—"), ("料理", chapel.get("cuisine", "")),
+                      ("開幕", chapel.get("opened", "")), ("附近住宿", chapel.get("nearby_hotel", "")),
+                      ("地區", "{}・{}".format(chapel["region"], chapel["area_zh"]))],
+        })
+        places[place["slug"]] = chapels[place["slug"]] = place
+
+    for venue in read_data_json("bigdayz_venues.json", {}).get("venues") or []:
+        chapel = chapels.get(venue["chapel"])
+        if not chapel:
+            continue
+        flags = venue.get("facilities") or {}
+        places[venue["slug"]] = {
+            "slug": venue["slug"], "type": "venue", "kind": "宴會廳", "parent": chapel["slug"],
+            "name": {"zh": "{}宴會廳".format(chapel["name"]["zh"]), "en": venue["name_en"], "ja": venue["name_ja"]},
+            "title": venue["name_en"],
+            "region": chapel["region"], "area_ja": chapel["area_ja"], "area_zh": chapel["area_zh"],
+            "summary": "{}的宴會廳，可以辦 {}–{} 人的婚宴。走路就能從教堂移動過來。".format(
+                chapel["name"]["zh"], venue["capacity_min"], venue["capacity_max"]),
+            "tips": ["料理、佈置和人數上限以官網或婚禮公司報價為準。"],
+            "photos": [{"url": venue["photo"], "credit": "TUTU Resort Wedding", "page": chapel["official_url"]}],
+            "facts": [("容納", "{}–{} 人".format(venue["capacity_min"], venue["capacity_max"]))]
+                     + [(key, "有" if flags.get(key) else "—") for key in ("音響影像", "包場", "露台")]
+                     + [("所屬教堂", chapel["name"]["zh"])],
+            "capacity_max": venue["capacity_max"],
+            "official_url": chapel["official_url"], "source": chapel["source"],
+        }
+        chapel.setdefault("venues", []).append(venue["slug"])
+
+    for place in places.values():
+        place["path"] = "{}/{}".format(PLACE_TYPES[place["type"]][1], place["slug"])
+    return places
+
+
+def place_title(place):
+    return place.get("title") or place["name"]["zh"]
+
+
+def place_map_url(place):
+    query = re.sub(r"（.*?）", "", place["name"].get("ja") or place["name"]["zh"]) + " " + place.get("area_ja", "")
+    return "https://www.google.com/maps/search/?api=1&query=" + quote(query.strip() + " 沖縄")
+
+
+def place_tags(place):
+    tags = [PLACE_TYPES[place["type"]][0], place.get("region", "")]
+    if place["type"] == "venue":
+        top = place.get("capacity_max", 0)
+        tags.append("30 人以下" if top <= 30 else "31–60 人" if top <= 60 else "60 人以上")
+    return [tag for tag in tags if tag]
+
+
+def place_card(place, prefix):
+    photo = (place.get("photos") or [{}])[0]
+    img = ('<img src="{}" alt="" loading="lazy" decoding="async">'.format(html.escape(photo["url"], quote=True))
+           if photo.get("url") else '<span class="pc-noimg" aria-hidden="true"></span>')
+    sub = place["name"].get("en", "")
+    if place["type"] == "venue":
+        sub = place["name"]["zh"]
+    return (
+        '<a class="place-card" href="{href}" data-tags="{tags}">'
+        '<span class="pc-img">{img}</span>'
+        '<span class="pc-body"><span class="pc-kind">{kind}・{area}</span>'
+        '<strong>{title}</strong><small>{sub}</small></span></a>'
+    ).format(href=prefix + place["path"] + "/", tags=html.escape("|".join(place_tags(place)), quote=True), img=img,
+             kind=html.escape(place.get("kind", "")), area=html.escape(place.get("area_zh", "")),
+             title=html.escape(place_title(place)), sub=html.escape(sub))
+
+
+def filter_bar_html(axes, block_id, target, used_tags=None):
+    """一行式篩選列：每組條件縮成「標籤＋膠囊」排在同一行，組數多時其餘收進「更多條件」。"""
+    groups = []
+    for axis_name, values in axes:
+        chips = [tag for tag in values if used_tags is None or tag in used_tags]
+        if not chips:
+            continue
+        buttons = "".join(
+            '<button class="tag-chip" type="button" data-tag="{0}">{0}</button>'.format(html.escape(tag))
+            for tag in chips)
+        groups.append((len(chips), '<div class="filter-row"><span class="filter-label">{}</span>'
+                       '<div class="filter-chips">{}</div></div>'.format(html.escape(axis_name), buttons)))
+    if not groups:
+        return ""
+    shown, more, total = [], [], 0
+    for count, group in groups:
+        total += count
+        (shown if total <= 10 or not shown else more).append(group)
+    extra = ""
+    if more:
+        extra = ('<details class="filter-more"><summary>更多條件</summary>{}</details>'.format("".join(more)))
+    return ('      <div class="filter-block" id="{}" data-target="{}">'
+            '<button class="tag-chip active" type="button" data-tag="">全部</button>{}{}</div>').format(
+        block_id, target, "".join(shown), extra)
+
+
+def live_panel_html(place, prefix):
+    config = {"prefix": prefix, "area": place.get("area_ja", ""), "region": place.get("region", ""),
+              "ocean": place.get("ocean") or "", "surf": place.get("surf") or ""}
+    return (
+        '<section class="pl-box pl-live" data-place-live="{cfg}" aria-label="今天">'
+        '<div class="pl-box-head"><h2>今天</h2><span data-live-date></span></div>'
+        '<div class="live-row" data-live-weather><span class="live-muted">天氣載入中…</span></div>'
+        '<div class="live-row" data-live-ocean hidden></div>'
+        '<h3>{area}附近的活動</h3>'
+        '<ul class="live-events" data-live-events><li class="live-muted">活動載入中…</li></ul>'
+        '<a class="live-more" href="{prefix}events/">看全部活動 →</a>'
+        '</section>'
+    ).format(cfg=html.escape(json.dumps(config, ensure_ascii=False), quote=True),
+             area=html.escape(place.get("area_zh") or place.get("region", "")), prefix=prefix)
+
+
+def place_photos_html(place):
+    photos = place.get("photos") or []
+    if not photos:
+        return '<div class="pl-hero pl-hero-empty" aria-hidden="true"></div>'
+
+    def credit(photo):
+        text = "© {}".format(photo.get("credit", "")) + ("・{}".format(photo["license"]) if photo.get("license") else "")
+        if photo.get("page"):
+            return '<a href="{}" target="_blank" rel="noopener">{}</a>'.format(html.escape(photo["page"], quote=True), html.escape(text))
+        return html.escape(text)
+
+    first = photos[0]
+    hero = ('<figure class="pl-hero"><img src="{}" alt="{}" decoding="async">'
+            '<figcaption class="pl-credit">{}</figcaption></figure>').format(
+        html.escape(first["url"], quote=True), html.escape(place_title(place)), credit(first))
+    thumbs = ""
+    if len(photos) > 1:
+        thumbs = '<div class="pl-thumbs">{}</div>'.format("".join(
+            '<img src="{}" alt="" loading="lazy" decoding="async">'.format(html.escape(p["url"], quote=True))
+            for p in photos[1:7]))
+    return hero + thumbs
+
+
+def build_place(place, places, routes):
+    type_label, base = PLACE_TYPES[place["type"]]
+    prefix = "../../../"
+    hub = BIGDAYZ_HUB if base == BIGDAYZ_HUB[0] else SPOTS_HUB
+    crumbs = ('<a href="{0}">首頁</a><span>/</span><a href="{0}guide/">攻略</a><span>/</span>'
+              '<a href="{0}{1}/">{2}</a>').format(prefix, hub[0], html.escape(hub[1].split("｜")[0]))
+
+    names = [place["name"].get(key) for key in ("en", "ja")]
+    if place["type"] == "venue":
+        names = [place["name"]["ja"], place["name"]["zh"]]
+    actions = ['<a class="pl-btn" href="{}" target="_blank" rel="noopener">在 Google 地圖打開 ↗</a>'.format(
+        html.escape(place_map_url(place), quote=True))]
+    if place.get("official_url"):
+        actions.append('<a class="pl-btn pl-btn-main" href="{}" target="_blank" rel="noopener">官網 ↗</a>'.format(
+            html.escape(place["official_url"], quote=True)))
+
+    blocks = ['<section class="pl-sec"><h2>概要</h2><p>{}</p></section>'.format(html.escape(place.get("summary", "")))]
+    if place.get("tips"):
+        blocks.append('<section class="pl-sec"><h2>出發前知道</h2><ul class="pl-list">{}</ul></section>'.format(
+            "".join("<li>{}</li>".format(html.escape(tip)) for tip in place["tips"])))
+    if place.get("venues"):
+        blocks.append('<section class="pl-sec"><h2>宴會廳</h2><div class="place-grid place-grid-sm">{}</div></section>'.format(
+            "".join(place_card(places[slug], prefix) for slug in place["venues"])))
+    if place.get("parent"):
+        parent = places[place["parent"]]
+        siblings = [places[s] for s in parent.get("venues", []) if s != place["slug"]]
+        blocks.append('<section class="pl-sec"><h2>所屬教堂</h2><div class="place-grid place-grid-sm">{}</div></section>'.format(
+            place_card(parent, prefix)))
+        if siblings:
+            blocks.append('<section class="pl-sec"><h2>同一間的其他宴會廳</h2><div class="place-grid place-grid-sm">{}</div></section>'.format(
+                "".join(place_card(s, prefix) for s in siblings)))
+    in_routes = [post for post in routes if place["slug"] in (post.get("stops") or [])]
+    if in_routes:
+        blocks.append('<section class="pl-sec"><h2>收錄在這些路線</h2><ul class="pl-routes">{}</ul></section>'.format(
+            "".join('<li><a href="{}">{}</a><span>{}</span></li>'.format(
+                post_href(post, prefix), html.escape(str(post["title"])), html.escape(str(post.get("summary", ""))[:46] + "…"))
+                for post in in_routes)))
+    nearby = [places[s] for s in place.get("nearby", []) if s in places]
+    if place["type"] in ("spot", "beach"):
+        nearby += [p for p in places.values() if p["type"] in ("spot", "beach") and p["slug"] != place["slug"]
+                   and p.get("area_ja") == place.get("area_ja") and p not in nearby]
+        nearby += [p for p in places.values() if p["type"] == "chapel" and p.get("area_ja") == place.get("area_ja")]
+    if nearby:
+        blocks.append('<section class="pl-sec"><h2>附近可以順路</h2><div class="place-grid place-grid-sm">{}</div></section>'.format(
+            "".join(place_card(p, prefix) for p in nearby[:6])))
+    if place["type"] == "chapel":
+        blocks.append('<section class="pl-sec pl-cta"><h2>想在這裡行禮？</h2><p>挙式方案、見學預約、婚紗旅拍（フォトウェディング）'
+                      '都可以直接問官網。第一次聯絡時先講好日期、人數和要不要辦宴會，回覆會快很多。</p>'
+                      '<a class="pl-btn pl-btn-main" href="{}" target="_blank" rel="noopener">到 {} 官網 ↗</a></section>'.format(
+                          html.escape(place["official_url"], quote=True), html.escape(place["source"])))
+
+    facts = "".join('<div><dt>{}</dt><dd>{}</dd></div>'.format(html.escape(k), html.escape(str(v)))
+                    for k, v in place.get("facts", []) if v)
+    main = (
+        '  <article class="pl">\n    <div class="shell">\n'
+        '      <nav class="breadcrumb" aria-label="麵包屑">{crumbs}</nav>\n'
+        '      <header class="pl-head"><p class="pl-kind">{kind}・{region}・{area}</p>'
+        '<h1>{title}</h1><p class="pl-names">{names}</p><div class="pl-actions">{actions}</div></header>\n'
+        '      <div class="pl-layout">\n'
+        '        <div class="pl-main">{photos}{blocks}'
+        '<p class="pl-note">資訊會變動，出發前請以官方公告為準。本頁由 AI 自動整理。</p></div>\n'
+        '        <aside class="pl-side">{live}<section class="pl-box"><div class="pl-box-head"><h2>基本資料</h2></div>'
+        '<dl class="pl-facts">{facts}</dl></section></aside>\n'
+        '      </div>\n    </div>\n  </article>\n'
+    ).format(crumbs=crumbs, kind=html.escape(place.get("kind") or type_label), region=html.escape(place.get("region", "")),
+             area=html.escape(place.get("area_zh", "")), title=html.escape(place_title(place)),
+             names="".join('<span>{}</span>'.format(html.escape(n)) for n in names if n),
+             actions="".join(actions), photos=place_photos_html(place), blocks="".join(blocks),
+             live=live_panel_html(place, prefix), facts=facts)
+    description = "{}（{}）：{}".format(place_title(place), " / ".join(n for n in names if n), place.get("summary", ""))[:150]
+    return render_page(place["path"], main, "{}｜OkiDayz".format(place_title(place)), description,
+                       active="guide", body_class="page-place",
+                       page_script='<script src="{}assets/place.js"></script>'.format(prefix))
+
+
+def build_place_hub(hub, items, axes, extra_html=""):
+    path, title, eyebrow, lead = hub
+    prefix = "../../"
+    used = set(tag for item in items for tag in place_tags(item))
+    main = (
+        '  <section class="page-head page-head-tight"><div class="shell">'
+        '<nav class="breadcrumb" aria-label="麵包屑"><a href="{p}">首頁</a><span>/</span><a href="{p}guide/">攻略</a></nav>'
+        '<div class="eyebrow">{eyebrow}</div><h1>{title}</h1><p>{lead}</p></div></section>\n'
+        '  <section class="post-section"><div class="shell">\n{filters}\n'
+        '      <div class="place-grid" id="placeGrid">{cards}</div>\n'
+        '      <div class="empty-state" id="placeEmpty" hidden><strong>這個組合暫時沒有地點</strong>換個條件再看看。</div>\n'
+        '{extra}    </div></section>\n'
+    ).format(p=prefix, eyebrow=html.escape(eyebrow), title=html.escape(title), lead=html.escape(lead),
+             filters=filter_bar_html(axes, "placeFilters", "placeGrid", used),
+             cards="".join(place_card(item, prefix) for item in items), extra=extra_html)
+    return render_page(path, main, "{}｜OkiDayz".format(title), lead, active="guide",
+                       page_script='<script src="{}assets/section.js"></script>'.format(prefix))
+
+
+def route_stops_html(post, places, prefix):
+    stops = [places[s] for s in (post.get("stops") or []) if s in places]
+    if not stops:
+        return ""
+    areas = [s.get("area_ja") for s in stops]
+    first = stops[0]
+    live_place = {"area_ja": "|".join(dict.fromkeys(a for a in areas if a)), "region": first.get("region", ""),
+                  "area_zh": "沿路", "ocean": next((s.get("ocean") for s in stops if s.get("ocean")), ""),
+                  "surf": next((s.get("surf") for s in stops if s.get("surf")), "")}
+    cards = "".join(
+        '<li><span class="rs-no">{n}</span>{card}</li>'.format(n=i + 1, card=place_card(stop, prefix))
+        for i, stop in enumerate(stops))
+    return ('      <div class="route-box"><section class="route-stops" aria-label="路線上的地點">'
+            '<h2>這條路線的 {n} 個地點</h2><ol>{cards}</ol></section>{live}</div>\n').format(
+        n=len(stops), cards=cards, live=live_panel_html(live_place, prefix))
+
+
+def write_redirect(path, target):
+    """舊網址留一頁轉址，不讓已分享出去的連結變 404。"""
+    folder = DOCS / path
+    folder.mkdir(parents=True, exist_ok=True)
+    (folder / "index.html").write_text(
+        '<!doctype html><meta charset="utf-8"><title>已搬家｜OkiDayz</title>'
+        '<link rel="canonical" href="{0}"><meta http-equiv="refresh" content="0; url={0}">'
+        '<p>這一頁搬到 <a href="{0}">{0}</a>。</p>'.format(html.escape(target, quote=True)), encoding="utf-8")
+
+
+def guide_entry_html(places):
+    counts = {
+        "spots": sum(1 for p in places.values() if p["type"] in ("spot", "beach")),
+        "chapels": sum(1 for p in places.values() if p["type"] == "chapel"),
+        "venues": sum(1 for p in places.values() if p["type"] == "venue"),
+    }
+    tiles = [
+        ("spots/", "景點與海灘", "{} 個地點，每頁都有當天天氣、海況和附近活動。".format(counts["spots"])),
+        ("#postGrid", "一日遊路線", "照著走就能玩完一天，每一站都連到地點頁。"),
+        ("bigdayz/", "BigDayz", "{} 座海邊教堂、{} 間宴會廳，不結婚也能當景點看。".format(counts["chapels"], counts["venues"])),
+    ]
+    return ('  <section class="guide-entry"><div class="shell"><div class="entry-grid">{}</div></div></section>\n').format(
+        "".join('<a class="entry-tile" href="{}"><strong>{}</strong><span>{}</span></a>'.format(
+            href, html.escape(title), html.escape(text)) for href, title, text in tiles))
+
+
+def build_places(places, guide_posts):
+    urls = []
+    routes = [post for post in guide_posts if post.get("stops")]
+    for place in places.values():
+        urls.append(build_place(place, places, routes))
+    spots = [p for p in places.values() if p["type"] in ("spot", "beach")]
+    urls.append(build_place_hub(SPOTS_HUB, spots, [("類型", ["景點", "海灘"]), ("地區", ["南部", "中部", "北部", "離島"])]))
+    weddings = [p for p in places.values() if p["type"] in ("chapel", "venue")]
+    stories = [post for post in guide_posts if "BigDayz" in (post.get("tags") or [])]
+    extra = ""
+    if stories:
+        extra = ('      <h2 class="cards-heading">BigDayz 文章</h2>\n      <div class="post-grid">{}</div>\n').format(
+            "".join(post_card(post, "../../") for post in stories))
+    urls.append(build_place_hub(BIGDAYZ_HUB, weddings,
+                                [("類型", ["教堂", "宴會廳"]), ("地區", ["中部", "北部"]),
+                                 ("宴會人數", ["30 人以下", "31–60 人", "60 人以上"])], extra))
+    write_redirect("bigdayz", SITE_URL + "guide/bigdayz/")
+    write_redirect("bigdayz/okinawa-seaview-chapels", SITE_URL + "guide/okinawa-seaview-chapels/")
+    return urls
+
+
 def write_sitemap(urls):
     entries = "".join("  <url><loc>{}</loc></url>\n".format(html.escape(url, quote=True)) for url in urls)
     (DOCS / "sitemap.xml").write_text(
@@ -1590,6 +1906,8 @@ def build_site(events=None, weather=None, updated=None):
     surf_conditions = read_json("surf-conditions.json", {})
 
     posts = load_content()
+    PLACES.clear()
+    PLACES.update(load_places())
     goods_items = load_goods_items()
     months = load_months()
     copy_assets()
@@ -1635,11 +1953,15 @@ def build_site(events=None, weather=None, updated=None):
             cards_heading = "深度好物指南"
         if key == "okinawa":
             extra_block = region_intro_html()
+        if key == "guide":
+            extra_block = guide_entry_html(PLACES)
         build_section(key, posts.get(key) or [], extra_block=extra_block,
                        show_filters=show_filters, cards_heading=cards_heading)
         urls.append(SITE_URL + key + "/")
         for post in posts.get(key) or []:
             urls.append(build_article(post, posts.get(key) or []))
+
+    urls += build_places(PLACES, posts.get("guide") or [])
 
     queue = write_ig_queue(posts)
     write_sitemap(urls)

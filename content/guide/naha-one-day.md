@@ -4,6 +4,7 @@ slug: naha-one-day
 summary: 不開車、不跨區，用單軌電車加走路把那霸走順一天的排法。
 tags: [玩, 一天遊, 不自駕, 沖繩本島, 南部, 那霸]
 updated: 2026-07-26
+stops: [makishi-market, tsuboya-yachimun, shurijo, naminoue-beach, kokusai-yatai]
 ig:
   cover: 那霸一天遊｜不開車也順
   slides:

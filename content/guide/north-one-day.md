@@ -4,6 +4,7 @@ slug: north-one-day
 summary: 從那霸開兩小時到本部，美ら海水族館一開門就進去，接著走備瀨福木林道、今歸仁城跡，最後開上古宇利大橋。
 tags: [玩, 一天遊, 自駕, 沖繩本島, 北部, 親子]
 updated: 2026-11-07
+stops: [churaumi, bise-fukugi, nakijin-castle, kouri-bridge]
 ig:
   cover: 北部一天，早起就賺到
   slides:

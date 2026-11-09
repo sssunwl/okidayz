@@ -1,0 +1,215 @@
+{
+ "_note": "宴會廳資料取自 TUTU Resort Wedding 各教堂頁的 PARTY SPACE 區(2026-11-09)，照片直連官網。",
+ "venues": [
+  {
+   "slug": "venue-lazorsea-azalea",
+   "chapel": "lazor-siele-chapel",
+   "name_en": "AZALEA",
+   "name_ja": "アゼリア",
+   "capacity_min": 6,
+   "capacity_max": 30,
+   "facilities": {
+    "音響影像": true,
+    "包場": true,
+    "露台": true
+   },
+   "photo": "https://www.resortwedding.net/okinawa/img_2024/lazorsea/more_content01_pic01.jpg"
+  },
+  {
+   "slug": "venue-lazorsea-camellia",
+   "chapel": "lazor-siele-chapel",
+   "name_en": "CAMELLIA",
+   "name_ja": "カメリア",
+   "capacity_min": 6,
+   "capacity_max": 50,
+   "facilities": {
+    "音響影像": true,
+    "包場": true,
+    "露台": true
+   },
+   "photo": "https://www.resortwedding.net/okinawa/img_2024/lazorsea/more_content01_pic02.jpg"
+  },
+  {
+   "slug": "venue-lazorsea-fiore",
+   "chapel": "lazor-siele-chapel",
+   "name_en": "FIORE",
+   "name_ja": "フィオーレ",
+   "capacity_min": 6,
+   "capacity_max": 130,
+   "facilities": {
+    "音響影像": true,
+    "包場": true,
+    "露台": true
+   },
+   "photo": "https://www.resortwedding.net/okinawa/img_2024/lazorsea/more_content01_pic03.jpg"
+  },
+  {
+   "slug": "venue-lazor-azalea-camelia",
+   "chapel": "lazor-garden-alivila",
+   "name_en": "AZALEA / CAMELIA",
+   "name_ja": "アゼリア / カメリア",
+   "capacity_min": 6,
+   "capacity_max": 30,
+   "facilities": {
+    "音響影像": true,
+    "包場": true,
+    "露台": true
+   },
+   "photo": "https://www.resortwedding.net/okinawa/img_2024/lazor/more_content01_pic01.jpg"
+  },
+  {
+   "slug": "venue-lazor-gracia",
+   "chapel": "lazor-garden-alivila",
+   "name_en": "GRACIA",
+   "name_ja": "グラシア",
+   "capacity_min": 6,
+   "capacity_max": 30,
+   "facilities": {
+    "音響影像": true,
+    "包場": true,
+    "露台": true
+   },
+   "photo": "https://www.resortwedding.net/okinawa/img_2024/lazor/more_content01_pic02.jpg"
+  },
+  {
+   "slug": "venue-lazor-fiore",
+   "chapel": "lazor-garden-alivila",
+   "name_en": "FIORE",
+   "name_ja": "フィオーレ",
+   "capacity_min": 31,
+   "capacity_max": 150,
+   "facilities": {
+    "音響影像": true,
+    "包場": true,
+    "露台": true
+   },
+   "photo": "https://www.resortwedding.net/okinawa/img_2024/lazor/more_content01_pic03.jpg"
+  },
+  {
+   "slug": "venue-alivila-verdemar",
+   "chapel": "alivila-glory-church",
+   "name_en": "VERDEMAR",
+   "name_ja": "ベルデマール",
+   "capacity_min": 6,
+   "capacity_max": 60,
+   "facilities": {
+    "音響影像": true,
+    "包場": true,
+    "露台": false
+   },
+   "photo": "https://www.resortwedding.net/okinawa/img_2024/alivila/more_content01_pic01.jpg"
+  },
+  {
+   "slug": "venue-alivila-azul",
+   "chapel": "alivila-glory-church",
+   "name_en": "AZUL",
+   "name_ja": "アズール",
+   "capacity_min": 16,
+   "capacity_max": 48,
+   "facilities": {
+    "音響影像": true,
+    "包場": true,
+    "露台": true
+   },
+   "photo": "https://www.resortwedding.net/okinawa/img_2024/alivila/more_content01_pic02.jpg"
+  },
+  {
+   "slug": "venue-monterey-maple",
+   "chapel": "monterey-lumer-chapel",
+   "name_en": "MAPLE",
+   "name_ja": "メイプル",
+   "capacity_min": 6,
+   "capacity_max": 14,
+   "facilities": {
+    "音響影像": true,
+    "包場": true,
+    "露台": true
+   },
+   "photo": "https://www.resortwedding.net/okinawa/img_2024/monterey/more_content01_pic01.jpg"
+  },
+  {
+   "slug": "venue-monterey-snowberry",
+   "chapel": "monterey-lumer-chapel",
+   "name_en": "SNOWBERRY",
+   "name_ja": "スノーベリー",
+   "capacity_min": 6,
+   "capacity_max": 58,
+   "facilities": {
+    "音響影像": true,
+    "包場": true,
+    "露台": true
+   },
+   "photo": "https://www.resortwedding.net/okinawa/img_2024/monterey/more_content01_pic02.jpg"
+  },
+  {
+   "slug": "venue-monterey-escale",
+   "chapel": "monterey-lumer-chapel",
+   "name_en": "ESCALE",
+   "name_ja": "エスカーレ",
+   "capacity_min": 6,
+   "capacity_max": 58,
+   "facilities": {
+    "音響影像": true,
+    "包場": true,
+    "露台": false
+   },
+   "photo": "https://www.resortwedding.net/okinawa/img_2024/monterey/more_content01_pic03.jpg"
+  },
+  {
+   "slug": "venue-monterey-kensington",
+   "chapel": "monterey-lumer-chapel",
+   "name_en": "KENSINGTON",
+   "name_ja": "ケンジントン",
+   "capacity_min": 6,
+   "capacity_max": 100,
+   "facilities": {
+    "音響影像": true,
+    "包場": true,
+    "露台": false
+   },
+   "photo": "https://www.resortwedding.net/okinawa/img_2024/monterey/more_content01_pic04.jpg"
+  },
+  {
+   "slug": "venue-renaissance-four-seasons",
+   "chapel": "renaissance-ribera-church",
+   "name_en": "FOUR SEASONS",
+   "name_ja": "フォーシーズン",
+   "capacity_min": 6,
+   "capacity_max": 70,
+   "facilities": {
+    "音響影像": true,
+    "包場": true,
+    "露台": true
+   },
+   "photo": "https://www.resortwedding.net/okinawa/img_2024/renaissance/more_content01_pic01.jpg"
+  },
+  {
+   "slug": "venue-renaissance-anvil-house",
+   "chapel": "renaissance-ribera-church",
+   "name_en": "ANVIL HOUSE",
+   "name_ja": "アンビルハウス",
+   "capacity_min": 6,
+   "capacity_max": 50,
+   "facilities": {
+    "音響影像": true,
+    "包場": true,
+    "露台": true
+   },
+   "photo": "https://www.resortwedding.net/okinawa/img_2024/renaissance/more_content01_pic02.jpg"
+  },
+  {
+   "slug": "venue-renaissance-pool-side",
+   "chapel": "renaissance-ribera-church",
+   "name_en": "POOL SIDE",
+   "name_ja": "プールサイド",
+   "capacity_min": 20,
+   "capacity_max": 80,
+   "facilities": {
+    "音響影像": true,
+    "包場": true,
+    "露台": false
+   },
+   "photo": "https://www.resortwedding.net/okinawa/img_2024/renaissance/more_content01_pic03.jpg"
+  }
+ ]
+}

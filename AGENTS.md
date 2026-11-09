@@ -35,6 +35,7 @@
 
 ## Big Dayz（2026-11-09 開）
 
-- 「在沖繩的大日子」欄目（`content/bigdayz/`，導覽列 Big Dayz）：求婚 → 婚紗旅拍 → 教堂行禮 → 紀念日旅行。**不叫婚禮專區**，教堂先當景點寫，每篇最後才接「想在這裡行禮？」。流量起來再照規則獨立成「沖繩婚禮誌」。
-- 教堂地圖文章由 `tools/bigdayz_chapels.py` 從 `../wedding/data/chapels.json` 產生；照片只用各教堂／婚宴場地官網圖（直連，每張標官網出處），不用 JWC 客戶的圖。
+- BigDayz（一個字，放在「攻略」底下，不另開導覽列）：求婚 → 婚紗旅拍 → 教堂行禮 → 紀念日旅行。**不叫婚禮專區**，教堂先當景點寫，每頁最後才接「想在這裡行禮？」。流量起來再照規則獨立成「沖繩婚禮誌」。
+- 地點頁（build.py `load_places`）：景點／海灘 → `guide/spots/<slug>/`（資料 `data/places.json`），教堂／婚宴場地 → `guide/bigdayz/<slug>/`（`data/bigdayz.json`、`data/bigdayz_venues.json`）。頁上「今天」面板由 `assets/place.js` 在瀏覽器讀 events/weather/海況 json，不必重 build。一日遊文章用 front matter `stops:` 串地點頁。
+- 教堂資料由 `tools/bigdayz_sync.py` 從 `../wedding/data/chapels.json` 同步（本機跑，產 `data/bigdayz.json` 與教堂地圖文章）；照片只用各教堂／婚宴場地官網圖（直連，每張標小字出處），不用 JWC 客戶的圖。景點照片用 Commons（`tools/spot_photos.py`，標作者與授權）。
 - 文章 `cover` 可以填完整 https 網址（場地官網圖），不一定要放 `assets/covers/`。

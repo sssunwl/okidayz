@@ -4,6 +4,7 @@ slug: south-one-day
 summary: 從那霸開車半小時就到的南城，一天把齋場御嶽、ニライカナイ橋、奧武島和瀨長島串起來，晚上順路回機場附近。
 tags: [玩, 一天遊, 自駕, 沖繩本島, 南部]
 updated: 2026-11-07
+stops: [sefa-utaki, nirai-kanai-bridge, chinen-cape, ojima, senaga-umikaji]
 ig:
   cover: 南部一天，不用開很遠
   slides:
