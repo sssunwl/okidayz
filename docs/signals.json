@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-10T13:14:22+09:00",
+  "generated_at": "2026-11-10T13:31:48+09:00",
   "items": [
     {
       "id": "event-c32fc895",
       "kind": "event",
       "title": "座間味村賞鯨",
-      "summary": "冬の沖縄で恒例の「ホエールウォッチングツアー」は、約2時間の行程で、慶良間諸島の座間味村から出航します。展望台から監視員がクジラを見つけて船に誘導するため、効率よくクジラ...",
+      "summary": "每年冬季的沖繩賞鯨之旅大約需要 2 小時，從慶良間群島的座間味村出發。救生員從觀測台發現鯨魚並引導它們到船上，這樣他們就可以有效率地捕捉鯨魚…",
       "source": "jalan",
       "url": "https://www.jalan.net/event/evt_366167/",
       "date": "2027-01-08",
@@ -306,7 +306,7 @@
       "first_seen": null
     },
     {
-      "id": "event-d60ff7b9",
+      "id": "event-51ee3a5e",
       "kind": "event",
       "title": "琉球豪華午餐自助餐〜假期季節〜",
       "summary": "非常感謝您一直以來對名城海灘琉球酒店度假村的惠顧。\n\n自助餐Nashiro將於2026年12月19日至12月30日舉辦琉球豪華自助午餐假期季節。\n\n期間，人氣午餐自助餐將升級。\n此外，每天都有藝術家現場表演，營造出美食與音樂交匯的華麗優雅…",
@@ -754,6 +754,22 @@
       "first_seen": null
     },
     {
+      "id": "event-b8e90762",
+      "kind": "event",
+      "title": "冬季自助餐~Rouge",
+      "summary": "[沖繩南部海灘度假酒店]12月限定晚餐「煮白蟹吃到飽」！ 12月1日（週二）起將舉辦“紅”主題“冬季自助餐~Rouge~”",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000002179.000016207.html",
+      "date": "2026-12-01",
+      "date_end": "2026-12-01",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-10"
+    },
+    {
       "id": "event-397780ac",
       "kind": "event",
       "title": "第一屆 GLOBALHA-裡沖繩",
@@ -944,22 +960,6 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
-    },
-    {
-      "id": "event-feaa3b0c",
-      "kind": "event",
-      "title": "來尋找吧！令人興奮的種子～讓你的好奇心綻放",
-      "summary": "[沖繩美麗島財團] 中小學生的活動將於11月28日（週六）、29日（週日）舉辦！ 「來搜尋吧！令人興奮的種子～讓你的好奇心綻放～」～海洋博公園",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000243.000024500.html",
-      "date": "2026-11-28",
-      "date_end": "2026-11-28",
-      "area": "全島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-07"
     },
     {
       "id": "event-9ef2757a",
@@ -1218,6 +1218,22 @@
       "first_seen": null
     },
     {
+      "id": "event-d86a40d6",
+      "kind": "event",
+      "title": "<特別限量生產> 為了紀念首里城正殿的修復，我們推出了限量版100枚由10克純金製成的「首里城交番」。預計 2026 年 11 月 22 日發布",
+      "summary": "<特別限量生產> 為了紀念首里城正殿的修復，我們推出了限量版100枚由10克純金製成的「首里城交番」。預計 2026 年 11 月 22 日發布",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000002.000194417.html",
+      "date": "2026-11-22",
+      "date_end": "2026-11-22",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-10"
+    },
+    {
       "id": "event-8b209d20",
       "kind": "event",
       "title": "西表島節",
@@ -1346,6 +1362,22 @@
       "first_seen": null
     },
     {
+      "id": "event-b18c4d1d",
+      "kind": "event",
+      "title": "3rd 88星座燈飾2026",
+      "summary": "宮古島栗馬度假村海木酒店將於 2026 年 11 月 21 日星期六至 11 月 23 日星期一在酒店的水上露台舉辦為期三天的“2026 年第 3 屆 88 星座燈飾活動”，該活動將透過燈籠燈光重現天空中的 88 個星座。\n與MIYAKO…",
+      "source": "goyah",
+      "url": "https://goyah.net/okinawa_event/archives/9957",
+      "date": "2026-11-21",
+      "date_end": "2026-11-23",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false,
+      "first_seen": "2026-11-10"
+    },
+    {
       "id": "event-0278e7e3",
       "kind": "event",
       "title": "2026年日美壘球賽",
@@ -1456,6 +1488,22 @@
       "local_life": true,
       "vibe": false,
       "first_seen": null
+    },
+    {
+      "id": "event-d6a64284",
+      "kind": "event",
+      "title": "從正確的交易到合約的要點以及專家的使用！ 「防患",
+      "summary": "【那霸商工會議所】從正確的交易到合約的要點以及專家的使用！ 「防患於未然法律事務基礎研討會」將於11月20日舉行",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000042.000178799.html",
+      "date": "2026-11-20",
+      "date_end": "2026-11-20",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-10"
     },
     {
       "id": "event-75f17488",
@@ -1714,6 +1762,22 @@
       "first_seen": null
     },
     {
+      "id": "event-c9594c02",
+      "kind": "event",
+      "title": "諾比諾比兒童節",
+      "summary": "□活动名称：“诺比诺比儿童节” □日期和时间：2026年11月14日（周六）、15日（周日）10:00-16:00 *免费体验 □对象：以3岁至6岁儿童（学龄前儿童）及其监护人为主 □地点：冲绳永旺梦乐城La\n后Nobinobi Kids…",
+      "source": "goyah",
+      "url": "https://goyah.net/okinawa_event/archives/9963",
+      "date": "2026-11-14",
+      "date_end": "2026-11-14",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": true,
+      "first_seen": "2026-11-10"
+    },
+    {
       "id": "event-f65c4215",
       "kind": "event",
       "title": "第四島清酒馬爾凱",
@@ -1730,7 +1794,7 @@
       "first_seen": null
     },
     {
-      "id": "event-6c31cfaf",
+      "id": "event-3b578da9",
       "kind": "event",
       "title": "第55屆沖繩縣藝術文化節",
       "summary": "關於\n關於沖繩縣藝術文化節\n\n透過鼓勵像縣民一樣的藝術和文化活動，並為縣民提供廣泛的藝術欣賞機會，\n我們將舉辦以公共展覽為中心的藝術文化節，為縣文化的進步做出貢獻。\n\n展覽\n主要展覽\n\n第55屆沖繩縣藝術文化節即將舉行\n\n展覽時間2026…",
@@ -1746,7 +1810,7 @@
       "first_seen": null
     },
     {
-      "id": "event-d2bc3c6a",
+      "id": "event-2c2c87fc",
       "kind": "event",
       "title": "第45屆宜野灣市文化節",
       "summary": "第45屆宜野灣市文化節\n \n\n文化節將以傳承、創作、發展為主題，展現宜野灣市的表演藝術文化活動。\n\n請來參觀我們。\n\n停車位有限。來訪時請使用大眾運輸工具。\n\n \n\n開幕式\n時間 11月14日星期六 上午10點\n\n地點：宜野灣市民中心大廳…",
@@ -1858,11 +1922,11 @@
       "first_seen": null
     },
     {
-      "id": "event-2557e334",
+      "id": "event-516cb7a4",
       "kind": "event",
       "title": "大宜味村夏季祭",
       "summary": "受颱風影響，第44屆大宜味村夏季祭典延期舉行。\n\n將於以下日期舉行\n\n \n\n該計劃的最終調整正在進行中。請稍等片刻直至發布。\n\n \n\n \n\n\n\n \n\n期待您的光臨(*^-^*)\n\n \n\n日期和時間\n2026 年 11 月 14 日星期六及…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.vill.ogimi.okinawa.jp/soshiki/kikaku_kanko/gyomu/maturikankei/968.html",
       "date": "2026-11-14",
       "date_end": "2026-11-15",
@@ -1871,7 +1935,7 @@
       "tourist_impact": "low",
       "local_life": true,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-10"
     },
     {
       "id": "event-565f7f13",
@@ -1920,22 +1984,6 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
-    },
-    {
-      "id": "event-e632bc96",
-      "kind": "event",
-      "title": "SAKE COMPETITION 2026泡盛部門",
-      "summary": "為紀念首里城正殿竣工，將於11月14日舉辦「SAKE COMPETITION 2026泡盛部門」首里城頒獎典禮暨派對。",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000003.000193918.html",
-      "date": "2026-11-14",
-      "date_end": "2026-11-14",
-      "area": "全島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": true,
-      "first_seen": "2026-11-07"
     },
     {
       "id": "event-6fe4f8ab",
@@ -2112,6 +2160,21 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
+    },
+    {
+      "id": "weather-1f20c889",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週二有雨、週三多雲、週四多雲、週五有雨、週六有雨、週日雷雨、週一多雲；氣溫約 21～27°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-11-10",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
     },
     {
       "id": "news-f6a4c28b",
@@ -2324,42 +2387,10 @@
       "vibe": false
     },
     {
-      "id": "event-e48e0abd",
-      "kind": "event",
-      "title": "食育×地域支援展",
-      "summary": "【沖繩縣限定】使用「縣產菇」製作的飯糰和義大利麵全4種現已上市！ 「食育×地域支援展」將於11月10日（週二）起舉辦！",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000001336.000155396.html",
-      "date": "2026-11-10",
-      "date_end": "2026-11-10",
-      "area": "全島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": true,
-      "vibe": false,
-      "first_seen": "2026-11-07"
-    },
-    {
-      "id": "event-e491207e",
-      "kind": "event",
-      "title": "第一屆數位相機圈若竹攝影展",
-      "summary": "期間\n11/10 星期二 11/15 星期日\n\n時間\n最後一天上午 10 點至晚上 7 點至下午 5 點\n\n場地\n展覽室\n\n入場費\n免費\n\n展覽內容\n照片",
-      "source": "okimeguri",
-      "url": "https://naha-palette.jp/gallery/event/5178",
-      "date": "2026-11-10",
-      "date_end": "2026-11-15",
-      "area": "那霸",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": null
-    },
-    {
-      "id": "event-42e45ee0",
+      "id": "event-f18a5ab0",
       "kind": "event",
       "title": "第4屆數位相機圈若竹攝影展",
-      "summary": "",
+      "summary": "時期\n11/10 星期二 11/15 星期日\n\n時間\n最後一天上午 10 點至晚上 7 點至下午 5 點\n\n場地\n展覽室\n\n入場費\n免費\n\n展覽內容\n照片",
       "source": "okinawastory",
       "url": "https://naha-palette.jp/gallery/event/5178",
       "date": "2026-11-10",
@@ -2388,7 +2419,7 @@
       "first_seen": null
     },
     {
-      "id": "event-6d0da933",
+      "id": "event-4f85eccd",
       "kind": "event",
       "title": "The Power of Musabi 2026南端武藏野美術大學校友會沖繩分會展Vol.7",
       "summary": "期間\n11/10 星期二 11/15 星期日\n\n時間\n最後一天上午 10 點至晚上 7 點至下午 5 點\n\n場地\n第一展廳 第一展廳\n\n入場費\n免費\n\n展覽內容\n繪畫、工藝品、設計影片等",
@@ -2402,6 +2433,22 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
+    },
+    {
+      "id": "event-53d88acc",
+      "kind": "event",
+      "title": "NAPHA KWANYA",
+      "summary": "座場商會株式會社與 Mercury 株式會社合作，將於 2027 年在那霸市東町開設小型豪華飯店「NAPHA KWANYA」。",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000070.000061216.html",
+      "date": "2026-11-10",
+      "date_end": "2026-12-10",
+      "area": "那霸",
+      "category": "新開張",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-10"
     },
     {
       "id": "alert-4cfb5423",
@@ -2460,21 +2507,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-d687fb4c",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週一有雨、週二有雨、週三有雨、週四多雲、週五多雲、週六多雲、週日有雨；氣溫約 20～28°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-11-09",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -2704,12 +2736,12 @@
       "vibe": false
     },
     {
-      "id": "event-b1118bbc",
+      "id": "event-84304172",
       "kind": "event",
-      "title": "沖繩新店開業，體驗高級嬰兒用品品牌「Nuna」的世界",
-      "summary": "沖繩新店開業，體驗高級嬰兒用品品牌「Nuna」的世界",
+      "title": "那個志摩火星變成了柿種！？",
+      "summary": "「那個志摩火星變成了柿種！？」 IP/授權業務誕生了新的沖繩特產！沖繩限定「島火星柿種鹽味4系列」將於11月9日起販售",
       "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000034.000142562.html",
+      "url": "https://prtimes.jp/main/html/rd/p/000000015.000141472.html",
       "date": "2026-11-09",
       "date_end": "2026-12-09",
       "area": "全島",
@@ -2717,23 +2749,7 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": "2026-11-07"
-    },
-    {
-      "id": "event-d5200e7e",
-      "kind": "event",
-      "title": "健康支援品牌KINDCARE沖繩Outlet Mall Ashibinaani盛大開幕",
-      "summary": "11/6（星期五）健康支援品牌KINDCARE沖繩Outlet Mall Ashibinaani盛大開幕",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000104.000020961.html",
-      "date": "2026-11-09",
-      "date_end": "2026-12-09",
-      "area": "全島",
-      "category": "新開張",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-07"
+      "first_seen": "2026-11-10"
     },
     {
       "id": "news-2195c61b",
@@ -3516,22 +3532,6 @@
       "date": "2026-11-04",
       "date_end": "2026-12-10",
       "area": "北部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": null
-    },
-    {
-      "id": "event-bbfad0cb",
-      "kind": "event",
-      "title": "特別展覽【Iha Mensah - 編織的思考】",
-      "summary": "",
-      "source": "okinawastory",
-      "url": "https://www.city.uruma.lg.jp/3001005000/contents/p000041.html",
-      "date": "2026-11-03",
-      "date_end": "2027-02-28",
-      "area": "中部",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,

@@ -33,6 +33,8 @@
     "https://goyah.net/okinawa_event/archives/9727",
     "https://goyah.net/okinawa_event/archives/9745",
     "https://goyah.net/okinawa_event/archives/9773",
+    "https://goyah.net/okinawa_event/archives/9957",
+    "https://goyah.net/okinawa_event/archives/9963",
     "https://okimeguri.com/prediction-calendar/details/events/3241",
     "https://okimeguri.com/prediction-calendar/details/events/4439",
     "https://okimeguri.com/prediction-calendar/details/events/5135",
@@ -498,13 +500,18 @@
     "https://okimeguri.com/prediction-calendar/details/events/7054",
     "https://okimeguri.com/prediction-calendar/details/events/7055",
     "https://okimeguri.com/prediction-calendar/details/events/7056",
+    "https://prtimes.jp/main/html/rd/p/000000002.000194417.html",
     "https://prtimes.jp/main/html/rd/p/000000003.000193918.html",
+    "https://prtimes.jp/main/html/rd/p/000000015.000141472.html",
     "https://prtimes.jp/main/html/rd/p/000000034.000142562.html",
+    "https://prtimes.jp/main/html/rd/p/000000042.000178799.html",
+    "https://prtimes.jp/main/html/rd/p/000000070.000061216.html",
     "https://prtimes.jp/main/html/rd/p/000000104.000020961.html",
     "https://prtimes.jp/main/html/rd/p/000000241.000024500.html",
     "https://prtimes.jp/main/html/rd/p/000000243.000024500.html",
     "https://prtimes.jp/main/html/rd/p/000000246.000024500.html",
     "https://prtimes.jp/main/html/rd/p/000001336.000155396.html",
+    "https://prtimes.jp/main/html/rd/p/000002179.000016207.html",
     "https://visitokinawajapan.com/zh-hant/discover/events/cave-exploration-southern-okinawa/",
     "https://visitokinawajapan.com/zh-hant/discover/events/christmas-fantasy/",
     "https://visitokinawajapan.com/zh-hant/discover/events/eisa-night/",
@@ -515,6 +522,7 @@
     "https://visitokinawajapan.com/zh-hant/discover/events/nago-summer-festival/",
     "https://visitokinawajapan.com/zh-hant/discover/events/naha-marathon/",
     "https://visitokinawajapan.com/zh-hant/discover/events/naha-tug-of-war-festival/",
+    "https://visitokinawajapan.com/zh-hant/discover/events/nakijin-cherry-blossom-festival/",
     "https://visitokinawajapan.com/zh-hant/discover/events/ocean-expo-park-summer-festival/",
     "https://visitokinawajapan.com/zh-hant/discover/events/okinawa-industrial-festival/",
     "https://visitokinawajapan.com/zh-hant/discover/events/okinawa-international-orchid-show/",
@@ -1197,5 +1205,5 @@
     "prtimes",
     "visitokinawa"
   ],
-  "updated": "2026-11-09T02:29:42.967701"
+  "updated": "2026-11-10T04:31:48.008877"
 }
