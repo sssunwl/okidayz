@@ -507,11 +507,14 @@
     "https://prtimes.jp/main/html/rd/p/000000042.000178799.html",
     "https://prtimes.jp/main/html/rd/p/000000070.000061216.html",
     "https://prtimes.jp/main/html/rd/p/000000104.000020961.html",
+    "https://prtimes.jp/main/html/rd/p/000000157.000180015.html",
     "https://prtimes.jp/main/html/rd/p/000000241.000024500.html",
     "https://prtimes.jp/main/html/rd/p/000000243.000024500.html",
     "https://prtimes.jp/main/html/rd/p/000000246.000024500.html",
+    "https://prtimes.jp/main/html/rd/p/000000471.000049635.html",
     "https://prtimes.jp/main/html/rd/p/000001336.000155396.html",
     "https://prtimes.jp/main/html/rd/p/000002179.000016207.html",
+    "https://visitokinawajapan.com/zh-hant/discover/events/adventure-museum/",
     "https://visitokinawajapan.com/zh-hant/discover/events/cave-exploration-southern-okinawa/",
     "https://visitokinawajapan.com/zh-hant/discover/events/christmas-fantasy/",
     "https://visitokinawajapan.com/zh-hant/discover/events/eisa-night/",
@@ -532,6 +535,7 @@
     "https://visitokinawajapan.com/zh-hant/discover/events/shurijo-castle-festival/",
     "https://visitokinawajapan.com/zh-hant/discover/events/southeast-botanical-gardens-illumination/",
     "https://visitokinawajapan.com/zh-hant/discover/events/tomigusuku-festival/",
+    "https://visitokinawajapan.com/zh-hant/discover/events/tsuboya-pottery-festival/",
     "https://visitokinawajapan.com/zh-hant/discover/events/yonabaru-tug-of-war-festival/",
     "https://www.city.naha.okinawa.jp/child/child-event/1006056/1006059.html",
     "https://www.city.naha.okinawa.jp/child/child-event/1008231/1012048.html",
@@ -1205,5 +1209,5 @@
     "prtimes",
     "visitokinawa"
   ],
-  "updated": "2026-11-10T04:31:48.008877"
+  "updated": "2026-11-11T02:37:32.150286"
 }

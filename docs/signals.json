@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T11:04:37+09:00",
+  "generated_at": "2026-11-11T11:37:32+09:00",
   "items": [
     {
       "id": "event-672a348e",
@@ -528,6 +528,22 @@
       "local_life": true,
       "vibe": false,
       "first_seen": null
+    },
+    {
+      "id": "event-aae7ca2c",
+      "kind": "event",
+      "title": "【好評に付き第2弾】グットリで行く沖縄グランメールリゾートに泊まる長崎発 12月8日(火)出発限定2泊3日の旅",
+      "summary": "【好評に付き第2弾】グットリで行く沖縄グランメールリゾートに泊まる長崎発 12月8日(火)出発限定2泊3日の旅",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000157.000180015.html",
+      "date": "2026-12-08",
+      "date_end": "2026-12-08",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-11"
     },
     {
       "id": "today-bc5e5804",
@@ -1538,6 +1554,22 @@
       "first_seen": "2026-11-10"
     },
     {
+      "id": "event-55085d7b",
+      "kind": "event",
+      "title": "壺屋陶器節",
+      "summary": "您可以參與舉辦於那霸壺屋小學的壺屋陶器節，在工作坊親身體驗陶器的燒製、購買陶器，並欣賞Eisa太鼓舞表演。",
+      "source": "visitokinawa",
+      "url": "https://tuboya.com/information/1078/",
+      "date": "2026-11-20",
+      "date_end": "2026-11-22",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-11"
+    },
+    {
       "id": "event-75f17488",
       "kind": "event",
       "title": "2026沖繩本島生存跑",
@@ -2178,6 +2210,21 @@
       "first_seen": null
     },
     {
+      "id": "weather-1945f4aa",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週三多雲、週四有雨、週五多雲、週六有雨、週日雷雨、週一有雨、週二有雨；氣溫約 20～28°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-11-11",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "today-cd0a310f",
       "kind": "today",
       "title": "🍶 沖繩泡盛祭",
@@ -2419,6 +2466,38 @@
       "vibe": false
     },
     {
+      "id": "event-2a4370ee",
+      "kind": "event",
+      "title": "アパマンショップ「50音ダンス」第27弾「那覇編」を11月11日公開",
+      "summary": "アパマンショップ「50音ダンス」第27弾「那覇編」を11月11日公開",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000471.000049635.html",
+      "date": "2026-11-11",
+      "date_end": "2026-11-11",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-11"
+    },
+    {
+      "id": "event-0c3dbb5d",
+      "kind": "event",
+      "title": "NAPHA KWANYA",
+      "summary": "座場商會株式會社與 Mercury 株式會社合作，將於 2027 年在那霸市東町開設小型豪華飯店「NAPHA KWANYA」。",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000070.000061216.html",
+      "date": "2026-11-11",
+      "date_end": "2026-12-11",
+      "area": "那霸",
+      "category": "新開張",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-10"
+    },
+    {
       "id": "alert-4cfb5423",
       "kind": "alert",
       "title": "沖繩本島留意突發強降雨與雷擊",
@@ -2475,21 +2554,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-1f20c889",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週二有雨、週三多雲、週四多雲、週五有雨、週六有雨、週日雷雨、週一多雲；氣溫約 21～27°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-11-10",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -2750,22 +2814,6 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
-    },
-    {
-      "id": "event-53d88acc",
-      "kind": "event",
-      "title": "NAPHA KWANYA",
-      "summary": "座場商會株式會社與 Mercury 株式會社合作，將於 2027 年在那霸市東町開設小型豪華飯店「NAPHA KWANYA」。",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000070.000061216.html",
-      "date": "2026-11-10",
-      "date_end": "2026-12-10",
-      "area": "那霸",
-      "category": "新開張",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-10"
     },
     {
       "id": "news-3b946317",
@@ -3539,27 +3587,11 @@
       "first_seen": null
     },
     {
-      "id": "event-72800d49",
+      "id": "event-b3d08b5b",
       "kind": "event",
-      "title": "聖誕節不是一天結束的",
-      "summary": "沖繩海景飯店（沖繩縣那霸市泉崎2-46）將於2026年11月4日（星期三）至12月25日（星期五）舉辦「節慶2026」。自助餐、下午茶、鐵板燒限定菜單、現場音樂\n「聖誕節不是一天結束的」「節日2026」將舉辦兩個月左右～自助餐、下午茶、鐵…",
-      "source": "okinawastory",
-      "url": "https://oka-hvh.com/christmas2026/",
-      "date": "2026-11-04",
-      "date_end": "2026-12-25",
-      "area": "那霸",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": true,
-      "first_seen": null
-    },
-    {
-      "id": "event-205284f5",
-      "kind": "event",
-      "title": "紀念更名為五週年的「感恩節」將於11月4日（週三）至12月10日（週四）舉辦原始東方酒店傳承的「幻影菜單」限時重印",
-      "summary": "沖繩東方酒店度假村水療中心（沖繩縣名護市）位於沖繩縣北部的山原入口處，周圍環繞著濃鬱的亞熱帶自然風光，被登錄為世界自然遺產，以連接可以玩耍的島嶼和森林為理念。為紀念品牌更名5週年，我們將於11月4日（週三）至12月舉辦限時感恩節市集202…",
-      "source": "okinawastory",
+      "title": "リブランド5周年記念感謝祭フェアを11月4日(水)12月10日(木)に開催 旧オリエンタルホテルより受け継がれた幻のメニューを期間限定で復刻",
+      "summary": "島とあそぶ森とつながるをコンセプトに、亜熱帯の豊かな自然が広がり、世界自然遺産にも登録された沖縄県北部やんばるの入り口に位置するオリエンタルホテル 沖縄リゾートスパ(沖縄県名護市)は、リブランド5周年を記念し、2026年11月4日(水)か…",
+      "source": "okimeguri",
       "url": "https://www.okinawa.oriental-hotels.com/news/948/",
       "date": "2026-11-04",
       "date_end": "2026-12-10",
@@ -3568,7 +3600,7 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-11"
     },
     {
       "id": "event-384d97dd",
@@ -3617,6 +3649,22 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
+    },
+    {
+      "id": "event-b95036d5",
+      "kind": "event",
+      "title": "卡努查探險博物館",
+      "summary": "在名護的卡努佳度假村享受冬季的星塵幻想曲活動、欣賞絢爛的燈飾，並在特定日期觀賞煙火秀和其他精彩表演。",
+      "source": "visitokinawa",
+      "url": "https://www.kanucha.jp/adventure-museum/",
+      "date": "2026-11-01",
+      "date_end": "2027-02-14",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-11"
     },
     {
       "id": "event-01335e52",

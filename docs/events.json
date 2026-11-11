@@ -1370,6 +1370,22 @@
     "first_seen": "2026-11-07"
   },
   {
+    "name": "卡努查探險博物館",
+    "name_zh": "卡努查探險博物館",
+    "date_start": "2026-11-01",
+    "date_end": "2027-02-14",
+    "url": "https://visitokinawajapan.com/zh-hant/discover/events/adventure-museum/",
+    "source": "visitokinawa",
+    "category": "",
+    "stars": 0,
+    "description": "在名護的卡努佳度假村享受冬季的星塵幻想曲活動、欣賞絢爛的燈飾，並在特定日期觀賞煙火秀和其他精彩表演。",
+    "image": "https://visitokinawajapan.com/wp-content/uploads/2021/11/ev2602_01_adventure-museum.webp",
+    "location": "卡努佳度假村",
+    "price": "須購買門票",
+    "official_url": "https://www.kanucha.jp/adventure-museum/",
+    "first_seen": "2026-11-11"
+  },
+  {
     "name": "喜璃癒志百萬夢幻節",
     "name_zh": "喜璃癒志百萬夢幻節",
     "date_start": "2026-11-01",
@@ -1454,37 +1470,21 @@
     "description": "首里城一帶常有文化活動，能近距離認識琉球王朝的服飾與藝能"
   },
   {
-    "name": "リブランド5周年記念「感謝祭フェア」",
-    "name_zh": "紀念更名為五週年的「感恩節」將於11月4日（週三）至12月10日（週四）舉辦原始東方酒店傳承的「幻影菜單」限時重印",
+    "name": "リブランド5周年記念感謝祭フェアを11月4日(水)12月10日(木)に開催 旧オリエンタルホテルより受け継がれた幻のメニューを期間限定で復刻",
+    "name_zh": "",
     "date_start": "2026-11-04",
     "date_end": "2026-12-10",
-    "url": "https://www.okinawastory.jp/event/600023311",
-    "source": "okinawastory",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6977",
+    "source": "okimeguri",
     "category": "",
     "stars": 0,
-    "description": "沖繩東方酒店度假村水療中心（沖繩縣名護市）位於沖繩縣北部的山原入口處，周圍環繞著濃鬱的亞熱帶自然風光，被登錄為世界自然遺產，以連接可以玩耍的島嶼和森林為理念。為紀念品牌更名5週年，我們將於11月4日（週三）至12月舉辦限時感恩節市集2026 年 10 日（星期四）。在飯店內的 Buffet & Grill QWACHI 餐廳享用午餐和晚餐。",
-    "image": "https://www.okinawa.oriental-hotels.com//datas/cache/images/2026/10/02/800x533_ea1e9d427fb5664c32c517a73e421e58_0658687937bfbeeb4a5ecbc65a8d62b2be550bd7.jpg",
-    "location": "沖繩東方飯店度假村及水療中心自助餐及燒烤店 QWACHI ・沖繩縣名護市喜瀨 1490-1",
+    "description": "島とあそぶ森とつながるをコンセプトに、亜熱帯の豊かな自然が広がり、世界自然遺産にも登録された沖縄県北部やんばるの入り口に位置するオリエンタルホテル 沖縄リゾートスパ(沖縄県名護市)は、リブランド5周年を記念し、2026年11月4日(水)から12月10日(木)までの期間限定で感謝祭フェアを開催いたします。館内のレストランBuffet & Grill QWACHIクワッチーのランチとディナーにて、オリ",
+    "image": "",
+    "location": "オリエンタルホテル　沖縄リゾート＆スパ　Buffet & Grill QWACHI（クワッチー） ・ 名護市",
     "price": "",
     "official_url": "https://www.okinawa.oriental-hotels.com/news/948/",
     "area": "名護市",
-    "first_seen": ""
-  },
-  {
-    "name": "「フェスティブシーズン2026」 〜ブッフェ、アフタヌーンティー、鉄板焼、音楽、宿泊まで多彩な体験を展開〜",
-    "name_zh": "聖誕節不是一天結束的",
-    "date_start": "2026-11-04",
-    "date_end": "2026-12-25",
-    "url": "https://www.okinawastory.jp/event/600023298",
-    "source": "okinawastory",
-    "category": "",
-    "stars": 0,
-    "description": "沖繩海景飯店（沖繩縣那霸市泉崎2-46）將於2026年11月4日（星期三）至12月25日（星期五）舉辦「節慶2026」。自助餐、下午茶、鐵板燒限定菜單、現場音樂\n「聖誕節不是一天結束的」「節日2026」將舉辦兩個月左右～自助餐、下午茶、鐵板燒、音樂、過夜等多種體驗",
-    "image": "https://oka-hvh.com/wp/wp-content/uploads/2026/10/%E3%83%97%E3%83%A9%E3%83%B3%E3%82%BF%E3%83%B3%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%96%E3%83%83%E3%83%95%E3%82%A7-scaled.jpg",
-    "location": "沖繩海景飯店自助餐廳「Printemps」/鐵板燒「Izumizaki」/ Lounge & Bar ・ 沖繩縣那霸市泉崎 2-46",
-    "price": "",
-    "official_url": "https://oka-hvh.com/christmas2026/",
-    "first_seen": ""
+    "first_seen": "2026-11-11"
   },
   {
     "name": "イルミネーション「Eclat de Zanpa (エクラ・ドゥ・ザンパ)」～残波のきらめき～",
@@ -1586,7 +1586,6 @@
     "location": "青海株式會社",
     "price": "",
     "official_url": "",
-    "name_zh_full": "「那個志摩火星變成了柿種！？」 IP/授權業務誕生了新的沖繩特產！沖繩限定「島火星柿種鹽味4系列」將於11月9日起販售",
     "description_ja": "「あのシママースが、柿の種に!?」IP・ライセンス事業から新たな沖縄土産が誕生!沖縄限定「シママース柿の種しお味 4連」が11月9日より発売",
     "location_ja": "株式会社青い海",
     "first_seen": "2026-11-10"
@@ -1640,26 +1639,7 @@
     "price": "免費",
     "official_url": "https://naha-palette.jp/gallery/event/5178",
     "area": "那覇市",
-    "description_ja": "期間\n11/10火11/15日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第展示室\n\n入場料\n無料\n\n展示内容\n写真",
     "first_seen": ""
-  },
-  {
-    "name": "株式会社座波商会と株式会社水星がパートナーシップを締結、2027年に那覇市東町にスモールラグジュアリーホテル「NAPHA KWANYA」を開業",
-    "name_zh": "NAPHA KWANYA",
-    "date_start": "2026-11-10",
-    "date_end": "2026-12-10",
-    "url": "https://prtimes.jp/main/html/rd/p/000000070.000061216.html",
-    "source": "prtimes",
-    "category": "新開張",
-    "stars": 0,
-    "description": "座場商會株式會社與 Mercury 株式會社合作，將於 2027 年在那霸市東町開設小型豪華飯店「NAPHA KWANYA」。",
-    "image": "https://prcdn.freetls.fastly.net/release_image/61216/70/61216-70-2a41fc051db9bb4144770caa78e3b34c-2340x1536.jpg",
-    "location": "株式会社水星",
-    "price": "",
-    "official_url": "",
-    "name_zh_full": "座場商會株式會社與 Mercury 株式會社合作，將於 2027 年在那霸市東町開設小型豪華飯店「NAPHA KWANYA」。",
-    "description_ja": "株式会社座波商会と株式会社水星がパートナーシップを締結、2027年に那覇市東町にスモールラグジュアリーホテル「NAPHA KWANYA」を開業",
-    "first_seen": "2026-11-10"
   },
   {
     "name": "今天是 🍶 沖繩泡盛祭",
@@ -1671,6 +1651,39 @@
     "category": "沖繩",
     "stars": 5,
     "description": "多家酒造會在泡盛活動齊聚，適合一次認識不同產地與古酒"
+  },
+  {
+    "name": "アパマンショップ「50音ダンス」第27弾「那覇編」を11月11日公開",
+    "name_zh": "",
+    "date_start": "2026-11-11",
+    "date_end": "2026-11-11",
+    "url": "https://prtimes.jp/main/html/rd/p/000000471.000049635.html",
+    "source": "prtimes",
+    "category": "",
+    "stars": 0,
+    "description": "アパマンショップ「50音ダンス」第27弾「那覇編」を11月11日公開",
+    "image": "https://prcdn.freetls.fastly.net/release_image/49635/471/49635-471-febf0402e9fe0581017bbd0120c32daf-2528x1696.jpg",
+    "location": "APAMAN",
+    "price": "",
+    "official_url": "",
+    "first_seen": "2026-11-11"
+  },
+  {
+    "name": "株式会社座波商会と株式会社水星がパートナーシップを締結、2027年に那覇市東町にスモールラグジュアリーホテル「NAPHA KWANYA」を開業",
+    "name_zh": "NAPHA KWANYA",
+    "date_start": "2026-11-11",
+    "date_end": "2026-12-11",
+    "url": "https://prtimes.jp/main/html/rd/p/000000070.000061216.html",
+    "source": "prtimes",
+    "category": "新開張",
+    "stars": 0,
+    "description": "座場商會株式會社與 Mercury 株式會社合作，將於 2027 年在那霸市東町開設小型豪華飯店「NAPHA KWANYA」。",
+    "image": "https://prcdn.freetls.fastly.net/release_image/61216/70/61216-70-2a41fc051db9bb4144770caa78e3b34c-2340x1536.jpg",
+    "location": "株式会社水星",
+    "price": "",
+    "official_url": "",
+    "description_ja": "株式会社座波商会と株式会社水星がパートナーシップを締結、2027年に那覇市東町にスモールラグジュアリーホテル「NAPHA KWANYA」を開業",
+    "first_seen": "2026-11-10"
   },
   {
     "name": "第29回沖縄ウッディフェア",
@@ -2061,7 +2074,6 @@
     "price": "",
     "official_url": "https://www.vill.ogimi.okinawa.jp/soshiki/kikaku_kanko/gyomu/maturikankei/968.html",
     "area": "大宜味村",
-    "name_zh_full": "大宜味村夏季祭即將舉行",
     "description_ja": "台風の影響により延期となっておりました、第44回大宜味村夏まつりを\n\n下記の日程で開催します\n\n \n\nプログラム最終調整中。公開までもうしばらくお待ちください。\n\n \n\n \n\n\n\n \n\nご来場、お待ちしております(*^-^*)\n\n \n\n開催日時\n令和8年11月14日土曜日、15日日曜日\n\n開催場所\n塩屋漁港広場\n\nhttps://maps.app.goo.gl/YQJZFgwM3UBdd3mc8\n",
     "first_seen": "2026-11-10"
   },
@@ -2366,6 +2378,22 @@
     "first_seen": ""
   },
   {
+    "name": "壺屋陶器節",
+    "name_zh": "壺屋陶器節",
+    "date_start": "2026-11-20",
+    "date_end": "2026-11-22",
+    "url": "https://visitokinawajapan.com/zh-hant/discover/events/tsuboya-pottery-festival/",
+    "source": "visitokinawa",
+    "category": "",
+    "stars": 0,
+    "description": "您可以參與舉辦於那霸壺屋小學的壺屋陶器節，在工作坊親身體驗陶器的燒製、購買陶器，並欣賞Eisa太鼓舞表演。",
+    "image": "https://visitokinawajapan.com/wp-content/uploads/2021/11/ev211_01_tsuboya-pottery-festival.webp",
+    "location": "那霸市壺屋小學",
+    "price": "免費",
+    "official_url": "https://tuboya.com/information/1078/",
+    "first_seen": "2026-11-11"
+  },
+  {
     "name": "浦添市のおいしいがおもろまち駅に集合！『うらそえ産品マルシェ』のお知らせ",
     "name_zh": "浦添市歌町車站集合！ 「浦添商品市場」",
     "date_start": "2026-11-20",
@@ -2466,7 +2494,6 @@
     "location": "那覇商工会議所",
     "price": "",
     "official_url": "",
-    "name_zh_full": "【那霸商工會議所】從正確的交易到合約的要點以及專家的使用！ 「防患於未然法律事務基礎研討會」將於11月20日舉行",
     "description_ja": "【那覇商工会議所】取引適正化から契約書のポイント、専門家活用まで!「トラブル予防法務の基本セミナー」を11月20日に開催",
     "first_seen": "2026-11-10"
   },
@@ -2659,7 +2686,6 @@
     "location": "",
     "price": "",
     "official_url": "",
-    "name_zh_full": "與MIYAKO GALAXY-DOME的星空導航儀一起欣賞“3rd 88星座燈飾2026”",
     "description_ja": "宮古島来間リゾート シーウッドホテルでは、2026年11月21日（土）～23日（月・祝）の3日間、ホテル内の水盤テラスを舞台に、全天88星座をランタンの灯りで再現する「第3回 88星座イルミネーション2026」を開催い \nThe post MIYAKO GALAXY-DOMEのスター・ナビゲーターと楽しむ「第3回 88星座イルミネーション2026」開催 first appeared on ごーやー",
     "first_seen": "2026-11-10"
   },
@@ -3222,7 +3248,6 @@
     "location": "HMJ",
     "price": "",
     "official_url": "",
-    "name_zh_full": "[沖繩南部海灘度假酒店]12月限定晚餐「煮白蟹吃到飽」！ 12月1日（週二）起將舉辦“紅”主題“冬季自助餐~Rouge~”",
     "description_ja": "【サザンビーチホテル&リゾート沖縄】12月ディナー限定「ボイルズワイガニ食べ放題」!「赤」がテーマの「ウィンターブッフェ~ルージュ~」を12月1日(火)より開催",
     "first_seen": "2026-11-10"
   },
@@ -3490,6 +3515,22 @@
     "category": "節氣",
     "stars": 3,
     "description": "北國進入積雪時節，沖繩白天仍常在 20°C 左右，早晚記得加件外套"
+  },
+  {
+    "name": "【好評に付き第2弾】グットリで行く沖縄グランメールリゾートに泊まる長崎発 12月8日(火)出発限定2泊3日の旅",
+    "name_zh": "",
+    "date_start": "2026-12-08",
+    "date_end": "2026-12-08",
+    "url": "https://prtimes.jp/main/html/rd/p/000000157.000180015.html",
+    "source": "prtimes",
+    "category": "",
+    "stars": 0,
+    "description": "【好評に付き第2弾】グットリで行く沖縄グランメールリゾートに泊まる長崎発 12月8日(火)出発限定2泊3日の旅",
+    "image": "https://prcdn.freetls.fastly.net/release_image/180015/157/180015-157-637c8810f892aadb8243d735131a91fa-900x500.jpg",
+    "location": "日本空輸株式会社",
+    "price": "",
+    "official_url": "",
+    "first_seen": "2026-11-11"
   },
   {
     "name": "Ocean Fun Fest 2026 宮古島 〜ビーチスポーツの祭り〜",
