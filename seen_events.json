@@ -1,5 +1,8 @@
 {
   "seen": [
+    "https://goyah.net/okinawa_event/archives/10001",
+    "https://goyah.net/okinawa_event/archives/10003",
+    "https://goyah.net/okinawa_event/archives/10005",
     "https://goyah.net/okinawa_event/archives/9188",
     "https://goyah.net/okinawa_event/archives/9221",
     "https://goyah.net/okinawa_event/archives/9227",
@@ -38,6 +41,7 @@
     "https://goyah.net/okinawa_event/archives/9979",
     "https://goyah.net/okinawa_event/archives/9984",
     "https://goyah.net/okinawa_event/archives/9997",
+    "https://goyah.net/okinawa_event/archives/9999",
     "https://okimeguri.com/prediction-calendar/details/events/3241",
     "https://okimeguri.com/prediction-calendar/details/events/4439",
     "https://okimeguri.com/prediction-calendar/details/events/5135",
@@ -544,6 +548,7 @@
     "https://prtimes.jp/main/html/rd/p/000000019.000060744.html",
     "https://prtimes.jp/main/html/rd/p/000000034.000142562.html",
     "https://prtimes.jp/main/html/rd/p/000000042.000178799.html",
+    "https://prtimes.jp/main/html/rd/p/000000045.000023869.html",
     "https://prtimes.jp/main/html/rd/p/000000070.000061216.html",
     "https://prtimes.jp/main/html/rd/p/000000104.000020961.html",
     "https://prtimes.jp/main/html/rd/p/000000130.000017267.html",
@@ -555,6 +560,7 @@
     "https://prtimes.jp/main/html/rd/p/000000471.000049635.html",
     "https://prtimes.jp/main/html/rd/p/000001336.000155396.html",
     "https://prtimes.jp/main/html/rd/p/000002179.000016207.html",
+    "https://prtimes.jp/main/html/rd/p/000007877.000010088.html",
     "https://visitokinawajapan.com/zh-hant/discover/events/adventure-museum/",
     "https://visitokinawajapan.com/zh-hant/discover/events/cave-exploration-southern-okinawa/",
     "https://visitokinawajapan.com/zh-hant/discover/events/christmas-fantasy/",
@@ -1264,5 +1270,5 @@
     "prtimes",
     "visitokinawa"
   ],
-  "updated": "2026-11-12T03:44:33.079358"
+  "updated": "2026-11-13T03:17:59.330426"
 }

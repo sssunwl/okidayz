@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T11:46:39+09:00",
+  "generated_at": "2026-11-13T12:17:59+09:00",
   "items": [
     {
       "id": "event-672a348e",
@@ -386,22 +386,6 @@
       "first_seen": null
     },
     {
-      "id": "event-80a52d1e",
-      "kind": "event",
-      "title": "11月1日起舉辦「法國博覽會」",
-      "summary": "菜單包括廣受歡迎的馬賽魚湯以及來自美食之鄉法國各地的菜餚，以祝胃口大開的風格烹製。此外，12月19日至25日期間，部分菜單將推出聖誕節版本。與家人朋友一起吃飯還是這樣？\n後【午餐】「法國博覽會」將於11月1日起舉辦！首次出現在 Goyaa…",
-      "source": "goyah",
-      "url": "https://goyah.net/okinawa_event/archives/9714",
-      "date": "2026-12-19",
-      "date_end": "2026-12-25",
-      "area": "全島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": true,
-      "vibe": false,
-      "first_seen": null
-    },
-    {
       "id": "event-be62b97e",
       "kind": "event",
       "title": "🎄⚾ 2026年國際女子棒球聖誕聯賽即將舉行！ ⚾🎄",
@@ -576,22 +560,6 @@
       "local_life": false,
       "vibe": false,
       "first_seen": "2026-11-12"
-    },
-    {
-      "id": "event-aae7ca2c",
-      "kind": "event",
-      "title": "從長崎出發，住宿沖繩格蘭梅爾度假村的3天2夜之旅，僅限12月8日星期二出發",
-      "summary": "【應大眾需求推出第二版】從長崎出發，住宿沖繩格蘭梅爾度假村的3天2夜之旅，僅限12月8日星期二出發。",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000157.000180015.html",
-      "date": "2026-12-08",
-      "date_end": "2026-12-08",
-      "area": "全島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-11"
     },
     {
       "id": "today-bc5e5804",
@@ -1138,6 +1106,22 @@
       "first_seen": null
     },
     {
+      "id": "event-59b454a8",
+      "kind": "event",
+      "title": "「新里釀酒廠180週年感恩節」",
+      "summary": "沖繩最古老的釀酒廠新裡清酒釀酒廠慶祝成立 180 週年\n適合全家人一起度過的 2 天樂趣，包括工廠參觀、泡盛研討會、現場音樂和 Eisa。\n\n沖繩縣宇流麻市成立於 1846 年的新里酒造株式會社是沖繩最古老的釀酒廠，將於 2026 年迎來…",
+      "source": "okinawastory",
+      "url": "https://shinzato-shuzo.co.jp/news/detail/6979/",
+      "date": "2026-11-28",
+      "date_end": "2026-11-29",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-12"
+    },
+    {
       "id": "event-9ef2757a",
       "kind": "event",
       "title": "KAZE JETSKI 在宮古島享受耐力",
@@ -1184,22 +1168,6 @@
       "local_life": false,
       "vibe": true,
       "first_seen": null
-    },
-    {
-      "id": "event-59b454a8",
-      "kind": "event",
-      "title": "11月28日（土）・29日（日）に「新里酒造180周年記念感謝祭」を開催",
-      "summary": "沖繩最古老的釀酒廠新裡清酒釀酒廠慶祝成立 180 週年\n適合全家人一起度過的 2 天樂趣，包括工廠參觀、泡盛研討會、現場音樂和 Eisa。\n\n沖繩縣宇流麻市成立於 1846 年的新里酒造株式會社是沖繩最古老的釀酒廠，將於 2026 年迎來…",
-      "source": "okinawastory",
-      "url": "https://shinzato-shuzo.co.jp/news/detail/6979/",
-      "date": "2026-11-28",
-      "date_end": "2026-11-29",
-      "area": "中部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-12"
     },
     {
       "id": "event-5d36f7db",
@@ -1778,20 +1746,20 @@
       "first_seen": "2026-11-12"
     },
     {
-      "id": "event-56db2cfb",
+      "id": "event-8b1cf35e",
       "kind": "event",
-      "title": "GODAC 設施將於 2026 年公開開放",
-      "summary": "GODAC一年一度最大的活動！有許多實踐項目，您可以體驗JAMSTEC的最新研究成果和海洋科學技術。這是一個特別的日子，全家人，從孩子到大人，都可以一起玩耍和學習。日期和時間：11月21日（週六）9:30-16\nGODAC Facilit…",
-      "source": "goyah",
-      "url": "https://goyah.net/okinawa_event/archives/9727",
+      "title": "HDS自動測試",
+      "summary": "[JAF 沖繩] 11 月 21 日星期六在沖繩市享受休閒賽車體驗！舉辦“HDS自動測試”",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000007877.000010088.html",
       "date": "2026-11-21",
       "date_end": "2026-11-21",
-      "area": "全島",
+      "area": "中部",
       "category": "活動",
       "tourist_impact": "low",
-      "local_life": true,
+      "local_life": false,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-13"
     },
     {
       "id": "event-b18c4d1d",
@@ -1938,22 +1906,6 @@
       "first_seen": null
     },
     {
-      "id": "event-d6a64284",
-      "kind": "event",
-      "title": "從正確的交易到合約的要點以及專家的使用！ 「防患",
-      "summary": "【那霸商工會議所】從正確的交易到合約的要點以及專家的使用！ 「防患於未然法律事務基礎研討會」將於11月20日舉行",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000042.000178799.html",
-      "date": "2026-11-20",
-      "date_end": "2026-11-20",
-      "area": "那霸",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-10"
-    },
-    {
       "id": "event-55085d7b",
       "kind": "event",
       "title": "壺屋陶器節",
@@ -2048,6 +2000,70 @@
       "local_life": true,
       "vibe": false,
       "first_seen": "2026-11-12"
+    },
+    {
+      "id": "event-958c59cb",
+      "kind": "event",
+      "title": "免費發放100支哈根達斯 |池毛場石垣店",
+      "summary": "在負責 iPhone 維修和智慧型手機購買的池茂場石垣店，我們將於 11 月 17 日（星期二）免費贈送 100 件哈根達斯商品。這是我們向當地人民表達謝意的一個計畫。 ・任何人都可以領取（即使不使用商店） ・每人 1 個\n貼文【11/1…",
+      "source": "goyah",
+      "url": "https://goyah.net/okinawa_event/archives/10005",
+      "date": "2026-11-17",
+      "date_end": "2026-11-17",
+      "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false,
+      "first_seen": "2026-11-13"
+    },
+    {
+      "id": "event-b1ca316c",
+      "kind": "event",
+      "title": "免費發放100支哈根達斯 |池毛場浦添店",
+      "summary": "在負責 iPhone 維修和智慧型手機購買的池毛場浦添店，我們將於 11 月 17 日（星期二）免費贈送 100 件哈根達斯商品。這是我們向當地人民表達謝意的一個計畫。 ・任何人都可以領取（即使不使用商店） ・每人 1 個\n貼文[11/1…",
+      "source": "goyah",
+      "url": "https://goyah.net/okinawa_event/archives/9999",
+      "date": "2026-11-17",
+      "date_end": "2026-11-17",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false,
+      "first_seen": "2026-11-13"
+    },
+    {
+      "id": "event-edf855e5",
+      "kind": "event",
+      "title": "免費發放100支哈根達斯 |池毛場沖繩城店",
+      "summary": "iPhone維修及智慧型手機購買店Ikemoba沖繩市店將於11月17日（週二）免費贈送100件哈根達斯商品。這是我們向當地人民表達謝意的一個計畫。 ・任何人都可以領取（即使不使用商店） ・每人 1 個\n貼文[11/17]免費發放100支…",
+      "source": "goyah",
+      "url": "https://goyah.net/okinawa_event/archives/10001",
+      "date": "2026-11-17",
+      "date_end": "2026-11-17",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false,
+      "first_seen": "2026-11-13"
+    },
+    {
+      "id": "event-f51d22c5",
+      "kind": "event",
+      "title": "免費發放100支哈根達斯 |池毛場宮古島店",
+      "summary": "提供iPhone維修和智慧型手機購買服務的池毛場宮古島店將於11月17日（週二）免費贈送100件哈根達斯商品。這是我們向當地人民表達謝意的一個計畫。 ・任何人都可以領取（即使不使用商店） ・每人 1 個\n貼文[11/17]免費發放100支…",
+      "source": "goyah",
+      "url": "https://goyah.net/okinawa_event/archives/10003",
+      "date": "2026-11-17",
+      "date_end": "2026-11-17",
+      "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false,
+      "first_seen": "2026-11-13"
     },
     {
       "id": "event-90a46ad3",
@@ -2658,6 +2674,21 @@
       "first_seen": null
     },
     {
+      "id": "weather-2f1cf471",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週五有雨、週六有雨、週日雷雨、週一有雨、週二晴時多雲、週三雷雨、週四多雲；氣溫約 19～28°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-11-13",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "news-d54b1972",
       "kind": "news",
       "title": "［我家的偶像］超愛摸摸的天竺鼠",
@@ -2883,6 +2914,22 @@
       "vibe": false
     },
     {
+      "id": "event-055b8c01",
+      "kind": "event",
+      "title": "俯瞰平靜的宮古島懸崖，以五種感官享受美食和琉球文化的「NANJU」於12月24日開業，今天（11月13日）開始接受預訂",
+      "summary": "[Star Resorts Co., Ltd.] 俯瞰平靜的宮古島懸崖，以五種感官享受美食和琉球文化的「NANJU」於12月24日開業，今天（11月13日）開始接受預訂",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000045.000023869.html",
+      "date": "2026-11-13",
+      "date_end": "2026-12-24",
+      "area": "離島",
+      "category": "新開張",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-13"
+    },
+    {
       "id": "alert-4cfb5423",
       "kind": "alert",
       "title": "沖繩本島需留意強降雨與雷擊",
@@ -2939,21 +2986,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-3bdcd0a7",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週四多雲、週五多雲、週六有雨、週日雷雨、週一有雨、週二晴時多雲、週三有雨；氣溫約 20～27°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-11-12",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -3235,7 +3267,7 @@
       "kind": "event",
       "title": "竹富島種子節",
       "summary": "什麼是種通祭？\n\n在淨化的土地上開始播種的節慶。\n舉辦時間為10天，從猴子的食物到水之都。\n祭典的第七天和第八天是祭典的重頭戲，這裡的表演藝術都是獻給瀨茂地宇瀧的。\n\n奉獻娛樂第一天 星期四，2026 年 11 月 12 日\n\n專用娛樂日…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://painusima.com/events/event/%e7%ab%b9%e5%af%8c%e5%b3%b6-%e7%a8%ae%e5%ad%90%e7%a5%ad/",
       "date": "2026-11-12",
       "date_end": "2026-11-13",
@@ -3244,7 +3276,7 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-13"
     },
     {
       "id": "event-01e36232",
@@ -3261,22 +3293,6 @@
       "local_life": false,
       "vibe": false,
       "first_seen": "2026-11-12"
-    },
-    {
-      "id": "event-ffc1bf6d",
-      "kind": "event",
-      "title": "NAPHA KWANYA",
-      "summary": "座場商會株式會社與 Mercury 株式會社合作，將於 2027 年在那霸市東町開設小型豪華飯店「NAPHA KWANYA」。",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000070.000061216.html",
-      "date": "2026-11-12",
-      "date_end": "2026-12-12",
-      "area": "那霸",
-      "category": "新開張",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-10"
     },
     {
       "id": "news-b94ad56b",
@@ -4051,11 +4067,11 @@
       "first_seen": "2026-11-07"
     },
     {
-      "id": "event-eb81cda3",
+      "id": "event-cbbcdf2e",
       "kind": "event",
-      "title": "Na Heart Jazz 爵士樂月",
-      "summary": "來自台灣和韓國的爵士樂手以及主要活躍在那霸的音樂家的大型聚會。\n有許多活動可以免費參加，例如嬰兒可以享受的音樂會，以及與台灣和韓國的爵士音樂家一起進行的講座工作坊。\n寶寶也能享受的小型爵士音樂會\n11 月 6 日星期五下午 / 11 月…",
-      "source": "okinawastory",
+      "title": "納哈特爵士樂爵士月沖繩亞洲爵士樂相關活動",
+      "summary": "來自台灣和韓國的爵士音樂家以及主要活躍在那霸的音樂家的大型聚會。\n有許多活動可以免費參加，例如嬰兒可以享受的音樂會，以及與台灣和韓國的爵士音樂家一起進行的講座工作坊。\n寶寶也能享受的小型爵士音樂會\n11 月 6 日星期五下午 / 11 月…",
+      "source": "okimeguri",
       "url": "https://www.nahart.jp/course/nahartjazz/",
       "date": "2026-11-06",
       "date_end": "2026-11-28",
@@ -4064,7 +4080,7 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-13"
     },
     {
       "id": "event-b3d08b5b",
