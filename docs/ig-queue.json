@@ -1,6 +1,50 @@
 [
   {
     "section": "guide",
+    "slug": "december-okinawa",
+    "title": "12 月的沖繩：冬天，但不用穿羽絨",
+    "url": "https://sssunwl.github.io/okidayz/guide/december-okinawa/",
+    "cover": "12 月去沖繩，先看這一篇",
+    "slides": [
+      "天氣：均溫 19°C，跟台北、香港差不多，差在東北季風",
+      "穿搭：洋蔥式穿法，白天 21°C、晚上 17°C，出海再加一件",
+      "活動月曆：12 月 9 場活動一次看",
+      "大活動：12/6 NAHA 馬拉松（封路）、12/19–20 大相撲うるま場所",
+      "燈飾：東南植物樂園、喜璃癒志百萬夢幻節（免費）",
+      "年底：聖誕夢幻燈飾＋倒數煙火、讀谷山燒北窯陶器市",
+      "賞鯨：12/19 起那霸三重城港出港，大人 5,500 円起",
+      "首里城：正殿 11/23 起開放內部，要事前預約",
+      "新店：POP MART 浦添 PARCO CITY、名護あけみおてらす森の棟",
+      "當季：甘蔗、紅芋、カーブチー＋出發前 4 個提醒"
+    ],
+    "caption": "12 月去沖繩的人，先收藏這篇。\n均溫 19°C，跟台北、香港差不多暖，差在風。\n這個月有 NAHA 馬拉松、大相撲巡業、三個燈飾、聖誕跨年倒數，\n座頭鯨也回來了，首里城正殿 11/23 起可以進去看。\n12/6 馬拉松當天那霸到南部封路，自駕的人那天上午別排那霸。\n活動日期、票價都是官方公布的資料（11/14 整理），出發前再看一次官網。",
+    "hashtags": [
+      "沖繩12月",
+      "沖繩自由行",
+      "沖繩天氣",
+      "沖繩賞鯨",
+      "沖繩活動",
+      "首里城",
+      "沖繩燈飾",
+      "日本旅遊"
+    ],
+    "images": [
+      "https://sssunwl.github.io/okidayz/assets/ig/december-okinawa/01.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/december-okinawa/02.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/december-okinawa/03.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/december-okinawa/04.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/december-okinawa/05.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/december-okinawa/06.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/december-okinawa/07.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/december-okinawa/08.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/december-okinawa/09.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/december-okinawa/10.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/december-okinawa/11.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/december-okinawa/12.jpg"
+    ]
+  },
+  {
+    "section": "guide",
     "slug": "central-west-one-day",
     "title": "中部西海岸一天：斷崖、陶器、外人住宅、美國村夕陽",
     "url": "https://sssunwl.github.io/okidayz/guide/central-west-one-day/",

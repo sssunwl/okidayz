@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>OkiDayz 月刊輪播</title>
+<!-- 每月「X 月去沖繩」資訊輪播。資料在同資料夾的 <月份>.json,用 build.py 出圖(1080×1350)。
+     視覺依 okidayz/BRAND.md:漆喰白底、赤瓦×芒果、海色只用在海;鉛筆雙描+斜線排線+紅印章。 -->
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700;900&family=Caveat:wght@700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --shikkui: #fdfaf4; --tile: #d4523a; --mango: #f4a72e; --sun: #ffd27a; --sea: #1a9bb3; --foam: #d8f1f4;
+  --ink: #2f2420; --soft: #6b5a52; --line: rgba(47, 36, 32, .82);
+  --hand: 'Caveat', 'Noto Sans TC', cursive; --sans: 'Noto Sans TC', 'PingFang TC', sans-serif;
+  --wob: 255px 18px 225px 16px / 16px 225px 18px 255px;
+  --wob2: 225px 16px 255px 14px / 14px 255px 16px 225px;
+}
+* { box-sizing: border-box; margin: 0; }
+body { background: #ddd; font-family: var(--sans); color: var(--ink); }
+.page {
+  width: 1080px; height: 1350px; position: relative; overflow: hidden; margin: 0 auto 40px;
+  background-color: var(--shikkui);
+  background-image: radial-gradient(rgba(47, 36, 32, .05) 1.4px, transparent 1.6px); background-size: 10px 10px;
+  padding: 70px 64px 110px;
+}
+body.shot { background: var(--shikkui); }
+body.shot .page { display: none; margin: 0; }
+body.shot .page.on { display: block; }
+body.shot .page.on.end { display: flex; }
+/* 外框:雙描 */
+.page::before, .page::after { content: ''; position: absolute; pointer-events: none; }
+.page::before { inset: 26px; border: 3px solid var(--line); border-radius: var(--wob); }
+.page::after { inset: 31px 22px 22px 31px; border: 1.5px solid rgba(47, 36, 32, .4); border-radius: var(--wob2); }
+.foot { position: absolute; left: 64px; right: 64px; bottom: 48px; display: flex; justify-content: space-between; align-items: center; font: 700 30px/1 var(--hand); color: var(--tile); }
+.foot .n { font: 700 20px/1 var(--sans); color: var(--soft); letter-spacing: .08em; }
+.foot img { height: 34px; }
+
+.eye { font: 700 40px/1 var(--hand); color: var(--tile); transform: rotate(-2deg); display: inline-block; }
+.cat { font-size: 26px; font-weight: 700; color: var(--soft); margin-top: 6px; }
+h2 { font-size: 72px; font-weight: 900; line-height: 1.12; letter-spacing: -.01em; margin: 10px 0 14px; }
+.mk { background: linear-gradient(transparent 58%, var(--sun) 58%, var(--sun) 92%, transparent 92%); padding: 0 4px; }
+.lead { font-size: 30px; font-weight: 700; line-height: 1.5; color: var(--soft); }
+.num { font: 700 150px/0.8 var(--hand); color: var(--mango); position: absolute; right: 70px; top: 64px; }
+.src { font-size: 17px; color: var(--soft); line-height: 1.4; }
+
+.sk { position: relative; background: #fff; border: 2.5px solid var(--line); border-radius: var(--wob); }
+.sk::after { content: ''; position: absolute; inset: 4px -4px -4px 4px; border: 1.2px solid rgba(47, 36, 32, .4); border-radius: var(--wob2); pointer-events: none; }
+.hatch { background-image: repeating-linear-gradient(-45deg, rgba(244, 167, 46, .4) 0 3px, transparent 3px 12px); }
+.hatch-sea { background-image: repeating-linear-gradient(-45deg, rgba(26, 155, 179, .22) 0 3px, transparent 3px 12px); }
+.hatch-red { background-image: repeating-linear-gradient(-45deg, rgba(212, 82, 58, .2) 0 3px, transparent 3px 12px); }
+
+/* 照片:線稿框+出處小字 */
+.ph { position: relative; padding: 8px; background: #fff; border: 2.5px solid var(--line); border-radius: 18px 6px 20px 8px / 8px 20px 6px 18px; }
+.ph img { display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 12px 4px 14px 5px / 5px 14px 4px 12px; }
+.ph .cr { position: absolute; right: 16px; bottom: 14px; font-size: 15px; font-weight: 700; color: #fff; background: rgba(47, 36, 32, .62); padding: 3px 9px; border-radius: 6px; }
+.ph .tag { position: absolute; left: -12px; top: 18px; background: var(--tile); color: #fff; font-size: 24px; font-weight: 900; padding: 6px 16px; border-radius: 6px; transform: rotate(-4deg); }
+
+.chip { display: inline-flex; align-items: center; gap: 8px; font-size: 26px; font-weight: 900; padding: 8px 18px; background: #fff; border: 2.5px solid var(--ink); border-radius: 999px; }
+.chip img { width: 34px; height: 34px; }
+.chip.red { background: var(--tile); color: #fff; border-color: var(--tile); }
+.chip.sea { background: var(--sea); color: #fff; border-color: var(--sea); }
+
+/* 資訊列(活動卡內的 日期/地點/費用) */
+.facts { display: grid; grid-template-columns: 96px 1fr; gap: 8px 10px; font-size: 28px; line-height: 1.4; }
+.facts dt { font-weight: 900; color: var(--tile); }
+.facts dd { font-weight: 700; }
+.ev h3 { font-size: 44px; font-weight: 900; line-height: 1.2; margin: 6px 0 12px; }
+.ev .when { font: 700 34px/1 var(--hand); color: var(--tile); }
+.note { font-size: 26px; font-weight: 700; color: var(--soft); line-height: 1.45; margin-top: 10px; }
+.note b { color: var(--ink); }
+
+/* ── 封面 ── */
+.cover .big { font: 900 300px/0.82 var(--sans); color: var(--tile); letter-spacing: -.03em; }
+.cover .big small { font-size: 120px; color: var(--ink); margin-left: 6px; }
+.cover h1 { font-size: 78px; font-weight: 900; line-height: 1.16; margin-top: 30px; letter-spacing: -.01em; }
+.cover .collage { position: absolute; right: 58px; top: 84px; width: 440px; height: 960px; }
+.cover .collage .ph { position: absolute; }
+.cover .chips { position: absolute; left: 64px; right: 64px; bottom: 150px; display: flex; flex-wrap: wrap; gap: 14px; }
+.cover .stamp { position: absolute; left: 330px; top: 700px; width: 200px; transform: rotate(-8deg); }
+.cover .lead { max-width: 440px; }
+
+/* ── 天氣 ── */
+.bars { display: grid; gap: 34px; }
+.bar { display: grid; grid-template-columns: 150px 1fr; align-items: center; gap: 16px; }
+.bar b { font-size: 32px; font-weight: 900; }
+.bar .track { position: relative; height: 64px; }
+.bar .rng { position: absolute; top: 8px; height: 48px; border: 2.5px solid var(--ink); border-radius: 26px 10px 26px 10px; }
+.bar .rng span { position: absolute; top: 50%; transform: translateY(-50%); font-size: 24px; font-weight: 900; }
+.bar .rng .lo { left: -78px; } .bar .rng .hi { right: -80px; }
+.bar .avg { position: absolute; top: -2px; width: 8px; height: 68px; background: var(--ink); border-radius: 4px; }
+.bar b small { display: block; font-size: 24px; color: var(--tile); }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 30px; }
+.stat { padding: 22px 20px 18px; text-align: left; }
+.stat img { width: 56px; height: 56px; }
+.stat { padding: 20px 22px 16px; }
+.stat b { display: block; font-size: 48px; font-weight: 900; line-height: 1.1; margin-top: 6px; }
+.stat span { font-size: 27px; font-weight: 700; color: var(--soft); }
+
+/* ── 穿搭 ── */
+.wear { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 30px; }
+.wear .sk { padding: 24px 22px; }
+.wear .t { font: 900 64px/1 var(--sans); color: var(--tile); }
+.wear h4 { font-size: 32px; font-weight: 900; margin: 10px 0 8px; }
+.wear p { font-size: 27px; font-weight: 700; line-height: 1.45; color: var(--soft); }
+.wear img.i { width: 64px; height: 64px; }
+.check { margin-top: 34px; padding: 36px 36px 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 18px 30px; }
+.check h4 { grid-column: 1 / -1; font-size: 36px; font-weight: 900; }
+.check li { list-style: none; font-size: 32px; font-weight: 700; display: flex; gap: 14px; align-items: flex-start; line-height: 1.35; }
+.check li::before { content: ''; flex: 0 0 34px; height: 34px; margin-top: 3px; border: 3px solid var(--ink); border-radius: 8px 3px 9px 4px; background: #fff; }
+.check li small { display: block; font-size: 24px; color: var(--soft); }
+
+/* ── 月曆 ── */
+.cal { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; margin-top: 18px; padding: 18px; }
+.cal .h { text-align: center; font-size: 20px; font-weight: 900; color: var(--soft); }
+.cal .d { height: 44px; display: flex; align-items: center; justify-content: center; font-size: 24px; font-weight: 700; position: relative; border-radius: 10px; }
+.cal .d.sun { color: var(--tile); }
+.cal .d.ev { background: var(--sun); font-weight: 900; }
+.cal .d.ev.red { background: var(--tile); color: #fff; }
+.cal .d.span { background: rgba(244, 167, 46, .28); }
+.list { margin-top: 22px; display: grid; gap: 9px; }
+.list .row { display: grid; grid-template-columns: 210px 1fr auto; align-items: baseline; gap: 14px; font-size: 28px; padding-bottom: 9px; border-bottom: 2px dashed rgba(47, 36, 32, .25); }
+.list .row b { font: 700 36px/1 var(--hand); color: var(--tile); }
+.list .row span { font-weight: 900; }
+.list .row em { font-style: normal; font-size: 22px; font-weight: 700; color: var(--soft); }
+
+/* ── 活動兩張一頁 ── */
+.two { display: grid; gap: 30px; margin-top: 20px; }
+.ev2 { display: grid; grid-template-columns: 430px 1fr; gap: 28px; align-items: start; }
+.ev2 .ph { height: 430px; }
+
+/* ── 新店 ── */
+.shop { display: grid; grid-template-columns: 1fr; gap: 16px; }
+.names { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+.names span { font-size: 23px; font-weight: 900; padding: 5px 14px; border: 2px solid var(--ink); border-radius: 999px; background: #fff; }
+
+/* ── 當季+提醒 ── */
+.shun { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 24px; }
+.shun .sk { padding: 24px 20px; text-align: center; }
+.shun .disc { width: 190px; height: 190px; margin: 0 auto 10px; border-radius: 50%; background: var(--sun); display: flex; align-items: center; justify-content: center; }
+.shun .disc img { width: 120px; height: 120px; }
+.shun h4 { font-size: 42px; font-weight: 900; }
+.shun .ja { font-size: 26px; font-weight: 700; color: var(--tile); }
+.shun p { font-size: 26px; font-weight: 700; color: var(--soft); line-height: 1.45; margin-top: 8px; }
+.tips { margin-top: 36px; padding: 36px 36px 40px; }
+.tips h4 { font-size: 38px; font-weight: 900; margin-bottom: 14px; display: flex; gap: 12px; align-items: center; }
+.tips h4 img { width: 48px; }
+.tips ol { padding-left: 0; list-style: none; counter-reset: t; display: grid; gap: 20px; }
+.tips li { counter-increment: t; display: grid; grid-template-columns: 64px 1fr; font-size: 32px; font-weight: 700; line-height: 1.42; }
+.tips li::before { content: counter(t, decimal-leading-zero); font: 700 40px/1 var(--hand); color: var(--mango); }
+
+/* ── 尾頁 ── */
+.end { display: flex; flex-direction: column; justify-content: center; }
+.end .box { padding: 60px 56px; }
+.end h2 { font-size: 92px; }
+.end .stamp { position: absolute; right: 40px; top: 40px; width: 210px; transform: rotate(-8deg); }
+.srcs { margin-top: 36px; font-size: 19px; line-height: 1.6; color: var(--soft); }
+</style>
+</head>
+<body>
+<main id="app"></main>
+<script>
+// 資料由 build.py 塞進 window.DATA;直接開檔時讀 ?data=2026-12
+const A = '../../assets/brand/', IMG = '../../reference/ig-src/';
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const ph = (p, h, extra = '') => `<div class="ph" style="height:${h}px;${extra}"><img src="${IMG}${p.src}">${p.tag ? `<span class="tag">${esc(p.tag)}</span>` : ''}${p.credit ? `<span class="cr">${esc(p.credit)}</span>` : ''}</div>`;
+const facts = (f) => `<dl class="facts">${f.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('')}</dl>`;
+const head = (eye, cat, title, n) => `${n ? `<div class="num">${n}</div>` : ''}<div class="eye">${esc(eye)}</div><div class="cat">${esc(cat)}</div><h2>${title}</h2>`;
+
+const P = {
+  cover(d) {
+    const c = d.cover;
+    return `<div class="big">${d.month}<small>月</small></div>
+      <h1>${c.title}</h1>
+      <p class="lead" style="margin-top:24px">${esc(c.sub)}</p>
+      <div class="collage">
+        ${ph(c.photos[0], 330, 'left:0;top:0;width:440px;transform:rotate(2.5deg)')}
+        ${ph(c.photos[1], 300, 'left:-20px;top:330px;width:440px;transform:rotate(-2deg)')}
+        ${ph(c.photos[2], 300, 'left:10px;top:640px;width:430px;transform:rotate(2deg)')}
+      </div>
+      <img class="stamp" src="${A}stamps/local.svg">
+      <div class="chips">${c.chips.map(([i, t], k) => `<span class="chip${k === 0 ? ' red' : ''}"><img src="${A}emoji/${i}.svg">${esc(t)}</span>`).join('')}</div>`;
+  },
+  weather(d) {
+    const w = d.weather, lo = 12, hi = 25, x = (t) => ((t - lo) / (hi - lo)) * 100;
+    return `${head('Weather', '天氣', w.title, '01')}
+      <p class="lead">${esc(w.lead)}</p>
+      <div class="sk hatch" style="padding:40px 110px 30px 40px;margin-top:26px">
+        <div class="bars">${w.cities.map((c, k) => `<div class="bar"><b>${esc(c.name)}<small>均溫 ${c.avg}°C</small></b><div class="track">
+          <div class="rng" style="left:${x(c.min)}%;width:${x(c.max) - x(c.min)}%;background:${k === 0 ? 'var(--sun)' : '#fff'}"><span class="lo">${c.min}°</span><span class="hi">${c.max}°</span></div>
+          <div class="avg" style="left:calc(${x(c.avg)}% - 4px)"></div></div></div>`).join('')}</div>
+        <p class="src" style="margin-top:22px">粗線＝平均氣溫，框＝平均最低～最高。${esc(w.src)}</p>
+      </div>
+      <div class="stats">${w.stats.map(([i, v, t]) => `<div class="sk stat"><img src="${A}emoji/${i}.svg"><b>${esc(v)}</b><span>${esc(t)}</span></div>`).join('')}</div>`;
+  },
+  wear(d) {
+    const w = d.wear;
+    return `${head('What to wear', '穿搭＋行李', w.title, '02')}
+      <div class="wear">${w.cards.map((c) => `<div class="sk"><img class="i" src="${A}emoji/${c.icon}.svg"><div class="t">${esc(c.t)}</div><h4>${esc(c.h)}</h4><p>${esc(c.p)}</p></div>`).join('')}</div>
+      <ul class="sk check hatch">${'<h4>行李清單</h4>'}${w.pack.map(([a, b]) => `<li><div>${esc(a)}${b ? `<small>${esc(b)}</small>` : ''}</div></li>`).join('')}</ul>`;
+  },
+  calendar(d) {
+    const c = d.calendar, first = new Date(d.year, d.month - 1, 1).getDay(), days = new Date(d.year, d.month, 0).getDate();
+    // marks: [[日, 'red'|'ev'], ...];red=最重要(會影響行程的)
+    const mark = Object.fromEntries(c.marks);
+    let cells = '日一二三四五六'.split('').map((h) => `<div class="h">${h}</div>`).join('') + '<div></div>'.repeat(first);
+    for (let i = 1; i <= days; i++) cells += `<div class="d${(first + i - 1) % 7 === 0 ? ' sun' : ''}${mark[i] ? ' ev ' + mark[i] : ''}">${i}</div>`;
+    return `${head('Event calendar', '活動月曆', c.title, '03')}
+      <div class="sk cal">${cells}</div>
+      <div class="list">${c.rows.map(([dt, t, a]) => `<div class="row"><b>${esc(dt)}</b><span>${esc(t)}</span><em>${esc(a)}</em></div>`).join('')}</div>`;
+  },
+  events(d, pg) {
+    return `${head(pg.eye, pg.cat, pg.title, pg.n)}
+      <div class="two">${pg.items.map((e) => `<div class="ev2 ev">${ph(e.photo, 430)}<div><div class="when">${esc(e.when)}</div><h3>${esc(e.name)}</h3>${facts(e.facts)}${e.note ? `<p class="note">${e.note}</p>` : ''}</div></div>`).join('')}</div>`;
+  },
+  feature(d, pg) {
+    return `${head(pg.eye, pg.cat, pg.title, pg.n)}
+      ${ph(pg.photo, pg.photoH || 470, 'margin-top:8px')}
+      <div class="ev2 ev" style="grid-template-columns:1fr 1fr;margin-top:28px">
+        <div class="sk ${pg.hatch || 'hatch'}" style="padding:30px 28px">${facts(pg.facts)}</div>
+        <div><h3 style="font-size:40px">${esc(pg.subtitle)}</h3><ul class="note" style="padding-left:30px;font-size:29px;color:var(--ink)">${pg.points.map((p) => `<li style="margin-bottom:12px">${p}</li>`).join('')}</ul></div>
+      </div>
+      ${pg.src ? `<p class="src" style="margin-top:22px;font-size:20px">${esc(pg.src)}</p>` : ''}`;
+  },
+  shops(d, pg) {
+    return `${head(pg.eye, pg.cat, pg.title, pg.n)}
+      <div class="two">${pg.items.map((e) => `<div class="ev2 ev" style="grid-template-columns:${e.wide ? '1fr' : '400px 1fr'}">${ph(e.photo, e.wide ? 330 : 400)}<div><div class="when">${esc(e.when)}</div><h3>${esc(e.name)}</h3>${facts(e.facts)}${e.names ? `<div class="names">${e.names.map((n) => `<span>${esc(n)}</span>`).join('')}</div>` : ''}${e.note ? `<p class="note">${e.note}</p>` : ''}</div></div>`).join('')}</div>`;
+  },
+  season(d) {
+    const s = d.season;
+    return `${head('In season ＆ Tips', '當季＋出發前提醒', s.title, s.n)}
+      <div class="shun">${s.items.map((x) => `<div class="sk"><div class="disc"><img src="${A}emoji/${x.icon}.svg"></div><h4>${esc(x.zh)}</h4><div class="ja">${esc(x.ja)}</div><p>${esc(x.p)}</p></div>`).join('')}</div>
+      <div class="sk tips hatch-red"><h4><img src="${A}emoji/warn.svg">出發前提醒</h4><ol>${s.tips.map((t) => `<li><span>${t}</span></li>`).join('')}</ol></div>`;
+  },
+  end(d) {
+    return `<div class="sk box hatch">
+      <div class="eye">Save it!</div>
+      <h2 style="margin-top:20px">收藏起來，<br>到了沖繩<br><span class="mk">再打開。</span></h2>
+      <p class="lead" style="margin-top:20px">${esc(d.end.lead)}</p>
+      <div class="srcs">${esc(d.end.sources)}</div>
+      <img class="stamp" src="${A}stamps/local.svg"></div>`;
+  },
+};
+
+function build(d) {
+  const pages = [['cover', d], ['weather', d], ['wear', d], ['calendar', d], ...d.pages.map((p) => [p.type, p]), ['season', d], ['end', d]];
+  document.getElementById('app').innerHTML = pages.map(([t, pg], i) => `<section class="page ${t === 'cover' ? 'cover' : ''} ${t === 'end' ? 'end' : ''}" id="p${i + 1}">${P[t](d, pg)}
+    <div class="foot"><span>OkiDayz・@okidayz_</span><span class="n">${String(i + 1).padStart(2, '0')} / ${String(pages.length).padStart(2, '0')}</span></div></section>`).join('');
+  const m = location.hash.match(/p(\d+)/);
+  if (m) { document.body.classList.add('shot'); document.getElementById('p' + m[1]).classList.add('on'); }
+  document.title = `pages:${pages.length}`;
+}
+if (window.DATA) build(window.DATA);
+</script>
+</body>
+</html>
