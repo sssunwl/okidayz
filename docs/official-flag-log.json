@@ -133,5 +133,14 @@
 "wave_height_m": 0.7,
 "wind_speed_kn": 12.5,
 "wind_deg": 191
+},
+{
+"at": "2026-11-15 04:48",
+"spot": "cape-maeda",
+"official": "注意△",
+"our_verdict": "caution",
+"wave_height_m": 0.88,
+"wind_speed_kn": 9.2,
+"wind_deg": 272
 }
 ]
