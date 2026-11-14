@@ -544,6 +544,7 @@
     "https://prtimes.jp/main/html/rd/p/000000002.000194417.html",
     "https://prtimes.jp/main/html/rd/p/000000003.000188953.html",
     "https://prtimes.jp/main/html/rd/p/000000003.000193918.html",
+    "https://prtimes.jp/main/html/rd/p/000000008.000182054.html",
     "https://prtimes.jp/main/html/rd/p/000000015.000141472.html",
     "https://prtimes.jp/main/html/rd/p/000000019.000060744.html",
     "https://prtimes.jp/main/html/rd/p/000000034.000142562.html",
@@ -556,6 +557,7 @@
     "https://prtimes.jp/main/html/rd/p/000000241.000024500.html",
     "https://prtimes.jp/main/html/rd/p/000000243.000024500.html",
     "https://prtimes.jp/main/html/rd/p/000000246.000024500.html",
+    "https://prtimes.jp/main/html/rd/p/000000264.000035671.html",
     "https://prtimes.jp/main/html/rd/p/000000313.000044607.html",
     "https://prtimes.jp/main/html/rd/p/000000471.000049635.html",
     "https://prtimes.jp/main/html/rd/p/000001336.000155396.html",
@@ -632,6 +634,7 @@
     "https://www.jalan.net/event/evt_366158/",
     "https://www.jalan.net/event/evt_366160/",
     "https://www.jalan.net/event/evt_366162/",
+    "https://www.jalan.net/event/evt_366163/",
     "https://www.jalan.net/event/evt_366166/",
     "https://www.jalan.net/event/evt_366167/",
     "https://www.jalan.net/event/evt_366173/",
@@ -1258,7 +1261,8 @@
     "https://www.okinawastory.jp/event/600023444",
     "https://www.okinawastory.jp/event/600023450",
     "https://www.pref.okinawa.lg.jp/kensei/shinko/1017087/1017118/1030785/1041716.html",
-    "https://www.pref.okinawa.lg.jp/kurashikankyo/shohi/1017865/1041531/1041427.html"
+    "https://www.pref.okinawa.lg.jp/kurashikankyo/shohi/1017865/1041531/1041427.html",
+    "https://www.pref.okinawa.lg.jp/machizukuri/kenchiku/1013476/1041972.html"
   ],
   "sources": [
     "goyah",
@@ -1270,5 +1274,5 @@
     "prtimes",
     "visitokinawa"
   ],
-  "updated": "2026-11-13T03:17:59.330426"
+  "updated": "2026-11-14T02:58:13.727401"
 }
