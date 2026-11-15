@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T11:02:05+09:00",
+  "generated_at": "2026-11-15T11:28:56+09:00",
   "items": [
     {
       "id": "event-672a348e",
@@ -144,6 +144,22 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
+    },
+    {
+      "id": "event-e73b27e0",
+      "kind": "event",
+      "title": "初次參拜普天滿宮",
+      "summary": "新年初三天約有10萬人前往普天滿宮參拜被稱為「萬事如願之神」的普天滿宮神社。琉球八神社之一，供奉熊野權現和琉球甲神道神，也是宜野灣市唯一的神社，所以...",
+      "source": "jalan",
+      "url": "https://www.jalan.net/event/evt_366172/",
+      "date": "2027-01-01",
+      "date_end": "2027-01-03",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-15"
     },
     {
       "id": "today-7a4ee3ce",
@@ -2146,6 +2162,21 @@
       "first_seen": "2026-11-12"
     },
     {
+      "id": "weather-5e471980",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週日雷雨、週一有雨、週二有雨、週三有雨、週四有雨、週五多雲、週六多雲；氣溫約 16～26°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-11-15",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "today-f55d9876",
       "kind": "today",
       "title": "👘 七五三",
@@ -2655,21 +2686,6 @@
       "vibe": false
     },
     {
-      "id": "weather-f3116e82",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週六有雨、週日雷雨、週一有雨、週二有雨、週三有雨、週四有雨、週五有雨；氣溫約 18～27°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-11-14",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "news-d22f5fd3",
       "kind": "news",
       "title": "首里城正殿公開前首度聯合消防演練",
@@ -2899,7 +2915,7 @@
       "kind": "event",
       "title": "第四島清酒馬爾凱",
       "summary": "決定舉辦第四屆志摩清酒市集活動。\n\n日期與時間：2026年11月14-15日 12:00 20:00\n地點：國際通天保廣場\n\n這是我們第四次通電並舉行。\n\n請來參觀我們。",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://shimazake-marche.jp/2026/06/17/%e7%ac%ac%e5%9b%9b%e5%9b%9e%e9%96%8b%e5%82%ac%e6%b1%ba%e5%ae%9a%ef%bc%81%ef%bc%81/",
       "date": "2026-11-14",
       "date_end": "2026-11-15",
@@ -2908,7 +2924,7 @@
       "tourist_impact": "low",
       "local_life": true,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-15"
     },
     {
       "id": "event-3b578da9",
@@ -2927,11 +2943,11 @@
       "first_seen": null
     },
     {
-      "id": "event-2c2c87fc",
+      "id": "event-bbfde8f8",
       "kind": "event",
       "title": "第45屆宜野灣市文化節",
-      "summary": "第45屆宜野灣市文化節\n \n\n文化節將以傳承、創作、發展為主題，展現宜野灣市的表演藝術文化活動。\n\n請來參觀我們。\n\n停車位有限。來訪時請使用大眾運輸工具。\n\n \n\n開幕式\n時間 11月14日星期六 上午10點\n\n地點：宜野灣市民中心大廳…",
-      "source": "okinawastory",
+      "summary": "第45屆宜野灣市文化節\n \n\n文化節以傳承、創作、發展為主題，展現宜野灣市的表演藝術文化活動。\n\n請來參觀我們。\n\n停車位有限。來訪時請使用大眾運輸工具。\n\n \n\n開幕式\n時間 11月14日星期六 上午10點\n\n地點：宜野灣市民中心大廳…",
+      "source": "okimeguri",
       "url": "https://www.city.ginowan.lg.jp/event/18670.html",
       "date": "2026-11-14",
       "date_end": "2026-11-15",
@@ -2940,14 +2956,14 @@
       "tourist_impact": "low",
       "local_life": true,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-15"
     },
     {
       "id": "event-e38b24f9",
       "kind": "event",
       "title": "琉球冰學會",
-      "summary": "琉球冰雪節決定時隔兩年再次舉辦，今年連續舉辦兩天！沖繩縣內外六家知名刨冰店每天齊聚沖繩，請光臨 11 月 14 日星期六 - Food & Shaved Ice Kitchen ZEN（靜岡縣） - Sabo O\n琉球冰社的貼文首次出現在…",
-      "source": "okinawastory",
+      "summary": "琉球冰雪節決定時隔兩年再次舉辦。今年將連續舉辦兩天。我們在沖繩有很多漂亮的會員，所以請檢查日曆。\n\n琉球冰學會\n活動日期：2026年11月14日（星期六）- 15日\n地點：殘波岬汽車停車場\n沖繩縣中頭郡讀谷村宇座\n活動時間：上午11:00…",
+      "source": "okimeguri",
       "url": "https://www.instagram.com/p/Dc3CjkdSBHF/?vrfl=MXJrdnVvczJic3dq",
       "date": "2026-11-14",
       "date_end": "2026-11-15",
@@ -2956,7 +2972,7 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-15"
     },
     {
       "id": "event-b445a0e2",
@@ -2995,7 +3011,7 @@
       "kind": "event",
       "title": "Hippu 駕訓班車輛節",
       "summary": "活動名稱\nHippu 駕訓班車輛節\n\n日期和時間\n2026 年 11 月 14 日星期六 8:0016:00\n2026 年 11 月 15 日，星期日 10:0016:00\n\n場地\n沖繩賽車運動綜合場\n沖繩縣沖繩市倉敷152-8\n\n活動概…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.hi-pu-ds.com/entry_list02.php",
       "date": "2026-11-14",
       "date_end": "2026-11-15",
@@ -3004,7 +3020,7 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-15"
     },
     {
       "id": "news-d54b1972",
@@ -3493,7 +3509,7 @@
       "kind": "event",
       "title": "第29屆沖繩木本博覽會",
       "summary": "今年的口號是「與樹木一起生活，在島上手工藝品」。木材經過藝術家之手變成藝術品，然後送到你的手中。此外，您還可以欣賞到每位藝術家作品的溫暖和魅力，包括各種各樣的工藝品和手工藝品。\n\n日期: 2026年11月12日 2026年11月15日\n地…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://okinawa-kougeinomori.jp/event/19461",
       "date": "2026-11-12",
       "date_end": "2026-11-15",
@@ -3502,7 +3518,7 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-15"
     },
     {
       "id": "event-01e36232",
@@ -3746,22 +3762,6 @@
       "vibe": false
     },
     {
-      "id": "event-f18a5ab0",
-      "kind": "event",
-      "title": "第4屆數位相機圈若竹攝影展",
-      "summary": "時期\n11/10 星期二 11/15 星期日\n\n時間\n最後一天上午 10 點至晚上 7 點至下午 5 點\n\n場地\n展覽室\n\n入場費\n免費\n\n展覽內容\n照片",
-      "source": "okinawastory",
-      "url": "https://naha-palette.jp/gallery/event/5178",
-      "date": "2026-11-10",
-      "date_end": "2026-11-15",
-      "area": "那霸",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": null
-    },
-    {
       "id": "event-3b2c84d4",
       "kind": "event",
       "title": "竹久夢二與貓版畫展",
@@ -3794,11 +3794,11 @@
       "first_seen": null
     },
     {
-      "id": "event-4f85eccd",
+      "id": "event-6d0da933",
       "kind": "event",
       "title": "The Power of Musabi 2026南端武藏野美術大學校友會沖繩分會展Vol.7",
       "summary": "期間\n11/10 星期二 11/15 星期日\n\n時間\n最後一天上午 10 點至晚上 7 點至下午 5 點\n\n場地\n第一展廳 第一展廳\n\n入場費\n免費\n\n展覽內容\n繪畫、工藝品、設計影片等",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://naha-palette.jp/gallery/event/5174",
       "date": "2026-11-10",
       "date_end": "2026-11-15",
@@ -3807,7 +3807,23 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-15"
+    },
+    {
+      "id": "event-e491207e",
+      "kind": "event",
+      "title": "2026年11月10日 第回デジカメサークル若竹写真展",
+      "summary": "期間\n11/10 星期二 11/15 星期日\n\n時間\n最后一天上午 10 点至晚上 7 点至下午 5 点\n\n場地\n展覽室\n\n入场费\n免費\n\n展览内容\n照片",
+      "source": "okimeguri",
+      "url": "https://naha-palette.jp/gallery/event/5178",
+      "date": "2026-11-10",
+      "date_end": "2026-11-15",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-15"
     },
     {
       "id": "event-5c2e97e6",
