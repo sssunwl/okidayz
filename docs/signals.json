@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T11:18:56+09:00",
+  "generated_at": "2026-11-16T11:38:17+09:00",
   "items": [
     {
       "id": "event-672a348e",
@@ -594,22 +594,6 @@
       "first_seen": null
     },
     {
-      "id": "event-4738b6e2",
-      "kind": "event",
-      "title": "石垣島烤肉倉庫",
-      "summary": "寺島進將參觀「石垣島烤肉倉庫」！ 「一日經理」活動將於2026年12月11日至12日舉行",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000003.000188953.html",
-      "date": "2026-12-11",
-      "date_end": "2026-12-11",
-      "area": "離島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-12"
-    },
-    {
       "id": "today-bc5e5804",
       "kind": "today",
       "title": "❄️ 大雪",
@@ -864,22 +848,6 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
-    },
-    {
-      "id": "event-dcdb001b",
-      "kind": "event",
-      "title": "Orion 高級首里城設計罐",
-      "summary": "「Orion 高級首里城設計罐」將於 12 月 1 日星期二發售，以限量設計慶祝首里城正殿的竣工。",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000313.000044607.html",
-      "date": "2026-12-01",
-      "date_end": "2026-12-01",
-      "area": "全島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-12"
     },
     {
       "id": "event-397780ac",
@@ -1410,6 +1378,22 @@
       "first_seen": "2026-11-07"
     },
     {
+      "id": "event-74a112fd",
+      "kind": "event",
+      "title": "納哈特·爵士曼 沖繩爵士亞洲",
+      "summary": "那霸市文化藝術劇場納哈特開幕週年紀念事業\n台灣和韓國爵士音樂家以及主要活躍在那霸的爵士音樂家的大型聚會。\n請欣賞根據國家不同而有不同表現形式的爵士樂的豐富性以及當天限定的即興表演。\n\nDAY11月22日星期日 15:00開始 14:30開…",
+      "source": "okimeguri",
+      "url": "https://www.nahart.jp/stage/okinawajazz/",
+      "date": "2026-11-22",
+      "date_end": "2026-11-29",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-16"
+    },
+    {
       "id": "event-db369115",
       "kind": "event",
       "title": "節日 節日 西表島",
@@ -1570,22 +1554,6 @@
       "first_seen": "2026-11-12"
     },
     {
-      "id": "event-ca8e92fb",
-      "kind": "event",
-      "title": "Nahart Jazzmance 沖繩爵士 x 亞洲",
-      "summary": "那霸市文化藝術劇場 Nahaart 開幕週年紀念企劃\n台灣和韓國爵士音樂家以及主要活躍在那霸的爵士音樂家的大型聚會\n請欣賞根據國家不同而有不同表現形式的爵士樂的豐富性以及當天限定的即興表演。\n\nDAY11月22日星期日 15:00開始 1…",
-      "source": "okinawastory",
-      "url": "https://www.nahart.jp/stage/okinawajazz/",
-      "date": "2026-11-22",
-      "date_end": "2026-11-29",
-      "area": "那霸",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": null
-    },
-    {
       "id": "event-bc0f4eaa",
       "kind": "event",
       "title": "15萬丸市",
@@ -1666,7 +1634,7 @@
       "first_seen": "2026-11-12"
     },
     {
-      "id": "event-4c291604",
+      "id": "event-c80ba009",
       "kind": "event",
       "title": "第42屆本部展及作品招募",
       "summary": "",
@@ -1698,7 +1666,7 @@
       "first_seen": null
     },
     {
-      "id": "event-ca50b668",
+      "id": "event-3dfe6d0c",
       "kind": "event",
       "title": "第37屆宜野灣市工業節",
       "summary": "第37屆宜野灣市工業節將於2026年11月21日星期六及11月22日星期日舉行兩天。\n\n除了市內各種農水產品和工商業產品的銷售外，還有牛羊牲畜集市、石南花表演、深受孩子們歡迎的捕魚、工作車角、木工體驗等豐富的活動。此外，作為工業節內的首次…",
@@ -1858,7 +1826,7 @@
       "first_seen": null
     },
     {
-      "id": "event-04775d1a",
+      "id": "event-e0aa9b00",
       "kind": "event",
       "title": "2026年「草之森忠光三」秋季祭典",
       "summary": "",
@@ -1874,7 +1842,7 @@
       "first_seen": null
     },
     {
-      "id": "event-62b38cca",
+      "id": "event-8f6c8504",
       "kind": "event",
       "title": "2020年沖繩縣沙灘排球錦標賽第29屆吉田杯沖繩麵粉沙灘排球錦標賽2026",
       "summary": "2026年第29屆吉田盃沖繩麵粉沙灘排球錦標賽\n日期: 2026年11月21日星期六, 2026年11月22日星期日\n會場 西原Kirakira海灘",
@@ -1906,7 +1874,7 @@
       "first_seen": null
     },
     {
-      "id": "event-f6879b02",
+      "id": "event-8a8751f3",
       "kind": "event",
       "title": "第50屆首裡織展",
       "summary": "第一回首裡織展\n宣布將傳承為靜江未來的基礎的活動。\n\n那霸傳統紡織商業合作社正在慶祝成立 50 週年。\n\n以至今傳承下來的技術與理念為基礎，\n我們將繼續將其融入首裡織的未來。\n\n這是一個為期四天的活動，您可以在這裡體驗首裡織的現在和未來。…",
@@ -1922,7 +1890,7 @@
       "first_seen": null
     },
     {
-      "id": "event-edffa893",
+      "id": "event-55cf2e00",
       "kind": "event",
       "title": "第47屆壺屋陶藝節",
       "summary": "匯集沖繩縣約 20 名陶藝家的壺屋陶藝節將在那霸市壺屋小學舉行。各種壺屋陶瓷作品將展出和出售，從器皿和杯子等家居用品到風獅狗雕像，應有盡有。參加...",
@@ -1938,7 +1906,7 @@
       "first_seen": null
     },
     {
-      "id": "event-1938ecb8",
+      "id": "event-2c7d04d7",
       "kind": "event",
       "title": "浦添市歌町車站集合！ 「浦添商品市場」",
       "summary": "什麼是浦添產品馬爾凱？\n \n\\重新發現浦添的美味/\n這是浦添市產業振興課關於浦添商品市場的通知。\n\n\n作為浦添商品支援計畫的一部分，我們將於 11 月 20 日星期五至 11 月 21 日星期六在 Yui Rail 歌町站舉辦為期兩天的浦…",
@@ -2002,7 +1970,7 @@
       "first_seen": null
     },
     {
-      "id": "event-68d96ec8",
+      "id": "event-c00fa032",
       "kind": "event",
       "title": "豐裡智之 沖繩 Photo Express Okinawa",
       "summary": "期間\n11月17日星期二、11月22日星期日\n\n時間\n最後一天上午 10 點至晚上 7 點至下午 5 點\n\n場地\n陳列室1\n\n入場費\n免費\n\n展覽內容\n照片",
@@ -2018,7 +1986,7 @@
       "first_seen": null
     },
     {
-      "id": "event-b15634f2",
+      "id": "event-ff97ec8d",
       "kind": "event",
       "title": "第56屆沖繩新象展",
       "summary": "期間\n11/17 星期二 11/22 星期日\n\n時間\n最後一天上午 10 點至晚上 7 點至下午 5 點\n\n場地\n展覽室\n\n入場費\n免費\n\n展覽內容\n三維繪畫",
@@ -2144,6 +2112,21 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
+    },
+    {
+      "id": "weather-73e3f5a9",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週一晴時多雲、週二有雨、週三有雨、週四有雨、週五有雨、週六多雲、週日晴時多雲；氣溫約 16～26°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-11-16",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
     },
     {
       "id": "news-afaa4750",
@@ -2281,20 +2264,36 @@
       "vibe": false
     },
     {
-      "id": "event-488faa46",
+      "id": "event-9ad5d110",
       "kind": "event",
-      "title": "介紹石垣島商店和人物的書籍《島賴道》的出版紀念活動",
-      "summary": "[咲島出版社] 介紹石垣島商店和人物的書籍《島賴道》的出版紀念活動將於11月16日在山田商店舉行。",
+      "title": "海茵娜酒店普瑞米爾沖繩那霸美榮橋",
+      "summary": "海茵娜酒店首次進入沖繩縣「海茵娜酒店普瑞米爾沖繩那霸美榮橋」開業並開始接受預訂",
       "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000019.000060744.html",
+      "url": "https://prtimes.jp/main/html/rd/p/000001400.000005110.html",
       "date": "2026-11-16",
-      "date_end": "2026-11-16",
-      "area": "離島",
-      "category": "活動",
+      "date_end": "2026-12-16",
+      "area": "那霸",
+      "category": "新開張",
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": "2026-11-12"
+      "first_seen": "2026-11-16"
+    },
+    {
+      "id": "event-f9b7fc8c",
+      "kind": "event",
+      "title": "2027年春天，「Cain’s讀谷店」",
+      "summary": "2027年春天，「Cain’s讀谷店」將在沖繩縣中上郡讀谷村開幕。",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000730.000008255.html",
+      "date": "2026-11-16",
+      "date_end": "2026-12-16",
+      "area": "中部",
+      "category": "新開張",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-16"
     },
     {
       "id": "alert-4cfb5423",
@@ -2353,21 +2352,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-5e471980",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週日雷雨、週一有雨、週二有雨、週三有雨、週四有雨、週五多雲、週六多雲；氣溫約 16～26°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-11-15",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -2689,7 +2673,7 @@
     {
       "id": "event-397380d3",
       "kind": "event",
-      "title": "生ビール付き飲み放題2時間が300円(税込330円)に!「個室完備 博多大衆酒場 あいらしか 沖縄中の町店」2026年11月15日(日)グランドオープン",
+      "title": "博多公共酒吧 Airashika 沖繩中野町分店附包廂",
       "summary": "2小時無限暢飲加生啤酒300日圓（含稅330日圓）！ 「博多公共酒吧 Airashika 沖繩中野町分店附包廂」將於 2026 年 11 月 15 日（星期日）隆重開業",
       "source": "prtimes",
       "url": "https://prtimes.jp/main/html/rd/p/000000264.000035671.html",
@@ -3442,7 +3426,7 @@
       "first_seen": null
     },
     {
-      "id": "event-01e36232",
+      "id": "event-01b22af4",
       "kind": "event",
       "title": "【和平藝術展】公告！",
       "summary": "西原町將6月定為西原町和平月，全年開展各種和平項目，旨在為下一代傳遞和平、繁榮、光明的未來。\n作為這項努力的一部分，我們要求鎮上的學生創作以和平為主題的藝術，並透過舉辦他們的作品展覽，為他們提供一個機會，分享他們作品中所蘊含的和平想法和願…",
@@ -3462,7 +3446,7 @@
       "kind": "event",
       "title": "竹久夢二與貓版畫展",
       "summary": "11/10(火)11/16(月)\n2F ryubo art gallery",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://ryubo.jp/yumeji-takehisa-cats-exhibition/",
       "date": "2026-11-10",
       "date_end": "2026-11-16",
@@ -3471,7 +3455,7 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": "2026-11-12"
+      "first_seen": "2026-11-16"
     },
     {
       "id": "event-ec388e3d",
