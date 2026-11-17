@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T13:41:41+09:00",
+  "generated_at": "2026-11-17T13:59:50+09:00",
   "items": [
     {
       "id": "event-d663dee4",
@@ -272,6 +272,22 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
+    },
+    {
+      "id": "event-83292bbd",
+      "kind": "event",
+      "title": "2025年那霸市長獎得獎商品的一日限定遊行",
+      "summary": "這是由榮獲 2025 年那霸市長獎的 7 家企業舉辦的一日限定遊行。大量各商家精心製作的產品將匯聚一堂。這將是一次真正體驗每種產品優點的寶貴機會！我們希望您能來到現場領取。我們期待您的光臨。",
+      "source": "naha",
+      "url": "https://www.city.naha.okinawa.jp/business/kigyouricchi/1003642/1013278.html",
+      "date": "2026-12-27",
+      "date_end": "2026-12-27",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false,
+      "first_seen": "2026-11-17"
     },
     {
       "id": "event-0f526c30",
@@ -1810,22 +1826,6 @@
       "first_seen": "2026-11-12"
     },
     {
-      "id": "event-8b1cf35e",
-      "kind": "event",
-      "title": "HDS自動測試",
-      "summary": "[JAF 沖繩] 11 月 21 日星期六在沖繩市享受休閒賽車體驗！舉辦“HDS自動測試”",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000007877.000010088.html",
-      "date": "2026-11-21",
-      "date_end": "2026-11-21",
-      "area": "中部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-13"
-    },
-    {
       "id": "event-b18c4d1d",
       "kind": "event",
       "title": "3rd 88星座燈飾2026",
@@ -2016,6 +2016,21 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
+    },
+    {
+      "id": "weather-b12e6108",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週二有雨、週三有雨、週四有雨、週五有雨、週六有雨、週日晴時多雲、週一多雲；氣溫約 16～25°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-11-17",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
     },
     {
       "id": "news-a02f9500",
@@ -2275,6 +2290,22 @@
       "first_seen": null
     },
     {
+      "id": "event-479e1e3a",
+      "kind": "event",
+      "title": "海茵娜酒店普瑞米爾沖繩那霸美榮橋",
+      "summary": "海茵娜酒店首次進入沖繩縣「海茵娜酒店普瑞米爾沖繩那霸美榮橋」開業並開始接受預訂",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000001400.000005110.html",
+      "date": "2026-11-17",
+      "date_end": "2026-12-17",
+      "area": "那霸",
+      "category": "新開張",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-16"
+    },
+    {
       "id": "event-b36ed7d3",
       "kind": "event",
       "title": "免費發放100支哈根達斯 |池毛場那霸店",
@@ -2371,6 +2402,22 @@
       "first_seen": null
     },
     {
+      "id": "event-9c81aa40",
+      "kind": "event",
+      "title": "2027年春天，「Cain’s讀谷店」",
+      "summary": "2027年春天，「Cain’s讀谷店」將在沖繩縣中上郡讀谷村開幕。",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000730.000008255.html",
+      "date": "2026-11-17",
+      "date_end": "2026-12-17",
+      "area": "中部",
+      "category": "新開張",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-16"
+    },
+    {
       "id": "event-1a0b69c6",
       "kind": "event",
       "title": "2026年OTV盃大師高爾夫錦標賽",
@@ -2443,21 +2490,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-73e3f5a9",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週一晴時多雲、週二有雨、週三有雨、週四有雨、週五有雨、週六多雲、週日晴時多雲；氣溫約 16～26°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-11-16",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -2595,38 +2627,6 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false
-    },
-    {
-      "id": "event-9ad5d110",
-      "kind": "event",
-      "title": "海茵娜酒店普瑞米爾沖繩那霸美榮橋",
-      "summary": "海茵娜酒店首次進入沖繩縣「海茵娜酒店普瑞米爾沖繩那霸美榮橋」開業並開始接受預訂",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000001400.000005110.html",
-      "date": "2026-11-16",
-      "date_end": "2026-12-16",
-      "area": "那霸",
-      "category": "新開張",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-16"
-    },
-    {
-      "id": "event-f9b7fc8c",
-      "kind": "event",
-      "title": "2027年春天，「Cain’s讀谷店」",
-      "summary": "2027年春天，「Cain’s讀谷店」將在沖繩縣中上郡讀谷村開幕。",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000730.000008255.html",
-      "date": "2026-11-16",
-      "date_end": "2026-12-16",
-      "area": "中部",
-      "category": "新開張",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-16"
     },
     {
       "id": "news-92f315af",
@@ -3442,22 +3442,6 @@
       "vibe": false
     },
     {
-      "id": "event-055b8c01",
-      "kind": "event",
-      "title": "俯瞰平靜的宮古島懸崖，以五種感官享受美食和琉球文化的「NANJU」於12月24日開業，今天（11月13日）開始接受預訂",
-      "summary": "[Star Resorts Co., Ltd.] 俯瞰平靜的宮古島懸崖，以五種感官享受美食和琉球文化的「NANJU」於12月24日開業，今天（11月13日）開始接受預訂",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000045.000023869.html",
-      "date": "2026-11-13",
-      "date_end": "2026-12-24",
-      "area": "離島",
-      "category": "新開張",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-13"
-    },
-    {
       "id": "event-f384148f",
       "kind": "event",
       "title": "紅形三人展“Bintomo!”",
@@ -3494,7 +3478,7 @@
       "kind": "event",
       "title": "創造能源2026自行車展",
       "summary": "日期\n2026年11月10日星期二 9:00 2026年11月29日星期日 17:00\n地點\nOIST校園\n描述\n沖繩縣立藝術大學學生作品展「CYCLE Exhibition 2026」將在OIST校園內舉辦。請一邊欣賞學生的作品，一邊感…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://groups.oist.jp/ja/culture/event/cycle-exhibition-2026",
       "date": "2026-11-10",
       "date_end": "2026-11-29",
@@ -3503,7 +3487,7 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-17"
     },
     {
       "id": "event-5c2e97e6",
