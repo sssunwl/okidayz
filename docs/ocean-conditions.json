@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18 15:26",
+  "updated": "2026-11-18 20:18",
   "source": "日本氣象廳（沖縄気象台）",
   "forecast_url": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=471000",
   "warning_url": "https://www.jma.go.jp/bosai/warning/#area_type=offices&area_code=471000",
@@ -22,20 +22,20 @@
       "forecast": [
         {
           "date": "2026-11-18",
-          "weather": "晴轉短暫雨",
+          "weather": "雨轉多雲",
           "wind": {
-            "ja": "北西の風 後 北の風 強く",
-            "zh": "西北風後轉北風，強"
+            "ja": "北の風 強く",
+            "zh": "北風，強"
           },
           "wave": {
-            "ja": "1.5メートル 後 2.5メートル",
-            "zh": "1.5 公尺後轉 2.5 公尺"
+            "ja": "2.5メートル 後 3メートル",
+            "zh": "2.5 公尺後轉 3 公尺"
           },
           "label": "今天"
         },
         {
           "date": "2026-11-19",
-          "weather": "多雲短暫雨",
+          "weather": "多雲",
           "wind": {
             "ja": "北の風 強く 後 やや強く",
             "zh": "北風，強後轉稍強"
@@ -136,7 +136,7 @@
       ],
       "verdict": "caution",
       "verdict_label": "注意報發布中",
-      "verdict_reason": "氣象廳今天預報　風：西北風後轉北風，強／浪：1.5 公尺後轉 2.5 公尺"
+      "verdict_reason": "氣象廳今天預報　風：北風，強／浪：2.5 公尺後轉 3 公尺"
     },
     {
       "slug": "cape-maeda",
@@ -147,27 +147,27 @@
       "official_note": "真栄田岬官網有即時影像與旗幟（藍=可能／黃=注意，穿防護衣與救生衣／紅=禁止），以現場公告為準。",
       "official_url": "https://maedamisaki.jp/sea-status",
       "official_label": "真栄田岬official 即時海況 ↗",
-      "official_status": "禁止☓",
+      "official_status": "",
       "reference_url": "https://windy.app/forecast2/spot/8519891/Cape+Maeda+Blue+Cave",
       "jma_area": "471020",
       "jma_area_name": "本島北部",
       "forecast": [
         {
           "date": "2026-11-18",
-          "weather": "晴轉短暫雨",
+          "weather": "雨轉多雲",
           "wind": {
-            "ja": "北西の風 後 北の風 強く",
-            "zh": "西北風後轉北風，強"
+            "ja": "北の風 強く",
+            "zh": "北風，強"
           },
           "wave": {
-            "ja": "1.5メートル 後 2.5メートル",
-            "zh": "1.5 公尺後轉 2.5 公尺"
+            "ja": "2.5メートル 後 3メートル",
+            "zh": "2.5 公尺後轉 3 公尺"
           },
           "label": "今天"
         },
         {
           "date": "2026-11-19",
-          "weather": "多雲短暫雨",
+          "weather": "多雲",
           "wind": {
             "ja": "北の風 強く 後 やや強く",
             "zh": "北風，強後轉稍強"
@@ -266,9 +266,9 @@
           ]
         }
       ],
-      "verdict": "avoid",
-      "verdict_label": "官方禁止中",
-      "verdict_reason": "現場公告：禁止☓"
+      "verdict": "caution",
+      "verdict_label": "注意報發布中",
+      "verdict_reason": "氣象廳今天預報　風：北風，強／浪：2.5 公尺後轉 3 公尺"
     },
     {
       "slug": "gorilla-chop",
@@ -286,20 +286,20 @@
       "forecast": [
         {
           "date": "2026-11-18",
-          "weather": "晴轉短暫雨",
+          "weather": "雨轉多雲",
           "wind": {
-            "ja": "北西の風 後 北の風 強く",
-            "zh": "西北風後轉北風，強"
+            "ja": "北の風 強く",
+            "zh": "北風，強"
           },
           "wave": {
-            "ja": "1.5メートル 後 2.5メートル",
-            "zh": "1.5 公尺後轉 2.5 公尺"
+            "ja": "2.5メートル 後 3メートル",
+            "zh": "2.5 公尺後轉 3 公尺"
           },
           "label": "今天"
         },
         {
           "date": "2026-11-19",
-          "weather": "多雲短暫雨",
+          "weather": "多雲",
           "wind": {
             "ja": "北の風 強く 後 やや強く",
             "zh": "北風，強後轉稍強"
@@ -400,7 +400,7 @@
       ],
       "verdict": "caution",
       "verdict_label": "注意報發布中",
-      "verdict_reason": "氣象廳今天預報　風：西北風後轉北風，強／浪：1.5 公尺後轉 2.5 公尺"
+      "verdict_reason": "氣象廳今天預報　風：北風，強／浪：2.5 公尺後轉 3 公尺"
     }
   ]
 }
