@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T12:46:49+09:00",
+  "generated_at": "2026-11-18T13:06:13+09:00",
   "items": [
     {
       "id": "today-0d7eefe1",
@@ -626,6 +626,22 @@
       "first_seen": null
     },
     {
+      "id": "event-f43992d1",
+      "kind": "event",
+      "title": "えだま展vol.１４ ​",
+      "summary": "",
+      "source": "okinawastory",
+      "url": "http://curiositiesokinawa.weebly.com/",
+      "date": "2026-12-16",
+      "date_end": "2026-12-22",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-18"
+    },
+    {
       "id": "event-fee24f38",
       "kind": "event",
       "title": "兒童體育節",
@@ -674,12 +690,12 @@
       "first_seen": null
     },
     {
-      "id": "event-5d00babb",
+      "id": "event-e3c2f7b7",
       "kind": "event",
-      "title": "讀谷山燒北窯陶器市場",
+      "title": "🏺北釜陶器市場🏺",
       "summary": "每年 12 月中旬，讀著穀八門之裡都會舉辦一年一度的陶器市集。深受陶瓷愛好者歡迎的讀谷山燒北伽，將由製造商直接出售。這裡擠滿了很多人，包括當地人和遊客...",
-      "source": "jalan",
-      "url": "https://www.jalan.net/event/evt_366183/",
+      "source": "okinawastory",
+      "url": "https://www.instagram.com/p/Db5WlNvzMQ2/",
       "date": "2026-12-12",
       "date_end": "2026-12-13",
       "area": "中部",
@@ -687,7 +703,23 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": "2026-11-07"
+      "first_seen": "2026-11-18"
+    },
+    {
+      "id": "event-6c81131d",
+      "kind": "event",
+      "title": "精彩夜間活動“Illumi Banta海邊夜燈”",
+      "summary": "",
+      "source": "okinawastory",
+      "url": "https://banta-cafe.com/illumibanta/",
+      "date": "2026-12-12",
+      "date_end": "2027-02-28",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": true,
+      "first_seen": "2026-11-18"
     },
     {
       "id": "event-9259e692",
@@ -770,20 +802,20 @@
       "first_seen": null
     },
     {
-      "id": "event-ada28a25",
+      "id": "event-7fa6125f",
       "kind": "event",
-      "title": "2026 年聖誕市集",
-      "summary": "「聖誕市集2026」將在沖繩Outlet Mall Ashibinaa舉辦。活動將於2026年12月12日（週六）、13日（週日）、19日（週六）、20日（週日）共四天，每天10:00至16:00。 *12\n2026 年聖誕節後市集首次出…",
-      "source": "goyah",
-      "url": "https://goyah.net/okinawa_event/archives/9773",
+      "title": "2026 年嘉手納搖滾音樂節",
+      "summary": "",
+      "source": "okinawastory",
+      "url": "https://www.instagram.com/p/Dc0s5D3ycwX/",
       "date": "2026-12-12",
-      "date_end": "2026-12-12",
-      "area": "全島",
+      "date_end": "2026-12-13",
+      "area": "中部",
       "category": "活動",
       "tourist_impact": "low",
-      "local_life": true,
-      "vibe": false,
-      "first_seen": null
+      "local_life": false,
+      "vibe": true,
+      "first_seen": "2026-11-18"
     },
     {
       "id": "today-bc5e5804",
@@ -898,6 +930,22 @@
       "first_seen": "2026-11-09"
     },
     {
+      "id": "event-0a11a1da",
+      "kind": "event",
+      "title": "舉辦“Hoya Boya National Stage Caravan in 沖繩美麗海水族館”",
+      "summary": "",
+      "source": "okinawastory",
+      "url": "https://churaumi.okinawa/topics/20261105/",
+      "date": "2026-12-05",
+      "date_end": "2026-12-06",
+      "area": "北部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-18"
+    },
+    {
       "id": "event-14e4c9da",
       "kind": "event",
       "title": "聖誕節工作坊 讓我們用毛線絨球堆雪人",
@@ -978,6 +1026,22 @@
       "first_seen": null
     },
     {
+      "id": "event-d911f597",
+      "kind": "event",
+      "title": "可以了解紅糖的特性並盡情享受的「黑糖住宿」",
+      "summary": "",
+      "source": "okinawastory",
+      "url": "https://hoshinoresorts.com/ja/hotels/iriomote/sp/brownsugar2026/",
+      "date": "2026-12-05",
+      "date_end": "2026-12-28",
+      "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-18"
+    },
+    {
       "id": "event-14d02167",
       "kind": "event",
       "title": "2026 年手田子燈籠之夜 |帶著願望的光芒射向夜空",
@@ -1040,6 +1104,70 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
+    },
+    {
+      "id": "event-85b35bab",
+      "kind": "event",
+      "title": "紅形 Chill Night",
+      "summary": "",
+      "source": "okinawastory",
+      "url": "https://hoshinoresorts.com/ja/hotels/beb5okinawaseragaki/activities/15533/",
+      "date": "2026-12-01",
+      "date_end": "2027-02-28",
+      "area": "北部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": true,
+      "first_seen": "2026-11-18"
+    },
+    {
+      "id": "event-e665aed7",
+      "kind": "event",
+      "title": "琉球元宵節 2026-2027",
+      "summary": "",
+      "source": "okinawastory",
+      "url": "https://lantan.ryukyu/",
+      "date": "2026-12-01",
+      "date_end": "2027-03-31",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": true,
+      "first_seen": "2026-11-18"
+    },
+    {
+      "id": "event-638c03ab",
+      "kind": "event",
+      "title": "喜璃愈志聖誕老人從海上現身！ 《海島聖誕節》",
+      "summary": "",
+      "source": "okinawastory",
+      "url": "https://hoshinoresorts.com/ja/hotels/risonarekohamajima/sp/Island_Christmas/",
+      "date": "2026-12-01",
+      "date_end": "2026-12-25",
+      "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-18"
+    },
+    {
+      "id": "event-4d39fc6f",
+      "kind": "event",
+      "title": "【クリスマスシーズン12/1～26限定】ガーデンで愉しむやんばるハーブ鶏のビア缶チキン＆焼きマシュマロセット",
+      "summary": "",
+      "source": "okinawastory",
+      "url": "https://twin-line-hotel-yanbaru.jp/post-1980/",
+      "date": "2026-12-01",
+      "date_end": "2026-12-26",
+      "area": "北部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-18"
     },
     {
       "id": "event-397780ac",
@@ -1394,6 +1522,22 @@
       "first_seen": null
     },
     {
+      "id": "event-fcb3c26a",
+      "kind": "event",
+      "title": "離島特產展",
+      "summary": "在離島特產展中品嚐各種美食，並欣賞當地的民謠以及傳統三線演奏。",
+      "source": "visitokinawa",
+      "url": "https://honyaku.j-server.com/LUCOKNWP/ns/tl.cgi/https://www.pref.okinawa.lg.jp/kensei/shinko/1017087/1017118/1030785/1041716.html?SLANG=ja&TLANG=zhb&XMODE=0&XCHARSET=utf-8&XJSID=0",
+      "date": "2026-11-27",
+      "date_end": "2026-11-29",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-18"
+    },
+    {
       "id": "event-df160125",
       "kind": "event",
       "title": "舉辦兩人攝影展「Katariyashiba」",
@@ -1426,6 +1570,22 @@
       "first_seen": "2026-11-12"
     },
     {
+      "id": "event-4031ceb5",
+      "kind": "event",
+      "title": "沖繩全島攝影節",
+      "summary": "",
+      "source": "okinawastory",
+      "url": "https://urasoe-artmuseum.jp/exhibition/okinawa-photo-festival_2026/",
+      "date": "2026-11-27",
+      "date_end": "2026-12-06",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": true,
+      "first_seen": "2026-11-18"
+    },
+    {
       "id": "event-a359ea09",
       "kind": "event",
       "title": "坪川社區福利節 琉球古典音樂表演及解說",
@@ -1440,6 +1600,22 @@
       "local_life": true,
       "vibe": true,
       "first_seen": "2026-11-12"
+    },
+    {
+      "id": "event-08e6d8da",
+      "kind": "event",
+      "title": "「アイデアがカタチになるときデザイナー岸本一夫」開催のお知らせ",
+      "summary": "",
+      "source": "okinawastory",
+      "url": "https://www.city.nago.okinawa.jp/articles/2026110400040/",
+      "date": "2026-11-27",
+      "date_end": "2026-12-13",
+      "area": "北部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-18"
     },
     {
       "id": "event-11267cc4",
@@ -1472,6 +1648,70 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
+    },
+    {
+      "id": "event-dcc6a604",
+      "kind": "event",
+      "title": "沖繩縣藝術文化節照片精選展",
+      "summary": "",
+      "source": "okinawastory",
+      "url": "https://yamamizu.vill.higashi.okinawa.jp/topics/detail.jsp?id__=322",
+      "date": "2026-11-24",
+      "date_end": "2026-12-09",
+      "area": "北部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-18"
+    },
+    {
+      "id": "event-df9d9ec8",
+      "kind": "event",
+      "title": "比嘉義德版畫展 比嘉義德版畫展 - 宇津郎風景",
+      "summary": "",
+      "source": "okinawastory",
+      "url": "https://naha-palette.jp/gallery/event/5189",
+      "date": "2026-11-24",
+      "date_end": "2026-11-29",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-18"
+    },
+    {
+      "id": "event-d64641c5",
+      "kind": "event",
+      "title": "小石書法展 - 反思我們走過的路",
+      "summary": "",
+      "source": "okinawastory",
+      "url": "https://naha-palette.jp/gallery/event/5192",
+      "date": "2026-11-24",
+      "date_end": "2026-11-29",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-18"
+    },
+    {
+      "id": "event-d0f5b292",
+      "kind": "event",
+      "title": "ART GROUP MAX ～第11屆令及五人展",
+      "summary": "",
+      "source": "okinawastory",
+      "url": "https://naha-palette.jp/gallery/event/5194",
+      "date": "2026-11-24",
+      "date_end": "2026-11-29",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-18"
     },
     {
       "id": "today-e9de6e20",
@@ -1746,6 +1986,22 @@
       "first_seen": "2026-11-12"
     },
     {
+      "id": "event-c8737bfb",
+      "kind": "event",
+      "title": "スタッフの声から生まれた、沖縄の手仕事の新たなかたち。エシカルブランド「LIB」、琉球染織をあしらった名刺入れ全6種を11月22日より那覇空港店にて限定発売",
+      "summary": "從工作人員的心聲中誕生的沖繩手工藝品的新形式。道德品牌「LIB」將於11月22日起在那霸機場店限時發售6種琉球染織名片夾",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000823.000021621.html",
+      "date": "2026-11-22",
+      "date_end": "2026-11-22",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-18"
+    },
+    {
       "id": "event-bc0f4eaa",
       "kind": "event",
       "title": "15萬丸市",
@@ -1760,6 +2016,22 @@
       "local_life": false,
       "vibe": false,
       "first_seen": "2026-11-12"
+    },
+    {
+      "id": "event-5bc9e2c6",
+      "kind": "event",
+      "title": "🏮沖繩桑巴嘉年華2026🏮",
+      "summary": "沖繩桑巴嘉年華將在沖繩市戈雅區北谷町安良波海灘舉行，帶來精彩的舞蹈表演。由沖繩市國際交流協會、Koza Music Ta...",
+      "source": "okinawastory",
+      "url": "https://www.instagram.com/p/DbexJiKB-oN/",
+      "date": "2026-11-21",
+      "date_end": "2026-11-22",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-18"
     },
     {
       "id": "event-57290dc5",
@@ -1890,22 +2162,6 @@
       "first_seen": null
     },
     {
-      "id": "event-e8a6dbae",
-      "kind": "event",
-      "title": "沖繩桑巴嘉年華",
-      "summary": "沖繩桑巴嘉年華將在沖繩市戈雅區北谷町安良波海灘舉行，帶來精彩的舞蹈表演。由沖繩市國際交流協會、Koza Music Ta...",
-      "source": "jalan",
-      "url": "https://www.jalan.net/event/evt_364081/",
-      "date": "2026-11-21",
-      "date_end": "2026-11-22",
-      "area": "中部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": null
-    },
-    {
       "id": "event-1e0eeb3d",
       "kind": "event",
       "title": "小濱島婚禮",
@@ -1952,6 +2208,38 @@
       "local_life": false,
       "vibe": false,
       "first_seen": "2026-11-12"
+    },
+    {
+      "id": "event-259b54b8",
+      "kind": "event",
+      "title": "on.nact onna x act x on",
+      "summary": "",
+      "source": "okinawastory",
+      "url": "https://www.uds-hotels.com/anteroom/naha/exhibition/event/%e3%80%9026-11-21-sat-29-sun%e3%80%91on-nact-onna-x-act-x-on-%e3%80%9c%e8%aa%b0%e3%81%8b%e3%81%ae%e3%82%b9%e3%82%a4%e3%83%83%e3%83%81%e3%82%92on%e3%81%ab%e3%81%99%e3%82%8b-%e5%a5%b3%e6%80%a78%e4%ba%ba/",
+      "date": "2026-11-21",
+      "date_end": "2026-11-29",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-18"
+    },
+    {
+      "id": "event-a2aece41",
+      "kind": "event",
+      "title": "COFFEE CAMP COMMUNICATION 2026 〜コーヒーでつながるアウトドア時間〜",
+      "summary": "",
+      "source": "okinawastory",
+      "url": "https://www.instagram.com/p/De840VgFP0i/?img_index=1",
+      "date": "2026-11-21",
+      "date_end": "2026-11-22",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-18"
     },
     {
       "id": "event-b18c4d1d",
@@ -2034,6 +2322,22 @@
       "first_seen": null
     },
     {
+      "id": "event-4ae2fc7f",
+      "kind": "event",
+      "title": "🌵🌿八重山珍稀植物市場第2期舉辦！ ！ 🌿🌵",
+      "summary": "",
+      "source": "okinawastory",
+      "url": "https://www.instagram.com/p/DfV6LsGvq6H/",
+      "date": "2026-11-20",
+      "date_end": "2026-11-21",
+      "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-18"
+    },
+    {
       "id": "event-3ae05551",
       "kind": "event",
       "title": "首里城修復紀念館 琉球弗拉門戈正橋和首里城",
@@ -2114,22 +2418,6 @@
       "first_seen": "2026-11-11"
     },
     {
-      "id": "event-1c48f54f",
-      "kind": "event",
-      "title": "Gutto！美味美食博覽會九州沖繩展",
-      "summary": "在山形比較九州和沖繩的風味！ 「Gutto！美味美食博覽會九州沖繩展」將於11月20日（星期五）起舉辦為期5天",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000008.000182054.html",
-      "date": "2026-11-20",
-      "date_end": "2026-11-20",
-      "area": "全島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-14"
-    },
-    {
       "id": "event-75f17488",
       "kind": "event",
       "title": "2026沖繩本島生存跑",
@@ -2144,6 +2432,37 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
+    },
+    {
+      "id": "event-4057ab2c",
+      "kind": "event",
+      "title": "想到軟骨soki就成為東風平",
+      "summary": "以「想到軟骨soki就成為東風平」為目標。軟骨soki專賣店將於11月19日搬遷開業，距離石垣島Euglena Mall步行10秒！",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000010.000173749.html",
+      "date": "2026-11-19",
+      "date_end": "2026-12-19",
+      "area": "離島",
+      "category": "新開張",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-18"
+    },
+    {
+      "id": "weather-9e193343",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週三有雨、週四有雨、週五多雲、週六多雲、週日晴時多雲、週一多雲、週二有雨；氣溫約 16～25°C。",
+      "source": "Open-Meteo",
+      "url": "",
+      "date": "2026-11-18",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
     },
     {
       "id": "news-1551e297",
@@ -2371,6 +2690,38 @@
       "vibe": true
     },
     {
+      "id": "event-503aeb38",
+      "kind": "event",
+      "title": "ミニ作品展",
+      "summary": "",
+      "source": "okinawastory",
+      "url": "http://curiositiesokinawa.weebly.com/",
+      "date": "2026-11-18",
+      "date_end": "2026-11-24",
+      "area": "那霸",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-18"
+    },
+    {
+      "id": "event-bdbacb82",
+      "kind": "event",
+      "title": "【ドーミーインが沖縄県に初出店!那覇の中心地でサウナ付き大浴場とご当地朝食を】「ドーミーイン那覇<県庁前>」の予約販売開始!",
+      "summary": "【Dormy Inn飯店首次在沖繩縣開幕！那霸市中心帶桑拿的大浴場和當地早餐]「Dormy Inn 那霸<縣廳>」的預訂開始銷售！",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000499.000030012.html",
+      "date": "2026-11-18",
+      "date_end": "2026-12-18",
+      "area": "那霸",
+      "category": "新開張",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-18"
+    },
+    {
       "id": "alert-4cfb5423",
       "kind": "alert",
       "title": "沖繩本島留意突發強降雨與雷擊",
@@ -2427,21 +2778,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-b12e6108",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週二有雨、週三有雨、週四有雨、週五有雨、週六有雨、週日晴時多雲、週一多雲；氣溫約 16～25°C。",
-      "source": "Open-Meteo",
-      "url": "",
-      "date": "2026-11-17",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -2703,22 +3039,6 @@
       "first_seen": null
     },
     {
-      "id": "event-479e1e3a",
-      "kind": "event",
-      "title": "海茵娜酒店普瑞米爾沖繩那霸美榮橋",
-      "summary": "海茵娜酒店首次進入沖繩縣「海茵娜酒店普瑞米爾沖繩那霸美榮橋」開業並開始接受預訂",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000001400.000005110.html",
-      "date": "2026-11-17",
-      "date_end": "2026-12-17",
-      "area": "那霸",
-      "category": "新開張",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-16"
-    },
-    {
       "id": "event-90a46ad3",
       "kind": "event",
       "title": "七敷會水彩展",
@@ -2733,22 +3053,6 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
-    },
-    {
-      "id": "event-9c81aa40",
-      "kind": "event",
-      "title": "2027年春天，「Cain’s讀谷店」",
-      "summary": "2027年春天，「Cain’s讀谷店」將在沖繩縣中上郡讀谷村開幕。",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000730.000008255.html",
-      "date": "2026-11-17",
-      "date_end": "2026-12-17",
-      "area": "中部",
-      "category": "新開張",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-16"
     },
     {
       "id": "event-1a0b69c6",
@@ -3215,22 +3519,6 @@
       "tourist_impact": "none",
       "local_life": false,
       "vibe": false
-    },
-    {
-      "id": "event-397380d3",
-      "kind": "event",
-      "title": "博多公共酒吧 Airashika 沖繩中野町分店附包廂",
-      "summary": "2小時無限暢飲加生啤酒300日圓（含稅330日圓）！ 「博多公共酒吧 Airashika 沖繩中野町分店附包廂」將於 2026 年 11 月 15 日（星期日）隆重開業",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000264.000035671.html",
-      "date": "2026-11-15",
-      "date_end": "2026-12-15",
-      "area": "全島",
-      "category": "新開張",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-14"
     },
     {
       "id": "news-d22f5fd3",
@@ -3712,6 +4000,22 @@
       "local_life": false,
       "vibe": false,
       "first_seen": "2026-11-07"
+    },
+    {
+      "id": "event-34e2dbdc",
+      "kind": "event",
+      "title": "座間味島粉絲感謝月",
+      "summary": "每年11月的週六晚上，座間味島都會透過舞台表演、攝影比賽和尋寶活動表達對粉絲的感謝。",
+      "source": "visitokinawa",
+      "url": "https://www.vill.zamami.okinawa.jp/article/1793174923/",
+      "date": "2026-10-31",
+      "date_end": "2026-11-21",
+      "area": "離島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-18"
     },
     {
       "id": "event-532ce6d6",
