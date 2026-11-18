@@ -27,6 +27,9 @@ DOCS = ROOT / "docs"
 SITE_URL = os.getenv("SITE_URL", "https://sssunwl.github.io/okidayz/").rstrip("/") + "/"
 SITE_NAME = "OkiDayz"
 OG_IMAGE = SITE_URL + "assets/og-image.png"
+# Cloudflare Web Analytics(免 cookie):後台 Web Analytics 建站台後拿到的 token,本來就會出現在網頁原始碼,不是密鑰。
+# 空字串＝不放統計碼。網址搬到 okidayz.com 後要在同一個站台加上新網域。
+CF_BEACON_TOKEN = ""
 JST = timezone(timedelta(hours=9))
 
 # 導覽列（順序即權重）
@@ -455,12 +458,20 @@ def render_page(path, main, title, description, active="", page_data="", page_sc
         "PAGE_DATA": page_data,
         "PAGE_SCRIPT": page_script,
         "UPDATED": REPORT["generated"],
+        "ANALYTICS": analytics_html(),
     })
     target = DOCS / path / "index.html" if path else DOCS / "index.html"
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(page, encoding="utf-8")
     REPORT["pages"] += 1
     return canonical
+
+
+def analytics_html():
+    if not CF_BEACON_TOKEN:
+        return ""
+    return ('<script defer src="https://static.cloudflareinsights.com/beacon.min.js" '
+            "data-cf-beacon='{{\"token\": \"{}\"}}'></script>".format(CF_BEACON_TOKEN))
 
 
 def json_block(element_id, payload):
