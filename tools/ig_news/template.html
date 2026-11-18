@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>OkiDayz 快訊輪播</title>
+<!-- 單一主題的快訊輪播(例:首里城正殿開放)。資料在同資料夾的 <slug>.json,用 build.py 出圖(1080×1350)。
+     樣式整段沿用 ../ig_month/template.html(build.py 把那邊的 <style> 塞進 STYLE 位置),這裡只放快訊專用的補充。 -->
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700;900&family=Caveat:wght@700&display=swap" rel="stylesheet">
+<!--STYLE-->
+<style>
+/* ── 快訊封面 ── */
+.cover .when { font: 900 150px/0.86 var(--sans); color: var(--tile); letter-spacing: -.03em; }
+.cover .when small { display: block; font: 900 34px/1 var(--sans); color: var(--ink); margin-bottom: 18px; }
+.cover .flash { display: inline-block; background: var(--tile); color: #fff; font-size: 30px; font-weight: 900; padding: 8px 20px; border-radius: 8px; transform: rotate(-3deg); margin-bottom: 26px; }
+
+/* ── 時間軸 ── */
+.tl { margin-top: 30px; padding: 34px 36px; display: grid; gap: 26px; }
+.tl .r { display: grid; grid-template-columns: 250px 1fr; gap: 18px; align-items: start; }
+.tl .r > b { font: 700 42px/1.1 var(--hand); color: var(--tile); }
+.tl .r div { font-size: 31px; font-weight: 700; line-height: 1.42; }
+.tl .r div em { font-style: normal; display: block; font-size: 25px; color: var(--soft); }
+.tl .r.off > b { color: var(--soft); }
+.tl .r.off > div { color: var(--soft); }
+
+/* ── 票價 ── */
+.jump { display: flex; align-items: center; gap: 26px; margin: 22px 0 6px; }
+.jump .old { font: 900 96px/1 var(--sans); color: var(--soft); text-decoration: line-through 8px var(--tile); }
+.jump .arr { font: 700 90px/1 var(--hand); color: var(--mango); }
+.jump .new { font: 900 150px/1 var(--sans); color: var(--tile); }
+.jump .new small { font-size: 54px; }
+.ptab { width: 100%; border-collapse: collapse; margin-top: 24px; font-size: 36px; }
+.ptab th, .ptab td { padding: 20px 10px; text-align: center; border-bottom: 2px dashed rgba(47, 36, 32, .28); }
+.ptab th { font-size: 28px; color: var(--soft); }
+.ptab td:first-child, .ptab th:first-child { text-align: left; font-weight: 900; }
+.ptab tr.hl td { background: rgba(255, 210, 122, .55); font-weight: 900; }
+
+/* ── 編號步驟 ── */
+.steps { margin-top: 26px; padding: 34px 36px 38px; display: grid; gap: 22px; counter-reset: s; }
+.steps li { list-style: none; counter-increment: s; display: grid; grid-template-columns: 70px 1fr; font-size: 31px; font-weight: 700; line-height: 1.42; }
+.steps li::before { content: counter(s, decimal-leading-zero); font: 700 44px/1 var(--hand); color: var(--mango); }
+.steps li small { display: block; font-size: 25px; color: var(--soft); }
+</style>
+</head>
+<body>
+<main id="app"></main>
+<script>
+const A = '../../assets/brand/', IMG = '../../reference/ig-src/';
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const ph = (p, h, extra = '') => `<div class="ph" style="height:${h}px;${extra}"><img src="${IMG}${p.src}">${p.tag ? `<span class="tag">${esc(p.tag)}</span>` : ''}${p.credit ? `<span class="cr">${esc(p.credit)}</span>` : ''}</div>`;
+const facts = (f) => `<dl class="facts">${f.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('')}</dl>`;
+const head = (eye, cat, title, n) => `${n ? `<div class="num">${n}</div>` : ''}<div class="eye">${esc(eye)}</div><div class="cat">${esc(cat)}</div><h2>${title}</h2>`;
+
+const P = {
+  cover(d) {
+    const c = d.cover;
+    return `<span class="flash">${esc(c.flash)}</span>
+      <div class="when"><small>${esc(c.whenNote)}</small>${c.when}</div>
+      <h1 style="font-size:76px;font-weight:900;line-height:1.16;margin-top:30px;letter-spacing:-.01em">${c.title}</h1>
+      <p class="lead" style="margin-top:24px">${esc(c.sub)}</p>
+      <div class="collage">
+        ${ph(c.photos[0], 380, 'left:0;top:0;width:440px;transform:rotate(2.5deg)')}
+        ${ph(c.photos[1], 300, 'left:-20px;top:380px;width:440px;transform:rotate(-2deg)')}
+        ${ph(c.photos[2], 270, 'left:10px;top:690px;width:430px;transform:rotate(2deg)')}
+      </div>
+      <div class="chips">${c.chips.map(([i, t], k) => `<span class="chip${k === 0 ? ' red' : ''}"><img src="${A}emoji/${i}.svg">${esc(t)}</span>`).join('')}</div>`;
+  },
+  timeline(d, pg) {
+    return `${head(pg.eye, pg.cat, pg.title, pg.n)}
+      ${pg.photo ? ph(pg.photo, pg.photoH || 380, 'margin-top:8px') : ''}
+      <div class="sk tl hatch">${pg.rows.map(([w, t, s, off]) => `<div class="r${off ? ' off' : ''}"><b>${esc(w)}</b><div>${t}${s ? `<em>${esc(s)}</em>` : ''}</div></div>`).join('')}</div>`;
+  },
+  price(d, pg) {
+    return `${head(pg.eye, pg.cat, pg.title, pg.n)}
+      <div class="jump"><span class="old">${esc(pg.from)}</span><span class="arr">→</span><span class="new">${esc(pg.to)}<small>円</small></span></div>
+      <p class="lead">${esc(pg.lead)}</p>
+      <div class="sk" style="padding:16px 30px 20px;margin-top:22px"><table class="ptab">
+        <tr>${pg.cols.map((c) => `<th>${esc(c)}</th>`).join('')}</tr>
+        ${pg.rows.map((r, k) => `<tr class="${k === 0 ? 'hl' : ''}">${r.map((c) => `<td>${esc(c)}</td>`).join('')}</tr>`).join('')}
+      </table></div>
+      ${pg.note ? `<div class="sk hatch-red" style="padding:28px 32px;margin-top:30px;font-size:31px;font-weight:700;line-height:1.45">${pg.note}</div>` : ''}
+      ${pg.src ? `<p class="src" style="margin-top:22px;font-size:20px">${esc(pg.src)}</p>` : ''}`;
+  },
+  steps(d, pg) {
+    return `${head(pg.eye, pg.cat, pg.title, pg.n)}
+      ${pg.photo ? ph(pg.photo, pg.photoH || 360, 'margin-top:8px') : ''}
+      <ol class="sk steps ${pg.hatch || ''}">${pg.items.map(([t, s]) => `<li><span>${t}${s ? `<small>${esc(s)}</small>` : ''}</span></li>`).join('')}</ol>`;
+  },
+  tips(d, pg) {
+    return `${head(pg.eye, pg.cat, pg.title, pg.n)}
+      ${pg.photo ? ph(pg.photo, pg.photoH || 420, 'margin-top:8px') : ''}
+      <div class="sk tips hatch-red"><h4><img src="${A}emoji/warn.svg">${esc(pg.box)}</h4><ol>${pg.items.map((t) => `<li><span>${t}</span></li>`).join('')}</ol></div>`;
+  },
+  end(d) {
+    return `<div class="sk box hatch">
+      <div class="eye">Save it!</div>
+      <h2 style="margin-top:20px">${d.end.title}</h2>
+      <p class="lead" style="margin-top:20px">${esc(d.end.lead)}</p>
+      <div class="srcs">${esc(d.end.sources)}</div>
+      <img class="stamp" src="${A}stamps/local.svg"></div>`;
+  },
+};
+
+function build(d) {
+  const pages = [['cover', d], ...d.pages.map((p) => [p.type, p]), ['end', d]];
+  document.getElementById('app').innerHTML = pages.map(([t, pg], i) => `<section class="page ${t === 'cover' ? 'cover' : ''} ${t === 'end' ? 'end' : ''}" id="p${i + 1}">${P[t](d, pg)}
+    <div class="foot"><span>OkiDayz・@okidayz_</span><span class="n">${String(i + 1).padStart(2, '0')} / ${String(pages.length).padStart(2, '0')}</span></div></section>`).join('');
+  const m = location.hash.match(/p(\d+)/);
+  if (m) { document.body.classList.add('shot'); document.getElementById('p' + m[1]).classList.add('on'); }
+}
+if (window.DATA) build(window.DATA);
+</script>
+</body>
+</html>
