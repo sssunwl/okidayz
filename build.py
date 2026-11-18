@@ -839,78 +839,11 @@ def goods_items_html(items):
     ).format(filters=filters, cards=cards)
 
 
-TIDE_ARROWS = {"上漲": "↑", "下降": "↓"}
 CN_DIGITS = "零一二三四五六七八九十"
 
 
 def cn_num(n):
     return CN_DIGITS[n] if 0 <= n < len(CN_DIGITS) else str(n)
-
-
-def cond_point_payload(wind_dir, wind_speed, wave, tide, verdict, label, reason):
-    return json.dumps({
-        "wind": "{} {} 節".format(html.escape(str(wind_dir)), html.escape(str(wind_speed))),
-        "wave": "{} m".format(html.escape(str(wave))),
-        "tide": "{} m".format(html.escape(str(tide))),
-        "verdict": html.escape(str(verdict)),
-        "label": html.escape(str(label)),
-        "reason": html.escape(str(reason)),
-    }, ensure_ascii=False).replace("'", "&#39;")
-
-
-def ocean_timeline_html(spot):
-    # 前台只看白天能下水的時段（06–20 點），22 點、半夜這種細節留給 DiveInOut
-    points = [p for p in (spot.get("timeline") or [])
-              if str(p.get("hour", "")).isdigit() and 6 <= int(p["hour"]) <= 20]
-    points.sort(key=lambda p: (bool(p.get("is_tomorrow")), int(p["hour"])))  # 今天在前，明天早上排後面
-    if not points:
-        return ""
-
-    now_payload = cond_point_payload(
-        spot.get("wind_dir_label", ""), spot.get("wind_speed_kn", ""),
-        spot.get("wave_height_m", ""), spot.get("tide_m", ""),
-        spot.get("verdict", "caution"), spot.get("verdict_label", ""),
-        spot.get("verdict_reason", ""),
-    )
-    now_button = (
-        '<button type="button" class="cond-hour cond-hour-now active" data-hour="now" '
-        'data-point=\'{payload}\'>現在</button>'
-    ).format(payload=now_payload)
-
-    buttons = []
-    for point in points:
-        hour = str(point.get("hour", ""))
-        payload = cond_point_payload(
-            point.get("wind_dir_label", ""), point.get("wind_speed_kn", ""),
-            point.get("wave_height_m", ""), point.get("tide_m", ""),
-            point.get("verdict", "caution"), point.get("verdict_label", ""),
-            point.get("verdict_reason", ""),
-        )
-        tomorrow = point.get("is_tomorrow")
-        buttons.append(
-            '<button type="button" class="cond-hour cond-{level}{tmr_class}" '
-            'data-hour="{hour}" data-point=\'{payload}\'{title}>{hour}{tmr}</button>'.format(
-                level=html.escape(str(point.get("verdict", "caution"))),
-                tmr_class=" cond-hour-tomorrow" if tomorrow else "",
-                hour=html.escape(hour),
-                payload=payload,
-                title=' title="明天 {}:00"'.format(html.escape(hour)) if tomorrow else "",
-                tmr="<small>明天</small>" if tomorrow else "",
-            )
-        )
-
-    return (
-        '<div class="cond-timeline" data-cond-timeline>'
-        '<div class="cond-timeline-head"><span>逐時海況</span></div>'
-        '<div class="cond-hour-track">'
-        '{now_button}'
-        '<div class="cond-hour-scroll">'
-        '<div class="cond-hour-row">{buttons}</div>'
-        '<div class="cond-scrollbar"><div class="cond-scrollbar-thumb"></div></div>'
-        '</div>'
-        '</div>'
-        '</div>'
-    ).format(now_button=now_button, buttons="".join(buttons))
 
 
 def condition_tabs_html(spots):
@@ -1006,7 +939,14 @@ def ocean_spots_html():
         'document.querySelectorAll("[data-os-group]").forEach(function(g){{g.hidden=g.dataset.osGroup!==b.dataset.osKind}})}});</script>'
     ).format(tabs=tabs, groups="".join(groups))
 
-def ocean_conditions_html(conditions, note_label="地形要注意", heading="", eyebrow="Live Conditions",
+def jma_text(phrase):
+    """氣象廳片語：有中文翻譯用中文，翻不出來就原樣顯示日文（不猜）。"""
+    if not phrase:
+        return "—"
+    return phrase.get("zh") or phrase.get("ja") or "—"
+
+
+def ocean_conditions_html(conditions, note_label="地形要注意", heading="", eyebrow="Official Conditions",
                            section_id="live-conditions", section_class="ocean-conditions"):
     spots = (conditions or {}).get("spots") or []
     if not spots:
@@ -1014,16 +954,38 @@ def ocean_conditions_html(conditions, note_label="地形要注意", heading="", 
 
     cards = []
     for index, spot in enumerate(spots):
-        turn = spot.get("tide_turn") or {}
-        turn_text = ""
-        if turn.get("time"):
-            hours = turn.get("hours_away", 0)
-            if hours == 0:
-                turn_text = "現在接近{}（{}）".format(turn["kind"], turn["time"])
-            elif hours > 0:
-                turn_text = "約 {} 小時後{}（{}）".format(hours, turn["kind"], turn["time"])
-            else:
-                turn_text = "約 {} 小時前{}（{}）".format(abs(hours), turn["kind"], turn["time"])
+        rows = "".join(
+            '<div class="cond-day"><p class="cond-day-head"><b>{label}</b><small>{md}</small>{weather}</p>'
+            '<p><span>風</span>{wind}</p><p><span>浪</span>{wave}</p></div>'.format(
+                label=html.escape(str(day.get("label", ""))),
+                md=html.escape(str(day.get("date", ""))[5:].replace("-", "/")),
+                weather=html.escape(str(day.get("weather") or "")),
+                wind=html.escape(jma_text(day.get("wind"))),
+                wave=html.escape(jma_text(day.get("wave"))),
+            ) for day in spot.get("forecast") or [])
+        forecast = ""
+        if rows:
+            forecast = '<div class="cond-fc"><p class="cond-fc-cap">氣象廳預報・{area}</p>{rows}</div>'.format(
+                area=html.escape(str(spot.get("jma_area_name", ""))), rows=rows)
+
+        warnings = spot.get("warnings") or []
+        warn_html = ""
+        if warnings:
+            warn_html = '<div class="cond-warns">{}</div>'.format("".join(
+                '<span class="cond-warn cond-warn-{level}">{name}</span>'.format(
+                    level=html.escape(str(w.get("level", "advisory"))), name=html.escape(str(w.get("name", ""))))
+                for w in warnings))
+
+        tide_lines = []
+        for day in spot.get("tide") or []:
+            highs = "・".join(e["time"] for e in day.get("highs") or [])
+            lows = "・".join(e["time"] for e in day.get("lows") or [])
+            tide_lines.append('<li><b>{label}</b>滿潮 {highs}<span>／</span>乾潮 {lows}</li>'.format(
+                label=html.escape(str(day.get("label", ""))), highs=html.escape(highs or "—"), lows=html.escape(lows or "—")))
+        tide_html = ""
+        if tide_lines:
+            tide_html = '<div class="cond-tide"><span>{station}潮位表</span><ul>{lines}</ul></div>'.format(
+                station=html.escape(str(spot.get("tide_station", ""))), lines="".join(tide_lines))
 
         official = ""
         if spot.get("official_status"):
@@ -1040,45 +1002,30 @@ def ocean_conditions_html(conditions, note_label="地形要注意", heading="", 
 
         cards.append((
             '<article class="cond-card cond-{level}" data-cond-card="{index}">'
-            '<div class="cond-head"><h3>{name}</h3><span class="cond-badge" data-cond-badge>{label}</span></div>'
+            '<div class="cond-head"><h3>{name}</h3><span class="cond-badge">{label}</span></div>'
             '<p class="cond-region">{region}・{kind}</p>'
-            '<div class="cond-grid" data-cond-grid>'
-            '<div><span>風</span><strong data-cond-wind>{wind_dir} {wind_speed} 節</strong><small>陣風 {gust} 節</small></div>'
-            '<div><span>浪高</span><strong data-cond-wave>{wave} m</strong></div>'
-            '<div><span>潮位</span><strong data-cond-tide>{tide} m {arrow}</strong><small>{turn_text}</small></div>'
-            '</div>'
-            '<p class="cond-reason" data-cond-reason>{reason}</p>'
-            '{timeline}'
+            '{warn_html}{forecast}{tide_html}'
             '<p class="cond-exposure"><strong>{note_label}：</strong>{exposure}</p>'
             '{official}'
             '<div class="cond-links">'
-            '<a class="cond-link" href="https://sssunwl.github.io/diveinout/" target="_blank" rel="noopener">想看更細的潛水海況 → DiveInOut ↗</a>'
+            '<a class="cond-link" href="https://sssunwl.github.io/diveinout/" target="_blank" rel="noopener">想看更細的潛水資訊 → DiveInOut ↗</a>'
             '{official_link}'
             '</div>'
             '</article>'
         ).format(
             index=index,
-            level=html.escape(str(spot.get("verdict", "caution"))),
+            level=html.escape(str(spot.get("verdict", "info"))),
             name=html.escape(str(spot.get("name", ""))),
             label=html.escape(str(spot.get("verdict_label", ""))),
             region=html.escape(str(spot.get("region", ""))),
             kind=html.escape(str(spot.get("kind", ""))),
-            wind_dir=html.escape(str(spot.get("wind_dir_label", ""))),
-            wind_speed=html.escape(str(spot.get("wind_speed_kn", ""))),
-            gust=html.escape(str(spot.get("wind_gust_kn", ""))),
-            wave=html.escape(str(spot.get("wave_height_m", ""))),
-            swell=html.escape(str(spot.get("swell_height_m", ""))),
-            period=html.escape(str(spot.get("swell_period_s", ""))),
-            tide=html.escape(str(spot.get("tide_m", ""))),
-            arrow=TIDE_ARROWS.get(spot.get("tide_trend", ""), ""),
-            turn_text=html.escape(turn_text),
-            reason=html.escape(str(spot.get("verdict_reason", ""))),
-            timeline=ocean_timeline_html(spot),
+            warn_html=warn_html,
+            forecast=forecast,
+            tide_html=tide_html,
             note_label=html.escape(note_label),
             exposure=html.escape(str(spot.get("exposure", ""))),
             official=official,
             official_link=official_link,
-            ref_url=html.escape(str(spot.get("reference_url", "")), quote=True),
         ))
 
     caution = ""
@@ -1092,7 +1039,9 @@ def ocean_conditions_html(conditions, note_label="地形要注意", heading="", 
         '    <div class="shell">\n'
         '      <div class="cond-head-row">\n'
         '        <div><div class="eyebrow">{eyebrow}</div><h2>{heading}</h2></div>\n'
-        '        <p class="cond-updated">更新於 {updated} JST・資料來自 Open-Meteo，僅供參考，實際請以現場、教練與官方公告為準</p>\n'
+        '        <p class="cond-updated">更新於 {updated} JST・資料：<a href="{forecast_url}" target="_blank" rel="noopener">日本氣象廳（沖縄気象台）</a>府縣預報原文翻譯、'
+        '<a href="{warning_url}" target="_blank" rel="noopener">警報・注意報</a>、<a href="{tide_url}" target="_blank" rel="noopener">那霸潮位表</a>。'
+        '沒有警報不等於適合下水，實際請以現場、教練與官方公告為準</p>\n'
         '      </div>\n'
         '      {caution}\n'
         '      {tabs}\n'
@@ -1105,6 +1054,9 @@ def ocean_conditions_html(conditions, note_label="地形要注意", heading="", 
         eyebrow=html.escape(eyebrow),
         heading=html.escape(heading),
         updated=html.escape(str(conditions.get("updated", ""))),
+        forecast_url=html.escape(str(conditions.get("forecast_url") or "https://www.jma.go.jp/bosai/forecast/"), quote=True),
+        warning_url=html.escape(str(conditions.get("warning_url") or "https://www.jma.go.jp/bosai/warning/"), quote=True),
+        tide_url=html.escape(str(conditions.get("tide_url") or "https://www.data.jma.go.jp/kaiyou/db/tide/suisan/"), quote=True),
         caution=caution,
         tabs=condition_tabs_html(spots),
         cards="".join(cards),
@@ -2024,15 +1976,15 @@ def build_site(events=None, weather=None, updated=None):
             extra_block = ocean_spots_html() + ocean_conditions_html(
                 ocean_conditions,
                 note_label="潛水要注意",
-                heading="{}個熱門岸潛點，即時海況。".format(cn_num(len(dive_spots))),
-                eyebrow="Live Conditions",
+                heading="{}個熱門岸潛點，官方海況。".format(cn_num(len(dive_spots))),
+                eyebrow="Official Conditions",
                 section_id="live-conditions",
                 section_class="ocean-conditions",
             ) + ocean_conditions_html(
                 surf_conditions,
                 note_label="滑浪要注意",
-                heading="{}個滑浪點，即時浪況。".format(cn_num(len(surf_spots))),
-                eyebrow="Live Surf Conditions",
+                heading="{}個滑浪點，官方浪況。".format(cn_num(len(surf_spots))),
+                eyebrow="Official Surf Conditions",
                 section_id="live-surf-conditions",
                 section_class="ocean-conditions surf-conditions",
             )

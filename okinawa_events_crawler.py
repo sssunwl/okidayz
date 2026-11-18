@@ -6,6 +6,7 @@ import json
 import re
 import time
 
+import jma
 from build import build_site
 from event_sources import (
     WINDOW_DAYS, get_okimeguri_events, get_jalan_events, get_goyah_events, dedupe_across_sources,
@@ -20,7 +21,6 @@ WEATHER_FILE = "docs/weather.json"
 HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"}
 WEEKDAYS = ["週一", "週二", "週三", "週四", "週五", "週六", "週日"]
 WEEKDAYS_SHORT = "一二三四五六日"
-OKINAWA_LAT, OKINAWA_LON = 26.2124, 127.6809
 
 # ── 今天是… 完整年曆（12個月）──────────────────────────────────────
 # (月, 日, 中文名, emoji, 分類, 推薦星數, 沖繩/日本視角的小介紹)
@@ -157,68 +157,20 @@ def load_translation_cache():
     return cache
 
 
-# ── 天氣（Open-Meteo，免金鑰） ────────────────────────────────────────
-
-def weather_icon(code):
-    if code == 0:
-        return "☀️"
-    if code in (1, 2):
-        return "🌤️"
-    if code == 3:
-        return "☁️"
-    if code in (45, 48):
-        return "🌫️"
-    if code in (51, 53, 55, 56, 57, 61, 63, 65, 66, 67, 80, 81, 82):
-        return "🌧️"
-    if code in (95, 96, 99):
-        return "⛈️"
-    return "🌈"
-
-
-def uv_label(value):
-    if value < 3:
-        return "低"
-    if value < 6:
-        return "中等"
-    if value < 8:
-        return "高"
-    if value < 11:
-        return "很高"
-    return "極高"
-
+# ── 天氣（日本氣象廳府縣預報＋週間預報，見 jma.py） ─────────────────────
+# Open-Meteo 免費版條款禁止商用,2026-11-18 改用氣象廳。UV 氣象廳沒有,欄位留著給舊前端/Sona 讀。
 
 def get_weather():
-    params = (
-        f"latitude={OKINAWA_LAT}&longitude={OKINAWA_LON}&timezone=Asia%2FTokyo"
-        "&forecast_days=7"
-        "&daily=weather_code,temperature_2m_max,temperature_2m_min,"
-        "precipitation_probability_max,uv_index_max"
-    )
+    previous = []
+    if os.path.exists(WEATHER_FILE):
+        with open(WEATHER_FILE, "r", encoding="utf-8") as f:
+            previous = json.load(f)
     try:
-        res = requests.get(f"https://api.open-meteo.com/v1/forecast?{params}",
-                            headers=HEADERS, timeout=15)
-        res.raise_for_status()
-        daily = res.json()["daily"]
+        days = jma.daily_weather(jma.fetch_forecast(), previous)
     except Exception as e:
         print(f"⚠️ 天氣預報失敗：{e}")
-        return []
-
-    days = []
-    for i, iso in enumerate(daily["time"]):
-        dt = datetime.strptime(iso, "%Y-%m-%d")
-        code = int(daily["weather_code"][i])
-        uv = daily["uv_index_max"][i]
-        days.append({
-            "date": iso,
-            "weekday": WEEKDAYS_SHORT[dt.weekday()],
-            "icon": weather_icon(code),
-            "temp_max": round(daily["temperature_2m_max"][i]),
-            "temp_min": round(daily["temperature_2m_min"][i]),
-            "rain_chance": round(daily["precipitation_probability_max"][i]),
-            "uv": round(uv, 1),
-            "uv_label": uv_label(uv),
-        })
-    print(f"✅ 天氣預報：{len(days)} 天")
+        return previous
+    print(f"✅ 天氣預報（氣象廳）：{len(days)} 天")
     return days
 
 

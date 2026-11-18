@@ -58,7 +58,7 @@ body{
 .cal-day.today{background-image:var(--hatch-mango)}
 .region-card{background-image:var(--hatch-mango);border:2px solid var(--pen);box-shadow:var(--double)}
 .know-card,.community-card{background-image:var(--hatch-white)}
-.cond-card.cond-good{background-image:var(--hatch-sea);background-size:auto}
+.cond-card.cond-good,.cond-card.cond-info{background-image:var(--hatch-sea);background-size:auto}
 
 /* 標題螢光筆 */
 .hero h1 .play,.page-head h1 em{background:linear-gradient(transparent 58%,var(--sun) 58%,var(--sun) 92%,transparent 92%)}
@@ -138,11 +138,6 @@ footer::before{content:"Everyday Sunday.";position:absolute;left:auto;right:max(
 }
 @media(prefers-reduced-motion:reduce){.island-ticker .run{animation:none}}
 
-/* 海況逐時:只剩 06–20 點,一排排好不左右捲 */
-.cond-hour-row{flex-wrap:wrap;overflow:visible}
-.cond-hour{flex:1 0 40px}
-.cond-scrollbar{display:none}
-
 /* 近期活動=拍立得:照片在上,字在下面白底(不壓在海報上) */
 .pick-card.pick-polaroid{padding:10px 10px 14px;background:#fff;color:var(--ink);min-height:0}
 .pick-polaroid .pick-photo{aspect-ratio:4/3;background:var(--paper) center/cover no-repeat;border:1.5px solid var(--pen-soft);border-radius:4px}
@@ -216,9 +211,6 @@ footer::before{content:"Everyday Sunday.";position:absolute;left:auto;right:max(
 .article-body th,.article-body td{overflow-wrap:anywhere}
 @media (max-width:560px){.article-body table{font-size:.8rem}.article-body th,.article-body td{padding:8px 6px}}
 .cond-tabs{flex-wrap:wrap;overflow:visible}
-.cond-hour-row{display:grid;grid-template-columns:repeat(auto-fill,minmax(42px,1fr))}
-.cond-hour{min-width:0}
-.cond-hour-track{align-items:flex-start}.cond-hour-track>.cond-hour-now{flex:0 0 56px;align-self:flex-start}
 
 /* 頁尾:沒有手機浮動列了,底部留白收回;快捷連結改成三組小卡 */
 footer{padding:64px 0 48px}

@@ -43,7 +43,7 @@
         '<small>最低 ' + escapeHTML(todayWx.temp_min) + '°</small></span></div>' +
         '<ul class="wx-now-meta">' +
         '<li><span>降雨機率</span><strong>' + escapeHTML(todayWx.rain_chance) + '%</strong></li>' +
-        '<li><span>紫外線</span><strong>' + escapeHTML(todayWx.uv) + '・' + escapeHTML(todayWx.uv_label) + '</strong></li>' +
+        (todayWx.weather ? '<li><span>天氣</span><strong>' + escapeHTML(todayWx.weather) + '</strong></li>' : '') +
         '</ul>' +
         '<p class="wx-now-tip">' + escapeHTML(weatherTip(todayWx)) + '</p>';
     } else {
@@ -52,8 +52,7 @@
   }
 
   function weatherTip(day) {
-    if (day.rain_chance >= 70) return '降雨機率高，先在同一區備一個室內行程，別跨區追晴。';
-    if (day.uv >= 8) return '紫外線很強，防曬、帽子與水一樣都不要省。';
+    if (day.rain_chance >= 50) return '有機會下雨，先在同一區備一個室內行程，別跨區追晴。';
     if (day.temp_max >= 31) return '偏熱，戶外行程盡量安排在上午或傍晚。';
     return '天氣還算穩定，適合把戶外行程排滿一點。';
   }
@@ -70,7 +69,7 @@
         '<span class="wx-icon">' + escapeHTML(day.icon) + '</span>' +
         '<span class="wx-temp"><strong>' + escapeHTML(day.temp_max) + '°</strong><small>' + escapeHTML(day.temp_min) + '°</small></span>' +
         '<span class="wx-rain">💧 ' + escapeHTML(day.rain_chance) + '%</span>' +
-        '<span class="wx-uv">UV ' + escapeHTML(day.uv) + '・' + escapeHTML(day.uv_label) + '</span>' +
+        (day.weather ? '<span class="wx-uv">' + escapeHTML(day.weather) + '</span>' : '') +
         '</article>';
     }).join('') : '<div class="empty-state"><strong>天氣資料整理中</strong>晚點再回來看看。</div>';
   }

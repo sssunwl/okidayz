@@ -64,17 +64,19 @@
     box.innerHTML =
       '<span class="live-big">' + esc(day.icon) + ' ' + esc(day.temp_min) + '–' + esc(day.temp_max) + '°C</span>' +
       '<span class="live-chip">降雨 ' + esc(day.rain_chance) + '%</span>' +
-      '<span class="live-chip">UV ' + esc(day.uv_label) + '</span>';
+      (day.weather ? '<span class="live-chip">' + esc(day.weather) + '</span>' : '');
   }
 
+  function jmaText(p) { return p ? (p.zh || p.ja || '—') : '—'; }
+
+  /* 海況只轉載氣象廳預報（風／浪原文翻譯）與警報，不自己算好壞 */
   function conditionHtml(spot, label, href) {
-    var wave = spot.wave_height_m != null ? spot.wave_height_m.toFixed(1) + ' m' : '—';
-    var wind = (spot.wind_dir_label || '') + ' ' + (spot.wind_speed_kn != null ? Math.round(spot.wind_speed_kn) + ' kt' : '');
+    var today = (spot.forecast || [])[0] || {};
     return '<a class="live-cond is-' + esc(spot.verdict) + '" href="' + esc(href) + '">' +
       '<span class="live-cond-label">' + esc(label) + '・' + esc(spot.name) + '</span>' +
       '<strong>' + esc(spot.verdict_label) + '</strong>' +
-      '<span>浪 ' + esc(wave) + '・風 ' + esc(wind) + '</span>' +
-      '<small>' + esc(spot.verdict_reason) + '</small></a>';
+      '<span>浪 ' + esc(jmaText(today.wave)) + '・風 ' + esc(jmaText(today.wind)) + '</span>' +
+      '<small>氣象廳今天預報（' + esc(spot.jma_area_name || '') + '）</small></a>';
   }
 
   function renderOcean(box, cfg, ocean, surf) {

@@ -169,5 +169,31 @@
 "wave_height_m": 0.48,
 "wind_speed_kn": 2.2,
 "wind_deg": 54
+},
+{
+"at": "2026-11-18 15:22",
+"spot": "cape-maeda",
+"official": "禁止☓",
+"our_verdict": "caution",
+"jma_warnings": [
+"雷注意報",
+"強風注意報",
+"波浪注意報"
+],
+"jma_wind": "北西の風 後 北の風 強く",
+"jma_wave": "1.5メートル 後 2.5メートル"
+},
+{
+"at": "2026-11-18 15:26",
+"spot": "cape-maeda",
+"official": "禁止☓",
+"our_verdict": "caution",
+"jma_warnings": [
+"雷注意報",
+"強風注意報",
+"波浪注意報"
+],
+"jma_wind": "北西の風 後 北の風 強く",
+"jma_wave": "1.5メートル 後 2.5メートル"
 }
 ]
