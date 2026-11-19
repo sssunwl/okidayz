@@ -195,5 +195,16 @@
 ],
 "jma_wind": "北西の風 後 北の風 強く",
 "jma_wave": "1.5メートル 後 2.5メートル"
+},
+{
+"at": "2026-11-19 11:22",
+"spot": "cape-maeda",
+"official": "禁止☓",
+"our_verdict": "caution",
+"jma_warnings": [
+"波浪注意報"
+],
+"jma_wind": "北の風 やや強く 後 北西の風 やや強く",
+"jma_wave": "4メートル 後 3メートル"
 }
 ]
