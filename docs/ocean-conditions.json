@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20 11:06",
+  "updated": "2026-11-20 20:03",
   "source": "日本氣象廳（沖縄気象台）",
   "forecast_url": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=471000",
   "warning_url": "https://www.jma.go.jp/bosai/warning/#area_type=offices&area_code=471000",
@@ -22,7 +22,7 @@
       "forecast": [
         {
           "date": "2026-11-20",
-          "weather": "晴轉多雲",
+          "weather": "多雲",
           "wind": {
             "ja": "北西の風 やや強く",
             "zh": "西北風，稍強"
@@ -35,7 +35,7 @@
         },
         {
           "date": "2026-11-21",
-          "weather": "多雲轉時晴",
+          "weather": "多雲轉晴",
           "wind": {
             "ja": "北西の風 後 北の風",
             "zh": "西北風後轉北風"
@@ -133,14 +133,14 @@
       "official_note": "真栄田岬官網有即時影像與旗幟（藍=可能／黃=注意，穿防護衣與救生衣／紅=禁止），以現場公告為準。",
       "official_url": "https://maedamisaki.jp/sea-status",
       "official_label": "真栄田岬official 即時海況 ↗",
-      "official_status": "禁止☓",
+      "official_status": "",
       "reference_url": "https://windy.app/forecast2/spot/8519891/Cape+Maeda+Blue+Cave",
       "jma_area": "471020",
       "jma_area_name": "本島北部",
       "forecast": [
         {
           "date": "2026-11-20",
-          "weather": "晴轉多雲",
+          "weather": "多雲",
           "wind": {
             "ja": "北西の風 やや強く",
             "zh": "西北風，稍強"
@@ -153,7 +153,7 @@
         },
         {
           "date": "2026-11-21",
-          "weather": "多雲轉時晴",
+          "weather": "多雲轉晴",
           "wind": {
             "ja": "北西の風 後 北の風",
             "zh": "西北風後轉北風"
@@ -238,9 +238,9 @@
           ]
         }
       ],
-      "verdict": "avoid",
-      "verdict_label": "官方禁止中",
-      "verdict_reason": "現場公告：禁止☓"
+      "verdict": "caution",
+      "verdict_label": "注意報發布中",
+      "verdict_reason": "氣象廳今天預報　風：西北風，稍強／浪：3 公尺，伴有湧浪"
     },
     {
       "slug": "gorilla-chop",
@@ -258,7 +258,7 @@
       "forecast": [
         {
           "date": "2026-11-20",
-          "weather": "晴轉多雲",
+          "weather": "多雲",
           "wind": {
             "ja": "北西の風 やや強く",
             "zh": "西北風，稍強"
@@ -271,7 +271,7 @@
         },
         {
           "date": "2026-11-21",
-          "weather": "多雲轉時晴",
+          "weather": "多雲轉晴",
           "wind": {
             "ja": "北西の風 後 北の風",
             "zh": "西北風後轉北風"

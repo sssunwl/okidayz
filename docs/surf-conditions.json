@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20 11:06",
+  "updated": "2026-11-20 20:03",
   "source": "日本氣象廳（沖縄気象台）",
   "forecast_url": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=471000",
   "warning_url": "https://www.jma.go.jp/bosai/warning/#area_type=offices&area_code=471000",
@@ -22,7 +22,7 @@
       "forecast": [
         {
           "date": "2026-11-20",
-          "weather": "晴轉多雲",
+          "weather": "多雲",
           "wind": {
             "ja": "北西の風 やや強く",
             "zh": "西北風，稍強"
@@ -35,7 +35,7 @@
         },
         {
           "date": "2026-11-21",
-          "weather": "多雲轉時晴",
+          "weather": "多雲轉晴",
           "wind": {
             "ja": "北西の風 後 北の風",
             "zh": "西北風後轉北風"
@@ -140,7 +140,7 @@
       "forecast": [
         {
           "date": "2026-11-20",
-          "weather": "晴轉多雲",
+          "weather": "多雲",
           "wind": {
             "ja": "北西の風 やや強く",
             "zh": "西北風，稍強"
@@ -153,7 +153,7 @@
         },
         {
           "date": "2026-11-21",
-          "weather": "多雲轉時晴",
+          "weather": "多雲轉晴",
           "wind": {
             "ja": "北西の風 後 北の風",
             "zh": "西北風後轉北風"
@@ -258,7 +258,7 @@
       "forecast": [
         {
           "date": "2026-11-20",
-          "weather": "晴轉多雲",
+          "weather": "多雲",
           "wind": {
             "ja": "北西の風 やや強く",
             "zh": "西北風，稍強"
@@ -271,7 +271,7 @@
         },
         {
           "date": "2026-11-21",
-          "weather": "多雲轉時晴",
+          "weather": "多雲轉晴",
           "wind": {
             "ja": "北西の風 後 北の風",
             "zh": "西北風後轉北風"
