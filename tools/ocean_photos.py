@@ -10,7 +10,7 @@ import requests
 
 DATA = Path(__file__).resolve().parent.parent / "data" / "ocean_spots.json"
 API = "https://commons.wikimedia.org/w/api.php"
-HEADERS = {"User-Agent": "OkiDayz/1.0 (https://sssunwl.github.io/okidayz/)"}
+HEADERS = {"User-Agent": "OkiDayz/1.0 (https://okidayz.com/)"}
 OK_LICENSE = re.compile(r"^(CC0|CC BY|CC BY-SA|Public domain|PD)", re.I)
 
 

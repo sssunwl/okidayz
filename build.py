@@ -24,11 +24,11 @@ ASSETS = ROOT / "assets"
 CONTENT = ROOT / "content"
 DOCS = ROOT / "docs"
 
-SITE_URL = os.getenv("SITE_URL", "https://sssunwl.github.io/okidayz/").rstrip("/") + "/"
+SITE_URL = os.getenv("SITE_URL", "https://okidayz.com/").rstrip("/") + "/"
 SITE_NAME = "OkiDayz"
 OG_IMAGE = SITE_URL + "assets/og-image.png"
 # Cloudflare Web Analytics(免 cookie):後台 Web Analytics 建站台後拿到的 token,本來就會出現在網頁原始碼,不是密鑰。
-# 空字串＝不放統計碼。網址搬到 okidayz.com 後要在同一個站台加上新網域。
+# 空字串＝不放統計碼。
 CF_BEACON_TOKEN = ""
 JST = timezone(timedelta(hours=9))
 
@@ -1891,6 +1891,10 @@ def write_sitemap(urls):
         encoding="utf-8")
     (DOCS / "robots.txt").write_text(
         "User-agent: *\nAllow: /\nSitemap: {}sitemap.xml\n".format(SITE_URL), encoding="utf-8")
+    # GitHub Pages 自訂網域(2026-11-22 搬到 okidayz.com);SITE_URL 改回 github.io 時不寫
+    host = SITE_URL.split("/")[2]
+    if not host.endswith("github.io"):
+        (DOCS / "CNAME").write_text(host + "\n", encoding="utf-8")
 
 
 def copy_assets():

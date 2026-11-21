@@ -10,7 +10,7 @@ from datetime import date, datetime, timedelta, timezone
 import requests
 
 JST = timezone(timedelta(hours=9))
-HEADERS = {"User-Agent": "OkiDayzWeather/1.0 (https://sssunwl.github.io/okidayz/)"}
+HEADERS = {"User-Agent": "OkiDayzWeather/1.0 (https://okidayz.com/)"}
 
 OFFICE = "471000"  # 沖縄本島地方
 FORECAST_URL = f"https://www.jma.go.jp/bosai/forecast/data/forecast/{OFFICE}.json"
