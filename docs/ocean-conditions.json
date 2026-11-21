@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21 19:46",
+  "updated": "2026-11-22 03:52",
   "source": "日本氣象廳（沖縄気象台）",
   "forecast_url": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=471000",
   "warning_url": "https://www.jma.go.jp/bosai/warning/#area_type=offices&area_code=471000",
@@ -60,43 +60,11 @@
           "label": "後天"
         }
       ],
-      "warnings": [
-        {
-          "code": "16",
-          "name": "波浪注意報",
-          "level": "advisory",
-          "marine": true,
-          "status": "持續"
-        }
-      ],
+      "warnings": [],
       "tide_station": "那霸",
       "tide": [
         {
           "label": "今天",
-          "date": "2026-11-21",
-          "highs": [
-            {
-              "time": "04:23",
-              "cm": 162
-            },
-            {
-              "time": "16:30",
-              "cm": 186
-            }
-          ],
-          "lows": [
-            {
-              "time": "10:19",
-              "cm": 71
-            },
-            {
-              "time": "23:00",
-              "cm": 37
-            }
-          ]
-        },
-        {
-          "label": "明天",
           "date": "2026-11-22",
           "highs": [
             {
@@ -118,10 +86,30 @@
               "cm": 15
             }
           ]
+        },
+        {
+          "label": "明天",
+          "date": "2026-11-23",
+          "highs": [
+            {
+              "time": "06:06",
+              "cm": 187
+            },
+            {
+              "time": "17:41",
+              "cm": 205
+            }
+          ],
+          "lows": [
+            {
+              "time": "11:48",
+              "cm": 72
+            }
+          ]
         }
       ],
-      "verdict": "caution",
-      "verdict_label": "注意報發布中",
+      "verdict": "info",
+      "verdict_label": "無海上相關警報",
       "verdict_reason": "氣象廳今天預報　風：北風／浪：2.5 公尺，伴有湧浪"
     },
     {
@@ -178,43 +166,11 @@
           "label": "後天"
         }
       ],
-      "warnings": [
-        {
-          "code": "16",
-          "name": "波浪注意報",
-          "level": "advisory",
-          "marine": true,
-          "status": "持續"
-        }
-      ],
+      "warnings": [],
       "tide_station": "那霸",
       "tide": [
         {
           "label": "今天",
-          "date": "2026-11-21",
-          "highs": [
-            {
-              "time": "04:23",
-              "cm": 162
-            },
-            {
-              "time": "16:30",
-              "cm": 186
-            }
-          ],
-          "lows": [
-            {
-              "time": "10:19",
-              "cm": 71
-            },
-            {
-              "time": "23:00",
-              "cm": 37
-            }
-          ]
-        },
-        {
-          "label": "明天",
           "date": "2026-11-22",
           "highs": [
             {
@@ -236,10 +192,30 @@
               "cm": 15
             }
           ]
+        },
+        {
+          "label": "明天",
+          "date": "2026-11-23",
+          "highs": [
+            {
+              "time": "06:06",
+              "cm": 187
+            },
+            {
+              "time": "17:41",
+              "cm": 205
+            }
+          ],
+          "lows": [
+            {
+              "time": "11:48",
+              "cm": 72
+            }
+          ]
         }
       ],
-      "verdict": "caution",
-      "verdict_label": "注意報發布中",
+      "verdict": "info",
+      "verdict_label": "無海上相關警報",
       "verdict_reason": "氣象廳今天預報　風：北風／浪：2.5 公尺，伴有湧浪"
     },
     {
@@ -296,43 +272,11 @@
           "label": "後天"
         }
       ],
-      "warnings": [
-        {
-          "code": "16",
-          "name": "波浪注意報",
-          "level": "advisory",
-          "marine": true,
-          "status": "持續"
-        }
-      ],
+      "warnings": [],
       "tide_station": "那霸",
       "tide": [
         {
           "label": "今天",
-          "date": "2026-11-21",
-          "highs": [
-            {
-              "time": "04:23",
-              "cm": 162
-            },
-            {
-              "time": "16:30",
-              "cm": 186
-            }
-          ],
-          "lows": [
-            {
-              "time": "10:19",
-              "cm": 71
-            },
-            {
-              "time": "23:00",
-              "cm": 37
-            }
-          ]
-        },
-        {
-          "label": "明天",
           "date": "2026-11-22",
           "highs": [
             {
@@ -354,10 +298,30 @@
               "cm": 15
             }
           ]
+        },
+        {
+          "label": "明天",
+          "date": "2026-11-23",
+          "highs": [
+            {
+              "time": "06:06",
+              "cm": 187
+            },
+            {
+              "time": "17:41",
+              "cm": 205
+            }
+          ],
+          "lows": [
+            {
+              "time": "11:48",
+              "cm": 72
+            }
+          ]
         }
       ],
-      "verdict": "caution",
-      "verdict_label": "注意報發布中",
+      "verdict": "info",
+      "verdict_label": "無海上相關警報",
       "verdict_reason": "氣象廳今天預報　風：北風／浪：2.5 公尺，伴有湧浪"
     }
   ]
