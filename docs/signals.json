@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T12:20:57+09:00",
+  "generated_at": "2026-11-21T12:51:26+09:00",
   "items": [
     {
       "id": "today-e11af0c8",
@@ -176,6 +176,22 @@
       "local_life": false,
       "vibe": false,
       "first_seen": null
+    },
+    {
+      "id": "event-b42a22c4",
+      "kind": "event",
+      "title": "本部八重岳櫻花節",
+      "summary": "本部八重岳櫻花節於每年一月中旬琉球寒緋櫻花盛開時舉行。被譽為「日本最早開花」的琉球寒日櫻位於海拔453m的八重縣...",
+      "source": "jalan",
+      "url": "https://www.jalan.net/event/evt_366165/",
+      "date": "2027-01-16",
+      "date_end": "2027-01-31",
+      "area": "北部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false,
+      "first_seen": "2026-11-21"
     },
     {
       "id": "event-f32ac096",
@@ -357,7 +373,7 @@
       "id": "event-ace6ac05",
       "kind": "event",
       "title": "初參拜波上宮",
-      "summary": "波上宮は琉球八社の最上位で、海上守護、五穀豊穣、家内安全、商売繁盛など、さまざまなご利益があることで有名です。正月三が日は約20万人もの参拝客で賑わいます。",
+      "summary": "波之上神社位居琉球八神社之首，以保佑大海、五穀豐登、家人平安、生意興隆等多種功效而聞名。新年的前三天，這裡擠滿了大約20萬名信徒。",
       "source": "jalan",
       "url": "https://www.jalan.net/event/evt_366161/",
       "date": "2027-01-01",
@@ -1524,7 +1540,7 @@
     {
       "id": "event-b86ae3a0",
       "kind": "event",
-      "title": "上森金納奇堂金長大號音樂會獨立策劃公演的通知",
+      "title": "上森金納奇堂金長大號音樂會獨立策劃公演",
       "summary": "作为2020年Kamimori Kanachi Hall的独立项目，我们将举办来自与那原町的大号演奏家Masaru Kina的音乐会。\n\n我们准备了从大号温暖的歌声到超凡的技巧，让您充分享受贝斯魅力的歌曲。\n\n我们还将与基那先生的母校与那…",
       "source": "okimeguri",
       "url": "https://www.town.yonabaru.okinawa.jp/soshiki/17/10861.html",
@@ -2132,7 +2148,7 @@
     {
       "id": "event-70ed823c",
       "kind": "event",
-      "title": "「首里城」正殿完成を記念して『さんぴん茶 正殿完成記念パッケージPET550ml』を沖縄エリア限定・数量限定で11月23日より順次発売!売上の一部を首里城火災復旧・復興支援に寄付",
+      "title": "三品茶正殿竣工紀念套裝 PET 550ml",
       "summary": "為紀念首里城正殿竣工，「三品茶正殿竣工紀念套裝 PET 550ml」將於 11 月 23 日起在沖繩地區限量發售！部分銷售額將捐贈給首里城火災恢復和重建支持。",
       "source": "prtimes",
       "url": "https://prtimes.jp/main/html/rd/p/000000001.000194951.html",
@@ -2368,6 +2384,21 @@
       "local_life": false,
       "vibe": false,
       "first_seen": "2026-11-12"
+    },
+    {
+      "id": "weather-0e979ef3",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週六多雲時晴、週日晴、週一晴時多雲、週二有雨、週三多雲、週四有雨、週五有雨；氣溫約 17～25°C。",
+      "source": "日本氣象廳",
+      "url": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=471000",
+      "date": "2026-11-21",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
     },
     {
       "id": "news-190d0532",
@@ -2819,6 +2850,22 @@
       "first_seen": "2026-11-12"
     },
     {
+      "id": "event-279201ce",
+      "kind": "event",
+      "title": "即使下雨也不要放棄沖繩觀光",
+      "summary": "「首里城正殿重建」紀念活動！ ！小宇宙沖繩將於2026年11月21日星期六起限時推出三項特別折扣“即使下雨也不要放棄沖繩觀光”",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000052.000134535.html",
+      "date": "2026-11-21",
+      "date_end": "2026-11-21",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-21"
+    },
+    {
       "id": "event-e135f7b3",
       "kind": "event",
       "title": "加拉曼文化課程 五獅相遇 當地流傳下來的舞獅及其傳播",
@@ -3035,21 +3082,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-7a28c3c5",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週五晴時多雲、週六多雲時晴、週日晴時多雲、週一多雲時晴、週二有雨、週三多雲、週四有雨；氣溫約 17～25°C。",
-      "source": "日本氣象廳",
-      "url": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=471000",
-      "date": "2026-11-20",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -3279,11 +3311,11 @@
       "vibe": false
     },
     {
-      "id": "event-4ae2fc7f",
+      "id": "event-c54f85fe",
       "kind": "event",
-      "title": "🌵🌿八重山珍稀植物市場第2期舉辦！ ！ 🌿🌵",
+      "title": "舉辦八重山珍稀植物市集第2期",
       "summary": "稀有植物即將來到 Townpal Commons\n\n我們將舉辦第二屆廣受歡迎的稀有植物市集。\n\n享受龍舌蘭、塊莖植物和多肉植物等獨特而迷人的植物世界。\n\n有機會找到您通常不會遇到的植物或找到您最喜歡的品種。\n\n不僅歡迎植物愛好者，也歡迎想…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.instagram.com/p/DfV6LsGvq6H/",
       "date": "2026-11-20",
       "date_end": "2026-11-21",
@@ -3292,7 +3324,7 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": "2026-11-18"
+      "first_seen": "2026-11-21"
     },
     {
       "id": "event-8a8751f3",
@@ -3327,11 +3359,11 @@
       "first_seen": null
     },
     {
-      "id": "event-2c7d04d7",
+      "id": "event-eac42498",
       "kind": "event",
-      "title": "浦添市歌町車站集合！ 「浦添商品市場」",
+      "title": "浦添市歌町站舉辦浦添商品市集集會",
       "summary": "什麼是浦添產品馬爾凱？\n \n\\重新發現浦添的美味/\n這是浦添市產業振興課關於浦添商品市場的通知。\n\n\n作為浦添商品支援計畫的一部分，我們將於 11 月 20 日星期五至 11 月 21 日星期六在 Yui Rail 歌町站舉辦為期兩天的浦…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.city.urasoe.lg.jp/doc/2026101400080/",
       "date": "2026-11-20",
       "date_end": "2026-11-21",
@@ -3340,7 +3372,7 @@
       "tourist_impact": "low",
       "local_life": true,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-21"
     },
     {
       "id": "event-55085d7b",
@@ -4114,11 +4146,11 @@
       "first_seen": null
     },
     {
-      "id": "event-3b578da9",
+      "id": "event-3e9a37e4",
       "kind": "event",
       "title": "第55屆沖繩縣藝術文化節",
       "summary": "關於\n關於沖繩縣藝術文化節\n\n透過鼓勵像縣民一樣的藝術和文化活動，並為縣民提供廣泛的藝術欣賞機會，\n我們將舉辦以公共展覽為中心的藝術文化節，為縣文化的進步做出貢獻。\n\n展覽\n主要展覽\n\n第55屆沖繩縣藝術文化節即將舉行\n\n展覽時間2026…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.okicul-pr.jp/kengeisai/",
       "date": "2026-11-14",
       "date_end": "2026-11-22",
@@ -4127,7 +4159,7 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-21"
     },
     {
       "id": "event-1e0df9ba",
@@ -4140,22 +4172,6 @@
       "date_end": "2026-11-24",
       "area": "那霸",
       "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-19"
-    },
-    {
-      "id": "event-5e899386",
-      "kind": "event",
-      "title": "文字燒 Sacchan",
-      "summary": "「文字燒 Sacchan」第 2 家店將於 11 月 12 日在沖繩縣南風原町開業",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000007.000193459.html",
-      "date": "2026-11-12",
-      "date_end": "2026-12-12",
-      "area": "南部",
-      "category": "新開張",
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
@@ -4368,22 +4384,6 @@
       "local_life": false,
       "vibe": false,
       "first_seen": "2026-11-07"
-    },
-    {
-      "id": "event-34e2dbdc",
-      "kind": "event",
-      "title": "座間味島粉絲感謝月",
-      "summary": "每年11月的週六晚上，座間味島都會透過舞台表演、攝影比賽和尋寶活動表達對粉絲的感謝。",
-      "source": "visitokinawa",
-      "url": "https://www.vill.zamami.okinawa.jp/article/1793174923/",
-      "date": "2026-10-31",
-      "date_end": "2026-11-21",
-      "area": "離島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-18"
     },
     {
       "id": "event-532ce6d6",

@@ -1,42 +1,31 @@
 [
   {
-    "date": "2026-11-20",
-    "weekday": "五",
-    "icon": "🌤️",
-    "weather": "晴轉多雲",
-    "temp_max": 22,
-    "temp_min": 18,
-    "rain_chance": 10,
-    "uv": null,
-    "uv_label": ""
-  },
-  {
     "date": "2026-11-21",
     "weekday": "六",
     "icon": "⛅",
-    "weather": "多雲轉時晴",
-    "temp_max": 22,
+    "weather": "多雲時晴",
+    "temp_max": 21,
     "temp_min": 18,
-    "rain_chance": 20,
+    "rain_chance": 10,
     "uv": null,
     "uv_label": ""
   },
   {
     "date": "2026-11-22",
     "weekday": "日",
-    "icon": "🌤️",
-    "weather": "晴時多雲",
-    "temp_max": 22,
+    "icon": "☀️",
+    "weather": "晴",
+    "temp_max": 23,
     "temp_min": 17,
-    "rain_chance": 10,
+    "rain_chance": 0,
     "uv": null,
     "uv_label": ""
   },
   {
     "date": "2026-11-23",
     "weekday": "一",
-    "icon": "⛅",
-    "weather": "多雲時晴",
+    "icon": "🌤️",
+    "weather": "晴轉多雲",
     "temp_max": 25,
     "temp_min": 18,
     "rain_chance": 30,
@@ -49,8 +38,8 @@
     "icon": "🌧️",
     "weather": "多雲時雨",
     "temp_max": 25,
-    "temp_min": 19,
-    "rain_chance": 70,
+    "temp_min": 18,
+    "rain_chance": 80,
     "uv": null,
     "uv_label": ""
   },
@@ -73,6 +62,17 @@
     "temp_max": 23,
     "temp_min": 18,
     "rain_chance": 70,
+    "uv": null,
+    "uv_label": ""
+  },
+  {
+    "date": "2026-11-27",
+    "weekday": "五",
+    "icon": "🌧️",
+    "weather": "多雲短暫雨",
+    "temp_max": 25,
+    "temp_min": 19,
+    "rain_chance": 50,
     "uv": null,
     "uv_label": ""
   }

@@ -1258,22 +1258,6 @@
     "description": "國際通り萬聖節遊行是沖繩秋季新興慶典，各式造型扮裝吸引大批人潮"
   },
   {
-    "name": "座間味島粉絲感謝月",
-    "name_zh": "座間味島粉絲感謝月",
-    "date_start": "2026-10-31",
-    "date_end": "2026-11-21",
-    "url": "https://visitokinawajapan.com/zh-hant/discover/events/zamami-island-fan-appreciation-month/",
-    "source": "visitokinawa",
-    "category": "",
-    "stars": 0,
-    "description": "每年11月的週六晚上，座間味島都會透過舞台表演、攝影比賽和尋寶活動表達對粉絲的感謝。",
-    "image": "https://visitokinawajapan.com/wp-content/uploads/2021/11/ev219_01_zamami-appreciation-month.webp",
-    "location": "座間味港",
-    "price": "免費",
-    "official_url": "https://www.vill.zamami.okinawa.jp/article/1793174923/",
-    "first_seen": "2026-11-18"
-  },
-  {
     "name": "座間味島ファン感謝月間",
     "name_zh": "座間味島粉絲感謝月",
     "date_start": "2026-10-31",
@@ -1569,65 +1553,28 @@
     "price": "免費",
     "official_url": "https://www.town.nishihara.okinawa.jp/soshiki/3/11512.html",
     "area": "西原町",
-    "name_zh_full": "和平藝術展公告",
     "description_ja": "西原町では、6月を西原町平和月間と定めているほか、平和で豊かな明るい未来を次の世代へつなげることを目的に、通年、様な平和事業に取り組んでいます。\nその一環として、町内の学生に平和をテーマにしたアートを制作していただき、作品展示会を開催することで、作品に込められた平和への思い・願いを共有する機会を設けております。\n多くの方のご来場を、心よりお待ちしております。\n\n平和アート展示会の概要\n\n令和8年度",
     "location_ja": "西原町町民交流センター 町民ギャラリー ・ 西原町",
     "first_seen": "2026-11-19"
   },
   {
-    "name": "「もんじゃ焼さっちゃん」2店舗目が沖縄・南風原町に11月12日オープン",
-    "name_zh": "文字燒 Sacchan",
-    "date_start": "2026-11-12",
-    "date_end": "2026-12-12",
-    "url": "https://prtimes.jp/main/html/rd/p/000000007.000193459.html",
-    "source": "prtimes",
-    "category": "新開張",
-    "stars": 0,
-    "description": "「文字燒 Sacchan」第 2 家店將於 11 月 12 日在沖繩縣南風原町開業",
-    "image": "https://prcdn.freetls.fastly.net/release_image/193459/7/193459-7-5321b1d4b1784754cc088a3adae03a8f-296x247.png",
-    "location": "不二雄食品集團總部有限公司",
-    "price": "",
-    "official_url": "",
-    "name_zh_full": "「文字燒 Sacchan」第 2 家店將於 11 月 12 日在沖繩縣南風原町開業",
-    "description_ja": "「もんじゃ焼さっちゃん」2店舗目が沖縄・南風原町に11月12日オープン",
-    "location_ja": "株式会社フジオフードグループ本社",
-    "first_seen": "2026-11-19"
-  },
-  {
-    "name": "第55回沖縄県芸術文化祭",
+    "name": "第55回沖縄県芸術文化祭 開催決定",
     "name_zh": "第55屆沖繩縣藝術文化節",
     "date_start": "2026-11-14",
     "date_end": "2026-11-22",
-    "url": "https://www.okinawastory.jp/event/600022866",
-    "source": "okinawastory",
-    "category": "",
-    "stars": 0,
-    "description": "關於\n關於沖繩縣藝術文化節\n\n透過鼓勵像縣民一樣的藝術和文化活動，並為縣民提供廣泛的藝術欣賞機會，\n我們將舉辦以公共展覽為中心的藝術文化節，為縣文化的進步做出貢獻。\n\n展覽\n主要展覽\n\n第55屆沖繩縣藝術文化節即將舉行\n\n展覽時間2026年11月14日星期六、11月22日星期日\n展覽場地 沖繩市立體育館\n活動時間：上午 10 點至下午 5 點最後入場截止至下午 4:30",
-    "image": "https://okicul-pr.jp/kengeisai/cms/wp-content/uploads/2026/06/2026-yoko-omote.jpg",
-    "location": "沖縄市体育館 ・ 沖縄県沖縄市諸見里２丁目１−１",
-    "price": "",
-    "official_url": "https://www.okicul-pr.jp/kengeisai/",
-    "area": "沖縄市",
-    "first_seen": ""
-  },
-  {
-    "name": "My World 絵画展県内5名の作家による作品展示・販売ビオスの丘",
-    "name_zh": "我的世界繪畫展 縣內生物之丘5位藝術家作品展銷",
-    "date_start": "2026-11-14",
-    "date_end": "2026-11-20",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/7081",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6612",
     "source": "okimeguri",
     "category": "",
     "stars": 0,
-    "description": "限時活動\n亞熱帶森林裡遇見的5人的藝術\n我的世界群展\n\n本縣5位藝術家的畫作展覽及銷售\n\n\n活動期間\n\n2026 年 11 月 14 日，星期六\n11 月 20 日，星期五\n\n繪畫展覽免費入場\n比奧斯山\n入口附近的活動展覽室\n\n我們將於 11 月 17 日星期二休息。\n\n\n在被沖繩大自然包圍的Bios Hill，\n我們將舉辦縣內5位藝術家的聯展。\n色彩繽紛、獨特",
-    "image": "",
-    "location": "入口附近的Bios Hill 活動展覽室/宇流麻市",
+    "description": "關於\n關於沖繩縣藝術文化節\n\n透過鼓勵像縣民一樣的藝術和文化活動，並為縣民提供廣泛的藝術欣賞機會，\n我們將舉辦以公共展覽為中心的藝術文化節，為縣文化的進步做出貢獻。\n\n展覽\n主要展覽\n\n第55屆沖繩縣藝術文化節即將舉行\n\n展覽時間2026年11月14日星期六、11月22日星期日\n展覽場地 沖繩市立體育館\n活動時間：上午 10 點至下午 5 點最後入場截止至下午 4:30",
+    "image": "https://www.jalan.net/jalan/img/4/event/0364/KM/e364093a.jpg",
+    "location": "沖縄市体育館 ・ 沖縄市",
     "price": "",
-    "official_url": "https://www.bios-hill.co.jp/19304/",
-    "area": "うるま市",
-    "description_ja": "期間限定イベント\n亜熱帯の森で出会う、5人のアート\nMy World Group Exhibition\n\n県内5名の作家による絵画展示・販売\n\n\n開催期間\n\n2026年11月14日土\n11月20日金\n\n絵画展 入場無料\nビオスの丘\n入園口近く イベント展示室\n\n11月17日火はお休みです。\n\n\n沖縄の自然に包まれたビオスの丘で、\n県内5名の作家によるグループ絵画展を開催します。\n色彩豊かで個性あふ",
-    "location_ja": "ビオスの丘　入園口近く イベント展示室 ・ うるま市",
-    "first_seen": "2026-11-20"
+    "official_url": "https://www.okicul-pr.jp/kengeisai/",
+    "area": "沖縄市",
+    "name_zh_full": "第55屆沖繩縣藝術文化節即將舉行",
+    "description_ja": "ABOUT\n沖縄県芸術文化祭について\n\n県民の様な芸術文化活動を奨励し、広く県民に芸術鑑賞の機会を提供することにより、\n県民文化の向上に寄与することを目的として、公募展等を中心とした芸術文化祭を開催します。\n\nEXHIBITION\n本展\n\n第55回沖縄県芸術文化祭 開催決定\n\n本展期間2026年11月14日土11月22日日\n本展会場沖縄市体育館\n開催時間午前10時午後5時最終入館は午後4時半まで\n",
+    "first_seen": "2026-11-21"
   },
   {
     "name": "今天是 👘 七五三",
@@ -1726,42 +1673,6 @@
     "first_seen": "2026-11-11"
   },
   {
-    "name": "🌵🌿 珍奇植物マーケット in 八重山 vol.2 開催！！ 🌿🌵",
-    "name_zh": "🌵🌿八重山珍稀植物市場第2期舉辦！ ！ 🌿🌵",
-    "date_start": "2026-11-20",
-    "date_end": "2026-11-21",
-    "url": "https://www.okinawastory.jp/event/600023496",
-    "source": "okinawastory",
-    "category": "",
-    "stars": 0,
-    "description": "稀有植物即將來到 Townpal Commons\n\n我們將舉辦第二屆廣受歡迎的稀有植物市集。\n\n享受龍舌蘭、塊莖植物和多肉植物等獨特而迷人的植物世界。\n\n有機會找到您通常不會遇到的植物或找到您最喜歡的品種。\n\n不僅歡迎植物愛好者，也歡迎想要種植植物的初學者。\n\n 供應商\n柔術_植物\nInstagram@jits",
-    "image": "",
-    "location": "石垣鎮 Pal Commons / 沖繩縣石垣市大川 204",
-    "price": "",
-    "official_url": "https://www.instagram.com/p/DfV6LsGvq6H/",
-    "area": "石垣島",
-    "description_ja": "珍しい植物たちがタウンパル・コモンズにやってくる\n\n大好評の珍奇植物マーケット、第2弾を開催します\n\nアガベや塊根植物、多肉植物など、個性豊かで魅力あふれる珍奇植物の世界をお楽しみください\n\n普段なかなか出会えない植物や、お気に入りの一株に出会えるチャンス\n\n植物好きの方はもちろん、これから育ててみたいという初心者の方も大歓迎です\n\n 出店者\njitsu_plants\nInstagram@jits",
-    "location_ja": "石垣市タウンパル・コモンズ ・ 沖縄県石垣市大川204",
-    "first_seen": "2026-11-18"
-  },
-  {
-    "name": "浦添市のおいしいがおもろまち駅に集合！『うらそえ産品マルシェ』",
-    "name_zh": "浦添市歌町車站集合！ 「浦添商品市場」",
-    "date_start": "2026-11-20",
-    "date_end": "2026-11-21",
-    "url": "https://www.okinawastory.jp/event/600023373",
-    "source": "okinawastory",
-    "category": "",
-    "stars": 0,
-    "description": "什麼是浦添產品馬爾凱？\n \n\\重新發現浦添的美味/\n這是浦添市產業振興課關於浦添商品市場的通知。\n\n\n作為浦添商品支援計畫的一部分，我們將於 11 月 20 日星期五至 11 月 21 日星期六在 Yui Rail 歌町站舉辦為期兩天的浦添商品遊行。\n\n歌町匯集了布埃諾雞和使用當地香料製成的五香鹽等浦添市的美味食品。\n\n您也可以品嚐 Pizza House 的咖哩。",
-    "image": "https://www.city.urasoe.lg.jp/doc/2026101400080/file_contents/file_2026103059263_1.png",
-    "location": "Yui Rail 歌町站 沖繩縣那霸市歌町 4-1",
-    "price": "免費",
-    "official_url": "https://www.city.urasoe.lg.jp/doc/2026101400080/",
-    "area": "那覇市",
-    "first_seen": ""
-  },
-  {
     "name": "第５０回 首里織展",
     "name_zh": "第50屆首裡織展",
     "date_start": "2026-11-20",
@@ -1813,23 +1724,43 @@
     "first_seen": ""
   },
   {
-    "name": "首里城復興記念 琉球フラメンコ尚巴志と首里城",
-    "name_zh": "首里城修復紀念館 琉球弗拉門戈正橋和首里城",
+    "name": "浦添市のおいしいがおもろまち駅に集合うらそえ産品マルシェのお知らせ",
+    "name_zh": "浦添市歌町站舉辦浦添商品市集集會",
     "date_start": "2026-11-20",
-    "date_end": "2026-11-20",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6987",
+    "date_end": "2026-11-21",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/7029",
     "source": "okimeguri",
     "category": "",
     "stars": 0,
-    "description": "沖繩與西班牙交會的僅一晚的演出。佛朗明哥與琉球舞蹈、吉他與三線、歌唱與民歌與琉球歌曲在舞台上交叉合一。\n為了紀念首里城的修復，本劇以尚橋王為原型。繼東京西班牙公演後再次赴沖繩公演\n享受來自東京、沖繩和西班牙藝術家的超豪華現場表演的力量。\n\n地點：LIVEHOUSE MODS\n11 月 20 日，星期五\n18:00 開門 演出 19:00 開始\n自由席4,000日元/當天4,500日元",
+    "description": "什麼是浦添產品馬爾凱？\n \n\\重新發現浦添的美味/\n這是浦添市產業振興課關於浦添商品市場的通知。\n\n\n作為浦添商品支援計畫的一部分，我們將於 11 月 20 日星期五至 11 月 21 日星期六在 Yui Rail 歌町站舉辦為期兩天的浦添商品遊行。\n\n歌町匯集了布埃諾雞和使用當地香料製成的五香鹽等浦添市的美味食品。\n\n您也可以品嚐 Pizza House 的咖哩。",
     "image": "",
-    "location": "LIVE HOUSE MOD'S ・北谷町",
-    "price": "有料",
-    "official_url": "https://www.kennagata.com/okinawa",
-    "area": "北谷町",
-    "description_ja": "沖縄とスペインが交わる一夜限りの公演。フラメンコと琉球舞踊、ギターと三線、カンテ歌と民謡・琉歌が舞台で交わり一つになる。\n首里城復興を記念して、尚巴志王を題材に舞台化。東京スペイン公演を経て沖縄で再演\n東京、沖縄、スペインからアーティストが集結する超豪華ライブの迫力をお楽しみください\n\n会場:LIVEHOUSE MODS\n11月20日(金)\n18時開場19時開演\n自由席4,000円/当日4,500",
-    "location_ja": "LIVE HOUSE MOD'S (ライブハウスモッズ) ・ 北谷町",
-    "first_seen": ""
+    "location": "Yui Rail 歌町站/那霸市",
+    "price": "免費",
+    "official_url": "https://www.city.urasoe.lg.jp/doc/2026101400080/",
+    "area": "那覇市",
+    "name_zh_full": "浦添市歌町站舉辦浦添商品市集集會的通知",
+    "description_ja": "うらそえ産品マルシェとは\n \n\\うらそえのおいしいを再発見/\n浦添市産業振興課からうらそえ産品マルシェのお知らせです。\n\n\nうらそえ産品応援プロジェクトの一環として、11/20金から11/21土の二日間、ゆいレールおもろまち駅でうらそえ産品マルシェを開催いたします。\n\nブエノチキンや県産スパイスを使ったスパイスソルトなど浦添市のおいしいものがおもろまちへ集合\n\nピザハウスのまかないカレーの試食もで",
+    "location_ja": "ゆいレール おもろまち駅 ・ 那覇市",
+    "first_seen": "2026-11-21"
+  },
+  {
+    "name": "珍奇植物マーケット in 八重山 vol.2 開催",
+    "name_zh": "舉辦八重山珍稀植物市集第2期",
+    "date_start": "2026-11-20",
+    "date_end": "2026-11-21",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/7135",
+    "source": "okimeguri",
+    "category": "",
+    "stars": 0,
+    "description": "稀有植物即將來到 Townpal Commons\n\n我們將舉辦第二屆廣受歡迎的稀有植物市集。\n\n享受龍舌蘭、塊莖植物和多肉植物等獨特而迷人的植物世界。\n\n有機會找到您通常不會遇到的植物或找到您最喜歡的品種。\n\n不僅歡迎植物愛好者，也歡迎想要種植植物的初學者。\n\n 供應商\n柔術_植物\nInstagram@jits",
+    "image": "",
+    "location": "石垣市 Pal Commons/石垣島",
+    "price": "",
+    "official_url": "https://www.instagram.com/p/DfV6LsGvq6H/",
+    "area": "石垣島",
+    "description_ja": "珍しい植物たちがタウンパル・コモンズにやってくる\n\n大好評の珍奇植物マーケット、第2弾を開催します\n\nアガベや塊根植物、多肉植物など、個性豊かで魅力あふれる珍奇植物の世界をお楽しみください\n\n普段なかなか出会えない植物や、お気に入りの一株に出会えるチャンス\n\n植物好きの方はもちろん、これから育ててみたいという初心者の方も大歓迎です\n\n 出店者\njitsu_plants\nInstagram@jits",
+    "location_ja": "石垣市タウンパル・コモンズ ・ 石垣島",
+    "first_seen": "2026-11-21"
   },
   {
     "name": "COFFEE CAMP COMMUNICATION 2026 〜コーヒーでつながるアウトドア時間〜",
@@ -1846,8 +1777,6 @@
     "price": "免費",
     "official_url": "https://www.instagram.com/p/De840VgFP0i/?img_index=1",
     "area": "南城市",
-    "name_zh_full": "COFFEE CAMP COMMUNICATION 2026 ～透過咖啡連結的戶外時光～",
-    "description_ja": "今年も一番心地よい季節に開催します\n\nCOFFEE CAMP COMMUNICATION 2026\nコーヒーでつながるアウトドア時間\n\n11月21日(土) 前夜祭 17:0020:00\n11月22日(日) 本祭 11:0017:00\n会場NEOSアウトドアパーク南城\n\n入場無料・駐車無料\n\nコーヒー好きの皆さま\n海を目の前にしたアウトドアの開放的な空間で\nオープンコミュニケーションを楽しみましょう",
     "first_seen": "2026-11-18"
   },
   {
@@ -1882,7 +1811,6 @@
     "price": "免費",
     "official_url": "https://www.uds-hotels.com/anteroom/naha/exhibition/event/%e3%80%9026-11-21-sat-29-sun%e3%80%91on-nact-onna-x-act-x-on-%e3%80%9c%e8%aa%b0%e3%81%8b%e3%81%ae%e3%82%b9%e3%82%a4%e3%83%83%e3%83%81%e3%82%92on%e3%81%ab%e3%81%99%e3%82%8b-%e5%a5%b3%e6%80%a78%e4%ba%ba/",
     "area": "那覇市",
-    "description_ja": "開催期間:2026年11月21日(土) 2026年 11月29日(日)\n\nホテル アンテルーム 那覇 2階GALLERY 9.5 NAHAにて、沖縄で活動する8人の女性アーティストによる展示会on.nactオンナクトを開催いたします。 女性onnaの表現がactionを生み、誰かの心をonにする。\n作品をつくること、表現すること、一歩踏み出すこと。\nその先には、誰かの勇気や希望につながる力があると",
     "first_seen": "2026-11-18"
   },
   {
@@ -2184,7 +2112,6 @@
     "price": "有料",
     "official_url": "https://www.instagram.com/p/DfZjqgHEiP2/",
     "area": "那覇市",
-    "name_zh_full": "一定要買市場！ ！ ～月夜市場～",
     "description_ja": "食欲の秋、芸術の秋。五感で楽しむ沖縄の夜。\n\n旅の途中で、心に残る特別な1点に出会ってほしい\nいつもの日常を、少しだけアップデートする体験を届けたい\nそんな想いから、ホテルスタッフおすすめの沖縄のクリエイターローカルフードを厳選したマーケット月夜ぬ市を開催します。\n今回は食欲の秋、芸術の秋をテーマに、沖縄の手仕事に触れるワークショップ3店舗と、食欲をそそるこだわりの\nフード4店舗が集結\n\n WOR",
     "location_ja": "ESTINATE HOTEL沖縄那覇（エスティネートホテル那覇） ・ 那覇市",
     "first_seen": "2026-11-19"
@@ -2262,6 +2189,25 @@
     "first_seen": "2026-11-10"
   },
   {
+    "name": "『首里城正殿再建』記念イベント!!Little Universe OKINAWAで「雨予報でもあきらめない沖縄観光」2026年11月21日(土)より期間限定3つの特別割がスタート",
+    "name_zh": "即使下雨也不要放棄沖繩觀光",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "url": "https://prtimes.jp/main/html/rd/p/000000052.000134535.html",
+    "source": "prtimes",
+    "category": "",
+    "stars": 0,
+    "description": "「首里城正殿重建」紀念活動！ ！小宇宙沖繩將於2026年11月21日星期六起限時推出三項特別折扣“即使下雨也不要放棄沖繩觀光”",
+    "image": "https://prcdn.freetls.fastly.net/release_image/134535/52/134535-52-3ad7ef231100883dc7ac1aae3f1b06cc-1030x608.png",
+    "location": "小宇宙有限公司",
+    "price": "",
+    "official_url": "",
+    "name_zh_full": "「首里城正殿重建」紀念活動！ ！小宇宙沖繩將於2026年11月21日星期六起限時推出三項特別折扣“即使下雨也不要放棄沖繩觀光”",
+    "description_ja": "『首里城正殿再建』記念イベント!!Little Universe OKINAWAで「雨予報でもあきらめない沖縄観光」2026年11月21日(土)より期間限定3つの特別割がスタート",
+    "location_ja": "株式会社リトルユニバース",
+    "first_seen": "2026-11-21"
+  },
+  {
     "name": "第２回沖縄そばグランプリ",
     "name_zh": "第2屆沖繩蕎麥麵大獎賽",
     "date_start": "2026-11-22",
@@ -2276,6 +2222,25 @@
     "price": "有料",
     "official_url": "https://www.instagram.com/okinawasobagp/",
     "area": "沖縄市",
+    "first_seen": ""
+  },
+  {
+    "name": "銀天街コスプレナイト2026",
+    "name_zh": "銀天街角色扮演之夜 2026",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/7021",
+    "source": "okimeguri",
+    "category": "",
+    "stars": 0,
+    "description": "日期與時間：2026年11月22日（星期日）13:00~19:00\n\n地點：沖繩市古座十字路口銀天街地區\n\n 官方網站\n https://kozasubcul.wixsite.com/gincos 申請網站",
+    "image": "",
+    "location": "古座十字路口 銀天街地區/沖繩市",
+    "price": "",
+    "official_url": "https://x.com/koza_subcul/status/2108515882821673413",
+    "area": "沖縄市",
+    "description_ja": "開催日時 2026年11月22日(日) 13:00~19:00\n\n会場 沖縄市コザ十字路銀天街エリア\n\n 公式HP\n https://kozasubcul.wixsite.com/gincos申込サイト",
+    "location_ja": "コザ十字路銀天街エリア ・ 沖縄市",
     "first_seen": ""
   },
   {
@@ -2351,25 +2316,6 @@
     "official_url": "https://kin-triathlon.com/",
     "area": "金武町",
     "location_ja": "KINサンライズビーチ海浜公園 ・ 金武町",
-    "first_seen": ""
-  },
-  {
-    "name": "銀天街コスプレナイト2026",
-    "name_zh": "銀天街角色扮演之夜 2026",
-    "date_start": "2026-11-22",
-    "date_end": "2026-11-22",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/7021",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "日期與時間：2026年11月22日（星期日）13:00~19:00\n\n地點：沖繩市古座十字路口銀天街地區\n\n 官方網站\n https://kozasubcul.wixsite.com/gincos 申請網站",
-    "image": "",
-    "location": "古座十字路口 銀天街地區/沖繩市",
-    "price": "",
-    "official_url": "https://x.com/koza_subcul/status/2108515882821673413",
-    "area": "沖縄市",
-    "description_ja": "開催日時 2026年11月22日(日) 13:00~19:00\n\n会場 沖縄市コザ十字路銀天街エリア\n\n 公式HP\n https://kozasubcul.wixsite.com/gincos申込サイト",
-    "location_ja": "コザ十字路銀天街エリア ・ 沖縄市",
     "first_seen": ""
   },
   {
@@ -2601,7 +2547,6 @@
     "price": "有料",
     "official_url": "https://www.nt-okinawa.or.jp/performance-info/detail?performance_id=2875",
     "area": "浦添市",
-    "name_zh_full": "金乃流八重山傳統舞蹈保存協會 武者之街 河合民惠 45 週年紀念演出 路邊的生活與邂逅",
     "description_ja": "日時\n公演日2026/11/23 (月)\n\n開演時間17:00\n終演時間\n\n会場大劇場\n入場料\n4,000円\n\n内容 \n関連情報\n\n\n問宮良訓子090-6427-6515山里みえ子090-1943-1440",
     "location_ja": "国立劇場おきなわ\t大劇場 ・ 浦添市",
     "first_seen": "2026-11-19"
@@ -2626,7 +2571,7 @@
   },
   {
     "name": "「首里城」正殿完成を記念して『さんぴん茶 正殿完成記念パッケージPET550ml』を沖縄エリア限定・数量限定で11月23日より順次発売!売上の一部を首里城火災復旧・復興支援に寄付",
-    "name_zh": "",
+    "name_zh": "三品茶正殿竣工紀念套裝 PET 550ml",
     "date_start": "2026-11-23",
     "date_end": "2026-11-23",
     "url": "https://prtimes.jp/main/html/rd/p/000000001.000194951.html",
@@ -2638,6 +2583,7 @@
     "location": "沖繩UCC咖啡株式會社",
     "price": "",
     "official_url": "",
+    "name_zh_full": "為紀念首里城正殿竣工，「三品茶正殿竣工紀念套裝 PET 550ml」將於 11 月 23 日起在沖繩地區限量發售！部分銷售額將捐贈給首里城火災恢復和重建支持。",
     "description_ja": "「首里城」正殿完成を記念して『さんぴん茶 正殿完成記念パッケージPET550ml』を沖縄エリア限定・数量限定で11月23日より順次発売!売上の一部を首里城火災復旧・復興支援に寄付",
     "location_ja": "沖縄ユーシーシーコーヒー株式会社",
     "first_seen": "2026-11-19"
@@ -2657,7 +2603,6 @@
     "price": "",
     "official_url": "https://yamamizu.vill.higashi.okinawa.jp/topics/detail.jsp?id__=322",
     "area": "東村",
-    "description_ja": "企画展のお知らせ\n \n 沖縄県芸術文化祭 写真選抜展\n \n 開催期間\n 2026年11月24日(火)12月9日(水)\n \n 開館時間\n 10:00~18:00(最終入館:17:30)\n \n 休館日毎週月曜日\n \n 料金入場料無料\n 常設展示場は有料です。\n \n お問い合わせ\n 東村立山と水の生活博物館\n 0980-51-2828",
     "first_seen": "2026-11-18"
   },
   {
@@ -2675,7 +2620,6 @@
     "price": "免費",
     "official_url": "https://naha-palette.jp/gallery/event/5189",
     "area": "那覇市",
-    "description_ja": "期間\n11/24火11/29日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第1展示室\n\n入場料\n無料\n\n展示内容\n版画",
     "first_seen": "2026-11-18"
   },
   {
@@ -2693,7 +2637,6 @@
     "price": "免費",
     "official_url": "https://naha-palette.jp/gallery/event/5192",
     "area": "那覇市",
-    "description_ja": "期間\n11/24火11/29日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第2展示室\n\n入場料\n無料\n\n展示内容\n書藝",
     "first_seen": "2026-11-18"
   },
   {
@@ -2711,7 +2654,6 @@
     "price": "免費",
     "official_url": "https://naha-palette.jp/gallery/event/5194",
     "area": "那覇市",
-    "description_ja": "期間\n11/24火11/29日\n\n時間\n10時19時最終日は17時まで\n\n会場\n第展示室\n\n入場料\n無料\n\n展示内容\n絵画",
     "first_seen": "2026-11-18"
   },
   {
@@ -2762,8 +2704,6 @@
     "price": "免費",
     "official_url": "https://www.city.nago.okinawa.jp/articles/2026110400040/",
     "area": "名護市",
-    "name_zh_full": "「當一個想法成形時：設計師岸本一夫」的公告",
-    "description_ja": "沖縄県立博物館・美術館企画展in名護アイデアがカタチになるとき岸本一夫が開催されます。\n\n \n\nJAGDA公益社団法人日本グラフィックデザイン協会やオリオンビールなど、記憶に残る名作ロゴマークを生み出す岸本一夫。完成に至るまでの過程には、知られざる手の仕事がありました。\n\n本展では手描きポスター原画をはじめ、アイデアをカタチにする過程で生み出された膨大なスケッチをご紹介します。\n\n \n\n日時令和年",
     "first_seen": "2026-11-18"
   },
   {
@@ -2781,7 +2721,6 @@
     "price": "有料",
     "official_url": "https://urasoe-artmuseum.jp/exhibition/okinawa-photo-festival_2026/",
     "area": "浦添市",
-    "description_ja": "写真をきっかけに、沖縄の島のあちこちで人と文化が交わる写真の祭典を開催します\n浦添市美術館をメイン会場に、沖縄県内各地のサテライト会場で同時開催。\n\n会期2026年11月27日(金) ~ 12月6日(日)\n月曜日休館\n金曜日は19時まで(入館は18:30まで)\n最終日、12月6日(日)は15時まで\n会場浦添市美術館県内各地のサテライト会場\n主催沖縄全島フォトフェスティバル実行委員会\n後援浦添市教育",
     "first_seen": "2026-11-18"
   },
   {
@@ -3321,13 +3260,12 @@
     "price": "",
     "official_url": "https://www.pref.okinawa.jp/shigoto/nogyo/1010758/1040528/1041725.html",
     "area": "宜野座村",
-    "name_zh_full": "關於舉辦2026年農業節",
     "description_ja": "11/29農大祭当日に牧草ロールを試験販売します。\n・12時販売開始体育館\n・限定10個\n・1個5,000円税込。\n・牧草ロール現物の受け渡しは後日、農大正門前にて。\n\n牧草ロール初の一般販売案内\n\n牧草ロール初の一般販売案内 PDF 3.4MB新しいウィンドウで開きます\n令和8年度農大祭\n旗頭\n\n令和8年度 第24回農大祭を下記のように開催いたします。\n\n日時11月29日日曜日 1日のみの開催で",
     "first_seen": "2026-11-19"
   },
   {
     "name": "上の森かなちホール自主企画公演開催のお知らせ喜名雅テューバコンサートふるさと与那原に感謝をこめて",
-    "name_zh": "上森金納奇堂金長大號音樂會獨立策劃公演的通知",
+    "name_zh": "上森金納奇堂金長大號音樂會獨立策劃公演",
     "date_start": "2026-11-29",
     "date_end": "2026-11-29",
     "url": "https://okimeguri.com/prediction-calendar/details/events/7106",
@@ -3340,7 +3278,7 @@
     "price": "",
     "official_url": "https://www.town.yonabaru.okinawa.jp/soshiki/17/10861.html",
     "area": "与那原町",
-    "name_zh_full": "上森金納奇堂金長大號音樂會獨立策劃公演的通知 感恩故鄉與那原",
+    "name_zh_full": "上森金納奇堂金長大號音樂會獨立策劃公演的通知",
     "description_ja": "令和年度上の森かなちホール自主企画として、与那原町出身のテューバ奏者喜名雅氏によるコンサートを開催します。\n\nテューバの温かい歌心から超絶技巧まで低音の魅力をたっぷり楽しめる楽曲をご用意しています\n\n喜名氏の母校である与那原中学校、知念高等学校の吹奏楽合同バンドとの共演もありますので、 迫力ある演奏をぜひ会場でお楽しみください。\n\n喜名雅テューバコンサートふるさと与那原に感謝をこめて\n\n公 演 日",
     "location_ja": "与那原町上の森かなちホール ・ 与那原町",
     "first_seen": "2026-11-19"
@@ -3425,7 +3363,6 @@
     "location": "體驗王國紫村 ・沖繩縣中上郡讀谷村高志穗1020-1",
     "price": "有料",
     "official_url": "https://lantan.ryukyu/",
-    "description_ja": "【琉球ランタンフェスティバル 2026-2027】 開催期間： 2026年12月1日（火）～2027年3月31日（水） 開催時間： 17:30～22:00（最終入場21:30） 会場： 体験王国むら咲むら（沖縄県読谷村高 \nThe post 琉球ランタンフェスティバル2026-2027 first appeared on ごーやーどっとネット.\n© ごーやーどっとネット　無断転載を禁じます。全文は",
     "first_seen": "2026-11-18"
   },
   {
@@ -3459,7 +3396,6 @@
     "price": "免費",
     "official_url": "https://hoshinoresorts.com/ja/hotels/risonarekohamajima/sp/Island_Christmas/",
     "area": "小浜島",
-    "description_ja": "美しい珊瑚礁の海に囲まれたリゾナーレ小浜島。期間中毎日、かりゆしウェアを身に纏ったサンタクロースが海からビーチへ上陸。ゲストへお菓子などプレゼントを渡します。海を颯爽と駆け抜けるサンタクロースが見られるのは、南国の小浜島だからこそ。この期間、ラグーンプールには100個以上のランタンが灯り、幻想的な光の空間が広がります。\n・サンタクロース上陸時間:17:0017:30\n・宿泊者限定",
     "first_seen": "2026-11-18"
   },
   {
@@ -3477,7 +3413,6 @@
     "price": "有料",
     "official_url": "https://twin-line-hotel-yanbaru.jp/post-1980/",
     "area": "名護市",
-    "description_ja": "期間2026年12月日(火)26日(土)\n\n\n\n \n\nクリスマスシーズン限定、ガーデンで愉しむやんばるハーブ鶏のビア缶チキン焼きマシュマロセットが登場。\n\n丸鶏にビール缶を差し込み、立てた状態で蒸し焼きにするユニークな調理法が特徴のビア缶チキン。\n\nビールの蒸気で内側からじっくり火を通すことで、肉はしっとりジューシーに。\n\n外側は香ばしく、パリッとした皮の食感をお愉しみいただけます。\n\n \n\n使用",
     "first_seen": "2026-11-18"
   },
   {
@@ -3567,7 +3502,6 @@
     "price": "有料",
     "official_url": "https://hoshinoresorts.com/ja/hotels/iriomote/sp/brownsugar2026/",
     "area": "西表島",
-    "description_ja": "サトウキビ畑の見学や沖縄つの離島で作られた黒糖の食べ比べ、黒糖の風味を最大に引き出した黒糖ディナーなど、黒糖尽くしの特別滞在プログラム。\n・1日1組限定2泊3日1名57,800円",
     "first_seen": "2026-11-18"
   },
   {
@@ -3585,7 +3519,6 @@
     "price": "免費",
     "official_url": "https://churaumi.okinawa/topics/20261105/",
     "area": "本部町",
-    "description_ja": "沖縄美ら海水族館所在地沖縄県国頭郡本部町 館長佐藤 圭一では、宮城県気仙沼市との共催イベントホヤぼーや 全国ステージキャラバンin沖縄美ら海水族館を開催しますのでお知らせいたします。\n\n本イベントは、サメの研究や復興支援に関わるイベントなどで交流・連携協定を結ぶ、気仙沼市と気仙沼シャークミュージアムおよび沖縄美ら海水族館の3者のつながりを、さらに深めることを目指し開催するものです。\n\nまた、気仙沼",
     "first_seen": "2026-11-18"
   },
   {
@@ -3694,7 +3627,6 @@
     "price": "有料",
     "official_url": "https://oyakawaharuka.com/",
     "area": "那覇市",
-    "name_zh_full": "花海綾 Modoro GOKAN 沖繩 五種感官之旅 沖繩工藝旅遊 鮮花和工藝品 琉球客房招待會 鮮花和音樂的寧靜之夜 2026 年 12 月 5 日星期六",
     "description_ja": "会場首里観音堂沖縄県那覇市首里山川町3-1\n日程2026年12月5日土\n時間18:00 開場18:3020:30\n参加費10,000円ワンドリンク付\n首里観音堂の荘厳な空間に、花と音楽が満ちる一夜。第1部は琉球古典音楽演奏会、第2部は花人・杉謙太郎による花会花ライブパフォーマンス。香りと舞踊が彩りを添え、琉球王朝時代の雅を五感でお届けします。\n出演杉謙太郎花\n親川遥琉球古典音楽歌三線\n池間北斗琉球",
     "first_seen": "2026-11-19"
   },
@@ -3709,11 +3641,12 @@
     "stars": 0,
     "description": "沖繩送禮音樂會 琉球藝術欣賞會 沖繩歌舞\n2020年首里城正殿竣工紀念事業 作為與首里城琉球城相關的博物館特別展覽，沖繩縣立藝術大學學生的琉球表演藝術表演將在入口大廳舉行。\n這次，我們準備了從古典舞蹈、音樂到組舞、雜舞等豐富多彩的節目。\n \n\n 日期和時間\n2026 年 12 月 5 日星期六 12:0013:00\n\n 場地\n門廳\n\n 參加費\n什麼都沒有",
     "image": "",
-    "location": "沖縄県立博物館・美術館　エントランスホール ・ 那覇市",
+    "location": "沖繩縣立博物館·美術館入口大廳 ・那霸市",
     "price": "免費",
     "official_url": "https://okimu.jp/event/1794651729/",
     "area": "那覇市",
     "description_ja": "おきげい出前コンサート琉球芸能鑑賞会沖縄の歌と踊り\n令和年度 首里城正殿完成記念事業 博物館特別展首里城琉球の御城の関連催事として、沖縄県立芸術大学の学生さんによる琉球芸能の公演を、エントランスホールにて開催いたします。\n今回は、古典舞踊・音楽から、組踊、雑踊りと幅広い演目をご用意いたしました。\n \n\n 日時\n2026年12月5日土12:0013:00\n\n 会場\nエントランスホール\n\n 参加費\n無",
+    "location_ja": "沖縄県立博物館・美術館　エントランスホール ・ 那覇市",
     "first_seen": "2026-11-19"
   },
   {
@@ -3887,8 +3820,6 @@
     "price": "免費",
     "official_url": "https://www.instagram.com/p/Dc0s5D3ycwX/",
     "area": "嘉手納町",
-    "description_ja": "カデナロックフェス2026開催決定!!沖縄バンドオンリーの子連れで遊べるロックフェス沖縄県内で活躍するバンドが集結し、嘉手納町から新たな音楽文化オキナワンロックを発信する音楽イベント!!\nKADENA ROCK FESTIVAL 2026\n2026年12月12(土)-13(日)道の駅かでな\n時間/ 11:0020:00 [入場無料]\n\nKADENA ROCK FESTIVAL \n沖縄の新たな音楽文",
-    "location_ja": "道の駅かでな ・ 沖縄県中頭郡嘉手納町屋良１０２６−３",
     "first_seen": "2026-11-18"
   },
   {
@@ -4100,7 +4031,6 @@
     "price": "免費",
     "official_url": "http://curiositiesokinawa.weebly.com/",
     "area": "那覇市",
-    "description_ja": "テーマフリーの展示会です。\nCURIOSITIESOKINAWAでの今年最後の企画展です。\n作家の自由に好きな作品を展示できる企画展です。\n作家さんの自由な発想、多彩な作品形態で作品を展示予定。\n出展作家により内容は異なります。",
     "first_seen": "2026-11-18"
   },
   {
@@ -4131,11 +4061,12 @@
     "stars": 0,
     "description": "THALASSO HEALING MUSIC LIVE 2026 Bounen Party 將於 2026 年 12 月 18 日星期五在 Tapic Thalasso Center Ginoza 舉行\n\n我們將為您帶來一個享受音樂和美食的特別之夜，包括爵士薩克斯演奏家小葉正和三線演奏家中村夏樹的特別現場表演、宜野座村初中生和高中生的學生音樂會以及賓果遊戲。\n\n會場還將提供來自 Thalasso Cafe 的軟性飲料自助餐。賓果遊戲",
     "image": "",
-    "location": "タピックタラソセンター宜野座 ・ 宜野座村",
+    "location": "Tapic Thalasso Center 宜野座 / 宜野座村",
     "price": "有料",
     "official_url": "https://www.instagram.com/tapicthalassocenter?rpxt=MTd0cDA0cWhrcTA5aw%3D%3D&utm_source=qr",
     "area": "宜野座村",
     "description_ja": "2026年12月18日金、タピックタラソセンター宜野座にてTHALASSO HEALING MUSIC LIVE 2026 望年会を開催\n\nジャズサックス奏者・こはもと正さんと、三線奏者・仲村奈月さんによるスペシャルライブをはじめ、宜野座村の中高生による学生演奏会やビンゴゲームなど、音楽とお食事を楽しめる特別な一夜をお届けします。\n\n会場では、タラソカフェのブッフェソフトドリンクもご用意。ビンゴゲ",
+    "location_ja": "タピックタラソセンター宜野座 ・ 宜野座村",
     "first_seen": "2026-11-19"
   },
   {
@@ -4554,12 +4485,13 @@
     "source": "jalan",
     "category": "",
     "stars": 0,
-    "description": "波上宮は琉球八社の最上位で、海上守護、五穀豊穣、家内安全、商売繁盛など、さまざまなご利益があることで有名です。正月三が日は約20万人もの参拝客で賑わいます。",
+    "description": "波之上神社位居琉球八神社之首，以保佑大海、五穀豐登、家人平安、生意興隆等多種功效而聞名。新年的前三天，這裡擠滿了大約20萬名信徒。",
     "image": "https://www.jalan.net/jalan/img/6/event/0366/KM/e366161a.jpg",
     "location": "那覇市　波上宮",
     "price": "",
     "official_url": "",
     "area": "那覇",
+    "description_ja": "波上宮は琉球八社の最上位で、海上守護、五穀豊穣、家内安全、商売繁盛など、さまざまなご利益があることで有名です。正月三が日は約20万人もの参拝客で賑わいます。",
     "first_seen": "2026-11-19"
   },
   {
@@ -4717,6 +4649,25 @@
     "first_seen": ""
   },
   {
+    "name": "もとぶ八重岳桜まつり",
+    "name_zh": "本部八重岳櫻花節",
+    "date_start": "2027-01-16",
+    "date_end": "2027-01-31",
+    "url": "https://www.jalan.net/event/evt_366165/",
+    "source": "jalan",
+    "category": "",
+    "stars": 0,
+    "description": "本部八重岳櫻花節於每年一月中旬琉球寒緋櫻花盛開時舉行。被譽為「日本最早開花」的琉球寒日櫻位於海拔453m的八重縣...",
+    "image": "https://www.jalan.net/jalan/img/6/event/0366/KM/e366165a.jpg",
+    "location": "沖繩縣本部町八重岳櫻之森公園",
+    "price": "",
+    "official_url": "",
+    "area": "本部・名護・国頭",
+    "description_ja": "琉球寒緋桜が開花する例年1月中旬に、“ひとあしお咲きに”がキャッチフレーズの「もとぶ八重岳桜まつり」が開催されます。“日本一早咲き”といわれる琉球寒緋桜が、標高453mの八重...",
+    "location_ja": "沖縄県本部町　八重岳桜の森公園",
+    "first_seen": "2026-11-21"
+  },
+  {
     "name": "今天是 🍙 飯糰日",
     "name_zh": "🍙 飯糰日",
     "date_start": "2027-01-17",
@@ -4744,6 +4695,24 @@
     "first_seen": "2026-11-09"
   },
   {
+    "name": "第12回沖縄国際音楽祭第九  NAHA",
+    "name_zh": "第12屆沖繩國際音樂節 No. 9 那霸",
+    "date_start": "2027-01-17",
+    "date_end": "2027-01-17",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6590",
+    "source": "okimeguri",
+    "category": "",
+    "stars": 0,
+    "description": "",
+    "image": "",
+    "location": "那霸文化藝術劇場Nahaart（大劇場）/那霸市",
+    "price": "",
+    "official_url": "https://okinawa-dai9.jp/",
+    "area": "那覇市",
+    "location_ja": "那覇文化芸術劇場 なはーと(大劇場) ・ 那覇市",
+    "first_seen": ""
+  },
+  {
     "name": "1月16日・17日 琉球舞踊公演 琉球舞踊特選会(りゅうきゅうぶようこうえん りゅうきゅうぶようとくせんかい)2027/01/17 (日)",
     "name_zh": "琉球舞蹈表演琉球舞蹈特別精選（琉球部洋光園）",
     "date_start": "2027-01-17",
@@ -4760,24 +4729,6 @@
     "area": "浦添市",
     "description_ja": "日時\n公演日2027/01/17 (日)\n\n開演時間14:00\n終演時間\n\n会場大劇場\n入場料\n一般5,000円高校生以下3歳以上1,000円大学生等2,000円\n\nチケット購入\n公演内容\n\n演目\n\n\n関連情報\n\n公演チケット・ホテル・航空券付きツアープラン沖縄ツーリストにて予約受付中!詳細は、こちらから\n\nhttps://ots.digitaldmoplatform.com/lp/nt-okin",
     "location_ja": "国立劇場おきなわ　大劇場 ・ 浦添市",
-    "first_seen": ""
-  },
-  {
-    "name": "第12回沖縄国際音楽祭第九  NAHA",
-    "name_zh": "第12屆沖繩國際音樂節 No. 9 那霸",
-    "date_start": "2027-01-17",
-    "date_end": "2027-01-17",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6590",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "",
-    "image": "",
-    "location": "那霸文化藝術劇場Nahaart（大劇場）/那霸市",
-    "price": "",
-    "official_url": "https://okinawa-dai9.jp/",
-    "area": "那覇市",
-    "location_ja": "那覇文化芸術劇場 なはーと(大劇場) ・ 那覇市",
     "first_seen": ""
   },
   {
@@ -4972,6 +4923,23 @@
     "first_seen": ""
   },
   {
+    "name": "劇団月城新春公演",
+    "name_zh": "劇團月城新年公演",
+    "date_start": "2027-01-24",
+    "date_end": "2027-01-24",
+    "url": "https://goyah.net/okinawa_event/archives/10123",
+    "source": "goyah",
+    "category": "",
+    "stars": 0,
+    "description": "★激堂月城新年公演★ [日期和時間] 2027年1月24日（星期日）開門：下午2:00開始：下午 3:00 【地點】Palette市民劇場【門票】（預售票）一般：3,500日元高中生以下：1,000日元殘疾人證明書】（預售票）一般：3,500日元高中生以下：1,000日元殘疾人證明書\n劇團月代新年公演後首次出現於戈雅啊哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈）\n© Goya Dot Net 未經授權禁止轉載。全文請見原文：ht",
+    "image": "",
+    "location": "",
+    "price": "",
+    "official_url": "",
+    "description_ja": "★劇団月城新春公演★ 【日時】 令和9年１月２４日（日曜日） 開場：午後２時 開演：午後３時 【場所】 パレット市民劇場 【チケット】 (前売券) 一般：３,５００円 高校生以下：１,０００ 障害者手帳提示：２,５００円 \nThe post 劇団月城新春公演 first appeared on ごーやーどっとネット.\n© ごーやーどっとネット　無断転載を禁じます。全文は元記事でご覧ください： ht",
+    "first_seen": "2026-11-21"
+  },
+  {
     "name": "ＪＴＯ 沖縄一周 自転車旅　２０２７　Round Okinawa bicycle journey",
     "name_zh": "JTO 循環沖繩自行車之旅 2027 循環沖繩自行車之旅",
     "date_start": "2027-01-27",
@@ -4987,6 +4955,24 @@
     "official_url": "https://jtourism.jp/cycling_category/%E4%B9%9D%E5%B7%9E%E6%B2%96%E7%B8%84/",
     "area": "那覇市",
     "first_seen": ""
+  },
+  {
+    "name": "【参加者募集開始】沖縄・名護のまち全体でAIものづくりを楽しむ「NAGO AI MAKERS JAM 2027」、2027年1月27日より開催",
+    "name_zh": "NAGO AI MAKERS JAM 2027",
+    "date_start": "2027-01-27",
+    "date_end": "2027-01-27",
+    "url": "https://prtimes.jp/main/html/rd/p/000000412.000033909.html",
+    "source": "prtimes",
+    "category": "",
+    "stars": 0,
+    "description": "[招募開始]沖繩縣名護市內享受AI製造樂趣的「NAGO AI MAKERS JAM 2027」將於2027年1月27日起舉辦",
+    "image": "https://prcdn.freetls.fastly.net/release_image/33909/412/33909-412-71607cec81056970c1c25e2e6442407b-1733x908.png",
+    "location": "AlphaDrive",
+    "price": "",
+    "official_url": "",
+    "name_zh_full": "[招募開始]沖繩縣名護市內享受AI製造樂趣的「NAGO AI MAKERS JAM 2027」將於2027年1月27日起舉辦",
+    "description_ja": "【参加者募集開始】沖縄・名護のまち全体でAIものづくりを楽しむ「NAGO AI MAKERS JAM 2027」、2027年1月27日より開催",
+    "first_seen": "2026-11-21"
   },
   {
     "name": "今歸仁城櫻花祭",
@@ -5186,6 +5172,25 @@
     "description": "日本傳統由女生送巧克力，沖繩海景餐廳也常推出期間限定餐點"
   },
   {
+    "name": "2月13日・14日 沖縄芝居公演 史劇大新城忠勇伝(おきなわしばいこうえん しげきうふあらぐしくちゅうゆうでん)2027/02/14 (日)",
+    "name_zh": "沖繩戲劇公演 歷史劇 大神城中游傳",
+    "date_start": "2027-02-14",
+    "date_end": "2027-02-14",
+    "url": "https://okimeguri.com/prediction-calendar/details/events/6092",
+    "source": "okimeguri",
+    "category": "",
+    "stars": 0,
+    "description": "日期和時間\n演出日期2027/02/14 (週日)\n\n開始時間 14:00\n關門時間\n\n地點 大劇院\n入場費\n成人 4,300日圓 高中生以下 3歲以上 1,000日圓 大學生 2,000日元\n\n購買門票\n性能細節\n\n節目\n\n\n相關資訊\n\n演出門票、飯店、機票等旅遊套裝行程現已在沖繩旅遊網接受預訂！欲了解詳情，請點這裡\n\nhttps://ots.digitaldmoplatform.com/lp/nt-okin",
+    "image": "",
+    "location": "國立劇場沖繩大劇場 / 浦添市",
+    "price": "有料",
+    "official_url": "https://www.nt-okinawa.or.jp/performance-info/detail?performance_id=2821",
+    "area": "浦添市",
+    "description_ja": "日時\n公演日2027/02/14 (日)\n\n開演時間14:00\n終演時間\n\n会場大劇場\n入場料\n一般4,300円高校生以下3歳以上1,000円大学生等2,000円\n\nチケット購入\n公演内容\n\n演目\n\n\n関連情報\n\n公演チケット・ホテル・航空券付きツアープラン沖縄ツーリストにて予約受付中!詳細は、こちらから\n\nhttps://ots.digitaldmoplatform.com/lp/nt-okin",
+    "location_ja": "国立劇場おきなわ　大劇場 ・ 浦添市",
+    "first_seen": ""
+  },
+  {
     "name": "宮古島大学駅伝 ワイドー・ズミ2027",
     "name_zh": "宮古島大學 Ekiden Wideau Zumi 2027",
     "date_start": "2027-02-14",
@@ -5220,25 +5225,6 @@
     "area": "中城村",
     "description_ja": "開催日・申込方法・締切が変わりました\n主催中城村体育協会共催中城村、吉の浦スポーツクラブ\n日時\n2027年月14日日\n場所\nごさまる陸上競技場\n種目\n5.8km100名2.7km600名\n各コース定員に達ししだい、締め切ります。\n申込方法及び参加料電話・FAX・メールでの予約受付はしていません。\nインターネット申込\n11/212/2824時間申込可能\nインターネット参加料大人2,000円/小人1,",
     "location_ja": "ごさまる陸上競技場 ・ 中城村",
-    "first_seen": ""
-  },
-  {
-    "name": "2月13日・14日 沖縄芝居公演 史劇大新城忠勇伝(おきなわしばいこうえん しげきうふあらぐしくちゅうゆうでん)2027/02/14 (日)",
-    "name_zh": "沖繩戲劇公演 歷史劇 大神城中游傳",
-    "date_start": "2027-02-14",
-    "date_end": "2027-02-14",
-    "url": "https://okimeguri.com/prediction-calendar/details/events/6092",
-    "source": "okimeguri",
-    "category": "",
-    "stars": 0,
-    "description": "日期和時間\n演出日期2027/02/14 (週日)\n\n開始時間 14:00\n關門時間\n\n地點 大劇院\n入場費\n成人 4,300日圓 高中生以下 3歲以上 1,000日圓 大學生 2,000日元\n\n購買門票\n性能細節\n\n節目\n\n\n相關資訊\n\n演出門票、飯店、機票等旅遊套裝行程現已在沖繩旅遊網接受預訂！欲了解詳情，請點這裡\n\nhttps://ots.digitaldmoplatform.com/lp/nt-okin",
-    "image": "",
-    "location": "國立劇場沖繩大劇場 / 浦添市",
-    "price": "有料",
-    "official_url": "https://www.nt-okinawa.or.jp/performance-info/detail?performance_id=2821",
-    "area": "浦添市",
-    "description_ja": "日時\n公演日2027/02/14 (日)\n\n開演時間14:00\n終演時間\n\n会場大劇場\n入場料\n一般4,300円高校生以下3歳以上1,000円大学生等2,000円\n\nチケット購入\n公演内容\n\n演目\n\n\n関連情報\n\n公演チケット・ホテル・航空券付きツアープラン沖縄ツーリストにて予約受付中!詳細は、こちらから\n\nhttps://ots.digitaldmoplatform.com/lp/nt-okin",
-    "location_ja": "国立劇場おきなわ　大劇場 ・ 浦添市",
     "first_seen": ""
   },
   {
