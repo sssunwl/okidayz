@@ -1474,16 +1474,20 @@ def build_ig_links(posts):
     cards = []
     for section, post in items:
         utm = "?utm_source=ig&utm_medium=social&utm_campaign=" + post["slug"]
-        cover = SITE_URL + "assets/ig/{}/{}".format(post["slug"], ig_images(post["slug"])[0])  # 完整網址,cover_src 才不會加 covers/ 前綴
-        cards.append(post_card(dict(post, cover=cover), "../").replace(
-            'href="../{}"'.format(post_href(post)), 'href="../{}{}"'.format(post_href(post), utm), 1))
+        cover = "../assets/ig/{}/{}".format(post["slug"], ig_images(post["slug"])[0])
+        cards.append(
+            '<a href="../{href}{utm}" style="display:block;color:inherit;text-decoration:none">'
+            '<img src="{cover}" alt="" loading="lazy" style="width:100%;aspect-ratio:4/5;object-fit:cover;'
+            'border-radius:10px;border:1px solid var(--line);display:block">'
+            '<strong style="display:block;margin-top:6px;font-size:.9rem;line-height:1.35">{title}</strong></a>'
+        .format(href=post_href(post), utm=utm, cover=cover, title=html.escape(str(post.get("title", "")))))
     quick = "".join('<a class="pill" href="../{}/?utm_source=ig&utm_medium=social">{}</a>'.format(path, label)
                     for path, label in (("events", "活動年曆"), ("ocean", "今天海況"), ("guide", "一日遊攻略"), ("toolkit", "旅行小抄")))
     main = ('  <section class="page-head"><div class="shell">'
             '<div class="eyebrow">@okidayz_</div><h1>IG 貼文的完整版</h1>'
             '<p>在 IG 看到的那篇，點下面的卡片看全文。</p>'
             '<div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:14px">{}</div></div></section>\n'
-            '  <section class="related"><div class="shell"><div class="post-grid">{}</div></div></section>\n'
+            '  <section class="related"><div class="shell"><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:18px 12px">{}</div></div></section>\n'
             ).format(quick, "".join(cards))
     render_page("ig", main, "IG 貼文完整版｜OkiDayz", "OkiDayz IG 貼文對應的網站全文、活動年曆與今天海況。")
     return len(cards)
