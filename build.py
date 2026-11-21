@@ -1464,6 +1464,31 @@ def write_ig_queue(posts):
     return queue
 
 
+def build_ig_links(posts):
+    """IG 簡介連結頁 /ig/:每篇有 IG 版的文章一張卡,連結帶 utm_source=ig。
+    data/ig_posted.json({slug: 發佈日})有記錄的排最前(新→舊),其餘照 ig-queue 順序。"""
+    posted = read_data_json("ig_posted.json", {})
+    items = [(section, post) for section, group in posts.items() for post in group
+             if isinstance(post.get("ig"), dict) and post["ig"].get("slides") and ig_images(post["slug"])]
+    items.sort(key=lambda sp: str(posted.get(sp[1]["slug"], "")), reverse=True)
+    cards = []
+    for section, post in items:
+        utm = "?utm_source=ig&utm_medium=social&utm_campaign=" + post["slug"]
+        cover = SITE_URL + "assets/ig/{}/{}".format(post["slug"], ig_images(post["slug"])[0])  # 完整網址,cover_src 才不會加 covers/ 前綴
+        cards.append(post_card(dict(post, cover=cover), "../").replace(
+            'href="../{}"'.format(post_href(post)), 'href="../{}{}"'.format(post_href(post), utm), 1))
+    quick = "".join('<a class="pill" href="../{}/?utm_source=ig&utm_medium=social">{}</a>'.format(path, label)
+                    for path, label in (("events", "活動年曆"), ("ocean", "今天海況"), ("guide", "一日遊攻略"), ("toolkit", "旅行小抄")))
+    main = ('  <section class="page-head"><div class="shell">'
+            '<div class="eyebrow">@okidayz_</div><h1>IG 貼文的完整版</h1>'
+            '<p>在 IG 看到的那篇，點下面的卡片看全文。</p>'
+            '<div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:14px">{}</div></div></section>\n'
+            '  <section class="related"><div class="shell"><div class="post-grid">{}</div></div></section>\n'
+            ).format(quick, "".join(cards))
+    render_page("ig", main, "IG 貼文完整版｜OkiDayz", "OkiDayz IG 貼文對應的網站全文、活動年曆與今天海況。")
+    return len(cards)
+
+
 # ── 地點頁（景點／海灘／教堂／宴會廳）───────────────────────────────
 # 文章寫「怎麼玩」，地點頁寫「這個地方」。地點頁的固定資料在 build 時寫好，
 # 右側「今天」面板由 assets/place.js 在瀏覽器讀 events/weather/海況 json，
@@ -2009,6 +2034,7 @@ def build_site(events=None, weather=None, updated=None):
     urls += build_places(PLACES, posts.get("guide") or [])
 
     queue = write_ig_queue(posts)
+    build_ig_links(posts)  # IG 簡介連結頁,不進 sitemap
     write_sitemap(urls)
     (DOCS / "build-report.json").write_text(
         json.dumps(REPORT, ensure_ascii=False, indent=2), encoding="utf-8")
