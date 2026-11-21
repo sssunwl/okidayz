@@ -81,10 +81,7 @@ body{
 /* Logo 字:Oki 墨色、Dayz 赤瓦＋芒果螢光筆 */
 .brand-mark{border-radius:0;width:52px;height:52px;transform:rotate(-4deg)}
 .brand:hover .brand-mark{transform:rotate(-12deg) scale(1.06)}
-.wordmark{font-size:1.32rem!important;font-weight:900;letter-spacing:-.01em!important;line-height:1}
-.wordmark span{color:var(--tile);background:linear-gradient(transparent 62%,var(--sun) 62%,var(--sun) 92%,transparent 92%);padding:0 1px}
-footer .wordmark{color:#fff}
-footer .wordmark span{color:var(--sun);background:none}
+.wordmark{display:block;height:34px;width:auto}/* logo 字標 SVG，規範見 assets/brand/logo/ */
 
 /* 今日島況跑馬燈:赤瓦色帶 */
 .island-ticker{position:relative;overflow:hidden;background:var(--tile);color:#fff;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);font-weight:800;font-size:.9rem;white-space:nowrap}
@@ -134,7 +131,7 @@ footer::before{content:"Everyday Sunday.";position:absolute;left:auto;right:max(
   .pick-card,.pick-card:nth-child(2n),.pick-card:nth-child(3n){transform:rotate(0)}
   #todayCulture,.today-card.news-card,.wx-now{transform:none}
   footer::before{font-size:2rem;top:-24px}
-  .wordmark{font-size:1.15rem!important}
+  .wordmark{height:28px}
 }
 @media(prefers-reduced-motion:reduce){.island-ticker .run{animation:none}}
 

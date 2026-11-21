@@ -26,6 +26,19 @@
 - 底色要亮（漆喰白），不要做舊。
 - 已否決：版畫套色＋貼紙（字體和畫風不搭）、純幾何扁平圖示（太 AI）。
 
+## Logo
+
+> 2026-11-22 SS 定案。完整規範頁 `assets/brand/logo/index.html`（網站上是 okidayz.com/assets/brand/logo/）。
+
+- **組成**：鉛筆圓章（赤瓦屋頂後面升起芒果太陽，下面兩條海）＋ Caveat 手寫字標「Oki」墨色、「Dayz」赤瓦色，Dayz 底下一條陽光色螢光筆。字已轉外框，不靠字型檔。
+- **版本**：橫式 `lockup`（主用）、直式 `lockup-v`、圓章 `mark`、字標 `wordmark`；32px 以下改用 `mark-mini`（拿掉瓦溝、門、光芒，線加粗）。
+- **色版只有三種**：標準（亮底）、反白 `-rev`（赤瓦／墨／海色底、照片暗處：字白、Dayz 陽光色、無螢光筆）、單色 `-mono`／`wordmark-white`。圓章本身有白底，任何底色都直接放。
+- **留白**：四周至少圓章直徑的 1/4。**最小**：橫式 120px、字標 72px、圓章 24px（印刷橫式 25mm）。
+- **IG／Threads 頭像**：上傳 `assets/brand/logo/png/avatar-1080.png`。
+- **不要**：拉長、換色、加陰影外框、旋轉、用別的字體重打 OkiDayz。
+- **作廢**：深藍底＋魚＋彩虹的扁平圓章（Sona 舊 `mark-180.png`，11/22 前誤用在 11/23 自我介紹封面）。
+- 所有 logo 檔（含 favicon `assets/mark-32/180/512.png`）都由 `tools/brand_assets.py` 生成，需要 `pip3 install fonttools brotli`，PNG 用本機 Chrome 轉。Sona 的副本在 `SonaSNS-Platform/assets/brandbook/okidayz/logo/`，改完要同步過去。
+
 ## 素材
 
 - 圖示、紋樣、印章全部由 `tools/brand_assets.py` 生成到 `assets/brand/`，**改生成器再重跑，不要手改 SVG**。總覽頁 `assets/brand/index.html`。

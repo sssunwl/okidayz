@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OkiDayz Logo 規範</title>
+<style>
+@font-face{font-family:"Caveat";src:url(../../fonts/caveat-700.woff2) format("woff2");font-weight:700}
+:root{--paper:#fdfaf4;--tile:#d4523a;--mango:#f4a72e;--sun:#ffd27a;--sea:#1a9bb3;--foam:#d8f1f4;--ink:#2f2420;--line:#eee3d2;--muted:#7a6a5e}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:'jf-openhuninn','Huninn','PingFang TC','Noto Sans TC',sans-serif;line-height:1.65}
+main{max-width:1000px;margin:0 auto;padding:40px 16px 80px}
+h1{font-size:32px;margin:0 0 4px;line-height:1.15}
+h1 mark{background:linear-gradient(transparent 55%,var(--sun) 55%);color:inherit;padding:0 2px}
+h2{font-size:19px;margin:48px 0 6px;color:var(--tile)}
+p{margin:0 0 14px} .note{color:var(--muted);font-size:14px}
+code{font-size:13px;background:#f3ece0;border-radius:4px;padding:1px 5px;word-break:break-all}
+.hero{background:#fff;border:1px solid var(--line);border-radius:18px;padding:48px 24px;display:grid;place-items:center;margin:24px 0 8px}
+.hero img{width:min(560px,100%);height:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.tile-box{border-radius:14px;min-height:170px;display:grid;place-items:center;padding:28px 20px;position:relative;border:1px solid var(--line);overflow:hidden}
+.tile-box img{max-width:100%;height:auto;position:relative}
+.tile-box .lab{position:absolute;left:12px;top:8px;font-size:12px;font-weight:700;color:var(--muted);z-index:1}
+.on-dark .lab{color:rgba(255,255,255,.75)}
+.photo{background:center/cover}
+.photo::before{content:"";position:absolute;inset:0;background:linear-gradient(transparent 30%,rgba(47,36,32,.55))}
+.sizes{display:flex;flex-wrap:wrap;gap:28px;align-items:flex-end;background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px}
+figure{margin:0;text-align:center} figcaption{font-size:12px;color:var(--muted);margin-top:6px}
+.clear{background:#fff;border:1px solid var(--line);border-radius:14px;padding:40px 20px;display:grid;place-items:center}
+.clear .box{position:relative;padding:34px;outline:1.5px dashed var(--tile);outline-offset:0}
+.clear .box img{display:block;width:min(420px,70vw);height:auto}
+.clear .x{position:absolute;font-size:12px;font-weight:700;color:var(--tile)}
+.av{display:flex;flex-wrap:wrap;gap:24px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px}
+.av img{border-radius:50%;display:block;box-shadow:0 0 0 1px var(--line)}
+.igp{display:flex;gap:14px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:12px 16px}
+.igp b{display:block;font-size:15px} .igp span{font-size:12px;color:var(--muted)}
+.dont{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.dont div{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px;text-align:center;font-size:13px;overflow:hidden}
+.dont img{width:130px;height:auto;display:block;margin:6px auto 10px}
+.dont b{color:var(--tile)}
+table{width:100%;border-collapse:collapse;font-size:14px;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+td{padding:10px 12px;border-top:1px solid var(--line);vertical-align:top} td:first-child{width:42%} td:nth-child(2){width:18%;white-space:nowrap}
+@media (max-width:600px){h1{font-size:26px}table,tbody,tr,td{display:block}td{border:0;padding:4px 12px}tr{border-top:1px solid var(--line);padding:8px 0}}
+</style></head><body><main>
+<h1>OkiDayz <mark>Logo</mark></h1>
+<p class="note">2026-11-22 SS 定案：鉛筆圓章（赤瓦屋頂＋芒果太陽＋海）＋ Caveat 手寫字標。由 <code>tools/brand_assets.py</code> 生成，改生成器再重跑，不要手改 SVG。</p>
+
+<div class="hero"><img src="lockup.svg" alt="OkiDayz"></div>
+<p class="note">字標「Oki」墨色、「Dayz」赤瓦色，Dayz 底下一條陽光色螢光筆。字已轉成外框，不需要裝字型。</p>
+
+<h2>1. 版本</h2>
+<div class="grid">
+  <div class="tile-box" style="background:#fff"><span class="lab">橫式 lockup.svg</span><img src="lockup.svg" alt="" style="width:260px"></div>
+  <div class="tile-box" style="background:#fff"><span class="lab">直式 lockup-v.svg</span><img src="lockup-v.svg" alt="" style="width:150px"></div>
+  <div class="tile-box" style="background:#fff"><span class="lab">圓章 mark.svg</span><img src="mark.svg" alt="" style="width:120px"></div>
+  <div class="tile-box" style="background:#fff"><span class="lab">字標 wordmark.svg</span><img src="wordmark.svg" alt="" style="width:220px"></div>
+</div>
+
+<h2>2. 反白與單色</h2>
+<p class="note">深底（赤瓦、墨、照片）用反白：字變白、Dayz 變陽光色、拿掉螢光筆；圓章本身有白底，任何底色都直接放。只能印一色時用單色。</p>
+<div class="grid">
+  <div class="tile-box on-dark" style="background:var(--tile)"><span class="lab">赤瓦底 lockup-rev</span><img src="lockup-rev.svg" alt="" style="width:240px"></div>
+  <div class="tile-box on-dark" style="background:var(--ink)"><span class="lab">墨底 lockup-rev</span><img src="lockup-rev.svg" alt="" style="width:240px"></div>
+  <div class="tile-box" style="background:#fff"><span class="lab">單色墨 lockup-mono</span><img src="lockup-mono.svg" alt="" style="width:240px"></div>
+  <div class="tile-box on-dark" style="background:var(--tile)"><span class="lab">單色白 wordmark-white</span><img src="wordmark-white.svg" alt="" style="width:200px"></div>
+</div>
+
+<h2>3. 各種背景</h2>
+<div class="grid">
+  <div class="tile-box" style="background:var(--paper)"><span class="lab">漆喰白（標準）</span><img src="lockup.svg" alt="" style="width:240px"></div>
+  <div class="tile-box" style="background:var(--foam)"><span class="lab">泡（海的頁面）</span><img src="lockup.svg" alt="" style="width:240px"></div>
+  <div class="tile-box" style="background:var(--sun)"><span class="lab">陽光底：用單色墨</span><img src="lockup-mono.svg" alt="" style="width:240px"></div>
+  <div class="tile-box on-dark photo" style="background-image:url(../../photos/north-coast.jpg)"><span class="lab">照片上：反白放暗處</span><img src="lockup-rev.svg" alt="" style="width:240px;align-self:end"></div>
+  <div class="tile-box photo" style="background-image:url(../illustrations/hero-village.png)"><span class="lab">插畫上：只放圓章</span><img src="mark.svg" alt="" style="width:96px;justify-self:end;align-self:end"></div>
+  <div class="tile-box on-dark" style="background:var(--sea)"><span class="lab">海色底：反白</span><img src="lockup-rev.svg" alt="" style="width:240px"></div>
+</div>
+
+<h2>4. 留白</h2>
+<p class="note">四周至少留 <b>x ＝ 圓章直徑的 1/4</b>。這個範圍內不放字、圖、邊框。</p>
+<div class="clear"><div class="box"><span class="x" style="left:8px;top:8px">x</span><span class="x" style="right:8px;bottom:8px">x</span><img src="lockup.svg" alt=""></div></div>
+
+<h2>5. 最小尺寸</h2>
+<p class="note">螢幕：橫式寬 ≥ 120px、直式寬 ≥ 80px、字標寬 ≥ 72px、圓章 ≥ 24px。<b>32px 以下一律換 mark-mini</b>（拿掉瓦溝、門、光芒，線加粗）。印刷：橫式寬 ≥ 25mm、圓章 ≥ 8mm。</p>
+<div class="sizes">
+  <figure><img src="lockup.svg" alt="" style="width:120px"><figcaption>橫式 120px（最小）</figcaption></figure>
+  <figure><img src="wordmark.svg" alt="" style="width:72px"><figcaption>字標 72px（最小）</figcaption></figure>
+  <figure><img src="mark.svg" alt="" style="width:48px"><figcaption>圓章 48px</figcaption></figure>
+  <figure><img src="mark.svg" alt="" style="width:24px"><figcaption>圓章 24px（最小）</figcaption></figure>
+  <figure><img src="mark-mini.svg" alt="" style="width:32px"><figcaption>mini 32px</figcaption></figure>
+  <figure><img src="mark-mini.svg" alt="" style="width:16px"><figcaption>mini 16px</figcaption></figure>
+</div>
+
+<h2>6. IG／Threads 頭像</h2>
+<p class="note">上傳 <code>png/avatar-1080.png</code>。IG 會裁成圓形，圓章的手繪圓框剛好落在裁切線內側。</p>
+<div class="av">
+  <figure><img src="png/avatar-1080.png" alt="" width="160" height="160"><figcaption>320 圓形裁切（半尺寸顯示）</figcaption></figure>
+  <figure><img src="png/avatar-1080.png" alt="" width="110" height="110"><figcaption>個人頁 110</figcaption></figure>
+  <figure><div class="igp"><img src="png/avatar-1080.png" alt="" width="56" height="56"><div><b>okidayz_</b><span>在沖繩，天天都是星期日</span></div></div><figcaption>動態 56</figcaption></figure>
+  <figure><img src="png/avatar-1080.png" alt="" width="32" height="32"><figcaption>留言 32</figcaption></figure>
+</div>
+
+<h2>7. 不要這樣做</h2>
+<div class="dont">
+  <div><img src="lockup.svg" alt="" style="transform:scaleX(1.5)"><b>不要拉長壓扁</b></div>
+  <div><img src="lockup.svg" alt="" style="filter:hue-rotate(160deg)"><b>不要換色</b>（只有標準／反白／單色三種）</div>
+  <div><img src="lockup.svg" alt="" style="filter:drop-shadow(3px 3px 0 #1a9bb3)"><b>不要加陰影、外框</b></div>
+  <div><span style="font:900 28px 'jf-openhuninn','Huninn','PingFang TC','Noto Sans TC',sans-serif;display:block;margin:6px 0 10px">OkiDayz</span><b>不要用別的字體重打</b>（用 wordmark.svg）</div>
+  <div><img src="lockup.svg" alt="" style="transform:rotate(-12deg)"><b>不要旋轉</b></div>
+  <div><span style="display:block;margin:6px 0 10px;font-size:13px">深藍底、魚、彩虹的扁平圓章</span><b>舊圓章已作廢</b>，不要再用</div>
+</div>
+
+<h2>8. 檔案</h2>
+<table><tr><td><code>lockup.svg</code></td><td>主 logo 橫式</td><td>網站頁首、輪播收尾、名片、簡報</td></tr><tr><td><code>lockup-v.svg</code></td><td>主 logo 直式</td><td>IG 收尾頁、貼紙、海報置中</td></tr><tr><td><code>mark.svg</code></td><td>圓章</td><td>IG／Threads 頭像、App 圖示、浮水印</td></tr><tr><td><code>mark-mini.svg</code></td><td>圓章簡化版</td><td>32px 以下：favicon、留言頭像</td></tr><tr><td><code>wordmark.svg</code></td><td>字標</td><td>輪播頁腳、版面已經有圓章時</td></tr><tr><td><code>lockup-rev.svg / wordmark-rev.svg</code></td><td>反白</td><td>赤瓦底、墨底、照片暗處</td></tr><tr><td><code>mark-mono.svg / wordmark-mono.svg / lockup-mono.svg</code></td><td>單色墨</td><td>單色印刷、蓋章、燙印、傳真</td></tr><tr><td><code>wordmark-white.svg</code></td><td>單色白</td><td>照片上、只能一色時</td></tr><tr><td><code>png/avatar-1080.png</code></td><td>IG 頭像原檔</td><td>直接上傳 IG／Threads</td></tr><tr><td><code>png/lockup-1200.png、png/lockup-v-1000.png、png/wordmark-1200.png、png/mark-1024.png</code></td><td>PNG</td><td>不能用 SVG 的地方（Canva、簡報、LINE）</td></tr><tr><td><code>../../mark-32.png、mark-180.png、mark-512.png</code></td><td>網站圖示</td><td>favicon、iPhone 主畫面、PWA</td></tr></table>
+</main></body></html>
