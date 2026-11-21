@@ -217,5 +217,16 @@
 ],
 "jma_wind": "北西の風 やや強く",
 "jma_wave": "3メートル うねり を伴う"
+},
+{
+"at": "2026-11-21 11:01",
+"spot": "cape-maeda",
+"official": "禁止☓",
+"our_verdict": "caution",
+"jma_warnings": [
+"波浪注意報"
+],
+"jma_wind": "北の風",
+"jma_wave": "3メートル 後 2.5メートル うねり を伴う"
 }
 ]
