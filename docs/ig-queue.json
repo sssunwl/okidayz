@@ -1,6 +1,41 @@
 [
   {
     "section": "guide",
+    "slug": "naha-one-day",
+    "title": "那霸一天怎麼玩才不趕",
+    "url": "https://sssunwl.github.io/okidayz/guide/naha-one-day/",
+    "cover": "那霸一天遊｜不開車也順",
+    "slides": [
+      "那霸一天遊，其實不用開車",
+      "上午：牧志市場吃早餐，一樓買二樓煮",
+      "中午：壺屋やちむん通り找一個用得到的杯子",
+      "下午：首里城，正殿 11/23 重新開放（要預約）",
+      "傍晚：波上宮海灘，市區唯一的沙灘",
+      "晚上：國際通屋台村，一個人也能吃",
+      "一句提醒：週一很多店公休，先查"
+    ],
+    "caption": "在那霸玩一天，不用租車。\n單軌電車加走路，市場、壺屋老街、首里城、波上宮海灘都串得起來。\n省下開車找停車位的時間，拿去多吃一攤。",
+    "hashtags": [
+      "沖繩自由行",
+      "那霸",
+      "沖繩景點",
+      "沖繩旅遊",
+      "日本旅遊"
+    ],
+    "images": [
+      "https://sssunwl.github.io/okidayz/assets/ig/naha-one-day/01.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/naha-one-day/02.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/naha-one-day/03.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/naha-one-day/04.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/naha-one-day/05.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/naha-one-day/06.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/naha-one-day/07.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/naha-one-day/08.jpg",
+      "https://sssunwl.github.io/okidayz/assets/ig/naha-one-day/09.jpg"
+    ]
+  },
+  {
+    "section": "guide",
     "slug": "shuri-seiden-2026",
     "title": "首里城正殿 11/23 開放：門票漲到 1,000 円、要先預約",
     "url": "https://sssunwl.github.io/okidayz/guide/shuri-seiden-2026/",
@@ -251,41 +286,6 @@
       "https://sssunwl.github.io/okidayz/assets/ig/july-okinawa/07.jpg",
       "https://sssunwl.github.io/okidayz/assets/ig/july-okinawa/08.jpg",
       "https://sssunwl.github.io/okidayz/assets/ig/july-okinawa/09.jpg"
-    ]
-  },
-  {
-    "section": "guide",
-    "slug": "naha-one-day",
-    "title": "那霸一天怎麼玩才不趕",
-    "url": "https://sssunwl.github.io/okidayz/guide/naha-one-day/",
-    "cover": "那霸一天遊｜不開車也順",
-    "slides": [
-      "那霸一天遊，其實不用開車",
-      "上午：牧志市場吃早餐，一樓買二樓煮",
-      "中午：壺屋やちむん通り找一個用得到的杯子",
-      "下午：首里城公園，看琉球王國的地基",
-      "傍晚：波上宮海灘，市區唯一的沙灘",
-      "晚上：國際通屋台村，一個人也能吃",
-      "一句提醒：週一很多店公休，先查"
-    ],
-    "caption": "在那霸玩一天，不用租車。\n單軌電車加走路，市場、壺屋老街、首里城、波上宮海灘都串得起來。\n省下開車找停車位的時間，拿去多吃一攤。",
-    "hashtags": [
-      "沖繩自由行",
-      "那霸",
-      "沖繩景點",
-      "沖繩旅遊",
-      "日本旅遊"
-    ],
-    "images": [
-      "https://sssunwl.github.io/okidayz/assets/ig/naha-one-day/01.jpg",
-      "https://sssunwl.github.io/okidayz/assets/ig/naha-one-day/02.jpg",
-      "https://sssunwl.github.io/okidayz/assets/ig/naha-one-day/03.jpg",
-      "https://sssunwl.github.io/okidayz/assets/ig/naha-one-day/04.jpg",
-      "https://sssunwl.github.io/okidayz/assets/ig/naha-one-day/05.jpg",
-      "https://sssunwl.github.io/okidayz/assets/ig/naha-one-day/06.jpg",
-      "https://sssunwl.github.io/okidayz/assets/ig/naha-one-day/07.jpg",
-      "https://sssunwl.github.io/okidayz/assets/ig/naha-one-day/08.jpg",
-      "https://sssunwl.github.io/okidayz/assets/ig/naha-one-day/09.jpg"
     ]
   },
   {
