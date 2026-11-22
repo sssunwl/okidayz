@@ -47,3 +47,8 @@
 - 海況頁「沖繩的海」分頁可用 `#beach #dive #surf` 直接開；岸潛官方海況只在潛水分頁、浪況只在衝浪分頁。點位資料 `data/ocean_spots.json` 同時是之後潛水／衝浪地圖的資料，欄位說明在檔內 `_schema`。照片只收 Commons（CC／公有領域）或 SS 自拍；沒有可用水底照的點記在 `photo_todo`，交 SS 決定。
 - 換 IG 封面照片的盤點在 `IG_PHOTO_COVERS.md`。
 - 活動補圖（`fill_event_images`）：來源沒圖的活動依序用 ①主辦方官網的分享預覽圖（爬蟲 `event_images.py` 抓、快取在 `docs/event-images.json`，build 不連網）②有授權照片的地點頁／海灘照 ③類別插畫 `assets/brand/event-art/`（`tools/brand_assets.py --event-art` 生成）。官網圖對不上活動時加進 `data/event_image_block.json`。
+
+## 沖繩新鮮事（/new/，2026-11-22）
+- `prtimes_crawler.py`：PR TIMES 搜「沖縄／那覇／石垣島／宮古島」→ 內文要有沖繩地名 → OpenAI 判斷旅客用不用得上 → 繁中摘要寫 `docs/new.json`；判過不收的記 `docs/new-seen.json`（45 天）。跟新聞同一個 Actions（news.yml，每天 07:30 JST）。
+- 只放摘要＋原文連結。新聞稿配圖存在 `image` 欄但不顯示，開關是 build.py `FRESH_SHOW_IMAGES`（授權等 SS 決定）。
+- 頁面：build.py `build_fresh()`；首頁「沖繩新鮮事。」一排 4 張（`<<<FRESH_ROW>>>`，沒資料就整段不出）。新聞選單子分頁有連結。

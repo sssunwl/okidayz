@@ -43,6 +43,7 @@ NAV = [
 ]
 # 頂部選單的子分頁（桌面滑過展開、手機選單縮排列出）
 NAV_SUB = {
+    "news": [("news/", "旅客快訊"), ("new/", "沖繩新鮮事")],
     "guide": [("guide/spots/", "景點與海灘"), ("guide/food/", "美食"), ("guide/cafe/", "喫茶"),
               ("guide/#postGrid", "路線與文章"), ("guide/bigdayz/", "BigDayz")],
 }
@@ -522,7 +523,7 @@ def row_cards(posts, prefix="", limit=3):
         "".join(post_card(post, prefix) for post in posts[:limit]))
 
 
-def build_home(posts, events, weather, news, months):
+def build_home(posts, events, weather, news, months, new=None):
     today = datetime.now(JST).strftime("%Y-%m-%d")
     horizon = (datetime.now(JST) + timedelta(days=90)).strftime("%Y-%m-%d")
     # 首頁月曆要看得到「正在舉辦」和 90 天內開始的活動；只留畫卡片要的欄位，控制頁面大小
@@ -567,6 +568,7 @@ def build_home(posts, events, weather, news, months):
 
     main = fill(template("home.html"), {
         "MONTH_STRIP": month_strip_html(months),
+        "FRESH_ROW": fresh_home_html(new),
         "GUIDE_PICKS": row_cards(posts.get("guide"), limit=4),
         "OKINAWA_BANNER": banner,
         "OCEAN_ROW": row_cards(posts.get("ocean")),
@@ -1432,7 +1434,7 @@ def build_news(news):
         '    <div class="shell">\n'
         '      <div class="eyebrow">Okinawa News</div>\n'
         '      <h1>沖繩旅客快訊</h1>\n'
-        '      <p>最近幾天沖繩發生的事，只挑跟旅客有關的：交通、天氣、活動異動、新開幕，整理成繁中重點。</p>\n'
+        '      <p>最近幾天沖繩發生的事，只挑跟旅客有關的：交通、天氣、活動異動，整理成繁中重點。新開的店和期間限定在 <a href="../new/">沖繩新鮮事</a>。</p>\n'
         '    </div>\n'
         '  </section>\n\n'
         '  <section class="news-section">\n'
@@ -1444,6 +1446,121 @@ def build_news(news):
 
     render_page("news", main, "沖繩旅客快訊｜OkiDayz",
                 "沖繩最近的交通、天氣、活動異動與新開幕，挑跟旅客有關的整理成繁體中文重點，附原文連結。",
+                active="news", page_script='<script src="../assets/section.js"></script>')
+
+
+# 沖繩新鮮事：PR TIMES 新聞稿裡旅客用得上的新開幕／期間限定／活動（prtimes_crawler.py 寫 docs/new.json）
+FRESH_KINDS = ["新開幕", "期間限定", "沖繩限定", "活動", "住宿", "交通", "其他"]
+FRESH_AXES = [
+    ("類型", FRESH_KINDS),
+    ("地區", ["那霸", "北部", "中部", "南部", "離島"]),
+]
+FRESH_SHOW_IMAGES = False  # 新聞稿配圖授權等 SS 決定；開了就在卡片放 PR TIMES 的圖
+
+
+def fresh_tags(item):
+    return [tag for tag in (item.get("kind"), item.get("area")) if tag and tag != "全島"]
+
+
+def fresh_when(item):
+    start, end = str(item.get("start") or ""), str(item.get("end") or "")
+    md = lambda d: "{}/{}".format(int(d[5:7]), int(d[8:10]))
+    if start and end and end != start:
+        return "{}–{}".format(md(start), md(end))
+    if start:
+        return md(start) + (" 起" if item.get("kind") != "活動" else "")
+    if end:
+        return "到 " + md(end)
+    return ""
+
+
+def fresh_card_html(item, prefix="../"):
+    url = str(item.get("url") or "")
+    if not url.startswith("https://prtimes.jp/"):
+        return ""
+    when = fresh_when(item)
+    image = ""
+    if FRESH_SHOW_IMAGES and str(item.get("image") or "").startswith("https://"):
+        image = '<img class="fresh-img" src="{}?width=600" alt="" loading="lazy">'.format(
+            html.escape(item["image"], quote=True))
+    where = '<p class="fresh-where">📍 {}</p>'.format(html.escape(item["where"])) if item.get("where") else ""
+    return (
+        '<article class="fresh-card" data-tags="{tags}">{image}'
+        '<div class="fresh-meta"><span class="fresh-kind">{kind}</span>{area}{when}</div>'
+        '<h3>{title}</h3><p>{summary}</p>{where}'
+        '<div class="fresh-foot"><span>{company}</span>'
+        '<a href="{url}" target="_blank" rel="noopener">PR TIMES 原文（日文）↗</a></div>'
+        '</article>'
+    ).format(
+        tags=html.escape("|".join(fresh_tags(item)), quote=True),
+        image=image,
+        kind=html.escape(str(item.get("kind") or "其他")),
+        area='<span>{}</span>'.format(html.escape(str(item["area"]))) if item.get("area") else "",
+        when='<span class="fresh-when">{}</span>'.format(html.escape(when)) if when else "",
+        title=html.escape(str(item.get("title", ""))),
+        summary=html.escape(str(item.get("summary", ""))),
+        where=where,
+        company=html.escape(str(item.get("company") or "")),
+        url=html.escape(url, quote=True),
+    )
+
+
+def fresh_items(new):
+    today = datetime.now(JST).strftime("%Y-%m-%d")
+    items = [item for item in new or []
+             if str(item.get("url") or "").startswith("https://prtimes.jp/")
+             and (not item.get("end") or item["end"] >= today)]
+    return sorted(items, key=lambda x: str(x.get("date", "")), reverse=True)
+
+
+def fresh_home_html(new, limit=4):
+    items = fresh_items(new)[:limit]
+    if not items:
+        return ""
+    return (
+        '  <section class="home-section fresh-home" id="home-fresh">\n'
+        '    <div class="shell">\n'
+        '      <div class="section-head">\n'
+        '        <div><div class="eyebrow"><img class="eyebrow-icon" src="assets/brand/icons/shop.svg" alt="">What\'s New</div>'
+        '<h2>沖繩新鮮事。</h2></div>\n'
+        '        <a class="section-more" href="new/">看全部新鮮事 →</a>\n'
+        '      </div>\n'
+        '      <div class="fresh-list fresh-row">{}</div>\n'
+        '      <p class="section-tail">新開幕、期間限定、沖繩才買得到的。整理自企業新聞稿，不是業配也不是推薦。</p>\n'
+        '    </div>\n'
+        '  </section>\n'
+    ).format("".join(fresh_card_html(item, "") for item in items))
+
+
+def build_fresh(new):
+    items = fresh_items(new)
+    if items:
+        used = {tag for item in items for tag in fresh_tags(item)}
+        body = (filter_bar_html(FRESH_AXES, "freshFilters", "freshGrid", used)
+                + '\n      <div class="fresh-list" id="freshGrid">{}</div>\n'.format(
+                    "".join(fresh_card_html(item) for item in items))
+                + '      <div class="empty-state" id="freshEmpty" hidden><strong>這個條件沒有新鮮事</strong>換個標籤，或點「全部」。</div>\n'
+                + '      <p class="news-note">每天從 PR TIMES 的企業新聞稿挑出旅客在沖繩用得上的，整理成繁中重點。'
+                  '內容是企業自己發布的，OkiDayz 沒收錢、也還沒去試過；日期、價錢以原文為準。</p>')
+    else:
+        body = ('      <div class="empty-state"><strong>新鮮事整理中</strong>'
+                '沖繩的新開幕、期間限定與新活動，很快會出現在這裡。</div>')
+    main = (
+        '  <section class="page-head">\n'
+        '    <div class="shell">\n'
+        '      <div class="eyebrow">What\'s New in Okinawa</div>\n'
+        '      <h1>沖繩新鮮事</h1>\n'
+        '      <p>沖繩最近新開的店、期間限定、沖繩才買得到的東西和新活動。想看交通、天氣這類要注意的，去 <a href="../news/">旅客快訊</a>。</p>\n'
+        '    </div>\n'
+        '  </section>\n\n'
+        '  <section class="news-section">\n'
+        '    <div class="shell">\n'
+        '{}\n'
+        '    </div>\n'
+        '  </section>\n'
+    ).format(body)
+    render_page("new", main, "沖繩新鮮事｜OkiDayz",
+                "沖繩最近的新開幕、期間限定、沖繩限定商品與新活動，從企業新聞稿整理成繁體中文重點，附原文連結。",
                 active="news", page_script='<script src="../assets/section.js"></script>')
 
 
@@ -2232,6 +2349,7 @@ def build_site(events=None, weather=None, updated=None):
     events = events if events is not None else read_json("events.json", [])
     weather = weather if weather is not None else read_json("weather.json", [])
     news = read_json("news.json", [])
+    new = read_json("new.json", [])
     ocean_conditions = read_json("ocean-conditions.json", {})
     surf_conditions = read_json("surf-conditions.json", {})
 
@@ -2251,11 +2369,12 @@ def build_site(events=None, weather=None, updated=None):
     (DOCS / "months.json").write_text(json.dumps(
         [{k: v for k, v in m.items() if k != "body"} for m in months],
         ensure_ascii=False, indent=1, default=str), encoding="utf-8")
-    build_home(posts, events, weather, news, months)
+    build_home(posts, events, weather, news, months, new)
     build_events(events, len(events))
     build_news(news)
+    build_fresh(new)
     build_toolkit()
-    urls += [SITE_URL + "events/", SITE_URL + "news/", SITE_URL + "toolkit/"] + event_urls + month_urls
+    urls += [SITE_URL + "events/", SITE_URL + "news/", SITE_URL + "new/", SITE_URL + "toolkit/"] + event_urls + month_urls
 
     for key in SECTIONS:
         extra_block = ""

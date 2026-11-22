@@ -916,3 +916,21 @@ body:has(.ocean-conditions) .ocean-waves{display:block}
 .news-item .news-related{color:var(--tile);font-weight:900;font-size:.78rem}
 .news-alerts li a{font-size:.78rem;color:var(--tile);font-weight:800}
 .news-note{margin:26px 0 0;font-size:.74rem;color:var(--muted)}
+
+/* 沖繩新鮮事（/new/ 與首頁一排） */
+.fresh-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;align-items:start}
+.fresh-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-lg);padding:16px 18px;display:flex;flex-direction:column;overflow:hidden}
+.fresh-card[hidden]{display:none}
+.fresh-img{display:block;width:calc(100% + 36px);margin:-16px -18px 12px;aspect-ratio:16/9;object-fit:cover}
+.fresh-meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:.72rem;color:var(--muted);margin-bottom:8px}
+.fresh-kind{background:var(--sea,#2b8a9e);color:#fff;border-radius:999px;padding:2px 10px;font-weight:900}
+.fresh-when{margin-left:auto;font-weight:800;color:var(--ink)}
+.fresh-card h3{margin:0 0 6px;font-size:1rem;line-height:1.45;letter-spacing:-.01em}
+.fresh-card p{margin:0 0 8px;color:var(--muted);font-size:.84rem;line-height:1.7}
+.fresh-card .fresh-where{color:var(--ink);font-size:.8rem;font-weight:700}
+.fresh-foot{margin-top:auto;padding-top:8px;border-top:1px dashed var(--line);display:flex;flex-wrap:wrap;gap:6px 12px;justify-content:space-between;align-items:center;font-size:.74rem;color:var(--muted)}
+.fresh-foot a{font-weight:900;color:var(--tile);text-decoration:none;white-space:nowrap}
+.fresh-row{grid-template-columns:repeat(4,minmax(0,1fr))}
+.page-head p a{color:var(--tile);font-weight:800}
+@media (max-width:900px){.fresh-row{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.fresh-row{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px}.fresh-row .fresh-card{flex:0 0 82%;scroll-snap-align:start}}

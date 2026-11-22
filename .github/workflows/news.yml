@@ -22,12 +22,17 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install requests openai
+        run: pip install requests openai beautifulsoup4
 
       - name: Run news crawler
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python news_crawler.py
+
+      - name: Run PR TIMES crawler（沖繩新鮮事）
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python prtimes_crawler.py
 
       - name: Build unified signals
         run: python3 signals.py
