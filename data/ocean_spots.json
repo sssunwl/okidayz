@@ -1,5 +1,5 @@
 {
-  "_note": "海況頁「沖繩海邊點位」的資料。潛點跟 DiveInOut spots.json 同一批(那邊是唯一真相來源,這裡只放給旅客看的簡介)。座標先留空,之後做地圖再補。",
+  "_note": "海況頁「沖繩的海」點位資料，也是之後「沖繩潛水地圖／衝浪地圖」的資料來源。潛點跟 DiveInOut spots.json 同一批(那邊是唯一真相來源,這裡只放給旅客看的簡介)。",
   "spots": [
     {
       "kind": "beach",
@@ -366,7 +366,43 @@
         "credit": "N",
         "license": "Public domain"
       },
-      "photo_q": "真栄田岬"
+      "id": "maeda-blue-cave",
+      "lat": 26.4447,
+      "lon": 127.7717,
+      "sees": [
+        "洞內透進來的藍光",
+        "成群的豆娘魚、雀鯛",
+        "岩壁上的軟珊瑚"
+      ],
+      "depth": "3–10 m",
+      "entry": "岸潛（階梯）／船潛",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Cape_Maeda.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Cape_Maeda.jpg",
+          "credit": "N",
+          "license": "Public domain",
+          "caption": "真榮田岬的下水階梯，青之洞窟就在右手邊"
+        }
+      ],
+      "photo_todo": {
+        "note": "Commons 找不到這一點的水底照。要用潛店／觀光協會的圖得先取得書面同意，SS 決定。",
+        "candidates": [
+          {
+            "name": "恩納村観光協会 おんな旅navi",
+            "url": "https://www.onnanavi.com/"
+          },
+          {
+            "name": "沖縄観光コンベンションビューロー（OCVB）",
+            "url": "https://www.ocvb.or.jp/"
+          }
+        ]
+      },
+      "map": {
+        "featured": true,
+        "label": "藍光洞窟，新手體驗第一名",
+        "inset": null
+      }
     },
     {
       "kind": "dive",
@@ -384,12 +420,48 @@
         "夜潛"
       ],
       "photo": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Road_view_in_Sunabe_2015.jpg/960px-Road_view_in_Sunabe_2015.jpg",
-        "page": "https://commons.wikimedia.org/wiki/File:Road_view_in_Sunabe_2015.jpg",
-        "credit": "Dquai",
-        "license": "CC BY-SA 4.0"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/USMC-050816-M-3819R-001.jpg/960px-USMC-050816-M-3819R-001.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:USMC-050816-M-3819R-001.jpg",
+        "credit": "Sgt. Ethan E. Rocke",
+        "license": "Public domain"
       },
-      "photo_q": "Sunabe Okinawa"
+      "id": "sunabe",
+      "lat": 26.329,
+      "lon": 127.7452,
+      "sees": [
+        "海堤下一公里長的軟珊瑚花園",
+        "水底郵筒（6–8 m）",
+        "小丑魚、海龍、海兔；夜潛看蝦蟹"
+      ],
+      "depth": "4–18 m",
+      "entry": "岸潛",
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/USMC-050816-M-3819R-001.jpg/960px-USMC-050816-M-3819R-001.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:USMC-050816-M-3819R-001.jpg",
+          "credit": "Sgt. Ethan E. Rocke",
+          "license": "Public domain",
+          "caption": "砂邊海堤外的海（傍晚）"
+        }
+      ],
+      "photo_todo": {
+        "note": "Commons 找不到這一點的水底照。要用潛店／觀光協會的圖得先取得書面同意，SS 決定。",
+        "candidates": [
+          {
+            "name": "北谷町観光協会／北谷町公式",
+            "url": "https://www.chatan.jp/"
+          },
+          {
+            "name": "沖縄観光コンベンションビューロー（OCVB）",
+            "url": "https://www.ocvb.or.jp/"
+          }
+        ]
+      },
+      "map": {
+        "featured": true,
+        "label": "美國村旁的岸潛訓練場",
+        "inset": null
+      }
     },
     {
       "kind": "dive",
@@ -411,6 +483,43 @@
         "page": "https://commons.wikimedia.org/wiki/File:Onna_Okinawa_Japan_Cape-Manzamo-01.jpg",
         "credit": "CEphoto, Uwe Aranas",
         "license": "CC BY-SA 3.0"
+      },
+      "id": "manza",
+      "lat": 26.5047,
+      "lon": 127.8506,
+      "sees": [
+        "夢幻洞（Dream Hole）豎井穿越",
+        "洞穴裡的擬金眼鯛群",
+        "22 m 沙地的花園鰻"
+      ],
+      "depth": "5–30 m",
+      "entry": "船潛（瀨良垣漁港）",
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Onna_Okinawa_Japan_Cape-Manzamo-01.jpg/960px-Onna_Okinawa_Japan_Cape-Manzamo-01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Onna_Okinawa_Japan_Cape-Manzamo-01.jpg",
+          "credit": "CEphoto, Uwe Aranas",
+          "license": "CC BY-SA 3.0",
+          "caption": ""
+        }
+      ],
+      "photo_todo": {
+        "note": "Commons 找不到這一點的水底照。要用潛店／觀光協會的圖得先取得書面同意，SS 決定。",
+        "candidates": [
+          {
+            "name": "恩納村観光協会 おんな旅navi",
+            "url": "https://www.onnanavi.com/"
+          },
+          {
+            "name": "沖縄観光コンベンションビューロー（OCVB）",
+            "url": "https://www.ocvb.or.jp/"
+          }
+        ]
+      },
+      "map": {
+        "featured": true,
+        "label": "夢幻洞，進階船潛",
+        "inset": null
       }
     },
     {
@@ -429,12 +538,47 @@
         "能見度佳"
       ],
       "photo": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Cliff_of_Cape_Zampa.JPG/960px-Cliff_of_Cape_Zampa.JPG",
-        "page": "https://commons.wikimedia.org/wiki/File:Cliff_of_Cape_Zampa.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/East_China_Sea_from_Cape_Zampa.JPG/960px-East_China_Sea_from_Cape_Zampa.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:East_China_Sea_from_Cape_Zampa.JPG",
         "credit": "そらみみ (Soramimi)",
         "license": "CC BY-SA 4.0"
       },
-      "photo_q": "Cape Zanpa cliffs"
+      "id": "zanpa",
+      "lat": 26.438,
+      "lon": 127.714,
+      "sees": [
+        "斷崖外的大型地形",
+        "灰三齒鯊、公主小丑魚（附近 INAMBISHI）"
+      ],
+      "depth": "10–30 m",
+      "entry": "船潛（都屋漁港）",
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/East_China_Sea_from_Cape_Zampa.JPG/960px-East_China_Sea_from_Cape_Zampa.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:East_China_Sea_from_Cape_Zampa.JPG",
+          "credit": "そらみみ (Soramimi)",
+          "license": "CC BY-SA 4.0",
+          "caption": "殘波岬外的東海"
+        }
+      ],
+      "photo_todo": {
+        "note": "Commons 找不到這一點的水底照。要用潛店／觀光協會的圖得先取得書面同意，SS 決定。",
+        "candidates": [
+          {
+            "name": "読谷村観光協会",
+            "url": "https://yomitan-kankou.jp/"
+          },
+          {
+            "name": "沖縄観光コンベンションビューロー（OCVB）",
+            "url": "https://www.ocvb.or.jp/"
+          }
+        ]
+      },
+      "map": {
+        "featured": false,
+        "label": "斷崖地形，看海況",
+        "inset": null
+      }
     },
     {
       "kind": "dive",
@@ -452,10 +596,41 @@
         "珊瑚"
       ],
       "photo": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Sesoko_Island_202010.jpg/960px-Sesoko_Island_202010.jpg",
-        "page": "https://commons.wikimedia.org/wiki/File:Sesoko_Island_202010.jpg",
-        "credit": "Kugel~commonswiki",
-        "license": "CC BY-SA 4.0"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/A_ocellaris_2_Sesoko_Point_140904_LOWRES.jpg/960px-A_ocellaris_2_Sesoko_Point_140904_LOWRES.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:A_ocellaris_2_Sesoko_Point_140904_LOWRES.jpg",
+        "credit": "Michael arvedlund at da.wikipedia",
+        "license": "Public domain"
+      },
+      "id": "sesoko",
+      "lat": 26.651,
+      "lon": 127.856,
+      "sees": [
+        "淺水區的小丑魚",
+        "桌形珊瑚與珊瑚礁魚",
+        "往水納島方向的珊瑚群"
+      ],
+      "depth": "2–20 m",
+      "entry": "岸潛／船潛",
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/A_ocellaris_2_Sesoko_Point_140904_LOWRES.jpg/960px-A_ocellaris_2_Sesoko_Point_140904_LOWRES.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:A_ocellaris_2_Sesoko_Point_140904_LOWRES.jpg",
+          "credit": "Michael arvedlund at da.wikipedia",
+          "license": "Public domain",
+          "caption": "瀨底島水深 2 m 的小丑魚"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Micro_cosmos_%282113152913%29.jpg/960px-Micro_cosmos_%282113152913%29.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Micro_cosmos_(2113152913).jpg",
+          "credit": "TANAKA Juuyoh (田中十洋)",
+          "license": "CC BY 2.0",
+          "caption": "水納島與瀨底島之間的桌形珊瑚"
+        }
+      ],
+      "map": {
+        "featured": true,
+        "label": "北部，冬天北風時的避風點",
+        "inset": null
       }
     },
     {
@@ -474,12 +649,49 @@
         "高透明度"
       ],
       "photo": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Takatuki_View_in_Zamami_Island_Okinawa001.jpg/960px-Takatuki_View_in_Zamami_Island_Okinawa001.jpg",
-        "page": "https://commons.wikimedia.org/wiki/File:Takatuki_View_in_Zamami_Island_Okinawa001.jpg",
-        "credit": "hashi photo",
-        "license": "CC BY 3.0"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Coral_reef_life_near_Akajima_01.jpg/960px-Coral_reef_life_near_Akajima_01.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Coral_reef_life_near_Akajima_01.jpg",
+        "credit": "keiyac",
+        "license": "CC BY-SA 2.0"
       },
-      "photo_q": "座間味島"
+      "id": "kerama",
+      "lat": 26.201,
+      "lon": 127.287,
+      "sees": [
+        "整片硬珊瑚礁",
+        "海龜（座間味、阿嘉島）",
+        "冬天水下聽得到座頭鯨"
+      ],
+      "depth": "5–30 m",
+      "entry": "船潛",
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Coral_reef_life_near_Akajima_01.jpg/960px-Coral_reef_life_near_Akajima_01.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Coral_reef_life_near_Akajima_01.jpg",
+          "credit": "keiyac",
+          "license": "CC BY-SA 2.0",
+          "caption": "阿嘉島附近的珊瑚礁"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Coral_reef_life_near_Akajima_03.jpg/960px-Coral_reef_life_near_Akajima_03.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Coral_reef_life_near_Akajima_03.jpg",
+          "credit": "keiyac",
+          "license": "CC BY-SA 2.0",
+          "caption": "阿嘉島，藍色水層裡的條紋豆娘魚"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Coral_reef_life_near_Akajima_11.jpg/960px-Coral_reef_life_near_Akajima_11.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Coral_reef_life_near_Akajima_11.jpg",
+          "credit": "keiyac",
+          "license": "CC BY-SA 2.0",
+          "caption": "阿嘉島的淺礁"
+        }
+      ],
+      "map": {
+        "featured": true,
+        "label": "慶良間藍，那霸坐船 50 分鐘",
+        "inset": null
+      }
     },
     {
       "kind": "dive",
@@ -497,12 +709,49 @@
         "洞穴"
       ],
       "photo": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/White_looking_sea_turtle.png/960px-White_looking_sea_turtle.png",
-        "page": "https://commons.wikimedia.org/wiki/File:White_looking_sea_turtle.png",
-        "credit": "Darling Darjeeling",
-        "license": "CC0"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Devils_Palace_Maou_no_Kyuden_dive_site_Shimoji_Island_Miyakojima.jpg/960px-Devils_Palace_Maou_no_Kyuden_dive_site_Shimoji_Island_Miyakojima.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Devils_Palace_Maou_no_Kyuden_dive_site_Shimoji_Island_Miyakojima.jpg",
+        "credit": "Totty Miyakojima",
+        "license": "CC BY 4.0"
       },
-      "photo_q": "Miyakojima sea Irabu"
+      "id": "miyako",
+      "lat": 24.8237,
+      "lon": 125.1405,
+      "sees": [
+        "下地島的洞穴地形（魔王宮殿、安東尼高第）",
+        "通池：海底隧道連到池塘",
+        "海龜"
+      ],
+      "depth": "5–30 m",
+      "entry": "船潛",
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Devils_Palace_Maou_no_Kyuden_dive_site_Shimoji_Island_Miyakojima.jpg/960px-Devils_Palace_Maou_no_Kyuden_dive_site_Shimoji_Island_Miyakojima.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Devils_Palace_Maou_no_Kyuden_dive_site_Shimoji_Island_Miyakojima.jpg",
+          "credit": "Totty Miyakojima",
+          "license": "CC BY 4.0",
+          "caption": "魔王宮殿：光從洞頂打下來"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Antonio_Gaudi_dive_site_Shimoji_Island_Miyakojima.jpg/960px-Antonio_Gaudi_dive_site_Shimoji_Island_Miyakojima.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Antonio_Gaudi_dive_site_Shimoji_Island_Miyakojima.jpg",
+          "credit": "Totty Miyakojima",
+          "license": "CC BY 4.0",
+          "caption": "安東尼高第：岩洞裡的開口"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Toriike_pond_underwater_Shimoji_Island_Miyakojima.jpg/960px-Toriike_pond_underwater_Shimoji_Island_Miyakojima.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Toriike_pond_underwater_Shimoji_Island_Miyakojima.jpg",
+          "credit": "Totty Miyakojima",
+          "license": "CC BY 4.0",
+          "caption": "通池水中"
+        }
+      ],
+      "map": {
+        "featured": true,
+        "label": "地形控必去，洞穴光束",
+        "inset": "sakishima"
+      }
     },
     {
       "kind": "dive",
@@ -519,10 +768,41 @@
         "鬼蝠魟"
       ],
       "photo": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Kabiraishi-zaki.jpg/960px-Kabiraishi-zaki.jpg",
-        "page": "https://commons.wikimedia.org/wiki/File:Kabiraishi-zaki.jpg",
-        "credit": "Syced",
-        "license": "CC0"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Manta_Above.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Manta_Above.JPG",
+        "credit": "User:Jpatokal",
+        "license": "CC BY-SA 4.0"
+      },
+      "id": "ishigaki-manta",
+      "lat": 24.483,
+      "lon": 124.118,
+      "sees": [
+        "Manta Scramble 的鬼蝠魟清潔站",
+        "礁岩上的清潔魚",
+        "珊瑚丘"
+      ],
+      "depth": "5–20 m",
+      "entry": "船潛",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Manta_Above.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Manta_Above.JPG",
+          "credit": "User:Jpatokal",
+          "license": "CC BY-SA 4.0",
+          "caption": "Manta Scramble 的鬼蝠魟"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Ishigaki_Coral_Outcrop.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:Ishigaki_Coral_Outcrop.JPG",
+          "credit": "(WT-en) Jpatokal at English Wikivoyage",
+          "license": "CC BY-SA 3.0",
+          "caption": "石垣島的珊瑚丘"
+        }
+      ],
+      "map": {
+        "featured": true,
+        "label": "看鬼蝠魟，9–10 月機率高",
+        "inset": "sakishima"
       }
     },
     {
@@ -541,12 +821,49 @@
         "遺跡"
       ],
       "photo": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Yonaguni_Monument_DSC02807_%2812737575034%29.jpg/960px-Yonaguni_Monument_DSC02807_%2812737575034%29.jpg",
-        "page": "https://commons.wikimedia.org/wiki/File:Yonaguni_Monument_DSC02807_(12737575034).jpg",
-        "credit": "Vincent Lou from Shanghai, China",
-        "license": "CC BY 2.0"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Yonaguni_Monument_Twin_Megaliths_with_Divers.jpg/960px-Yonaguni_Monument_Twin_Megaliths_with_Divers.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Yonaguni_Monument_Twin_Megaliths_with_Divers.jpg",
+        "credit": "Melkov",
+        "license": "CC0"
       },
-      "photo_q": "Yonaguni Monument underwater"
+      "id": "yonaguni",
+      "lat": 24.435,
+      "lon": 123.011,
+      "sees": [
+        "海底遺跡的階梯平台",
+        "雙巨石與拱門",
+        "冬天的雙髻鯊群"
+      ],
+      "depth": "5–25 m",
+      "entry": "船潛",
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Yonaguni_Monument_Twin_Megaliths_with_Divers.jpg/960px-Yonaguni_Monument_Twin_Megaliths_with_Divers.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Yonaguni_Monument_Twin_Megaliths_with_Divers.jpg",
+          "credit": "Melkov",
+          "license": "CC0",
+          "caption": "海底遺跡：雙巨石旁的潛水員"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Yonaguni_Monument_Main_Terrace.jpg/960px-Yonaguni_Monument_Main_Terrace.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Yonaguni_Monument_Main_Terrace.jpg",
+          "credit": "Melkov",
+          "license": "CC0",
+          "caption": "海底遺跡主平台"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Yonaguni_Monument_Arch.jpg/960px-Yonaguni_Monument_Arch.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Yonaguni_Monument_Arch.jpg",
+          "credit": "Melkov",
+          "license": "CC0",
+          "caption": "海底遺跡的拱門"
+        }
+      ],
+      "map": {
+        "featured": true,
+        "label": "海底遺跡＋冬季雙髻鯊",
+        "inset": "sakishima"
+      }
     },
     {
       "kind": "surf",
@@ -564,12 +881,29 @@
         "近市區"
       ],
       "photo": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Road_view_in_Sunabe_2015.jpg/960px-Road_view_in_Sunabe_2015.jpg",
-        "page": "https://commons.wikimedia.org/wiki/File:Road_view_in_Sunabe_2015.jpg",
-        "credit": "Dquai",
-        "license": "CC BY-SA 4.0"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/USMC-050816-M-3819R-001.jpg/960px-USMC-050816-M-3819R-001.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:USMC-050816-M-3819R-001.jpg",
+        "credit": "Sgt. Ethan E. Rocke",
+        "license": "Public domain"
       },
-      "photo_q": "Sunabe Okinawa"
+      "id": "sunabe-surf",
+      "lat": 26.329,
+      "lon": 127.7452,
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/USMC-050816-M-3819R-001.jpg/960px-USMC-050816-M-3819R-001.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:USMC-050816-M-3819R-001.jpg",
+          "credit": "Sgt. Ethan E. Rocke",
+          "license": "Public domain",
+          "caption": "砂邊海堤外，傍晚等浪的人"
+        }
+      ],
+      "map": {
+        "featured": true,
+        "label": "本島最熱門，看西風",
+        "inset": null
+      },
+      "break": "礁岩浪點（reef break）"
     },
     {
       "kind": "surf",
@@ -591,7 +925,25 @@
         "page": "https://commons.wikimedia.org/wiki/File:Cape_Maeda.jpg",
         "credit": "N",
         "license": "Public domain"
-      }
+      },
+      "id": "maeda-surf",
+      "lat": 26.4447,
+      "lon": 127.77,
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Cape_Maeda.jpg",
+          "page": "https://commons.wikimedia.org/wiki/File:Cape_Maeda.jpg",
+          "credit": "N",
+          "license": "Public domain",
+          "caption": "真榮田岬外的海"
+        }
+      ],
+      "map": {
+        "featured": false,
+        "label": "浮潛客多，留意動線",
+        "inset": null
+      },
+      "break": "礁岩浪點（reef break）"
     },
     {
       "kind": "surf",
@@ -609,12 +961,42 @@
         "進階"
       ],
       "photo": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Cliff_of_Cape_Zampa.JPG/960px-Cliff_of_Cape_Zampa.JPG",
-        "page": "https://commons.wikimedia.org/wiki/File:Cliff_of_Cape_Zampa.JPG",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/East_China_Sea_from_Cape_Zampa.JPG/960px-East_China_Sea_from_Cape_Zampa.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:East_China_Sea_from_Cape_Zampa.JPG",
         "credit": "そらみみ (Soramimi)",
         "license": "CC BY-SA 4.0"
       },
-      "photo_q": "Cape Zanpa cliffs"
+      "id": "zanpa-surf",
+      "lat": 26.438,
+      "lon": 127.714,
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/East_China_Sea_from_Cape_Zampa.JPG/960px-East_China_Sea_from_Cape_Zampa.JPG",
+          "page": "https://commons.wikimedia.org/wiki/File:East_China_Sea_from_Cape_Zampa.JPG",
+          "credit": "そらみみ (Soramimi)",
+          "license": "CC BY-SA 4.0",
+          "caption": "殘波岬外的東海"
+        }
+      ],
+      "map": {
+        "featured": false,
+        "label": "浪大時才有，上級者",
+        "inset": null
+      },
+      "break": "礁岩浪點（reef break）"
     }
-  ]
+  ],
+  "_schema": {
+    "id": "英文 slug，地圖與連結用",
+    "kind": "beach｜dive｜surf",
+    "region": "北部｜中部｜南部｜離島（海況頁分組）",
+    "lat/lon": "WGS84，到小數 4 位（約 10 m）。跟 Sona drawMap() 的 pin 同名欄位，可直接丟進去",
+    "sees": "潛點：水底看得到什麼（短句，地圖卡片用前 2 條）",
+    "depth/entry": "潛點：水深、岸潛或船潛",
+    "break": "浪點：浪型",
+    "photos": "[{url,page,credit,license,caption}]，只收 Wikimedia Commons（CC／公有領域）或 SS 自己拍的；第一張是封面。CC BY 系列要標作者",
+    "photo": "舊欄位＝photos[0]，海況頁舊卡片相容用",
+    "photo_todo": "還沒有可用的水底照：note＋candidates（需授權的官方／潛店來源），交 SS 決定",
+    "map": "{featured: 地圖上放大＋帶圖, label: 地圖上的一句話, inset: null＝本島圖, 'sakishima'＝宮古八重山小地圖}"
+  }
 }

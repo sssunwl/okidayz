@@ -39,3 +39,10 @@
 - 地點頁（build.py `load_places`）：景點／海灘 → `guide/spots/<slug>/`（資料 `data/places.json`），教堂／婚宴場地 → `guide/bigdayz/<slug>/`（`data/bigdayz.json`、`data/bigdayz_venues.json`）。頁上「今天」面板由 `assets/place.js` 在瀏覽器讀 events/weather/海況 json，不必重 build。一日遊文章用 front matter `stops:` 串地點頁。
 - 教堂資料由 `tools/bigdayz_sync.py` 從 `../wedding/data/chapels.json` 同步（本機跑，產 `data/bigdayz.json` 與教堂地圖文章）；照片只用各教堂／婚宴場地官網圖（直連，每張標小字出處），不用 JWC 客戶的圖。景點照片用 Commons（`tools/spot_photos.py`，標作者與授權）。
 - 文章 `cover` 可以填完整 https 網址（場地官網圖），不一定要放 `assets/covers/`。
+
+## IG 連結頁、月份輪播、海況點位（2026-11-22）
+
+- `/ig/`（`build_ig_links`）是 IG／Threads 簡介連結。標籤由 `ig_link_tags()` 從區塊＋文章 tags 自動推，不用另外標；`/ig/#一日遊路線` 會直接套篩選。Threads 簡介用 `/ig/?from=threads`，`assets/ig-links.js` 會把 utm_source 換成 threads。
+- 月份頁 `/guide/month-N/` 會自動借對應攻略文章的 IG 輪播（`month_guide_post`：月份 front matter 的 `full_guide_slug`，沒寫就找標了「N月」且有輪播的攻略）。
+- 海況頁「沖繩的海」分頁可用 `#beach #dive #surf` 直接開；岸潛官方海況只在潛水分頁、浪況只在衝浪分頁。點位資料 `data/ocean_spots.json` 同時是之後潛水／衝浪地圖的資料，欄位說明在檔內 `_schema`。照片只收 Commons（CC／公有領域）或 SS 自拍；沒有可用水底照的點記在 `photo_todo`，交 SS 決定。
+- 換 IG 封面照片的盤點在 `IG_PHOTO_COVERS.md`。

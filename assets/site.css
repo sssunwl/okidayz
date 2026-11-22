@@ -511,7 +511,7 @@ footer .brand-copy small{color:var(--sun)}
 .filter-label{flex-shrink:0;font-size:.7rem;font-weight:900;letter-spacing:.06em;color:var(--muted)}
 .filter-chips{display:flex;flex-wrap:wrap;gap:6px}
 .filter-more{display:contents}
-.filter-more summary{cursor:pointer;font-size:.76rem;font-weight:800;color:var(--sea);list-style:none}
+.filter-more summary{white-space:nowrap;flex-shrink:0;cursor:pointer;font-size:.76rem;font-weight:800;color:var(--sea);list-style:none}
 .filter-more summary::-webkit-details-marker{display:none}
 .filter-more summary::after{content:" ▾"}
 .filter-more[open] summary::after{content:" ▴"}
@@ -865,3 +865,37 @@ body:has(.ocean-conditions) .ocean-waves{display:block}
 .desktop-nav .nav-sub a::after{display:none}
 .desktop-nav .nav-sub a:hover{background:var(--sun)}
 .drop-nav a.drop-sub{padding:10px 20px 10px 38px;font-weight:700;font-size:.9rem;color:var(--muted,#6b5e57)}
+
+/* ── /ig/ 連結頁（IG／Threads 簡介連結）────────────────── */
+.igl-head{padding-bottom:18px}
+.igl-head h1{font-size:clamp(1.9rem,4.5vw,3rem)}
+.igl-quick{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.igl-list{padding:0 0 60px}
+.igl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:22px 14px}
+.igl-card[hidden]{display:none}
+.igl-frame{position:relative;border-radius:10px;border:1px solid var(--line);overflow:hidden;background:#fff}
+.igl-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.igl-track::-webkit-scrollbar{display:none}
+.igl-slide{flex:0 0 100%;scroll-snap-align:start;aspect-ratio:4/5;display:block}
+.igl-slide img{width:100%;height:100%;object-fit:cover;display:block}
+.igl-nav{position:absolute;top:50%;transform:translateY(-50%);width:32px;height:32px;border-radius:50%;border:1px solid var(--line);background:rgba(253,250,244,.92);color:var(--ink);font-size:1.3rem;line-height:1;font-weight:900;cursor:pointer;display:grid;place-items:center;padding:0 0 3px;box-shadow:0 2px 8px rgba(47,36,32,.15);opacity:.85;transition:opacity .15s,background .15s}
+.igl-nav:hover,.igl-nav:focus-visible{opacity:1;background:var(--sun)}
+.igl-nav.prev{left:6px}.igl-nav.next{right:6px}
+.igl-nav[hidden]{display:none}
+.igl-count{position:absolute;right:8px;top:8px;background:rgba(47,36,32,.62);color:#fff;font-size:.68rem;font-weight:800;padding:2px 7px;border-radius:999px;pointer-events:none}
+.igl-title{display:block;margin-top:8px;font-size:.92rem;font-weight:800;line-height:1.38;color:inherit;text-decoration:none}
+.igl-title:hover{color:var(--tile)}
+.igl-tags{margin:5px 0 0;display:flex;gap:5px;flex-wrap:wrap}
+.igl-tags span{font-size:.68rem;font-weight:800;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:1px 7px}
+@media(max-width:560px){
+  .igl-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 10px}
+  .igl-nav{width:28px;height:28px;font-size:1.1rem}
+  .igl-title{font-size:.84rem}
+}
+@media(prefers-reduced-motion:reduce){.igl-track{scroll-behavior:auto}}
+
+/* 月份頁借用攻略文章的輪播：標題連到全文 */
+.ig-slot-head a{color:#fff;text-decoration:none;border-bottom:2px solid var(--mango)}
+.ig-slot-head a:hover{color:var(--sun)}
+.ig-slot-more{display:inline-block;margin-top:14px;color:var(--sun);font-weight:800;font-size:.9rem}
+.month-dash + .ig-slot{margin-top:26px}

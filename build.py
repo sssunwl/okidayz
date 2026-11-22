@@ -865,22 +865,67 @@ OCEAN_KINDS = (("beach", "沙灘", "🏖️"), ("dive", "潛水", "🤿"), ("sur
 OCEAN_REGIONS = ("北部", "中部", "南部", "離島")
 
 
-def ocean_photo_html(spot):
-    photo = spot.get("photo") or {}
-    url = str(photo.get("url") or "")
-    if not url.startswith(("https://upload.wikimedia.org/", "https://thumb.wikimedia.org/")):
+COMMONS_HOSTS = ("https://upload.wikimedia.org/", "https://thumb.wikimedia.org/")
+
+
+def ocean_photos_html(spot):
+    """點位照片：photos 有幾張就放幾張，可以左右滑（assets/ocean-spots.js 補左右鍵）。
+    只接受 Commons 網址；CC 授權要標作者，所以每張角落留一行小字。"""
+    photos = [p for p in (spot.get("photos") or [spot.get("photo") or {}])
+              if str(p.get("url") or "").startswith(COMMONS_HOSTS)]
+    if not photos:
         return '<div class="os-photo os-photo-empty" aria-hidden="true"></div>'
-    # Commons 授權(CC BY／BY-SA)規定要標作者，所以照片角落留一行小字
-    return ('<figure class="os-photo"><img src="{src}" alt="{alt}" loading="lazy" decoding="async">'
-            '<figcaption><a href="{page}" target="_blank" rel="noopener">© {credit}・{lic}</a></figcaption></figure>').format(
-        src=html.escape(url, quote=True), alt=html.escape(spot.get("name", "")),
-        page=html.escape(str(photo.get("page") or ""), quote=True),
-        credit=html.escape(str(photo.get("credit") or "")), lic=html.escape(str(photo.get("license") or "")))
+    slides = "".join(
+        '<figure><img src="{src}" alt="{alt}" loading="lazy" decoding="async">'
+        '<figcaption>{cap}<a href="{page}" target="_blank" rel="noopener">© {credit}・{lic}</a></figcaption></figure>'.format(
+            src=html.escape(p["url"], quote=True),
+            alt=html.escape(p.get("caption") or spot.get("name", "")),
+            cap='<span>{}</span>'.format(html.escape(p["caption"])) if p.get("caption") else "",
+            page=html.escape(str(p.get("page") or ""), quote=True),
+            credit=html.escape(str(p.get("credit") or "")), lic=html.escape(str(p.get("license") or "")))
+        for p in photos)
+    nav = ""
+    if len(photos) > 1:
+        nav = ('<button class="os-nav prev" type="button" aria-label="上一張" hidden>‹</button>'
+               '<button class="os-nav next" type="button" aria-label="下一張">›</button>'
+               '<span class="os-count">1 / {}</span>').format(len(photos))
+    return '<div class="os-photo" data-os-photos><div class="os-track">{}</div>{}</div>'.format(slides, nav)
 
 
-def ocean_spots_html():
-    """海況頁的「沖繩海邊點位」：沙灘／潛水／衝浪三分頁，依北中南離島分組。
-    資料在 data/ocean_spots.json；地圖之後再做，先放點位介紹。"""
+def ocean_card_html(x):
+    sees = ""
+    if x.get("sees"):
+        sees = '<p class="os-sees"><b>水底看得到</b>{}</p>'.format("・".join(html.escape(t) for t in x["sees"]))
+    facts = '<dt>季節</dt><dd>{}</dd>'.format(html.escape(x.get("season", "")))
+    for label, key in (("方式", "type"), ("水深", "depth"), ("下水", "entry"), ("浪型", "break")):
+        if x.get(key):
+            facts += '<dt>{}</dt><dd>{}</dd>'.format(label, html.escape(str(x[key])))
+    return (
+        '<article class="os-card" data-os-region="{region}">{photo}'
+        '<div class="os-body"><div class="os-head"><h4>{name}</h4><span class="os-level">{level}</span></div>'
+        '<p class="os-ja"><b>{region}</b>{ja}・{area}</p>'
+        '<p class="os-feature">{feature}</p>{sees}'
+        '<dl class="os-facts">{facts}</dl>'
+        '<p class="os-tip"><b>注意</b>{tip}</p>'
+        '<a class="os-map" href="{map}" target="_blank" rel="noopener">📍 Google 地圖 ↗</a></div>'
+        '</article>').format(
+            photo=ocean_photos_html(x),
+            map=html.escape("https://www.google.com/maps/search/?api=1&query=" + (
+                "{},{}".format(x["lat"], x["lon"]) if x.get("lat") else quote(
+                    re.sub(r"（.*?）", "", x.get("ja", "")) + " " + x.get("area", "").split("・")[0] + " 沖縄")), quote=True),
+            name=html.escape(x.get("name", "")), level=html.escape(x.get("level", "")),
+            region=html.escape(x.get("region", "")),
+            ja=html.escape(x.get("ja", "")), area=html.escape(x.get("area", "")),
+            feature=html.escape(x.get("feature", "")), sees=sees, facts=facts,
+            tip=html.escape(x.get("tip", "")))
+
+
+def ocean_spots_html(live=None):
+    """海況頁的「沖繩的海」：沙灘／潛水／衝浪三個分頁（網址 #beach #dive #surf 可直接開），
+    分頁內依北中南離島排序、可按地區篩。live={"dive": 岸潛官方海況, "surf": 浪況} 的 HTML
+    放在各自分頁最下面——潛水的海況只在潛水分頁、浪況只在衝浪分頁。
+    資料在 data/ocean_spots.json（也是之後沖繩潛水／衝浪地圖的資料，欄位說明見檔內 _schema）。"""
+    live = live or {}
     path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "ocean_spots.json")
     try:
         with open(path, encoding="utf-8") as f:
@@ -890,54 +935,34 @@ def ocean_spots_html():
     if not spots:
         return ""
     tabs = "".join(
-        '<button type="button" class="os-tab{on}" data-os-kind="{k}">{icon} {label}<small>{n}</small></button>'.format(
-            on=" on" if i == 0 else "", k=k, icon=icon, label=label,
+        '<button type="button" class="os-tab{on}" data-os-kind="{k}" aria-pressed="{pressed}">{icon} {label}<small>{n}</small></button>'.format(
+            on=" on" if i == 0 else "", pressed="true" if i == 0 else "false", k=k, icon=icon, label=label,
             n=sum(1 for x in spots if x.get("kind") == k))
         for i, (k, label, icon) in enumerate(OCEAN_KINDS))
-    groups = []
+    panes = []
     for kind, label, _ in OCEAN_KINDS:
-        for region in OCEAN_REGIONS:
-            items = [x for x in spots if x.get("kind") == kind and x.get("region") == region]
-            if not items:
-                continue
-            cards = "".join(
-                '<article class="os-card">{photo}'
-                '<div class="os-head"><h4>{name}</h4><span class="os-level">{level}</span></div>'
-                '<p class="os-ja">{ja}・{area}</p>'
-                '<p class="os-feature">{feature}</p>'
-                '<dl class="os-facts"><dt>季節</dt><dd>{season}</dd>{type_row}</dl>'
-                '<p class="os-tip"><b>注意</b>{tip}</p>'
-                '<div class="os-tags">{tags}</div>'
-                '<a class="os-map" href="{map}" target="_blank" rel="noopener">📍 在 Google 地圖打開 ↗</a>'
-                '</article>'.format(
-                    photo=ocean_photo_html(x),
-                    map=html.escape("https://www.google.com/maps/search/?api=1&query=" + quote(
-                        re.sub(r"（.*?）", "", x.get("ja", "")) + " " + x.get("area", "").split("・")[0] + " 沖縄"), quote=True),
-                    name=html.escape(x.get("name", "")), level=html.escape(x.get("level", "")),
-                    ja=html.escape(x.get("ja", "")), area=html.escape(x.get("area", "")),
-                    feature=html.escape(x.get("feature", "")), season=html.escape(x.get("season", "")),
-                    type_row='<dt>方式</dt><dd>{}</dd>'.format(html.escape(x["type"])) if x.get("type") else "",
-                    tip=html.escape(x.get("tip", "")),
-                    tags="".join('<span>{}</span>'.format(html.escape(t)) for t in x.get("tags") or []),
-                ) for x in items)
-            groups.append(
-                '<div class="os-group" data-os-group="{kind}"{hidden}><h3 class="os-region">{region}<small>{n} 個點</small></h3>'
-                '<div class="os-grid">{cards}</div></div>'.format(
-                    kind=kind, hidden="" if kind == OCEAN_KINDS[0][0] else " hidden",
-                    region=html.escape(region), n=len(items), cards=cards))
+        items = sorted((x for x in spots if x.get("kind") == kind),
+                       key=lambda x: OCEAN_REGIONS.index(x["region"]) if x.get("region") in OCEAN_REGIONS else 9)
+        regions = [r for r in OCEAN_REGIONS if any(x.get("region") == r for x in items)]
+        groups = ['<div class="os-grid">{}</div>'.format("".join(ocean_card_html(x) for x in items))]
+        chips = ""
+        if len(regions) > 1:
+            chips = '<div class="os-regions"><button type="button" class="tag-chip active" data-os-r="">全部</button>{}</div>'.format(
+                "".join('<button type="button" class="tag-chip" data-os-r="{0}">{0}</button>'.format(html.escape(r)) for r in regions))
+        panes.append('<div class="os-pane" id="os-{kind}" data-os-pane="{kind}"{hidden}>{chips}{groups}{live}</div>'.format(
+            kind=kind, hidden="" if kind == OCEAN_KINDS[0][0] else " hidden",
+            chips=chips, groups="".join(groups), live=live.get(kind, "")))
     return (
         '<section class="ocean-spots" id="spots"><div class="shell">'
         '<div class="section-head"><div><div class="eyebrow">Beach・Dive・Surf</div>'
-        '<h2>沖繩的海，<br>先挑一個去處。</h2></div>'
-        '<p class="os-map-note">地圖整理中，先看點位介紹 ✎</p></div>'
-        '<div class="os-tabs" role="tablist">{tabs}</div>{groups}'
-        '<p class="section-tail">游泳期間（多半是 4–10 月）有救生員的海灘最安全。潛水、衝浪點的細節海況請看 '
-        '<a href="https://sssunwl.github.io/diveinout/" target="_blank" rel="noopener">DiveInOut ↗</a>。</p>'
+        '<h2>沖繩的海，先挑一個去處。</h2></div>'
+        '<p class="os-map-note">潛水・衝浪地圖整理中 ✎</p></div>'
+        '<div class="os-tabs" role="tablist">{tabs}</div>{panes}'
+        '<p class="section-tail">游泳期間（多半是 4–10 月）有救生員的海灘最安全。潛水、衝浪點的細節請看 '
+        '<a href="https://sssunwl.github.io/diveinout/" target="_blank" rel="noopener">DiveInOut ↗</a>。'
+        '照片來自 Wikimedia Commons，作者與授權標在每張角落。</p>'
         '</div></section>'
-        '<script>document.addEventListener("click",function(e){{var b=e.target.closest("[data-os-kind]");if(!b)return;'
-        'document.querySelectorAll("[data-os-kind]").forEach(function(x){{x.classList.toggle("on",x===b)}});'
-        'document.querySelectorAll("[data-os-group]").forEach(function(g){{g.hidden=g.dataset.osGroup!==b.dataset.osKind}})}});</script>'
-    ).format(tabs=tabs, groups="".join(groups))
+    ).format(tabs=tabs, panes="".join(panes))
 
 def jma_text(phrase):
     """氣象廳片語：有中文翻譯用中文，翻不出來就原樣顯示日文（不猜）。"""
@@ -1093,7 +1118,8 @@ def build_section(key, posts, extra_block="", show_filters=True, cards_heading="
         "{}｜OkiDayz".format(meta["title"]),
         meta["lead"],
         active=key,
-        page_script='<script src="../assets/section.js"></script>' if (filters or extra_block) else "",
+        page_script=('<script src="../assets/section.js"></script>' if (filters or extra_block) else "")
+        + ('<script src="../assets/ocean-spots.js"></script>' if key == "ocean" else ""),
     )
 
 
@@ -1107,6 +1133,41 @@ def related_posts(post, siblings):
         scored.append((overlap, other))
     scored.sort(key=lambda pair: pair[0], reverse=True)
     return [other for score, other in scored[:3] if score > 0] or [other for _, other in scored[:2]]
+
+
+def ig_slot_html(post, prefix, link=""):
+    """文章的 IG 輪播位。有成品圖(assets/ig/<slug>/)放圖，沒有就用 slides 文字卡。
+    link 有值時(月份頁借用攻略文章的輪播)標題變成連到那篇文章，底下多一個「看全文」。"""
+    ig = post.get("ig") or {}
+    if not isinstance(ig, dict) or not ig.get("slides"):
+        return ""
+    slides = ig.get("slides") or []
+    images = ig_images(post["slug"])
+    if images:
+        # 有成品圖就放圖;alt 用封面句+每頁文字,讀不到圖的人跟搜尋引擎也看得懂
+        alts = [ig.get("cover") or post.get("title", "")] + [str(x) for x in slides] + ["收藏起來，到了沖繩再打開"]
+        cards = "".join(
+            '<div class="ig-slide ig-img"><img src="{}assets/ig/{}/{}" alt="{}" loading="lazy" width="1080" height="1350"></div>'.format(
+                prefix, html.escape(post["slug"]), name, html.escape(alts[i] if i < len(alts) else ""))
+            for i, name in enumerate(images))
+    else:
+        cards = "".join(
+            '<div class="ig-slide"><span>{}</span><p>{}</p></div>'.format(index + 1, html.escape(str(slide)))
+            for index, slide in enumerate(slides)
+        )
+    heading = html.escape(str(ig.get("cover") or post.get("title", "")))
+    more = ""
+    if link:
+        heading = '<a href="{}">{} →</a>'.format(html.escape(link, quote=True), heading)
+        more = '        <a class="ig-slot-more" href="{}">看全文：{}</a>\n'.format(
+            html.escape(link, quote=True), html.escape(str(post.get("title", ""))))
+    return (
+        '      <section class="ig-slot" data-ig-embed aria-label="這篇的 IG 版本">\n'
+        '        <div class="ig-slot-head"><span class="eyebrow">Carousel</span>'
+        '<strong>{}</strong></div>\n'
+        '        <div class="ig-track">{}</div>\n{}'
+        '      </section>'
+    ).format(heading, cards, more)
 
 
 def build_article(post, siblings):
@@ -1126,30 +1187,7 @@ def build_article(post, siblings):
     if post.get("stops"):
         cover = route_stops_html(post, PLACES, prefix) + cover
 
-    ig = post.get("ig") or {}
-    ig_slot = ""
-    if isinstance(ig, dict) and ig.get("slides"):
-        slides = ig.get("slides") or []
-        images = ig_images(post["slug"])
-        if images:
-            # 有成品圖就放圖;alt 用封面句+每頁文字,讀不到圖的人跟搜尋引擎也看得懂
-            alts = [ig.get("cover") or post.get("title", "")] + [str(x) for x in slides] + ["收藏起來，到了沖繩再打開"]
-            cards = "".join(
-                '<div class="ig-slide ig-img"><img src="{}assets/ig/{}/{}" alt="{}" loading="lazy" width="1080" height="1350"></div>'.format(
-                    prefix, html.escape(post["slug"]), name, html.escape(alts[i] if i < len(alts) else ""))
-                for i, name in enumerate(images))
-        else:
-            cards = "".join(
-                '<div class="ig-slide"><span>{}</span><p>{}</p></div>'.format(index + 1, html.escape(str(slide)))
-                for index, slide in enumerate(slides)
-            )
-        ig_slot = (
-            '      <section class="ig-slot" data-ig-embed aria-label="這篇的 IG 版本">\n'
-            '        <div class="ig-slot-head"><span class="eyebrow">Carousel</span>'
-            '<strong>{}</strong></div>\n'
-            '        <div class="ig-track">{}</div>\n'
-            '      </section>'
-        ).format(html.escape(str(ig.get("cover") or post.get("title", ""))), cards)
+    ig_slot = ig_slot_html(post, prefix)
 
     related = related_posts(post, siblings)
     related_html = ""
@@ -1369,8 +1407,22 @@ def month_nav_html(months, current_n):
     )
 
 
-def build_month_pages(months):
-    """月份速覽頁：/guide/month-<n>/。回傳產生的完整網址清單。"""
+def month_guide_post(month, guide_posts):
+    """月份頁要借輪播的那篇攻略：front matter 寫了 full_guide_slug 就用那篇；
+    沒寫就找標了「N月」、而且有 IG 輪播的攻略文章（多篇時取最新）。"""
+    by_slug = {p["slug"]: p for p in guide_posts}
+    if month.get("full_guide_slug"):
+        return by_slug.get(str(month["full_guide_slug"]))
+    tag = "{}月".format(month["month"])
+    hits = [p for p in guide_posts if tag in [str(t) for t in p.get("tags") or []]
+            and isinstance(p.get("ig"), dict) and p["ig"].get("slides")]
+    hits.sort(key=lambda p: str(p.get("updated", "")), reverse=True)
+    return hits[0] if hits else None
+
+
+def build_month_pages(months, guide_posts=()):
+    """月份速覽頁：/guide/month-<n>/。回傳產生的完整網址清單。
+    有對應的月份攻略（month_guide_post）時，把那篇的 IG 輪播放在氣候儀表板下面，標題連到全文。"""
     urls = []
     for month in months:
         n = month["month"]
@@ -1378,6 +1430,13 @@ def build_month_pages(months):
         if month.get("full_guide_slug"):
             body_src = body_src.replace("{{FULL_GUIDE_URL}}", "../{}/".format(month["full_guide_slug"]))
 
+        guide = month_guide_post(month, guide_posts)
+        month_carousel = ""
+        page_script = '<script src="../../assets/months.js"></script>'
+        if guide:
+            month_carousel = ig_slot_html(guide, "../../", link="../{}/".format(guide["slug"]))
+            if month_carousel:
+                page_script += '<script src="../../assets/ig-carousel.js"></script>'
         meta_bits = ['<span>{}</span>'.format(html.escape(str(month.get("weather", ""))))]
         if month.get("highlight"):
             meta_bits.append('<span class="tag">{}</span>'.format(html.escape(str(month["highlight"]))))
@@ -1387,7 +1446,7 @@ def build_month_pages(months):
             "ARTICLE_TITLE": html.escape(str(month.get("title", ""))),
             "ARTICLE_SUMMARY": html.escape(str(month.get("blurb", ""))),
             "ARTICLE_META": "".join(meta_bits),
-            "COVER": month_dashboard_html(month),
+            "COVER": month_dashboard_html(month) + month_carousel,
             "BODY": markdown(body_src),
             "IG_SLOT": "",
             "RELATED": month_nav_html(months, n),
@@ -1397,7 +1456,7 @@ def build_month_pages(months):
             "{}｜OkiDayz".format(month.get("title", "")),
             str(month.get("blurb", "")),
             active="guide",
-            page_script='<script src="../../assets/months.js"></script>',
+            page_script=page_script,
         )
         urls.append(canonical)
     return urls
@@ -1464,32 +1523,79 @@ def write_ig_queue(posts):
     return queue
 
 
+# /ig/ 篩選軸。每篇的標籤由 ig_link_tags() 從區塊＋文章 tags 推出來，不必在文章另外標。
+IG_LINK_AXES = [
+    ("主題", ["一日遊路線", "季節・月份", "玩水", "好物", "文化歷史", "快訊"]),
+    ("怎麼去", ["自駕", "不自駕", "親子"]),
+    ("地區", ["那霸", "南部", "中部", "北部", "外島"]),
+]
+
+
+def ig_link_tags(section, post):
+    tags = [str(t) for t in post.get("tags") or []]
+    out = []
+    if "一天遊" in tags or post.get("stops"):
+        out.append("一日遊路線")
+    if any(re.fullmatch(r"\d{1,2}月", t) for t in tags):
+        out.append("季節・月份")
+    out.append({"ocean": "玩水", "goods": "好物", "okinawa": "文化歷史"}.get(section, ""))
+    if "快訊" in tags:
+        out.append("快訊")
+    if "海" in tags:
+        out.append("玩水")
+    out += [t for t in ("自駕", "不自駕", "親子", "那霸", "南部", "中部", "北部") if t in tags]
+    if "沖繩外島" in tags:
+        out.append("外島")
+    return [t for t in dict.fromkeys(out) if t]
+
+
 def build_ig_links(posts):
-    """IG 簡介連結頁 /ig/:每篇有 IG 版的文章一張卡,連結帶 utm_source=ig。
+    """IG／Threads 簡介連結頁 /ig/:每篇有輪播成品圖的文章一張卡,卡片裡可以左右滑看整套輪播。
+    連結預設帶 utm_source=ig;網址加 ?from=threads 時 assets/ig-links.js 會換成 threads。
     data/ig_posted.json({slug: 發佈日})有記錄的排最前(新→舊),其餘照 ig-queue 順序。"""
     posted = read_data_json("ig_posted.json", {})
     items = [(section, post) for section, group in posts.items() for post in group
              if isinstance(post.get("ig"), dict) and post["ig"].get("slides") and ig_images(post["slug"])]
     items.sort(key=lambda sp: str(posted.get(sp[1]["slug"], "")), reverse=True)
-    cards = []
+    cards, used = [], set()
     for section, post in items:
-        utm = "?utm_source=ig&utm_medium=social&utm_campaign=" + post["slug"]
-        cover = "../assets/ig/{}/{}".format(post["slug"], ig_images(post["slug"])[0])
+        tags = ig_link_tags(section, post)
+        used.update(tags)
+        href = "../{}?utm_source=ig&utm_medium=social&utm_campaign={}".format(post_href(post), post["slug"])
+        images = ig_images(post["slug"])
+        title = html.escape(str(post.get("title", "")))
+        slides = "".join(
+            '<a class="igl-slide" href="{href}" tabindex="-1"><img src="../assets/ig/{slug}/{name}" alt="{alt}"'
+            ' loading="lazy" decoding="async" width="1080" height="1350"></a>'.format(
+                href=html.escape(href, quote=True), slug=html.escape(post["slug"]), name=name,
+                alt=title if i == 0 else "")
+            for i, name in enumerate(images))
         cards.append(
-            '<a href="../{href}{utm}" style="display:block;color:inherit;text-decoration:none">'
-            '<img src="{cover}" alt="" loading="lazy" style="width:100%;aspect-ratio:4/5;object-fit:cover;'
-            'border-radius:10px;border:1px solid var(--line);display:block">'
-            '<strong style="display:block;margin-top:6px;font-size:.9rem;line-height:1.35">{title}</strong></a>'
-        .format(href=post_href(post), utm=utm, cover=cover, title=html.escape(str(post.get("title", "")))))
+            '<article class="igl-card" data-tags="{tags}">'
+            '<div class="igl-frame" data-igl>'
+            '<div class="igl-track">{slides}</div>'
+            '<button class="igl-nav prev" type="button" aria-label="上一張" hidden>‹</button>'
+            '<button class="igl-nav next" type="button" aria-label="下一張">›</button>'
+            '<span class="igl-count" aria-hidden="true">1 / {n}</span></div>'
+            '<a class="igl-title" href="{href}">{title}</a>'
+            '<p class="igl-tags">{chips}</p></article>'.format(
+                tags=html.escape("|".join(tags), quote=True), slides=slides, n=len(images),
+                href=html.escape(href, quote=True), title=title,
+                chips="".join("<span>{}</span>".format(html.escape(t)) for t in tags[:2])))
     quick = "".join('<a class="pill" href="../{}/?utm_source=ig&utm_medium=social">{}</a>'.format(path, label)
-                    for path, label in (("events", "活動年曆"), ("ocean", "今天海況"), ("guide", "一日遊攻略"), ("toolkit", "旅行小抄")))
-    main = ('  <section class="page-head"><div class="shell">'
-            '<div class="eyebrow">@okidayz_</div><h1>IG 貼文的完整版</h1>'
-            '<p>在 IG 看到的那篇，點下面的卡片看全文。</p>'
-            '<div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:14px">{}</div></div></section>\n'
-            '  <section class="related"><div class="shell"><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:18px 12px">{}</div></div></section>\n'
-            ).format(quick, "".join(cards))
-    render_page("ig", main, "IG 貼文完整版｜OkiDayz", "OkiDayz IG 貼文對應的網站全文、活動年曆與今天海況。")
+                    for path, label in (("events", "這週末活動"), ("ocean", "今天海況"), ("toolkit", "旅行小抄")))
+    filters = filter_bar_html(IG_LINK_AXES, "iglFilters", "iglGrid", used)
+    main = ('  <section class="page-head igl-head"><div class="shell">'
+            '<div class="eyebrow" data-igl-handle>@okidayz_</div><h1><span data-igl-src>IG</span> 貼文的完整版</h1>'
+            '<p>左右滑看整套，點圖或標題看全文。也可以用標籤先篩：一日遊路線、季節、玩水…</p>'
+            '<div class="igl-quick">{quick}</div></div></section>\n'
+            '  <section class="igl-list"><div class="shell">{filters}'
+            '<div class="igl-grid" id="iglGrid">{cards}</div>'
+            '<div class="empty-state" id="iglEmpty" hidden><strong>沒有符合的貼文</strong>換個標籤，或點「全部」。</div>'
+            '</div></section>\n'
+            ).format(quick=quick, filters=filters, cards="".join(cards))
+    render_page("ig", main, "IG 貼文完整版｜OkiDayz", "OkiDayz IG／Threads 貼文對應的網站全文：一日遊路線、這週末活動、今天海況。",
+                page_script='<script src="../assets/section.js"></script><script src="../assets/ig-links.js"></script>')
     return len(cards)
 
 
@@ -1988,7 +2094,7 @@ def build_site(events=None, weather=None, updated=None):
 
     urls = [SITE_URL]
     event_urls = build_event_pages(events)  # 要先跑，才能讓 home/events 拿到 _detail_slug
-    month_urls = build_month_pages(months)  # 要先跑，才能讓首頁的月份磚連得到頁面
+    month_urls = build_month_pages(months, posts.get("guide") or [])  # 要先跑，才能讓首頁的月份磚連得到頁面
     # 月份速覽給 Sona 輪播「月の沖繩手帖」讀(只放 front matter,不放內文)
     (DOCS / "months.json").write_text(json.dumps(
         [{k: v for k, v in m.items() if k != "body"} for m in months],
@@ -2006,21 +2112,21 @@ def build_site(events=None, weather=None, updated=None):
         if key == "ocean":
             dive_spots = (ocean_conditions or {}).get("spots") or []
             surf_spots = (surf_conditions or {}).get("spots") or []
-            extra_block = ocean_spots_html() + ocean_conditions_html(
+            extra_block = ocean_spots_html({"dive": ocean_conditions_html(
                 ocean_conditions,
                 note_label="潛水要注意",
                 heading="{}個熱門岸潛點，官方海況。".format(cn_num(len(dive_spots))),
                 eyebrow="Official Conditions",
                 section_id="live-conditions",
                 section_class="ocean-conditions",
-            ) + ocean_conditions_html(
+            ), "surf": ocean_conditions_html(
                 surf_conditions,
                 note_label="滑浪要注意",
                 heading="{}個滑浪點，官方浪況。".format(cn_num(len(surf_spots))),
                 eyebrow="Official Surf Conditions",
                 section_id="live-surf-conditions",
                 section_class="ocean-conditions surf-conditions",
-            )
+            )})
         if key == "goods":
             extra_block = goods_items_html(goods_items)
             show_filters = False
