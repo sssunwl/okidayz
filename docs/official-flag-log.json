@@ -228,5 +228,16 @@
 ],
 "jma_wind": "北の風",
 "jma_wave": "3メートル 後 2.5メートル うねり を伴う"
+},
+{
+"at": "2026-11-22 10:01",
+"spot": "cape-maeda",
+"official": "禁止☓",
+"our_verdict": "info",
+"jma_warnings": [
+"乾燥注意報"
+],
+"jma_wind": "北の風 後 北東の風",
+"jma_wave": "2メートル 後 1.5メートル"
 }
 ]
