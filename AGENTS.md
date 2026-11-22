@@ -50,5 +50,5 @@
 
 ## 沖繩新鮮事（/new/，2026-11-22）
 - `prtimes_crawler.py`：PR TIMES 搜「沖縄／那覇／石垣島／宮古島」→ 內文要有沖繩地名 → OpenAI 判斷旅客用不用得上 → 繁中摘要寫 `docs/new.json`；判過不收的記 `docs/new-seen.json`（45 天）。跟新聞同一個 Actions（news.yml，每天 07:30 JST）。
-- 只放摘要＋原文連結。新聞稿配圖存在 `image` 欄但不顯示，開關是 build.py `FRESH_SHOW_IMAGES`（授權等 SS 決定）。
+- 只放摘要＋原文連結。新聞稿配圖 2026-11-22 SS 決定顯示（`FRESH_SHOW_IMAGES`），圖下標「圖：發布企業（PR TIMES）」。
 - 頁面：build.py `build_fresh()`；首頁「沖繩新鮮事。」一排 4 張（`<<<FRESH_ROW>>>`，沒資料就整段不出）。新聞選單子分頁有連結。

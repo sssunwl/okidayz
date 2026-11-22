@@ -1455,7 +1455,7 @@ FRESH_AXES = [
     ("類型", FRESH_KINDS),
     ("地區", ["那霸", "北部", "中部", "南部", "離島"]),
 ]
-FRESH_SHOW_IMAGES = False  # 新聞稿配圖授權等 SS 決定；開了就在卡片放 PR TIMES 的圖
+FRESH_SHOW_IMAGES = True  # 2026-11-22 SS 決定放新聞稿配圖，卡片圖下標「圖：發布企業（PR TIMES）」
 
 
 def fresh_tags(item):
@@ -1481,8 +1481,10 @@ def fresh_card_html(item, prefix="../"):
     when = fresh_when(item)
     image = ""
     if FRESH_SHOW_IMAGES and str(item.get("image") or "").startswith("https://"):
-        image = '<img class="fresh-img" src="{}?width=600" alt="" loading="lazy">'.format(
-            html.escape(item["image"], quote=True))
+        image = ('<figure class="fresh-fig"><img class="fresh-img" src="{}?width=600&amp;format=jpeg&amp;auto=webp" '
+                 'alt="" loading="lazy" onerror="this.parentNode.remove()">'
+                 '<figcaption>圖：{}（PR TIMES）</figcaption></figure>').format(
+            html.escape(item["image"], quote=True), html.escape(str(item.get("company") or "發布企業")))
     where = '<p class="fresh-where">📍 {}</p>'.format(html.escape(item["where"])) if item.get("where") else ""
     return (
         '<article class="fresh-card" data-tags="{tags}">{image}'
