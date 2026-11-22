@@ -1,0 +1,6 @@
+{
+  "_note": "活動補圖的黑名單：官網分享預覽圖跟活動對不上時，把那張圖的網址或官網網址加進 block，下次 build 就改用插畫。",
+  "block": [
+    "https://openwater.jp/wp/wp-content/uploads/2022/01/north_bondi_01-1.jpg"
+  ]
+}

@@ -8,6 +8,7 @@ import time
 
 import jma
 from build import build_site
+from event_images import refresh_official_images
 from event_sources import (
     WINDOW_DAYS, get_okimeguri_events, get_jalan_events, get_goyah_events, dedupe_across_sources,
     get_civic_events, get_prtimes_events,
@@ -772,6 +773,7 @@ def main():
     weather = get_weather()
 
     os.makedirs("docs", exist_ok=True)
+    refresh_official_images(all_events)  # 沒圖的活動去主辦方官網抓分享預覽圖(快取,build 時才用)
     with open(EVENTS_FILE, "w", encoding="utf-8") as f:
         json.dump(all_events, f, ensure_ascii=False, indent=2)
     with open(WEATHER_FILE, "w", encoding="utf-8") as f:

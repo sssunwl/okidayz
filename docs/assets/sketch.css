@@ -319,3 +319,10 @@ footer{padding:64px 0 48px}
 .os-ja b{color:var(--tile);margin-right:5px}
 .os-pane .os-grid{margin-top:10px}
 .os-card[hidden]{display:none}
+
+/* 活動補圖：照片出處小字、類別插畫 */
+.pick-polaroid .pick-photo{position:relative}
+.pick-credit{position:absolute;left:4px;right:4px;bottom:4px;font-size:.55rem;line-height:1.3;color:#fff;background:rgba(47,36,32,.55);padding:1px 5px;border-radius:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:right}
+.cover-credit{margin:-6px 0 14px;text-align:right;font-size:.66rem}
+.cover-credit a{color:var(--muted);text-decoration:none}
+.article-cover-art{background:var(--paper)}

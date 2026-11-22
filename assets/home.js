@@ -110,9 +110,14 @@
     // 拍立得：照片在上、字在下面白底，不再把字壓在海報上
     pickGrid.innerHTML = upcoming.length ? upcoming.map(function (event, index) {
       var img = safeURL(event.image);
+      // 沒有照片的活動用 build 配好的類別插畫（assets/brand/event-art/）；照片有出處的在角落標小字
+      var art = /^[a-z]+$/.test(event.image_art || '') ? 'assets/brand/event-art/' + event.image_art + '.svg' : '';
+      var credit = img && event.image_credit ? '<span class="pick-credit">' + escapeHTML(event.image_credit) + '</span>' : '';
       var photo = img
-        ? '<div class="pick-photo" style="background-image:url(\'' + escapeHTML(img) + '\')"></div>'
-        : '<div class="pick-photo pick-photo-empty"><span class="pick-icon">' + icons[index % icons.length] + '</span></div>';
+        ? '<div class="pick-photo" style="background-image:url(\'' + escapeHTML(img) + '\')">' + credit + '</div>'
+        : art
+          ? '<div class="pick-photo pick-photo-art" style="background-image:url(\'' + art + '\')"></div>'
+          : '<div class="pick-photo pick-photo-empty"><span class="pick-icon">' + icons[index % icons.length] + '</span></div>';
       var loc = event.location ? '<p class="pick-loc">📍 ' + escapeHTML(truncate(event.location, 24)) + '</p>' : '';
       return '<article class="pick-card pick-polaroid" data-pick-id="' + escapeHTML(eventId(event)) + '"' +
         (event._detail_slug ? ' data-detail="' + escapeHTML(event._detail_slug) + '"' : '') + ' tabindex="0">' +

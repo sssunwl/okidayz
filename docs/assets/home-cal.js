@@ -72,7 +72,7 @@
   }
 
   function preview(e) {
-    var img = safeURL(e.image);
+    var img = safeURL(e.image) || (/^[a-z]+$/.test(e.image_art || '') ? 'assets/brand/event-art/' + e.image_art + '.svg' : '');
     var range = fmtDate(e.date_start) + (e.date_end && e.date_end !== e.date_start ? ' – ' + fmtDate(e.date_end) : '');
     return (img ? '<div class="hc-thumb" style="background-image:url(\'' + escapeHTML(img) + '\')"></div>' : '') +
       '<div><p class="hc-meta">🗓 ' + escapeHTML(range) + (e.location ? '<br>📍 ' + escapeHTML(e.location) : '') + '</p>' +
@@ -92,7 +92,7 @@
       if (!open && !pane.innerHTML) {
         var ev0 = list._items[Number(item.dataset.i)];
         pane.innerHTML = preview(ev0);
-        pane.classList.toggle('no-img', !safeURL(ev0.image));
+        pane.classList.toggle('no-img', !safeURL(ev0.image) && !ev0.image_art);
       }
       item.setAttribute('aria-expanded', String(!open));
       item.querySelector('em').textContent = open ? '＋' : '－';

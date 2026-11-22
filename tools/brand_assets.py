@@ -4,7 +4,8 @@
 規格見 BRAND.md。輸出到 assets/brand/，改這支再重跑，不要手改 SVG。
 手繪感靠「座標抖動＋雙描＋斜線排線」做出來，不靠濾鏡，所以放大縮小都一樣。
 
-    python3 tools/brand_assets.py
+    python3 tools/brand_assets.py              # 全部
+    python3 tools/brand_assets.py --event-art  # 只出活動保底插畫
 """
 import math
 import random
@@ -759,6 +760,56 @@ figcaption{{font-size:13px;color:#7a6a5e}}
 """
 
 
+# ── 活動保底插畫 ────────────────────────────────────────
+# 活動沒有自己的照片時用的 4:3 卡片（首頁「這幾天」、活動頁）。底色淡、中間一個大圖示，
+# 圖示直接拿上面生成好的 icons／emoji，不另畫新零件。build.py 的 event_art_key() 決定哪個活動用哪張。
+
+EVENT_ART = [
+    # (檔名, 說明, 圖示檔, 底色, 排線色)
+    ("festival", "祭典", "icons/festival.svg", "#fdeee6", TILE),
+    ("market", "市集", "icons/shop.svg", "#fff4dc", MANGO),
+    ("music", "音樂・表演", "emoji/spark.svg", "#fff4dc", MANGO),
+    ("light", "燈飾・夜間", "emoji/lantern.svg", "#f3ece4", MANGO),
+    ("art", "展覽・工藝", "icons/culture.svg", "#fdeee6", TILE),
+    ("sport", "運動・路跑", "emoji/compass.svg", FOAM, SEA),
+    ("kids", "親子", "emoji/turtle.svg", FOAM, SEA),
+    ("food", "美食", "icons/food.svg", "#fff4dc", MANGO),
+    ("sea", "海", "icons/sea.svg", FOAM, SEA),
+    ("nature", "花・自然", "emoji/flower.svg", "#fdeee6", TILE),
+    ("season", "節氣・傳統", "emoji/moon.svg", "#f3ece4", MANGO),
+    ("event", "活動", "icons/event.svg", "#fff4dc", TILE),
+]
+
+
+def event_art(seed, bg, color, icon_svg):
+    W, H = 400, 300
+    p = Pen(seed)
+    p.raw(f'<rect width="{W}" height="{H}" fill="{bg}"/>')
+    # 地平線：一條手抖的丘陵／浪，下面排線
+    ground = wave_pts(-10, W + 10, 238, 7, 120)
+    p.hatch(ground + [(W + 10, H + 10), (-10, H + 10)], color, angle=32, gap=6, width=1.8)
+    p.line(ground, width=2.6)
+    # 角落的芒果太陽
+    sun = circle(332, 62, 26, 12, p.rng, 0.05)
+    p.hatch(sun, MANGO, gap=4.5)
+    p.line(sun, True)
+    # 圖示後面墊一個漆喰白的手繪圓，讓圖示從底色跳出來
+    disc = circle(200, 138, 92, 16, p.rng, 0.04)
+    p.line(disc, True, width=2.2, fill=PAPER)
+    # 圖示自己的 clipPath id 也叫 c1、c2…，換個字首免得跟外層撞名
+    icon_svg = icon_svg.replace('id="c', 'id="ic').replace("url(#c", "url(#ic")
+    p.raw(nested(icon_svg, 118, 56, 164, 164))
+    return p.svg(W, H)
+
+
+def write_event_art():
+    (OUT / "event-art").mkdir(parents=True, exist_ok=True)
+    for i, (key, _label, icon, bg, color) in enumerate(EVENT_ART):
+        icon_svg = (OUT / icon).read_text(encoding="utf-8")
+        (OUT / "event-art" / f"{key}.svg").write_text(event_art(400 + i, bg, color, icon_svg), encoding="utf-8")
+    print(f"{len(EVENT_ART)} 張活動保底插畫 → {(OUT / 'event-art').relative_to(ROOT)}/")
+
+
 def main():
     for sub in ("icons", "patterns", "stamps"):
         (OUT / sub).mkdir(parents=True, exist_ok=True)
@@ -780,10 +831,15 @@ def main():
     export_png(OUT / "logo" / "lockup.svg", OUT / "logo" / "png" / "lockup-1200.png", 0, None, width=1200)
     export_png(OUT / "logo" / "lockup-v.svg", OUT / "logo" / "png" / "lockup-v-1000.png", 0, None, width=1000)
     export_png(OUT / "logo" / "wordmark.svg", OUT / "logo" / "png" / "wordmark-1200.png", 0, None, width=1200)
+    write_event_art()
     (OUT / "logo" / "index.html").write_text(logo_page(), encoding="utf-8")
     (OUT / "index.html").write_text(preview_html(), encoding="utf-8")
     print(f"{len(ICONS)} 圖示、{len(PATTERNS)} 紋樣、{len(STAMPS)} 印章 → {OUT.relative_to(ROOT)}/")
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    if "--event-art" in sys.argv:  # 只重出活動插畫，不必跑 Chrome 轉 logo PNG
+        write_event_art()
+    else:
+        main()

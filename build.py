@@ -526,7 +526,7 @@ def build_home(posts, events, weather, news, months):
     today = datetime.now(JST).strftime("%Y-%m-%d")
     horizon = (datetime.now(JST) + timedelta(days=90)).strftime("%Y-%m-%d")
     # 首頁月曆要看得到「正在舉辦」和 90 天內開始的活動；只留畫卡片要的欄位，控制頁面大小
-    keep = ("name_zh", "name", "date_start", "date_end", "location", "image",
+    keep = ("name_zh", "name", "date_start", "date_end", "location", "image", "image_credit", "image_art",
             "category", "source", "url", "_detail_slug")
     home_events = []
     for event in events:
@@ -616,6 +616,91 @@ def event_display_name(event):
     return event.get("name_zh") or event.get("name") or "未命名活動"
 
 
+# ── 活動補圖 ─────────────────────────────────────────────
+# 來源沒給圖的活動照順序補：1) 主辦方官網的分享預覽圖（爬蟲存在 docs/event-images.json）
+# 2) 活動在我們有授權照片的地點（地點頁／海灘的 Commons 照）3) 類別插畫（tools/brand_assets.py 生成）。
+# 1、2 會填 image＋image_credit（前端在圖角落標小字），3 只填 image_art（插畫檔名）。
+# 官網圖對不上活動時，加進 data/event_image_block.json 就會退回插畫。
+
+EVENT_ART_RULES = [  # (插畫, 關鍵字)；照順序比對活動名稱／類別，先中先用
+    ("light", ["イルミ", "ライトアップ", "燈飾", "點燈", "光の", "ランタン", "花火", "煙火", "夜市", "ナイト"]),
+    ("festival", ["祭", "まつり", "フェス", "エイサー", "綱引", "ハーリー", "獅子", "祭典", "豊年", "結願"]),
+    ("music", ["ライブ", "コンサート", "ジャズ", "音楽", "演奏", "公演", "ステージ", "舞踊", "芸能", "シアター", "映画", "演唱", "音樂"]),
+    ("market", ["マルシェ", "市場", "雑貨イチ", "蚤の市", "フリマ", "マーケット", "陶器市", "やちむん市", "の市", "市集", "物産"]),
+    ("food", ["グルメ", "フェア", "フード", "ビール", "泡盛", "食べ", "ランチ", "ブッフェ", "バイキング", "カフェ", "美食", "そば"]),
+    ("sport", ["マラソン", "ラン", "大会", "ウォーク", "サイクル", "トライアスロン", "ソフトボール", "バレー", "ゴルフ", "相撲", "駅伝", "路跑", "比賽"]),
+    ("sea", ["ビーチ", "海", "ダイビング", "SUP", "カヌー", "ホエール", "鯨"]),
+    ("kids", ["キッズ", "こども", "クイズ", "クエスト", "木育", "子ども", "親子", "おはなし", "絵本", "ファミリー", "兒童"]),
+    ("art", ["展", "ギャラリー", "教室", "壺屋", "アート", "作品", "工芸", "紅型", "織", "写真", "美術", "博物館", "ワークショップ"]),
+    ("nature", ["花", "桜", "さくら", "植物", "緑", "自然", "ひまわり", "蝶"]),
+    ("season", ["節氣", "節気", "傳統", "旧暦", "冬至", "立冬", "小雪", "大雪", "沖縄", "文化"]),
+]
+PLACE_ALIASES = {"shurijo": ["首里城"], "american-village": ["美國村", "アメリカンビレッジ"]}
+
+
+def event_art_key(event):
+    text = " ".join(str(event.get(k) or "") for k in ("name", "name_zh", "category"))
+    for key, words in EVENT_ART_RULES:
+        if any(w in text for w in words):
+            return key
+    return "event"
+
+
+def place_photo_index(places):
+    """[(比對字串, 照片, 地點名)]，長的排前面，免得「古宇利」先吃掉「古宇利海灘」。"""
+    out = []
+    for slug, place in places.items():
+        if place.get("type") not in ("spot", "beach") or not place.get("photos"):
+            continue
+        name = place.get("name") or {}
+        needles = set(PLACE_ALIASES.get(slug, []))
+        for value in (name.get("zh"), name.get("ja")):
+            value = re.sub(r"（.*?）", "", str(value or ""))
+            for part in value.split("・"):
+                if len(part) >= 3:
+                    needles.add(part)
+        out += [(n, place["photos"][0], name.get("zh") or slug) for n in needles]
+    return sorted(out, key=lambda x: -len(x[0]))
+
+
+def fill_event_images(events, places):
+    cache = read_json("event-images.json", {})
+    # 好幾個不同官網都回同一張圖＝那是網站的預設分享圖，不是活動的圖
+    owners = {}
+    for official, hit in cache.items():
+        if (hit or {}).get("image"):
+            owners.setdefault(hit["image"], set()).add(official)
+    shared = {img for img, urls in owners.items() if len(urls) > 1}
+    shared |= set(read_data_json("event_image_block.json", {}).get("block") or [])
+    index = place_photo_index(places)
+    counts = {"official": 0, "place": 0, "art": 0}
+    for event in events:
+        if str(event.get("image") or "").startswith(("http://", "https://")):
+            continue
+        official = str(event.get("official_url") or "")
+        hit = cache.get(official) or {}
+        image = str(hit.get("image") or "")
+        if (image.startswith(("http://", "https://")) and image not in shared and official not in shared
+                and not re.search(r"cdninstagram\.com|fbcdn\.net|//(localhost|127\.0\.0\.1)[:/]", image)):  # IG／FB 圖網址會過期
+            event["image"] = image
+            event["image_credit"] = "圖：{} 官網".format(re.sub(r"^https?://(www\.)?", "", official).split("/")[0])
+            event["image_credit_url"] = official
+            counts["official"] += 1
+            continue
+        text = " ".join(str(event.get(k) or "") for k in ("location", "location_ja", "name", "name_zh"))
+        match = next(((photo, label) for needle, photo, label in index if needle in text), None)
+        if match:
+            photo, label = match
+            event["image"] = photo["url"]
+            event["image_credit"] = "{}・© {}・{}".format(label, photo.get("credit", ""), photo.get("license", ""))
+            event["image_credit_url"] = photo.get("page", "")
+            counts["place"] += 1
+            continue
+        event["image_art"] = event_art_key(event)
+        counts["art"] += 1
+    return counts
+
+
 def build_event_pages(events):
     """只給『找得到官方網站』的活動生成獨立介紹頁——這是唯一的外連對象，
     不把 okinawastory / visitokinawa 這類旅遊平台當成活動的主要連結。"""
@@ -647,6 +732,12 @@ def build_event_pages(events):
         if image.startswith(("http://", "https://")):
             cover = '      <img class="article-cover" src="{}" alt="" loading="lazy">'.format(
                 html.escape(image, quote=True))
+            if event.get("image_credit"):
+                cover += '\n      <p class="cover-credit"><a href="{}" target="_blank" rel="noopener">{}</a></p>'.format(
+                    html.escape(str(event.get("image_credit_url") or ""), quote=True), html.escape(str(event["image_credit"])))
+        elif event.get("image_art"):
+            cover = '      <img class="article-cover article-cover-art" src="../../assets/brand/event-art/{}.svg" alt="" loading="lazy">'.format(
+                html.escape(str(event["image_art"])))
 
         body_parts = []
         description = str(event.get("description") or "")
@@ -2093,6 +2184,8 @@ def build_site(events=None, weather=None, updated=None):
     copy_assets()
 
     urls = [SITE_URL]
+    art = fill_event_images(events, PLACES)
+    print("🖼️ 活動補圖：官網 {official}・地點照片 {place}・插畫 {art}".format(**art))
     event_urls = build_event_pages(events)  # 要先跑，才能讓 home/events 拿到 _detail_slug
     month_urls = build_month_pages(months, posts.get("guide") or [])  # 要先跑，才能讓首頁的月份磚連得到頁面
     # 月份速覽給 Sona 輪播「月の沖繩手帖」讀(只放 front matter,不放內文)

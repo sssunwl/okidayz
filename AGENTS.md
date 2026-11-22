@@ -46,3 +46,4 @@
 - 月份頁 `/guide/month-N/` 會自動借對應攻略文章的 IG 輪播（`month_guide_post`：月份 front matter 的 `full_guide_slug`，沒寫就找標了「N月」且有輪播的攻略）。
 - 海況頁「沖繩的海」分頁可用 `#beach #dive #surf` 直接開；岸潛官方海況只在潛水分頁、浪況只在衝浪分頁。點位資料 `data/ocean_spots.json` 同時是之後潛水／衝浪地圖的資料，欄位說明在檔內 `_schema`。照片只收 Commons（CC／公有領域）或 SS 自拍；沒有可用水底照的點記在 `photo_todo`，交 SS 決定。
 - 換 IG 封面照片的盤點在 `IG_PHOTO_COVERS.md`。
+- 活動補圖（`fill_event_images`）：來源沒圖的活動依序用 ①主辦方官網的分享預覽圖（爬蟲 `event_images.py` 抓、快取在 `docs/event-images.json`，build 不連網）②有授權照片的地點頁／海灘照 ③類別插畫 `assets/brand/event-art/`（`tools/brand_assets.py --event-art` 生成）。官網圖對不上活動時加進 `data/event_image_block.json`。
