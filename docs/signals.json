@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T11:29:23+09:00",
+  "generated_at": "2026-11-22T11:55:12+09:00",
   "items": [
     {
       "id": "event-8abed950",
@@ -2178,6 +2178,21 @@
       "first_seen": "2026-11-19"
     },
     {
+      "id": "weather-6f72b525",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週日晴、週一晴時多雲、週二有雨、週三多雲、週四有雨、週五有雨、週六多雲；氣溫約 17～26°C。",
+      "source": "日本氣象廳",
+      "url": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=471000",
+      "date": "2026-11-22",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "news-c2b231b0",
       "kind": "news",
       "title": "首里城正殿復原完成 22、23日辦式典後開放",
@@ -2687,21 +2702,6 @@
       "vibe": false
     },
     {
-      "id": "weather-0e979ef3",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週六多雲時晴、週日晴、週一晴時多雲、週二有雨、週三多雲、週四有雨、週五有雨；氣溫約 17～25°C。",
-      "source": "日本氣象廳",
-      "url": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=471000",
-      "date": "2026-11-21",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
-      "local_life": false,
-      "vibe": false
-    },
-    {
       "id": "news-190d0532",
       "kind": "news",
       "title": "首里城玉座展開復元　承襲已故漆藝家遺願",
@@ -2927,22 +2927,6 @@
       "vibe": true
     },
     {
-      "id": "event-5bc9e2c6",
-      "kind": "event",
-      "title": "🏮沖繩桑巴嘉年華2026🏮",
-      "summary": "沖繩桑巴嘉年華將在沖繩市戈雅區北谷町安良波海灘舉行，帶來精彩的舞蹈表演。由沖繩市國際交流協會、Koza Music Ta...",
-      "source": "okinawastory",
-      "url": "https://www.instagram.com/p/DbexJiKB-oN/",
-      "date": "2026-11-21",
-      "date_end": "2026-11-22",
-      "area": "中部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-18"
-    },
-    {
       "id": "event-8b209d20",
       "kind": "event",
       "title": "西表島節",
@@ -2975,27 +2959,11 @@
       "first_seen": "2026-11-12"
     },
     {
-      "id": "event-c80ba009",
+      "id": "event-3807ef8b",
       "kind": "event",
-      "title": "第42屆本部展及作品招募",
-      "summary": "",
-      "source": "okinawastory",
-      "url": "https://www.town.motobu.okinawa.jp/doc/2026092400021/",
-      "date": "2026-11-21",
-      "date_end": "2026-11-22",
-      "area": "北部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-12"
-    },
-    {
-      "id": "event-e52f4d48",
-      "kind": "event",
-      "title": "第3回沖繩工藝美術實驗室展～製程與植物",
+      "title": "第3屆沖繩工藝美術實驗室展工藝品與植物",
       "summary": "工藝品和植物之間有著深厚的關係。\n將木材加工成容器\n布煮染\n設計花和葉\n燒木柴做陶器\n今年，我們將舉辦以工藝品與植物的關係為主題的展銷活動。\n\n日期: 2026年11月21日 2026年11月22日\n地點：沖繩工藝之森多功能室...\n價格…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://okinawa-kougeinomori.jp/event/19453",
       "date": "2026-11-21",
       "date_end": "2026-11-22",
@@ -3004,14 +2972,14 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-22"
     },
     {
-      "id": "event-3dfe6d0c",
+      "id": "event-ca50b668",
       "kind": "event",
       "title": "第37屆宜野灣市工業節",
       "summary": "第37屆宜野灣市工業節將於2026年11月21日星期六及11月22日星期日舉行兩天。\n\n除了市內各種農水產品和工商業產品的銷售外，還有牛羊牲畜集市、石南花表演、深受孩子們歡迎的捕魚、工作車角、木工體驗等豐富的活動。此外，作為工業節內的首次…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.city.ginowan.lg.jp/soshiki/keizai/3/1_1/20848.html",
       "date": "2026-11-21",
       "date_end": "2026-11-22",
@@ -3020,7 +2988,23 @@
       "tourist_impact": "low",
       "local_life": true,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-22"
+    },
+    {
+      "id": "event-708a8ba3",
+      "kind": "event",
+      "title": "沖繩桑巴嘉年華2026",
+      "summary": "沖繩桑巴嘉年華將在沖繩市戈雅區北谷町安良波海灘舉行，帶來精彩的舞蹈表演。由沖繩市國際交流協會、Koza Music Ta...",
+      "source": "okimeguri",
+      "url": "https://www.instagram.com/p/DbexJiKB-oN/",
+      "date": "2026-11-21",
+      "date_end": "2026-11-22",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-22"
     },
     {
       "id": "event-1e0eeb3d",
@@ -3055,6 +3039,38 @@
       "first_seen": null
     },
     {
+      "id": "event-1ceb5457",
+      "kind": "event",
+      "title": "咖啡營通訊 2026 透過咖啡連結戶外時間",
+      "summary": "也將在今年最宜人的季節舉行。\n\n2026 年咖啡營交流\n喝咖啡的戶外時光\n\n11 月 21 日星期六晚上 17:0020:00\n11月22日（主日）主祭11:0017:00\n會場 NEOS 戶外公園 南條\n\n免費入場/免費停車\n\n咖啡愛好…",
+      "source": "okimeguri",
+      "url": "https://www.instagram.com/p/De840VgFP0i/?img_index=1",
+      "date": "2026-11-21",
+      "date_end": "2026-11-22",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-22"
+    },
+    {
+      "id": "event-fb4da507",
+      "kind": "event",
+      "title": "令和年度沖縄県内ビーチバレーボール大会日程について第29回 吉田カップ 沖縄製粉ビーチバレー トーナメント2026",
+      "summary": "2026年第29屆吉田盃沖繩麵粉沙灘排球錦標賽\n日期: 2026年11月21日星期六, 2026年11月22日星期日\n會場 西原Kirakira海灘",
+      "source": "okimeguri",
+      "url": "https://oki-va.com/user.php?CMD=101100000001412",
+      "date": "2026-11-21",
+      "date_end": "2026-11-22",
+      "area": "南部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-22"
+    },
+    {
       "id": "event-259b54b8",
       "kind": "event",
       "title": "on.nact onna x act x on",
@@ -3064,22 +3080,6 @@
       "date": "2026-11-21",
       "date_end": "2026-11-29",
       "area": "那霸",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-18"
-    },
-    {
-      "id": "event-a2aece41",
-      "kind": "event",
-      "title": "COFFEE CAMP COMMUNICATION 2026",
-      "summary": "也將在今年最宜人的季節舉行。\n\n2026 年咖啡營交流\n喝咖啡的戶外時光\n\n11 月 21 日星期六晚上 17:0020:00\n11月22日（主日）主祭11:0017:00\n會場 NEOS 戶外公園 南條\n\n免費入場/免費停車\n\n咖啡愛好…",
-      "source": "okinawastory",
-      "url": "https://www.instagram.com/p/De840VgFP0i/?img_index=1",
-      "date": "2026-11-21",
-      "date_end": "2026-11-22",
-      "area": "南部",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
@@ -3103,27 +3103,11 @@
       "first_seen": "2026-11-10"
     },
     {
-      "id": "event-0278e7e3",
+      "id": "event-0e35c2e9",
       "kind": "event",
-      "title": "2026年日美壘球賽",
-      "summary": "不要錯過首次在沖繩舉行的世界最佳壘球比賽\n日美壘球錦標賽是爭奪2020年東京奧運決賽金牌的日本女子壘球隊與美國國家隊之間的國際比賽。自2016年首次舉辦以來，已舉辦了七屆，是目前日本唯一舉辦的女子頂級團體錦標賽。\n賽事詳情將適時在專題網站…",
-      "source": "okinawastory",
-      "url": "https://www.softball.or.jp/nichibei2026softball/",
-      "date": "2026-11-21",
-      "date_end": "2026-11-22",
-      "area": "那霸",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": null
-    },
-    {
-      "id": "event-e0aa9b00",
-      "kind": "event",
-      "title": "2026年「草之森忠光三」秋季祭典",
+      "title": "2026年楠之森高倉秋季祭典",
       "summary": "",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.chuko-awamori.com/news/2026%E3%80%8C%E3%81%8F%E3%81%85%E3%83%BC%E3%81%99%E3%81%AE%E6%9D%9C%E5%BF%A0%E5%AD%9D%E8%94%B5%E3%80%8D%E7%A7%8B%E7%A5%AD%E3%82%8A%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
       "date": "2026-11-21",
       "date_end": "2026-11-22",
@@ -3132,23 +3116,23 @@
       "tourist_impact": "low",
       "local_life": true,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-22"
     },
     {
-      "id": "event-8f6c8504",
+      "id": "event-0278e7e3",
       "kind": "event",
-      "title": "2020年沖繩縣沙灘排球錦標賽第29屆吉田杯沖繩麵粉沙灘排球錦標賽2026",
-      "summary": "2026年第29屆吉田盃沖繩麵粉沙灘排球錦標賽\n日期: 2026年11月21日星期六, 2026年11月22日星期日\n會場 西原Kirakira海灘",
-      "source": "okinawastory",
-      "url": "https://oki-va.com/user.php?CMD=101100000001412",
+      "title": "2026年日美壘球賽",
+      "summary": "不要錯過首次在沖繩舉行的世界最佳壘球比賽\n日美壘球錦標賽是爭奪2020年東京奧運決賽金牌的日本女子壘球隊與美國國家隊之間的國際比賽。自2016年首次舉辦以來，已舉辦了七屆，是目前日本唯一舉辦的女子頂級團體錦標賽。\n賽事詳情將適時在專題網站…",
+      "source": "okimeguri",
+      "url": "https://www.softball.or.jp/nichibei2026softball/",
       "date": "2026-11-21",
       "date_end": "2026-11-22",
-      "area": "南部",
+      "area": "那霸",
       "category": "活動",
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-22"
     },
     {
       "id": "news-fb875cc4",
@@ -3392,11 +3376,11 @@
       "first_seen": null
     },
     {
-      "id": "event-55cf2e00",
+      "id": "event-edffa893",
       "kind": "event",
       "title": "第47屆壺屋陶藝節",
-      "summary": "匯集沖繩縣約 20 名陶藝家的壺屋陶藝節將在那霸市壺屋小學舉行。各種壺屋陶瓷作品將展出和出售，從器皿和杯子等家居用品到風獅狗雕像，應有盡有。參加...",
-      "source": "okinawastory",
+      "summary": "汇集冲绳县约 20 名陶艺家的壶屋陶艺节将在那霸市壶屋小学举行。各种壶屋陶瓷作品将展出和出售，从器皿和杯子等家居用品到风狮狗雕像，应有尽有。參加...",
+      "source": "okimeguri",
       "url": "https://tuboya.com/information/1115/",
       "date": "2026-11-20",
       "date_end": "2026-11-22",
@@ -3405,23 +3389,7 @@
       "tourist_impact": "low",
       "local_life": true,
       "vibe": false,
-      "first_seen": null
-    },
-    {
-      "id": "event-55085d7b",
-      "kind": "event",
-      "title": "壺屋陶器節",
-      "summary": "您可以參與舉辦於那霸壺屋小學的壺屋陶器節，在工作坊親身體驗陶器的燒製、購買陶器，並欣賞Eisa太鼓舞表演。",
-      "source": "visitokinawa",
-      "url": "https://tuboya.com/information/1078/",
-      "date": "2026-11-20",
-      "date_end": "2026-11-22",
-      "area": "那霸",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-11"
+      "first_seen": "2026-11-22"
     },
     {
       "id": "event-75f17488",
@@ -3906,11 +3874,11 @@
       "first_seen": "2026-11-20"
     },
     {
-      "id": "event-c00fa032",
+      "id": "event-c9ab452e",
       "kind": "event",
       "title": "豐裡智之 沖繩 Photo Express Okinawa",
-      "summary": "期間\n11月17日星期二、11月22日星期日\n\n時間\n最後一天上午 10 點至晚上 7 點至下午 5 點\n\n場地\n陳列室1\n\n入場費\n免費\n\n展覽內容\n照片",
-      "source": "okinawastory",
+      "summary": "時期\n11月17日星期二、11月22日星期日\n\n時間\n最後一天上午 10 點至晚上 7 點至下午 5 點\n\n場地\n陈列室1\n\n入場費\n免費\n\n展覽內容\n照片",
+      "source": "okimeguri",
       "url": "https://naha-palette.jp/gallery/event/5325",
       "date": "2026-11-17",
       "date_end": "2026-11-22",
@@ -3919,14 +3887,14 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-22"
     },
     {
-      "id": "event-ff97ec8d",
+      "id": "event-b15634f2",
       "kind": "event",
-      "title": "第56屆沖繩新象展",
-      "summary": "期間\n11/17 星期二 11/22 星期日\n\n時間\n最後一天上午 10 點至晚上 7 點至下午 5 點\n\n場地\n展覽室\n\n入場費\n免費\n\n展覽內容\n三維繪畫",
-      "source": "okinawastory",
+      "title": "第56場沖繩新象展",
+      "summary": "時期\n11/17 星期二 11/22 星期日\n\n時間\n最後一天上午 10 點至晚上 7 點至下午 5 點\n\n場地\n展覽室\n\n入場費\n免費\n\n展覽內容\n三維繪畫",
+      "source": "okimeguri",
       "url": "https://naha-palette.jp/gallery/event/5181",
       "date": "2026-11-17",
       "date_end": "2026-11-22",
@@ -3935,14 +3903,14 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-22"
     },
     {
       "id": "event-90a46ad3",
       "kind": "event",
       "title": "七敷會水彩展",
-      "summary": "期間\n11/17 星期二 11/22 星期日\n\n時間\n最後一天上午 10 點至晚上 7 點至下午 5 點\n\n場地\n展覽室\n\n入場費\n免費\n\n展覽內容\n繪畫",
-      "source": "okinawastory",
+      "summary": "時期\n11/17 星期二 11/22 星期日\n\n時間\n最後一天上午 10 點至晚上 7 點至下午 5 點\n\n場地\n展覽室\n\n入場費\n免費\n\n展覽內容\n繪畫",
+      "source": "okimeguri",
       "url": "https://naha-palette.jp/gallery/event/5185",
       "date": "2026-11-17",
       "date_end": "2026-11-22",
@@ -3951,7 +3919,7 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-22"
     },
     {
       "id": "event-3e9a37e4",
