@@ -1320,60 +1320,119 @@ def build_article(post, siblings):
 NEWS_OKINAWA_SOURCES = ("沖縄タイムス", "氣象庁警報")
 
 
-def news_entry_html(item):
+# 新聞頁＝「旅客快訊」：只留會影響旅客或旅客會想知道的，按「跟我有沒有關係」篩，不按來源分欄。
+NEWS_AXES = [
+    ("主題", ["影響行程", "觀光活動", "在地生活", "日本大事"]),
+    ("地區", ["那霸", "北部", "中部", "南部", "離島"]),
+]
+NEWS_NATIONAL_MAX = 4  # 日本全國新聞只留最新幾則，免得蓋過沖繩
+
+
+def news_tags(item):
+    tags = []
+    if item.get("alert") or item.get("tourist_impact") == "high" or item.get("category") in ("交通", "天氣警報"):
+        tags.append("影響行程")
+    if item.get("category") == "觀光" or item.get("vibe"):
+        tags.append("觀光活動")
+    if item.get("category") == "生活" or item.get("local_life"):
+        tags.append("在地生活")
+    if item.get("category") == "全國":
+        tags.append("日本大事")
+    if item.get("area") in ("那霸", "北部", "中部", "南部", "離島"):
+        tags.append(item["area"])
+    return tags
+
+
+def news_place_link(item, places, prefix):
+    """新聞提到我們有地點頁的地方，就在卡片底下連過去。"""
+    text = str(item.get("title", "")) + str(item.get("summary", ""))
+    for slug, place in places.items():
+        name = place.get("name") or {}
+        needles = set(PLACE_ALIASES.get(slug, []))
+        for value in (name.get("zh"), name.get("ja")):
+            value = re.sub(r"（.*?）", "", str(value or ""))
+            needles.update(part for part in value.split("・") if len(part) >= 3)
+        if any(n in text for n in needles):
+            return '<a class="news-related" href="{}{}/">相關：{} →</a>'.format(
+                prefix, place["path"], html.escape(place_title(place)))
+    return ""
+
+
+def news_entry_html(item, places=None, prefix="../"):
+    url = str(item.get("url") or "")
+    source = html.escape(str(item.get("source") or "原文"))
+    link = ""
+    if url.startswith(("http://", "https://")):
+        lang = "" if item.get("source") == "氣象庁警報" else "（日文）"
+        link = '<a class="news-src" href="{}" target="_blank" rel="noopener">{}原文{} ↗</a>'.format(
+            html.escape(url, quote=True), source, lang)
+    impact = ""
+    if item.get("impact_zh"):
+        impact = '<p class="news-impact"><b>對你的影響</b>{}</p>'.format(html.escape(str(item["impact_zh"])))
+    flag = '<span class="news-flag">要注意</span>' if item.get("alert") else ""
+    date = str(item.get("date", ""))[5:].replace("-", "/")
     return (
-        '<article class="news-item">'
-        '<div class="news-meta"><span class="news-cat">{cat}</span>{area}</div>'
-        '<h3>{title}</h3><p>{summary}</p>'
+        '<article class="news-item{hot}" data-tags="{tags}">'
+        '<div class="news-meta">{flag}<span class="news-cat">{cat}</span>{area}<span class="news-date">{date}</span></div>'
+        '<h3>{title}</h3>{impact}<p>{summary}</p>'
+        '<div class="news-foot">{related}{link}</div>'
         '</article>'
     ).format(
+        hot=" news-hot" if item.get("alert") else "",
+        tags=html.escape("|".join(news_tags(item)), quote=True),
+        flag=flag,
         cat=html.escape(str(item.get("category", "沖繩"))),
         area='<span>{}</span>'.format(html.escape(str(item["area"]))) if item.get("area") else "",
+        date=html.escape(date),
         title=html.escape(str(item.get("title", ""))),
+        impact=impact,
         summary=html.escape(str(item.get("summary", ""))),
-        url=html.escape(str(item.get("url", "")), quote=True),
+        related=news_place_link(item, places or {}, prefix),
+        link=link,
     )
 
 
-def news_column_html(title, items):
-    body = "".join(news_entry_html(item) for item in items) if items else (
-        '<p class="news-col-empty">這天沒有這類消息。</p>')
-    return ('<div class="news-col"><h3 class="news-col-title">{}</h3>'
-            '<div class="news-list">{}</div></div>').format(html.escape(title), body)
-
-
 def build_news(news):
-    if news:
-        alerts = [item for item in news if item.get("alert")]
+    items = []
+    national = 0
+    for item in sorted(news or [], key=lambda x: (str(x.get("date", "")), bool(x.get("alert")),
+                                                  x.get("tourist_impact") == "high"), reverse=True):
+        if item.get("category") == "全國":
+            if national >= NEWS_NATIONAL_MAX:
+                continue
+            national += 1
+        elif item.get("tourist_impact") == "none" and not item.get("alert"):
+            continue  # 跟旅客沒關係的在地新聞不放
+        items.append(item)
+
+    if items:
+        alerts = [item for item in items if item.get("alert")]
         alert_html = ""
         if alerts:
-            alert_html = ('      <div class="news-alerts"><strong>旅客請注意</strong><ul>{}</ul></div>'.format(
-                "".join('<li>{}</li>'.format(html.escape(str(item["title"]))) for item in alerts[:4])))
-        groups = {}
-        for item in news:
-            groups.setdefault(str(item.get("date", "")), []).append(item)
-        blocks = []
-        for date in sorted(groups, reverse=True):
-            oki_items = [item for item in groups[date] if item.get("source") in NEWS_OKINAWA_SOURCES]
-            japan_items = [item for item in groups[date] if item.get("source") not in NEWS_OKINAWA_SOURCES]
-            columns = (
-                news_column_html("🏝️ 沖繩新聞", oki_items) +
-                news_column_html("🗾 日本大事", japan_items)
-            )
-            blocks.append(
-                '      <section class="news-day"><h2>{}</h2><div class="news-columns">{}</div></section>'
-                .format(html.escape(date), columns))
-        body = alert_html + "\n" + "\n".join(blocks)
+            alert_html = ('      <div class="news-alerts"><strong>現在要注意</strong><ul>{}</ul></div>\n'.format(
+                "".join('<li>{}{}</li>'.format(
+                    html.escape(str(item["title"])),
+                    ' <a href="{}" target="_blank" rel="noopener">原文 ↗</a>'.format(html.escape(str(item["url"]), quote=True))
+                    if str(item.get("url") or "").startswith(("http://", "https://")) else "")
+                    for item in alerts[:4])))
+        used = {tag for item in items for tag in news_tags(item)}
+        body = (alert_html
+                + filter_bar_html(NEWS_AXES, "newsFilters", "newsGrid", used)
+                + '\n      <div class="news-list" id="newsGrid">{}</div>\n'.format(
+                    "".join(news_entry_html(item, PLACES) for item in items))
+                + '      <div class="empty-state" id="newsEmpty" hidden><strong>這個條件沒有快訊</strong>換個標籤，或點「全部」。</div>\n'
+                + '      <p class="news-note">每天從沖縄タイムス、NHK 與日本氣象廳自動整理成繁中重點，只摘要原文寫到的事實。'
+                  '細節以原文與官方公告為準。</p>')
     else:
-        body = ('      <div class="empty-state"><strong>新聞整理中</strong>'
-                '每日自動彙整的沖繩新聞與日本大事很快就會出現在這裡。</div>')
+        body = ('      <div class="empty-state"><strong>快訊整理中</strong>'
+                '每天自動彙整的沖繩旅客快訊很快就會出現在這裡。</div>')
 
     main = (
         '  <section class="page-head">\n'
         '    <div class="shell">\n'
         '      <div class="eyebrow">Okinawa News</div>\n'
-        '      <h1>沖繩新聞・日本大事</h1>\n'
-        '      <p>每天整理成繁體中文重點。會影響旅客的交通、天氣與活動異動，排在最前面。</p>\n'
+        '      <h1>沖繩旅客快訊</h1>\n'
+        '      <p>最近幾天沖繩發生的事，只挑跟旅客有關的：交通、天氣、活動異動、新開幕，整理成繁中重點。</p>\n'
         '    </div>\n'
         '  </section>\n\n'
         '  <section class="news-section">\n'
@@ -1383,9 +1442,9 @@ def build_news(news):
         '  </section>\n'
     ).format(body)
 
-    render_page("news", main, "沖繩新聞・日本大事｜OkiDayz",
-                "每日彙整沖繩在地新聞與日本重要消息的繁體中文摘要，並標出會影響旅客的交通、天氣與活動異動。",
-                active="news")
+    render_page("news", main, "沖繩旅客快訊｜OkiDayz",
+                "沖繩最近的交通、天氣、活動異動與新開幕，挑跟旅客有關的整理成繁體中文重點，附原文連結。",
+                active="news", page_script='<script src="../assets/section.js"></script>')
 
 
 MONTH_NAMES = ["", "1月", "2月", "3月", "4月", "5月", "6月", "7月",

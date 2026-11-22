@@ -899,3 +899,20 @@ body:has(.ocean-conditions) .ocean-waves{display:block}
 .ig-slot-head a:hover{color:var(--sun)}
 .ig-slot-more{display:inline-block;margin-top:14px;color:var(--sun);font-weight:800;font-size:.9rem}
 .month-dash + .ig-slot{margin-top:26px}
+
+/* 新聞頁＝旅客快訊 */
+.news-section .news-list{grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.news-item{padding:16px 18px;display:flex;flex-direction:column}
+.news-item[hidden]{display:none}
+.news-item h3{font-size:1rem;margin-bottom:6px}
+.news-item p{font-size:.84rem;margin-bottom:10px}
+.news-hot{border-color:rgba(212,82,58,.45);box-shadow:inset 4px 0 0 var(--tile)}
+.news-flag{background:var(--tile);color:#fff;border-radius:999px;padding:2px 9px;font-weight:900}
+.news-date{margin-left:auto}
+.news-impact{margin:0 0 8px!important;color:var(--ink)!important;font-weight:700;background:linear-gradient(transparent 55%,var(--sun) 55%);display:inline}
+.news-impact b{margin-right:6px;color:var(--tile);font-size:.72rem}
+.news-foot{margin-top:auto;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center;font-size:.76rem}
+.news-item .news-src{color:var(--muted);font-weight:800;font-size:.74rem}
+.news-item .news-related{color:var(--tile);font-weight:900;font-size:.78rem}
+.news-alerts li a{font-size:.78rem;color:var(--tile);font-weight:800}
+.news-note{margin:26px 0 0;font-size:.74rem;color:var(--muted)}

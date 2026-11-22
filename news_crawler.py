@@ -160,9 +160,10 @@ SYSTEM_PROMPT = """你是幫沖繩旅遊網站 OkiDayz 做新聞整理的編輯�
 6. tourist_impact：這則是否直接影響旅客今天或這幾天的安排，從「high、low、none」選一個。警報、交通管制、颱風、大型活動、設施休館用 high；一般旅遊資訊用 low；完全不影響用 none。
 7. local_life：若是社區祭典、公民館、市場、新開店或在地人日常，設為 true，否則 false。
 8. vibe：若是音樂、DJ、fes、派對、pop-up、街頭文化、古著市集或運動賽事，設為 true，否則 false。
+9. impact_zh：用一句繁體中文告訴來沖繩的旅客「這對你有什麼影響、要怎麼做」，例如「12/6 上午那霸到南部封路，自駕的人避開這段」。只能根據原文寫到的事實，不超過 40 字；跟旅客無關或原文沒寫到具體影響，就回空字串。
 
 只回傳這個 JSON，不要加其他文字、不要加 markdown code fence：
-{{"title_zh": "...", "summary_zh": "...", "category": "...", "alert": true, "area": "全島", "tourist_impact": "low", "local_life": false, "vibe": false}}""".format(
+{{"title_zh": "...", "summary_zh": "...", "category": "...", "alert": true, "area": "全島", "tourist_impact": "low", "local_life": false, "vibe": false, "impact_zh": ""}}""".format(
     max_chars=SUMMARY_MAX_CHARS, categories="、".join(CATEGORIES)
 )
 
@@ -211,6 +212,9 @@ def summarize(client, source, title_ja, description_ja):
         local_life = False
     if not isinstance(vibe, bool):
         vibe = False
+    impact_zh = str(data.get("impact_zh") or "").strip()
+    if len(impact_zh) > 50:
+        impact_zh = impact_zh[:50].rstrip() + "…"
     if len(summary_zh) > SUMMARY_MAX_CHARS:
         summary_zh = summary_zh[:SUMMARY_MAX_CHARS].rstrip() + "…"
 
@@ -223,6 +227,7 @@ def summarize(client, source, title_ja, description_ja):
         "tourist_impact": tourist_impact,
         "local_life": local_life,
         "vibe": vibe,
+        "impact_zh": impact_zh,
     }
 
 
@@ -302,6 +307,7 @@ def main():
             "tourist_impact": summarized["tourist_impact"],
             "local_life": summarized["local_life"],
             "vibe": summarized["vibe"],
+            "impact_zh": summarized["impact_zh"],
         })
         REPORT["summarized"] += 1
 
