@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23 20:58",
+  "updated": "2026-11-24 08:46",
   "source": "日本氣象廳（沖縄気象台）",
   "forecast_url": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=471000",
   "warning_url": "https://www.jma.go.jp/bosai/warning/#area_type=offices&area_code=471000",
@@ -21,30 +21,17 @@
       "jma_area_name": "本島中南部",
       "forecast": [
         {
-          "date": "2026-11-23",
-          "weather": "晴轉多雲",
-          "wind": {
-            "ja": "南東の風 後 南の風",
-            "zh": "東南風後轉南風"
-          },
-          "wave": {
-            "ja": "1.5メートル",
-            "zh": "1.5 公尺"
-          },
-          "label": "今天"
-        },
-        {
           "date": "2026-11-24",
           "weather": "多雲時雨",
           "wind": {
-            "ja": "南の風 やや強く 後 北の風 強く",
-            "zh": "南風，稍強後轉北風，強"
+            "ja": "南西の風 やや強く 後 北の風 強く",
+            "zh": "西南風，稍強後轉北風，強"
           },
           "wave": {
-            "ja": "1.5メートル 後 4メートル",
-            "zh": "1.5 公尺後轉 4 公尺"
+            "ja": "2メートル 後 4メートル",
+            "zh": "2 公尺後轉 4 公尺"
           },
-          "label": "明天"
+          "label": "今天"
         },
         {
           "date": "2026-11-25",
@@ -57,34 +44,36 @@
             "ja": "4メートル 後 2.5メートル うねり を伴う",
             "zh": "4 公尺後轉 2.5 公尺，伴有湧浪"
           },
-          "label": "後天"
+          "label": "明天"
         }
       ],
-      "warnings": [],
+      "warnings": [
+        {
+          "code": "14",
+          "name": "雷注意報",
+          "level": "advisory",
+          "marine": true,
+          "status": "發布"
+        },
+        {
+          "code": "15",
+          "name": "強風注意報",
+          "level": "advisory",
+          "marine": true,
+          "status": "發布"
+        },
+        {
+          "code": "16",
+          "name": "波浪注意報",
+          "level": "advisory",
+          "marine": true,
+          "status": "發布"
+        }
+      ],
       "tide_station": "那霸",
       "tide": [
         {
           "label": "今天",
-          "date": "2026-11-23",
-          "highs": [
-            {
-              "time": "06:06",
-              "cm": 187
-            },
-            {
-              "time": "17:41",
-              "cm": 205
-            }
-          ],
-          "lows": [
-            {
-              "time": "11:48",
-              "cm": 72
-            }
-          ]
-        },
-        {
-          "label": "明天",
           "date": "2026-11-24",
           "highs": [
             {
@@ -106,11 +95,35 @@
               "cm": 75
             }
           ]
+        },
+        {
+          "label": "明天",
+          "date": "2026-11-25",
+          "highs": [
+            {
+              "time": "07:41",
+              "cm": 196
+            },
+            {
+              "time": "18:59",
+              "cm": 214
+            }
+          ],
+          "lows": [
+            {
+              "time": "01:05",
+              "cm": -17
+            },
+            {
+              "time": "13:12",
+              "cm": 79
+            }
+          ]
         }
       ],
-      "verdict": "info",
-      "verdict_label": "無海上相關警報",
-      "verdict_reason": "氣象廳今天預報　風：東南風後轉南風／浪：1.5 公尺"
+      "verdict": "caution",
+      "verdict_label": "注意報發布中",
+      "verdict_reason": "氣象廳今天預報　風：西南風，稍強後轉北風，強／浪：2 公尺後轉 4 公尺"
     },
     {
       "slug": "maeda-surf",
@@ -127,30 +140,17 @@
       "jma_area_name": "本島北部",
       "forecast": [
         {
-          "date": "2026-11-23",
-          "weather": "晴轉多雲",
-          "wind": {
-            "ja": "南東の風 後 南の風",
-            "zh": "東南風後轉南風"
-          },
-          "wave": {
-            "ja": "1.5メートル",
-            "zh": "1.5 公尺"
-          },
-          "label": "今天"
-        },
-        {
           "date": "2026-11-24",
           "weather": "多雲時雨",
           "wind": {
-            "ja": "南の風 やや強く 後 北の風 強く",
-            "zh": "南風，稍強後轉北風，強"
+            "ja": "南西の風 やや強く 後 北の風 強く",
+            "zh": "西南風，稍強後轉北風，強"
           },
           "wave": {
-            "ja": "1.5メートル 後 4メートル",
-            "zh": "1.5 公尺後轉 4 公尺"
+            "ja": "2メートル 後 4メートル",
+            "zh": "2 公尺後轉 4 公尺"
           },
-          "label": "明天"
+          "label": "今天"
         },
         {
           "date": "2026-11-25",
@@ -163,34 +163,36 @@
             "ja": "4メートル 後 2.5メートル うねり を伴う",
             "zh": "4 公尺後轉 2.5 公尺，伴有湧浪"
           },
-          "label": "後天"
+          "label": "明天"
         }
       ],
-      "warnings": [],
+      "warnings": [
+        {
+          "code": "14",
+          "name": "雷注意報",
+          "level": "advisory",
+          "marine": true,
+          "status": "發布"
+        },
+        {
+          "code": "15",
+          "name": "強風注意報",
+          "level": "advisory",
+          "marine": true,
+          "status": "發布"
+        },
+        {
+          "code": "16",
+          "name": "波浪注意報",
+          "level": "advisory",
+          "marine": true,
+          "status": "發布"
+        }
+      ],
       "tide_station": "那霸",
       "tide": [
         {
           "label": "今天",
-          "date": "2026-11-23",
-          "highs": [
-            {
-              "time": "06:06",
-              "cm": 187
-            },
-            {
-              "time": "17:41",
-              "cm": 205
-            }
-          ],
-          "lows": [
-            {
-              "time": "11:48",
-              "cm": 72
-            }
-          ]
-        },
-        {
-          "label": "明天",
           "date": "2026-11-24",
           "highs": [
             {
@@ -212,11 +214,35 @@
               "cm": 75
             }
           ]
+        },
+        {
+          "label": "明天",
+          "date": "2026-11-25",
+          "highs": [
+            {
+              "time": "07:41",
+              "cm": 196
+            },
+            {
+              "time": "18:59",
+              "cm": 214
+            }
+          ],
+          "lows": [
+            {
+              "time": "01:05",
+              "cm": -17
+            },
+            {
+              "time": "13:12",
+              "cm": 79
+            }
+          ]
         }
       ],
-      "verdict": "info",
-      "verdict_label": "無海上相關警報",
-      "verdict_reason": "氣象廳今天預報　風：東南風後轉南風／浪：1.5 公尺"
+      "verdict": "caution",
+      "verdict_label": "注意報發布中",
+      "verdict_reason": "氣象廳今天預報　風：西南風，稍強後轉北風，強／浪：2 公尺後轉 4 公尺"
     },
     {
       "slug": "zanpa-surf",
@@ -233,30 +259,17 @@
       "jma_area_name": "本島中南部",
       "forecast": [
         {
-          "date": "2026-11-23",
-          "weather": "晴轉多雲",
-          "wind": {
-            "ja": "南東の風 後 南の風",
-            "zh": "東南風後轉南風"
-          },
-          "wave": {
-            "ja": "1.5メートル",
-            "zh": "1.5 公尺"
-          },
-          "label": "今天"
-        },
-        {
           "date": "2026-11-24",
           "weather": "多雲時雨",
           "wind": {
-            "ja": "南の風 やや強く 後 北の風 強く",
-            "zh": "南風，稍強後轉北風，強"
+            "ja": "南西の風 やや強く 後 北の風 強く",
+            "zh": "西南風，稍強後轉北風，強"
           },
           "wave": {
-            "ja": "1.5メートル 後 4メートル",
-            "zh": "1.5 公尺後轉 4 公尺"
+            "ja": "2メートル 後 4メートル",
+            "zh": "2 公尺後轉 4 公尺"
           },
-          "label": "明天"
+          "label": "今天"
         },
         {
           "date": "2026-11-25",
@@ -269,34 +282,36 @@
             "ja": "4メートル 後 2.5メートル うねり を伴う",
             "zh": "4 公尺後轉 2.5 公尺，伴有湧浪"
           },
-          "label": "後天"
+          "label": "明天"
         }
       ],
-      "warnings": [],
+      "warnings": [
+        {
+          "code": "14",
+          "name": "雷注意報",
+          "level": "advisory",
+          "marine": true,
+          "status": "發布"
+        },
+        {
+          "code": "15",
+          "name": "強風注意報",
+          "level": "advisory",
+          "marine": true,
+          "status": "發布"
+        },
+        {
+          "code": "16",
+          "name": "波浪注意報",
+          "level": "advisory",
+          "marine": true,
+          "status": "發布"
+        }
+      ],
       "tide_station": "那霸",
       "tide": [
         {
           "label": "今天",
-          "date": "2026-11-23",
-          "highs": [
-            {
-              "time": "06:06",
-              "cm": 187
-            },
-            {
-              "time": "17:41",
-              "cm": 205
-            }
-          ],
-          "lows": [
-            {
-              "time": "11:48",
-              "cm": 72
-            }
-          ]
-        },
-        {
-          "label": "明天",
           "date": "2026-11-24",
           "highs": [
             {
@@ -318,11 +333,35 @@
               "cm": 75
             }
           ]
+        },
+        {
+          "label": "明天",
+          "date": "2026-11-25",
+          "highs": [
+            {
+              "time": "07:41",
+              "cm": 196
+            },
+            {
+              "time": "18:59",
+              "cm": 214
+            }
+          ],
+          "lows": [
+            {
+              "time": "01:05",
+              "cm": -17
+            },
+            {
+              "time": "13:12",
+              "cm": 79
+            }
+          ]
         }
       ],
-      "verdict": "info",
-      "verdict_label": "無海上相關警報",
-      "verdict_reason": "氣象廳今天預報　風：東南風後轉南風／浪：1.5 公尺"
+      "verdict": "caution",
+      "verdict_label": "注意報發布中",
+      "verdict_reason": "氣象廳今天預報　風：西南風，稍強後轉北風，強／浪：2 公尺後轉 4 公尺"
     }
   ]
 }
