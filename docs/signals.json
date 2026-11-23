@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T11:57:35+09:00",
+  "generated_at": "2026-11-23T12:36:15+09:00",
   "items": [
     {
       "id": "event-8abed950",
@@ -2066,6 +2066,21 @@
       "first_seen": "2026-11-18"
     },
     {
+      "id": "weather-646f61fd",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週一晴時多雲、週二有雨、週三多雲、週四有雨、週五有雨、週六多雲、週日晴時多雲；氣溫約 18～25°C。",
+      "source": "日本氣象廳",
+      "url": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=471000",
+      "date": "2026-11-23",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "today-e9de6e20",
       "kind": "today",
       "title": "🙏 勤労感謝の日",
@@ -2372,22 +2387,6 @@
       "first_seen": "2026-11-20"
     },
     {
-      "id": "event-70ed823c",
-      "kind": "event",
-      "title": "三品茶正殿竣工紀念套裝 PET 550ml",
-      "summary": "為紀念首里城正殿竣工，「三品茶正殿竣工紀念套裝 PET 550ml」將於 11 月 23 日起在沖繩地區限量發售！部分銷售額將捐贈給首里城火災恢復和重建支持。",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000001.000194951.html",
-      "date": "2026-11-23",
-      "date_end": "2026-11-23",
-      "area": "全島",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-19"
-    },
-    {
       "id": "alert-4cfb5423",
       "kind": "alert",
       "title": "沖繩本島注意急強降雨與雷擊",
@@ -2444,21 +2443,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-6f72b525",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週日晴、週一晴時多雲、週二有雨、週三多雲、週四有雨、週五有雨、週六多雲；氣溫約 17～26°C。",
-      "source": "日本氣象廳",
-      "url": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=471000",
-      "date": "2026-11-22",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -2704,11 +2688,11 @@
       "first_seen": "2026-11-16"
     },
     {
-      "id": "event-4de4fe25",
+      "id": "event-4d76da1d",
       "kind": "event",
-      "title": "第2屆沖繩蕎麥麵大獎賽",
-      "summary": "第2屆沖繩蕎麥麵大uri\n\n日期：2026年11月22日（平日、第23天休息）上午11:00開始，16:00開始集會，23日下午5:00開始，在根主沖繩兒童國立公園結束。\n\n地點 沖繩兒童之家水綠廣場\n沖繩縣沖繩市戈野町\n\n入場費：兒童國…",
-      "source": "okinawastory",
+      "title": "第1屆沖繩蕎麥麵大獎賽",
+      "summary": "名稱：第2屆沖繩蕎麥麵大獎賽\n\n日期：2026 年 11 月 22 日（週日和 23 日假日）晚上 11:00 開始銷售發售於16:00結束，23日頒獎典禮將於17:00開始，根據沖繩兒童國家公園閉園時間。\n\n地點 沖繩兒童國家水和綠色廣…",
+      "source": "okimeguri",
       "url": "https://www.instagram.com/okinawasobagp/",
       "date": "2026-11-22",
       "date_end": "2026-11-23",
@@ -2717,7 +2701,7 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-23"
     },
     {
       "id": "event-67d198be",
@@ -2961,11 +2945,11 @@
       "vibe": true
     },
     {
-      "id": "event-8b209d20",
+      "id": "event-efd2a04c",
       "kind": "event",
       "title": "西表島節",
       "summary": "十一月 21, 2026十一月 23, 2026\nYukuiSun, 2026年11月22日\n它是國家指定的重要無形民俗文化財產，擁有500多年的傳統。\nMirik Procession和Anger Procession進入園前泊海灘，提…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://painusima.com/events/event/%E8%A5%BF%E8%A1%A8%E5%B3%B6%E3%80%80%E7%AF%80%E7%A5%AD/",
       "date": "2026-11-21",
       "date_end": "2026-11-23",
@@ -2974,7 +2958,7 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-23"
     },
     {
       "id": "event-4c17aaec",
@@ -2993,12 +2977,12 @@
       "first_seen": "2026-11-12"
     },
     {
-      "id": "event-1e0eeb3d",
+      "id": "event-747bca2b",
       "kind": "event",
       "title": "小濱島婚禮",
-      "summary": "小濱島的 Yuigansai 與豐收節一樣是島上最大的年度活動之一，也是團結島上居民的機會。從農曆八月的渤海的蘇久見開始，到第二天的美子的莊日…",
-      "source": "jalan",
-      "url": "https://www.jalan.net/event/evt_364097/",
+      "summary": "在卡根宇瀧，我們感謝今年的豐收、身體健康和祈禱的實現，並祈禱過去一年的願望得以實現，以及來年的豐收和身體健康。\n\n專注表演藝術 2026 年 11 月 22 日\n\n活動詳情\n日期：2026年11月21-23日",
+      "source": "okimeguri",
+      "url": "https://painusima.com/events/event/%E5%B0%8F%E6%B5%9C%E5%B3%B6%E3%80%80%E7%B5%90%E9%A1%98%E7%A5%AD/",
       "date": "2026-11-21",
       "date_end": "2026-11-23",
       "area": "離島",
@@ -3006,15 +2990,15 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-23"
     },
     {
-      "id": "event-ae71e3b7",
+      "id": "event-1e0eeb3d",
       "kind": "event",
-      "title": "小濱島京岸齋",
-      "summary": "在卡根宇瀧，我們感謝今年的豐收、身體健康和祈禱的實現，並祈禱過去一年的願望得以實現，以及來年的豐收和身體健康。\n\n專注表演藝術 2026 年 11 月 22 日\n\n活動詳情\n日期：2026年11月21-23日",
-      "source": "okinawastory",
-      "url": "https://painusima.com/events/event/%E5%B0%8F%E6%B5%9C%E5%B3%B6%E3%80%80%E7%B5%90%E9%A1%98%E7%A5%AD/",
+      "title": "小濱島婚禮",
+      "summary": "小濱島的 Yuigansai 與豐收節一樣是島上最大的年度活動之一，也是團結島上居民的機會。從農曆八月的渤海的蘇久見開始，到第二天的美子的莊日…",
+      "source": "jalan",
+      "url": "https://www.jalan.net/event/evt_364097/",
       "date": "2026-11-21",
       "date_end": "2026-11-23",
       "area": "離島",
@@ -3282,11 +3266,11 @@
       "vibe": false
     },
     {
-      "id": "event-8a8751f3",
+      "id": "event-faa223d0",
       "kind": "event",
-      "title": "第50屆首裡織展",
-      "summary": "第一回首裡織展\n宣布將傳承為靜江未來的基礎的活動。\n\n那霸傳統紡織商業合作社正在慶祝成立 50 週年。\n\n以至今傳承下來的技術與理念為基礎，\n我們將繼續將其融入首裡織的未來。\n\n這是一個為期四天的活動，您可以在這裡體驗首裡織的現在和未來。…",
-      "source": "okinawastory",
+      "title": "第一屆首裡織展",
+      "summary": "第一屆首裡織展\n宣布將傳承為靜江未來的基礎的活動。\n\n那霸傳統紡織商業合作社正在慶祝成立 50 週年。\n\n以至今傳承下來的技術與理念為基礎，\n我們將繼續將其融入首裡織的未來。\n\n這是一個為期四天的活動，您可以在這裡體驗首裡織的現在和未來。…",
+      "source": "okimeguri",
       "url": "https://shuri-ori.com/archives/3348",
       "date": "2026-11-20",
       "date_end": "2026-11-23",
@@ -3295,14 +3279,14 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-23"
     },
     {
       "id": "event-75f17488",
       "kind": "event",
-      "title": "2026沖繩本島生存跑",
+      "title": "2026沖縄本島1周サバイバルラン",
       "summary": "",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://teamultra-k.info/race/survival2026/",
       "date": "2026-11-20",
       "date_end": "2026-11-23",
@@ -3311,7 +3295,7 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": null
+      "first_seen": "2026-11-23"
     },
     {
       "id": "news-c1e8c7e0",
