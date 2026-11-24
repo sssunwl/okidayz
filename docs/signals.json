@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T15:16:02+09:00",
+  "generated_at": "2026-11-24T15:50:44+09:00",
   "items": [
     {
       "id": "event-aee81f9c",
@@ -946,6 +946,22 @@
       "first_seen": null
     },
     {
+      "id": "event-dc6b5642",
+      "kind": "event",
+      "title": "沖縄・恩納村に米国輸入の「黄色いスクールバス」が上陸!本場ハワイの味を再現したガーリックシュリンプ専門店が12月12日グランドオープン!",
+      "summary": "一輛從美國進口的「黃色校車」登陸沖繩恩納村！再現正宗夏威夷風味的蒜蓉蝦專賣店將於12月12日開幕！",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000049.000039610.html",
+      "date": "2026-12-12",
+      "date_end": "2027-01-11",
+      "area": "北部",
+      "category": "新開張",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-24"
+    },
+    {
       "id": "event-4c171767",
       "kind": "event",
       "title": "工作坊 讓我們一起做一棵聖誕樹",
@@ -1008,6 +1024,22 @@
       "local_life": false,
       "vibe": true,
       "first_seen": "2026-11-18"
+    },
+    {
+      "id": "event-59d905d7",
+      "kind": "event",
+      "title": "第5屆外口港海上點燈儀式",
+      "summary": "「第五屆外口港海上點燈儀式」將於2026年12月11日星期五18:00起在沖繩美麗海水族館門口的本部町外口港舉行。今年是第五次舉辦這項冬季港口城鎮傳統活動。最大的亮點是港口的水面。\n第5屆外口港海上點燈儀式首次在Goyaa.net上發表。…",
+      "source": "goyah",
+      "url": "https://goyah.net/okinawa_event/archives/10132",
+      "date": "2026-12-11",
+      "date_end": "2026-12-11",
+      "area": "全島",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false,
+      "first_seen": "2026-11-24"
     },
     {
       "id": "today-bc5e5804",
@@ -1440,6 +1472,22 @@
       "local_life": false,
       "vibe": false,
       "first_seen": "2026-11-18"
+    },
+    {
+      "id": "event-4fd2711d",
+      "kind": "event",
+      "title": "沖繩蕎麥麵海～島澀谷宮須坂店",
+      "summary": "【出生於澀谷！沖繩蕎麥麵新事業】海葡萄×烤軟骨soki！可以享受大海和島嶼的恩惠的“沖繩蕎麥麵海～島澀谷宮須坂店”將於11月30日（星期一）開業！",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000799.000031747.html",
+      "date": "2026-11-30",
+      "date_end": "2026-12-30",
+      "area": "全島",
+      "category": "新開張",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-24"
     },
     {
       "id": "event-397780ac",
@@ -2050,6 +2098,21 @@
       "first_seen": null
     },
     {
+      "id": "weather-1e572986",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週二有雨、週三多雲、週四有雨、週五有雨、週六多雲、週日多雲時晴、週一多雲時晴；氣溫約 17～26°C。",
+      "source": "日本氣象廳",
+      "url": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=471000",
+      "date": "2026-11-24",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
+    },
+    {
       "id": "news-aa173827",
       "kind": "news",
       "title": "首里城正殿開放一般參觀",
@@ -2395,21 +2458,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-646f61fd",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週一晴時多雲、週二有雨、週三多雲、週四有雨、週五有雨、週六多雲、週日晴時多雲；氣溫約 18～25°C。",
-      "source": "日本氣象廳",
-      "url": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=471000",
-      "date": "2026-11-23",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
