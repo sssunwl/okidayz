@@ -468,10 +468,20 @@ def render_page(path, main, title, description, active="", page_data="", page_sc
     return canonical
 
 
+# 公開頁瀏覽:送去 pulse.sssuni.com(Sona 的 sona-pulse Worker → D1),面板在 sona.sssuni.com/okidayz.html 頁底。
+# 唔記 IP、唔用 cookie。只在正式網域送;?notrack=1 開一次就唔計自己(?notrack=0 取消)。
+PULSE_BEACON = (
+    "<script>(function(){try{var q=location.search;if(/[?&]notrack=1/.test(q))localStorage.setItem('pv-notrack','1');"
+    "if(/[?&]notrack=0/.test(q))localStorage.removeItem('pv-notrack');if(localStorage.getItem('pv-notrack'))return}catch(e){}"
+    "if(location.hostname!=='okidayz.com'||!navigator.sendBeacon)return;"
+    "navigator.sendBeacon('https://pulse.sssuni.com/pv',JSON.stringify({s:'okidayz',p:location.pathname,r:document.referrer}))})();</script>"
+)
+
+
 def analytics_html():
     if not CF_BEACON_TOKEN:
-        return ""
-    return ('<script defer src="https://static.cloudflareinsights.com/beacon.min.js" '
+        return PULSE_BEACON
+    return PULSE_BEACON + ('<script defer src="https://static.cloudflareinsights.com/beacon.min.js" '
             "data-cf-beacon='{{\"token\": \"{}\"}}'></script>".format(CF_BEACON_TOKEN))
 
 
