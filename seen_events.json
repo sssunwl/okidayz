@@ -601,6 +601,8 @@
     "https://prtimes.jp/main/html/rd/p/000000045.000023869.html",
     "https://prtimes.jp/main/html/rd/p/000000049.000039610.html",
     "https://prtimes.jp/main/html/rd/p/000000052.000134535.html",
+    "https://prtimes.jp/main/html/rd/p/000000053.000151263.html",
+    "https://prtimes.jp/main/html/rd/p/000000054.000061580.html",
     "https://prtimes.jp/main/html/rd/p/000000070.000061216.html",
     "https://prtimes.jp/main/html/rd/p/000000104.000020961.html",
     "https://prtimes.jp/main/html/rd/p/000000115.000062459.html",
@@ -609,6 +611,7 @@
     "https://prtimes.jp/main/html/rd/p/000000241.000024500.html",
     "https://prtimes.jp/main/html/rd/p/000000243.000024500.html",
     "https://prtimes.jp/main/html/rd/p/000000246.000024500.html",
+    "https://prtimes.jp/main/html/rd/p/000000247.000024500.html",
     "https://prtimes.jp/main/html/rd/p/000000264.000035671.html",
     "https://prtimes.jp/main/html/rd/p/000000313.000044607.html",
     "https://prtimes.jp/main/html/rd/p/000000412.000033909.html",
@@ -619,6 +622,7 @@
     "https://prtimes.jp/main/html/rd/p/000000823.000021621.html",
     "https://prtimes.jp/main/html/rd/p/000001336.000155396.html",
     "https://prtimes.jp/main/html/rd/p/000001400.000005110.html",
+    "https://prtimes.jp/main/html/rd/p/000001546.000021580.html",
     "https://prtimes.jp/main/html/rd/p/000002179.000016207.html",
     "https://prtimes.jp/main/html/rd/p/000007877.000010088.html",
     "https://visitokinawajapan.com/zh-hant/discover/events/adventure-museum/",
@@ -1346,6 +1350,20 @@
     "https://www.okinawastory.jp/event/600023496",
     "https://www.okinawastory.jp/event/600023497",
     "https://www.okinawastory.jp/event/600023500",
+    "https://www.okinawastory.jp/event/600023508",
+    "https://www.okinawastory.jp/event/600023516",
+    "https://www.okinawastory.jp/event/600023517",
+    "https://www.okinawastory.jp/event/600023518",
+    "https://www.okinawastory.jp/event/600023520",
+    "https://www.okinawastory.jp/event/600023524",
+    "https://www.okinawastory.jp/event/600023529",
+    "https://www.okinawastory.jp/event/600023530",
+    "https://www.okinawastory.jp/event/600023532",
+    "https://www.okinawastory.jp/event/600023534",
+    "https://www.okinawastory.jp/event/600023535",
+    "https://www.okinawastory.jp/event/600023538",
+    "https://www.okinawastory.jp/event/600023541",
+    "https://www.okinawastory.jp/event/600023543",
     "https://www.pref.okinawa.lg.jp/kensei/shinko/1017087/1017118/1030785/1041716.html",
     "https://www.pref.okinawa.lg.jp/kurashikankyo/shohi/1017865/1041531/1041427.html",
     "https://www.pref.okinawa.lg.jp/machizukuri/kenchiku/1013476/1041972.html"
@@ -1360,5 +1378,5 @@
     "prtimes",
     "visitokinawa"
   ],
-  "updated": "2026-11-24T06:50:44.001258"
+  "updated": "2026-11-25T05:19:27.731328"
 }
