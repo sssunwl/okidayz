@@ -1816,7 +1816,11 @@ def write_ig_queue(posts, drafts=None):
                 "images": [SITE_URL + "assets/ig/{}/{}".format(post["slug"], n) for n in ig_images(post["slug"])],
             })
             if post.get("status", "published") == "draft":
-                queue[-1].update(draft=True, preview_url=SITE_URL + draft_preview_path(post) + "/")
+                # Sona 查證要全文;ig_at = IG 發文時間(JST,文章提早一天上線);sources = 官方來源網址
+                queue[-1].update(draft=True, preview_url=SITE_URL + draft_preview_path(post) + "/",
+                                 summary=post.get("summary", ""), body=post.get("body", ""),
+                                 ig_at=str(post.get("ig_at") or ""),
+                                 sources=[str(s) for s in (post.get("sources") or []) if str(s).startswith("https://")])
     (DOCS / "ig-queue.json").write_text(
         json.dumps(queue, ensure_ascii=False, indent=2), encoding="utf-8")
     return queue
