@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27 01:36",
+  "updated": "2026-11-27 10:34",
   "source": "日本氣象廳（沖縄気象台）",
   "forecast_url": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=471000",
   "warning_url": "https://www.jma.go.jp/bosai/warning/#area_type=offices&area_code=471000",
@@ -21,43 +21,30 @@
       "jma_area_name": "本島中南部",
       "forecast": [
         {
-          "date": "2026-11-26",
-          "weather": "雨",
-          "wind": {
-            "ja": "北東の風 強く",
-            "zh": "東北風，強"
-          },
-          "wave": {
-            "ja": "2.5メートル",
-            "zh": "2.5 公尺"
-          },
-          "label": "今天"
-        },
-        {
           "date": "2026-11-27",
           "weather": "雨轉多雲",
           "wind": {
-            "ja": "北東の風 強く 後 北の風",
-            "zh": "東北風，強後轉北風"
+            "ja": "北東の風 やや強く 後 北の風",
+            "zh": "東北風，稍強後轉北風"
           },
           "wave": {
-            "ja": "3メートル 後 2メートル",
-            "zh": "3 公尺後轉 2 公尺"
+            "ja": "2メートル",
+            "zh": "2 公尺"
           },
-          "label": "明天"
+          "label": "今天"
         },
         {
           "date": "2026-11-28",
           "weather": "多雲短暫雨",
           "wind": {
-            "ja": "北西の風 やや強く 後 北の風 強く",
-            "zh": "西北風，稍強後轉北風，強"
+            "ja": "北の風 やや強く 後 強く",
+            "zh": "北風，稍強後轉強"
           },
           "wave": {
             "ja": "2メートル 後 4メートル",
             "zh": "2 公尺後轉 4 公尺"
           },
-          "label": "後天"
+          "label": "明天"
         }
       ],
       "warnings": [
@@ -67,20 +54,6 @@
           "level": "advisory",
           "marine": true,
           "status": "持續"
-        },
-        {
-          "code": "15",
-          "name": "強風注意報",
-          "level": "advisory",
-          "marine": true,
-          "status": "發布"
-        },
-        {
-          "code": "16",
-          "name": "波浪注意報",
-          "level": "advisory",
-          "marine": true,
-          "status": "發布"
         }
       ],
       "tide_station": "那霸",
@@ -136,7 +109,7 @@
       ],
       "verdict": "caution",
       "verdict_label": "注意報發布中",
-      "verdict_reason": "氣象廳今天預報　風：東北風，強／浪：2.5 公尺"
+      "verdict_reason": "氣象廳今天預報　風：東北風，稍強後轉北風／浪：2 公尺"
     },
     {
       "slug": "maeda-surf",
@@ -153,43 +126,30 @@
       "jma_area_name": "本島北部",
       "forecast": [
         {
-          "date": "2026-11-26",
-          "weather": "雨",
-          "wind": {
-            "ja": "北東の風 強く",
-            "zh": "東北風，強"
-          },
-          "wave": {
-            "ja": "2.5メートル",
-            "zh": "2.5 公尺"
-          },
-          "label": "今天"
-        },
-        {
           "date": "2026-11-27",
           "weather": "雨轉多雲",
           "wind": {
-            "ja": "北東の風 強く 後 北の風",
-            "zh": "東北風，強後轉北風"
+            "ja": "北東の風 やや強く 後 北の風",
+            "zh": "東北風，稍強後轉北風"
           },
           "wave": {
-            "ja": "3メートル 後 2メートル",
-            "zh": "3 公尺後轉 2 公尺"
+            "ja": "2メートル",
+            "zh": "2 公尺"
           },
-          "label": "明天"
+          "label": "今天"
         },
         {
           "date": "2026-11-28",
           "weather": "多雲短暫雨",
           "wind": {
-            "ja": "北西の風 やや強く 後 北の風 強く",
-            "zh": "西北風，稍強後轉北風，強"
+            "ja": "北の風 やや強く 後 強く",
+            "zh": "北風，稍強後轉強"
           },
           "wave": {
             "ja": "2メートル 後 4メートル",
             "zh": "2 公尺後轉 4 公尺"
           },
-          "label": "後天"
+          "label": "明天"
         }
       ],
       "warnings": [
@@ -201,25 +161,11 @@
           "status": "持續"
         },
         {
-          "code": "15",
-          "name": "強風注意報",
-          "level": "advisory",
-          "marine": true,
-          "status": "發布"
-        },
-        {
-          "code": "16",
-          "name": "波浪注意報",
-          "level": "advisory",
-          "marine": true,
-          "status": "發布"
-        },
-        {
           "code": "10",
           "name": "大雨注意報",
           "level": "advisory",
           "marine": false,
-          "status": "發布"
+          "status": "持續"
         },
         {
           "code": "29",
@@ -282,7 +228,7 @@
       ],
       "verdict": "caution",
       "verdict_label": "注意報發布中",
-      "verdict_reason": "氣象廳今天預報　風：東北風，強／浪：2.5 公尺"
+      "verdict_reason": "氣象廳今天預報　風：東北風，稍強後轉北風／浪：2 公尺"
     },
     {
       "slug": "zanpa-surf",
@@ -299,43 +245,30 @@
       "jma_area_name": "本島中南部",
       "forecast": [
         {
-          "date": "2026-11-26",
-          "weather": "雨",
-          "wind": {
-            "ja": "北東の風 強く",
-            "zh": "東北風，強"
-          },
-          "wave": {
-            "ja": "2.5メートル",
-            "zh": "2.5 公尺"
-          },
-          "label": "今天"
-        },
-        {
           "date": "2026-11-27",
           "weather": "雨轉多雲",
           "wind": {
-            "ja": "北東の風 強く 後 北の風",
-            "zh": "東北風，強後轉北風"
+            "ja": "北東の風 やや強く 後 北の風",
+            "zh": "東北風，稍強後轉北風"
           },
           "wave": {
-            "ja": "3メートル 後 2メートル",
-            "zh": "3 公尺後轉 2 公尺"
+            "ja": "2メートル",
+            "zh": "2 公尺"
           },
-          "label": "明天"
+          "label": "今天"
         },
         {
           "date": "2026-11-28",
           "weather": "多雲短暫雨",
           "wind": {
-            "ja": "北西の風 やや強く 後 北の風 強く",
-            "zh": "西北風，稍強後轉北風，強"
+            "ja": "北の風 やや強く 後 強く",
+            "zh": "北風，稍強後轉強"
           },
           "wave": {
             "ja": "2メートル 後 4メートル",
             "zh": "2 公尺後轉 4 公尺"
           },
-          "label": "後天"
+          "label": "明天"
         }
       ],
       "warnings": [
@@ -345,20 +278,6 @@
           "level": "advisory",
           "marine": true,
           "status": "持續"
-        },
-        {
-          "code": "15",
-          "name": "強風注意報",
-          "level": "advisory",
-          "marine": true,
-          "status": "發布"
-        },
-        {
-          "code": "16",
-          "name": "波浪注意報",
-          "level": "advisory",
-          "marine": true,
-          "status": "發布"
         }
       ],
       "tide_station": "那霸",
@@ -414,7 +333,7 @@
       ],
       "verdict": "caution",
       "verdict_label": "注意報發布中",
-      "verdict_reason": "氣象廳今天預報　風：東北風，強／浪：2.5 公尺"
+      "verdict_reason": "氣象廳今天預報　風：東北風，稍強後轉北風／浪：2 公尺"
     }
   ]
 }

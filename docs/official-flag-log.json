@@ -298,5 +298,18 @@
 ],
 "jma_wind": "東の風 やや強く 後 北東の風 強く",
 "jma_wave": "2メートル 後 3メートル"
+},
+{
+"at": "2026-11-27 10:34",
+"spot": "cape-maeda",
+"official": "注意△",
+"our_verdict": "caution",
+"jma_warnings": [
+"雷注意報",
+"大雨注意報",
+"土石災害相關資訊"
+],
+"jma_wind": "北東の風 やや強く 後 北の風",
+"jma_wave": "2メートル"
 }
 ]
