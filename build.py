@@ -98,6 +98,7 @@ GOODS_ITEM_AXES = [
 ]
 
 REPORT = {"generated": "", "pages": 0, "skipped": [], "warnings": []}
+DRAFTS = []  # load_content 每次重新載入的有效草稿
 PLACES = {}  # build_site 開頭載入；文章頁的路線地點要用
 
 
@@ -293,6 +294,7 @@ def parse_front_matter(text):
 
 def load_content():
     """讀 content/<section>/*.md，回傳 {section: [post, ...]}。"""
+    DRAFTS.clear()
     posts = {key: [] for key in SECTIONS}
     if not CONTENT.exists():
         return posts
@@ -315,7 +317,10 @@ def load_content():
             if problems:
                 skip(str(path.relative_to(ROOT)), "；".join(problems))
                 continue
-            posts[section].append(meta)
+            if meta.get("status", "published") == "draft":
+                DRAFTS.append(meta)
+            else:
+                posts[section].append(meta)
         posts[section].sort(key=lambda item: str(item.get("updated", "")), reverse=True)
     return posts
 
@@ -391,6 +396,8 @@ def validate_goods_item(meta):
 def validate_post(meta):
     """全自動發佈的機器關卡：缺必要欄位就不上線，不讓半成品見客。"""
     problems = []
+    if meta.get("status", "published") not in ("draft", "published"):
+        problems.append("status 只能是 draft 或 published")
     if not meta.get("title"):
         problems.append("缺 title")
     if not meta.get("summary"):
@@ -440,7 +447,7 @@ def nav_html(prefix, active, mobile=False):
 
 
 def render_page(path, main, title, description, active="", page_data="", page_script="",
-                body_class="", og_type="website"):
+                body_class="", og_type="website", out_path=None, noindex=False):
     """path 是相對 docs/ 的資料夾路徑（'' 代表首頁）。"""
     depth = len([part for part in path.split("/") if part])
     prefix = "../" * depth
@@ -461,7 +468,10 @@ def render_page(path, main, title, description, active="", page_data="", page_sc
         "UPDATED": REPORT["generated"],
         "ANALYTICS": analytics_html(),
     })
-    target = DOCS / path / "index.html" if path else DOCS / "index.html"
+    if noindex:
+        page = page.replace("</head>", '<meta name="robots" content="noindex,nofollow">\n</head>', 1)
+    output = path if out_path is None else out_path
+    target = DOCS / output / "index.html" if output else DOCS / "index.html"
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(page, encoding="utf-8")
     REPORT["pages"] += 1
@@ -1273,7 +1283,13 @@ def ig_slot_html(post, prefix, link=""):
     ).format(heading, cards, more)
 
 
-def build_article(post, siblings):
+def draft_preview_path(post):
+    key = "okidayz-draft:" + post["section"] + "/" + post["slug"]
+    token = hashlib.sha256(key.encode("utf-8")).hexdigest()[:12]
+    return "preview/{}-{}".format(token, post["slug"])
+
+
+def build_article(post, siblings, out_path=None, noindex=False):
     meta = SECTIONS[post["section"]]
     prefix = "../../"
     tags = post.get("tags") or []
@@ -1324,6 +1340,7 @@ def build_article(post, siblings):
         str(post.get("summary", "")),
         active=post["section"],
         og_type="article",
+        out_path=out_path, noindex=noindex,
         page_script=('<script src="../../assets/ig-carousel.js"></script>' if ig_slot else "")
         + ('<script src="../../assets/place.js"></script>' if post.get("stops") else ""),
     )
@@ -1779,9 +1796,10 @@ def build_toolkit():
                 page_script='<script src="../assets/toolkit.js"></script>')
 
 
-def write_ig_queue(posts):
+def write_ig_queue(posts, drafts=None):
     queue = []
-    for section, items in posts.items():
+    groups = list(posts.items()) + [(post["section"], [post]) for post in (drafts or [])]
+    for section, items in groups:
         for post in items:
             ig = post.get("ig") or {}
             if not isinstance(ig, dict) or not ig.get("slides"):
@@ -1797,6 +1815,8 @@ def write_ig_queue(posts):
                 "hashtags": ig.get("hashtags") or [],
                 "images": [SITE_URL + "assets/ig/{}/{}".format(post["slug"], n) for n in ig_images(post["slug"])],
             })
+            if post.get("status", "published") == "draft":
+                queue[-1].update(draft=True, preview_url=SITE_URL + draft_preview_path(post) + "/")
     (DOCS / "ig-queue.json").write_text(
         json.dumps(queue, ensure_ascii=False, indent=2), encoding="utf-8")
     return queue
@@ -2304,7 +2324,7 @@ def write_sitemap(urls):
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{}</urlset>\n'.format(entries),
         encoding="utf-8")
     (DOCS / "robots.txt").write_text(
-        "User-agent: *\nAllow: /\nSitemap: {}sitemap.xml\n".format(SITE_URL), encoding="utf-8")
+        "User-agent: *\nAllow: /\nDisallow: /preview/\nSitemap: {}sitemap.xml\n".format(SITE_URL), encoding="utf-8")
     # GitHub Pages 自訂網域(2026-11-22 搬到 okidayz.com);SITE_URL 改回 github.io 時不寫
     host = SITE_URL.split("/")[2]
     if not host.endswith("github.io"):
@@ -2357,6 +2377,9 @@ def build_site(events=None, weather=None, updated=None):
     REPORT["pages"] = 0
     REPORT["skipped"] = []
     REPORT["warnings"] = []
+    REPORT["drafts"] = []
+    if (DOCS / "preview").exists():
+        shutil.rmtree(DOCS / "preview")
 
     events = events if events is not None else read_json("events.json", [])
     weather = weather if weather is not None else read_json("weather.json", [])
@@ -2426,14 +2449,22 @@ def build_site(events=None, weather=None, updated=None):
 
     urls += build_places(PLACES, posts.get("guide") or [])
 
-    queue = write_ig_queue(posts)
+    for post in DRAFTS:
+        preview_path = draft_preview_path(post)
+        build_article(post, posts[post["section"]], out_path=preview_path, noindex=True)
+        REPORT["drafts"].append({
+            "section": post["section"], "slug": post["slug"], "title": post["title"],
+            "preview_url": SITE_URL + preview_path + "/",
+        })
+
+    queue = write_ig_queue(posts, DRAFTS)
     build_ig_links(posts)  # IG 簡介連結頁,不進 sitemap
     write_sitemap(urls)
     (DOCS / "build-report.json").write_text(
         json.dumps(REPORT, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    print("📄 產生 {} 頁・文章 {} 篇・IG 待產 {} 則".format(
-        REPORT["pages"], sum(len(items) for items in posts.values()), len(queue)))
+    print("📄 產生 {} 頁・文章 {} 篇・IG 待產 {} 則・草稿 {} 篇".format(
+        REPORT["pages"], sum(len(items) for items in posts.values()), len(queue), len(DRAFTS)))
     if REPORT["skipped"]:
         print("⏭️  跳過 {} 筆（詳見 docs/build-report.json）".format(len(REPORT["skipped"])))
     return REPORT
