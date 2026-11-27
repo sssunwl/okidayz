@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27 10:34",
+  "updated": "2026-11-27 20:53",
   "source": "日本氣象廳（沖縄気象台）",
   "forecast_url": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=471000",
   "warning_url": "https://www.jma.go.jp/bosai/warning/#area_type=offices&area_code=471000",
@@ -22,14 +22,14 @@
       "forecast": [
         {
           "date": "2026-11-27",
-          "weather": "雨轉多雲",
+          "weather": "多雲",
           "wind": {
-            "ja": "北東の風 やや強く 後 北の風",
-            "zh": "東北風，稍強後轉北風"
+            "ja": "北西の風",
+            "zh": "西北風"
           },
           "wave": {
-            "ja": "2メートル",
-            "zh": "2 公尺"
+            "ja": "1.5メートル",
+            "zh": "1.5 公尺"
           },
           "label": "今天"
         },
@@ -37,25 +37,30 @@
           "date": "2026-11-28",
           "weather": "多雲短暫雨",
           "wind": {
-            "ja": "北の風 やや強く 後 強く",
-            "zh": "北風，稍強後轉強"
+            "ja": "北西の風 やや強く 後 北の風 強く",
+            "zh": "西北風，稍強後轉北風，強"
           },
           "wave": {
-            "ja": "2メートル 後 4メートル",
-            "zh": "2 公尺後轉 4 公尺"
+            "ja": "1.5メートル 後 4メートル",
+            "zh": "1.5 公尺後轉 4 公尺"
           },
           "label": "明天"
-        }
-      ],
-      "warnings": [
+        },
         {
-          "code": "14",
-          "name": "雷注意報",
-          "level": "advisory",
-          "marine": true,
-          "status": "持續"
+          "date": "2026-11-29",
+          "weather": "晴時多雲",
+          "wind": {
+            "ja": "北の風 強く 後 北東の風",
+            "zh": "北風，強後轉東北風"
+          },
+          "wave": {
+            "ja": "4メートル 後 2.5メートル",
+            "zh": "4 公尺後轉 2.5 公尺"
+          },
+          "label": "後天"
         }
       ],
+      "warnings": [],
       "tide_station": "那霸",
       "tide": [
         {
@@ -107,9 +112,9 @@
           ]
         }
       ],
-      "verdict": "caution",
-      "verdict_label": "注意報發布中",
-      "verdict_reason": "氣象廳今天預報　風：東北風，稍強後轉北風／浪：2 公尺"
+      "verdict": "info",
+      "verdict_label": "無海上相關警報",
+      "verdict_reason": "氣象廳今天預報　風：西北風／浪：1.5 公尺"
     },
     {
       "slug": "cape-maeda",
@@ -120,53 +125,52 @@
       "official_note": "真栄田岬官網有即時影像與旗幟（藍=可能／黃=注意，穿防護衣與救生衣／紅=禁止），以現場公告為準。",
       "official_url": "https://maedamisaki.jp/sea-status",
       "official_label": "真栄田岬official 即時海況 ↗",
-      "official_status": "注意△",
+      "official_status": "",
       "reference_url": "https://windy.app/forecast2/spot/8519891/Cape+Maeda+Blue+Cave",
       "jma_area": "471020",
       "jma_area_name": "本島北部",
       "forecast": [
         {
           "date": "2026-11-27",
-          "weather": "雨轉多雲",
+          "weather": "多雲",
           "wind": {
-            "ja": "北東の風 やや強く 後 北の風",
-            "zh": "東北風，稍強後轉北風"
+            "ja": "北西の風",
+            "zh": "西北風"
           },
           "wave": {
-            "ja": "2メートル",
-            "zh": "2 公尺"
+            "ja": "1.5メートル",
+            "zh": "1.5 公尺"
           },
           "label": "今天"
         },
         {
           "date": "2026-11-28",
-          "weather": "多雲短暫雨",
+          "weather": "多雲轉晴",
           "wind": {
-            "ja": "北の風 やや強く 後 強く",
-            "zh": "北風，稍強後轉強"
+            "ja": "北西の風 やや強く 後 北の風 強く",
+            "zh": "西北風，稍強後轉北風，強"
           },
           "wave": {
-            "ja": "2メートル 後 4メートル",
-            "zh": "2 公尺後轉 4 公尺"
+            "ja": "1.5メートル 後 4メートル",
+            "zh": "1.5 公尺後轉 4 公尺"
           },
           "label": "明天"
+        },
+        {
+          "date": "2026-11-29",
+          "weather": "晴時多雲",
+          "wind": {
+            "ja": "北の風 強く 後 北東の風",
+            "zh": "北風，強後轉東北風"
+          },
+          "wave": {
+            "ja": "4メートル 後 2.5メートル",
+            "zh": "4 公尺後轉 2.5 公尺"
+          },
+          "label": "後天"
         }
       ],
       "warnings": [
-        {
-          "code": "14",
-          "name": "雷注意報",
-          "level": "advisory",
-          "marine": true,
-          "status": "持續"
-        },
-        {
-          "code": "10",
-          "name": "大雨注意報",
-          "level": "advisory",
-          "marine": false,
-          "status": "持續"
-        },
         {
           "code": "29",
           "name": "土石災害相關資訊",
@@ -226,9 +230,9 @@
           ]
         }
       ],
-      "verdict": "caution",
-      "verdict_label": "注意報發布中",
-      "verdict_reason": "氣象廳今天預報　風：東北風，稍強後轉北風／浪：2 公尺"
+      "verdict": "info",
+      "verdict_label": "無海上相關警報",
+      "verdict_reason": "氣象廳今天預報　風：西北風／浪：1.5 公尺"
     },
     {
       "slug": "gorilla-chop",
@@ -246,46 +250,45 @@
       "forecast": [
         {
           "date": "2026-11-27",
-          "weather": "雨轉多雲",
+          "weather": "多雲",
           "wind": {
-            "ja": "北東の風 やや強く 後 北の風",
-            "zh": "東北風，稍強後轉北風"
+            "ja": "北西の風",
+            "zh": "西北風"
           },
           "wave": {
-            "ja": "2メートル",
-            "zh": "2 公尺"
+            "ja": "1.5メートル",
+            "zh": "1.5 公尺"
           },
           "label": "今天"
         },
         {
           "date": "2026-11-28",
-          "weather": "多雲短暫雨",
+          "weather": "多雲轉晴",
           "wind": {
-            "ja": "北の風 やや強く 後 強く",
-            "zh": "北風，稍強後轉強"
+            "ja": "北西の風 やや強く 後 北の風 強く",
+            "zh": "西北風，稍強後轉北風，強"
           },
           "wave": {
-            "ja": "2メートル 後 4メートル",
-            "zh": "2 公尺後轉 4 公尺"
+            "ja": "1.5メートル 後 4メートル",
+            "zh": "1.5 公尺後轉 4 公尺"
           },
           "label": "明天"
+        },
+        {
+          "date": "2026-11-29",
+          "weather": "晴時多雲",
+          "wind": {
+            "ja": "北の風 強く 後 北東の風",
+            "zh": "北風，強後轉東北風"
+          },
+          "wave": {
+            "ja": "4メートル 後 2.5メートル",
+            "zh": "4 公尺後轉 2.5 公尺"
+          },
+          "label": "後天"
         }
       ],
       "warnings": [
-        {
-          "code": "14",
-          "name": "雷注意報",
-          "level": "advisory",
-          "marine": true,
-          "status": "持續"
-        },
-        {
-          "code": "10",
-          "name": "大雨注意報",
-          "level": "advisory",
-          "marine": false,
-          "status": "持續"
-        },
         {
           "code": "29",
           "name": "土石災害相關資訊",
@@ -345,9 +348,9 @@
           ]
         }
       ],
-      "verdict": "caution",
-      "verdict_label": "注意報發布中",
-      "verdict_reason": "氣象廳今天預報　風：東北風，稍強後轉北風／浪：2 公尺"
+      "verdict": "info",
+      "verdict_label": "無海上相關警報",
+      "verdict_reason": "氣象廳今天預報　風：西北風／浪：1.5 公尺"
     }
   ]
 }
