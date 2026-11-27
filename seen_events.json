@@ -653,10 +653,12 @@
     "https://prtimes.jp/main/html/rd/p/000000246.000024500.html",
     "https://prtimes.jp/main/html/rd/p/000000247.000024500.html",
     "https://prtimes.jp/main/html/rd/p/000000264.000035671.html",
+    "https://prtimes.jp/main/html/rd/p/000000290.000090559.html",
     "https://prtimes.jp/main/html/rd/p/000000313.000044607.html",
     "https://prtimes.jp/main/html/rd/p/000000412.000033909.html",
     "https://prtimes.jp/main/html/rd/p/000000471.000049635.html",
     "https://prtimes.jp/main/html/rd/p/000000499.000030012.html",
+    "https://prtimes.jp/main/html/rd/p/000000693.000028006.html",
     "https://prtimes.jp/main/html/rd/p/000000730.000008255.html",
     "https://prtimes.jp/main/html/rd/p/000000799.000031747.html",
     "https://prtimes.jp/main/html/rd/p/000000823.000021621.html",
@@ -674,6 +676,7 @@
     "https://visitokinawajapan.com/zh-hant/discover/events/itoman-hare/",
     "https://visitokinawajapan.com/zh-hant/discover/events/karate-day/",
     "https://visitokinawajapan.com/zh-hant/discover/events/kariyushi-dream-fantasy/",
+    "https://visitokinawajapan.com/zh-hant/discover/events/nago-cherry-blossom-festival/",
     "https://visitokinawajapan.com/zh-hant/discover/events/nago-summer-festival/",
     "https://visitokinawajapan.com/zh-hant/discover/events/naha-marathon/",
     "https://visitokinawajapan.com/zh-hant/discover/events/naha-tug-of-war-festival/",
@@ -689,6 +692,7 @@
     "https://visitokinawajapan.com/zh-hant/discover/events/southeast-botanical-gardens-illumination/",
     "https://visitokinawajapan.com/zh-hant/discover/events/tomigusuku-festival/",
     "https://visitokinawajapan.com/zh-hant/discover/events/tsuboya-pottery-festival/",
+    "https://visitokinawajapan.com/zh-hant/discover/events/yaedake-cherry-blossom-festival/",
     "https://visitokinawajapan.com/zh-hant/discover/events/yonabaru-tug-of-war-festival/",
     "https://visitokinawajapan.com/zh-hant/discover/events/zamami-island-fan-appreciation-month/",
     "https://www.city.naha.okinawa.jp/business/kigyouricchi/1003642/1013278.html",
@@ -738,6 +742,7 @@
     "https://www.jalan.net/event/evt_364122/",
     "https://www.jalan.net/event/evt_364123/",
     "https://www.jalan.net/event/evt_364124/",
+    "https://www.jalan.net/event/evt_366152/",
     "https://www.jalan.net/event/evt_366154/",
     "https://www.jalan.net/event/evt_366156/",
     "https://www.jalan.net/event/evt_366158/",
@@ -1423,5 +1428,5 @@
     "prtimes",
     "visitokinawa"
   ],
-  "updated": "2026-11-26T04:47:21.732416"
+  "updated": "2026-11-27T04:56:18.902949"
 }
