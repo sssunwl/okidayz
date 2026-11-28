@@ -45,7 +45,7 @@ NAV = [
 NAV_SUB = {
     "news": [("news/", "旅客快訊"), ("new/", "沖繩新鮮事")],
     "guide": [("guide/spots/", "景點與海灘"), ("guide/food/", "美食"), ("guide/cafe/", "喫茶"),
-              ("guide/#postGrid", "路線與文章"), ("guide/bigdayz/", "BigDayz")],
+              ("guide/fireworks/", "花火"), ("guide/#postGrid", "路線與文章"), ("guide/bigdayz/", "BigDayz")],
 }
 
 # 內容區塊定義：篩選軸決定該區 index 頁出現哪幾排 chip
@@ -2276,6 +2276,7 @@ def guide_entry_html(places):
         ("spots/", "景點與海灘", "{} 個地點，每頁都有當天天氣、海況和附近活動。".format(counts["spots"])),
         ("food/", "美食", "{} 間店，照吃什麼、適合什麼時候、哪一區挑。".format(counts["food"])),
         ("cafe/", "喫茶", "{} 間咖啡、茶室和甜點店，走累了坐下來。".format(counts["cafe"])),
+        ("fireworks/", "花火", "一年幾場大花火的大概時段，加上北谷週六晚上 8 點的小花火。"),
         ("#postGrid", "一日遊路線", "照著走就能玩完一天，每一站都連到地點頁。"),
         ("bigdayz/", "BigDayz", "{} 座海邊教堂、{} 個宴會場地，不結婚也能當景點看。".format(counts["chapels"], counts["venues"])),
     ]
