@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T13:05:04+09:00",
+  "generated_at": "2026-11-28T13:37:47+09:00",
   "items": [
     {
       "id": "event-1a0c4b72",
@@ -372,7 +372,7 @@
     {
       "id": "event-e18f9f77",
       "kind": "event",
-      "title": "第回新春てだこ駅伝競走大会",
+      "title": "第一屆新年手田子接力賽",
       "summary": "第一届新年手田子接力赛指南\n名称：第一届新年手田子接力赛\n目的：增进参与者之间的互动和友谊，在初中生和高中生中普及长跑运动。\n目的还在于发现一般运动员并提高他们的竞技能力。\n浦添市田径协会赞助\n浦添市体育协会共同主办\n日期和时间令和年、月…",
       "source": "okimeguri",
       "url": "https://urasoe.spoyell.okinawa/Portal_Weblog/hamapinid/000003/files/2026%E5%B9%B4%E5%BA%A6/%E7%AC%AC30%E5%9B%9E%E3%81%A6%E3%81%A0%E3%81%93%E9%A7%85%E4%BC%9D%E5%A4%A7%E4%BC%9A%E8%A6%81%E9%A0%85.pdf",
@@ -452,7 +452,7 @@
     {
       "id": "event-2dcc7924",
       "kind": "event",
-      "title": "今帰仁村体育協会からの情報提供 新春ロードレース大会の申込受付がスタートしています",
+      "title": "資料提供：今歸仁村體育協會 新年公路賽報名開始",
       "summary": "日期和時間：令和月日比賽於 9:00 開始\n地點 今歸仁村體育公園\n申請：今歸仁村體育館 56-5955，傳真 56-2831\n申請時間：2026年11月10日星期二至2026年12月11日星期五下午5:00\n如欲了解更多詳情，請參閱隨附…",
       "source": "okimeguri",
       "url": "https://www.facebook.com/npo.nsc/posts/pfbid02EbPPiqGkDQUsowtdoG5quNKkmF7oWFimQh6YHCxbGDs5SMKB8W2kKfbwa8MjbYZHl",
@@ -2050,6 +2050,22 @@
       "first_seen": "2026-11-18"
     },
     {
+      "id": "event-f786231f",
+      "kind": "event",
+      "title": "沖繩裡桑萬豪度假酒店及水療中心",
+      "summary": "亞洲最大的萬豪酒店在沖繩海濱開業「沖繩裡桑萬豪度假酒店及水療中心」將於 2026 年 12 月 1 日開業",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000400.000031330.html",
+      "date": "2026-12-01",
+      "date_end": "2026-12-31",
+      "area": "全島",
+      "category": "新開張",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-28"
+    },
+    {
       "id": "event-638c03ab",
       "kind": "event",
       "title": "喜璃愈志聖誕老人從海上現身！ 《海島聖誕節》",
@@ -2352,6 +2368,21 @@
       "local_life": true,
       "vibe": false,
       "first_seen": "2026-11-19"
+    },
+    {
+      "id": "weather-6c46fb2f",
+      "kind": "weather",
+      "title": "沖繩一週天氣",
+      "summary": "週六多雲時晴、週日晴時多雲、週一晴時多雲、週二晴時多雲、週三多雲時晴、週四多雲、週五多雲時晴；氣溫約 17～27°C。",
+      "source": "日本氣象廳",
+      "url": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=471000",
+      "date": "2026-11-28",
+      "date_end": null,
+      "area": "全島",
+      "category": "天氣",
+      "tourist_impact": "high",
+      "local_life": false,
+      "vibe": false
     },
     {
       "id": "news-0ed1f3ba",
@@ -2771,6 +2802,38 @@
       "first_seen": null
     },
     {
+      "id": "event-aba58bb7",
+      "kind": "event",
+      "title": "沖繩外面的被爐嗎？",
+      "summary": "「沖繩外面的被爐嗎？」絲滿的海葡萄農場“Kaindo”，可欣賞海上日落的“日落被爐”僅在冬季開放！",
+      "source": "prtimes",
+      "url": "https://prtimes.jp/main/html/rd/p/000000019.000138819.html",
+      "date": "2026-11-28",
+      "date_end": "2026-12-28",
+      "area": "南部",
+      "category": "新開張",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": false,
+      "first_seen": "2026-11-26"
+    },
+    {
+      "id": "event-2c74d80a",
+      "kind": "event",
+      "title": "星期六、11月29日星期日",
+      "summary": "沖繩高中舞台節2026是為縣內高中生舉辦各種演出的場地。\n屆時將有輕音樂、舞蹈、歌唱、KPOP舞蹈以及各高中團體的表演等豐富多彩的節目。本次活動的目的是為縣內參加各種活動的高中生提供展示的機會，並鼓勵與其他學校的學生互動，幫助他們成長。…",
+      "source": "okimeguri",
+      "url": "https://gakuaru.jp/gakuarufesta_special/",
+      "date": "2026-11-28",
+      "date_end": "2026-11-29",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": false,
+      "vibe": true,
+      "first_seen": "2026-11-26"
+    },
+    {
       "id": "event-76950b1d",
       "kind": "event",
       "title": "日本與世界的掛橋祭",
@@ -2867,22 +2930,6 @@
       "first_seen": "2026-11-25"
     },
     {
-      "id": "event-2c74d80a",
-      "kind": "event",
-      "title": "2026年11月28日土・29日日 沖縄高校生舞台祭2026Suppoted by 沖縄ホンダ 後援沖縄県・沖縄県教育委員会・沖縄市 コザミュージックタウンF音楽広場で開催",
-      "summary": "沖繩高中舞台節2026是為縣內高中生舉辦各種演出的場地。\n屆時將有輕音樂、舞蹈、歌唱、KPOP舞蹈以及各高中團體的表演等豐富多彩的節目。本次活動的目的是為縣內參加各種活動的高中生提供展示的機會，並鼓勵與其他學校的學生互動，幫助他們成長。…",
-      "source": "okimeguri",
-      "url": "https://gakuaru.jp/gakuarufesta_special/",
-      "date": "2026-11-28",
-      "date_end": "2026-11-29",
-      "area": "中部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": true,
-      "first_seen": "2026-11-26"
-    },
-    {
       "id": "event-dcf18724",
       "kind": "event",
       "title": "2026 年汽車總理矢真國造節",
@@ -2955,21 +3002,6 @@
       "area": "離島",
       "category": "天氣警報",
       "tourist_impact": "none",
-      "local_life": false,
-      "vibe": false
-    },
-    {
-      "id": "weather-cbb82030",
-      "kind": "weather",
-      "title": "沖繩一週天氣",
-      "summary": "週五有雨、週六有雨、週日晴時多雲、週一晴時多雲、週二晴時多雲、週三多雲時晴、週四多雲時晴；氣溫約 16～27°C。",
-      "source": "日本氣象廳",
-      "url": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=471000",
-      "date": "2026-11-27",
-      "date_end": null,
-      "area": "全島",
-      "category": "天氣",
-      "tourist_impact": "high",
       "local_life": false,
       "vibe": false
     },
@@ -3231,6 +3263,22 @@
       "first_seen": "2026-11-12"
     },
     {
+      "id": "event-0ff384f8",
+      "kind": "event",
+      "title": "第二屆馬爾凱秋季夏令營",
+      "summary": "應大眾需求，我們將舉辦第二屆馬爾凱秋季夏令營。\n\n會場內排列著廚房卡車和小吃攤，無論是下班後小酌一杯還是與家人共進晚餐，都可以輕鬆享受美味佳餚、甜點、飲料等，成為晚間遊行。\n\n此外，這次也將同時舉辦「My Banya」活動，為災區提供飲食…",
+      "source": "okimeguri",
+      "url": "https://www.yomitan-kankou.jp/event/1794816715/",
+      "date": "2026-11-27",
+      "date_end": "2026-11-28",
+      "area": "中部",
+      "category": "活動",
+      "tourist_impact": "low",
+      "local_life": true,
+      "vibe": false,
+      "first_seen": "2026-11-28"
+    },
+    {
       "id": "event-385ce771",
       "kind": "event",
       "title": "第50屆琉球紅形聯盟展",
@@ -3245,38 +3293,6 @@
       "local_life": false,
       "vibe": false,
       "first_seen": "2026-11-12"
-    },
-    {
-      "id": "event-462f880f",
-      "kind": "event",
-      "title": "第2彈「夜行進～秋津～」",
-      "summary": "Due to popular demand, we will be holding the 2nd Night Marche Autumn Camp.\n\n會場內排列著廚房卡車和小吃攤，無論是下班後小酌一杯還是與家人共進晚餐，都可以輕鬆享受…",
-      "source": "okinawastory",
-      "url": "https://www.yomitan-kankou.jp/event/1794816715/",
-      "date": "2026-11-27",
-      "date_end": "2026-11-28",
-      "area": "中部",
-      "category": "活動",
-      "tourist_impact": "low",
-      "local_life": true,
-      "vibe": false,
-      "first_seen": "2026-11-25"
-    },
-    {
-      "id": "event-2a9ba8bf",
-      "kind": "event",
-      "title": "沖繩外面的被爐嗎？",
-      "summary": "「沖繩外面的被爐嗎？」絲滿的海葡萄農場“Kaindo”，可欣賞海上日落的“日落被爐”僅在冬季開放！",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000019.000138819.html",
-      "date": "2026-11-27",
-      "date_end": "2026-12-27",
-      "area": "南部",
-      "category": "新開張",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-26"
     },
     {
       "id": "event-4031ceb5",
@@ -3309,22 +3325,6 @@
       "local_life": false,
       "vibe": false,
       "first_seen": "2026-11-18"
-    },
-    {
-      "id": "event-cf5aed30",
-      "kind": "event",
-      "title": "WITH SEA Ishigaki Island",
-      "summary": "別墅訂閱服務“WITH SEA”在沖繩縣石垣島開設“WITH SEA Ishigaki Island”",
-      "source": "prtimes",
-      "url": "https://prtimes.jp/main/html/rd/p/000000144.000063930.html",
-      "date": "2026-11-27",
-      "date_end": "2026-12-27",
-      "area": "離島",
-      "category": "新開張",
-      "tourist_impact": "low",
-      "local_life": false,
-      "vibe": false,
-      "first_seen": "2026-11-26"
     },
     {
       "id": "event-44bf2d8d",
@@ -4101,8 +4101,8 @@
       "id": "event-4c17aaec",
       "kind": "event",
       "title": "等值",
-      "summary": "红形、金属制品和陶瓷艺术家的展览\n\n我们随心所欲地表达自己喜欢的东西，这样每个人都可以做自己。\n\n請看一下。\n\n會議日期\n\n開放\n\n僅限 11/21 和 12/12\n\n我们将在 ichini 工艺品画廊接受天然石材配件的订单。\n\n染色、金…",
-      "source": "okinawastory",
+      "summary": "紅形、金屬製品和陶瓷藝術家的展覽\n\n我們表達自己喜歡的東西，讓每個人都能做自己。\n\n請看一下。\n\n會議日期\n\n開放\n\n僅限 11/21 和 12/12\n\n我們將在 ichini 工藝品畫廊接受天然石材配件的訂單。\n\n染色、金工、陶藝等工作…",
+      "source": "okimeguri",
       "url": "https://gallery-uni.com/2026/10/13/et-ipsum-2026/",
       "date": "2026-11-21",
       "date_end": "2026-12-13",
@@ -4111,14 +4111,14 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": "2026-11-12"
+      "first_seen": "2026-11-28"
     },
     {
-      "id": "event-88db9699",
+      "id": "event-1bf96ee7",
       "kind": "event",
-      "title": "on.nact onna x act x on",
+      "title": "26.11.21.Sat-29.Sunon.nact onna x act x on 打開某人的開關 8 位女性的藝術展",
       "summary": "活動時間：2026年11月21日星期六 2026年11月29日星期日\n\n活躍在沖繩的八位女性藝術家的展覽《On.nact》將於那霸酒店二樓的 GALLERY 9.5 NAHA 舉辦。女人的表情會引發行動並點燃某人的心。\n創作作品，表達作品…",
-      "source": "okinawastory",
+      "source": "okimeguri",
       "url": "https://www.uds-hotels.com/anteroom/naha/exhibition/event/%e3%80%9026-11-21-sat-29-sun%e3%80%91on-nact-onna-x-act-x-on-%e3%80%9c%e8%aa%b0%e3%81%8b%e3%81%ae%e3%82%b9%e3%82%a4%e3%83%83%e3%83%81%e3%82%92on%e3%81%ab%e3%81%99%e3%82%8b-%e5%a5%b3%e6%80%a78%e4%ba%ba/",
       "date": "2026-11-21",
       "date_end": "2026-11-29",
@@ -4127,7 +4127,7 @@
       "tourist_impact": "low",
       "local_life": false,
       "vibe": false,
-      "first_seen": "2026-11-18"
+      "first_seen": "2026-11-28"
     },
     {
       "id": "event-e85257b6",

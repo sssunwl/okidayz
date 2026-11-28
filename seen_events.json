@@ -655,6 +655,7 @@
     "https://prtimes.jp/main/html/rd/p/000000264.000035671.html",
     "https://prtimes.jp/main/html/rd/p/000000290.000090559.html",
     "https://prtimes.jp/main/html/rd/p/000000313.000044607.html",
+    "https://prtimes.jp/main/html/rd/p/000000400.000031330.html",
     "https://prtimes.jp/main/html/rd/p/000000412.000033909.html",
     "https://prtimes.jp/main/html/rd/p/000000471.000049635.html",
     "https://prtimes.jp/main/html/rd/p/000000499.000030012.html",
@@ -733,6 +734,7 @@
     "https://www.jalan.net/event/evt_364095/",
     "https://www.jalan.net/event/evt_364097/",
     "https://www.jalan.net/event/evt_364098/",
+    "https://www.jalan.net/event/evt_364100/",
     "https://www.jalan.net/event/evt_364102/",
     "https://www.jalan.net/event/evt_364105/",
     "https://www.jalan.net/event/evt_364109/",
@@ -1428,5 +1430,5 @@
     "prtimes",
     "visitokinawa"
   ],
-  "updated": "2026-11-27T04:56:18.902949"
+  "updated": "2026-11-28T04:37:47.434232"
 }
